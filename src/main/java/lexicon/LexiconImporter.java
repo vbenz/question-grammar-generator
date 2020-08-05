@@ -7,10 +7,13 @@ import lombok.Data;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URISyntaxException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -20,18 +23,16 @@ import java.util.stream.Stream;
 
 @Data
 public class LexiconImporter {
-  private Logger log = LogManager.getLogger(LexiconImporter.class);
+  private static final String PATH_TO_BASE_FILE = "/base/base.ttl";
+  private static Logger LOG = LogManager.getLogger(LexiconImporter.class);
 
-  public LexiconImporter() {
-  }
+  public LexiconImporter() {}
 
-  public LemonModel loadModelFromDir(String dir) throws URISyntaxException, IOException {
+  public LemonModel loadModelFromDir(String dir, String internalResourceDir) throws IOException {
     final LemonSerializer serializer = LemonSerializer.newInstance();
     LemonModel model = null;
-    try (Stream<Path> paths = Files.walk(Paths.get(ClassLoader.getSystemResource(dir).toURI()))) {
-      List<Path> list = paths
-          .filter(Files::isRegularFile)
-          .collect(Collectors.toList());
+    try (Stream<Path> paths = Files.walk(Paths.get(dir))) {
+      List<Path> list = filterFiles(paths);
       for (Path file : list) {
         try {
           if (model == null) {
@@ -41,12 +42,32 @@ public class LexiconImporter {
             mergeModels(model, lm);
           }
         } catch (FileNotFoundException e) {
-          log.error("FileNotFoundException: Could not read file {}", file);
+          LOG.error("FileNotFoundException: Could not read file {}", file);
         }
       }
       assert model != null;
+
+      LemonModel baseModel = loadBaseFileFromResources(internalResourceDir, serializer);
+      mergeModels(model, baseModel);
       return model;
     }
+  }
+
+  private LemonModel loadBaseFileFromResources(
+    String internalResourceDir,
+    LemonSerializer serializer
+  ) {
+    InputStream inputStream = ClassLoader.getSystemResourceAsStream(internalResourceDir + PATH_TO_BASE_FILE);
+    assert inputStream != null;
+    InputStreamReader inputStreamReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
+    return serializer.read(new BufferedReader(inputStreamReader));
+  }
+
+  protected List<Path> filterFiles(Stream<Path> paths) {
+    return paths
+      .filter(Files::isRegularFile)
+      .filter(f -> f.getFileName().toString().endsWith("ttl"))
+      .collect(Collectors.toList());
   }
 
   private void mergeModels(LemonModel model, LemonModel lm) {

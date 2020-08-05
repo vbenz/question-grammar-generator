@@ -1,14 +1,12 @@
 package grammar.generator;
 
-import eu.monnetproject.lemon.model.LexicalEntry;
-import eu.monnetproject.lemon.model.LexicalSense;
 import eu.monnetproject.lemon.model.Lexicon;
 import grammar.sparql.SPARQLRequest;
-import grammar.sparql.querycomponent.SelectVariable;
-import grammar.structure.component.Binding;
 import grammar.structure.component.GrammarEntry;
 import grammar.structure.component.GrammarWrapper;
-import util.exceptions.QGGMissingFieldDeclarationException;
+import lexicon.LexicalEntryUtil;
+import util.exceptions.QueGGMissingFactoryClassException;
+import util.exceptions.QueGGMissingFieldDeclarationException;
 
 import java.io.IOException;
 import java.util.List;
@@ -24,11 +22,12 @@ public interface GrammarRuleGenerator {
    * }
    * }
    *
-   * @param lexicalEntry the current lexical entry
-   * @param lexicalSense the lexical sense of the current lexical entry
+   * @param lexicalEntryUtil a utility class for a specific combination of LexicalEntry, LexicalSense and FrameType
    * @return a SPARQLRequest that contains a full SPARQL query string.
    */
-  SPARQLRequest generateSPARQL(SelectVariable selectVariable, LexicalEntry lexicalEntry, LexicalSense lexicalSense) throws QGGMissingFieldDeclarationException;
+  SPARQLRequest generateSPARQL(
+    LexicalEntryUtil lexicalEntryUtil
+  ) throws QueGGMissingFieldDeclarationException;
 
   /**
    * Generates the sentence that will later be saved as part of the grammar rule. <br>
@@ -36,9 +35,14 @@ public interface GrammarRuleGenerator {
    *
    * @return a list of possible sentences.
    */
-  List<String> generateSentences(SelectVariable selectVariable, LexicalEntry lexicalEntry, LexicalSense lexicalSense) throws QGGMissingFieldDeclarationException;
+  List<String> generateSentences(
+    LexicalEntryUtil lexicalEntryUtil
+  ) throws QueGGMissingFactoryClassException;
 
-  GrammarEntry generateFragmentEntry(GrammarEntry grammarEntry, LexicalEntry lexicalEntry, LexicalSense lexicalSense);
+  GrammarEntry generateFragmentEntry(
+    GrammarEntry grammarEntry,
+    LexicalEntryUtil lexicalEntryUtil
+  ) throws QueGGMissingFactoryClassException;
 
   /**
    * Generates the list of bindings that will later be saved as part of the grammar rule.<br>
@@ -56,8 +60,10 @@ public interface GrammarRuleGenerator {
    * }<br>
    * The first token (i.e. "Switzerland") is the label and the second one is the URI of the property.<br>
    * To actually fill the list, a SPARQL query needs to be generated and executed.<br>
+   *
+   * @param grammarEntry the generated GrammarEntry as it is returned by {@link #generate(Lexicon)}
    */
-  List<Binding> generateBindings(SPARQLRequest sparqlRequest) throws QGGMissingFieldDeclarationException;
+  void generateBindings(GrammarEntry grammarEntry) throws QueGGMissingFieldDeclarationException;
 
   /**
    * Writes the bindingVariable into the grammar rule.<br>
@@ -82,5 +88,5 @@ public interface GrammarRuleGenerator {
    *
    * @return a complete grammar rule object list
    */
-  List<GrammarEntry> generate(Lexicon lexicon) throws QGGMissingFieldDeclarationException;
+  List<GrammarEntry> generate(Lexicon lexicon);
 }
