@@ -1,86 +1,137 @@
 import eu.monnetproject.lemon.LemonModel;
-import grammar.generator.AdjectiveAttributiveGrammarRuleGenerator;
+import grammar.generator.BindingResolver;
 import grammar.generator.GrammarRuleGeneratorRoot;
-import grammar.generator.NPPGrammarRuleGenerator;
-import grammar.generator.TransitiveVPGrammarRuleGenerator;
+import grammar.generator.GrammarRuleGeneratorRootImpl;
+import grammar.structure.component.DomainOrRangeType;
+import grammar.structure.component.FrameType;
+import grammar.structure.component.GrammarEntry;
 import grammar.structure.component.GrammarWrapper;
 import grammar.structure.component.Language;
 import lexicon.LexiconImporter;
-import lexicon.LexiconPrinter;
+import lombok.NoArgsConstructor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.lang.reflect.InvocationTargetException;
 import java.net.URISyntaxException;
+import java.nio.file.Path;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
+import static java.util.Objects.isNull;
+
+@NoArgsConstructor
 public class QueGG {
-  private static Logger LOG = LogManager.getLogger(QueGG.class);
+  private static final Logger LOG = LogManager.getLogger(QueGG.class);
 
-  QueGG() throws IOException {
-    init();
-  }
-
-  public static void main(String[] args) throws IOException {
-    new QueGG();
-  }
-
-  private void init() throws IOException {
+  public static void main(String[] args) {
     try {
-//      getAdjectiveAttributiveGrammar(Language.EN);
-//      getTransitiveGrammar(Language.EN);
-      getNppGrammar(Language.EN);
-//    combineGrammars(Language.EN);
-    } catch (URISyntaxException e) {
-      LOG.error("Could not create grammar");
+      if (args.length < 3) {
+        throw new IllegalArgumentException(String.format("Too few parameters (%s/%s)", args.length, 3));
+      }
+      QueGG queGG = new QueGG();
+      Language language = Language.stringToLanguage(args[0]);
+      LOG.info("Starting {} with language parameter '{}'", QueGG.class.getName(), language);
+      LOG.info("Input directory: {}", Path.of(args[1]).toString());
+      LOG.info("Output directory: {}", Path.of(args[2]).toString());
+      queGG.init(Language.stringToLanguage(args[0]), Path.of(args[1]).toString(), Path.of(args[2]).toString());
+      LOG.warn("To get optimal combinations of sentences please add the following types to {}\n{}",
+               DomainOrRangeType.class.getName(), DomainOrRangeType.MISSING_TYPES.toString()
+      );
+    } catch (IllegalArgumentException | IOException e) {
+      System.err.printf("%s: %s%n", e.getClass().getSimpleName(), e.getMessage());
+      System.err.printf("Usage: <%s> <input directory> <output directory>%n", Arrays.toString(Language.values()));
     }
   }
 
-  private GrammarWrapper generateGrammarGeneric(GrammarRuleGeneratorRoot grammarRuleGenerator, Language language) throws IOException, URISyntaxException {
+  private void init(Language language, String inputDir, String outputDir) throws IOException {
+    try {
+      loadInputAndGenerate(language, inputDir, outputDir);
+    } catch (URISyntaxException | InvocationTargetException | NoSuchMethodException | InstantiationException | IllegalAccessException e) {
+      LOG.error("Could not create grammar: {}", e.getMessage());
+    }
+  }
+
+  private void loadInputAndGenerate(Language lang, String inputDir, String outputDir) throws
+                                                                                      IOException,
+                                                                                      InvocationTargetException,
+                                                                                      NoSuchMethodException,
+                                                                                      InstantiationException,
+                                                                                      IllegalAccessException,
+                                                                                      URISyntaxException {
     LexiconImporter lexiconImporter = new LexiconImporter();
+    LemonModel lemonModel = lexiconImporter.loadModelFromDir(inputDir, lang.toString().toLowerCase());
+    generateByFrameType(lang, lemonModel, outputDir);
+  }
+
+  private void generateByFrameType(Language language, LemonModel lemonModel, String outputDir) throws
+                                                                                               IOException,
+                                                                                               NoSuchMethodException,
+                                                                                               IllegalAccessException,
+                                                                                               InvocationTargetException,
+                                                                                               InstantiationException {
     GrammarWrapper grammarWrapper = new GrammarWrapper();
-    LemonModel model = lexiconImporter.loadModelFromDir(language.toString().toLowerCase());
-    model.getLexica().forEach(lexicon -> {
+    for (FrameType frameType : FrameType.values()) {
+      if (!isNull(frameType.getImplementingClass())) {
+        GrammarWrapper gw = generateGrammarGeneric(
+          lemonModel,
+          (GrammarRuleGeneratorRoot) frameType.getImplementingClass()
+                                              .getDeclaredConstructor(Language.class)
+                                              .newInstance(language)
+        );
+        grammarWrapper.merge(gw);
+      }
+    }
+    // Make a GrammarRuleGeneratorRoot instance to use the combination function
+    GrammarRuleGeneratorRoot generatorRoot = new GrammarRuleGeneratorRootImpl(language);
+    LOG.info("Start generation of combined entries");
+    grammarWrapper.getGrammarEntries().addAll(generatorRoot.generateCombinations(grammarWrapper.getGrammarEntries()));
+
+    for (GrammarEntry grammarEntry : grammarWrapper.getGrammarEntries()) {
+      grammarEntry.setId(String.valueOf(grammarWrapper.getGrammarEntries().indexOf(grammarEntry) + 1));
+    }
+
+    // Output file is too big, make two files
+    GrammarWrapper regularEntries = new GrammarWrapper();
+    regularEntries.setGrammarEntries(
+      grammarWrapper.getGrammarEntries()
+                    .stream()
+                    .filter(grammarEntry -> !grammarEntry.isCombination())
+                    .collect(Collectors.toList())
+    );
+    GrammarWrapper combinedEntries = new GrammarWrapper();
+    combinedEntries.setGrammarEntries(
+      grammarWrapper.getGrammarEntries().stream().filter(GrammarEntry::isCombination).collect(Collectors.toList())
+    );
+
+    // Generate bindings
+    LOG.info("Start generation of bindings");
+    grammarWrapper.getGrammarEntries().forEach(generatorRoot::generateBindings);
+
+    generatorRoot.dumpToJSON(
+      Path.of(outputDir,
+        "grammar_" + generatorRoot.getFrameType().getName() + "_" + language + ".json").toString(),
+      regularEntries
+    );
+    generatorRoot.dumpToJSON(Path.of(outputDir, "grammar_COMBINATIONS" + "_" + language + ".json").toString(), combinedEntries);
+
+    // Insert those bindings and write new files
+    LOG.info("Start resolving bindings");
+    BindingResolver bindingResolver = new BindingResolver(grammarWrapper.getGrammarEntries());
+    grammarWrapper = bindingResolver.resolve();
+    generatorRoot.dumpToJSON(Path.of(outputDir, "grammar_FULL_WITH_BINDINGS_" + language + ".json").toString(), grammarWrapper);
+
+  }
+
+  private GrammarWrapper generateGrammarGeneric(LemonModel lemonModel, GrammarRuleGeneratorRoot grammarRuleGenerator) {
+    GrammarWrapper grammarWrapper = new GrammarWrapper();
+    lemonModel.getLexica().forEach(lexicon -> {
+      LOG.info("Start generation for FrameType {}", grammarRuleGenerator.getFrameType().getName());
       grammarRuleGenerator.setLexicon(lexicon);
       grammarWrapper.setGrammarEntries(grammarRuleGenerator.generate(lexicon));
     });
-    grammarRuleGenerator.dumpToJSON("grammar_" + grammarRuleGenerator.getFrameType().getName() + "_" + language + ".json", grammarWrapper);
-
-      PrintWriter pw = new PrintWriter(System.out);
-      LexiconPrinter.printLexicaFromModel(model, pw);
-      pw.flush();
-      pw.close();
     return grammarWrapper;
   }
 
-  private GrammarWrapper getTransitiveGrammar(Language language) throws IOException, URISyntaxException {
-    TransitiveVPGrammarRuleGenerator grammarRuleGenerator = new TransitiveVPGrammarRuleGenerator(language);
-    return generateGrammarGeneric(grammarRuleGenerator, language);
-  }
-
-  private GrammarWrapper getNppGrammar(Language language) throws IOException, URISyntaxException {
-    NPPGrammarRuleGenerator grammarRuleGenerator = new NPPGrammarRuleGenerator(language);
-    return generateGrammarGeneric(grammarRuleGenerator, language);
-  }
-
-  private GrammarWrapper getAdjectiveAttributiveGrammar(Language language) throws IOException, URISyntaxException {
-    AdjectiveAttributiveGrammarRuleGenerator grammarRuleGenerator = new AdjectiveAttributiveGrammarRuleGenerator(language);
-    return generateGrammarGeneric(grammarRuleGenerator, language);
-  }
-
-  GrammarWrapper combineGrammars(Language lang) throws IOException, URISyntaxException {
-    GrammarWrapper tv = getTransitiveGrammar(lang);
-    GrammarWrapper aa = getAdjectiveAttributiveGrammar(lang);
-    GrammarWrapper npp = getNppGrammar(lang);
-
-    tv.merge(aa);
-    tv.merge(npp);
-
-    for (int i = 0; i < tv.getGrammarEntries().size(); i++) {
-      tv.getGrammarEntries().get(i).setId(String.valueOf(i + 1));
-//      System.out.println(tv.getGrammarEntries().get(i).toString());
-    }
-
-    return tv;
-  }
 }

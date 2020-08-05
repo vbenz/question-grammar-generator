@@ -1,13 +1,29 @@
 package grammar.generator.helper.sentencetemplates;
 
 import eu.monnetproject.lemon.model.PropertyValue;
-import lombok.Data;
-import lombok.experimental.Accessors;
+import grammar.structure.component.Language;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.ToString;
+import net.lexinfo.LexInfo;
 
-@Data
-@Accessors(chain = true)
-public class AnnotatedWord {
+import javax.validation.constraints.NotEmpty;
+
+@Getter
+@ToString
+@EqualsAndHashCode
+public abstract class AnnotatedWord {
+  protected final LexInfo lexInfo;
+  private final Language language;
   private PropertyValue POSTag;
-  private boolean isCanonicalForm;
-  private String writtenRepValue;
+  private final String writtenRepValue;
+
+  AnnotatedWord(@NotEmpty String POSTag, @NotEmpty String writtenRepValue, Language language) {
+    this.lexInfo = new LexInfo();
+    this.POSTag = lexInfo.getPropertyValue(POSTag);
+    this.writtenRepValue = writtenRepValue;
+    this.language = language;
+  }
+
+  protected void setPOSTag(PropertyValue POSTag) {this.POSTag = POSTag; }
 }

@@ -1,0 +1,3449 @@
+{
+	"grammarEntries": [
+		{
+			"id": "1",
+			"language": "EN",
+			"type": "SENTENCE",
+			"bindingType": "PERSON",
+			"returnType": "COUNTRY",
+			"frameType": "NPP",
+			"sentences": [
+				"What is the nationality of ($x | PERSON_NP)?",
+				"What was the nationality of ($x | PERSON_NP)?",
+				"Which country is the nationality of ($x | PERSON_NP)?",
+				"Which country was the nationality of ($x | PERSON_NP)?"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> ?objOfProp))\n",
+			"sentenceToSparqlParameterMapping": {
+				"$x": "subjOfProp"
+			},
+			"returnVariable": "objOfProp",
+			"sentenceBindings": {
+				"bindingVariableName": "$x",
+				"bindingList": [
+					{
+						"label": "Aaron Burr",
+						"uri": "http://dbpedia.org/resource/Aaron_Burr"
+					},
+					{
+						"label": "Abbie Hoffman",
+						"uri": "http://dbpedia.org/resource/Abbie_Hoffman"
+					},
+					{
+						"label": "Abraham de Moivre",
+						"uri": "http://dbpedia.org/resource/Abraham_de_Moivre"
+					},
+					{
+						"label": "Adam Wiśniewski-Snerg",
+						"uri": "http://dbpedia.org/resource/Adam_Wiśniewski-Snerg"
+					},
+					{
+						"label": "Adrien-Marie Legendre",
+						"uri": "http://dbpedia.org/resource/Adrien-Marie_Legendre"
+					},
+					{
+						"label": "Albert Brudzewski",
+						"uri": "http://dbpedia.org/resource/Albert_Brudzewski"
+					},
+					{
+						"label": "Alessandro Manzoni",
+						"uri": "http://dbpedia.org/resource/Alessandro_Manzoni"
+					},
+					{
+						"label": "Alfred Bester",
+						"uri": "http://dbpedia.org/resource/Alfred_Bester"
+					},
+					{
+						"label": "Alfred Rosenberg",
+						"uri": "http://dbpedia.org/resource/Alfred_Rosenberg"
+					},
+					{
+						"label": "Allan Pinkerton",
+						"uri": "http://dbpedia.org/resource/Allan_Pinkerton"
+					},
+					{
+						"label": "Alonzo Church",
+						"uri": "http://dbpedia.org/resource/Alonzo_Church"
+					},
+					{
+						"label": "Aloysius Lilius",
+						"uri": "http://dbpedia.org/resource/Aloysius_Lilius"
+					},
+					{
+						"label": "Amartya Sen",
+						"uri": "http://dbpedia.org/resource/Amartya_Sen"
+					},
+					{
+						"label": "Ambrosius Holbein",
+						"uri": "http://dbpedia.org/resource/Ambrosius_Holbein"
+					},
+					{
+						"label": "Amedeo Avogadro",
+						"uri": "http://dbpedia.org/resource/Amedeo_Avogadro"
+					},
+					{
+						"label": "Anders Hejlsberg",
+						"uri": "http://dbpedia.org/resource/Anders_Hejlsberg"
+					},
+					{
+						"label": "André Breton",
+						"uri": "http://dbpedia.org/resource/André_Breton"
+					},
+					{
+						"label": "Anne Desclos",
+						"uri": "http://dbpedia.org/resource/Anne_Desclos"
+					},
+					{
+						"label": "Anselme Payen",
+						"uri": "http://dbpedia.org/resource/Anselme_Payen"
+					},
+					{
+						"label": "Antonie van Leeuwenhoek",
+						"uri": "http://dbpedia.org/resource/Antonie_van_Leeuwenhoek"
+					},
+					{
+						"label": "Antonio Stradivari",
+						"uri": "http://dbpedia.org/resource/Antonio_Stradivari"
+					},
+					{
+						"label": "Anwar Sadat",
+						"uri": "http://dbpedia.org/resource/Anwar_Sadat"
+					},
+					{
+						"label": "Aristid Lindenmayer",
+						"uri": "http://dbpedia.org/resource/Aristid_Lindenmayer"
+					},
+					{
+						"label": "Arthur Evans",
+						"uri": "http://dbpedia.org/resource/Arthur_Evans"
+					},
+					{
+						"label": "Astrid Lindgren",
+						"uri": "http://dbpedia.org/resource/Astrid_Lindgren"
+					},
+					{
+						"label": "August Ferdinand Möbius",
+						"uri": "http://dbpedia.org/resource/August_Ferdinand_Möbius"
+					},
+					{
+						"label": "August Strindberg",
+						"uri": "http://dbpedia.org/resource/August_Strindberg"
+					},
+					{
+						"label": "Augusto Boal",
+						"uri": "http://dbpedia.org/resource/Augusto_Boal"
+					},
+					{
+						"label": "Augustus John",
+						"uri": "http://dbpedia.org/resource/Augustus_John"
+					},
+					{
+						"label": "Augustus Pitt Rivers",
+						"uri": "http://dbpedia.org/resource/Augustus_Pitt_Rivers"
+					},
+					{
+						"label": "Austin Powers (character)",
+						"uri": "http://dbpedia.org/resource/Austin_Powers_(character)"
+					},
+					{
+						"label": "Bal Gangadhar Tilak",
+						"uri": "http://dbpedia.org/resource/Bal_Gangadhar_Tilak"
+					},
+					{
+						"label": "Bartolomeu Dias",
+						"uri": "http://dbpedia.org/resource/Bartolomeu_Dias"
+					},
+					{
+						"label": "Basil Zaharoff",
+						"uri": "http://dbpedia.org/resource/Basil_Zaharoff"
+					},
+					{
+						"label": "Benjamin Spock",
+						"uri": "http://dbpedia.org/resource/Benjamin_Spock"
+					},
+					{
+						"label": "Bernhard Riemann",
+						"uri": "http://dbpedia.org/resource/Bernhard_Riemann"
+					},
+					{
+						"label": "Bill Viola",
+						"uri": "http://dbpedia.org/resource/Bill_Viola"
+					},
+					{
+						"label": "Camillo Golgi",
+						"uri": "http://dbpedia.org/resource/Camillo_Golgi"
+					},
+					{
+						"label": "Carlo Rubbia",
+						"uri": "http://dbpedia.org/resource/Carlo_Rubbia"
+					},
+					{
+						"label": "Carlos Menem",
+						"uri": "http://dbpedia.org/resource/Carlos_Menem"
+					},
+					{
+						"label": "Casimir Funk",
+						"uri": "http://dbpedia.org/resource/Casimir_Funk"
+					},
+					{
+						"label": "Catiline",
+						"uri": "http://dbpedia.org/resource/Catiline"
+					},
+					{
+						"label": "Cesare Zavattini",
+						"uri": "http://dbpedia.org/resource/Cesare_Zavattini"
+					},
+					{
+						"label": "Charles K. Kao",
+						"uri": "http://dbpedia.org/resource/Charles_K._Kao"
+					},
+					{
+						"label": "Charles M. Schulz",
+						"uri": "http://dbpedia.org/resource/Charles_M._Schulz"
+					},
+					{
+						"label": "Charles Maurice de Talleyrand-Périgord",
+						"uri": "http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord"
+					},
+					{
+						"label": "Chen Shui-bian",
+						"uri": "http://dbpedia.org/resource/Chen_Shui-bian"
+					},
+					{
+						"label": "Christopher Lee",
+						"uri": "http://dbpedia.org/resource/Christopher_Lee"
+					},
+					{
+						"label": "Christopher Wren",
+						"uri": "http://dbpedia.org/resource/Christopher_Wren"
+					},
+					{
+						"label": "Clare Martin",
+						"uri": "http://dbpedia.org/resource/Clare_Martin"
+					},
+					{
+						"label": "Colin Turnbull",
+						"uri": "http://dbpedia.org/resource/Colin_Turnbull"
+					},
+					{
+						"label": "Dafydd ap Gwilym",
+						"uri": "http://dbpedia.org/resource/Dafydd_ap_Gwilym"
+					},
+					{
+						"label": "Damon Knight",
+						"uri": "http://dbpedia.org/resource/Damon_Knight"
+					},
+					{
+						"label": "Daniel Bernoulli",
+						"uri": "http://dbpedia.org/resource/Daniel_Bernoulli"
+					},
+					{
+						"label": "Danyon Loader",
+						"uri": "http://dbpedia.org/resource/Danyon_Loader"
+					},
+					{
+						"label": "David Lloyd George",
+						"uri": "http://dbpedia.org/resource/David_Lloyd_George"
+					},
+					{
+						"label": "Dick Bruna",
+						"uri": "http://dbpedia.org/resource/Dick_Bruna"
+					},
+					{
+						"label": "Edmond Hamilton",
+						"uri": "http://dbpedia.org/resource/Edmond_Hamilton"
+					},
+					{
+						"label": "Edward Durell Stone",
+						"uri": "http://dbpedia.org/resource/Edward_Durell_Stone"
+					},
+					{
+						"label": "Edward Higgins White",
+						"uri": "http://dbpedia.org/resource/Edward_Higgins_White"
+					},
+					{
+						"label": "Edward Thomas (poet)",
+						"uri": "http://dbpedia.org/resource/Edward_Thomas_(poet)"
+					},
+					{
+						"label": "Egon Schiele",
+						"uri": "http://dbpedia.org/resource/Egon_Schiele"
+					},
+					{
+						"label": "Elias Magnus Fries",
+						"uri": "http://dbpedia.org/resource/Elias_Magnus_Fries"
+					},
+					{
+						"label": "Elián González",
+						"uri": "http://dbpedia.org/resource/Elián_González"
+					},
+					{
+						"label": "Elric of Melniboné",
+						"uri": "http://dbpedia.org/resource/Elric_of_Melniboné"
+					},
+					{
+						"label": "Emil Nolde",
+						"uri": "http://dbpedia.org/resource/Emil_Nolde"
+					},
+					{
+						"label": "Emil von Behring",
+						"uri": "http://dbpedia.org/resource/Emil_von_Behring"
+					},
+					{
+						"label": "Enrico Berlinguer",
+						"uri": "http://dbpedia.org/resource/Enrico_Berlinguer"
+					},
+					{
+						"label": "Erich von Drygalski",
+						"uri": "http://dbpedia.org/resource/Erich_von_Drygalski"
+					},
+					{
+						"label": "Eunice Kennedy Shriver",
+						"uri": "http://dbpedia.org/resource/Eunice_Kennedy_Shriver"
+					},
+					{
+						"label": "Eva Perón",
+						"uri": "http://dbpedia.org/resource/Eva_Perón"
+					},
+					{
+						"label": "Ewald Hering",
+						"uri": "http://dbpedia.org/resource/Ewald_Hering"
+					},
+					{
+						"label": "Federico Zuccari",
+						"uri": "http://dbpedia.org/resource/Federico_Zuccari"
+					},
+					{
+						"label": "Felix Klein",
+						"uri": "http://dbpedia.org/resource/Felix_Klein"
+					},
+					{
+						"label": "Ferdinand Peroutka",
+						"uri": "http://dbpedia.org/resource/Ferdinand_Peroutka"
+					},
+					{
+						"label": "Francesco Zuccarelli",
+						"uri": "http://dbpedia.org/resource/Francesco_Zuccarelli"
+					},
+					{
+						"label": "Franco Maria Malfatti",
+						"uri": "http://dbpedia.org/resource/Franco_Maria_Malfatti"
+					},
+					{
+						"label": "Frans Hals",
+						"uri": "http://dbpedia.org/resource/Frans_Hals"
+					},
+					{
+						"label": "Franz Mertens",
+						"uri": "http://dbpedia.org/resource/Franz_Mertens"
+					},
+					{
+						"label": "François Quesnay",
+						"uri": "http://dbpedia.org/resource/François_Quesnay"
+					},
+					{
+						"label": "Frederick Seitz",
+						"uri": "http://dbpedia.org/resource/Frederick_Seitz"
+					},
+					{
+						"label": "Gabriele D'Annunzio",
+						"uri": "http://dbpedia.org/resource/Gabriele_D'Annunzio"
+					},
+					{
+						"label": "Gamal Abdel Nasser",
+						"uri": "http://dbpedia.org/resource/Gamal_Abdel_Nasser"
+					},
+					{
+						"label": "Gaspar Corte-Real",
+						"uri": "http://dbpedia.org/resource/Gaspar_Corte-Real"
+					},
+					{
+						"label": "Georg Ohm",
+						"uri": "http://dbpedia.org/resource/Georg_Ohm"
+					},
+					{
+						"label": "George Whitefield",
+						"uri": "http://dbpedia.org/resource/George_Whitefield"
+					},
+					{
+						"label": "Georges-Eugène Haussmann",
+						"uri": "http://dbpedia.org/resource/Georges-Eugène_Haussmann"
+					},
+					{
+						"label": "Georgy Zhukov",
+						"uri": "http://dbpedia.org/resource/Georgy_Zhukov"
+					},
+					{
+						"label": "Gerald of Wales",
+						"uri": "http://dbpedia.org/resource/Gerald_of_Wales"
+					},
+					{
+						"label": "Gerhard Gentzen",
+						"uri": "http://dbpedia.org/resource/Gerhard_Gentzen"
+					},
+					{
+						"label": "Gerry Adams",
+						"uri": "http://dbpedia.org/resource/Gerry_Adams"
+					},
+					{
+						"label": "Gervasio Antonio de Posadas",
+						"uri": "http://dbpedia.org/resource/Gervasio_Antonio_de_Posadas"
+					},
+					{
+						"label": "Goldie",
+						"uri": "http://dbpedia.org/resource/Goldie"
+					},
+					{
+						"label": "Guy Gavriel Kay",
+						"uri": "http://dbpedia.org/resource/Guy_Gavriel_Kay"
+					},
+					{
+						"label": "Hans Janmaat",
+						"uri": "http://dbpedia.org/resource/Hans_Janmaat"
+					},
+					{
+						"label": "Haskell Curry",
+						"uri": "http://dbpedia.org/resource/Haskell_Curry"
+					},
+					{
+						"label": "Hello Kitty",
+						"uri": "http://dbpedia.org/resource/Hello_Kitty"
+					},
+					{
+						"label": "Henri Becquerel",
+						"uri": "http://dbpedia.org/resource/Henri_Becquerel"
+					},
+					{
+						"label": "Henri Lebesgue",
+						"uri": "http://dbpedia.org/resource/Henri_Lebesgue"
+					},
+					{
+						"label": "Henri Poincaré",
+						"uri": "http://dbpedia.org/resource/Henri_Poincaré"
+					}
+				]
+			},
+			"combination": false
+		},
+		{
+			"id": "2",
+			"language": "EN",
+			"type": "NP",
+			"bindingType": "PERSON",
+			"returnType": "COUNTRY",
+			"frameType": "NPP",
+			"sentences": [
+				"the nationality of $x"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> ?objOfProp))\n",
+			"sentenceToSparqlParameterMapping": {
+				"$x": "subjOfProp"
+			},
+			"returnVariable": "objOfProp",
+			"sentenceBindings": {
+				"bindingVariableName": "$x",
+				"bindingList": [
+					{
+						"label": "Aaron Burr",
+						"uri": "http://dbpedia.org/resource/Aaron_Burr"
+					},
+					{
+						"label": "Abbie Hoffman",
+						"uri": "http://dbpedia.org/resource/Abbie_Hoffman"
+					},
+					{
+						"label": "Abraham de Moivre",
+						"uri": "http://dbpedia.org/resource/Abraham_de_Moivre"
+					},
+					{
+						"label": "Adam Wiśniewski-Snerg",
+						"uri": "http://dbpedia.org/resource/Adam_Wiśniewski-Snerg"
+					},
+					{
+						"label": "Adrien-Marie Legendre",
+						"uri": "http://dbpedia.org/resource/Adrien-Marie_Legendre"
+					},
+					{
+						"label": "Albert Brudzewski",
+						"uri": "http://dbpedia.org/resource/Albert_Brudzewski"
+					},
+					{
+						"label": "Alessandro Manzoni",
+						"uri": "http://dbpedia.org/resource/Alessandro_Manzoni"
+					},
+					{
+						"label": "Alfred Bester",
+						"uri": "http://dbpedia.org/resource/Alfred_Bester"
+					},
+					{
+						"label": "Alfred Rosenberg",
+						"uri": "http://dbpedia.org/resource/Alfred_Rosenberg"
+					},
+					{
+						"label": "Allan Pinkerton",
+						"uri": "http://dbpedia.org/resource/Allan_Pinkerton"
+					},
+					{
+						"label": "Alonzo Church",
+						"uri": "http://dbpedia.org/resource/Alonzo_Church"
+					},
+					{
+						"label": "Aloysius Lilius",
+						"uri": "http://dbpedia.org/resource/Aloysius_Lilius"
+					},
+					{
+						"label": "Amartya Sen",
+						"uri": "http://dbpedia.org/resource/Amartya_Sen"
+					},
+					{
+						"label": "Ambrosius Holbein",
+						"uri": "http://dbpedia.org/resource/Ambrosius_Holbein"
+					},
+					{
+						"label": "Amedeo Avogadro",
+						"uri": "http://dbpedia.org/resource/Amedeo_Avogadro"
+					},
+					{
+						"label": "Anders Hejlsberg",
+						"uri": "http://dbpedia.org/resource/Anders_Hejlsberg"
+					},
+					{
+						"label": "André Breton",
+						"uri": "http://dbpedia.org/resource/André_Breton"
+					},
+					{
+						"label": "Anne Desclos",
+						"uri": "http://dbpedia.org/resource/Anne_Desclos"
+					},
+					{
+						"label": "Anselme Payen",
+						"uri": "http://dbpedia.org/resource/Anselme_Payen"
+					},
+					{
+						"label": "Antonie van Leeuwenhoek",
+						"uri": "http://dbpedia.org/resource/Antonie_van_Leeuwenhoek"
+					},
+					{
+						"label": "Antonio Stradivari",
+						"uri": "http://dbpedia.org/resource/Antonio_Stradivari"
+					},
+					{
+						"label": "Anwar Sadat",
+						"uri": "http://dbpedia.org/resource/Anwar_Sadat"
+					},
+					{
+						"label": "Aristid Lindenmayer",
+						"uri": "http://dbpedia.org/resource/Aristid_Lindenmayer"
+					},
+					{
+						"label": "Arthur Evans",
+						"uri": "http://dbpedia.org/resource/Arthur_Evans"
+					},
+					{
+						"label": "Astrid Lindgren",
+						"uri": "http://dbpedia.org/resource/Astrid_Lindgren"
+					},
+					{
+						"label": "August Ferdinand Möbius",
+						"uri": "http://dbpedia.org/resource/August_Ferdinand_Möbius"
+					},
+					{
+						"label": "August Strindberg",
+						"uri": "http://dbpedia.org/resource/August_Strindberg"
+					},
+					{
+						"label": "Augusto Boal",
+						"uri": "http://dbpedia.org/resource/Augusto_Boal"
+					},
+					{
+						"label": "Augustus John",
+						"uri": "http://dbpedia.org/resource/Augustus_John"
+					},
+					{
+						"label": "Augustus Pitt Rivers",
+						"uri": "http://dbpedia.org/resource/Augustus_Pitt_Rivers"
+					},
+					{
+						"label": "Austin Powers (character)",
+						"uri": "http://dbpedia.org/resource/Austin_Powers_(character)"
+					},
+					{
+						"label": "Bal Gangadhar Tilak",
+						"uri": "http://dbpedia.org/resource/Bal_Gangadhar_Tilak"
+					},
+					{
+						"label": "Bartolomeu Dias",
+						"uri": "http://dbpedia.org/resource/Bartolomeu_Dias"
+					},
+					{
+						"label": "Basil Zaharoff",
+						"uri": "http://dbpedia.org/resource/Basil_Zaharoff"
+					},
+					{
+						"label": "Benjamin Spock",
+						"uri": "http://dbpedia.org/resource/Benjamin_Spock"
+					},
+					{
+						"label": "Bernhard Riemann",
+						"uri": "http://dbpedia.org/resource/Bernhard_Riemann"
+					},
+					{
+						"label": "Bill Viola",
+						"uri": "http://dbpedia.org/resource/Bill_Viola"
+					},
+					{
+						"label": "Camillo Golgi",
+						"uri": "http://dbpedia.org/resource/Camillo_Golgi"
+					},
+					{
+						"label": "Carlo Rubbia",
+						"uri": "http://dbpedia.org/resource/Carlo_Rubbia"
+					},
+					{
+						"label": "Carlos Menem",
+						"uri": "http://dbpedia.org/resource/Carlos_Menem"
+					},
+					{
+						"label": "Casimir Funk",
+						"uri": "http://dbpedia.org/resource/Casimir_Funk"
+					},
+					{
+						"label": "Catiline",
+						"uri": "http://dbpedia.org/resource/Catiline"
+					},
+					{
+						"label": "Cesare Zavattini",
+						"uri": "http://dbpedia.org/resource/Cesare_Zavattini"
+					},
+					{
+						"label": "Charles K. Kao",
+						"uri": "http://dbpedia.org/resource/Charles_K._Kao"
+					},
+					{
+						"label": "Charles M. Schulz",
+						"uri": "http://dbpedia.org/resource/Charles_M._Schulz"
+					},
+					{
+						"label": "Charles Maurice de Talleyrand-Périgord",
+						"uri": "http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord"
+					},
+					{
+						"label": "Chen Shui-bian",
+						"uri": "http://dbpedia.org/resource/Chen_Shui-bian"
+					},
+					{
+						"label": "Christopher Lee",
+						"uri": "http://dbpedia.org/resource/Christopher_Lee"
+					},
+					{
+						"label": "Christopher Wren",
+						"uri": "http://dbpedia.org/resource/Christopher_Wren"
+					},
+					{
+						"label": "Clare Martin",
+						"uri": "http://dbpedia.org/resource/Clare_Martin"
+					},
+					{
+						"label": "Colin Turnbull",
+						"uri": "http://dbpedia.org/resource/Colin_Turnbull"
+					},
+					{
+						"label": "Dafydd ap Gwilym",
+						"uri": "http://dbpedia.org/resource/Dafydd_ap_Gwilym"
+					},
+					{
+						"label": "Damon Knight",
+						"uri": "http://dbpedia.org/resource/Damon_Knight"
+					},
+					{
+						"label": "Daniel Bernoulli",
+						"uri": "http://dbpedia.org/resource/Daniel_Bernoulli"
+					},
+					{
+						"label": "Danyon Loader",
+						"uri": "http://dbpedia.org/resource/Danyon_Loader"
+					},
+					{
+						"label": "David Lloyd George",
+						"uri": "http://dbpedia.org/resource/David_Lloyd_George"
+					},
+					{
+						"label": "Dick Bruna",
+						"uri": "http://dbpedia.org/resource/Dick_Bruna"
+					},
+					{
+						"label": "Edmond Hamilton",
+						"uri": "http://dbpedia.org/resource/Edmond_Hamilton"
+					},
+					{
+						"label": "Edward Durell Stone",
+						"uri": "http://dbpedia.org/resource/Edward_Durell_Stone"
+					},
+					{
+						"label": "Edward Higgins White",
+						"uri": "http://dbpedia.org/resource/Edward_Higgins_White"
+					},
+					{
+						"label": "Edward Thomas (poet)",
+						"uri": "http://dbpedia.org/resource/Edward_Thomas_(poet)"
+					},
+					{
+						"label": "Egon Schiele",
+						"uri": "http://dbpedia.org/resource/Egon_Schiele"
+					},
+					{
+						"label": "Elias Magnus Fries",
+						"uri": "http://dbpedia.org/resource/Elias_Magnus_Fries"
+					},
+					{
+						"label": "Elián González",
+						"uri": "http://dbpedia.org/resource/Elián_González"
+					},
+					{
+						"label": "Elric of Melniboné",
+						"uri": "http://dbpedia.org/resource/Elric_of_Melniboné"
+					},
+					{
+						"label": "Emil Nolde",
+						"uri": "http://dbpedia.org/resource/Emil_Nolde"
+					},
+					{
+						"label": "Emil von Behring",
+						"uri": "http://dbpedia.org/resource/Emil_von_Behring"
+					},
+					{
+						"label": "Enrico Berlinguer",
+						"uri": "http://dbpedia.org/resource/Enrico_Berlinguer"
+					},
+					{
+						"label": "Erich von Drygalski",
+						"uri": "http://dbpedia.org/resource/Erich_von_Drygalski"
+					},
+					{
+						"label": "Eunice Kennedy Shriver",
+						"uri": "http://dbpedia.org/resource/Eunice_Kennedy_Shriver"
+					},
+					{
+						"label": "Eva Perón",
+						"uri": "http://dbpedia.org/resource/Eva_Perón"
+					},
+					{
+						"label": "Ewald Hering",
+						"uri": "http://dbpedia.org/resource/Ewald_Hering"
+					},
+					{
+						"label": "Federico Zuccari",
+						"uri": "http://dbpedia.org/resource/Federico_Zuccari"
+					},
+					{
+						"label": "Felix Klein",
+						"uri": "http://dbpedia.org/resource/Felix_Klein"
+					},
+					{
+						"label": "Ferdinand Peroutka",
+						"uri": "http://dbpedia.org/resource/Ferdinand_Peroutka"
+					},
+					{
+						"label": "Francesco Zuccarelli",
+						"uri": "http://dbpedia.org/resource/Francesco_Zuccarelli"
+					},
+					{
+						"label": "Franco Maria Malfatti",
+						"uri": "http://dbpedia.org/resource/Franco_Maria_Malfatti"
+					},
+					{
+						"label": "Frans Hals",
+						"uri": "http://dbpedia.org/resource/Frans_Hals"
+					},
+					{
+						"label": "Franz Mertens",
+						"uri": "http://dbpedia.org/resource/Franz_Mertens"
+					},
+					{
+						"label": "François Quesnay",
+						"uri": "http://dbpedia.org/resource/François_Quesnay"
+					},
+					{
+						"label": "Frederick Seitz",
+						"uri": "http://dbpedia.org/resource/Frederick_Seitz"
+					},
+					{
+						"label": "Gabriele D'Annunzio",
+						"uri": "http://dbpedia.org/resource/Gabriele_D'Annunzio"
+					},
+					{
+						"label": "Gamal Abdel Nasser",
+						"uri": "http://dbpedia.org/resource/Gamal_Abdel_Nasser"
+					},
+					{
+						"label": "Gaspar Corte-Real",
+						"uri": "http://dbpedia.org/resource/Gaspar_Corte-Real"
+					},
+					{
+						"label": "Georg Ohm",
+						"uri": "http://dbpedia.org/resource/Georg_Ohm"
+					},
+					{
+						"label": "George Whitefield",
+						"uri": "http://dbpedia.org/resource/George_Whitefield"
+					},
+					{
+						"label": "Georges-Eugène Haussmann",
+						"uri": "http://dbpedia.org/resource/Georges-Eugène_Haussmann"
+					},
+					{
+						"label": "Georgy Zhukov",
+						"uri": "http://dbpedia.org/resource/Georgy_Zhukov"
+					},
+					{
+						"label": "Gerald of Wales",
+						"uri": "http://dbpedia.org/resource/Gerald_of_Wales"
+					},
+					{
+						"label": "Gerhard Gentzen",
+						"uri": "http://dbpedia.org/resource/Gerhard_Gentzen"
+					},
+					{
+						"label": "Gerry Adams",
+						"uri": "http://dbpedia.org/resource/Gerry_Adams"
+					},
+					{
+						"label": "Gervasio Antonio de Posadas",
+						"uri": "http://dbpedia.org/resource/Gervasio_Antonio_de_Posadas"
+					},
+					{
+						"label": "Goldie",
+						"uri": "http://dbpedia.org/resource/Goldie"
+					},
+					{
+						"label": "Guy Gavriel Kay",
+						"uri": "http://dbpedia.org/resource/Guy_Gavriel_Kay"
+					},
+					{
+						"label": "Hans Janmaat",
+						"uri": "http://dbpedia.org/resource/Hans_Janmaat"
+					},
+					{
+						"label": "Haskell Curry",
+						"uri": "http://dbpedia.org/resource/Haskell_Curry"
+					},
+					{
+						"label": "Hello Kitty",
+						"uri": "http://dbpedia.org/resource/Hello_Kitty"
+					},
+					{
+						"label": "Henri Becquerel",
+						"uri": "http://dbpedia.org/resource/Henri_Becquerel"
+					},
+					{
+						"label": "Henri Lebesgue",
+						"uri": "http://dbpedia.org/resource/Henri_Lebesgue"
+					},
+					{
+						"label": "Henri Poincaré",
+						"uri": "http://dbpedia.org/resource/Henri_Poincaré"
+					}
+				]
+			},
+			"combination": false
+		},
+		{
+			"id": "127",
+			"language": "EN",
+			"type": "SENTENCE",
+			"bindingType": "PERSON",
+			"returnType": "PERSON",
+			"frameType": "VP",
+			"sentences": [
+				"Which person played ($x | PERSON_NP)?",
+				"Which person plays ($x | PERSON_NP)?",
+				"Who played ($x | PERSON_NP)?",
+				"Who plays ($x | PERSON_NP)?"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp))\n",
+			"sentenceToSparqlParameterMapping": {
+				"$x": "subjOfProp"
+			},
+			"returnVariable": "objOfProp",
+			"sentenceBindings": {
+				"bindingVariableName": "$x",
+				"bindingList": [
+					{
+						"label": "Albus Dumbledore",
+						"uri": "http://dbpedia.org/resource/Albus_Dumbledore"
+					},
+					{
+						"label": "Austin Powers (character)",
+						"uri": "http://dbpedia.org/resource/Austin_Powers_(character)"
+					},
+					{
+						"label": "Boba Fett",
+						"uri": "http://dbpedia.org/resource/Boba_Fett"
+					},
+					{
+						"label": "Darth Vader",
+						"uri": "http://dbpedia.org/resource/Darth_Vader"
+					},
+					{
+						"label": "Draco Malfoy",
+						"uri": "http://dbpedia.org/resource/Draco_Malfoy"
+					},
+					{
+						"label": "Harry Palmer",
+						"uri": "http://dbpedia.org/resource/Harry_Palmer"
+					},
+					{
+						"label": "Inspector Clouseau",
+						"uri": "http://dbpedia.org/resource/Inspector_Clouseau"
+					},
+					{
+						"label": "Jack Ryan (character)",
+						"uri": "http://dbpedia.org/resource/Jack_Ryan_(character)"
+					},
+					{
+						"label": "Jar Jar Binks",
+						"uri": "http://dbpedia.org/resource/Jar_Jar_Binks"
+					},
+					{
+						"label": "John Clark (Tom Clancy character)",
+						"uri": "http://dbpedia.org/resource/John_Clark_(Tom_Clancy_character)"
+					},
+					{
+						"label": "Lando Calrissian",
+						"uri": "http://dbpedia.org/resource/Lando_Calrissian"
+					},
+					{
+						"label": "Lord Voldemort",
+						"uri": "http://dbpedia.org/resource/Lord_Voldemort"
+					},
+					{
+						"label": "Luke Skywalker",
+						"uri": "http://dbpedia.org/resource/Luke_Skywalker"
+					},
+					{
+						"label": "Mulan (Disney character)",
+						"uri": "http://dbpedia.org/resource/Mulan_(Disney_character)"
+					},
+					{
+						"label": "Obi-Wan Kenobi",
+						"uri": "http://dbpedia.org/resource/Obi-Wan_Kenobi"
+					},
+					{
+						"label": "Paul Atreides",
+						"uri": "http://dbpedia.org/resource/Paul_Atreides"
+					},
+					{
+						"label": "Princess Leia",
+						"uri": "http://dbpedia.org/resource/Princess_Leia"
+					},
+					{
+						"label": "Sweeney Todd",
+						"uri": "http://dbpedia.org/resource/Sweeney_Todd"
+					},
+					{
+						"label": "Wedge Antilles",
+						"uri": "http://dbpedia.org/resource/Wedge_Antilles"
+					},
+					{
+						"label": "Xena",
+						"uri": "http://dbpedia.org/resource/Xena"
+					},
+					{
+						"label": "Alexei Volkoff",
+						"uri": "http://dbpedia.org/resource/Alexei_Volkoff"
+					},
+					{
+						"label": "Dalziel and Pascoe",
+						"uri": "http://dbpedia.org/resource/Dalziel_and_Pascoe"
+					},
+					{
+						"label": "David Sinclair (Numbers)",
+						"uri": "http://dbpedia.org/resource/David_Sinclair_(Numbers)"
+					},
+					{
+						"label": "Dukhat",
+						"uri": "http://dbpedia.org/resource/Dukhat"
+					},
+					{
+						"label": "Jigsaw (Saw)",
+						"uri": "http://dbpedia.org/resource/Jigsaw_(Saw)"
+					},
+					{
+						"label": "John Dortmunder",
+						"uri": "http://dbpedia.org/resource/John_Dortmunder"
+					},
+					{
+						"label": "Leoben Conoy",
+						"uri": "http://dbpedia.org/resource/Leoben_Conoy"
+					},
+					{
+						"label": "Mike Flynn (character)",
+						"uri": "http://dbpedia.org/resource/Mike_Flynn_(character)"
+					},
+					{
+						"label": "Onufry Zagłoba",
+						"uri": "http://dbpedia.org/resource/Onufry_Zagłoba"
+					},
+					{
+						"label": "Toto (Oz)",
+						"uri": "http://dbpedia.org/resource/Toto_(Oz)"
+					},
+					{
+						"label": "Zack Addy",
+						"uri": "http://dbpedia.org/resource/Zack_Addy"
+					},
+					{
+						"label": "Zak Adama",
+						"uri": "http://dbpedia.org/resource/Zak_Adama"
+					},
+					{
+						"label": "Alejandro Sosa",
+						"uri": "http://dbpedia.org/resource/Alejandro_Sosa"
+					},
+					{
+						"label": "Andie McPhee",
+						"uri": "http://dbpedia.org/resource/Andie_McPhee"
+					},
+					{
+						"label": "Angel Batista",
+						"uri": "http://dbpedia.org/resource/Angel_Batista"
+					},
+					{
+						"label": "Balki Bartokomous",
+						"uri": "http://dbpedia.org/resource/Balki_Bartokomous"
+					},
+					{
+						"label": "Clair Huxtable",
+						"uri": "http://dbpedia.org/resource/Clair_Huxtable"
+					},
+					{
+						"label": "Claire Bennet",
+						"uri": "http://dbpedia.org/resource/Claire_Bennet"
+					},
+					{
+						"label": "Commander Adama (original Battlestar Galactica)",
+						"uri": "http://dbpedia.org/resource/Commander_Adama_(original_Battlestar_Galactica)"
+					},
+					{
+						"label": "Count Iblis",
+						"uri": "http://dbpedia.org/resource/Count_Iblis"
+					},
+					{
+						"label": "D'Angelo Barksdale",
+						"uri": "http://dbpedia.org/resource/D'Angelo_Barksdale"
+					},
+					{
+						"label": "Dan Humphrey",
+						"uri": "http://dbpedia.org/resource/Dan_Humphrey"
+					},
+					{
+						"label": "Daniel Faraday",
+						"uri": "http://dbpedia.org/resource/Daniel_Faraday"
+					},
+					{
+						"label": "David Hale (Sons of Anarchy)",
+						"uri": "http://dbpedia.org/resource/David_Hale_(Sons_of_Anarchy)"
+					},
+					{
+						"label": "David Phillips (CSI)",
+						"uri": "http://dbpedia.org/resource/David_Phillips_(CSI)"
+					},
+					{
+						"label": "Deanna Monroe",
+						"uri": "http://dbpedia.org/resource/Deanna_Monroe"
+					},
+					{
+						"label": "Don Orville",
+						"uri": "http://dbpedia.org/resource/Don_Orville"
+					},
+					{
+						"label": "Dr. Octagon",
+						"uri": "http://dbpedia.org/resource/Dr._Octagon"
+					},
+					{
+						"label": "Dr. Tony Hill",
+						"uri": "http://dbpedia.org/resource/Dr._Tony_Hill"
+					},
+					{
+						"label": "Genie (Disney character)",
+						"uri": "http://dbpedia.org/resource/Genie_(Disney_character)"
+					},
+					{
+						"label": "Gort (The Day the Earth Stood Still)",
+						"uri": "http://dbpedia.org/resource/Gort_(The_Day_the_Earth_Stood_Still)"
+					},
+					{
+						"label": "Grandpa (The Munsters)",
+						"uri": "http://dbpedia.org/resource/Grandpa_(The_Munsters)"
+					},
+					{
+						"label": "Hailey Nichol",
+						"uri": "http://dbpedia.org/resource/Hailey_Nichol"
+					},
+					{
+						"label": "Hans (Disney)",
+						"uri": "http://dbpedia.org/resource/Hans_(Disney)"
+					},
+					{
+						"label": "Huckleberry Hound",
+						"uri": "http://dbpedia.org/resource/Huckleberry_Hound"
+					},
+					{
+						"label": "Isabelle Tyler",
+						"uri": "http://dbpedia.org/resource/Isabelle_Tyler"
+					},
+					{
+						"label": "Jack Deth",
+						"uri": "http://dbpedia.org/resource/Jack_Deth"
+					},
+					{
+						"label": "Jack McPhee",
+						"uri": "http://dbpedia.org/resource/Jack_McPhee"
+					},
+					{
+						"label": "Jaime Lannister",
+						"uri": "http://dbpedia.org/resource/Jaime_Lannister"
+					},
+					{
+						"label": "Jamie Lloyd",
+						"uri": "http://dbpedia.org/resource/Jamie_Lloyd"
+					},
+					{
+						"label": "Jango Fett",
+						"uri": "http://dbpedia.org/resource/Jango_Fett"
+					},
+					{
+						"label": "Jason Stackhouse",
+						"uri": "http://dbpedia.org/resource/Jason_Stackhouse"
+					},
+					{
+						"label": "Jenny Humphrey",
+						"uri": "http://dbpedia.org/resource/Jenny_Humphrey"
+					},
+					{
+						"label": "Jesse Stone (character)",
+						"uri": "http://dbpedia.org/resource/Jesse_Stone_(character)"
+					},
+					{
+						"label": "Joanie Cunningham",
+						"uri": "http://dbpedia.org/resource/Joanie_Cunningham"
+					},
+					{
+						"label": "Joe Friday",
+						"uri": "http://dbpedia.org/resource/Joe_Friday"
+					},
+					{
+						"label": "John Sampson (character)",
+						"uri": "http://dbpedia.org/resource/John_Sampson_(character)"
+					},
+					{
+						"label": "José Luis Torrente",
+						"uri": "http://dbpedia.org/resource/José_Luis_Torrente"
+					},
+					{
+						"label": "Kissy Suzuki",
+						"uri": "http://dbpedia.org/resource/Kissy_Suzuki"
+					},
+					{
+						"label": "Kristine Kochanski",
+						"uri": "http://dbpedia.org/resource/Kristine_Kochanski"
+					},
+					{
+						"label": "Londo Mollari",
+						"uri": "http://dbpedia.org/resource/Londo_Mollari"
+					},
+					{
+						"label": "Maddy Young",
+						"uri": "http://dbpedia.org/resource/Maddy_Young"
+					},
+					{
+						"label": "Marion Cunningham (Happy Days character)",
+						"uri": "http://dbpedia.org/resource/Marion_Cunningham_(Happy_Days_character)"
+					},
+					{
+						"label": "Mark Greene",
+						"uri": "http://dbpedia.org/resource/Mark_Greene"
+					},
+					{
+						"label": "Marv (Sin City)",
+						"uri": "http://dbpedia.org/resource/Marv_(Sin_City)"
+					},
+					{
+						"label": "Max Zorin",
+						"uri": "http://dbpedia.org/resource/Max_Zorin"
+					},
+					{
+						"label": "Michael Corleone",
+						"uri": "http://dbpedia.org/resource/Michael_Corleone"
+					},
+					{
+						"label": "Monica Reyes",
+						"uri": "http://dbpedia.org/resource/Monica_Reyes"
+					},
+					{
+						"label": "Orville the Duck",
+						"uri": "http://dbpedia.org/resource/Orville_the_Duck"
+					},
+					{
+						"label": "Piper Chapman",
+						"uri": "http://dbpedia.org/resource/Piper_Chapman"
+					},
+					{
+						"label": "Piper Halliwell",
+						"uri": "http://dbpedia.org/resource/Piper_Halliwell"
+					},
+					{
+						"label": "Quintus Valerius Pompey",
+						"uri": "http://dbpedia.org/resource/Quintus_Valerius_Pompey"
+					},
+					{
+						"label": "Radek Zelenka",
+						"uri": "http://dbpedia.org/resource/Radek_Zelenka"
+					},
+					{
+						"label": "Rembrandt Brown",
+						"uri": "http://dbpedia.org/resource/Rembrandt_Brown"
+					},
+					{
+						"label": "Renée Rienne",
+						"uri": "http://dbpedia.org/resource/Renée_Rienne"
+					},
+					{
+						"label": "Salvo Montalbano",
+						"uri": "http://dbpedia.org/resource/Salvo_Montalbano"
+					},
+					{
+						"label": "Seeley Booth",
+						"uri": "http://dbpedia.org/resource/Seeley_Booth"
+					},
+					{
+						"label": "Shelly Johnson (Twin Peaks)",
+						"uri": "http://dbpedia.org/resource/Shelly_Johnson_(Twin_Peaks)"
+					},
+					{
+						"label": "Shepherd Book",
+						"uri": "http://dbpedia.org/resource/Shepherd_Book"
+					},
+					{
+						"label": "Sherman Klump",
+						"uri": "http://dbpedia.org/resource/Sherman_Klump"
+					},
+					{
+						"label": "Smash Williams",
+						"uri": "http://dbpedia.org/resource/Smash_Williams"
+					},
+					{
+						"label": "Sookie Stackhouse",
+						"uri": "http://dbpedia.org/resource/Sookie_Stackhouse"
+					},
+					{
+						"label": "Timmy Martin",
+						"uri": "http://dbpedia.org/resource/Timmy_Martin"
+					},
+					{
+						"label": "Timothy McGee",
+						"uri": "http://dbpedia.org/resource/Timothy_McGee"
+					},
+					{
+						"label": "Tom Hagen",
+						"uri": "http://dbpedia.org/resource/Tom_Hagen"
+					},
+					{
+						"label": "Travis McGee",
+						"uri": "http://dbpedia.org/resource/Travis_McGee"
+					},
+					{
+						"label": "Ultraman (character)",
+						"uri": "http://dbpedia.org/resource/Ultraman_(character)"
+					},
+					{
+						"label": "Vila Restal",
+						"uri": "http://dbpedia.org/resource/Vila_Restal"
+					},
+					{
+						"label": "Will Jackson (Wentworth)",
+						"uri": "http://dbpedia.org/resource/Will_Jackson_(Wentworth)"
+					},
+					{
+						"label": "Zac (Battlestar Galactica)",
+						"uri": "http://dbpedia.org/resource/Zac_(Battlestar_Galactica)"
+					}
+				]
+			},
+			"combination": false
+		},
+		{
+			"id": "262",
+			"language": "EN",
+			"type": "SENTENCE",
+			"bindingType": "THING",
+			"returnType": "CITY",
+			"frameType": "AA",
+			"sentences": [
+				"Which are Spanish villages?",
+				"Which is a Spanish village?",
+				"Which was a Spanish village?",
+				"Which were Spanish villages?"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Village>)\n)\n",
+			"sentenceToSparqlParameterMapping": null,
+			"returnVariable": "isA",
+			"sentenceBindings": {
+				"bindingVariableName": "NONE",
+				"bindingList": []
+			},
+			"combination": false
+		},
+		{
+			"id": "263",
+			"language": "EN",
+			"type": "NP",
+			"bindingType": "THING",
+			"returnType": "CITY",
+			"frameType": "AA",
+			"sentences": [
+				"a Spanish village",
+				"Spanish villages"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Village>)\n)\n",
+			"sentenceToSparqlParameterMapping": null,
+			"returnVariable": "isA",
+			"sentenceBindings": {
+				"bindingVariableName": "NONE",
+				"bindingList": []
+			},
+			"combination": false
+		},
+		{
+			"id": "520",
+			"language": "EN",
+			"type": "SENTENCE",
+			"bindingType": "PERSON",
+			"returnType": "PERSON",
+			"frameType": "APP",
+			"sentences": [
+				"Which fictional character is played by ($x | PERSON_NP)?",
+				"Which fictional character was played by ($x | PERSON_NP)?",
+				"Which fictional characters are played by ($x | PERSON_NP)?",
+				"Which fictional characters were played by ($x | PERSON_NP)?",
+				"Who is played by ($x | PERSON_NP)?",
+				"Who was played by ($x | PERSON_NP)?"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp))\n",
+			"sentenceToSparqlParameterMapping": {
+				"$x": "objOfProp"
+			},
+			"returnVariable": "subjOfProp",
+			"sentenceBindings": {
+				"bindingVariableName": "$x",
+				"bindingList": [
+					{
+						"label": "Al Pacino",
+						"uri": "http://dbpedia.org/resource/Al_Pacino"
+					},
+					{
+						"label": "Billy Joel",
+						"uri": "http://dbpedia.org/resource/Billy_Joel"
+					},
+					{
+						"label": "Brad Pitt",
+						"uri": "http://dbpedia.org/resource/Brad_Pitt"
+					},
+					{
+						"label": "Christopher Lambert",
+						"uri": "http://dbpedia.org/resource/Christopher_Lambert"
+					},
+					{
+						"label": "Clint Eastwood",
+						"uri": "http://dbpedia.org/resource/Clint_Eastwood"
+					},
+					{
+						"label": "Desmond Llewelyn",
+						"uri": "http://dbpedia.org/resource/Desmond_Llewelyn"
+					},
+					{
+						"label": "Gary Cooper",
+						"uri": "http://dbpedia.org/resource/Gary_Cooper"
+					},
+					{
+						"label": "Gwyneth Paltrow",
+						"uri": "http://dbpedia.org/resource/Gwyneth_Paltrow"
+					},
+					{
+						"label": "Harrison Ford",
+						"uri": "http://dbpedia.org/resource/Harrison_Ford"
+					},
+					{
+						"label": "Hayden Christensen",
+						"uri": "http://dbpedia.org/resource/Hayden_Christensen"
+					},
+					{
+						"label": "Jon Pertwee",
+						"uri": "http://dbpedia.org/resource/Jon_Pertwee"
+					},
+					{
+						"label": "Judy Garland",
+						"uri": "http://dbpedia.org/resource/Judy_Garland"
+					},
+					{
+						"label": "Natalie Portman",
+						"uri": "http://dbpedia.org/resource/Natalie_Portman"
+					},
+					{
+						"label": "Patrick Troughton",
+						"uri": "http://dbpedia.org/resource/Patrick_Troughton"
+					},
+					{
+						"label": "Scott Bakula",
+						"uri": "http://dbpedia.org/resource/Scott_Bakula"
+					},
+					{
+						"label": "Tim Curry",
+						"uri": "http://dbpedia.org/resource/Tim_Curry"
+					},
+					{
+						"label": "Tom Cruise",
+						"uri": "http://dbpedia.org/resource/Tom_Cruise"
+					},
+					{
+						"label": "Tracey Ullman",
+						"uri": "http://dbpedia.org/resource/Tracey_Ullman"
+					},
+					{
+						"label": "William Hartnell",
+						"uri": "http://dbpedia.org/resource/William_Hartnell"
+					},
+					{
+						"label": "Winona Ryder",
+						"uri": "http://dbpedia.org/resource/Winona_Ryder"
+					},
+					{
+						"label": "Chris Pine",
+						"uri": "http://dbpedia.org/resource/Chris_Pine"
+					},
+					{
+						"label": "Danielle Horvat",
+						"uri": "http://dbpedia.org/resource/Danielle_Horvat"
+					},
+					{
+						"label": "Agnes Moorehead",
+						"uri": "http://dbpedia.org/resource/Agnes_Moorehead"
+					},
+					{
+						"label": "Alvin and the Chipmunks (film series)",
+						"uri": "http://dbpedia.org/resource/Alvin_and_the_Chipmunks_(film_series)"
+					},
+					{
+						"label": "Antonio Sabàto, Jr.",
+						"uri": "http://dbpedia.org/resource/Antonio_Sabàto,_Jr."
+					},
+					{
+						"label": "Bebe Neuwirth",
+						"uri": "http://dbpedia.org/resource/Bebe_Neuwirth"
+					},
+					{
+						"label": "Christopher Lloyd",
+						"uri": "http://dbpedia.org/resource/Christopher_Lloyd"
+					},
+					{
+						"label": "David Berman (actor)",
+						"uri": "http://dbpedia.org/resource/David_Berman_(actor)"
+					},
+					{
+						"label": "Don Johnson",
+						"uri": "http://dbpedia.org/resource/Don_Johnson"
+					},
+					{
+						"label": "Don Knotts",
+						"uri": "http://dbpedia.org/resource/Don_Knotts"
+					},
+					{
+						"label": "George O'Hanlon",
+						"uri": "http://dbpedia.org/resource/George_O'Hanlon"
+					},
+					{
+						"label": "Giancarlo Esposito",
+						"uri": "http://dbpedia.org/resource/Giancarlo_Esposito"
+					},
+					{
+						"label": "Jamie Chung",
+						"uri": "http://dbpedia.org/resource/Jamie_Chung"
+					},
+					{
+						"label": "Jesse Johnson (actor)",
+						"uri": "http://dbpedia.org/resource/Jesse_Johnson_(actor)"
+					},
+					{
+						"label": "John Landis",
+						"uri": "http://dbpedia.org/resource/John_Landis"
+					},
+					{
+						"label": "Ken Weatherwax",
+						"uri": "http://dbpedia.org/resource/Ken_Weatherwax"
+					},
+					{
+						"label": "Lloyd Nolan",
+						"uri": "http://dbpedia.org/resource/Lloyd_Nolan"
+					},
+					{
+						"label": "Peter Capaldi",
+						"uri": "http://dbpedia.org/resource/Peter_Capaldi"
+					},
+					{
+						"label": "Ralph Bates",
+						"uri": "http://dbpedia.org/resource/Ralph_Bates"
+					},
+					{
+						"label": "Rena Sofer",
+						"uri": "http://dbpedia.org/resource/Rena_Sofer"
+					},
+					{
+						"label": "Renée Asherson",
+						"uri": "http://dbpedia.org/resource/Renée_Asherson"
+					},
+					{
+						"label": "Ron Perlman",
+						"uri": "http://dbpedia.org/resource/Ron_Perlman"
+					},
+					{
+						"label": "Russell Dykstra",
+						"uri": "http://dbpedia.org/resource/Russell_Dykstra"
+					},
+					{
+						"label": "Santiago Segura",
+						"uri": "http://dbpedia.org/resource/Santiago_Segura"
+					},
+					{
+						"label": "Sarah Silverman",
+						"uri": "http://dbpedia.org/resource/Sarah_Silverman"
+					},
+					{
+						"label": "Ted Levine",
+						"uri": "http://dbpedia.org/resource/Ted_Levine"
+					},
+					{
+						"label": "Timothy Spall",
+						"uri": "http://dbpedia.org/resource/Timothy_Spall"
+					},
+					{
+						"label": "William Petersen",
+						"uri": "http://dbpedia.org/resource/William_Petersen"
+					},
+					{
+						"label": "Kathryn Prescott",
+						"uri": "http://dbpedia.org/resource/Kathryn_Prescott"
+					},
+					{
+						"label": "Kirk Cameron",
+						"uri": "http://dbpedia.org/resource/Kirk_Cameron"
+					},
+					{
+						"label": "Frank Collison",
+						"uri": "http://dbpedia.org/resource/Frank_Collison"
+					},
+					{
+						"label": "Alec McCowen",
+						"uri": "http://dbpedia.org/resource/Alec_McCowen"
+					},
+					{
+						"label": "Edward Roseman",
+						"uri": "http://dbpedia.org/resource/Edward_Roseman"
+					},
+					{
+						"label": "Elisabeth Harnois",
+						"uri": "http://dbpedia.org/resource/Elisabeth_Harnois"
+					},
+					{
+						"label": "Helen Baxendale",
+						"uri": "http://dbpedia.org/resource/Helen_Baxendale"
+					},
+					{
+						"label": "James Noble (actor)",
+						"uri": "http://dbpedia.org/resource/James_Noble_(actor)"
+					},
+					{
+						"label": "Melissa Stribling",
+						"uri": "http://dbpedia.org/resource/Melissa_Stribling"
+					},
+					{
+						"label": "Michael Earl (puppeteer)",
+						"uri": "http://dbpedia.org/resource/Michael_Earl_(puppeteer)"
+					},
+					{
+						"label": "Michael Rispoli",
+						"uri": "http://dbpedia.org/resource/Michael_Rispoli"
+					},
+					{
+						"label": "Patricia Conolly",
+						"uri": "http://dbpedia.org/resource/Patricia_Conolly"
+					},
+					{
+						"label": "Quiller (TV series)",
+						"uri": "http://dbpedia.org/resource/Quiller_(TV_series)"
+					},
+					{
+						"label": "Robert Patrick",
+						"uri": "http://dbpedia.org/resource/Robert_Patrick"
+					},
+					{
+						"label": "Robin McLeavy",
+						"uri": "http://dbpedia.org/resource/Robin_McLeavy"
+					},
+					{
+						"label": "Stephen Caffrey",
+						"uri": "http://dbpedia.org/resource/Stephen_Caffrey"
+					},
+					{
+						"label": "The Quiller Memorandum",
+						"uri": "http://dbpedia.org/resource/The_Quiller_Memorandum"
+					},
+					{
+						"label": "Phylicia Rashad",
+						"uri": "http://dbpedia.org/resource/Phylicia_Rashad"
+					},
+					{
+						"label": "Ray Winstone",
+						"uri": "http://dbpedia.org/resource/Ray_Winstone"
+					},
+					{
+						"label": "William Devane",
+						"uri": "http://dbpedia.org/resource/William_Devane"
+					},
+					{
+						"label": "Asa Butterfield",
+						"uri": "http://dbpedia.org/resource/Asa_Butterfield"
+					},
+					{
+						"label": "Bonita Friedericy",
+						"uri": "http://dbpedia.org/resource/Bonita_Friedericy"
+					},
+					{
+						"label": "Deborah Ann Woll",
+						"uri": "http://dbpedia.org/resource/Deborah_Ann_Woll"
+					},
+					{
+						"label": "Gaius Charles",
+						"uri": "http://dbpedia.org/resource/Gaius_Charles"
+					},
+					{
+						"label": "Joey King",
+						"uri": "http://dbpedia.org/resource/Joey_King"
+					},
+					{
+						"label": "Joshua Gomez",
+						"uri": "http://dbpedia.org/resource/Joshua_Gomez"
+					},
+					{
+						"label": "Julia Ling",
+						"uri": "http://dbpedia.org/resource/Julia_Ling"
+					},
+					{
+						"label": "Maggie Siff",
+						"uri": "http://dbpedia.org/resource/Maggie_Siff"
+					},
+					{
+						"label": "Maisie Williams",
+						"uri": "http://dbpedia.org/resource/Maisie_Williams"
+					},
+					{
+						"label": "Rose Leslie",
+						"uri": "http://dbpedia.org/resource/Rose_Leslie"
+					},
+					{
+						"label": "Sam Heughan",
+						"uri": "http://dbpedia.org/resource/Sam_Heughan"
+					},
+					{
+						"label": "Merle Louise",
+						"uri": "http://dbpedia.org/resource/Merle_Louise"
+					},
+					{
+						"label": "Travis Milne",
+						"uri": "http://dbpedia.org/resource/Travis_Milne"
+					},
+					{
+						"label": "Dracula: Pages from a Virgin's Diary",
+						"uri": "http://dbpedia.org/resource/Dracula:_Pages_from_a_Virgin's_Diary"
+					},
+					{
+						"label": "Jon Provost",
+						"uri": "http://dbpedia.org/resource/Jon_Provost"
+					},
+					{
+						"label": "Matt Battaglia",
+						"uri": "http://dbpedia.org/resource/Matt_Battaglia"
+					},
+					{
+						"label": "Alan Arkin",
+						"uri": "http://dbpedia.org/resource/Alan_Arkin"
+					},
+					{
+						"label": "Once Upon a Time (TV series)",
+						"uri": "http://dbpedia.org/resource/Once_Upon_a_Time_(TV_series)"
+					},
+					{
+						"label": "Raúl Esparza",
+						"uri": "http://dbpedia.org/resource/Raúl_Esparza"
+					},
+					{
+						"label": "Robin Atkin Downes",
+						"uri": "http://dbpedia.org/resource/Robin_Atkin_Downes"
+					},
+					{
+						"label": "Michael Gambon",
+						"uri": "http://dbpedia.org/resource/Michael_Gambon"
+					},
+					{
+						"label": "Roddy McDowall",
+						"uri": "http://dbpedia.org/resource/Roddy_McDowall"
+					},
+					{
+						"label": "The Sum of All Fears (film)",
+						"uri": "http://dbpedia.org/resource/The_Sum_of_All_Fears_(film)"
+					},
+					{
+						"label": "Angela Lansbury",
+						"uri": "http://dbpedia.org/resource/Angela_Lansbury"
+					},
+					{
+						"label": "Ben Kingsley",
+						"uri": "http://dbpedia.org/resource/Ben_Kingsley"
+					},
+					{
+						"label": "Denholm Elliott",
+						"uri": "http://dbpedia.org/resource/Denholm_Elliott"
+					},
+					{
+						"label": "Diana Rigg",
+						"uri": "http://dbpedia.org/resource/Diana_Rigg"
+					},
+					{
+						"label": "Elijah Wood",
+						"uri": "http://dbpedia.org/resource/Elijah_Wood"
+					},
+					{
+						"label": "Jackie Coogan",
+						"uri": "http://dbpedia.org/resource/Jackie_Coogan"
+					},
+					{
+						"label": "Javier Bardem",
+						"uri": "http://dbpedia.org/resource/Javier_Bardem"
+					},
+					{
+						"label": "Michael Rennie",
+						"uri": "http://dbpedia.org/resource/Michael_Rennie"
+					},
+					{
+						"label": "Steve Buscemi",
+						"uri": "http://dbpedia.org/resource/Steve_Buscemi"
+					}
+				]
+			},
+			"combination": false
+		},
+		{
+			"id": "521",
+			"language": "EN",
+			"type": "NP",
+			"bindingType": "PERSON",
+			"returnType": "PERSON",
+			"frameType": "APP",
+			"sentences": [
+				"fictional characters played by $x"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp))\n",
+			"sentenceToSparqlParameterMapping": {
+				"$x": "objOfProp"
+			},
+			"returnVariable": "subjOfProp",
+			"sentenceBindings": {
+				"bindingVariableName": "$x",
+				"bindingList": [
+					{
+						"label": "Al Pacino",
+						"uri": "http://dbpedia.org/resource/Al_Pacino"
+					},
+					{
+						"label": "Billy Joel",
+						"uri": "http://dbpedia.org/resource/Billy_Joel"
+					},
+					{
+						"label": "Brad Pitt",
+						"uri": "http://dbpedia.org/resource/Brad_Pitt"
+					},
+					{
+						"label": "Christopher Lambert",
+						"uri": "http://dbpedia.org/resource/Christopher_Lambert"
+					},
+					{
+						"label": "Clint Eastwood",
+						"uri": "http://dbpedia.org/resource/Clint_Eastwood"
+					},
+					{
+						"label": "Desmond Llewelyn",
+						"uri": "http://dbpedia.org/resource/Desmond_Llewelyn"
+					},
+					{
+						"label": "Gary Cooper",
+						"uri": "http://dbpedia.org/resource/Gary_Cooper"
+					},
+					{
+						"label": "Gwyneth Paltrow",
+						"uri": "http://dbpedia.org/resource/Gwyneth_Paltrow"
+					},
+					{
+						"label": "Harrison Ford",
+						"uri": "http://dbpedia.org/resource/Harrison_Ford"
+					},
+					{
+						"label": "Hayden Christensen",
+						"uri": "http://dbpedia.org/resource/Hayden_Christensen"
+					},
+					{
+						"label": "Jon Pertwee",
+						"uri": "http://dbpedia.org/resource/Jon_Pertwee"
+					},
+					{
+						"label": "Judy Garland",
+						"uri": "http://dbpedia.org/resource/Judy_Garland"
+					},
+					{
+						"label": "Natalie Portman",
+						"uri": "http://dbpedia.org/resource/Natalie_Portman"
+					},
+					{
+						"label": "Patrick Troughton",
+						"uri": "http://dbpedia.org/resource/Patrick_Troughton"
+					},
+					{
+						"label": "Scott Bakula",
+						"uri": "http://dbpedia.org/resource/Scott_Bakula"
+					},
+					{
+						"label": "Tim Curry",
+						"uri": "http://dbpedia.org/resource/Tim_Curry"
+					},
+					{
+						"label": "Tom Cruise",
+						"uri": "http://dbpedia.org/resource/Tom_Cruise"
+					},
+					{
+						"label": "Tracey Ullman",
+						"uri": "http://dbpedia.org/resource/Tracey_Ullman"
+					},
+					{
+						"label": "William Hartnell",
+						"uri": "http://dbpedia.org/resource/William_Hartnell"
+					},
+					{
+						"label": "Winona Ryder",
+						"uri": "http://dbpedia.org/resource/Winona_Ryder"
+					},
+					{
+						"label": "Chris Pine",
+						"uri": "http://dbpedia.org/resource/Chris_Pine"
+					},
+					{
+						"label": "Danielle Horvat",
+						"uri": "http://dbpedia.org/resource/Danielle_Horvat"
+					},
+					{
+						"label": "Agnes Moorehead",
+						"uri": "http://dbpedia.org/resource/Agnes_Moorehead"
+					},
+					{
+						"label": "Alvin and the Chipmunks (film series)",
+						"uri": "http://dbpedia.org/resource/Alvin_and_the_Chipmunks_(film_series)"
+					},
+					{
+						"label": "Antonio Sabàto, Jr.",
+						"uri": "http://dbpedia.org/resource/Antonio_Sabàto,_Jr."
+					},
+					{
+						"label": "Bebe Neuwirth",
+						"uri": "http://dbpedia.org/resource/Bebe_Neuwirth"
+					},
+					{
+						"label": "Christopher Lloyd",
+						"uri": "http://dbpedia.org/resource/Christopher_Lloyd"
+					},
+					{
+						"label": "David Berman (actor)",
+						"uri": "http://dbpedia.org/resource/David_Berman_(actor)"
+					},
+					{
+						"label": "Don Johnson",
+						"uri": "http://dbpedia.org/resource/Don_Johnson"
+					},
+					{
+						"label": "Don Knotts",
+						"uri": "http://dbpedia.org/resource/Don_Knotts"
+					},
+					{
+						"label": "George O'Hanlon",
+						"uri": "http://dbpedia.org/resource/George_O'Hanlon"
+					},
+					{
+						"label": "Giancarlo Esposito",
+						"uri": "http://dbpedia.org/resource/Giancarlo_Esposito"
+					},
+					{
+						"label": "Jamie Chung",
+						"uri": "http://dbpedia.org/resource/Jamie_Chung"
+					},
+					{
+						"label": "Jesse Johnson (actor)",
+						"uri": "http://dbpedia.org/resource/Jesse_Johnson_(actor)"
+					},
+					{
+						"label": "John Landis",
+						"uri": "http://dbpedia.org/resource/John_Landis"
+					},
+					{
+						"label": "Ken Weatherwax",
+						"uri": "http://dbpedia.org/resource/Ken_Weatherwax"
+					},
+					{
+						"label": "Lloyd Nolan",
+						"uri": "http://dbpedia.org/resource/Lloyd_Nolan"
+					},
+					{
+						"label": "Peter Capaldi",
+						"uri": "http://dbpedia.org/resource/Peter_Capaldi"
+					},
+					{
+						"label": "Ralph Bates",
+						"uri": "http://dbpedia.org/resource/Ralph_Bates"
+					},
+					{
+						"label": "Rena Sofer",
+						"uri": "http://dbpedia.org/resource/Rena_Sofer"
+					},
+					{
+						"label": "Renée Asherson",
+						"uri": "http://dbpedia.org/resource/Renée_Asherson"
+					},
+					{
+						"label": "Ron Perlman",
+						"uri": "http://dbpedia.org/resource/Ron_Perlman"
+					},
+					{
+						"label": "Russell Dykstra",
+						"uri": "http://dbpedia.org/resource/Russell_Dykstra"
+					},
+					{
+						"label": "Santiago Segura",
+						"uri": "http://dbpedia.org/resource/Santiago_Segura"
+					},
+					{
+						"label": "Sarah Silverman",
+						"uri": "http://dbpedia.org/resource/Sarah_Silverman"
+					},
+					{
+						"label": "Ted Levine",
+						"uri": "http://dbpedia.org/resource/Ted_Levine"
+					},
+					{
+						"label": "Timothy Spall",
+						"uri": "http://dbpedia.org/resource/Timothy_Spall"
+					},
+					{
+						"label": "William Petersen",
+						"uri": "http://dbpedia.org/resource/William_Petersen"
+					},
+					{
+						"label": "Kathryn Prescott",
+						"uri": "http://dbpedia.org/resource/Kathryn_Prescott"
+					},
+					{
+						"label": "Kirk Cameron",
+						"uri": "http://dbpedia.org/resource/Kirk_Cameron"
+					},
+					{
+						"label": "Frank Collison",
+						"uri": "http://dbpedia.org/resource/Frank_Collison"
+					},
+					{
+						"label": "Alec McCowen",
+						"uri": "http://dbpedia.org/resource/Alec_McCowen"
+					},
+					{
+						"label": "Edward Roseman",
+						"uri": "http://dbpedia.org/resource/Edward_Roseman"
+					},
+					{
+						"label": "Elisabeth Harnois",
+						"uri": "http://dbpedia.org/resource/Elisabeth_Harnois"
+					},
+					{
+						"label": "Helen Baxendale",
+						"uri": "http://dbpedia.org/resource/Helen_Baxendale"
+					},
+					{
+						"label": "James Noble (actor)",
+						"uri": "http://dbpedia.org/resource/James_Noble_(actor)"
+					},
+					{
+						"label": "Melissa Stribling",
+						"uri": "http://dbpedia.org/resource/Melissa_Stribling"
+					},
+					{
+						"label": "Michael Earl (puppeteer)",
+						"uri": "http://dbpedia.org/resource/Michael_Earl_(puppeteer)"
+					},
+					{
+						"label": "Michael Rispoli",
+						"uri": "http://dbpedia.org/resource/Michael_Rispoli"
+					},
+					{
+						"label": "Patricia Conolly",
+						"uri": "http://dbpedia.org/resource/Patricia_Conolly"
+					},
+					{
+						"label": "Quiller (TV series)",
+						"uri": "http://dbpedia.org/resource/Quiller_(TV_series)"
+					},
+					{
+						"label": "Robert Patrick",
+						"uri": "http://dbpedia.org/resource/Robert_Patrick"
+					},
+					{
+						"label": "Robin McLeavy",
+						"uri": "http://dbpedia.org/resource/Robin_McLeavy"
+					},
+					{
+						"label": "Stephen Caffrey",
+						"uri": "http://dbpedia.org/resource/Stephen_Caffrey"
+					},
+					{
+						"label": "The Quiller Memorandum",
+						"uri": "http://dbpedia.org/resource/The_Quiller_Memorandum"
+					},
+					{
+						"label": "Phylicia Rashad",
+						"uri": "http://dbpedia.org/resource/Phylicia_Rashad"
+					},
+					{
+						"label": "Ray Winstone",
+						"uri": "http://dbpedia.org/resource/Ray_Winstone"
+					},
+					{
+						"label": "William Devane",
+						"uri": "http://dbpedia.org/resource/William_Devane"
+					},
+					{
+						"label": "Asa Butterfield",
+						"uri": "http://dbpedia.org/resource/Asa_Butterfield"
+					},
+					{
+						"label": "Bonita Friedericy",
+						"uri": "http://dbpedia.org/resource/Bonita_Friedericy"
+					},
+					{
+						"label": "Deborah Ann Woll",
+						"uri": "http://dbpedia.org/resource/Deborah_Ann_Woll"
+					},
+					{
+						"label": "Gaius Charles",
+						"uri": "http://dbpedia.org/resource/Gaius_Charles"
+					},
+					{
+						"label": "Joey King",
+						"uri": "http://dbpedia.org/resource/Joey_King"
+					},
+					{
+						"label": "Joshua Gomez",
+						"uri": "http://dbpedia.org/resource/Joshua_Gomez"
+					},
+					{
+						"label": "Julia Ling",
+						"uri": "http://dbpedia.org/resource/Julia_Ling"
+					},
+					{
+						"label": "Maggie Siff",
+						"uri": "http://dbpedia.org/resource/Maggie_Siff"
+					},
+					{
+						"label": "Maisie Williams",
+						"uri": "http://dbpedia.org/resource/Maisie_Williams"
+					},
+					{
+						"label": "Rose Leslie",
+						"uri": "http://dbpedia.org/resource/Rose_Leslie"
+					},
+					{
+						"label": "Sam Heughan",
+						"uri": "http://dbpedia.org/resource/Sam_Heughan"
+					},
+					{
+						"label": "Merle Louise",
+						"uri": "http://dbpedia.org/resource/Merle_Louise"
+					},
+					{
+						"label": "Travis Milne",
+						"uri": "http://dbpedia.org/resource/Travis_Milne"
+					},
+					{
+						"label": "Dracula: Pages from a Virgin's Diary",
+						"uri": "http://dbpedia.org/resource/Dracula:_Pages_from_a_Virgin's_Diary"
+					},
+					{
+						"label": "Jon Provost",
+						"uri": "http://dbpedia.org/resource/Jon_Provost"
+					},
+					{
+						"label": "Matt Battaglia",
+						"uri": "http://dbpedia.org/resource/Matt_Battaglia"
+					},
+					{
+						"label": "Alan Arkin",
+						"uri": "http://dbpedia.org/resource/Alan_Arkin"
+					},
+					{
+						"label": "Once Upon a Time (TV series)",
+						"uri": "http://dbpedia.org/resource/Once_Upon_a_Time_(TV_series)"
+					},
+					{
+						"label": "Raúl Esparza",
+						"uri": "http://dbpedia.org/resource/Raúl_Esparza"
+					},
+					{
+						"label": "Robin Atkin Downes",
+						"uri": "http://dbpedia.org/resource/Robin_Atkin_Downes"
+					},
+					{
+						"label": "Michael Gambon",
+						"uri": "http://dbpedia.org/resource/Michael_Gambon"
+					},
+					{
+						"label": "Roddy McDowall",
+						"uri": "http://dbpedia.org/resource/Roddy_McDowall"
+					},
+					{
+						"label": "The Sum of All Fears (film)",
+						"uri": "http://dbpedia.org/resource/The_Sum_of_All_Fears_(film)"
+					},
+					{
+						"label": "Angela Lansbury",
+						"uri": "http://dbpedia.org/resource/Angela_Lansbury"
+					},
+					{
+						"label": "Ben Kingsley",
+						"uri": "http://dbpedia.org/resource/Ben_Kingsley"
+					},
+					{
+						"label": "Denholm Elliott",
+						"uri": "http://dbpedia.org/resource/Denholm_Elliott"
+					},
+					{
+						"label": "Diana Rigg",
+						"uri": "http://dbpedia.org/resource/Diana_Rigg"
+					},
+					{
+						"label": "Elijah Wood",
+						"uri": "http://dbpedia.org/resource/Elijah_Wood"
+					},
+					{
+						"label": "Jackie Coogan",
+						"uri": "http://dbpedia.org/resource/Jackie_Coogan"
+					},
+					{
+						"label": "Javier Bardem",
+						"uri": "http://dbpedia.org/resource/Javier_Bardem"
+					},
+					{
+						"label": "Michael Rennie",
+						"uri": "http://dbpedia.org/resource/Michael_Rennie"
+					},
+					{
+						"label": "Steve Buscemi",
+						"uri": "http://dbpedia.org/resource/Steve_Buscemi"
+					}
+				]
+			},
+			"combination": false
+		},
+		{
+			"id": "530",
+			"language": "EN",
+			"type": "SENTENCE",
+			"bindingType": "FILM",
+			"returnType": "PERSON",
+			"frameType": "IPP",
+			"sentences": [
+				"Which actor starred in ($x | FILM_NP)?",
+				"Which actor stars in ($x | FILM_NP)?",
+				"Which actors starred in ($x | FILM_NP)?",
+				"Who starred in ($x | FILM_NP)?",
+				"Who stars in ($x | FILM_NP)?"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/starring> ?objOfProp))\n",
+			"sentenceToSparqlParameterMapping": {
+				"$x": "subjOfProp"
+			},
+			"returnVariable": "objOfProp",
+			"sentenceBindings": {
+				"bindingVariableName": "$x",
+				"bindingList": [
+					{
+						"label": "12 Monkeys",
+						"uri": "http://dbpedia.org/resource/12_Monkeys"
+					},
+					{
+						"label": "Breakfast at Tiffany's (film)",
+						"uri": "http://dbpedia.org/resource/Breakfast_at_Tiffany's_(film)"
+					},
+					{
+						"label": "Buffy the Vampire Slayer",
+						"uri": "http://dbpedia.org/resource/Buffy_the_Vampire_Slayer"
+					},
+					{
+						"label": "Green Card (film)",
+						"uri": "http://dbpedia.org/resource/Green_Card_(film)"
+					},
+					{
+						"label": "Heat (1995 film)",
+						"uri": "http://dbpedia.org/resource/Heat_(1995_film)"
+					},
+					{
+						"label": "Miller's Crossing",
+						"uri": "http://dbpedia.org/resource/Miller's_Crossing"
+					},
+					{
+						"label": "Round the Horne",
+						"uri": "http://dbpedia.org/resource/Round_the_Horne"
+					},
+					{
+						"label": "Soylent Green",
+						"uri": "http://dbpedia.org/resource/Soylent_Green"
+					},
+					{
+						"label": "The Big Country",
+						"uri": "http://dbpedia.org/resource/The_Big_Country"
+					},
+					{
+						"label": "The Hollywood Revue of 1929",
+						"uri": "http://dbpedia.org/resource/The_Hollywood_Revue_of_1929"
+					},
+					{
+						"label": "Traffic (2000 film)",
+						"uri": "http://dbpedia.org/resource/Traffic_(2000_film)"
+					},
+					{
+						"label": "Vanilla Sky",
+						"uri": "http://dbpedia.org/resource/Vanilla_Sky"
+					},
+					{
+						"label": "Where the Heart Is (2000 film)",
+						"uri": "http://dbpedia.org/resource/Where_the_Heart_Is_(2000_film)"
+					},
+					{
+						"label": "Zorba the Greek (film)",
+						"uri": "http://dbpedia.org/resource/Zorba_the_Greek_(film)"
+					},
+					{
+						"label": "Back to Bataan",
+						"uri": "http://dbpedia.org/resource/Back_to_Bataan"
+					},
+					{
+						"label": "Barry (2016 film)",
+						"uri": "http://dbpedia.org/resource/Barry_(2016_film)"
+					},
+					{
+						"label": "Multiplicity (film)",
+						"uri": "http://dbpedia.org/resource/Multiplicity_(film)"
+					},
+					{
+						"label": "The Tree of Life (film)",
+						"uri": "http://dbpedia.org/resource/The_Tree_of_Life_(film)"
+					},
+					{
+						"label": "Amazing Grace (2006 film)",
+						"uri": "http://dbpedia.org/resource/Amazing_Grace_(2006_film)"
+					},
+					{
+						"label": "Author! Author! (film)",
+						"uri": "http://dbpedia.org/resource/Author!_Author!_(film)"
+					},
+					{
+						"label": "City on Fire (1979 film)",
+						"uri": "http://dbpedia.org/resource/City_on_Fire_(1979_film)"
+					},
+					{
+						"label": "Evita (1996 film)",
+						"uri": "http://dbpedia.org/resource/Evita_(1996_film)"
+					},
+					{
+						"label": "Michael (1996 film)",
+						"uri": "http://dbpedia.org/resource/Michael_(1996_film)"
+					},
+					{
+						"label": "New Orleans (film)",
+						"uri": "http://dbpedia.org/resource/New_Orleans_(film)"
+					},
+					{
+						"label": "Nostromo (TV serial)",
+						"uri": "http://dbpedia.org/resource/Nostromo_(TV_serial)"
+					},
+					{
+						"label": "Once Upon a Time (1944 film)",
+						"uri": "http://dbpedia.org/resource/Once_Upon_a_Time_(1944_film)"
+					},
+					{
+						"label": "Seven Days in May",
+						"uri": "http://dbpedia.org/resource/Seven_Days_in_May"
+					},
+					{
+						"label": "Suzy (film)",
+						"uri": "http://dbpedia.org/resource/Suzy_(film)"
+					},
+					{
+						"label": "The Children's Hour (film)",
+						"uri": "http://dbpedia.org/resource/The_Children's_Hour_(film)"
+					},
+					{
+						"label": "The Navigator (1924 film)",
+						"uri": "http://dbpedia.org/resource/The_Navigator_(1924_film)"
+					},
+					{
+						"label": "The Visit (1964 film)",
+						"uri": "http://dbpedia.org/resource/The_Visit_(1964_film)"
+					},
+					{
+						"label": "The Wild Party (1956 film)",
+						"uri": "http://dbpedia.org/resource/The_Wild_Party_(1956_film)"
+					},
+					{
+						"label": "Time Regained (film)",
+						"uri": "http://dbpedia.org/resource/Time_Regained_(film)"
+					},
+					{
+						"label": "Call + Response",
+						"uri": "http://dbpedia.org/resource/Call_+_Response"
+					},
+					{
+						"label": "Genghis Khan (unfinished film)",
+						"uri": "http://dbpedia.org/resource/Genghis_Khan_(unfinished_film)"
+					},
+					{
+						"label": "In Prison My Whole Life",
+						"uri": "http://dbpedia.org/resource/In_Prison_My_Whole_Life"
+					},
+					{
+						"label": "Megamind",
+						"uri": "http://dbpedia.org/resource/Megamind"
+					},
+					{
+						"label": "Tooth Fairy (2010 film)",
+						"uri": "http://dbpedia.org/resource/Tooth_Fairy_(2010_film)"
+					},
+					{
+						"label": "City Beneath the Sea (1953 film)",
+						"uri": "http://dbpedia.org/resource/City_Beneath_the_Sea_(1953_film)"
+					},
+					{
+						"label": "The Snows of Kilimanjaro (1952 film)",
+						"uri": "http://dbpedia.org/resource/The_Snows_of_Kilimanjaro_(1952_film)"
+					},
+					{
+						"label": "55 Days at Peking",
+						"uri": "http://dbpedia.org/resource/55_Days_at_Peking"
+					},
+					{
+						"label": "A Lost Lady (film)",
+						"uri": "http://dbpedia.org/resource/A_Lost_Lady_(film)"
+					},
+					{
+						"label": "A River Runs Through It (film)",
+						"uri": "http://dbpedia.org/resource/A_River_Runs_Through_It_(film)"
+					},
+					{
+						"label": "Flypaper (2011 film)",
+						"uri": "http://dbpedia.org/resource/Flypaper_(2011_film)"
+					},
+					{
+						"label": "I'm No Angel",
+						"uri": "http://dbpedia.org/resource/I'm_No_Angel"
+					},
+					{
+						"label": "Panhandle (film)",
+						"uri": "http://dbpedia.org/resource/Panhandle_(film)"
+					},
+					{
+						"label": "Pope John Paul II (film)",
+						"uri": "http://dbpedia.org/resource/Pope_John_Paul_II_(film)"
+					},
+					{
+						"label": "Standing Tall (film)",
+						"uri": "http://dbpedia.org/resource/Standing_Tall_(film)"
+					},
+					{
+						"label": "The Black Orchid (film)",
+						"uri": "http://dbpedia.org/resource/The_Black_Orchid_(film)"
+					},
+					{
+						"label": "The Happening (1967 film)",
+						"uri": "http://dbpedia.org/resource/The_Happening_(1967_film)"
+					},
+					{
+						"label": "Scared Shrekless",
+						"uri": "http://dbpedia.org/resource/Scared_Shrekless"
+					},
+					{
+						"label": "Spy Kids",
+						"uri": "http://dbpedia.org/resource/Spy_Kids"
+					},
+					{
+						"label": "Genealogies of a Crime",
+						"uri": "http://dbpedia.org/resource/Genealogies_of_a_Crime"
+					},
+					{
+						"label": "L'argent des autres",
+						"uri": "http://dbpedia.org/resource/L'argent_des_autres"
+					},
+					{
+						"label": "Greenwich Village (film)",
+						"uri": "http://dbpedia.org/resource/Greenwich_Village_(film)"
+					},
+					{
+						"label": "Serpico",
+						"uri": "http://dbpedia.org/resource/Serpico"
+					},
+					{
+						"label": "Sorry, Wrong Number",
+						"uri": "http://dbpedia.org/resource/Sorry,_Wrong_Number"
+					},
+					{
+						"label": "We Will Rock You (video)",
+						"uri": "http://dbpedia.org/resource/We_Will_Rock_You_(video)"
+					},
+					{
+						"label": "Ball of Fire",
+						"uri": "http://dbpedia.org/resource/Ball_of_Fire"
+					},
+					{
+						"label": "Jungle Fever",
+						"uri": "http://dbpedia.org/resource/Jungle_Fever"
+					},
+					{
+						"label": "Mogambo",
+						"uri": "http://dbpedia.org/resource/Mogambo"
+					},
+					{
+						"label": "Spy Kids (franchise)",
+						"uri": "http://dbpedia.org/resource/Spy_Kids_(franchise)"
+					},
+					{
+						"label": "Truly, Madly, Deeply",
+						"uri": "http://dbpedia.org/resource/Truly,_Madly,_Deeply"
+					},
+					{
+						"label": "Sleepers",
+						"uri": "http://dbpedia.org/resource/Sleepers"
+					},
+					{
+						"label": "Mobsters",
+						"uri": "http://dbpedia.org/resource/Mobsters"
+					},
+					{
+						"label": "Pandora and the Flying Dutchman",
+						"uri": "http://dbpedia.org/resource/Pandora_and_the_Flying_Dutchman"
+					},
+					{
+						"label": "A Life Less Ordinary",
+						"uri": "http://dbpedia.org/resource/A_Life_Less_Ordinary"
+					},
+					{
+						"label": "Bob Roberts",
+						"uri": "http://dbpedia.org/resource/Bob_Roberts"
+					},
+					{
+						"label": "Destination Tokyo",
+						"uri": "http://dbpedia.org/resource/Destination_Tokyo"
+					},
+					{
+						"label": "Operation Petticoat",
+						"uri": "http://dbpedia.org/resource/Operation_Petticoat"
+					},
+					{
+						"label": "The Shoes of the Fisherman",
+						"uri": "http://dbpedia.org/resource/The_Shoes_of_the_Fisherman"
+					},
+					{
+						"label": "Labyrinth of Passion",
+						"uri": "http://dbpedia.org/resource/Labyrinth_of_Passion"
+					},
+					{
+						"label": "A Country Hero",
+						"uri": "http://dbpedia.org/resource/A_Country_Hero"
+					},
+					{
+						"label": "Day Dreams (1922 film)",
+						"uri": "http://dbpedia.org/resource/Day_Dreams_(1922_film)"
+					},
+					{
+						"label": "His Wedding Night",
+						"uri": "http://dbpedia.org/resource/His_Wedding_Night"
+					},
+					{
+						"label": "My Wife's Relations",
+						"uri": "http://dbpedia.org/resource/My_Wife's_Relations"
+					},
+					{
+						"label": "Oh Doctor!",
+						"uri": "http://dbpedia.org/resource/Oh_Doctor!"
+					},
+					{
+						"label": "The Balloonatic",
+						"uri": "http://dbpedia.org/resource/The_Balloonatic"
+					},
+					{
+						"label": "The Bell Boy",
+						"uri": "http://dbpedia.org/resource/The_Bell_Boy"
+					},
+					{
+						"label": "The Electric House",
+						"uri": "http://dbpedia.org/resource/The_Electric_House"
+					},
+					{
+						"label": "The Frozen North",
+						"uri": "http://dbpedia.org/resource/The_Frozen_North"
+					},
+					{
+						"label": "The Saphead",
+						"uri": "http://dbpedia.org/resource/The_Saphead"
+					},
+					{
+						"label": "Bajarse al moro",
+						"uri": "http://dbpedia.org/resource/Bajarse_al_moro"
+					},
+					{
+						"label": "Don't Touch the White Woman!",
+						"uri": "http://dbpedia.org/resource/Don't_Touch_the_White_Woman!"
+					},
+					{
+						"label": "If They Tell You I Fell",
+						"uri": "http://dbpedia.org/resource/If_They_Tell_You_I_Fell"
+					},
+					{
+						"label": "Show Boat (1951 film)",
+						"uri": "http://dbpedia.org/resource/Show_Boat_(1951_film)"
+					},
+					{
+						"label": "Unstrung Heroes",
+						"uri": "http://dbpedia.org/resource/Unstrung_Heroes"
+					},
+					{
+						"label": "B.F.'s Daughter",
+						"uri": "http://dbpedia.org/resource/B.F.'s_Daughter"
+					},
+					{
+						"label": "East of Sumatra",
+						"uri": "http://dbpedia.org/resource/East_of_Sumatra"
+					},
+					{
+						"label": "Gambling Ship",
+						"uri": "http://dbpedia.org/resource/Gambling_Ship"
+					},
+					{
+						"label": "Ladies Should Listen",
+						"uri": "http://dbpedia.org/resource/Ladies_Should_Listen"
+					},
+					{
+						"label": "Mask of the Avenger",
+						"uri": "http://dbpedia.org/resource/Mask_of_the_Avenger"
+					},
+					{
+						"label": "The Amazing Quest of Ernest Bliss",
+						"uri": "http://dbpedia.org/resource/The_Amazing_Quest_of_Ernest_Bliss"
+					},
+					{
+						"label": "To Please a Lady",
+						"uri": "http://dbpedia.org/resource/To_Please_a_Lady"
+					},
+					{
+						"label": "Us Two (film)",
+						"uri": "http://dbpedia.org/resource/Us_Two_(film)"
+					},
+					{
+						"label": "Asterix and Obelix: God Save Britannia",
+						"uri": "http://dbpedia.org/resource/Asterix_and_Obelix:_God_Save_Britannia"
+					},
+					{
+						"label": "Daydream Nation (film)",
+						"uri": "http://dbpedia.org/resource/Daydream_Nation_(film)"
+					},
+					{
+						"label": "The Son of No One",
+						"uri": "http://dbpedia.org/resource/The_Son_of_No_One"
+					},
+					{
+						"label": "A Taste of Evil",
+						"uri": "http://dbpedia.org/resource/A_Taste_of_Evil"
+					},
+					{
+						"label": "All I Desire",
+						"uri": "http://dbpedia.org/resource/All_I_Desire"
+					}
+				]
+			},
+			"combination": false
+		},
+		{
+			"id": "531",
+			"language": "EN",
+			"type": "SENTENCE",
+			"bindingType": "PERSON",
+			"returnType": "FILM",
+			"frameType": "IPP",
+			"sentences": [
+				"What does $x star in?",
+				"Which movie does $x star in?",
+				"Which movies does $x star in?"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/starring> ?objOfProp))\n",
+			"sentenceToSparqlParameterMapping": {
+				"$x": "objOfProp"
+			},
+			"returnVariable": "subjOfProp",
+			"sentenceBindings": {
+				"bindingVariableName": "$x",
+				"bindingList": [
+					{
+						"label": "Abbie Hoffman",
+						"uri": "http://dbpedia.org/resource/Abbie_Hoffman"
+					},
+					{
+						"label": "Akiko Yano",
+						"uri": "http://dbpedia.org/resource/Akiko_Yano"
+					},
+					{
+						"label": "Al Pacino",
+						"uri": "http://dbpedia.org/resource/Al_Pacino"
+					},
+					{
+						"label": "Alain Prost",
+						"uri": "http://dbpedia.org/resource/Alain_Prost"
+					},
+					{
+						"label": "Alan Rickman",
+						"uri": "http://dbpedia.org/resource/Alan_Rickman"
+					},
+					{
+						"label": "Albert Finney",
+						"uri": "http://dbpedia.org/resource/Albert_Finney"
+					},
+					{
+						"label": "Alex Cox",
+						"uri": "http://dbpedia.org/resource/Alex_Cox"
+					},
+					{
+						"label": "Alice Walker",
+						"uri": "http://dbpedia.org/resource/Alice_Walker"
+					},
+					{
+						"label": "Alyson Hannigan",
+						"uri": "http://dbpedia.org/resource/Alyson_Hannigan"
+					},
+					{
+						"label": "Amartya Sen",
+						"uri": "http://dbpedia.org/resource/Amartya_Sen"
+					},
+					{
+						"label": "Andie MacDowell",
+						"uri": "http://dbpedia.org/resource/Andie_MacDowell"
+					},
+					{
+						"label": "Andrew Fastow",
+						"uri": "http://dbpedia.org/resource/Andrew_Fastow"
+					},
+					{
+						"label": "André Malraux",
+						"uri": "http://dbpedia.org/resource/André_Malraux"
+					},
+					{
+						"label": "Angela Davis",
+						"uri": "http://dbpedia.org/resource/Angela_Davis"
+					},
+					{
+						"label": "Anthony Quinn",
+						"uri": "http://dbpedia.org/resource/Anthony_Quinn"
+					},
+					{
+						"label": "Antonio Banderas",
+						"uri": "http://dbpedia.org/resource/Antonio_Banderas"
+					},
+					{
+						"label": "Ashley Judd",
+						"uri": "http://dbpedia.org/resource/Ashley_Judd"
+					},
+					{
+						"label": "Audrey Hepburn",
+						"uri": "http://dbpedia.org/resource/Audrey_Hepburn"
+					},
+					{
+						"label": "Ava Gardner",
+						"uri": "http://dbpedia.org/resource/Ava_Gardner"
+					},
+					{
+						"label": "Barbara Stanwyck",
+						"uri": "http://dbpedia.org/resource/Barbara_Stanwyck"
+					},
+					{
+						"label": "Barry White",
+						"uri": "http://dbpedia.org/resource/Barry_White"
+					},
+					{
+						"label": "Bay City Rollers",
+						"uri": "http://dbpedia.org/resource/Bay_City_Rollers"
+					},
+					{
+						"label": "Ben Elton",
+						"uri": "http://dbpedia.org/resource/Ben_Elton"
+					},
+					{
+						"label": "Benny Goodman",
+						"uri": "http://dbpedia.org/resource/Benny_Goodman"
+					},
+					{
+						"label": "Bessie Smith",
+						"uri": "http://dbpedia.org/resource/Bessie_Smith"
+					},
+					{
+						"label": "Betty Marsden",
+						"uri": "http://dbpedia.org/resource/Betty_Marsden"
+					},
+					{
+						"label": "Bill Hicks",
+						"uri": "http://dbpedia.org/resource/Bill_Hicks"
+					},
+					{
+						"label": "Billie Holiday",
+						"uri": "http://dbpedia.org/resource/Billie_Holiday"
+					},
+					{
+						"label": "Billy Joel",
+						"uri": "http://dbpedia.org/resource/Billy_Joel"
+					},
+					{
+						"label": "Blake Edwards",
+						"uri": "http://dbpedia.org/resource/Blake_Edwards"
+					},
+					{
+						"label": "Blur (band)",
+						"uri": "http://dbpedia.org/resource/Blur_(band)"
+					},
+					{
+						"label": "Bo Hansson",
+						"uri": "http://dbpedia.org/resource/Bo_Hansson"
+					},
+					{
+						"label": "Bob Keeshan",
+						"uri": "http://dbpedia.org/resource/Bob_Keeshan"
+					},
+					{
+						"label": "Brad Pitt",
+						"uri": "http://dbpedia.org/resource/Brad_Pitt"
+					},
+					{
+						"label": "Brian May",
+						"uri": "http://dbpedia.org/resource/Brian_May"
+					},
+					{
+						"label": "Bruce Lee",
+						"uri": "http://dbpedia.org/resource/Bruce_Lee"
+					},
+					{
+						"label": "Bugs Bunny",
+						"uri": "http://dbpedia.org/resource/Bugs_Bunny"
+					},
+					{
+						"label": "Buster Keaton",
+						"uri": "http://dbpedia.org/resource/Buster_Keaton"
+					},
+					{
+						"label": "Cameron Diaz",
+						"uri": "http://dbpedia.org/resource/Cameron_Diaz"
+					},
+					{
+						"label": "Carmen Miranda",
+						"uri": "http://dbpedia.org/resource/Carmen_Miranda"
+					},
+					{
+						"label": "Carole Lombard",
+						"uri": "http://dbpedia.org/resource/Carole_Lombard"
+					},
+					{
+						"label": "Cary Grant",
+						"uri": "http://dbpedia.org/resource/Cary_Grant"
+					},
+					{
+						"label": "Catherine Deneuve",
+						"uri": "http://dbpedia.org/resource/Catherine_Deneuve"
+					},
+					{
+						"label": "Charles Beaumont",
+						"uri": "http://dbpedia.org/resource/Charles_Beaumont"
+					},
+					{
+						"label": "Charlton Heston",
+						"uri": "http://dbpedia.org/resource/Charlton_Heston"
+					},
+					{
+						"label": "Chaz Bono",
+						"uri": "http://dbpedia.org/resource/Chaz_Bono"
+					},
+					{
+						"label": "Christopher Lambert",
+						"uri": "http://dbpedia.org/resource/Christopher_Lambert"
+					},
+					{
+						"label": "Christopher Lee",
+						"uri": "http://dbpedia.org/resource/Christopher_Lee"
+					},
+					{
+						"label": "Chuck Berry",
+						"uri": "http://dbpedia.org/resource/Chuck_Berry"
+					},
+					{
+						"label": "Clark Gable",
+						"uri": "http://dbpedia.org/resource/Clark_Gable"
+					},
+					{
+						"label": "Cliff Richard",
+						"uri": "http://dbpedia.org/resource/Cliff_Richard"
+					},
+					{
+						"label": "Clint Eastwood",
+						"uri": "http://dbpedia.org/resource/Clint_Eastwood"
+					},
+					{
+						"label": "Cream (band)",
+						"uri": "http://dbpedia.org/resource/Cream_(band)"
+					},
+					{
+						"label": "Cybill Shepherd",
+						"uri": "http://dbpedia.org/resource/Cybill_Shepherd"
+					},
+					{
+						"label": "Daffy Duck",
+						"uri": "http://dbpedia.org/resource/Daffy_Duck"
+					},
+					{
+						"label": "Dan Aykroyd",
+						"uri": "http://dbpedia.org/resource/Dan_Aykroyd"
+					},
+					{
+						"label": "Dannii Minogue",
+						"uri": "http://dbpedia.org/resource/Dannii_Minogue"
+					},
+					{
+						"label": "David Jason",
+						"uri": "http://dbpedia.org/resource/David_Jason"
+					},
+					{
+						"label": "David Niven",
+						"uri": "http://dbpedia.org/resource/David_Niven"
+					},
+					{
+						"label": "Deep Purple",
+						"uri": "http://dbpedia.org/resource/Deep_Purple"
+					},
+					{
+						"label": "Denise Richards",
+						"uri": "http://dbpedia.org/resource/Denise_Richards"
+					},
+					{
+						"label": "Desmond Llewelyn",
+						"uri": "http://dbpedia.org/resource/Desmond_Llewelyn"
+					},
+					{
+						"label": "Dizzy Gillespie",
+						"uri": "http://dbpedia.org/resource/Dizzy_Gillespie"
+					},
+					{
+						"label": "Dudley Moore",
+						"uri": "http://dbpedia.org/resource/Dudley_Moore"
+					},
+					{
+						"label": "Duke Ellington",
+						"uri": "http://dbpedia.org/resource/Duke_Ellington"
+					},
+					{
+						"label": "Dustin Hoffman",
+						"uri": "http://dbpedia.org/resource/Dustin_Hoffman"
+					},
+					{
+						"label": "Eileen Heckart",
+						"uri": "http://dbpedia.org/resource/Eileen_Heckart"
+					},
+					{
+						"label": "Eleanor Bron",
+						"uri": "http://dbpedia.org/resource/Eleanor_Bron"
+					},
+					{
+						"label": "Elia Kazan",
+						"uri": "http://dbpedia.org/resource/Elia_Kazan"
+					},
+					{
+						"label": "Elizabeth Taylor",
+						"uri": "http://dbpedia.org/resource/Elizabeth_Taylor"
+					},
+					{
+						"label": "Ella Fitzgerald",
+						"uri": "http://dbpedia.org/resource/Ella_Fitzgerald"
+					},
+					{
+						"label": "Emmanuelle Seigner",
+						"uri": "http://dbpedia.org/resource/Emmanuelle_Seigner"
+					},
+					{
+						"label": "Eric Idle",
+						"uri": "http://dbpedia.org/resource/Eric_Idle"
+					},
+					{
+						"label": "Eva Perón",
+						"uri": "http://dbpedia.org/resource/Eva_Perón"
+					},
+					{
+						"label": "Ezra Pound",
+						"uri": "http://dbpedia.org/resource/Ezra_Pound"
+					},
+					{
+						"label": "Fish (singer)",
+						"uri": "http://dbpedia.org/resource/Fish_(singer)"
+					},
+					{
+						"label": "Frank Gehry",
+						"uri": "http://dbpedia.org/resource/Frank_Gehry"
+					},
+					{
+						"label": "Fred Gwynne",
+						"uri": "http://dbpedia.org/resource/Fred_Gwynne"
+					},
+					{
+						"label": "Freddie Prinze",
+						"uri": "http://dbpedia.org/resource/Freddie_Prinze"
+					},
+					{
+						"label": "Gary Cooper",
+						"uri": "http://dbpedia.org/resource/Gary_Cooper"
+					},
+					{
+						"label": "Gedeon Burkhard",
+						"uri": "http://dbpedia.org/resource/Gedeon_Burkhard"
+					},
+					{
+						"label": "Genesis (band)",
+						"uri": "http://dbpedia.org/resource/Genesis_(band)"
+					},
+					{
+						"label": "Georgy Zhukov",
+						"uri": "http://dbpedia.org/resource/Georgy_Zhukov"
+					},
+					{
+						"label": "Gerry Adams",
+						"uri": "http://dbpedia.org/resource/Gerry_Adams"
+					},
+					{
+						"label": "Gillian Anderson",
+						"uri": "http://dbpedia.org/resource/Gillian_Anderson"
+					},
+					{
+						"label": "Glenn Close",
+						"uri": "http://dbpedia.org/resource/Glenn_Close"
+					},
+					{
+						"label": "Goldie",
+						"uri": "http://dbpedia.org/resource/Goldie"
+					},
+					{
+						"label": "Goldie Hawn",
+						"uri": "http://dbpedia.org/resource/Goldie_Hawn"
+					},
+					{
+						"label": "Graeme Garden",
+						"uri": "http://dbpedia.org/resource/Graeme_Garden"
+					},
+					{
+						"label": "Gwen Verdon",
+						"uri": "http://dbpedia.org/resource/Gwen_Verdon"
+					},
+					{
+						"label": "Gwyneth Paltrow",
+						"uri": "http://dbpedia.org/resource/Gwyneth_Paltrow"
+					},
+					{
+						"label": "Gérard Depardieu",
+						"uri": "http://dbpedia.org/resource/Gérard_Depardieu"
+					},
+					{
+						"label": "Haile Selassie",
+						"uri": "http://dbpedia.org/resource/Haile_Selassie"
+					},
+					{
+						"label": "Hari",
+						"uri": "http://dbpedia.org/resource/Hari"
+					},
+					{
+						"label": "Harrison Ford",
+						"uri": "http://dbpedia.org/resource/Harrison_Ford"
+					},
+					{
+						"label": "Harry Enfield",
+						"uri": "http://dbpedia.org/resource/Harry_Enfield"
+					},
+					{
+						"label": "Harry Houdini",
+						"uri": "http://dbpedia.org/resource/Harry_Houdini"
+					},
+					{
+						"label": "Hayden Christensen",
+						"uri": "http://dbpedia.org/resource/Hayden_Christensen"
+					},
+					{
+						"label": "Helen Atkinson-Wood",
+						"uri": "http://dbpedia.org/resource/Helen_Atkinson-Wood"
+					},
+					{
+						"label": "Helen Hunt",
+						"uri": "http://dbpedia.org/resource/Helen_Hunt"
+					}
+				]
+			},
+			"combination": false
+		},
+		{
+			"id": "540",
+			"language": "EN",
+			"type": "SENTENCE",
+			"bindingType": "LOCATION",
+			"returnType": "LOCATION",
+			"frameType": "FULL_DATASET",
+			"sentences": [
+				"Where is $x located?"
+			],
+			"queryType": "SELECT",
+			"sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+			"sentenceToSparqlParameterMapping": {
+				"$x": "subjOfProp"
+			},
+			"returnVariable": "objOfProp",
+			"sentenceBindings": {
+				"bindingVariableName": "$x",
+				"bindingList": [
+					{
+						"label": "Whitehaven, Memphis, Tennessee",
+						"uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+					},
+					{
+						"label": "Lake Zabuye",
+						"uri": "http://dbpedia.org/resource/Lake_Zabuye"
+					},
+					{
+						"label": "Mid-Atlantic states",
+						"uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+					},
+					{
+						"label": "New England",
+						"uri": "http://dbpedia.org/resource/New_England"
+					},
+					{
+						"label": "Kuta Raja",
+						"uri": "http://dbpedia.org/resource/Kuta_Raja"
+					},
+					{
+						"label": "San Biagio Maggiore",
+						"uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+					},
+					{
+						"label": "Namcha Barwa Himal",
+						"uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+					},
+					{
+						"label": "San Nicola a Nilo",
+						"uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+					},
+					{
+						"label": "Adra, Syria",
+						"uri": "http://dbpedia.org/resource/Adra,_Syria"
+					},
+					{
+						"label": "Al-Mazraa",
+						"uri": "http://dbpedia.org/resource/Al-Mazraa"
+					},
+					{
+						"label": "Al-Rastan",
+						"uri": "http://dbpedia.org/resource/Al-Rastan"
+					},
+					{
+						"label": "Al-Hawash, Homs Governorate",
+						"uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+					},
+					{
+						"label": "Ayn al-Bardah",
+						"uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+					},
+					{
+						"label": "Khabab",
+						"uri": "http://dbpedia.org/resource/Khabab"
+					},
+					{
+						"label": "Al-Kafr",
+						"uri": "http://dbpedia.org/resource/Al-Kafr"
+					},
+					{
+						"label": "Deir Mama",
+						"uri": "http://dbpedia.org/resource/Deir_Mama"
+					},
+					{
+						"label": "Madaya, Syria",
+						"uri": "http://dbpedia.org/resource/Madaya,_Syria"
+					},
+					{
+						"label": "Tayru",
+						"uri": "http://dbpedia.org/resource/Tayru"
+					},
+					{
+						"label": "Al-Khalidiyah, Syria",
+						"uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+					},
+					{
+						"label": "Al-Khalidiyah, al-Hasakah Governorate",
+						"uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+					},
+					{
+						"label": "Basatin al-Assad",
+						"uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+					},
+					{
+						"label": "Hala, Syria",
+						"uri": "http://dbpedia.org/resource/Hala,_Syria"
+					},
+					{
+						"label": "Harran, Idlib",
+						"uri": "http://dbpedia.org/resource/Harran,_Idlib"
+					},
+					{
+						"label": "Harran, as-Suwayda",
+						"uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+					},
+					{
+						"label": "Harran al-Awamid",
+						"uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+					},
+					{
+						"label": "Wadi al-Nasara",
+						"uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+					},
+					{
+						"label": "Abu Khanadiq",
+						"uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+					},
+					{
+						"label": "Abu Kleefun",
+						"uri": "http://dbpedia.org/resource/Abu_Kleefun"
+					},
+					{
+						"label": "Abul Fashafish",
+						"uri": "http://dbpedia.org/resource/Abul_Fashafish"
+					},
+					{
+						"label": "Al-'Amrah",
+						"uri": "http://dbpedia.org/resource/Al-'Amrah"
+					},
+					{
+						"label": "Al-Atnah",
+						"uri": "http://dbpedia.org/resource/Al-Atnah"
+					},
+					{
+						"label": "Al-Fayadiyah",
+						"uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+					},
+					{
+						"label": "Al-Humayra",
+						"uri": "http://dbpedia.org/resource/Al-Humayra"
+					},
+					{
+						"label": "Al-Jarajir",
+						"uri": "http://dbpedia.org/resource/Al-Jarajir"
+					},
+					{
+						"label": "Al-Khandaq al-Sharqiyah",
+						"uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+					},
+					{
+						"label": "Al-Muhajirin, Hama Governorate",
+						"uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+					},
+					{
+						"label": "Al-Narjis",
+						"uri": "http://dbpedia.org/resource/Al-Narjis"
+					},
+					{
+						"label": "Al-Nazaza",
+						"uri": "http://dbpedia.org/resource/Al-Nazaza"
+					},
+					{
+						"label": "Al-Nour, Syria",
+						"uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+					},
+					{
+						"label": "Al-Ramlah, Syria",
+						"uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+					},
+					{
+						"label": "Al-Salihiyah, Hama",
+						"uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+					},
+					{
+						"label": "Al-Sindiyana, Suqaylabiyah",
+						"uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+					},
+					{
+						"label": "Al-Swaia",
+						"uri": "http://dbpedia.org/resource/Al-Swaia"
+					},
+					{
+						"label": "Al-Thawrah, Hama Governorate",
+						"uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+					},
+					{
+						"label": "Al-Tulaysiyah al-Janubiyah",
+						"uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+					},
+					{
+						"label": "Al-Zitiyah",
+						"uri": "http://dbpedia.org/resource/Al-Zitiyah"
+					},
+					{
+						"label": "Ammurin",
+						"uri": "http://dbpedia.org/resource/Ammurin"
+					},
+					{
+						"label": "Ayn Dara",
+						"uri": "http://dbpedia.org/resource/Ayn_Dara"
+					},
+					{
+						"label": "Balluneh",
+						"uri": "http://dbpedia.org/resource/Balluneh"
+					},
+					{
+						"label": "Beij",
+						"uri": "http://dbpedia.org/resource/Beij"
+					},
+					{
+						"label": "Bgheidid",
+						"uri": "http://dbpedia.org/resource/Bgheidid"
+					},
+					{
+						"label": "Bustan Sbeih",
+						"uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+					},
+					{
+						"label": "Deir Sunbul",
+						"uri": "http://dbpedia.org/resource/Deir_Sunbul"
+					},
+					{
+						"label": "Ein Elhamam",
+						"uri": "http://dbpedia.org/resource/Ein_Elhamam"
+					},
+					{
+						"label": "Ein Warideh",
+						"uri": "http://dbpedia.org/resource/Ein_Warideh"
+					},
+					{
+						"label": "Elrihana",
+						"uri": "http://dbpedia.org/resource/Elrihana"
+					},
+					{
+						"label": "Fawrah",
+						"uri": "http://dbpedia.org/resource/Fawrah"
+					},
+					{
+						"label": "Hamrit",
+						"uri": "http://dbpedia.org/resource/Hamrit"
+					},
+					{
+						"label": "Hanuteh",
+						"uri": "http://dbpedia.org/resource/Hanuteh"
+					},
+					{
+						"label": "Hdaj",
+						"uri": "http://dbpedia.org/resource/Hdaj"
+					},
+					{
+						"label": "Jakuziyeh",
+						"uri": "http://dbpedia.org/resource/Jakuziyeh"
+					},
+					{
+						"label": "Jamala, Hama",
+						"uri": "http://dbpedia.org/resource/Jamala,_Hama"
+					},
+					{
+						"label": "Jeb Dkileh",
+						"uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+					},
+					{
+						"label": "Jeb Zreiq",
+						"uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+					},
+					{
+						"label": "Jessine",
+						"uri": "http://dbpedia.org/resource/Jessine"
+					},
+					{
+						"label": "Karama, Hama",
+						"uri": "http://dbpedia.org/resource/Karama,_Hama"
+					},
+					{
+						"label": "Kasun Eljabal",
+						"uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+					},
+					{
+						"label": "Kawri",
+						"uri": "http://dbpedia.org/resource/Kawri"
+					},
+					{
+						"label": "Khala, Hama",
+						"uri": "http://dbpedia.org/resource/Khala,_Hama"
+					},
+					{
+						"label": "Khansaa - Shetheh",
+						"uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+					},
+					{
+						"label": "Maar Shamali",
+						"uri": "http://dbpedia.org/resource/Maar_Shamali"
+					},
+					{
+						"label": "Makhbuta",
+						"uri": "http://dbpedia.org/resource/Makhbuta"
+					},
+					{
+						"label": "Maksar, Hama",
+						"uri": "http://dbpedia.org/resource/Maksar,_Hama"
+					},
+					{
+						"label": "Marana, Hama",
+						"uri": "http://dbpedia.org/resource/Marana,_Hama"
+					},
+					{
+						"label": "Mashta Elshalahmeh",
+						"uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+					},
+					{
+						"label": "Mastarihat Afamiyah",
+						"uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+					},
+					{
+						"label": "Mrikb",
+						"uri": "http://dbpedia.org/resource/Mrikb"
+					},
+					{
+						"label": "Mweileh",
+						"uri": "http://dbpedia.org/resource/Mweileh"
+					},
+					{
+						"label": "Nabe Eltib",
+						"uri": "http://dbpedia.org/resource/Nabe_Eltib"
+					},
+					{
+						"label": "Ojet - Kabasin Elarab",
+						"uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+					},
+					{
+						"label": "Ojt Eltoba",
+						"uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+					},
+					{
+						"label": "Qal'at al-Jaras",
+						"uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+					},
+					{
+						"label": "Qanater, Hama Governorate",
+						"uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+					},
+					{
+						"label": "Qastal al-Burj",
+						"uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+					},
+					{
+						"label": "Ras al-Maara",
+						"uri": "http://dbpedia.org/resource/Ras_al-Maara"
+					},
+					{
+						"label": "Rasm Al-Brdkana",
+						"uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+					},
+					{
+						"label": "Rasm Amun",
+						"uri": "http://dbpedia.org/resource/Rasm_Amun"
+					},
+					{
+						"label": "Rasm Anz",
+						"uri": "http://dbpedia.org/resource/Rasm_Anz"
+					},
+					{
+						"label": "Rasm Elahmar",
+						"uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+					},
+					{
+						"label": "Rudat al-Tar",
+						"uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+					},
+					{
+						"label": "Rweideh",
+						"uri": "http://dbpedia.org/resource/Rweideh"
+					},
+					{
+						"label": "Saidiyeh, Hama",
+						"uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+					},
+					{
+						"label": "Saqiyet Nijm",
+						"uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+					},
+					{
+						"label": "Shahta",
+						"uri": "http://dbpedia.org/resource/Shahta"
+					},
+					{
+						"label": "Shatheh",
+						"uri": "http://dbpedia.org/resource/Shatheh"
+					},
+					{
+						"label": "Shaykh Ali",
+						"uri": "http://dbpedia.org/resource/Shaykh_Ali"
+					},
+					{
+						"label": "Suwak al-Shamali",
+						"uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+					},
+					{
+						"label": "Tabara Elhamra",
+						"uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+					},
+					{
+						"label": "Tahunet Elhalawa",
+						"uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+					},
+					{
+						"label": "Tell al-Shih",
+						"uri": "http://dbpedia.org/resource/Tell_al-Shih"
+					}
+				]
+			},
+			"combination": false
+		}
+	]
+}

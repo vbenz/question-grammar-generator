@@ -1,53 +1,89 @@
 package grammar.generator;
 
-import eu.monnetproject.lemon.model.LexicalEntry;
-import eu.monnetproject.lemon.model.LexicalForm;
-import eu.monnetproject.lemon.model.LexicalSense;
-import eu.monnetproject.lemon.model.Property;
-import eu.monnetproject.lemon.model.PropertyValue;
 import grammar.generator.helper.BindingConstants;
-import grammar.generator.helper.SentenceConstants;
+import grammar.generator.helper.SentenceBuilderTransitiveVPEN;
 import grammar.generator.helper.SubjectType;
-import grammar.generator.helper.sentencetemplates.SentenceBuilderTransitiveVPEN;
-import grammar.sparql.querycomponent.SelectVariable;
+import grammar.generator.helper.sentencetemplates.AnnotatedVerb;
+import grammar.structure.component.DomainOrRangeType;
 import grammar.structure.component.FrameType;
 import grammar.structure.component.Language;
+import grammar.structure.component.SentenceType;
+import lexicon.LexicalEntryUtil;
 import net.lexinfo.LexInfo;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import util.exceptions.QueGGMissingFactoryClassException;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import static grammar.generator.helper.BindingConstants.BINDING_TOKEN_TEMPLATE;
+import static lexicon.LexicalEntryUtil.getDeterminerTokenByNumber;
+
 public class TransitiveVPGrammarRuleGenerator extends GrammarRuleGeneratorRoot {
+  private static final Logger LOG = LogManager.getLogger(TransitiveVPGrammarRuleGenerator.class);
 
   public TransitiveVPGrammarRuleGenerator(Language language) {
     super(FrameType.VP, language, BindingConstants.DEFAULT_BINDING_VARIABLE);
   }
 
   @Override
-  public List<String> generateSentences(SelectVariable selectVariable, LexicalEntry lexicalEntry, LexicalSense lexicalSense) {
+  public List<String> generateSentences(LexicalEntryUtil lexicalEntryUtil) throws
+                                                                                                          QueGGMissingFactoryClassException {
     List<String> generatedSentences = new ArrayList<>();
-    SentenceConstants sentenceConstants = new SentenceConstants();
-    LexInfo lexInfo = new LexInfo();
-    Property tenseP = lexInfo.getProperty("verbFormMood");
-    PropertyValue participlePV = lexInfo.getPropertyValue("participle");
 
-    SubjectType subjectType = getSubjectType(selectVariable, lexicalEntry.getSenses().iterator().next().getReference().toString());
-    String qWord = sentenceConstants.getLanguageQWordMap().get(getLanguage()).get(subjectType);
+    SubjectType subjectType = lexicalEntryUtil.getSubjectType(lexicalEntryUtil.getSelectVariable());
+    String qWord = lexicalEntryUtil.getSubjectBySubjectType(subjectType, getLanguage(), null);
 
-    List<LexicalForm> otherForms = new ArrayList<>(lexicalEntry.getOtherForms());
-    for (LexicalForm lexicalForm : otherForms) {
-      String verbFormMood = "";
-      if (lexicalForm.getProperty(tenseP).contains(participlePV)) {
-        verbFormMood = participlePV.toString();
-        qWord = sentenceConstants.getLanguageQWordMap().get(getLanguage()).get(subjectType.equals(SubjectType.PERSON) ? SubjectType.PERSON2 : subjectType);
+    List<AnnotatedVerb> annotatedVerbs = lexicalEntryUtil.parseLexicalEntryToAnnotatedVerbs();
+    for (AnnotatedVerb annotatedVerb : annotatedVerbs) {
+      // skip infinitive forms
+      if (new LexInfo().getPropertyValue("infinitive").equals(annotatedVerb.getVerbFormMood())) {
+        continue;
       }
-      SentenceBuilderTransitiveVPEN sentenceBuilder = new SentenceBuilderTransitiveVPEN(qWord, lexicalForm.getWrittenRep().value, getBindingVariable());
-      String sentence = sentenceBuilder.getSentence(selectVariable, verbFormMood);
-      if (!sentence.isEmpty()) {
-        generatedSentences.add(sentence);
+      // Make simple sentence (who develops $x?)
+      SentenceBuilderTransitiveVPEN sentenceBuilder = new SentenceBuilderTransitiveVPEN(
+        qWord,
+        annotatedVerb.getWrittenRepValue(),
+        String.format(
+          BINDING_TOKEN_TEMPLATE,
+          getBindingVariable(),
+          DomainOrRangeType.getMatchingType(lexicalEntryUtil.getConditionUriBySelectVariable(
+            LexicalEntryUtil.getOppositeSelectVariable(lexicalEntryUtil.getSelectVariable())
+          )).name(),
+          SentenceType.NP
+        )
+      );
+      String sentence = sentenceBuilder.getSentence();
+      generatedSentences.add(sentence);
+      // Make sentence using the specified domain or range property (Which museum exhibits $x?)
+      String conditionLabel = lexicalEntryUtil.getReturnVariableConditionLabel(lexicalEntryUtil.getSelectVariable());
+      // Only generate "Which <condition-label>" if condition label is a DBPedia entity
+      if (lexicalEntryUtil.hasInvalidDeterminerToken(lexicalEntryUtil.getSelectVariable())) {
+        continue;
       }
-//        generatedSentences.add(String.format("By %s %s %s %s?", qWord, isString, getBindingVariable(), lexicalEntry.getAlternativeForms().get(s)));
+      String determiner = lexicalEntryUtil.getSubjectBySubjectType(
+        SubjectType.INTERROGATIVE_DETERMINER,
+        getLanguage(),
+        null
+      );
+      String determinerToken = getDeterminerTokenByNumber(annotatedVerb.getNumber(), conditionLabel, determiner);
+      SentenceBuilderTransitiveVPEN determinerSentenceBuilder = new SentenceBuilderTransitiveVPEN(
+        determinerToken,
+        annotatedVerb.getWrittenRepValue(),
+        String.format(
+          BINDING_TOKEN_TEMPLATE,
+          getBindingVariable(),
+          DomainOrRangeType.getMatchingType(lexicalEntryUtil.getConditionUriBySelectVariable(
+            LexicalEntryUtil.getOppositeSelectVariable(lexicalEntryUtil.getSelectVariable())
+          )).name(),
+          SentenceType.NP
+        )
+      );
+      sentence = determinerSentenceBuilder.getSentence();
+      generatedSentences.add(sentence);
     }
+    generatedSentences.sort(String::compareToIgnoreCase);
     return generatedSentences;
   }
 }

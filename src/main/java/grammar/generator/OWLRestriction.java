@@ -1,7 +1,6 @@
 package grammar.generator;
 
 import eu.monnetproject.lemon.model.LexicalEntry;
-import eu.monnetproject.lemon.model.LexicalSense;
 import eu.monnetproject.lemon.model.Lexicon;
 import lexicon.LexiconSearch;
 import org.apache.jena.vocabulary.OWL;
@@ -16,15 +15,13 @@ public class OWLRestriction {
   private static final Logger LOG = LogManager.getLogger(OWLRestriction.class);
 
   private final Lexicon lexicon;
-  private final LexicalEntry lexicalEntry;
-  private final LexicalSense lexicalSense;
+  private final URI lexicalSenseReference;
   private String property;
   private String value;
 
-  public OWLRestriction(Lexicon lexicon, LexicalEntry lexicalEntry, LexicalSense lexicalSense) {
+  public OWLRestriction(Lexicon lexicon, URI lexicalSenseReference) {
     this.lexicon = lexicon;
-    this.lexicalEntry = lexicalEntry;
-    this.lexicalSense = lexicalSense;
+    this.lexicalSenseReference = lexicalSenseReference;
   }
 
   public String getProperty() {
@@ -38,12 +35,13 @@ public class OWLRestriction {
   public OWLRestriction invoke() {
     property = "";
     value = "";
-    LexicalEntry lexicalEntryAdj = LexiconSearch.getReferencedResource(lexicon, lexicalSense.getReference());
+    LexicalEntry lexicalEntryAdj = new LexiconSearch(lexicon).getReferencedResource(lexicalSenseReference);
     if (!isNull(lexicalEntryAdj)) {
       property = lexicalEntryAdj.getAnnotations().get(URI.create(OWL.onProperty.getURI())).iterator().next().toString();
       value = lexicalEntryAdj.getAnnotations().get(URI.create(OWL.hasValue.getURI())).iterator().next().toString();
-    } else {
-      LOG.error("Could not find lexical entry {}", lexicalSense.getReference());
+    } else if (lexicalSenseReference.toString().contains(LexiconSearch.LEXICON_BASE_URI)) {
+      // lexicalSenseReference is a reference to a local lexicalEntry, but it could not be found.
+      LOG.error("Could not find lexical entry {}", lexicalSenseReference);
     }
     return this;
   }

@@ -13,6 +13,7 @@ public class GrammarWrapper {
 
   /**
    * Merge another GrammarWrapper with this one.
+   *
    * @param grammarWrapper the GrammarWrapper to merge
    */
   public void merge(GrammarWrapper grammarWrapper) {

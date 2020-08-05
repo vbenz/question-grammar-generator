@@ -9,7 +9,19 @@ import java.util.regex.Pattern;
 import static java.util.Objects.isNull;
 
 public class PatternMatchHelper {
-  private static Logger LOG = LogManager.getLogger(PatternMatchHelper.class);
+  private static final Logger LOG = LogManager.getLogger(PatternMatchHelper.class);
+
+  /**
+   * Returns a match for the specified pattern inside the matchTarget.
+   * The returned string will be the match in the group with index 1.
+   *
+   * @param matchTarget The string that will be checked for pattern occurrence.
+   * @param pattern     The pattern that will be searched in the matchTarget.
+   * @return The first item that was matched and is contained in the specified group or "" if there was no match.
+   */
+  public static String getPatternMatch(String matchTarget, Pattern pattern) {
+    return getPatternMatch(matchTarget, pattern, "", 1);
+  }
 
   /**
    * Returns a match for the specified pattern inside the matchTarget.
@@ -33,18 +45,6 @@ public class PatternMatchHelper {
       matchedItem = "";
     }
     return matchedItem;
-  }
-
-  /**
-   * Returns a match for the specified pattern inside the matchTarget.
-   * The returned string will be the match in the group with index 1.
-   *
-   * @param matchTarget The string that will be checked for pattern occurrence.
-   * @param pattern     The pattern that will be searched in the matchTarget.
-   * @return The first item that was matched and is contained in the specified group or "" if there was no match.
-   */
-  public static String getPatternMatch(String matchTarget, Pattern pattern) {
-    return getPatternMatch(matchTarget, pattern, "", 1);
   }
 
   /**
