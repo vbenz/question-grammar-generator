@@ -26,16 +26,28 @@ public class QueGG {
   private static final Logger LOG = LogManager.getLogger(QueGG.class);
 
   public static void main(String[] args) {
+        Language language=Language.stringToLanguage("EN");
+        String inputDir="src/main/resources/lexicon/en/nouns/new/input";
+        String outputDir="src/main/resources/lexicon/en/nouns/new/output";
+      
     try {
       if (args.length < 3) {
-        throw new IllegalArgumentException(String.format("Too few parameters (%s/%s)", args.length, 3));
+        System.out.println("running on default parameter!!");
+        System.out.println("language:"+language);
+        System.out.println("inputDir:"+inputDir);
+        System.out.println("outputDir:"+outputDir);     
       }
+      else{
+        language = Language.stringToLanguage(args[0]);
+        inputDir=Path.of(args[1]).toString();
+        outputDir=Path.of(args[2]).toString(); 
+      }
+          
       QueGG queGG = new QueGG();
-      Language language = Language.stringToLanguage(args[0]);
       LOG.info("Starting {} with language parameter '{}'", QueGG.class.getName(), language);
-      LOG.info("Input directory: {}", Path.of(args[1]).toString());
-      LOG.info("Output directory: {}", Path.of(args[2]).toString());
-      queGG.init(Language.stringToLanguage(args[0]), Path.of(args[1]).toString(), Path.of(args[2]).toString());
+      LOG.info("Input directory: {}", inputDir);
+      LOG.info("Output directory: {}",outputDir);
+      queGG.init(language, inputDir, outputDir);
       LOG.warn("To get optimal combinations of sentences please add the following types to {}\n{}",
                DomainOrRangeType.class.getName(), DomainOrRangeType.MISSING_TYPES.toString()
       );
@@ -44,7 +56,7 @@ public class QueGG {
       System.err.printf("Usage: <%s> <input directory> <output directory>%n", Arrays.toString(Language.values()));
     }
   }
-
+        
   private void init(Language language, String inputDir, String outputDir) throws IOException {
     try {
       loadInputAndGenerate(language, inputDir, outputDir);
