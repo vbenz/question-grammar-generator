@@ -14,7 +14,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.net.URISyntaxException;
 import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.stream.Collectors;
@@ -48,7 +47,7 @@ public class QueGG {
   private void init(Language language, String inputDir, String outputDir) throws IOException {
     try {
       loadInputAndGenerate(language, inputDir, outputDir);
-    } catch (URISyntaxException | InvocationTargetException | NoSuchMethodException | InstantiationException | IllegalAccessException e) {
+    } catch (InvocationTargetException | NoSuchMethodException | InstantiationException | IllegalAccessException e) {
       LOG.error("Could not create grammar: {}", e.getMessage());
     }
   }
@@ -58,11 +57,44 @@ public class QueGG {
                                                                                       InvocationTargetException,
                                                                                       NoSuchMethodException,
                                                                                       InstantiationException,
-                                                                                      IllegalAccessException,
-                                                                                      URISyntaxException {
+                                                                                      IllegalAccessException {
     LexiconImporter lexiconImporter = new LexiconImporter();
     LemonModel lemonModel = lexiconImporter.loadModelFromDir(inputDir, lang.toString().toLowerCase());
+    printInputSummary(lemonModel);
     generateByFrameType(lang, lemonModel, outputDir);
+  }
+
+  private void printInputSummary(LemonModel lemonModel) {
+    lemonModel
+      .getLexica()
+      .forEach(
+        lexicon ->
+        {
+          LOG.info("The input lexicon contains the following grammar frames:");
+          Arrays.stream(FrameType.values()).forEach(
+            frameType -> {
+              LOG.info(
+                "{}: {}",
+                frameType.getName(),
+                // count of elements that have that frame
+                lexicon.getEntrys()
+                       .stream()
+                       .filter(lexicalEntry ->
+                                 lexicalEntry.getSynBehaviors()
+                                             .stream()
+                                             .anyMatch(frame ->
+                                                         frame.getTypes()
+                                                              .stream()
+                                                              .anyMatch(
+                                                                uri -> uri.getFragment().equals(frameType.getName())
+                                                              )
+                                             )
+                       )
+                       .count()
+              );
+            });
+        }
+      );
   }
 
   private void generateByFrameType(Language language, LemonModel lemonModel, String outputDir) throws
@@ -110,17 +142,25 @@ public class QueGG {
     grammarWrapper.getGrammarEntries().forEach(generatorRoot::generateBindings);
 
     generatorRoot.dumpToJSON(
-      Path.of(outputDir,
-        "grammar_" + generatorRoot.getFrameType().getName() + "_" + language + ".json").toString(),
+      Path.of(
+        outputDir,
+        "grammar_" + generatorRoot.getFrameType().getName() + "_" + language + ".json"
+      ).toString(),
       regularEntries
     );
-    generatorRoot.dumpToJSON(Path.of(outputDir, "grammar_COMBINATIONS" + "_" + language + ".json").toString(), combinedEntries);
+    generatorRoot.dumpToJSON(
+      Path.of(outputDir, "grammar_COMBINATIONS" + "_" + language + ".json").toString(),
+      combinedEntries
+    );
 
     // Insert those bindings and write new files
     LOG.info("Start resolving bindings");
     BindingResolver bindingResolver = new BindingResolver(grammarWrapper.getGrammarEntries());
     grammarWrapper = bindingResolver.resolve();
-    generatorRoot.dumpToJSON(Path.of(outputDir, "grammar_FULL_WITH_BINDINGS_" + language + ".json").toString(), grammarWrapper);
+    generatorRoot.dumpToJSON(
+      Path.of(outputDir, "grammar_FULL_WITH_BINDINGS_" + language + ".json").toString(),
+      grammarWrapper
+    );
 
   }
 
