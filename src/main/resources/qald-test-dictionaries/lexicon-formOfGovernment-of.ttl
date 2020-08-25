@@ -10,29 +10,29 @@
   lemon:entry    :formOfGovernment_of ;
   lemon:entry    :of .
 
-:formOfGovernment_of a          lemon:LexicalEntry ;
+:formOfGovernment_of a      lemon:LexicalEntry ;
   lexinfo:partOfSpeech lexinfo:noun ;
   lemon:canonicalForm  :formOfGovernment_form ;
   lemon:synBehavior    :formOfGovernment_of_nounpp ;
   lemon:sense          :formOfGovernment_sense_ontomap .
 
-:formOfGovernment_form a    lemon:Form ;
-  lemon:writtenRep "form of government"@en .
+:formOfGovernment_form a lemon:Form ;
+  lemon:writtenRep  "form of government"@en .
 
-:formOfGovernment_of_nounpp a           lexinfo:NounPPFrame ;
+:formOfGovernment_of_nounpp a       lexinfo:NounPPFrame ;
   lexinfo:copulativeArg        :arg1 ;
   lexinfo:prepositionalAdjunct :arg2 .
 
 :formOfGovernment_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
-  lemon:ontoMapping      :formOfGovernment_sense_ontomap ;
-  lemon:reference        <http://dbpedia.org/ontology/governmentType> ;
-  lemon:subjOfProp       :arg2 ;
-  lemon:objOfProp        :arg1 ;
-  lemon:condition        :formOfGovernment_condition .
+  lemon:ontoMapping          :formOfGovernment_sense_ontomap ;
+  lemon:reference            <http://dbpedia.org/ontology/governmentType> ;
+  lemon:subjOfProp           :arg2 ;
+  lemon:objOfProp            :arg1 ;
+  lemon:condition            :formOfGovernment_condition .
 
-:formOfGovernment_condition a   lemon:condition ;
-  lemon:propertyDomain <http://dbpedia.org/ontology/Country> ;
-  lemon:propertyRange  <http://dbpedia.org/ontology/governmentType> .
+:formOfGovernment_condition a lemon:condition ;
+  lemon:propertyDomain   <http://dbpedia.org/ontology/Country> ;
+  lemon:propertyRange    <http://dbpedia.org/ontology/GovernmentType> .
 
 :arg2 lemon:marker :of .
 

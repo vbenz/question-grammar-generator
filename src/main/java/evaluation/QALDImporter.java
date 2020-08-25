@@ -14,9 +14,13 @@ import java.util.List;
 import static util.io.ResourceHelper.loadResource;
 
 public class QALDImporter {
-  public static final String QALD_FILE = "QALD-2017/qald-7-train-multilingual.json";
-  public static final String QALD_FILE_MODIFIED = "QALD-2017/qald-7-train-multilingual_modified.json";
-  private static final Logger LOG = LogManager.getLogger(QALDImporter.class);
+   //public static final String QALD_FILE = "QALD-2017/qald-7-train-multilingual.json";
+   //public static final String QALD_FILE_MODIFIED = "QALD-2017/qald-7-train-multilingual_modified.json";
+   public static final String QALD_FILE = "QALD-2017/qald-7-test-multilingual.json";
+   public static final String QALD_FILE_MODIFIED = "QALD-2017/qald-7-test-multilingual_modified.json";
+ 
+    
+    private static final Logger LOG = LogManager.getLogger(QALDImporter.class);
 
   public QALDImporter() {}
 

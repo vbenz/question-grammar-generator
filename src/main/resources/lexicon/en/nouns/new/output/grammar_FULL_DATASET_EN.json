@@ -1,0 +1,960 @@
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["What is the name of ($x | THING_NP)?", "What was the name of ($x | THING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/battle> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Gamal Abdel Nasser",
+                        "uri": "http://dbpedia.org/resource/Gamal_Abdel_Nasser"
+                    }, {
+                        "label": "Yitzhak Rabin",
+                        "uri": "http://dbpedia.org/resource/Yitzhak_Rabin"
+                    }, {
+                        "label": "Billy Fiske",
+                        "uri": "http://dbpedia.org/resource/Billy_Fiske"
+                    }, {
+                        "label": "Oskar Romm",
+                        "uri": "http://dbpedia.org/resource/Oskar_Romm"
+                    }, {
+                        "label": "Alan Christopher Deere",
+                        "uri": "http://dbpedia.org/resource/Alan_Christopher_Deere"
+                    }, {
+                        "label": "Desmond Piers",
+                        "uri": "http://dbpedia.org/resource/Desmond_Piers"
+                    }, {
+                        "label": "Douglas Bader",
+                        "uri": "http://dbpedia.org/resource/Douglas_Bader"
+                    }, {
+                        "label": "Gerhard Konopka",
+                        "uri": "http://dbpedia.org/resource/Gerhard_Konopka"
+                    }, {
+                        "label": "Helmut Witte",
+                        "uri": "http://dbpedia.org/resource/Helmut_Witte"
+                    }, {
+                        "label": "Jesse B. Oldendorf",
+                        "uri": "http://dbpedia.org/resource/Jesse_B._Oldendorf"
+                    }, {
+                        "label": "Johannes de Boer",
+                        "uri": "http://dbpedia.org/resource/Johannes_de_Boer"
+                    }, {
+                        "label": "Jonathan Rogers (GC)",
+                        "uri": "http://dbpedia.org/resource/Jonathan_Rogers_(GC)"
+                    }, {
+                        "label": "Keith Park",
+                        "uri": "http://dbpedia.org/resource/Keith_Park"
+                    }, {
+                        "label": "Tim Vigors",
+                        "uri": "http://dbpedia.org/resource/Tim_Vigors"
+                    }, {
+                        "label": "No. 232 Squadron RAF",
+                        "uri": "http://dbpedia.org/resource/No._232_Squadron_RAF"
+                    }, {
+                        "label": "No. 234 Squadron RAF",
+                        "uri": "http://dbpedia.org/resource/No._234_Squadron_RAF"
+                    }, {
+                        "label": "Alfred Eick",
+                        "uri": "http://dbpedia.org/resource/Alfred_Eick"
+                    }, {
+                        "label": "Barrie Heath",
+                        "uri": "http://dbpedia.org/resource/Barrie_Heath"
+                    }, {
+                        "label": "Ernst Hechler",
+                        "uri": "http://dbpedia.org/resource/Ernst_Hechler"
+                    }, {
+                        "label": "Georg Olschewski",
+                        "uri": "http://dbpedia.org/resource/Georg_Olschewski"
+                    }, {
+                        "label": "Gerhard Thäter",
+                        "uri": "http://dbpedia.org/resource/Gerhard_Thäter"
+                    }, {
+                        "label": "Heinrich Praßdorf",
+                        "uri": "http://dbpedia.org/resource/Heinrich_Praßdorf"
+                    }, {
+                        "label": "Heinrich Schroeteler",
+                        "uri": "http://dbpedia.org/resource/Heinrich_Schroeteler"
+                    }, {
+                        "label": "Heinz Sieder",
+                        "uri": "http://dbpedia.org/resource/Heinz_Sieder"
+                    }, {
+                        "label": "Hellmut Rohweder",
+                        "uri": "http://dbpedia.org/resource/Hellmut_Rohweder"
+                    }, {
+                        "label": "Horst Hofmann",
+                        "uri": "http://dbpedia.org/resource/Horst_Hofmann"
+                    }, {
+                        "label": "Horst von Schroeter",
+                        "uri": "http://dbpedia.org/resource/Horst_von_Schroeter"
+                    }, {
+                        "label": "Mohammad Shariff",
+                        "uri": "http://dbpedia.org/resource/Mohammad_Shariff"
+                    }, {
+                        "label": "Otto Westphalen",
+                        "uri": "http://dbpedia.org/resource/Otto_Westphalen"
+                    }, {
+                        "label": "Rudolf Mühlbauer",
+                        "uri": "http://dbpedia.org/resource/Rudolf_Mühlbauer"
+                    }, {
+                        "label": "Siegfried Koitschka",
+                        "uri": "http://dbpedia.org/resource/Siegfried_Koitschka"
+                    }, {
+                        "label": "Siegfried Lüdden",
+                        "uri": "http://dbpedia.org/resource/Siegfried_Lüdden"
+                    }, {
+                        "label": "Vernon Keogh",
+                        "uri": "http://dbpedia.org/resource/Vernon_Keogh"
+                    }, {
+                        "label": "Adolf Borchers",
+                        "uri": "http://dbpedia.org/resource/Adolf_Borchers"
+                    }, {
+                        "label": "Bruno Stolle",
+                        "uri": "http://dbpedia.org/resource/Bruno_Stolle"
+                    }, {
+                        "label": "Edward Wolfe (RAF officer)",
+                        "uri": "http://dbpedia.org/resource/Edward_Wolfe_(RAF_officer)"
+                    }, {
+                        "label": "Erich Schmidt (pilot)",
+                        "uri": "http://dbpedia.org/resource/Erich_Schmidt_(pilot)"
+                    }, {
+                        "label": "Friedrich Beckh",
+                        "uri": "http://dbpedia.org/resource/Friedrich_Beckh"
+                    }, {
+                        "label": "Georg Ackermann (pilot)",
+                        "uri": "http://dbpedia.org/resource/Georg_Ackermann_(pilot)"
+                    }, {
+                        "label": "Hans Fritsche (officer)",
+                        "uri": "http://dbpedia.org/resource/Hans_Fritsche_(officer)"
+                    }, {
+                        "label": "Johannes Steinhoff",
+                        "uri": "http://dbpedia.org/resource/Johannes_Steinhoff"
+                    }, {
+                        "label": "Olaf M. Hustvedt",
+                        "uri": "http://dbpedia.org/resource/Olaf_M._Hustvedt"
+                    }, {
+                        "label": "Reinhard Günzel (pilot)",
+                        "uri": "http://dbpedia.org/resource/Reinhard_Günzel_(pilot)"
+                    }, {
+                        "label": "Roland Beamont",
+                        "uri": "http://dbpedia.org/resource/Roland_Beamont"
+                    }, {
+                        "label": "Vasily Sokolovsky",
+                        "uri": "http://dbpedia.org/resource/Vasily_Sokolovsky"
+                    }, {
+                        "label": "Vollrath Lübbe",
+                        "uri": "http://dbpedia.org/resource/Vollrath_Lübbe"
+                    }, {
+                        "label": "Wilhelm Mink (pilot)",
+                        "uri": "http://dbpedia.org/resource/Wilhelm_Mink_(pilot)"
+                    }, {
+                        "label": "Alexander Danilovich Menshikov",
+                        "uri": "http://dbpedia.org/resource/Alexander_Danilovich_Menshikov"
+                    }, {
+                        "label": "Henry Kent Hewitt",
+                        "uri": "http://dbpedia.org/resource/Henry_Kent_Hewitt"
+                    }, {
+                        "label": "No. 162 Squadron RCAF",
+                        "uri": "http://dbpedia.org/resource/No._162_Squadron_RCAF"
+                    }, {
+                        "label": "Jordanian Central Command",
+                        "uri": "http://dbpedia.org/resource/Jordanian_Central_Command"
+                    }, {
+                        "label": "Jordanian Northern Command",
+                        "uri": "http://dbpedia.org/resource/Jordanian_Northern_Command"
+                    }, {
+                        "label": "1st Air Army",
+                        "uri": "http://dbpedia.org/resource/1st_Air_Army"
+                    }, {
+                        "label": "40th Army (Soviet Union)",
+                        "uri": "http://dbpedia.org/resource/40th_Army_(Soviet_Union)"
+                    }, {
+                        "label": "Fritz Losigkeit",
+                        "uri": "http://dbpedia.org/resource/Fritz_Losigkeit"
+                    }, {
+                        "label": "Geoffrey Page",
+                        "uri": "http://dbpedia.org/resource/Geoffrey_Page"
+                    }, {
+                        "label": "Gerhard Schöpfel",
+                        "uri": "http://dbpedia.org/resource/Gerhard_Schöpfel"
+                    }, {
+                        "label": "Hans \"Assi\" Hahn",
+                        "uri": "http://dbpedia.org/resource/Hans_%22Assi%22_Hahn"
+                    }, {
+                        "label": "Heinz Lange",
+                        "uri": "http://dbpedia.org/resource/Heinz_Lange"
+                    }, {
+                        "label": "No. 242 Squadron RAF",
+                        "uri": "http://dbpedia.org/resource/No._242_Squadron_RAF"
+                    }, {
+                        "label": "Rodger Winn",
+                        "uri": "http://dbpedia.org/resource/Rodger_Winn"
+                    }, {
+                        "label": "Alexander Gläser",
+                        "uri": "http://dbpedia.org/resource/Alexander_Gläser"
+                    }, {
+                        "label": "Cecil Hight",
+                        "uri": "http://dbpedia.org/resource/Cecil_Hight"
+                    }, {
+                        "label": "Erich Jaschke",
+                        "uri": "http://dbpedia.org/resource/Erich_Jaschke"
+                    }, {
+                        "label": "Ernst Buffa",
+                        "uri": "http://dbpedia.org/resource/Ernst_Buffa"
+                    }, {
+                        "label": "Friedrich Raaf",
+                        "uri": "http://dbpedia.org/resource/Friedrich_Raaf"
+                    }, {
+                        "label": "Georg Dörffel",
+                        "uri": "http://dbpedia.org/resource/Georg_Dörffel"
+                    }, {
+                        "label": "Georg Jakob",
+                        "uri": "http://dbpedia.org/resource/Georg_Jakob"
+                    }, {
+                        "label": "Gerhard Stüdemann",
+                        "uri": "http://dbpedia.org/resource/Gerhard_Stüdemann"
+                    }, {
+                        "label": "Gustav Reimar",
+                        "uri": "http://dbpedia.org/resource/Gustav_Reimar"
+                    }, {
+                        "label": "Gustav Schubert",
+                        "uri": "http://dbpedia.org/resource/Gustav_Schubert"
+                    }, {
+                        "label": "Günther Tonne",
+                        "uri": "http://dbpedia.org/resource/Günther_Tonne"
+                    }, {
+                        "label": "Hans Engelien",
+                        "uri": "http://dbpedia.org/resource/Hans_Engelien"
+                    }, {
+                        "label": "Hans Kamecke",
+                        "uri": "http://dbpedia.org/resource/Hans_Kamecke"
+                    }, {
+                        "label": "Heinrich Höfer",
+                        "uri": "http://dbpedia.org/resource/Heinrich_Höfer"
+                    }, {
+                        "label": "Heinz Frank",
+                        "uri": "http://dbpedia.org/resource/Heinz_Frank"
+                    }, {
+                        "label": "Helmut Haugk",
+                        "uri": "http://dbpedia.org/resource/Helmut_Haugk"
+                    }, {
+                        "label": "Helmuth Bode",
+                        "uri": "http://dbpedia.org/resource/Helmuth_Bode"
+                    }, {
+                        "label": "Joachim Pötter",
+                        "uri": "http://dbpedia.org/resource/Joachim_Pötter"
+                    }, {
+                        "label": "Johann Schalanda",
+                        "uri": "http://dbpedia.org/resource/Johann_Schalanda"
+                    }, {
+                        "label": "Johann Schmid",
+                        "uri": "http://dbpedia.org/resource/Johann_Schmid"
+                    }, {
+                        "label": "John Fraser Drummond",
+                        "uri": "http://dbpedia.org/resource/John_Fraser_Drummond"
+                    }, {
+                        "label": "John Loverseed",
+                        "uri": "http://dbpedia.org/resource/John_Loverseed"
+                    }, {
+                        "label": "Karl-Heinz Jaeger",
+                        "uri": "http://dbpedia.org/resource/Karl-Heinz_Jaeger"
+                    }, {
+                        "label": "Karl von Oven",
+                        "uri": "http://dbpedia.org/resource/Karl_von_Oven"
+                    }, {
+                        "label": "Otto Dommeratzky",
+                        "uri": "http://dbpedia.org/resource/Otto_Dommeratzky"
+                    }, {
+                        "label": "Petrus Hugo",
+                        "uri": "http://dbpedia.org/resource/Petrus_Hugo"
+                    }, {
+                        "label": "Reinhard Aigen",
+                        "uri": "http://dbpedia.org/resource/Reinhard_Aigen"
+                    }, {
+                        "label": "Ulrich Freiherr von Canstein",
+                        "uri": "http://dbpedia.org/resource/Ulrich_Freiherr_von_Canstein"
+                    }, {
+                        "label": "Walter Bornschein",
+                        "uri": "http://dbpedia.org/resource/Walter_Bornschein"
+                    }, {
+                        "label": "Walter Churchill",
+                        "uri": "http://dbpedia.org/resource/Walter_Churchill"
+                    }, {
+                        "label": "Werner Dörnbrack",
+                        "uri": "http://dbpedia.org/resource/Werner_Dörnbrack"
+                    }, {
+                        "label": "Wilhelm Antrup",
+                        "uri": "http://dbpedia.org/resource/Wilhelm_Antrup"
+                    }, {
+                        "label": "Wilhelm Boffer",
+                        "uri": "http://dbpedia.org/resource/Wilhelm_Boffer"
+                    }, {
+                        "label": "Wilhelm von Malachowski",
+                        "uri": "http://dbpedia.org/resource/Wilhelm_von_Malachowski"
+                    }, {
+                        "label": "No. 609 Squadron RAF",
+                        "uri": "http://dbpedia.org/resource/No._609_Squadron_RAF"
+                    }, {
+                        "label": "Robert Stanford Tuck",
+                        "uri": "http://dbpedia.org/resource/Robert_Stanford_Tuck"
+                    }, {
+                        "label": "Erich von Manstein",
+                        "uri": "http://dbpedia.org/resource/Erich_von_Manstein"
+                    }, {
+                        "label": "Michael Wittmann",
+                        "uri": "http://dbpedia.org/resource/Michael_Wittmann"
+                    }, {
+                        "label": "Ivan Yakubovsky",
+                        "uri": "http://dbpedia.org/resource/Ivan_Yakubovsky"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the name of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/battle> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Gamal Abdel Nasser",
+                        "uri": "http://dbpedia.org/resource/Gamal_Abdel_Nasser"
+                    }, {
+                        "label": "Yitzhak Rabin",
+                        "uri": "http://dbpedia.org/resource/Yitzhak_Rabin"
+                    }, {
+                        "label": "Billy Fiske",
+                        "uri": "http://dbpedia.org/resource/Billy_Fiske"
+                    }, {
+                        "label": "Oskar Romm",
+                        "uri": "http://dbpedia.org/resource/Oskar_Romm"
+                    }, {
+                        "label": "Alan Christopher Deere",
+                        "uri": "http://dbpedia.org/resource/Alan_Christopher_Deere"
+                    }, {
+                        "label": "Desmond Piers",
+                        "uri": "http://dbpedia.org/resource/Desmond_Piers"
+                    }, {
+                        "label": "Douglas Bader",
+                        "uri": "http://dbpedia.org/resource/Douglas_Bader"
+                    }, {
+                        "label": "Gerhard Konopka",
+                        "uri": "http://dbpedia.org/resource/Gerhard_Konopka"
+                    }, {
+                        "label": "Helmut Witte",
+                        "uri": "http://dbpedia.org/resource/Helmut_Witte"
+                    }, {
+                        "label": "Jesse B. Oldendorf",
+                        "uri": "http://dbpedia.org/resource/Jesse_B._Oldendorf"
+                    }, {
+                        "label": "Johannes de Boer",
+                        "uri": "http://dbpedia.org/resource/Johannes_de_Boer"
+                    }, {
+                        "label": "Jonathan Rogers (GC)",
+                        "uri": "http://dbpedia.org/resource/Jonathan_Rogers_(GC)"
+                    }, {
+                        "label": "Keith Park",
+                        "uri": "http://dbpedia.org/resource/Keith_Park"
+                    }, {
+                        "label": "Tim Vigors",
+                        "uri": "http://dbpedia.org/resource/Tim_Vigors"
+                    }, {
+                        "label": "No. 232 Squadron RAF",
+                        "uri": "http://dbpedia.org/resource/No._232_Squadron_RAF"
+                    }, {
+                        "label": "No. 234 Squadron RAF",
+                        "uri": "http://dbpedia.org/resource/No._234_Squadron_RAF"
+                    }, {
+                        "label": "Alfred Eick",
+                        "uri": "http://dbpedia.org/resource/Alfred_Eick"
+                    }, {
+                        "label": "Barrie Heath",
+                        "uri": "http://dbpedia.org/resource/Barrie_Heath"
+                    }, {
+                        "label": "Ernst Hechler",
+                        "uri": "http://dbpedia.org/resource/Ernst_Hechler"
+                    }, {
+                        "label": "Georg Olschewski",
+                        "uri": "http://dbpedia.org/resource/Georg_Olschewski"
+                    }, {
+                        "label": "Gerhard Thäter",
+                        "uri": "http://dbpedia.org/resource/Gerhard_Thäter"
+                    }, {
+                        "label": "Heinrich Praßdorf",
+                        "uri": "http://dbpedia.org/resource/Heinrich_Praßdorf"
+                    }, {
+                        "label": "Heinrich Schroeteler",
+                        "uri": "http://dbpedia.org/resource/Heinrich_Schroeteler"
+                    }, {
+                        "label": "Heinz Sieder",
+                        "uri": "http://dbpedia.org/resource/Heinz_Sieder"
+                    }, {
+                        "label": "Hellmut Rohweder",
+                        "uri": "http://dbpedia.org/resource/Hellmut_Rohweder"
+                    }, {
+                        "label": "Horst Hofmann",
+                        "uri": "http://dbpedia.org/resource/Horst_Hofmann"
+                    }, {
+                        "label": "Horst von Schroeter",
+                        "uri": "http://dbpedia.org/resource/Horst_von_Schroeter"
+                    }, {
+                        "label": "Mohammad Shariff",
+                        "uri": "http://dbpedia.org/resource/Mohammad_Shariff"
+                    }, {
+                        "label": "Otto Westphalen",
+                        "uri": "http://dbpedia.org/resource/Otto_Westphalen"
+                    }, {
+                        "label": "Rudolf Mühlbauer",
+                        "uri": "http://dbpedia.org/resource/Rudolf_Mühlbauer"
+                    }, {
+                        "label": "Siegfried Koitschka",
+                        "uri": "http://dbpedia.org/resource/Siegfried_Koitschka"
+                    }, {
+                        "label": "Siegfried Lüdden",
+                        "uri": "http://dbpedia.org/resource/Siegfried_Lüdden"
+                    }, {
+                        "label": "Vernon Keogh",
+                        "uri": "http://dbpedia.org/resource/Vernon_Keogh"
+                    }, {
+                        "label": "Adolf Borchers",
+                        "uri": "http://dbpedia.org/resource/Adolf_Borchers"
+                    }, {
+                        "label": "Bruno Stolle",
+                        "uri": "http://dbpedia.org/resource/Bruno_Stolle"
+                    }, {
+                        "label": "Edward Wolfe (RAF officer)",
+                        "uri": "http://dbpedia.org/resource/Edward_Wolfe_(RAF_officer)"
+                    }, {
+                        "label": "Erich Schmidt (pilot)",
+                        "uri": "http://dbpedia.org/resource/Erich_Schmidt_(pilot)"
+                    }, {
+                        "label": "Friedrich Beckh",
+                        "uri": "http://dbpedia.org/resource/Friedrich_Beckh"
+                    }, {
+                        "label": "Georg Ackermann (pilot)",
+                        "uri": "http://dbpedia.org/resource/Georg_Ackermann_(pilot)"
+                    }, {
+                        "label": "Hans Fritsche (officer)",
+                        "uri": "http://dbpedia.org/resource/Hans_Fritsche_(officer)"
+                    }, {
+                        "label": "Johannes Steinhoff",
+                        "uri": "http://dbpedia.org/resource/Johannes_Steinhoff"
+                    }, {
+                        "label": "Olaf M. Hustvedt",
+                        "uri": "http://dbpedia.org/resource/Olaf_M._Hustvedt"
+                    }, {
+                        "label": "Reinhard Günzel (pilot)",
+                        "uri": "http://dbpedia.org/resource/Reinhard_Günzel_(pilot)"
+                    }, {
+                        "label": "Roland Beamont",
+                        "uri": "http://dbpedia.org/resource/Roland_Beamont"
+                    }, {
+                        "label": "Vasily Sokolovsky",
+                        "uri": "http://dbpedia.org/resource/Vasily_Sokolovsky"
+                    }, {
+                        "label": "Vollrath Lübbe",
+                        "uri": "http://dbpedia.org/resource/Vollrath_Lübbe"
+                    }, {
+                        "label": "Wilhelm Mink (pilot)",
+                        "uri": "http://dbpedia.org/resource/Wilhelm_Mink_(pilot)"
+                    }, {
+                        "label": "Alexander Danilovich Menshikov",
+                        "uri": "http://dbpedia.org/resource/Alexander_Danilovich_Menshikov"
+                    }, {
+                        "label": "Henry Kent Hewitt",
+                        "uri": "http://dbpedia.org/resource/Henry_Kent_Hewitt"
+                    }, {
+                        "label": "No. 162 Squadron RCAF",
+                        "uri": "http://dbpedia.org/resource/No._162_Squadron_RCAF"
+                    }, {
+                        "label": "Jordanian Central Command",
+                        "uri": "http://dbpedia.org/resource/Jordanian_Central_Command"
+                    }, {
+                        "label": "Jordanian Northern Command",
+                        "uri": "http://dbpedia.org/resource/Jordanian_Northern_Command"
+                    }, {
+                        "label": "1st Air Army",
+                        "uri": "http://dbpedia.org/resource/1st_Air_Army"
+                    }, {
+                        "label": "40th Army (Soviet Union)",
+                        "uri": "http://dbpedia.org/resource/40th_Army_(Soviet_Union)"
+                    }, {
+                        "label": "Fritz Losigkeit",
+                        "uri": "http://dbpedia.org/resource/Fritz_Losigkeit"
+                    }, {
+                        "label": "Geoffrey Page",
+                        "uri": "http://dbpedia.org/resource/Geoffrey_Page"
+                    }, {
+                        "label": "Gerhard Schöpfel",
+                        "uri": "http://dbpedia.org/resource/Gerhard_Schöpfel"
+                    }, {
+                        "label": "Hans \"Assi\" Hahn",
+                        "uri": "http://dbpedia.org/resource/Hans_%22Assi%22_Hahn"
+                    }, {
+                        "label": "Heinz Lange",
+                        "uri": "http://dbpedia.org/resource/Heinz_Lange"
+                    }, {
+                        "label": "No. 242 Squadron RAF",
+                        "uri": "http://dbpedia.org/resource/No._242_Squadron_RAF"
+                    }, {
+                        "label": "Rodger Winn",
+                        "uri": "http://dbpedia.org/resource/Rodger_Winn"
+                    }, {
+                        "label": "Alexander Gläser",
+                        "uri": "http://dbpedia.org/resource/Alexander_Gläser"
+                    }, {
+                        "label": "Cecil Hight",
+                        "uri": "http://dbpedia.org/resource/Cecil_Hight"
+                    }, {
+                        "label": "Erich Jaschke",
+                        "uri": "http://dbpedia.org/resource/Erich_Jaschke"
+                    }, {
+                        "label": "Ernst Buffa",
+                        "uri": "http://dbpedia.org/resource/Ernst_Buffa"
+                    }, {
+                        "label": "Friedrich Raaf",
+                        "uri": "http://dbpedia.org/resource/Friedrich_Raaf"
+                    }, {
+                        "label": "Georg Dörffel",
+                        "uri": "http://dbpedia.org/resource/Georg_Dörffel"
+                    }, {
+                        "label": "Georg Jakob",
+                        "uri": "http://dbpedia.org/resource/Georg_Jakob"
+                    }, {
+                        "label": "Gerhard Stüdemann",
+                        "uri": "http://dbpedia.org/resource/Gerhard_Stüdemann"
+                    }, {
+                        "label": "Gustav Reimar",
+                        "uri": "http://dbpedia.org/resource/Gustav_Reimar"
+                    }, {
+                        "label": "Gustav Schubert",
+                        "uri": "http://dbpedia.org/resource/Gustav_Schubert"
+                    }, {
+                        "label": "Günther Tonne",
+                        "uri": "http://dbpedia.org/resource/Günther_Tonne"
+                    }, {
+                        "label": "Hans Engelien",
+                        "uri": "http://dbpedia.org/resource/Hans_Engelien"
+                    }, {
+                        "label": "Hans Kamecke",
+                        "uri": "http://dbpedia.org/resource/Hans_Kamecke"
+                    }, {
+                        "label": "Heinrich Höfer",
+                        "uri": "http://dbpedia.org/resource/Heinrich_Höfer"
+                    }, {
+                        "label": "Heinz Frank",
+                        "uri": "http://dbpedia.org/resource/Heinz_Frank"
+                    }, {
+                        "label": "Helmut Haugk",
+                        "uri": "http://dbpedia.org/resource/Helmut_Haugk"
+                    }, {
+                        "label": "Helmuth Bode",
+                        "uri": "http://dbpedia.org/resource/Helmuth_Bode"
+                    }, {
+                        "label": "Joachim Pötter",
+                        "uri": "http://dbpedia.org/resource/Joachim_Pötter"
+                    }, {
+                        "label": "Johann Schalanda",
+                        "uri": "http://dbpedia.org/resource/Johann_Schalanda"
+                    }, {
+                        "label": "Johann Schmid",
+                        "uri": "http://dbpedia.org/resource/Johann_Schmid"
+                    }, {
+                        "label": "John Fraser Drummond",
+                        "uri": "http://dbpedia.org/resource/John_Fraser_Drummond"
+                    }, {
+                        "label": "John Loverseed",
+                        "uri": "http://dbpedia.org/resource/John_Loverseed"
+                    }, {
+                        "label": "Karl-Heinz Jaeger",
+                        "uri": "http://dbpedia.org/resource/Karl-Heinz_Jaeger"
+                    }, {
+                        "label": "Karl von Oven",
+                        "uri": "http://dbpedia.org/resource/Karl_von_Oven"
+                    }, {
+                        "label": "Otto Dommeratzky",
+                        "uri": "http://dbpedia.org/resource/Otto_Dommeratzky"
+                    }, {
+                        "label": "Petrus Hugo",
+                        "uri": "http://dbpedia.org/resource/Petrus_Hugo"
+                    }, {
+                        "label": "Reinhard Aigen",
+                        "uri": "http://dbpedia.org/resource/Reinhard_Aigen"
+                    }, {
+                        "label": "Ulrich Freiherr von Canstein",
+                        "uri": "http://dbpedia.org/resource/Ulrich_Freiherr_von_Canstein"
+                    }, {
+                        "label": "Walter Bornschein",
+                        "uri": "http://dbpedia.org/resource/Walter_Bornschein"
+                    }, {
+                        "label": "Walter Churchill",
+                        "uri": "http://dbpedia.org/resource/Walter_Churchill"
+                    }, {
+                        "label": "Werner Dörnbrack",
+                        "uri": "http://dbpedia.org/resource/Werner_Dörnbrack"
+                    }, {
+                        "label": "Wilhelm Antrup",
+                        "uri": "http://dbpedia.org/resource/Wilhelm_Antrup"
+                    }, {
+                        "label": "Wilhelm Boffer",
+                        "uri": "http://dbpedia.org/resource/Wilhelm_Boffer"
+                    }, {
+                        "label": "Wilhelm von Malachowski",
+                        "uri": "http://dbpedia.org/resource/Wilhelm_von_Malachowski"
+                    }, {
+                        "label": "No. 609 Squadron RAF",
+                        "uri": "http://dbpedia.org/resource/No._609_Squadron_RAF"
+                    }, {
+                        "label": "Robert Stanford Tuck",
+                        "uri": "http://dbpedia.org/resource/Robert_Stanford_Tuck"
+                    }, {
+                        "label": "Erich von Manstein",
+                        "uri": "http://dbpedia.org/resource/Erich_von_Manstein"
+                    }, {
+                        "label": "Michael Wittmann",
+                        "uri": "http://dbpedia.org/resource/Michael_Wittmann"
+                    }, {
+                        "label": "Ivan Yakubovsky",
+                        "uri": "http://dbpedia.org/resource/Ivan_Yakubovsky"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Whitehaven, Memphis, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+                    }, {
+                        "label": "Lake Zabuye",
+                        "uri": "http://dbpedia.org/resource/Lake_Zabuye"
+                    }, {
+                        "label": "Mid-Atlantic states",
+                        "uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+                    }, {
+                        "label": "New England",
+                        "uri": "http://dbpedia.org/resource/New_England"
+                    }, {
+                        "label": "Kuta Raja",
+                        "uri": "http://dbpedia.org/resource/Kuta_Raja"
+                    }, {
+                        "label": "San Biagio Maggiore",
+                        "uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+                    }, {
+                        "label": "Namcha Barwa Himal",
+                        "uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+                    }, {
+                        "label": "San Nicola a Nilo",
+                        "uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+                    }, {
+                        "label": "Adra, Syria",
+                        "uri": "http://dbpedia.org/resource/Adra,_Syria"
+                    }, {
+                        "label": "Al-Mazraa",
+                        "uri": "http://dbpedia.org/resource/Al-Mazraa"
+                    }, {
+                        "label": "Al-Rastan",
+                        "uri": "http://dbpedia.org/resource/Al-Rastan"
+                    }, {
+                        "label": "Al-Hawash, Homs Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+                    }, {
+                        "label": "Ayn al-Bardah",
+                        "uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+                    }, {
+                        "label": "Khabab",
+                        "uri": "http://dbpedia.org/resource/Khabab"
+                    }, {
+                        "label": "Al-Kafr",
+                        "uri": "http://dbpedia.org/resource/Al-Kafr"
+                    }, {
+                        "label": "Deir Mama",
+                        "uri": "http://dbpedia.org/resource/Deir_Mama"
+                    }, {
+                        "label": "Madaya, Syria",
+                        "uri": "http://dbpedia.org/resource/Madaya,_Syria"
+                    }, {
+                        "label": "Tayru",
+                        "uri": "http://dbpedia.org/resource/Tayru"
+                    }, {
+                        "label": "Al-Khalidiyah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+                    }, {
+                        "label": "Al-Khalidiyah, al-Hasakah Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+                    }, {
+                        "label": "Basatin al-Assad",
+                        "uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+                    }, {
+                        "label": "Hala, Syria",
+                        "uri": "http://dbpedia.org/resource/Hala,_Syria"
+                    }, {
+                        "label": "Harran, Idlib",
+                        "uri": "http://dbpedia.org/resource/Harran,_Idlib"
+                    }, {
+                        "label": "Harran, as-Suwayda",
+                        "uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+                    }, {
+                        "label": "Harran al-Awamid",
+                        "uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+                    }, {
+                        "label": "Wadi al-Nasara",
+                        "uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+                    }, {
+                        "label": "Abu Khanadiq",
+                        "uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+                    }, {
+                        "label": "Abu Kleefun",
+                        "uri": "http://dbpedia.org/resource/Abu_Kleefun"
+                    }, {
+                        "label": "Abul Fashafish",
+                        "uri": "http://dbpedia.org/resource/Abul_Fashafish"
+                    }, {
+                        "label": "Al-'Amrah",
+                        "uri": "http://dbpedia.org/resource/Al-'Amrah"
+                    }, {
+                        "label": "Al-Atnah",
+                        "uri": "http://dbpedia.org/resource/Al-Atnah"
+                    }, {
+                        "label": "Al-Fayadiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+                    }, {
+                        "label": "Al-Humayra",
+                        "uri": "http://dbpedia.org/resource/Al-Humayra"
+                    }, {
+                        "label": "Al-Jarajir",
+                        "uri": "http://dbpedia.org/resource/Al-Jarajir"
+                    }, {
+                        "label": "Al-Khandaq al-Sharqiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+                    }, {
+                        "label": "Al-Muhajirin, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Narjis",
+                        "uri": "http://dbpedia.org/resource/Al-Narjis"
+                    }, {
+                        "label": "Al-Nazaza",
+                        "uri": "http://dbpedia.org/resource/Al-Nazaza"
+                    }, {
+                        "label": "Al-Nour, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+                    }, {
+                        "label": "Al-Ramlah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+                    }, {
+                        "label": "Al-Salihiyah, Hama",
+                        "uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+                    }, {
+                        "label": "Al-Sindiyana, Suqaylabiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+                    }, {
+                        "label": "Al-Swaia",
+                        "uri": "http://dbpedia.org/resource/Al-Swaia"
+                    }, {
+                        "label": "Al-Thawrah, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Tulaysiyah al-Janubiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+                    }, {
+                        "label": "Al-Zitiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Zitiyah"
+                    }, {
+                        "label": "Ammurin",
+                        "uri": "http://dbpedia.org/resource/Ammurin"
+                    }, {
+                        "label": "Ayn Dara",
+                        "uri": "http://dbpedia.org/resource/Ayn_Dara"
+                    }, {
+                        "label": "Balluneh",
+                        "uri": "http://dbpedia.org/resource/Balluneh"
+                    }, {
+                        "label": "Beij",
+                        "uri": "http://dbpedia.org/resource/Beij"
+                    }, {
+                        "label": "Bgheidid",
+                        "uri": "http://dbpedia.org/resource/Bgheidid"
+                    }, {
+                        "label": "Bustan Sbeih",
+                        "uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+                    }, {
+                        "label": "Deir Sunbul",
+                        "uri": "http://dbpedia.org/resource/Deir_Sunbul"
+                    }, {
+                        "label": "Ein Elhamam",
+                        "uri": "http://dbpedia.org/resource/Ein_Elhamam"
+                    }, {
+                        "label": "Ein Warideh",
+                        "uri": "http://dbpedia.org/resource/Ein_Warideh"
+                    }, {
+                        "label": "Elrihana",
+                        "uri": "http://dbpedia.org/resource/Elrihana"
+                    }, {
+                        "label": "Fawrah",
+                        "uri": "http://dbpedia.org/resource/Fawrah"
+                    }, {
+                        "label": "Hamrit",
+                        "uri": "http://dbpedia.org/resource/Hamrit"
+                    }, {
+                        "label": "Hanuteh",
+                        "uri": "http://dbpedia.org/resource/Hanuteh"
+                    }, {
+                        "label": "Hdaj",
+                        "uri": "http://dbpedia.org/resource/Hdaj"
+                    }, {
+                        "label": "Jakuziyeh",
+                        "uri": "http://dbpedia.org/resource/Jakuziyeh"
+                    }, {
+                        "label": "Jamala, Hama",
+                        "uri": "http://dbpedia.org/resource/Jamala,_Hama"
+                    }, {
+                        "label": "Jeb Dkileh",
+                        "uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+                    }, {
+                        "label": "Jeb Zreiq",
+                        "uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+                    }, {
+                        "label": "Jessine",
+                        "uri": "http://dbpedia.org/resource/Jessine"
+                    }, {
+                        "label": "Karama, Hama",
+                        "uri": "http://dbpedia.org/resource/Karama,_Hama"
+                    }, {
+                        "label": "Kasun Eljabal",
+                        "uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+                    }, {
+                        "label": "Kawri",
+                        "uri": "http://dbpedia.org/resource/Kawri"
+                    }, {
+                        "label": "Khala, Hama",
+                        "uri": "http://dbpedia.org/resource/Khala,_Hama"
+                    }, {
+                        "label": "Khansaa - Shetheh",
+                        "uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+                    }, {
+                        "label": "Maar Shamali",
+                        "uri": "http://dbpedia.org/resource/Maar_Shamali"
+                    }, {
+                        "label": "Makhbuta",
+                        "uri": "http://dbpedia.org/resource/Makhbuta"
+                    }, {
+                        "label": "Maksar, Hama",
+                        "uri": "http://dbpedia.org/resource/Maksar,_Hama"
+                    }, {
+                        "label": "Marana, Hama",
+                        "uri": "http://dbpedia.org/resource/Marana,_Hama"
+                    }, {
+                        "label": "Mashta Elshalahmeh",
+                        "uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+                    }, {
+                        "label": "Mastarihat Afamiyah",
+                        "uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+                    }, {
+                        "label": "Mrikb",
+                        "uri": "http://dbpedia.org/resource/Mrikb"
+                    }, {
+                        "label": "Mweileh",
+                        "uri": "http://dbpedia.org/resource/Mweileh"
+                    }, {
+                        "label": "Nabe Eltib",
+                        "uri": "http://dbpedia.org/resource/Nabe_Eltib"
+                    }, {
+                        "label": "Ojet - Kabasin Elarab",
+                        "uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+                    }, {
+                        "label": "Ojt Eltoba",
+                        "uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+                    }, {
+                        "label": "Qal'at al-Jaras",
+                        "uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+                    }, {
+                        "label": "Qanater, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+                    }, {
+                        "label": "Qastal al-Burj",
+                        "uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+                    }, {
+                        "label": "Ras al-Maara",
+                        "uri": "http://dbpedia.org/resource/Ras_al-Maara"
+                    }, {
+                        "label": "Rasm Al-Brdkana",
+                        "uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+                    }, {
+                        "label": "Rasm Amun",
+                        "uri": "http://dbpedia.org/resource/Rasm_Amun"
+                    }, {
+                        "label": "Rasm Anz",
+                        "uri": "http://dbpedia.org/resource/Rasm_Anz"
+                    }, {
+                        "label": "Rasm Elahmar",
+                        "uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+                    }, {
+                        "label": "Rudat al-Tar",
+                        "uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+                    }, {
+                        "label": "Rweideh",
+                        "uri": "http://dbpedia.org/resource/Rweideh"
+                    }, {
+                        "label": "Saidiyeh, Hama",
+                        "uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+                    }, {
+                        "label": "Saqiyet Nijm",
+                        "uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+                    }, {
+                        "label": "Shahta",
+                        "uri": "http://dbpedia.org/resource/Shahta"
+                    }, {
+                        "label": "Shatheh",
+                        "uri": "http://dbpedia.org/resource/Shatheh"
+                    }, {
+                        "label": "Shaykh Ali",
+                        "uri": "http://dbpedia.org/resource/Shaykh_Ali"
+                    }, {
+                        "label": "Suwak al-Shamali",
+                        "uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+                    }, {
+                        "label": "Tabara Elhamra",
+                        "uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+                    }, {
+                        "label": "Tahunet Elhalawa",
+                        "uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+                    }, {
+                        "label": "Tell al-Shih",
+                        "uri": "http://dbpedia.org/resource/Tell_al-Shih"
+                    }]
+            },
+            "combination": false
+        }]
+}

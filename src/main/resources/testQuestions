@@ -84,3 +84,5 @@ Who questions!!!!!!!!!!!!
 http://dbpedia.org/resource/Category:American_assassins
 
 http://purl.org/dc/terms/
+
+select * where {?s <http://dbpedia.org/ontology/Ship> ?o} LIMIT 100
