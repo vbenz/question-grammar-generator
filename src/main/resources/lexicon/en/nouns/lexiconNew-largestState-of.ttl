@@ -1,0 +1,68 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base            <http://localhost:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :largestState_of ;
+  lemon:entry    :largestState_in ;
+  lemon:entry    :of ;
+  lemon:entry    :in .
+
+:largestState_of a      lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:noun ;
+  lemon:canonicalForm  :largestState_form ;
+  lemon:synBehavior    :largestState_of_nounpp ;
+  lemon:sense          :largestState_of_sense_ontomap .
+
+:largestState_in a      lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:noun ;
+  lemon:canonicalForm  :largestState_form ;
+  lemon:synBehavior    :largestState_in_nounpp ;
+  lemon:sense          :largestState_in_sense_ontomap .
+
+:largestState_form a lemon:Form ;
+  lemon:writtenRep  "largest state"@en .
+
+:largestState_of_nounpp a       lexinfo:NounPPFrame ;
+  lexinfo:copulativeArg        :arg1 ;
+  lexinfo:prepositionalAdjunct :arg2 .
+
+:largestState_of_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping             :largestState_of_sense_ontomap ;
+  lemon:reference               <http://dbpedia.org/page/Category:States_of_the_United_States> ;
+  lemon:subjOfProp              :arg2 ;
+  lemon:objOfProp               :arg1 ;
+  lemon:condition               :largestState_condition .
+
+:largestState_in_nounpp a       lexinfo:NounPPFrame ;
+  lexinfo:copulativeArg        :largestState_in_subj ;
+  lexinfo:prepositionalAdjunct :largestState_in_obj .
+
+:largestState_in_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping             :largestState_in_sense_ontomap ;
+  lemon:reference              <http://dbpedia.org/page/Category:States_of_the_United_States> ;
+  lemon:subjOfProp              :largestState_in_obj ;
+  lemon:objOfProp               :largestState_in_subj ;
+  lemon:condition               :largestState_condition .
+
+:largestState_condition a lemon:condition ;
+  lemon:propertyDomain   <http://dbpedia.org/ontology/Country> ;
+  lemon:propertyRange    <http://dbpedia.org/ontology/State> .
+
+:arg2 lemon:marker :of .
+
+:largestState_in_obj lemon:marker :in .
+
+## Prepositions ##
+
+:of a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "of"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
+
+:in a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "in"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .

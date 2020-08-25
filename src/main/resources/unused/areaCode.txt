@@ -1,0 +1,1074 @@
+{
+			"id": "145",
+			"answertype": "number",
+			"aggregation": false,
+			"onlydbo": true,
+			"hybrid": false,
+			"question": [{
+					"language": "en",
+					"string": "What is the area code of Berlin?",
+					"keywords": "Berlin, area code"
+				},
+				{
+					"language": "pt_BR",
+					"string": "Qual é o código de área de Berlin?",
+					"keywords": "código de área, Berlin"
+				},
+				{
+					"language": "de",
+					"string": "Was ist die Vorwahl von Berlin?",
+					"keywords": "Berlin, Vorwahl"
+				},
+				{
+					"language": "es",
+					"string": "¿Cuál es el prefijo de Berlin?",
+					"keywords": "prefijo, Berlin"
+				},
+				{
+					"language": "it",
+					"string": "Qual è il prefisso di Berlino?",
+					"keywords": "prefisso, Berlino"
+				},
+				{
+					"language": "fr",
+					"string": "Quel est l'indicatif téléphonique de Berlin?",
+					"keywords": "indicatif téléphonique, Berlin"
+				},
+				{
+					"language": "nl",
+					"string": "Wat is het kengetal van Berlijn?",
+					"keywords": "kengetal, Berlijn"
+				},
+				{
+					"language": "hi_IN",
+					"string": "बर्लिन का क्षेत्र कोड क्या है?",
+					"keywords": "बर्लिन, क्षेत्र कोड"
+				}
+			],
+			"query": {
+				"sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX res: <http://dbpedia.org/resource/>\nSELECT DISTINCT ?string \nWHERE {\n\tres:Berlin dbo:areaCode ?string .\n}"
+			},
+			"answers": [{
+				"head": {
+					"vars": [
+						"c"
+					]
+				},
+				"results": {
+					"bindings": [{
+						"c": {
+							"type": "literal",
+							"value": "030"
+						}
+					}]
+				}
+			}]
+		},
+
+
+
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base            <http://localhost:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :areaCode_of ;
+  lemon:entry    :of .
+
+:areaCode_of a      lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:noun ;
+  lemon:canonicalForm  :areaCode_form ;
+  lemon:synBehavior    :areaCode_of_nounpp ;
+  lemon:sense          :areaCode_sense_ontomap .
+
+:areaCode_form a lemon:Form ;
+  lemon:writtenRep  "area code"@en .
+
+:areaCode_of_nounpp a       lexinfo:NounPPFrame ;
+  lexinfo:copulativeArg        :arg1 ;
+  lexinfo:prepositionalAdjunct :arg2 .
+
+:areaCode_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping          :areaCode_sense_ontomap ;
+  lemon:reference            <http://dbpedia.org/ontology/areaCode> ;
+  lemon:subjOfProp           :arg2 ;
+  lemon:objOfProp            :arg1 ;
+  lemon:condition            :areaCode_condition .
+
+:areaCode_condition a lemon:condition ;
+  lemon:propertyDomain   <http://dbpedia.org/ontology/Place> ;
+  lemon:propertyRange    <http://www.w3.org/2001/XMLSchema#string> .
+
+:arg2 lemon:marker :of .
+
+## Prepositions ##
+
+:of a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "of"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
+
+
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["What is the area code of ($x | LOCATION_NP)?", "What was the area code of ($x | LOCATION_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/areaCode> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Corfu",
+                        "uri": "http://dbpedia.org/resource/Corfu"
+                    }, {
+                        "label": "Sevastopol",
+                        "uri": "http://dbpedia.org/resource/Sevastopol"
+                    }, {
+                        "label": "Agia Triada, Elis",
+                        "uri": "http://dbpedia.org/resource/Agia_Triada,_Elis"
+                    }, {
+                        "label": "Agia Triada, Thessaloniki",
+                        "uri": "http://dbpedia.org/resource/Agia_Triada,_Thessaloniki"
+                    }, {
+                        "label": "Aksu, Almaty",
+                        "uri": "http://dbpedia.org/resource/Aksu,_Almaty"
+                    }, {
+                        "label": "Aksu, Antalya",
+                        "uri": "http://dbpedia.org/resource/Aksu,_Antalya"
+                    }, {
+                        "label": "Alto, Piedmont",
+                        "uri": "http://dbpedia.org/resource/Alto,_Piedmont"
+                    }, {
+                        "label": "Alto (community), Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Alto_(community),_Wisconsin"
+                    }, {
+                        "label": "Alur, Hassan",
+                        "uri": "http://dbpedia.org/resource/Alur,_Hassan"
+                    }, {
+                        "label": "Angram, Harrogate",
+                        "uri": "http://dbpedia.org/resource/Angram,_Harrogate"
+                    }, {
+                        "label": "Angram, Richmondshire",
+                        "uri": "http://dbpedia.org/resource/Angram,_Richmondshire"
+                    }, {
+                        "label": "Arniston, Midlothian",
+                        "uri": "http://dbpedia.org/resource/Arniston,_Midlothian"
+                    }, {
+                        "label": "Bana, Hungary",
+                        "uri": "http://dbpedia.org/resource/Bana,_Hungary"
+                    }, {
+                        "label": "Banatska Palanka",
+                        "uri": "http://dbpedia.org/resource/Banatska_Palanka"
+                    }, {
+                        "label": "Barry Corner, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Barry_Corner,_Wisconsin"
+                    }, {
+                        "label": "Beckett Park",
+                        "uri": "http://dbpedia.org/resource/Beckett_Park"
+                    }, {
+                        "label": "Bevern, Schleswig-Holstein",
+                        "uri": "http://dbpedia.org/resource/Bevern,_Schleswig-Holstein"
+                    }, {
+                        "label": "Bevern (Samtgemeinde)",
+                        "uri": "http://dbpedia.org/resource/Bevern_(Samtgemeinde)"
+                    }, {
+                        "label": "Blackbird, Delaware",
+                        "uri": "http://dbpedia.org/resource/Blackbird,_Delaware"
+                    }, {
+                        "label": "Boulogne Sur Mer",
+                        "uri": "http://dbpedia.org/resource/Boulogne_Sur_Mer"
+                    }, {
+                        "label": "Brackett, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Brackett,_Wisconsin"
+                    }, {
+                        "label": "Brandy City, California",
+                        "uri": "http://dbpedia.org/resource/Brandy_City,_California"
+                    }, {
+                        "label": "Breslau, Ontario",
+                        "uri": "http://dbpedia.org/resource/Breslau,_Ontario"
+                    }, {
+                        "label": "Brody, Staszów County",
+                        "uri": "http://dbpedia.org/resource/Brody,_Staszów_County"
+                    }, {
+                        "label": "Brza Palanka",
+                        "uri": "http://dbpedia.org/resource/Brza_Palanka"
+                    }, {
+                        "label": "Castelvecchio di Rocca Barbena",
+                        "uri": "http://dbpedia.org/resource/Castelvecchio_di_Rocca_Barbena"
+                    }, {
+                        "label": "Cedar Lake, Minnesota",
+                        "uri": "http://dbpedia.org/resource/Cedar_Lake,_Minnesota"
+                    }, {
+                        "label": "Cedar Lake (community), Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Cedar_Lake_(community),_Wisconsin"
+                    }, {
+                        "label": "Cervino, Campania",
+                        "uri": "http://dbpedia.org/resource/Cervino,_Campania"
+                    }, {
+                        "label": "Cienfuegos Province",
+                        "uri": "http://dbpedia.org/resource/Cienfuegos_Province"
+                    }, {
+                        "label": "Clam Lake, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Clam_Lake,_Wisconsin"
+                    }, {
+                        "label": "Cove, Hampshire",
+                        "uri": "http://dbpedia.org/resource/Cove,_Hampshire"
+                    }, {
+                        "label": "Cwmavon, Torfaen",
+                        "uri": "http://dbpedia.org/resource/Cwmavon,_Torfaen"
+                    }, {
+                        "label": "Călărași, Cluj",
+                        "uri": "http://dbpedia.org/resource/Călărași,_Cluj"
+                    }, {
+                        "label": "Dhaliwal, Nakodar",
+                        "uri": "http://dbpedia.org/resource/Dhaliwal,_Nakodar"
+                    }, {
+                        "label": "Duck Lake, Saskatchewan",
+                        "uri": "http://dbpedia.org/resource/Duck_Lake,_Saskatchewan"
+                    }, {
+                        "label": "East Tanfield",
+                        "uri": "http://dbpedia.org/resource/East_Tanfield"
+                    }, {
+                        "label": "Epanochori, Cephalonia",
+                        "uri": "http://dbpedia.org/resource/Epanochori,_Cephalonia"
+                    }, {
+                        "label": "Galloway, Michigan",
+                        "uri": "http://dbpedia.org/resource/Galloway,_Michigan"
+                    }, {
+                        "label": "Galloway, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Galloway,_Wisconsin"
+                    }, {
+                        "label": "Half Moon Lake, Alberta",
+                        "uri": "http://dbpedia.org/resource/Half_Moon_Lake,_Alberta"
+                    }, {
+                        "label": "Hampshire, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Hampshire,_Tennessee"
+                    }, {
+                        "label": "Hochdorf, Biberach",
+                        "uri": "http://dbpedia.org/resource/Hochdorf,_Biberach"
+                    }, {
+                        "label": "Hochdorf, Esslingen",
+                        "uri": "http://dbpedia.org/resource/Hochdorf,_Esslingen"
+                    }, {
+                        "label": "Juda, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Juda,_Wisconsin"
+                    }, {
+                        "label": "Kingsbridge, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Kingsbridge,_Wisconsin"
+                    }, {
+                        "label": "Lakkidi, Palakkad",
+                        "uri": "http://dbpedia.org/resource/Lakkidi,_Palakkad"
+                    }, {
+                        "label": "Lancang Lahu Autonomous County",
+                        "uri": "http://dbpedia.org/resource/Lancang_Lahu_Autonomous_County"
+                    }, {
+                        "label": "Leyden, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Leyden,_Wisconsin"
+                    }, {
+                        "label": "Lily Lake, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Lily_Lake,_Wisconsin"
+                    }, {
+                        "label": "Lummus Park Historic District",
+                        "uri": "http://dbpedia.org/resource/Lummus_Park_Historic_District"
+                    }, {
+                        "label": "Mandel, Germany",
+                        "uri": "http://dbpedia.org/resource/Mandel,_Germany"
+                    }, {
+                        "label": "Market Square, Harrisburg",
+                        "uri": "http://dbpedia.org/resource/Market_Square,_Harrisburg"
+                    }, {
+                        "label": "Mela Raman Puthoor",
+                        "uri": "http://dbpedia.org/resource/Mela_Raman_Puthoor"
+                    }, {
+                        "label": "Middle Lake, Saskatchewan",
+                        "uri": "http://dbpedia.org/resource/Middle_Lake,_Saskatchewan"
+                    }, {
+                        "label": "Nancheng County",
+                        "uri": "http://dbpedia.org/resource/Nancheng_County"
+                    }, {
+                        "label": "Nandgaon, Maharashtra",
+                        "uri": "http://dbpedia.org/resource/Nandgaon,_Maharashtra"
+                    }, {
+                        "label": "Nandgaon Khandeshwar",
+                        "uri": "http://dbpedia.org/resource/Nandgaon_Khandeshwar"
+                    }, {
+                        "label": "North Lake, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/North_Lake,_Wisconsin"
+                    }, {
+                        "label": "Oak Lake, Manitoba",
+                        "uri": "http://dbpedia.org/resource/Oak_Lake,_Manitoba"
+                    }, {
+                        "label": "Offham, Kent",
+                        "uri": "http://dbpedia.org/resource/Offham,_Kent"
+                    }, {
+                        "label": "Olmedo, Sardinia",
+                        "uri": "http://dbpedia.org/resource/Olmedo,_Sardinia"
+                    }, {
+                        "label": "Piccadilly, Warwickshire",
+                        "uri": "http://dbpedia.org/resource/Piccadilly,_Warwickshire"
+                    }, {
+                        "label": "Pike Lake, Marathon County, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Pike_Lake,_Marathon_County,_Wisconsin"
+                    }, {
+                        "label": "Pike Lake, Washington County, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Pike_Lake,_Washington_County,_Wisconsin"
+                    }, {
+                        "label": "Raman, Punjab (India)",
+                        "uri": "http://dbpedia.org/resource/Raman,_Punjab_(India)"
+                    }, {
+                        "label": "Saint-Cyprien, Bas-Saint-Laurent, Quebec",
+                        "uri": "http://dbpedia.org/resource/Saint-Cyprien,_Bas-Saint-Laurent,_Quebec"
+                    }, {
+                        "label": "Saint-Cyprien, Chaudière-Appalaches, Quebec",
+                        "uri": "http://dbpedia.org/resource/Saint-Cyprien,_Chaudière-Appalaches,_Quebec"
+                    }, {
+                        "label": "Saint-Cyprien-de-Napierville, Quebec",
+                        "uri": "http://dbpedia.org/resource/Saint-Cyprien-de-Napierville,_Quebec"
+                    }, {
+                        "label": "Samantha, Alabama",
+                        "uri": "http://dbpedia.org/resource/Samantha,_Alabama"
+                    }, {
+                        "label": "Sankt Martin, Germany",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin,_Germany"
+                    }, {
+                        "label": "Sankt Martin, Lower Austria",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin,_Lower_Austria"
+                    }, {
+                        "label": "Sankt Martin am Grimming",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_am_Grimming"
+                    }, {
+                        "label": "Sankt Martin am Tennengebirge",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_am_Tennengebirge"
+                    }, {
+                        "label": "Sankt Martin am Wöllmißberg",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_am_Wöllmißberg"
+                    }, {
+                        "label": "Sankt Martin bei Lofer",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_bei_Lofer"
+                    }, {
+                        "label": "Sankt Martin im Innkreis",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_im_Innkreis"
+                    }, {
+                        "label": "Sankt Martin im Mühlkreis",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_im_Mühlkreis"
+                    }, {
+                        "label": "Sankt Martin im Sulmtal",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_im_Sulmtal"
+                    }, {
+                        "label": "Sassen, Germany",
+                        "uri": "http://dbpedia.org/resource/Sassen,_Germany"
+                    }, {
+                        "label": "Scheidt, Rhineland-Palatinate",
+                        "uri": "http://dbpedia.org/resource/Scheidt,_Rhineland-Palatinate"
+                    }, {
+                        "label": "Scheidt (Saarbrücken)",
+                        "uri": "http://dbpedia.org/resource/Scheidt_(Saarbrücken)"
+                    }, {
+                        "label": "Schloßberg (Leibnitz)",
+                        "uri": "http://dbpedia.org/resource/Schloßberg_(Leibnitz)"
+                    }, {
+                        "label": "Shiro, Texas",
+                        "uri": "http://dbpedia.org/resource/Shiro,_Texas"
+                    }, {
+                        "label": "Sono, Jamui",
+                        "uri": "http://dbpedia.org/resource/Sono,_Jamui"
+                    }, {
+                        "label": "Spital am Pyhrn",
+                        "uri": "http://dbpedia.org/resource/Spital_am_Pyhrn"
+                    }, {
+                        "label": "Spital am Semmering",
+                        "uri": "http://dbpedia.org/resource/Spital_am_Semmering"
+                    }, {
+                        "label": "Swan Lake, Mississippi",
+                        "uri": "http://dbpedia.org/resource/Swan_Lake,_Mississippi"
+                    }, {
+                        "label": "Swan Lake, Montana",
+                        "uri": "http://dbpedia.org/resource/Swan_Lake,_Montana"
+                    }, {
+                        "label": "Sáenz Peña, Buenos Aires",
+                        "uri": "http://dbpedia.org/resource/Sáenz_Peña,_Buenos_Aires"
+                    }, {
+                        "label": "Tad, West Virginia",
+                        "uri": "http://dbpedia.org/resource/Tad,_West_Virginia"
+                    }, {
+                        "label": "Unorganized South East Cochrane District",
+                        "uri": "http://dbpedia.org/resource/Unorganized_South_East_Cochrane_District"
+                    }, {
+                        "label": "Unorganized South West Cochrane District",
+                        "uri": "http://dbpedia.org/resource/Unorganized_South_West_Cochrane_District"
+                    }, {
+                        "label": "Venator, Oregon",
+                        "uri": "http://dbpedia.org/resource/Venator,_Oregon"
+                    }, {
+                        "label": "Weißkirchen an der Traun",
+                        "uri": "http://dbpedia.org/resource/Weißkirchen_an_der_Traun"
+                    }, {
+                        "label": "Weißkirchen in Steiermark",
+                        "uri": "http://dbpedia.org/resource/Weißkirchen_in_Steiermark"
+                    }, {
+                        "label": "Werder, Demmin",
+                        "uri": "http://dbpedia.org/resource/Werder,_Demmin"
+                    }, {
+                        "label": "Werder, Parchim",
+                        "uri": "http://dbpedia.org/resource/Werder,_Parchim"
+                    }, {
+                        "label": "Wolf Lake, Illinois",
+                        "uri": "http://dbpedia.org/resource/Wolf_Lake,_Illinois"
+                    }, {
+                        "label": "Abra Pampa",
+                        "uri": "http://dbpedia.org/resource/Abra_Pampa"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "LOCATION",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the area code of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/areaCode> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Corfu",
+                        "uri": "http://dbpedia.org/resource/Corfu"
+                    }, {
+                        "label": "Sevastopol",
+                        "uri": "http://dbpedia.org/resource/Sevastopol"
+                    }, {
+                        "label": "Agia Triada, Elis",
+                        "uri": "http://dbpedia.org/resource/Agia_Triada,_Elis"
+                    }, {
+                        "label": "Agia Triada, Thessaloniki",
+                        "uri": "http://dbpedia.org/resource/Agia_Triada,_Thessaloniki"
+                    }, {
+                        "label": "Aksu, Almaty",
+                        "uri": "http://dbpedia.org/resource/Aksu,_Almaty"
+                    }, {
+                        "label": "Aksu, Antalya",
+                        "uri": "http://dbpedia.org/resource/Aksu,_Antalya"
+                    }, {
+                        "label": "Alto, Piedmont",
+                        "uri": "http://dbpedia.org/resource/Alto,_Piedmont"
+                    }, {
+                        "label": "Alto (community), Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Alto_(community),_Wisconsin"
+                    }, {
+                        "label": "Alur, Hassan",
+                        "uri": "http://dbpedia.org/resource/Alur,_Hassan"
+                    }, {
+                        "label": "Angram, Harrogate",
+                        "uri": "http://dbpedia.org/resource/Angram,_Harrogate"
+                    }, {
+                        "label": "Angram, Richmondshire",
+                        "uri": "http://dbpedia.org/resource/Angram,_Richmondshire"
+                    }, {
+                        "label": "Arniston, Midlothian",
+                        "uri": "http://dbpedia.org/resource/Arniston,_Midlothian"
+                    }, {
+                        "label": "Bana, Hungary",
+                        "uri": "http://dbpedia.org/resource/Bana,_Hungary"
+                    }, {
+                        "label": "Banatska Palanka",
+                        "uri": "http://dbpedia.org/resource/Banatska_Palanka"
+                    }, {
+                        "label": "Barry Corner, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Barry_Corner,_Wisconsin"
+                    }, {
+                        "label": "Beckett Park",
+                        "uri": "http://dbpedia.org/resource/Beckett_Park"
+                    }, {
+                        "label": "Bevern, Schleswig-Holstein",
+                        "uri": "http://dbpedia.org/resource/Bevern,_Schleswig-Holstein"
+                    }, {
+                        "label": "Bevern (Samtgemeinde)",
+                        "uri": "http://dbpedia.org/resource/Bevern_(Samtgemeinde)"
+                    }, {
+                        "label": "Blackbird, Delaware",
+                        "uri": "http://dbpedia.org/resource/Blackbird,_Delaware"
+                    }, {
+                        "label": "Boulogne Sur Mer",
+                        "uri": "http://dbpedia.org/resource/Boulogne_Sur_Mer"
+                    }, {
+                        "label": "Brackett, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Brackett,_Wisconsin"
+                    }, {
+                        "label": "Brandy City, California",
+                        "uri": "http://dbpedia.org/resource/Brandy_City,_California"
+                    }, {
+                        "label": "Breslau, Ontario",
+                        "uri": "http://dbpedia.org/resource/Breslau,_Ontario"
+                    }, {
+                        "label": "Brody, Staszów County",
+                        "uri": "http://dbpedia.org/resource/Brody,_Staszów_County"
+                    }, {
+                        "label": "Brza Palanka",
+                        "uri": "http://dbpedia.org/resource/Brza_Palanka"
+                    }, {
+                        "label": "Castelvecchio di Rocca Barbena",
+                        "uri": "http://dbpedia.org/resource/Castelvecchio_di_Rocca_Barbena"
+                    }, {
+                        "label": "Cedar Lake, Minnesota",
+                        "uri": "http://dbpedia.org/resource/Cedar_Lake,_Minnesota"
+                    }, {
+                        "label": "Cedar Lake (community), Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Cedar_Lake_(community),_Wisconsin"
+                    }, {
+                        "label": "Cervino, Campania",
+                        "uri": "http://dbpedia.org/resource/Cervino,_Campania"
+                    }, {
+                        "label": "Cienfuegos Province",
+                        "uri": "http://dbpedia.org/resource/Cienfuegos_Province"
+                    }, {
+                        "label": "Clam Lake, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Clam_Lake,_Wisconsin"
+                    }, {
+                        "label": "Cove, Hampshire",
+                        "uri": "http://dbpedia.org/resource/Cove,_Hampshire"
+                    }, {
+                        "label": "Cwmavon, Torfaen",
+                        "uri": "http://dbpedia.org/resource/Cwmavon,_Torfaen"
+                    }, {
+                        "label": "Călărași, Cluj",
+                        "uri": "http://dbpedia.org/resource/Călărași,_Cluj"
+                    }, {
+                        "label": "Dhaliwal, Nakodar",
+                        "uri": "http://dbpedia.org/resource/Dhaliwal,_Nakodar"
+                    }, {
+                        "label": "Duck Lake, Saskatchewan",
+                        "uri": "http://dbpedia.org/resource/Duck_Lake,_Saskatchewan"
+                    }, {
+                        "label": "East Tanfield",
+                        "uri": "http://dbpedia.org/resource/East_Tanfield"
+                    }, {
+                        "label": "Epanochori, Cephalonia",
+                        "uri": "http://dbpedia.org/resource/Epanochori,_Cephalonia"
+                    }, {
+                        "label": "Galloway, Michigan",
+                        "uri": "http://dbpedia.org/resource/Galloway,_Michigan"
+                    }, {
+                        "label": "Galloway, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Galloway,_Wisconsin"
+                    }, {
+                        "label": "Half Moon Lake, Alberta",
+                        "uri": "http://dbpedia.org/resource/Half_Moon_Lake,_Alberta"
+                    }, {
+                        "label": "Hampshire, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Hampshire,_Tennessee"
+                    }, {
+                        "label": "Hochdorf, Biberach",
+                        "uri": "http://dbpedia.org/resource/Hochdorf,_Biberach"
+                    }, {
+                        "label": "Hochdorf, Esslingen",
+                        "uri": "http://dbpedia.org/resource/Hochdorf,_Esslingen"
+                    }, {
+                        "label": "Juda, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Juda,_Wisconsin"
+                    }, {
+                        "label": "Kingsbridge, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Kingsbridge,_Wisconsin"
+                    }, {
+                        "label": "Lakkidi, Palakkad",
+                        "uri": "http://dbpedia.org/resource/Lakkidi,_Palakkad"
+                    }, {
+                        "label": "Lancang Lahu Autonomous County",
+                        "uri": "http://dbpedia.org/resource/Lancang_Lahu_Autonomous_County"
+                    }, {
+                        "label": "Leyden, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Leyden,_Wisconsin"
+                    }, {
+                        "label": "Lily Lake, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Lily_Lake,_Wisconsin"
+                    }, {
+                        "label": "Lummus Park Historic District",
+                        "uri": "http://dbpedia.org/resource/Lummus_Park_Historic_District"
+                    }, {
+                        "label": "Mandel, Germany",
+                        "uri": "http://dbpedia.org/resource/Mandel,_Germany"
+                    }, {
+                        "label": "Market Square, Harrisburg",
+                        "uri": "http://dbpedia.org/resource/Market_Square,_Harrisburg"
+                    }, {
+                        "label": "Mela Raman Puthoor",
+                        "uri": "http://dbpedia.org/resource/Mela_Raman_Puthoor"
+                    }, {
+                        "label": "Middle Lake, Saskatchewan",
+                        "uri": "http://dbpedia.org/resource/Middle_Lake,_Saskatchewan"
+                    }, {
+                        "label": "Nancheng County",
+                        "uri": "http://dbpedia.org/resource/Nancheng_County"
+                    }, {
+                        "label": "Nandgaon, Maharashtra",
+                        "uri": "http://dbpedia.org/resource/Nandgaon,_Maharashtra"
+                    }, {
+                        "label": "Nandgaon Khandeshwar",
+                        "uri": "http://dbpedia.org/resource/Nandgaon_Khandeshwar"
+                    }, {
+                        "label": "North Lake, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/North_Lake,_Wisconsin"
+                    }, {
+                        "label": "Oak Lake, Manitoba",
+                        "uri": "http://dbpedia.org/resource/Oak_Lake,_Manitoba"
+                    }, {
+                        "label": "Offham, Kent",
+                        "uri": "http://dbpedia.org/resource/Offham,_Kent"
+                    }, {
+                        "label": "Olmedo, Sardinia",
+                        "uri": "http://dbpedia.org/resource/Olmedo,_Sardinia"
+                    }, {
+                        "label": "Piccadilly, Warwickshire",
+                        "uri": "http://dbpedia.org/resource/Piccadilly,_Warwickshire"
+                    }, {
+                        "label": "Pike Lake, Marathon County, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Pike_Lake,_Marathon_County,_Wisconsin"
+                    }, {
+                        "label": "Pike Lake, Washington County, Wisconsin",
+                        "uri": "http://dbpedia.org/resource/Pike_Lake,_Washington_County,_Wisconsin"
+                    }, {
+                        "label": "Raman, Punjab (India)",
+                        "uri": "http://dbpedia.org/resource/Raman,_Punjab_(India)"
+                    }, {
+                        "label": "Saint-Cyprien, Bas-Saint-Laurent, Quebec",
+                        "uri": "http://dbpedia.org/resource/Saint-Cyprien,_Bas-Saint-Laurent,_Quebec"
+                    }, {
+                        "label": "Saint-Cyprien, Chaudière-Appalaches, Quebec",
+                        "uri": "http://dbpedia.org/resource/Saint-Cyprien,_Chaudière-Appalaches,_Quebec"
+                    }, {
+                        "label": "Saint-Cyprien-de-Napierville, Quebec",
+                        "uri": "http://dbpedia.org/resource/Saint-Cyprien-de-Napierville,_Quebec"
+                    }, {
+                        "label": "Samantha, Alabama",
+                        "uri": "http://dbpedia.org/resource/Samantha,_Alabama"
+                    }, {
+                        "label": "Sankt Martin, Germany",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin,_Germany"
+                    }, {
+                        "label": "Sankt Martin, Lower Austria",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin,_Lower_Austria"
+                    }, {
+                        "label": "Sankt Martin am Grimming",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_am_Grimming"
+                    }, {
+                        "label": "Sankt Martin am Tennengebirge",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_am_Tennengebirge"
+                    }, {
+                        "label": "Sankt Martin am Wöllmißberg",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_am_Wöllmißberg"
+                    }, {
+                        "label": "Sankt Martin bei Lofer",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_bei_Lofer"
+                    }, {
+                        "label": "Sankt Martin im Innkreis",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_im_Innkreis"
+                    }, {
+                        "label": "Sankt Martin im Mühlkreis",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_im_Mühlkreis"
+                    }, {
+                        "label": "Sankt Martin im Sulmtal",
+                        "uri": "http://dbpedia.org/resource/Sankt_Martin_im_Sulmtal"
+                    }, {
+                        "label": "Sassen, Germany",
+                        "uri": "http://dbpedia.org/resource/Sassen,_Germany"
+                    }, {
+                        "label": "Scheidt, Rhineland-Palatinate",
+                        "uri": "http://dbpedia.org/resource/Scheidt,_Rhineland-Palatinate"
+                    }, {
+                        "label": "Scheidt (Saarbrücken)",
+                        "uri": "http://dbpedia.org/resource/Scheidt_(Saarbrücken)"
+                    }, {
+                        "label": "Schloßberg (Leibnitz)",
+                        "uri": "http://dbpedia.org/resource/Schloßberg_(Leibnitz)"
+                    }, {
+                        "label": "Shiro, Texas",
+                        "uri": "http://dbpedia.org/resource/Shiro,_Texas"
+                    }, {
+                        "label": "Sono, Jamui",
+                        "uri": "http://dbpedia.org/resource/Sono,_Jamui"
+                    }, {
+                        "label": "Spital am Pyhrn",
+                        "uri": "http://dbpedia.org/resource/Spital_am_Pyhrn"
+                    }, {
+                        "label": "Spital am Semmering",
+                        "uri": "http://dbpedia.org/resource/Spital_am_Semmering"
+                    }, {
+                        "label": "Swan Lake, Mississippi",
+                        "uri": "http://dbpedia.org/resource/Swan_Lake,_Mississippi"
+                    }, {
+                        "label": "Swan Lake, Montana",
+                        "uri": "http://dbpedia.org/resource/Swan_Lake,_Montana"
+                    }, {
+                        "label": "Sáenz Peña, Buenos Aires",
+                        "uri": "http://dbpedia.org/resource/Sáenz_Peña,_Buenos_Aires"
+                    }, {
+                        "label": "Tad, West Virginia",
+                        "uri": "http://dbpedia.org/resource/Tad,_West_Virginia"
+                    }, {
+                        "label": "Unorganized South East Cochrane District",
+                        "uri": "http://dbpedia.org/resource/Unorganized_South_East_Cochrane_District"
+                    }, {
+                        "label": "Unorganized South West Cochrane District",
+                        "uri": "http://dbpedia.org/resource/Unorganized_South_West_Cochrane_District"
+                    }, {
+                        "label": "Venator, Oregon",
+                        "uri": "http://dbpedia.org/resource/Venator,_Oregon"
+                    }, {
+                        "label": "Weißkirchen an der Traun",
+                        "uri": "http://dbpedia.org/resource/Weißkirchen_an_der_Traun"
+                    }, {
+                        "label": "Weißkirchen in Steiermark",
+                        "uri": "http://dbpedia.org/resource/Weißkirchen_in_Steiermark"
+                    }, {
+                        "label": "Werder, Demmin",
+                        "uri": "http://dbpedia.org/resource/Werder,_Demmin"
+                    }, {
+                        "label": "Werder, Parchim",
+                        "uri": "http://dbpedia.org/resource/Werder,_Parchim"
+                    }, {
+                        "label": "Wolf Lake, Illinois",
+                        "uri": "http://dbpedia.org/resource/Wolf_Lake,_Illinois"
+                    }, {
+                        "label": "Abra Pampa",
+                        "uri": "http://dbpedia.org/resource/Abra_Pampa"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Whitehaven, Memphis, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+                    }, {
+                        "label": "Lake Zabuye",
+                        "uri": "http://dbpedia.org/resource/Lake_Zabuye"
+                    }, {
+                        "label": "Mid-Atlantic states",
+                        "uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+                    }, {
+                        "label": "New England",
+                        "uri": "http://dbpedia.org/resource/New_England"
+                    }, {
+                        "label": "Kuta Raja",
+                        "uri": "http://dbpedia.org/resource/Kuta_Raja"
+                    }, {
+                        "label": "San Biagio Maggiore",
+                        "uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+                    }, {
+                        "label": "Namcha Barwa Himal",
+                        "uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+                    }, {
+                        "label": "San Nicola a Nilo",
+                        "uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+                    }, {
+                        "label": "Adra, Syria",
+                        "uri": "http://dbpedia.org/resource/Adra,_Syria"
+                    }, {
+                        "label": "Al-Mazraa",
+                        "uri": "http://dbpedia.org/resource/Al-Mazraa"
+                    }, {
+                        "label": "Al-Rastan",
+                        "uri": "http://dbpedia.org/resource/Al-Rastan"
+                    }, {
+                        "label": "Al-Hawash, Homs Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+                    }, {
+                        "label": "Ayn al-Bardah",
+                        "uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+                    }, {
+                        "label": "Khabab",
+                        "uri": "http://dbpedia.org/resource/Khabab"
+                    }, {
+                        "label": "Al-Kafr",
+                        "uri": "http://dbpedia.org/resource/Al-Kafr"
+                    }, {
+                        "label": "Deir Mama",
+                        "uri": "http://dbpedia.org/resource/Deir_Mama"
+                    }, {
+                        "label": "Madaya, Syria",
+                        "uri": "http://dbpedia.org/resource/Madaya,_Syria"
+                    }, {
+                        "label": "Tayru",
+                        "uri": "http://dbpedia.org/resource/Tayru"
+                    }, {
+                        "label": "Al-Khalidiyah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+                    }, {
+                        "label": "Al-Khalidiyah, al-Hasakah Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+                    }, {
+                        "label": "Basatin al-Assad",
+                        "uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+                    }, {
+                        "label": "Hala, Syria",
+                        "uri": "http://dbpedia.org/resource/Hala,_Syria"
+                    }, {
+                        "label": "Harran, Idlib",
+                        "uri": "http://dbpedia.org/resource/Harran,_Idlib"
+                    }, {
+                        "label": "Harran, as-Suwayda",
+                        "uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+                    }, {
+                        "label": "Harran al-Awamid",
+                        "uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+                    }, {
+                        "label": "Wadi al-Nasara",
+                        "uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+                    }, {
+                        "label": "Abu Khanadiq",
+                        "uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+                    }, {
+                        "label": "Abu Kleefun",
+                        "uri": "http://dbpedia.org/resource/Abu_Kleefun"
+                    }, {
+                        "label": "Abul Fashafish",
+                        "uri": "http://dbpedia.org/resource/Abul_Fashafish"
+                    }, {
+                        "label": "Al-'Amrah",
+                        "uri": "http://dbpedia.org/resource/Al-'Amrah"
+                    }, {
+                        "label": "Al-Atnah",
+                        "uri": "http://dbpedia.org/resource/Al-Atnah"
+                    }, {
+                        "label": "Al-Fayadiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+                    }, {
+                        "label": "Al-Humayra",
+                        "uri": "http://dbpedia.org/resource/Al-Humayra"
+                    }, {
+                        "label": "Al-Jarajir",
+                        "uri": "http://dbpedia.org/resource/Al-Jarajir"
+                    }, {
+                        "label": "Al-Khandaq al-Sharqiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+                    }, {
+                        "label": "Al-Muhajirin, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Narjis",
+                        "uri": "http://dbpedia.org/resource/Al-Narjis"
+                    }, {
+                        "label": "Al-Nazaza",
+                        "uri": "http://dbpedia.org/resource/Al-Nazaza"
+                    }, {
+                        "label": "Al-Nour, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+                    }, {
+                        "label": "Al-Ramlah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+                    }, {
+                        "label": "Al-Salihiyah, Hama",
+                        "uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+                    }, {
+                        "label": "Al-Sindiyana, Suqaylabiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+                    }, {
+                        "label": "Al-Swaia",
+                        "uri": "http://dbpedia.org/resource/Al-Swaia"
+                    }, {
+                        "label": "Al-Thawrah, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Tulaysiyah al-Janubiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+                    }, {
+                        "label": "Al-Zitiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Zitiyah"
+                    }, {
+                        "label": "Ammurin",
+                        "uri": "http://dbpedia.org/resource/Ammurin"
+                    }, {
+                        "label": "Ayn Dara",
+                        "uri": "http://dbpedia.org/resource/Ayn_Dara"
+                    }, {
+                        "label": "Balluneh",
+                        "uri": "http://dbpedia.org/resource/Balluneh"
+                    }, {
+                        "label": "Beij",
+                        "uri": "http://dbpedia.org/resource/Beij"
+                    }, {
+                        "label": "Bgheidid",
+                        "uri": "http://dbpedia.org/resource/Bgheidid"
+                    }, {
+                        "label": "Bustan Sbeih",
+                        "uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+                    }, {
+                        "label": "Deir Sunbul",
+                        "uri": "http://dbpedia.org/resource/Deir_Sunbul"
+                    }, {
+                        "label": "Ein Elhamam",
+                        "uri": "http://dbpedia.org/resource/Ein_Elhamam"
+                    }, {
+                        "label": "Ein Warideh",
+                        "uri": "http://dbpedia.org/resource/Ein_Warideh"
+                    }, {
+                        "label": "Elrihana",
+                        "uri": "http://dbpedia.org/resource/Elrihana"
+                    }, {
+                        "label": "Fawrah",
+                        "uri": "http://dbpedia.org/resource/Fawrah"
+                    }, {
+                        "label": "Hamrit",
+                        "uri": "http://dbpedia.org/resource/Hamrit"
+                    }, {
+                        "label": "Hanuteh",
+                        "uri": "http://dbpedia.org/resource/Hanuteh"
+                    }, {
+                        "label": "Hdaj",
+                        "uri": "http://dbpedia.org/resource/Hdaj"
+                    }, {
+                        "label": "Jakuziyeh",
+                        "uri": "http://dbpedia.org/resource/Jakuziyeh"
+                    }, {
+                        "label": "Jamala, Hama",
+                        "uri": "http://dbpedia.org/resource/Jamala,_Hama"
+                    }, {
+                        "label": "Jeb Dkileh",
+                        "uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+                    }, {
+                        "label": "Jeb Zreiq",
+                        "uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+                    }, {
+                        "label": "Jessine",
+                        "uri": "http://dbpedia.org/resource/Jessine"
+                    }, {
+                        "label": "Karama, Hama",
+                        "uri": "http://dbpedia.org/resource/Karama,_Hama"
+                    }, {
+                        "label": "Kasun Eljabal",
+                        "uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+                    }, {
+                        "label": "Kawri",
+                        "uri": "http://dbpedia.org/resource/Kawri"
+                    }, {
+                        "label": "Khala, Hama",
+                        "uri": "http://dbpedia.org/resource/Khala,_Hama"
+                    }, {
+                        "label": "Khansaa - Shetheh",
+                        "uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+                    }, {
+                        "label": "Maar Shamali",
+                        "uri": "http://dbpedia.org/resource/Maar_Shamali"
+                    }, {
+                        "label": "Makhbuta",
+                        "uri": "http://dbpedia.org/resource/Makhbuta"
+                    }, {
+                        "label": "Maksar, Hama",
+                        "uri": "http://dbpedia.org/resource/Maksar,_Hama"
+                    }, {
+                        "label": "Marana, Hama",
+                        "uri": "http://dbpedia.org/resource/Marana,_Hama"
+                    }, {
+                        "label": "Mashta Elshalahmeh",
+                        "uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+                    }, {
+                        "label": "Mastarihat Afamiyah",
+                        "uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+                    }, {
+                        "label": "Mrikb",
+                        "uri": "http://dbpedia.org/resource/Mrikb"
+                    }, {
+                        "label": "Mweileh",
+                        "uri": "http://dbpedia.org/resource/Mweileh"
+                    }, {
+                        "label": "Nabe Eltib",
+                        "uri": "http://dbpedia.org/resource/Nabe_Eltib"
+                    }, {
+                        "label": "Ojet - Kabasin Elarab",
+                        "uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+                    }, {
+                        "label": "Ojt Eltoba",
+                        "uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+                    }, {
+                        "label": "Qal'at al-Jaras",
+                        "uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+                    }, {
+                        "label": "Qanater, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+                    }, {
+                        "label": "Qastal al-Burj",
+                        "uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+                    }, {
+                        "label": "Ras al-Maara",
+                        "uri": "http://dbpedia.org/resource/Ras_al-Maara"
+                    }, {
+                        "label": "Rasm Al-Brdkana",
+                        "uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+                    }, {
+                        "label": "Rasm Amun",
+                        "uri": "http://dbpedia.org/resource/Rasm_Amun"
+                    }, {
+                        "label": "Rasm Anz",
+                        "uri": "http://dbpedia.org/resource/Rasm_Anz"
+                    }, {
+                        "label": "Rasm Elahmar",
+                        "uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+                    }, {
+                        "label": "Rudat al-Tar",
+                        "uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+                    }, {
+                        "label": "Rweideh",
+                        "uri": "http://dbpedia.org/resource/Rweideh"
+                    }, {
+                        "label": "Saidiyeh, Hama",
+                        "uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+                    }, {
+                        "label": "Saqiyet Nijm",
+                        "uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+                    }, {
+                        "label": "Shahta",
+                        "uri": "http://dbpedia.org/resource/Shahta"
+                    }, {
+                        "label": "Shatheh",
+                        "uri": "http://dbpedia.org/resource/Shatheh"
+                    }, {
+                        "label": "Shaykh Ali",
+                        "uri": "http://dbpedia.org/resource/Shaykh_Ali"
+                    }, {
+                        "label": "Suwak al-Shamali",
+                        "uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+                    }, {
+                        "label": "Tabara Elhamra",
+                        "uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+                    }, {
+                        "label": "Tahunet Elhalawa",
+                        "uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+                    }, {
+                        "label": "Tell al-Shih",
+                        "uri": "http://dbpedia.org/resource/Tell_al-Shih"
+                    }]
+            },
+            "combination": false
+        }]
+}

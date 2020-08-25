@@ -1,0 +1,670 @@
+
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base            <http://localhost:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :alterEgo_of ;
+  lemon:entry    :of .
+
+:alterEgo_of a         lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:noun ;
+  lemon:canonicalForm  :alterEgo_form ;
+  lemon:synBehavior    :alterEgo_of_nounpp ;
+  lemon:sense          :alterEgo_sense_ontomap .
+
+:alterEgo_form a   lemon:Form ;
+  lemon:writtenRep "alter ego"@en .
+
+:alterEgo_of_nounpp a          lexinfo:NounPPFrame ;
+  lexinfo:copulativeArg        :arg1 ;
+  lexinfo:prepositionalAdjunct :arg2 .
+
+:alterEgo_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping       :alterEgo_sense_ontomap ;
+  lemon:reference         <http://dbpedia.org/property/alterEgo> ;
+  lemon:subjOfProp        :arg2 ;
+  lemon:objOfProp         :arg1 ;
+  lemon:condition         :alterEgo_condition .
+
+:alterEgo_condition a  lemon:condition ;
+  lemon:propertyDomain <http://dbpedia.org/ontology/FictionalCharacter> ;
+  lemon:propertyRange  <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+
+:arg2 lemon:marker :of .
+
+## Prepositions ##
+
+:of a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "of"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
+
+
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "PERSON",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["What is the alter ego of ($x | PERSON_NP)?", "What was the alter ego of ($x | PERSON_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/property/alterEgo> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Daredevil (Marvel Comics character)",
+                        "uri": "http://dbpedia.org/resource/Daredevil_(Marvel_Comics_character)"
+                    }, {
+                        "label": "Faust (Avatar Press)",
+                        "uri": "http://dbpedia.org/resource/Faust_(Avatar_Press)"
+                    }, {
+                        "label": "Hangman (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Hangman_(Archie_Comics)"
+                    }, {
+                        "label": "Normalman",
+                        "uri": "http://dbpedia.org/resource/Normalman"
+                    }, {
+                        "label": "Atom (Ray Palmer)",
+                        "uri": "http://dbpedia.org/resource/Atom_(Ray_Palmer)"
+                    }, {
+                        "label": "Captain Atom",
+                        "uri": "http://dbpedia.org/resource/Captain_Atom"
+                    }, {
+                        "label": "Captain Marvel (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Captain_Marvel_(DC_Comics)"
+                    }, {
+                        "label": "Hawkeye (comics)",
+                        "uri": "http://dbpedia.org/resource/Hawkeye_(comics)"
+                    }, {
+                        "label": "Iron Man",
+                        "uri": "http://dbpedia.org/resource/Iron_Man"
+                    }, {
+                        "label": "Mister Terrific (Michael Holt)",
+                        "uri": "http://dbpedia.org/resource/Mister_Terrific_(Michael_Holt)"
+                    }, {
+                        "label": "The Brain (Bell comics)",
+                        "uri": "http://dbpedia.org/resource/The_Brain_(Bell_comics)"
+                    }, {
+                        "label": "Vampirella",
+                        "uri": "http://dbpedia.org/resource/Vampirella"
+                    }, {
+                        "label": "Shield (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Shield_(Archie_Comics)"
+                    }, {
+                        "label": "Wizard (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Wizard_(Archie_Comics)"
+                    }, {
+                        "label": "Tarzan (comics)",
+                        "uri": "http://dbpedia.org/resource/Tarzan_(comics)"
+                    }, {
+                        "label": "Ghost Rider 2099",
+                        "uri": "http://dbpedia.org/resource/Ghost_Rider_2099"
+                    }, {
+                        "label": "Ultimate Captain America",
+                        "uri": "http://dbpedia.org/resource/Ultimate_Captain_America"
+                    }, {
+                        "label": "Rawhide Kid",
+                        "uri": "http://dbpedia.org/resource/Rawhide_Kid"
+                    }, {
+                        "label": "Larfleeze",
+                        "uri": "http://dbpedia.org/resource/Larfleeze"
+                    }, {
+                        "label": "Black Hand (comics)",
+                        "uri": "http://dbpedia.org/resource/Black_Hand_(comics)"
+                    }, {
+                        "label": "Moon Knight",
+                        "uri": "http://dbpedia.org/resource/Moon_Knight"
+                    }, {
+                        "label": "Green Arrow",
+                        "uri": "http://dbpedia.org/resource/Green_Arrow"
+                    }, {
+                        "label": "Swamp Thing",
+                        "uri": "http://dbpedia.org/resource/Swamp_Thing"
+                    }, {
+                        "label": "Western Kid",
+                        "uri": "http://dbpedia.org/resource/Western_Kid"
+                    }, {
+                        "label": "X-O Manowar",
+                        "uri": "http://dbpedia.org/resource/X-O_Manowar"
+                    }, {
+                        "label": "Black Rider (comics)",
+                        "uri": "http://dbpedia.org/resource/Black_Rider_(comics)"
+                    }, {
+                        "label": "Doctor Manhattan",
+                        "uri": "http://dbpedia.org/resource/Doctor_Manhattan"
+                    }, {
+                        "label": "Rogue (comics)",
+                        "uri": "http://dbpedia.org/resource/Rogue_(comics)"
+                    }, {
+                        "label": "Apocalypse (comics)",
+                        "uri": "http://dbpedia.org/resource/Apocalypse_(comics)"
+                    }, {
+                        "label": "Apache Kid (comics)",
+                        "uri": "http://dbpedia.org/resource/Apache_Kid_(comics)"
+                    }, {
+                        "label": "Spectre (comics)",
+                        "uri": "http://dbpedia.org/resource/Spectre_(comics)"
+                    }, {
+                        "label": "Black Hood",
+                        "uri": "http://dbpedia.org/resource/Black_Hood"
+                    }, {
+                        "label": "Punisher 2099",
+                        "uri": "http://dbpedia.org/resource/Punisher_2099"
+                    }, {
+                        "label": "Billy the Kid (Charlton Comics)",
+                        "uri": "http://dbpedia.org/resource/Billy_the_Kid_(Charlton_Comics)"
+                    }, {
+                        "label": "Copycat (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Copycat_(Marvel_Comics)"
+                    }, {
+                        "label": "Warlord (comics)",
+                        "uri": "http://dbpedia.org/resource/Warlord_(comics)"
+                    }, {
+                        "label": "Hoppy the Marvel Bunny",
+                        "uri": "http://dbpedia.org/resource/Hoppy_the_Marvel_Bunny"
+                    }, {
+                        "label": "Kid Colt",
+                        "uri": "http://dbpedia.org/resource/Kid_Colt"
+                    }, {
+                        "label": "Ganesh Hegde",
+                        "uri": "http://dbpedia.org/resource/Ganesh_Hegde"
+                    }, {
+                        "label": "Catwoman",
+                        "uri": "http://dbpedia.org/resource/Catwoman"
+                    }, {
+                        "label": "Ravager (comics)",
+                        "uri": "http://dbpedia.org/resource/Ravager_(comics)"
+                    }, {
+                        "label": "Outlaw Kid",
+                        "uri": "http://dbpedia.org/resource/Outlaw_Kid"
+                    }, {
+                        "label": "Fox (comics)",
+                        "uri": "http://dbpedia.org/resource/Fox_(comics)"
+                    }, {
+                        "label": "La Llanera Vengadora",
+                        "uri": "http://dbpedia.org/resource/La_Llanera_Vengadora"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "PERSON",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the alter ego of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/property/alterEgo> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Daredevil (Marvel Comics character)",
+                        "uri": "http://dbpedia.org/resource/Daredevil_(Marvel_Comics_character)"
+                    }, {
+                        "label": "Faust (Avatar Press)",
+                        "uri": "http://dbpedia.org/resource/Faust_(Avatar_Press)"
+                    }, {
+                        "label": "Hangman (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Hangman_(Archie_Comics)"
+                    }, {
+                        "label": "Normalman",
+                        "uri": "http://dbpedia.org/resource/Normalman"
+                    }, {
+                        "label": "Atom (Ray Palmer)",
+                        "uri": "http://dbpedia.org/resource/Atom_(Ray_Palmer)"
+                    }, {
+                        "label": "Captain Atom",
+                        "uri": "http://dbpedia.org/resource/Captain_Atom"
+                    }, {
+                        "label": "Captain Marvel (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Captain_Marvel_(DC_Comics)"
+                    }, {
+                        "label": "Hawkeye (comics)",
+                        "uri": "http://dbpedia.org/resource/Hawkeye_(comics)"
+                    }, {
+                        "label": "Iron Man",
+                        "uri": "http://dbpedia.org/resource/Iron_Man"
+                    }, {
+                        "label": "Mister Terrific (Michael Holt)",
+                        "uri": "http://dbpedia.org/resource/Mister_Terrific_(Michael_Holt)"
+                    }, {
+                        "label": "The Brain (Bell comics)",
+                        "uri": "http://dbpedia.org/resource/The_Brain_(Bell_comics)"
+                    }, {
+                        "label": "Vampirella",
+                        "uri": "http://dbpedia.org/resource/Vampirella"
+                    }, {
+                        "label": "Shield (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Shield_(Archie_Comics)"
+                    }, {
+                        "label": "Wizard (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Wizard_(Archie_Comics)"
+                    }, {
+                        "label": "Tarzan (comics)",
+                        "uri": "http://dbpedia.org/resource/Tarzan_(comics)"
+                    }, {
+                        "label": "Ghost Rider 2099",
+                        "uri": "http://dbpedia.org/resource/Ghost_Rider_2099"
+                    }, {
+                        "label": "Ultimate Captain America",
+                        "uri": "http://dbpedia.org/resource/Ultimate_Captain_America"
+                    }, {
+                        "label": "Rawhide Kid",
+                        "uri": "http://dbpedia.org/resource/Rawhide_Kid"
+                    }, {
+                        "label": "Larfleeze",
+                        "uri": "http://dbpedia.org/resource/Larfleeze"
+                    }, {
+                        "label": "Black Hand (comics)",
+                        "uri": "http://dbpedia.org/resource/Black_Hand_(comics)"
+                    }, {
+                        "label": "Moon Knight",
+                        "uri": "http://dbpedia.org/resource/Moon_Knight"
+                    }, {
+                        "label": "Green Arrow",
+                        "uri": "http://dbpedia.org/resource/Green_Arrow"
+                    }, {
+                        "label": "Swamp Thing",
+                        "uri": "http://dbpedia.org/resource/Swamp_Thing"
+                    }, {
+                        "label": "Western Kid",
+                        "uri": "http://dbpedia.org/resource/Western_Kid"
+                    }, {
+                        "label": "X-O Manowar",
+                        "uri": "http://dbpedia.org/resource/X-O_Manowar"
+                    }, {
+                        "label": "Black Rider (comics)",
+                        "uri": "http://dbpedia.org/resource/Black_Rider_(comics)"
+                    }, {
+                        "label": "Doctor Manhattan",
+                        "uri": "http://dbpedia.org/resource/Doctor_Manhattan"
+                    }, {
+                        "label": "Rogue (comics)",
+                        "uri": "http://dbpedia.org/resource/Rogue_(comics)"
+                    }, {
+                        "label": "Apocalypse (comics)",
+                        "uri": "http://dbpedia.org/resource/Apocalypse_(comics)"
+                    }, {
+                        "label": "Apache Kid (comics)",
+                        "uri": "http://dbpedia.org/resource/Apache_Kid_(comics)"
+                    }, {
+                        "label": "Spectre (comics)",
+                        "uri": "http://dbpedia.org/resource/Spectre_(comics)"
+                    }, {
+                        "label": "Black Hood",
+                        "uri": "http://dbpedia.org/resource/Black_Hood"
+                    }, {
+                        "label": "Punisher 2099",
+                        "uri": "http://dbpedia.org/resource/Punisher_2099"
+                    }, {
+                        "label": "Billy the Kid (Charlton Comics)",
+                        "uri": "http://dbpedia.org/resource/Billy_the_Kid_(Charlton_Comics)"
+                    }, {
+                        "label": "Copycat (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Copycat_(Marvel_Comics)"
+                    }, {
+                        "label": "Warlord (comics)",
+                        "uri": "http://dbpedia.org/resource/Warlord_(comics)"
+                    }, {
+                        "label": "Hoppy the Marvel Bunny",
+                        "uri": "http://dbpedia.org/resource/Hoppy_the_Marvel_Bunny"
+                    }, {
+                        "label": "Kid Colt",
+                        "uri": "http://dbpedia.org/resource/Kid_Colt"
+                    }, {
+                        "label": "Ganesh Hegde",
+                        "uri": "http://dbpedia.org/resource/Ganesh_Hegde"
+                    }, {
+                        "label": "Catwoman",
+                        "uri": "http://dbpedia.org/resource/Catwoman"
+                    }, {
+                        "label": "Ravager (comics)",
+                        "uri": "http://dbpedia.org/resource/Ravager_(comics)"
+                    }, {
+                        "label": "Outlaw Kid",
+                        "uri": "http://dbpedia.org/resource/Outlaw_Kid"
+                    }, {
+                        "label": "Fox (comics)",
+                        "uri": "http://dbpedia.org/resource/Fox_(comics)"
+                    }, {
+                        "label": "La Llanera Vengadora",
+                        "uri": "http://dbpedia.org/resource/La_Llanera_Vengadora"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Whitehaven, Memphis, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+                    }, {
+                        "label": "Lake Zabuye",
+                        "uri": "http://dbpedia.org/resource/Lake_Zabuye"
+                    }, {
+                        "label": "Mid-Atlantic states",
+                        "uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+                    }, {
+                        "label": "New England",
+                        "uri": "http://dbpedia.org/resource/New_England"
+                    }, {
+                        "label": "Kuta Raja",
+                        "uri": "http://dbpedia.org/resource/Kuta_Raja"
+                    }, {
+                        "label": "San Biagio Maggiore",
+                        "uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+                    }, {
+                        "label": "Namcha Barwa Himal",
+                        "uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+                    }, {
+                        "label": "San Nicola a Nilo",
+                        "uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+                    }, {
+                        "label": "Adra, Syria",
+                        "uri": "http://dbpedia.org/resource/Adra,_Syria"
+                    }, {
+                        "label": "Al-Mazraa",
+                        "uri": "http://dbpedia.org/resource/Al-Mazraa"
+                    }, {
+                        "label": "Al-Rastan",
+                        "uri": "http://dbpedia.org/resource/Al-Rastan"
+                    }, {
+                        "label": "Al-Hawash, Homs Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+                    }, {
+                        "label": "Ayn al-Bardah",
+                        "uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+                    }, {
+                        "label": "Khabab",
+                        "uri": "http://dbpedia.org/resource/Khabab"
+                    }, {
+                        "label": "Al-Kafr",
+                        "uri": "http://dbpedia.org/resource/Al-Kafr"
+                    }, {
+                        "label": "Deir Mama",
+                        "uri": "http://dbpedia.org/resource/Deir_Mama"
+                    }, {
+                        "label": "Madaya, Syria",
+                        "uri": "http://dbpedia.org/resource/Madaya,_Syria"
+                    }, {
+                        "label": "Tayru",
+                        "uri": "http://dbpedia.org/resource/Tayru"
+                    }, {
+                        "label": "Al-Khalidiyah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+                    }, {
+                        "label": "Al-Khalidiyah, al-Hasakah Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+                    }, {
+                        "label": "Basatin al-Assad",
+                        "uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+                    }, {
+                        "label": "Hala, Syria",
+                        "uri": "http://dbpedia.org/resource/Hala,_Syria"
+                    }, {
+                        "label": "Harran, Idlib",
+                        "uri": "http://dbpedia.org/resource/Harran,_Idlib"
+                    }, {
+                        "label": "Harran, as-Suwayda",
+                        "uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+                    }, {
+                        "label": "Harran al-Awamid",
+                        "uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+                    }, {
+                        "label": "Wadi al-Nasara",
+                        "uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+                    }, {
+                        "label": "Abu Khanadiq",
+                        "uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+                    }, {
+                        "label": "Abu Kleefun",
+                        "uri": "http://dbpedia.org/resource/Abu_Kleefun"
+                    }, {
+                        "label": "Abul Fashafish",
+                        "uri": "http://dbpedia.org/resource/Abul_Fashafish"
+                    }, {
+                        "label": "Al-'Amrah",
+                        "uri": "http://dbpedia.org/resource/Al-'Amrah"
+                    }, {
+                        "label": "Al-Atnah",
+                        "uri": "http://dbpedia.org/resource/Al-Atnah"
+                    }, {
+                        "label": "Al-Fayadiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+                    }, {
+                        "label": "Al-Humayra",
+                        "uri": "http://dbpedia.org/resource/Al-Humayra"
+                    }, {
+                        "label": "Al-Jarajir",
+                        "uri": "http://dbpedia.org/resource/Al-Jarajir"
+                    }, {
+                        "label": "Al-Khandaq al-Sharqiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+                    }, {
+                        "label": "Al-Muhajirin, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Narjis",
+                        "uri": "http://dbpedia.org/resource/Al-Narjis"
+                    }, {
+                        "label": "Al-Nazaza",
+                        "uri": "http://dbpedia.org/resource/Al-Nazaza"
+                    }, {
+                        "label": "Al-Nour, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+                    }, {
+                        "label": "Al-Ramlah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+                    }, {
+                        "label": "Al-Salihiyah, Hama",
+                        "uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+                    }, {
+                        "label": "Al-Sindiyana, Suqaylabiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+                    }, {
+                        "label": "Al-Swaia",
+                        "uri": "http://dbpedia.org/resource/Al-Swaia"
+                    }, {
+                        "label": "Al-Thawrah, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Tulaysiyah al-Janubiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+                    }, {
+                        "label": "Al-Zitiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Zitiyah"
+                    }, {
+                        "label": "Ammurin",
+                        "uri": "http://dbpedia.org/resource/Ammurin"
+                    }, {
+                        "label": "Ayn Dara",
+                        "uri": "http://dbpedia.org/resource/Ayn_Dara"
+                    }, {
+                        "label": "Balluneh",
+                        "uri": "http://dbpedia.org/resource/Balluneh"
+                    }, {
+                        "label": "Beij",
+                        "uri": "http://dbpedia.org/resource/Beij"
+                    }, {
+                        "label": "Bgheidid",
+                        "uri": "http://dbpedia.org/resource/Bgheidid"
+                    }, {
+                        "label": "Bustan Sbeih",
+                        "uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+                    }, {
+                        "label": "Deir Sunbul",
+                        "uri": "http://dbpedia.org/resource/Deir_Sunbul"
+                    }, {
+                        "label": "Ein Elhamam",
+                        "uri": "http://dbpedia.org/resource/Ein_Elhamam"
+                    }, {
+                        "label": "Ein Warideh",
+                        "uri": "http://dbpedia.org/resource/Ein_Warideh"
+                    }, {
+                        "label": "Elrihana",
+                        "uri": "http://dbpedia.org/resource/Elrihana"
+                    }, {
+                        "label": "Fawrah",
+                        "uri": "http://dbpedia.org/resource/Fawrah"
+                    }, {
+                        "label": "Hamrit",
+                        "uri": "http://dbpedia.org/resource/Hamrit"
+                    }, {
+                        "label": "Hanuteh",
+                        "uri": "http://dbpedia.org/resource/Hanuteh"
+                    }, {
+                        "label": "Hdaj",
+                        "uri": "http://dbpedia.org/resource/Hdaj"
+                    }, {
+                        "label": "Jakuziyeh",
+                        "uri": "http://dbpedia.org/resource/Jakuziyeh"
+                    }, {
+                        "label": "Jamala, Hama",
+                        "uri": "http://dbpedia.org/resource/Jamala,_Hama"
+                    }, {
+                        "label": "Jeb Dkileh",
+                        "uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+                    }, {
+                        "label": "Jeb Zreiq",
+                        "uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+                    }, {
+                        "label": "Jessine",
+                        "uri": "http://dbpedia.org/resource/Jessine"
+                    }, {
+                        "label": "Karama, Hama",
+                        "uri": "http://dbpedia.org/resource/Karama,_Hama"
+                    }, {
+                        "label": "Kasun Eljabal",
+                        "uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+                    }, {
+                        "label": "Kawri",
+                        "uri": "http://dbpedia.org/resource/Kawri"
+                    }, {
+                        "label": "Khala, Hama",
+                        "uri": "http://dbpedia.org/resource/Khala,_Hama"
+                    }, {
+                        "label": "Khansaa - Shetheh",
+                        "uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+                    }, {
+                        "label": "Maar Shamali",
+                        "uri": "http://dbpedia.org/resource/Maar_Shamali"
+                    }, {
+                        "label": "Makhbuta",
+                        "uri": "http://dbpedia.org/resource/Makhbuta"
+                    }, {
+                        "label": "Maksar, Hama",
+                        "uri": "http://dbpedia.org/resource/Maksar,_Hama"
+                    }, {
+                        "label": "Marana, Hama",
+                        "uri": "http://dbpedia.org/resource/Marana,_Hama"
+                    }, {
+                        "label": "Mashta Elshalahmeh",
+                        "uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+                    }, {
+                        "label": "Mastarihat Afamiyah",
+                        "uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+                    }, {
+                        "label": "Mrikb",
+                        "uri": "http://dbpedia.org/resource/Mrikb"
+                    }, {
+                        "label": "Mweileh",
+                        "uri": "http://dbpedia.org/resource/Mweileh"
+                    }, {
+                        "label": "Nabe Eltib",
+                        "uri": "http://dbpedia.org/resource/Nabe_Eltib"
+                    }, {
+                        "label": "Ojet - Kabasin Elarab",
+                        "uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+                    }, {
+                        "label": "Ojt Eltoba",
+                        "uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+                    }, {
+                        "label": "Qal'at al-Jaras",
+                        "uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+                    }, {
+                        "label": "Qanater, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+                    }, {
+                        "label": "Qastal al-Burj",
+                        "uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+                    }, {
+                        "label": "Ras al-Maara",
+                        "uri": "http://dbpedia.org/resource/Ras_al-Maara"
+                    }, {
+                        "label": "Rasm Al-Brdkana",
+                        "uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+                    }, {
+                        "label": "Rasm Amun",
+                        "uri": "http://dbpedia.org/resource/Rasm_Amun"
+                    }, {
+                        "label": "Rasm Anz",
+                        "uri": "http://dbpedia.org/resource/Rasm_Anz"
+                    }, {
+                        "label": "Rasm Elahmar",
+                        "uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+                    }, {
+                        "label": "Rudat al-Tar",
+                        "uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+                    }, {
+                        "label": "Rweideh",
+                        "uri": "http://dbpedia.org/resource/Rweideh"
+                    }, {
+                        "label": "Saidiyeh, Hama",
+                        "uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+                    }, {
+                        "label": "Saqiyet Nijm",
+                        "uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+                    }, {
+                        "label": "Shahta",
+                        "uri": "http://dbpedia.org/resource/Shahta"
+                    }, {
+                        "label": "Shatheh",
+                        "uri": "http://dbpedia.org/resource/Shatheh"
+                    }, {
+                        "label": "Shaykh Ali",
+                        "uri": "http://dbpedia.org/resource/Shaykh_Ali"
+                    }, {
+                        "label": "Suwak al-Shamali",
+                        "uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+                    }, {
+                        "label": "Tabara Elhamra",
+                        "uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+                    }, {
+                        "label": "Tahunet Elhalawa",
+                        "uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+                    }, {
+                        "label": "Tell al-Shih",
+                        "uri": "http://dbpedia.org/resource/Tell_al-Shih"
+                    }]
+            },
+            "combination": false
+        }]
+}

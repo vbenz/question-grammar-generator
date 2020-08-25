@@ -1,0 +1,1084 @@
+{
+			"id": "108",
+			"answertype": "resource",
+			"aggregation": false,
+			"onlydbo": true,
+			"hybrid": false,
+			"question": [{
+					"language": "en",
+					"string": "Who created Wikipedia?",
+					"keywords": "Wikipedia, created"
+				},
+				{
+					"language": "pt_BR",
+					"string": "Quem criou a Wikipedia?",
+					"keywords": "criador, Wikipedia"
+				},
+				{
+					"language": "de",
+					"string": "Wer hat Wikipedia gegründet?",
+					"keywords": "Wikipedia, gründen"
+				},
+				{
+					"language": "es",
+					"string": "¿Quién creó Wikipedia?",
+					"keywords": "Wikipedia, creador"
+				},
+				{
+					"language": "it",
+					"string": "Chi ha creato Wikipedia?",
+					"keywords": "Wikipedia, creatore"
+				},
+				{
+					"language": "fr",
+					"string": "Qui est le créateur de Wikipedia?",
+					"keywords": "créateur, Wikipedia"
+				},
+				{
+					"language": "nl",
+					"string": "Wie heeft Wikipedia opgericht?",
+					"keywords": "Wikipedia, oprichter"
+				},
+				{
+					"language": "hi_IN",
+					"string": "विकिपीडिया किसने बनाया?",
+					"keywords": "विकिपीडिया, निर्माता"
+				}
+			],
+			"query": {
+				"sparql": "PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX res: <http://dbpedia.org/resource/>\nSELECT DISTINCT ?uri\nWHERE {\n\tres:Wikipedia dbo:author ?uri .\n}"
+			},
+			"answers": [{
+				"head": {
+					"vars": [
+						"uri"
+					]
+				},
+				"results": {
+					"bindings": [{
+							"uri": {
+								"type": "uri",
+								"value": "http://dbpedia.org/resource/Jimmy_Wales"
+							}
+						},
+						{
+							"uri": {
+								"type": "uri",
+								"value": "http://dbpedia.org/resource/Larry_Sanger"
+							}
+						}
+					]
+				}
+			}]
+		},
+
+
+
+
+
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base            <http://localhost:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :author_of ;
+  lemon:entry    :of .
+
+:author_of a      lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:noun ;
+  lemon:canonicalForm  :author_form ;
+  lemon:synBehavior    :author_of_nounpp ;
+  lemon:sense          :author_sense_ontomap .
+
+:author_form a lemon:Form ;
+  lemon:writtenRep  "author"@en .
+
+:author_of_nounpp a       lexinfo:NounPPFrame ;
+  lexinfo:copulativeArg        :arg1 ;
+  lexinfo:prepositionalAdjunct :arg2 .
+
+:author_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping          :author_sense_ontomap ;
+  lemon:reference            <http://dbpedia.org/ontology/author> ;
+  lemon:subjOfProp           :arg2 ;
+  lemon:objOfProp            :arg1 ;
+  lemon:condition            :author_condition .
+
+:author_condition a lemon:condition ;
+  lemon:propertyDomain   <http://dbpedia.org/ontology/Work> ;
+  lemon:propertyRange    <http://dbpedia.org/ontology/Person> .
+
+:arg2 lemon:marker :of .
+
+## Prepositions ##
+
+:of a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "of"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
+
+
+
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "WORK",
+            "returnType": "PERSON",
+            "frameType": "NPP",
+            "sentences": ["Which person is the author of ($x | WORK_NP)?", "Which person was the author of ($x | WORK_NP)?", "Who is the author of ($x | WORK_NP)?", "Who was the author of ($x | WORK_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/author> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "1066 and All That",
+                        "uri": "http://dbpedia.org/resource/1066_and_All_That"
+                    }, {
+                        "label": "2010: Odyssey Two",
+                        "uri": "http://dbpedia.org/resource/2010:_Odyssey_Two"
+                    }, {
+                        "label": "A Crown of Swords",
+                        "uri": "http://dbpedia.org/resource/A_Crown_of_Swords"
+                    }, {
+                        "label": "A Dictionary of the English Language",
+                        "uri": "http://dbpedia.org/resource/A_Dictionary_of_the_English_Language"
+                    }, {
+                        "label": "A Streetcar Named Desire",
+                        "uri": "http://dbpedia.org/resource/A_Streetcar_Named_Desire"
+                    }, {
+                        "label": "Advogato",
+                        "uri": "http://dbpedia.org/resource/Advogato"
+                    }, {
+                        "label": "Alice's Adventures in Wonderland",
+                        "uri": "http://dbpedia.org/resource/Alice's_Adventures_in_Wonderland"
+                    }, {
+                        "label": "Amadeus",
+                        "uri": "http://dbpedia.org/resource/Amadeus"
+                    }, {
+                        "label": "An Inspector Calls",
+                        "uri": "http://dbpedia.org/resource/An_Inspector_Calls"
+                    }, {
+                        "label": "Anne of Green Gables",
+                        "uri": "http://dbpedia.org/resource/Anne_of_Green_Gables"
+                    }, {
+                        "label": "ArXiv",
+                        "uri": "http://dbpedia.org/resource/ArXiv"
+                    }, {
+                        "label": "Arcadia (play)",
+                        "uri": "http://dbpedia.org/resource/Arcadia_(play)"
+                    }, {
+                        "label": "Arms and the Man",
+                        "uri": "http://dbpedia.org/resource/Arms_and_the_Man"
+                    }, {
+                        "label": "Around the World in Eighty Days",
+                        "uri": "http://dbpedia.org/resource/Around_the_World_in_Eighty_Days"
+                    }, {
+                        "label": "Assassins (musical)",
+                        "uri": "http://dbpedia.org/resource/Assassins_(musical)"
+                    }, {
+                        "label": "Battle Angel Alita",
+                        "uri": "http://dbpedia.org/resource/Battle_Angel_Alita"
+                    }, {
+                        "label": "Beonex Communicator",
+                        "uri": "http://dbpedia.org/resource/Beonex_Communicator"
+                    }, {
+                        "label": "Between Planets",
+                        "uri": "http://dbpedia.org/resource/Between_Planets"
+                    }, {
+                        "label": "Beyond This Horizon",
+                        "uri": "http://dbpedia.org/resource/Beyond_This_Horizon"
+                    }, {
+                        "label": "Beyond the Fringe",
+                        "uri": "http://dbpedia.org/resource/Beyond_the_Fringe"
+                    }, {
+                        "label": "Blood Music (novel)",
+                        "uri": "http://dbpedia.org/resource/Blood_Music_(novel)"
+                    }, {
+                        "label": "Brave New World",
+                        "uri": "http://dbpedia.org/resource/Brave_New_World"
+                    }, {
+                        "label": "Castle Rackrent",
+                        "uri": "http://dbpedia.org/resource/Castle_Rackrent"
+                    }, {
+                        "label": "Catch-22",
+                        "uri": "http://dbpedia.org/resource/Catch-22"
+                    }, {
+                        "label": "Cavalcade (play)",
+                        "uri": "http://dbpedia.org/resource/Cavalcade_(play)"
+                    }, {
+                        "label": "Charlie and the Chocolate Factory",
+                        "uri": "http://dbpedia.org/resource/Charlie_and_the_Chocolate_Factory"
+                    }, {
+                        "label": "Citizen of the Galaxy",
+                        "uri": "http://dbpedia.org/resource/Citizen_of_the_Galaxy"
+                    }, {
+                        "label": "Clash of Civilizations",
+                        "uri": "http://dbpedia.org/resource/Clash_of_Civilizations"
+                    }, {
+                        "label": "Clear and Present Danger",
+                        "uri": "http://dbpedia.org/resource/Clear_and_Present_Danger"
+                    }, {
+                        "label": "Commentarii de Bello Gallico",
+                        "uri": "http://dbpedia.org/resource/Commentarii_de_Bello_Gallico"
+                    }, {
+                        "label": "Consider Phlebas",
+                        "uri": "http://dbpedia.org/resource/Consider_Phlebas"
+                    }, {
+                        "label": "Debt of Honor",
+                        "uri": "http://dbpedia.org/resource/Debt_of_Honor"
+                    }, {
+                        "label": "Design Patterns",
+                        "uri": "http://dbpedia.org/resource/Design_Patterns"
+                    }, {
+                        "label": "Dinnerladies",
+                        "uri": "http://dbpedia.org/resource/Dinnerladies"
+                    }, {
+                        "label": "Dirk Gently's Holistic Detective Agency",
+                        "uri": "http://dbpedia.org/resource/Dirk_Gently's_Holistic_Detective_Agency"
+                    }, {
+                        "label": "Double Star",
+                        "uri": "http://dbpedia.org/resource/Double_Star"
+                    }, {
+                        "label": "Down and Out in Paris and London",
+                        "uri": "http://dbpedia.org/resource/Down_and_Out_in_Paris_and_London"
+                    }, {
+                        "label": "Dr. No (novel)",
+                        "uri": "http://dbpedia.org/resource/Dr._No_(novel)"
+                    }, {
+                        "label": "Dragonflight",
+                        "uri": "http://dbpedia.org/resource/Dragonflight"
+                    }, {
+                        "label": "Dreams (TV series)",
+                        "uri": "http://dbpedia.org/resource/Dreams_(TV_series)"
+                    }, {
+                        "label": "Emma (novel)",
+                        "uri": "http://dbpedia.org/resource/Emma_(novel)"
+                    }, {
+                        "label": "Ender's Game",
+                        "uri": "http://dbpedia.org/resource/Ender's_Game"
+                    }, {
+                        "label": "Espedair Street",
+                        "uri": "http://dbpedia.org/resource/Espedair_Street"
+                    }, {
+                        "label": "Everyman (play)",
+                        "uri": "http://dbpedia.org/resource/Everyman_(play)"
+                    }, {
+                        "label": "Fetchmail",
+                        "uri": "http://dbpedia.org/resource/Fetchmail"
+                    }, {
+                        "label": "Gigi",
+                        "uri": "http://dbpedia.org/resource/Gigi"
+                    }, {
+                        "label": "Glory Road",
+                        "uri": "http://dbpedia.org/resource/Glory_Road"
+                    }, {
+                        "label": "Good-Bye to All That",
+                        "uri": "http://dbpedia.org/resource/Good-Bye_to_All_That"
+                    }, {
+                        "label": "Grep",
+                        "uri": "http://dbpedia.org/resource/Grep"
+                    }, {
+                        "label": "Gulliver's Travels",
+                        "uri": "http://dbpedia.org/resource/Gulliver's_Travels"
+                    }, {
+                        "label": "Gödel, Escher, Bach",
+                        "uri": "http://dbpedia.org/resource/Gödel,_Escher,_Bach"
+                    }, {
+                        "label": "Harry Potter and the Philosopher's Stone",
+                        "uri": "http://dbpedia.org/resource/Harry_Potter_and_the_Philosopher's_Stone"
+                    }, {
+                        "label": "How Green Was My Valley",
+                        "uri": "http://dbpedia.org/resource/How_Green_Was_My_Valley"
+                    }, {
+                        "label": "How the Self Controls Its Brain",
+                        "uri": "http://dbpedia.org/resource/How_the_Self_Controls_Its_Brain"
+                    }, {
+                        "label": "I'd Rather Be Right",
+                        "uri": "http://dbpedia.org/resource/I'd_Rather_Be_Right"
+                    }, {
+                        "label": "I Am Legend (novel)",
+                        "uri": "http://dbpedia.org/resource/I_Am_Legend_(novel)"
+                    }, {
+                        "label": "I Will Fear No Evil",
+                        "uri": "http://dbpedia.org/resource/I_Will_Fear_No_Evil"
+                    }, {
+                        "label": "Inversions (novel)",
+                        "uri": "http://dbpedia.org/resource/Inversions_(novel)"
+                    }, {
+                        "label": "Jane Eyre",
+                        "uri": "http://dbpedia.org/resource/Jane_Eyre"
+                    }, {
+                        "label": "Jonathan Livingston Seagull",
+                        "uri": "http://dbpedia.org/resource/Jonathan_Livingston_Seagull"
+                    }, {
+                        "label": "Keep the Aspidistra Flying",
+                        "uri": "http://dbpedia.org/resource/Keep_the_Aspidistra_Flying"
+                    }, {
+                        "label": "Lady Audley's Secret",
+                        "uri": "http://dbpedia.org/resource/Lady_Audley's_Secret"
+                    }, {
+                        "label": "Life After Life (book)",
+                        "uri": "http://dbpedia.org/resource/Life_After_Life_(book)"
+                    }, {
+                        "label": "Life a User's Manual",
+                        "uri": "http://dbpedia.org/resource/Life_a_User's_Manual"
+                    }, {
+                        "label": "Lions' Commentary on UNIX 6th Edition, with Source Code",
+                        "uri": "http://dbpedia.org/resource/Lions'_Commentary_on_UNIX_6th_Edition,_with_Source_Code"
+                    }, {
+                        "label": "Lord of the Flies",
+                        "uri": "http://dbpedia.org/resource/Lord_of_the_Flies"
+                    }, {
+                        "label": "Maison Ikkoku",
+                        "uri": "http://dbpedia.org/resource/Maison_Ikkoku"
+                    }, {
+                        "label": "Makefile",
+                        "uri": "http://dbpedia.org/resource/Makefile"
+                    }, {
+                        "label": "Methuselah's Children",
+                        "uri": "http://dbpedia.org/resource/Methuselah's_Children"
+                    }, {
+                        "label": "Mixmaster anonymous remailer",
+                        "uri": "http://dbpedia.org/resource/Mixmaster_anonymous_remailer"
+                    }, {
+                        "label": "Mort",
+                        "uri": "http://dbpedia.org/resource/Mort"
+                    }, {
+                        "label": "Mutiny on the Bounty (novel)",
+                        "uri": "http://dbpedia.org/resource/Mutiny_on_the_Bounty_(novel)"
+                    }, {
+                        "label": "Nanotech (anthology)",
+                        "uri": "http://dbpedia.org/resource/Nanotech_(anthology)"
+                    }, {
+                        "label": "Natural Capitalism",
+                        "uri": "http://dbpedia.org/resource/Natural_Capitalism"
+                    }, {
+                        "label": "NeWS",
+                        "uri": "http://dbpedia.org/resource/NeWS"
+                    }, {
+                        "label": "Northanger Abbey",
+                        "uri": "http://dbpedia.org/resource/Northanger_Abbey"
+                    }, {
+                        "label": "Now Wait for Last Year",
+                        "uri": "http://dbpedia.org/resource/Now_Wait_for_Last_Year"
+                    }, {
+                        "label": "On the Origin of Species",
+                        "uri": "http://dbpedia.org/resource/On_the_Origin_of_Species"
+                    }, {
+                        "label": "Paradise Lost",
+                        "uri": "http://dbpedia.org/resource/Paradise_Lost"
+                    }, {
+                        "label": "Podkayne of Mars",
+                        "uri": "http://dbpedia.org/resource/Podkayne_of_Mars"
+                    }, {
+                        "label": "Porgy (novel)",
+                        "uri": "http://dbpedia.org/resource/Porgy_(novel)"
+                    }, {
+                        "label": "R.U.R.",
+                        "uri": "http://dbpedia.org/resource/R.U.R."
+                    }, {
+                        "label": "Robert's Rules of Order",
+                        "uri": "http://dbpedia.org/resource/Robert's_Rules_of_Order"
+                    }, {
+                        "label": "Robinson Crusoe",
+                        "uri": "http://dbpedia.org/resource/Robinson_Crusoe"
+                    }, {
+                        "label": "Rocket Ship Galileo",
+                        "uri": "http://dbpedia.org/resource/Rocket_Ship_Galileo"
+                    }, {
+                        "label": "Security-Enhanced Linux",
+                        "uri": "http://dbpedia.org/resource/Security-Enhanced_Linux"
+                    }, {
+                        "label": "Sendmail",
+                        "uri": "http://dbpedia.org/resource/Sendmail"
+                    }, {
+                        "label": "Sinners in the Hands of an Angry God",
+                        "uri": "http://dbpedia.org/resource/Sinners_in_the_Hands_of_an_Angry_God"
+                    }, {
+                        "label": "Sixth Column",
+                        "uri": "http://dbpedia.org/resource/Sixth_Column"
+                    }, {
+                        "label": "Slayers",
+                        "uri": "http://dbpedia.org/resource/Slayers"
+                    }, {
+                        "label": "Space Cadet",
+                        "uri": "http://dbpedia.org/resource/Space_Cadet"
+                    }, {
+                        "label": "Starman Jones",
+                        "uri": "http://dbpedia.org/resource/Starman_Jones"
+                    }, {
+                        "label": "Steal This Book",
+                        "uri": "http://dbpedia.org/resource/Steal_This_Book"
+                    }, {
+                        "label": "Story of O",
+                        "uri": "http://dbpedia.org/resource/Story_of_O"
+                    }, {
+                        "label": "Stranger in a Strange Land",
+                        "uri": "http://dbpedia.org/resource/Stranger_in_a_Strange_Land"
+                    }, {
+                        "label": "Stuart Little",
+                        "uri": "http://dbpedia.org/resource/Stuart_Little"
+                    }, {
+                        "label": "TECO (text editor)",
+                        "uri": "http://dbpedia.org/resource/TECO_(text_editor)"
+                    }, {
+                        "label": "Tenchi Muyo!",
+                        "uri": "http://dbpedia.org/resource/Tenchi_Muyo!"
+                    }, {
+                        "label": "The Art of Computer Programming",
+                        "uri": "http://dbpedia.org/resource/The_Art_of_Computer_Programming"
+                    }, {
+                        "label": "The Belgariad",
+                        "uri": "http://dbpedia.org/resource/The_Belgariad"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "WORK",
+            "returnType": "PERSON",
+            "frameType": "NPP",
+            "sentences": ["the author of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/author> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "1066 and All That",
+                        "uri": "http://dbpedia.org/resource/1066_and_All_That"
+                    }, {
+                        "label": "2010: Odyssey Two",
+                        "uri": "http://dbpedia.org/resource/2010:_Odyssey_Two"
+                    }, {
+                        "label": "A Crown of Swords",
+                        "uri": "http://dbpedia.org/resource/A_Crown_of_Swords"
+                    }, {
+                        "label": "A Dictionary of the English Language",
+                        "uri": "http://dbpedia.org/resource/A_Dictionary_of_the_English_Language"
+                    }, {
+                        "label": "A Streetcar Named Desire",
+                        "uri": "http://dbpedia.org/resource/A_Streetcar_Named_Desire"
+                    }, {
+                        "label": "Advogato",
+                        "uri": "http://dbpedia.org/resource/Advogato"
+                    }, {
+                        "label": "Alice's Adventures in Wonderland",
+                        "uri": "http://dbpedia.org/resource/Alice's_Adventures_in_Wonderland"
+                    }, {
+                        "label": "Amadeus",
+                        "uri": "http://dbpedia.org/resource/Amadeus"
+                    }, {
+                        "label": "An Inspector Calls",
+                        "uri": "http://dbpedia.org/resource/An_Inspector_Calls"
+                    }, {
+                        "label": "Anne of Green Gables",
+                        "uri": "http://dbpedia.org/resource/Anne_of_Green_Gables"
+                    }, {
+                        "label": "ArXiv",
+                        "uri": "http://dbpedia.org/resource/ArXiv"
+                    }, {
+                        "label": "Arcadia (play)",
+                        "uri": "http://dbpedia.org/resource/Arcadia_(play)"
+                    }, {
+                        "label": "Arms and the Man",
+                        "uri": "http://dbpedia.org/resource/Arms_and_the_Man"
+                    }, {
+                        "label": "Around the World in Eighty Days",
+                        "uri": "http://dbpedia.org/resource/Around_the_World_in_Eighty_Days"
+                    }, {
+                        "label": "Assassins (musical)",
+                        "uri": "http://dbpedia.org/resource/Assassins_(musical)"
+                    }, {
+                        "label": "Battle Angel Alita",
+                        "uri": "http://dbpedia.org/resource/Battle_Angel_Alita"
+                    }, {
+                        "label": "Beonex Communicator",
+                        "uri": "http://dbpedia.org/resource/Beonex_Communicator"
+                    }, {
+                        "label": "Between Planets",
+                        "uri": "http://dbpedia.org/resource/Between_Planets"
+                    }, {
+                        "label": "Beyond This Horizon",
+                        "uri": "http://dbpedia.org/resource/Beyond_This_Horizon"
+                    }, {
+                        "label": "Beyond the Fringe",
+                        "uri": "http://dbpedia.org/resource/Beyond_the_Fringe"
+                    }, {
+                        "label": "Blood Music (novel)",
+                        "uri": "http://dbpedia.org/resource/Blood_Music_(novel)"
+                    }, {
+                        "label": "Brave New World",
+                        "uri": "http://dbpedia.org/resource/Brave_New_World"
+                    }, {
+                        "label": "Castle Rackrent",
+                        "uri": "http://dbpedia.org/resource/Castle_Rackrent"
+                    }, {
+                        "label": "Catch-22",
+                        "uri": "http://dbpedia.org/resource/Catch-22"
+                    }, {
+                        "label": "Cavalcade (play)",
+                        "uri": "http://dbpedia.org/resource/Cavalcade_(play)"
+                    }, {
+                        "label": "Charlie and the Chocolate Factory",
+                        "uri": "http://dbpedia.org/resource/Charlie_and_the_Chocolate_Factory"
+                    }, {
+                        "label": "Citizen of the Galaxy",
+                        "uri": "http://dbpedia.org/resource/Citizen_of_the_Galaxy"
+                    }, {
+                        "label": "Clash of Civilizations",
+                        "uri": "http://dbpedia.org/resource/Clash_of_Civilizations"
+                    }, {
+                        "label": "Clear and Present Danger",
+                        "uri": "http://dbpedia.org/resource/Clear_and_Present_Danger"
+                    }, {
+                        "label": "Commentarii de Bello Gallico",
+                        "uri": "http://dbpedia.org/resource/Commentarii_de_Bello_Gallico"
+                    }, {
+                        "label": "Consider Phlebas",
+                        "uri": "http://dbpedia.org/resource/Consider_Phlebas"
+                    }, {
+                        "label": "Debt of Honor",
+                        "uri": "http://dbpedia.org/resource/Debt_of_Honor"
+                    }, {
+                        "label": "Design Patterns",
+                        "uri": "http://dbpedia.org/resource/Design_Patterns"
+                    }, {
+                        "label": "Dinnerladies",
+                        "uri": "http://dbpedia.org/resource/Dinnerladies"
+                    }, {
+                        "label": "Dirk Gently's Holistic Detective Agency",
+                        "uri": "http://dbpedia.org/resource/Dirk_Gently's_Holistic_Detective_Agency"
+                    }, {
+                        "label": "Double Star",
+                        "uri": "http://dbpedia.org/resource/Double_Star"
+                    }, {
+                        "label": "Down and Out in Paris and London",
+                        "uri": "http://dbpedia.org/resource/Down_and_Out_in_Paris_and_London"
+                    }, {
+                        "label": "Dr. No (novel)",
+                        "uri": "http://dbpedia.org/resource/Dr._No_(novel)"
+                    }, {
+                        "label": "Dragonflight",
+                        "uri": "http://dbpedia.org/resource/Dragonflight"
+                    }, {
+                        "label": "Dreams (TV series)",
+                        "uri": "http://dbpedia.org/resource/Dreams_(TV_series)"
+                    }, {
+                        "label": "Emma (novel)",
+                        "uri": "http://dbpedia.org/resource/Emma_(novel)"
+                    }, {
+                        "label": "Ender's Game",
+                        "uri": "http://dbpedia.org/resource/Ender's_Game"
+                    }, {
+                        "label": "Espedair Street",
+                        "uri": "http://dbpedia.org/resource/Espedair_Street"
+                    }, {
+                        "label": "Everyman (play)",
+                        "uri": "http://dbpedia.org/resource/Everyman_(play)"
+                    }, {
+                        "label": "Fetchmail",
+                        "uri": "http://dbpedia.org/resource/Fetchmail"
+                    }, {
+                        "label": "Gigi",
+                        "uri": "http://dbpedia.org/resource/Gigi"
+                    }, {
+                        "label": "Glory Road",
+                        "uri": "http://dbpedia.org/resource/Glory_Road"
+                    }, {
+                        "label": "Good-Bye to All That",
+                        "uri": "http://dbpedia.org/resource/Good-Bye_to_All_That"
+                    }, {
+                        "label": "Grep",
+                        "uri": "http://dbpedia.org/resource/Grep"
+                    }, {
+                        "label": "Gulliver's Travels",
+                        "uri": "http://dbpedia.org/resource/Gulliver's_Travels"
+                    }, {
+                        "label": "Gödel, Escher, Bach",
+                        "uri": "http://dbpedia.org/resource/Gödel,_Escher,_Bach"
+                    }, {
+                        "label": "Harry Potter and the Philosopher's Stone",
+                        "uri": "http://dbpedia.org/resource/Harry_Potter_and_the_Philosopher's_Stone"
+                    }, {
+                        "label": "How Green Was My Valley",
+                        "uri": "http://dbpedia.org/resource/How_Green_Was_My_Valley"
+                    }, {
+                        "label": "How the Self Controls Its Brain",
+                        "uri": "http://dbpedia.org/resource/How_the_Self_Controls_Its_Brain"
+                    }, {
+                        "label": "I'd Rather Be Right",
+                        "uri": "http://dbpedia.org/resource/I'd_Rather_Be_Right"
+                    }, {
+                        "label": "I Am Legend (novel)",
+                        "uri": "http://dbpedia.org/resource/I_Am_Legend_(novel)"
+                    }, {
+                        "label": "I Will Fear No Evil",
+                        "uri": "http://dbpedia.org/resource/I_Will_Fear_No_Evil"
+                    }, {
+                        "label": "Inversions (novel)",
+                        "uri": "http://dbpedia.org/resource/Inversions_(novel)"
+                    }, {
+                        "label": "Jane Eyre",
+                        "uri": "http://dbpedia.org/resource/Jane_Eyre"
+                    }, {
+                        "label": "Jonathan Livingston Seagull",
+                        "uri": "http://dbpedia.org/resource/Jonathan_Livingston_Seagull"
+                    }, {
+                        "label": "Keep the Aspidistra Flying",
+                        "uri": "http://dbpedia.org/resource/Keep_the_Aspidistra_Flying"
+                    }, {
+                        "label": "Lady Audley's Secret",
+                        "uri": "http://dbpedia.org/resource/Lady_Audley's_Secret"
+                    }, {
+                        "label": "Life After Life (book)",
+                        "uri": "http://dbpedia.org/resource/Life_After_Life_(book)"
+                    }, {
+                        "label": "Life a User's Manual",
+                        "uri": "http://dbpedia.org/resource/Life_a_User's_Manual"
+                    }, {
+                        "label": "Lions' Commentary on UNIX 6th Edition, with Source Code",
+                        "uri": "http://dbpedia.org/resource/Lions'_Commentary_on_UNIX_6th_Edition,_with_Source_Code"
+                    }, {
+                        "label": "Lord of the Flies",
+                        "uri": "http://dbpedia.org/resource/Lord_of_the_Flies"
+                    }, {
+                        "label": "Maison Ikkoku",
+                        "uri": "http://dbpedia.org/resource/Maison_Ikkoku"
+                    }, {
+                        "label": "Makefile",
+                        "uri": "http://dbpedia.org/resource/Makefile"
+                    }, {
+                        "label": "Methuselah's Children",
+                        "uri": "http://dbpedia.org/resource/Methuselah's_Children"
+                    }, {
+                        "label": "Mixmaster anonymous remailer",
+                        "uri": "http://dbpedia.org/resource/Mixmaster_anonymous_remailer"
+                    }, {
+                        "label": "Mort",
+                        "uri": "http://dbpedia.org/resource/Mort"
+                    }, {
+                        "label": "Mutiny on the Bounty (novel)",
+                        "uri": "http://dbpedia.org/resource/Mutiny_on_the_Bounty_(novel)"
+                    }, {
+                        "label": "Nanotech (anthology)",
+                        "uri": "http://dbpedia.org/resource/Nanotech_(anthology)"
+                    }, {
+                        "label": "Natural Capitalism",
+                        "uri": "http://dbpedia.org/resource/Natural_Capitalism"
+                    }, {
+                        "label": "NeWS",
+                        "uri": "http://dbpedia.org/resource/NeWS"
+                    }, {
+                        "label": "Northanger Abbey",
+                        "uri": "http://dbpedia.org/resource/Northanger_Abbey"
+                    }, {
+                        "label": "Now Wait for Last Year",
+                        "uri": "http://dbpedia.org/resource/Now_Wait_for_Last_Year"
+                    }, {
+                        "label": "On the Origin of Species",
+                        "uri": "http://dbpedia.org/resource/On_the_Origin_of_Species"
+                    }, {
+                        "label": "Paradise Lost",
+                        "uri": "http://dbpedia.org/resource/Paradise_Lost"
+                    }, {
+                        "label": "Podkayne of Mars",
+                        "uri": "http://dbpedia.org/resource/Podkayne_of_Mars"
+                    }, {
+                        "label": "Porgy (novel)",
+                        "uri": "http://dbpedia.org/resource/Porgy_(novel)"
+                    }, {
+                        "label": "R.U.R.",
+                        "uri": "http://dbpedia.org/resource/R.U.R."
+                    }, {
+                        "label": "Robert's Rules of Order",
+                        "uri": "http://dbpedia.org/resource/Robert's_Rules_of_Order"
+                    }, {
+                        "label": "Robinson Crusoe",
+                        "uri": "http://dbpedia.org/resource/Robinson_Crusoe"
+                    }, {
+                        "label": "Rocket Ship Galileo",
+                        "uri": "http://dbpedia.org/resource/Rocket_Ship_Galileo"
+                    }, {
+                        "label": "Security-Enhanced Linux",
+                        "uri": "http://dbpedia.org/resource/Security-Enhanced_Linux"
+                    }, {
+                        "label": "Sendmail",
+                        "uri": "http://dbpedia.org/resource/Sendmail"
+                    }, {
+                        "label": "Sinners in the Hands of an Angry God",
+                        "uri": "http://dbpedia.org/resource/Sinners_in_the_Hands_of_an_Angry_God"
+                    }, {
+                        "label": "Sixth Column",
+                        "uri": "http://dbpedia.org/resource/Sixth_Column"
+                    }, {
+                        "label": "Slayers",
+                        "uri": "http://dbpedia.org/resource/Slayers"
+                    }, {
+                        "label": "Space Cadet",
+                        "uri": "http://dbpedia.org/resource/Space_Cadet"
+                    }, {
+                        "label": "Starman Jones",
+                        "uri": "http://dbpedia.org/resource/Starman_Jones"
+                    }, {
+                        "label": "Steal This Book",
+                        "uri": "http://dbpedia.org/resource/Steal_This_Book"
+                    }, {
+                        "label": "Story of O",
+                        "uri": "http://dbpedia.org/resource/Story_of_O"
+                    }, {
+                        "label": "Stranger in a Strange Land",
+                        "uri": "http://dbpedia.org/resource/Stranger_in_a_Strange_Land"
+                    }, {
+                        "label": "Stuart Little",
+                        "uri": "http://dbpedia.org/resource/Stuart_Little"
+                    }, {
+                        "label": "TECO (text editor)",
+                        "uri": "http://dbpedia.org/resource/TECO_(text_editor)"
+                    }, {
+                        "label": "Tenchi Muyo!",
+                        "uri": "http://dbpedia.org/resource/Tenchi_Muyo!"
+                    }, {
+                        "label": "The Art of Computer Programming",
+                        "uri": "http://dbpedia.org/resource/The_Art_of_Computer_Programming"
+                    }, {
+                        "label": "The Belgariad",
+                        "uri": "http://dbpedia.org/resource/The_Belgariad"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Whitehaven, Memphis, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+                    }, {
+                        "label": "Lake Zabuye",
+                        "uri": "http://dbpedia.org/resource/Lake_Zabuye"
+                    }, {
+                        "label": "Mid-Atlantic states",
+                        "uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+                    }, {
+                        "label": "New England",
+                        "uri": "http://dbpedia.org/resource/New_England"
+                    }, {
+                        "label": "Kuta Raja",
+                        "uri": "http://dbpedia.org/resource/Kuta_Raja"
+                    }, {
+                        "label": "San Biagio Maggiore",
+                        "uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+                    }, {
+                        "label": "Namcha Barwa Himal",
+                        "uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+                    }, {
+                        "label": "San Nicola a Nilo",
+                        "uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+                    }, {
+                        "label": "Adra, Syria",
+                        "uri": "http://dbpedia.org/resource/Adra,_Syria"
+                    }, {
+                        "label": "Al-Mazraa",
+                        "uri": "http://dbpedia.org/resource/Al-Mazraa"
+                    }, {
+                        "label": "Al-Rastan",
+                        "uri": "http://dbpedia.org/resource/Al-Rastan"
+                    }, {
+                        "label": "Al-Hawash, Homs Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+                    }, {
+                        "label": "Ayn al-Bardah",
+                        "uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+                    }, {
+                        "label": "Khabab",
+                        "uri": "http://dbpedia.org/resource/Khabab"
+                    }, {
+                        "label": "Al-Kafr",
+                        "uri": "http://dbpedia.org/resource/Al-Kafr"
+                    }, {
+                        "label": "Deir Mama",
+                        "uri": "http://dbpedia.org/resource/Deir_Mama"
+                    }, {
+                        "label": "Madaya, Syria",
+                        "uri": "http://dbpedia.org/resource/Madaya,_Syria"
+                    }, {
+                        "label": "Tayru",
+                        "uri": "http://dbpedia.org/resource/Tayru"
+                    }, {
+                        "label": "Al-Khalidiyah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+                    }, {
+                        "label": "Al-Khalidiyah, al-Hasakah Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+                    }, {
+                        "label": "Basatin al-Assad",
+                        "uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+                    }, {
+                        "label": "Hala, Syria",
+                        "uri": "http://dbpedia.org/resource/Hala,_Syria"
+                    }, {
+                        "label": "Harran, Idlib",
+                        "uri": "http://dbpedia.org/resource/Harran,_Idlib"
+                    }, {
+                        "label": "Harran, as-Suwayda",
+                        "uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+                    }, {
+                        "label": "Harran al-Awamid",
+                        "uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+                    }, {
+                        "label": "Wadi al-Nasara",
+                        "uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+                    }, {
+                        "label": "Abu Khanadiq",
+                        "uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+                    }, {
+                        "label": "Abu Kleefun",
+                        "uri": "http://dbpedia.org/resource/Abu_Kleefun"
+                    }, {
+                        "label": "Abul Fashafish",
+                        "uri": "http://dbpedia.org/resource/Abul_Fashafish"
+                    }, {
+                        "label": "Al-'Amrah",
+                        "uri": "http://dbpedia.org/resource/Al-'Amrah"
+                    }, {
+                        "label": "Al-Atnah",
+                        "uri": "http://dbpedia.org/resource/Al-Atnah"
+                    }, {
+                        "label": "Al-Fayadiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+                    }, {
+                        "label": "Al-Humayra",
+                        "uri": "http://dbpedia.org/resource/Al-Humayra"
+                    }, {
+                        "label": "Al-Jarajir",
+                        "uri": "http://dbpedia.org/resource/Al-Jarajir"
+                    }, {
+                        "label": "Al-Khandaq al-Sharqiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+                    }, {
+                        "label": "Al-Muhajirin, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Narjis",
+                        "uri": "http://dbpedia.org/resource/Al-Narjis"
+                    }, {
+                        "label": "Al-Nazaza",
+                        "uri": "http://dbpedia.org/resource/Al-Nazaza"
+                    }, {
+                        "label": "Al-Nour, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+                    }, {
+                        "label": "Al-Ramlah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+                    }, {
+                        "label": "Al-Salihiyah, Hama",
+                        "uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+                    }, {
+                        "label": "Al-Sindiyana, Suqaylabiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+                    }, {
+                        "label": "Al-Swaia",
+                        "uri": "http://dbpedia.org/resource/Al-Swaia"
+                    }, {
+                        "label": "Al-Thawrah, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Tulaysiyah al-Janubiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+                    }, {
+                        "label": "Al-Zitiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Zitiyah"
+                    }, {
+                        "label": "Ammurin",
+                        "uri": "http://dbpedia.org/resource/Ammurin"
+                    }, {
+                        "label": "Ayn Dara",
+                        "uri": "http://dbpedia.org/resource/Ayn_Dara"
+                    }, {
+                        "label": "Balluneh",
+                        "uri": "http://dbpedia.org/resource/Balluneh"
+                    }, {
+                        "label": "Beij",
+                        "uri": "http://dbpedia.org/resource/Beij"
+                    }, {
+                        "label": "Bgheidid",
+                        "uri": "http://dbpedia.org/resource/Bgheidid"
+                    }, {
+                        "label": "Bustan Sbeih",
+                        "uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+                    }, {
+                        "label": "Deir Sunbul",
+                        "uri": "http://dbpedia.org/resource/Deir_Sunbul"
+                    }, {
+                        "label": "Ein Elhamam",
+                        "uri": "http://dbpedia.org/resource/Ein_Elhamam"
+                    }, {
+                        "label": "Ein Warideh",
+                        "uri": "http://dbpedia.org/resource/Ein_Warideh"
+                    }, {
+                        "label": "Elrihana",
+                        "uri": "http://dbpedia.org/resource/Elrihana"
+                    }, {
+                        "label": "Fawrah",
+                        "uri": "http://dbpedia.org/resource/Fawrah"
+                    }, {
+                        "label": "Hamrit",
+                        "uri": "http://dbpedia.org/resource/Hamrit"
+                    }, {
+                        "label": "Hanuteh",
+                        "uri": "http://dbpedia.org/resource/Hanuteh"
+                    }, {
+                        "label": "Hdaj",
+                        "uri": "http://dbpedia.org/resource/Hdaj"
+                    }, {
+                        "label": "Jakuziyeh",
+                        "uri": "http://dbpedia.org/resource/Jakuziyeh"
+                    }, {
+                        "label": "Jamala, Hama",
+                        "uri": "http://dbpedia.org/resource/Jamala,_Hama"
+                    }, {
+                        "label": "Jeb Dkileh",
+                        "uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+                    }, {
+                        "label": "Jeb Zreiq",
+                        "uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+                    }, {
+                        "label": "Jessine",
+                        "uri": "http://dbpedia.org/resource/Jessine"
+                    }, {
+                        "label": "Karama, Hama",
+                        "uri": "http://dbpedia.org/resource/Karama,_Hama"
+                    }, {
+                        "label": "Kasun Eljabal",
+                        "uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+                    }, {
+                        "label": "Kawri",
+                        "uri": "http://dbpedia.org/resource/Kawri"
+                    }, {
+                        "label": "Khala, Hama",
+                        "uri": "http://dbpedia.org/resource/Khala,_Hama"
+                    }, {
+                        "label": "Khansaa - Shetheh",
+                        "uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+                    }, {
+                        "label": "Maar Shamali",
+                        "uri": "http://dbpedia.org/resource/Maar_Shamali"
+                    }, {
+                        "label": "Makhbuta",
+                        "uri": "http://dbpedia.org/resource/Makhbuta"
+                    }, {
+                        "label": "Maksar, Hama",
+                        "uri": "http://dbpedia.org/resource/Maksar,_Hama"
+                    }, {
+                        "label": "Marana, Hama",
+                        "uri": "http://dbpedia.org/resource/Marana,_Hama"
+                    }, {
+                        "label": "Mashta Elshalahmeh",
+                        "uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+                    }, {
+                        "label": "Mastarihat Afamiyah",
+                        "uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+                    }, {
+                        "label": "Mrikb",
+                        "uri": "http://dbpedia.org/resource/Mrikb"
+                    }, {
+                        "label": "Mweileh",
+                        "uri": "http://dbpedia.org/resource/Mweileh"
+                    }, {
+                        "label": "Nabe Eltib",
+                        "uri": "http://dbpedia.org/resource/Nabe_Eltib"
+                    }, {
+                        "label": "Ojet - Kabasin Elarab",
+                        "uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+                    }, {
+                        "label": "Ojt Eltoba",
+                        "uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+                    }, {
+                        "label": "Qal'at al-Jaras",
+                        "uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+                    }, {
+                        "label": "Qanater, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+                    }, {
+                        "label": "Qastal al-Burj",
+                        "uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+                    }, {
+                        "label": "Ras al-Maara",
+                        "uri": "http://dbpedia.org/resource/Ras_al-Maara"
+                    }, {
+                        "label": "Rasm Al-Brdkana",
+                        "uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+                    }, {
+                        "label": "Rasm Amun",
+                        "uri": "http://dbpedia.org/resource/Rasm_Amun"
+                    }, {
+                        "label": "Rasm Anz",
+                        "uri": "http://dbpedia.org/resource/Rasm_Anz"
+                    }, {
+                        "label": "Rasm Elahmar",
+                        "uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+                    }, {
+                        "label": "Rudat al-Tar",
+                        "uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+                    }, {
+                        "label": "Rweideh",
+                        "uri": "http://dbpedia.org/resource/Rweideh"
+                    }, {
+                        "label": "Saidiyeh, Hama",
+                        "uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+                    }, {
+                        "label": "Saqiyet Nijm",
+                        "uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+                    }, {
+                        "label": "Shahta",
+                        "uri": "http://dbpedia.org/resource/Shahta"
+                    }, {
+                        "label": "Shatheh",
+                        "uri": "http://dbpedia.org/resource/Shatheh"
+                    }, {
+                        "label": "Shaykh Ali",
+                        "uri": "http://dbpedia.org/resource/Shaykh_Ali"
+                    }, {
+                        "label": "Suwak al-Shamali",
+                        "uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+                    }, {
+                        "label": "Tabara Elhamra",
+                        "uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+                    }, {
+                        "label": "Tahunet Elhalawa",
+                        "uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+                    }, {
+                        "label": "Tell al-Shih",
+                        "uri": "http://dbpedia.org/resource/Tell_al-Shih"
+                    }]
+            },
+            "combination": false
+        }]
+}

@@ -1,1 +1,1279 @@
-{"grammarEntries":[{"id":"1","language":"EN","type":"SENTENCE","bindingType":"LOCATION","returnType":"LOCATION","frameType":"NPP","sentences":["What is the location of ($x | LOCATION_NP)?","What was the location of ($x | LOCATION_NP)?","Which place is the location of ($x | LOCATION_NP)?","Which place was the location of ($x | LOCATION_NP)?"],"queryType":"SELECT","sparqlQuery":"(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp))\n","sentenceToSparqlParameterMapping":{"$x":"subjOfProp"},"returnVariable":"objOfProp","sentenceBindings":{"bindingVariableName":"$x","bindingList":[{"label":"Hall Island (Arctic)","uri":"http://dbpedia.org/resource/Hall_Island_(Arctic)"},{"label":"Taq Kasra","uri":"http://dbpedia.org/resource/Taq_Kasra"},{"label":"Academy of Medicine (Atlanta)","uri":"http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"},{"label":"East Hall High School","uri":"http://dbpedia.org/resource/East_Hall_High_School"},{"label":"Giles County High School","uri":"http://dbpedia.org/resource/Giles_County_High_School"},{"label":"Heritage High School (Ringgold, Georgia)","uri":"http://dbpedia.org/resource/Heritage_High_School_(Ringgold,_Georgia)"},{"label":"JDC Welfare Organization","uri":"http://dbpedia.org/resource/JDC_Welfare_Organization"},{"label":"Lofton Creek Records","uri":"http://dbpedia.org/resource/Lofton_Creek_Records"},{"label":"North Hall High School","uri":"http://dbpedia.org/resource/North_Hall_High_School"},{"label":"Park Place (Atlanta)","uri":"http://dbpedia.org/resource/Park_Place_(Atlanta)"},{"label":"Transform (consulting firm)","uri":"http://dbpedia.org/resource/Transform_(consulting_firm)"},{"label":"Watertown High School (Tennessee)","uri":"http://dbpedia.org/resource/Watertown_High_School_(Tennessee)"},{"label":"West Hall High School","uri":"http://dbpedia.org/resource/West_Hall_High_School"},{"label":"2009 Arab Capital of Culture","uri":"http://dbpedia.org/resource/2009_Arab_Capital_of_Culture"},{"label":"American Southern Bank","uri":"http://dbpedia.org/resource/American_Southern_Bank"},{"label":"Art Museum of the University of Memphis","uri":"http://dbpedia.org/resource/Art_Museum_of_the_University_of_Memphis"},{"label":"Atlanta Pride","uri":"http://dbpedia.org/resource/Atlanta_Pride"},{"label":"AutoTrader.com","uri":"http://dbpedia.org/resource/AutoTrader.com"},{"label":"Boone Dam","uri":"http://dbpedia.org/resource/Boone_Dam"},{"label":"Canaan Fair Trade","uri":"http://dbpedia.org/resource/Canaan_Fair_Trade"},{"label":"Cass High School (Georgia)","uri":"http://dbpedia.org/resource/Cass_High_School_(Georgia)"},{"label":"Cherokee Dam","uri":"http://dbpedia.org/resource/Cherokee_Dam"},{"label":"Children's Museum of Memphis","uri":"http://dbpedia.org/resource/Children's_Museum_of_Memphis"},{"label":"Cocke County High School","uri":"http://dbpedia.org/resource/Cocke_County_High_School"},{"label":"CrossLink International","uri":"http://dbpedia.org/resource/CrossLink_International"},{"label":"Design Factory","uri":"http://dbpedia.org/resource/Design_Factory"},{"label":"Dockery Lake Recreation Area","uri":"http://dbpedia.org/resource/Dockery_Lake_Recreation_Area"},{"label":"EarthLink","uri":"http://dbpedia.org/resource/EarthLink"},{"label":"Efecte","uri":"http://dbpedia.org/resource/Efecte"},{"label":"Fire Museum of Memphis","uri":"http://dbpedia.org/resource/Fire_Museum_of_Memphis"},{"label":"Gatlinburg Space Needle","uri":"http://dbpedia.org/resource/Gatlinburg_Space_Needle"},{"label":"Getz Pharma","uri":"http://dbpedia.org/resource/Getz_Pharma"},{"label":"Guglielmo coffee","uri":"http://dbpedia.org/resource/Guglielmo_coffee"},{"label":"HD Supply","uri":"http://dbpedia.org/resource/HD_Supply"},{"label":"Hart County High School","uri":"http://dbpedia.org/resource/Hart_County_High_School"},{"label":"Hussaini Blood Bank","uri":"http://dbpedia.org/resource/Hussaini_Blood_Bank"},{"label":"Line 1 (Naples Metro)","uri":"http://dbpedia.org/resource/Line_1_(Naples_Metro)"},{"label":"Line 6 (Naples Metro)","uri":"http://dbpedia.org/resource/Line_6_(Naples_Metro)"},{"label":"Past Life (TV series)","uri":"http://dbpedia.org/resource/Past_Life_(TV_series)"},{"label":"Pio Monte della Misericordia","uri":"http://dbpedia.org/resource/Pio_Monte_della_Misericordia"},{"label":"Southern Regional Council","uri":"http://dbpedia.org/resource/Southern_Regional_Council"},{"label":"The Starters","uri":"http://dbpedia.org/resource/The_Starters"},{"label":"Trevelino/Keller","uri":"http://dbpedia.org/resource/Trevelino/Keller"},{"label":"Vilant Systems","uri":"http://dbpedia.org/resource/Vilant_Systems"},{"label":"Willingway Hospital","uri":"http://dbpedia.org/resource/Willingway_Hospital"},{"label":"Worth County Middle School","uri":"http://dbpedia.org/resource/Worth_County_Middle_School"},{"label":"Becker Island","uri":"http://dbpedia.org/resource/Becker_Island"},{"label":"Boulder Bridge","uri":"http://dbpedia.org/resource/Boulder_Bridge"},{"label":"Cape Canaveral Air Force Station Skid Strip","uri":"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Skid_Strip"},{"label":"Coalmont Bank Building","uri":"http://dbpedia.org/resource/Coalmont_Bank_Building"},{"label":"Fort Discovery","uri":"http://dbpedia.org/resource/Fort_Discovery"},{"label":"Israel National Museum of Science, Technology, and Space","uri":"http://dbpedia.org/resource/Israel_National_Museum_of_Science,_Technology,_and_Space"},{"label":"Lake Conasauga","uri":"http://dbpedia.org/resource/Lake_Conasauga"},{"label":"Palmer Plaza","uri":"http://dbpedia.org/resource/Palmer_Plaza"},{"label":"Tennessee Brewery","uri":"http://dbpedia.org/resource/Tennessee_Brewery"},{"label":"Tumut Pond Dam","uri":"http://dbpedia.org/resource/Tumut_Pond_Dam"},{"label":"Celtic Park (Derry)","uri":"http://dbpedia.org/resource/Celtic_Park_(Derry)"},{"label":"Vardy Community School","uri":"http://dbpedia.org/resource/Vardy_Community_School"},{"label":"Ashkelon Sports Arena","uri":"http://dbpedia.org/resource/Ashkelon_Sports_Arena"},{"label":"Foster Bay","uri":"http://dbpedia.org/resource/Foster_Bay"},{"label":"Frederick E. Hyde Fjord","uri":"http://dbpedia.org/resource/Frederick_E._Hyde_Fjord"},{"label":"Gael Hamkes Bay","uri":"http://dbpedia.org/resource/Gael_Hamkes_Bay"},{"label":"Hagen Fjord","uri":"http://dbpedia.org/resource/Hagen_Fjord"},{"label":"J.P. Koch Fjord","uri":"http://dbpedia.org/resource/J.P._Koch_Fjord"},{"label":"Jøkelbugten","uri":"http://dbpedia.org/resource/Jøkelbugten"},{"label":"Lithia Springs Hotel","uri":"http://dbpedia.org/resource/Lithia_Springs_Hotel"},{"label":"Moore County High School","uri":"http://dbpedia.org/resource/Moore_County_High_School"},{"label":"Nansen Fjord","uri":"http://dbpedia.org/resource/Nansen_Fjord"},{"label":"Napoleon Stadium","uri":"http://dbpedia.org/resource/Napoleon_Stadium"},{"label":"Nordenskiöld Fjord","uri":"http://dbpedia.org/resource/Nordenskiöld_Fjord"},{"label":"Old Hell Lake","uri":"http://dbpedia.org/resource/Old_Hell_Lake"},{"label":"Pacco Qillo","uri":"http://dbpedia.org/resource/Pacco_Qillo"},{"label":"Romema Arena","uri":"http://dbpedia.org/resource/Romema_Arena"},{"label":"Sevastopol International Airport","uri":"http://dbpedia.org/resource/Sevastopol_International_Airport"},{"label":"Standing Boy Creek State Park","uri":"http://dbpedia.org/resource/Standing_Boy_Creek_State_Park"},{"label":"Victoria Fjord","uri":"http://dbpedia.org/resource/Victoria_Fjord"},{"label":"Augusta Exchange","uri":"http://dbpedia.org/resource/Augusta_Exchange"},{"label":"Camp Trousdale","uri":"http://dbpedia.org/resource/Camp_Trousdale"},{"label":"Lissan House","uri":"http://dbpedia.org/resource/Lissan_House"},{"label":"Akko Light","uri":"http://dbpedia.org/resource/Akko_Light"},{"label":"Ashkelon Coal Jetty Breakwater Light","uri":"http://dbpedia.org/resource/Ashkelon_Coal_Jetty_Breakwater_Light"},{"label":"Ashkelon Marina Breakwater Light","uri":"http://dbpedia.org/resource/Ashkelon_Marina_Breakwater_Light"},{"label":"One Commerce Square","uri":"http://dbpedia.org/resource/One_Commerce_Square"},{"label":"WinWinD","uri":"http://dbpedia.org/resource/WinWinD"},{"label":"Association for Civil Rights in Israel","uri":"http://dbpedia.org/resource/Association_for_Civil_Rights_in_Israel"},{"label":"Cadet College Sanghar","uri":"http://dbpedia.org/resource/Cadet_College_Sanghar"},{"label":"Eastside High School (Covington, Georgia)","uri":"http://dbpedia.org/resource/Eastside_High_School_(Covington,_Georgia)"},{"label":"Savannah National Wildlife Refuge","uri":"http://dbpedia.org/resource/Savannah_National_Wildlife_Refuge"},{"label":"B. V. S. Parsi High School","uri":"http://dbpedia.org/resource/B._V._S._Parsi_High_School"},{"label":"Balter, Guth, Aloni & Co.","uri":"http://dbpedia.org/resource/Balter,_Guth,_Aloni_&_Co."},{"label":"Banks Lake National Wildlife Refuge","uri":"http://dbpedia.org/resource/Banks_Lake_National_Wildlife_Refuge"},{"label":"BellSouth Telecommunications","uri":"http://dbpedia.org/resource/BellSouth_Telecommunications"},{"label":"BlueLinx","uri":"http://dbpedia.org/resource/BlueLinx"},{"label":"Center for Puppetry Arts","uri":"http://dbpedia.org/resource/Center_for_Puppetry_Arts"},{"label":"Clarke Central High School","uri":"http://dbpedia.org/resource/Clarke_Central_High_School"},{"label":"Eufaula National Wildlife Refuge","uri":"http://dbpedia.org/resource/Eufaula_National_Wildlife_Refuge"},{"label":"Fort Reno (Oklahoma)","uri":"http://dbpedia.org/resource/Fort_Reno_(Oklahoma)"},{"label":"Hart State Park","uri":"http://dbpedia.org/resource/Hart_State_Park"},{"label":"Kiryat Eliezer Stadium","uri":"http://dbpedia.org/resource/Kiryat_Eliezer_Stadium"},{"label":"Latin American Public Opinion Project","uri":"http://dbpedia.org/resource/Latin_American_Public_Opinion_Project"}]},"combination":false},{"id":"2","language":"EN","type":"NP","bindingType":"LOCATION","returnType":"LOCATION","frameType":"NPP","sentences":["the location of $x"],"queryType":"SELECT","sparqlQuery":"(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp))\n","sentenceToSparqlParameterMapping":{"$x":"subjOfProp"},"returnVariable":"objOfProp","sentenceBindings":{"bindingVariableName":"$x","bindingList":[{"label":"Hall Island (Arctic)","uri":"http://dbpedia.org/resource/Hall_Island_(Arctic)"},{"label":"Taq Kasra","uri":"http://dbpedia.org/resource/Taq_Kasra"},{"label":"Academy of Medicine (Atlanta)","uri":"http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"},{"label":"East Hall High School","uri":"http://dbpedia.org/resource/East_Hall_High_School"},{"label":"Giles County High School","uri":"http://dbpedia.org/resource/Giles_County_High_School"},{"label":"Heritage High School (Ringgold, Georgia)","uri":"http://dbpedia.org/resource/Heritage_High_School_(Ringgold,_Georgia)"},{"label":"JDC Welfare Organization","uri":"http://dbpedia.org/resource/JDC_Welfare_Organization"},{"label":"Lofton Creek Records","uri":"http://dbpedia.org/resource/Lofton_Creek_Records"},{"label":"North Hall High School","uri":"http://dbpedia.org/resource/North_Hall_High_School"},{"label":"Park Place (Atlanta)","uri":"http://dbpedia.org/resource/Park_Place_(Atlanta)"},{"label":"Transform (consulting firm)","uri":"http://dbpedia.org/resource/Transform_(consulting_firm)"},{"label":"Watertown High School (Tennessee)","uri":"http://dbpedia.org/resource/Watertown_High_School_(Tennessee)"},{"label":"West Hall High School","uri":"http://dbpedia.org/resource/West_Hall_High_School"},{"label":"2009 Arab Capital of Culture","uri":"http://dbpedia.org/resource/2009_Arab_Capital_of_Culture"},{"label":"American Southern Bank","uri":"http://dbpedia.org/resource/American_Southern_Bank"},{"label":"Art Museum of the University of Memphis","uri":"http://dbpedia.org/resource/Art_Museum_of_the_University_of_Memphis"},{"label":"Atlanta Pride","uri":"http://dbpedia.org/resource/Atlanta_Pride"},{"label":"AutoTrader.com","uri":"http://dbpedia.org/resource/AutoTrader.com"},{"label":"Boone Dam","uri":"http://dbpedia.org/resource/Boone_Dam"},{"label":"Canaan Fair Trade","uri":"http://dbpedia.org/resource/Canaan_Fair_Trade"},{"label":"Cass High School (Georgia)","uri":"http://dbpedia.org/resource/Cass_High_School_(Georgia)"},{"label":"Cherokee Dam","uri":"http://dbpedia.org/resource/Cherokee_Dam"},{"label":"Children's Museum of Memphis","uri":"http://dbpedia.org/resource/Children's_Museum_of_Memphis"},{"label":"Cocke County High School","uri":"http://dbpedia.org/resource/Cocke_County_High_School"},{"label":"CrossLink International","uri":"http://dbpedia.org/resource/CrossLink_International"},{"label":"Design Factory","uri":"http://dbpedia.org/resource/Design_Factory"},{"label":"Dockery Lake Recreation Area","uri":"http://dbpedia.org/resource/Dockery_Lake_Recreation_Area"},{"label":"EarthLink","uri":"http://dbpedia.org/resource/EarthLink"},{"label":"Efecte","uri":"http://dbpedia.org/resource/Efecte"},{"label":"Fire Museum of Memphis","uri":"http://dbpedia.org/resource/Fire_Museum_of_Memphis"},{"label":"Gatlinburg Space Needle","uri":"http://dbpedia.org/resource/Gatlinburg_Space_Needle"},{"label":"Getz Pharma","uri":"http://dbpedia.org/resource/Getz_Pharma"},{"label":"Guglielmo coffee","uri":"http://dbpedia.org/resource/Guglielmo_coffee"},{"label":"HD Supply","uri":"http://dbpedia.org/resource/HD_Supply"},{"label":"Hart County High School","uri":"http://dbpedia.org/resource/Hart_County_High_School"},{"label":"Hussaini Blood Bank","uri":"http://dbpedia.org/resource/Hussaini_Blood_Bank"},{"label":"Line 1 (Naples Metro)","uri":"http://dbpedia.org/resource/Line_1_(Naples_Metro)"},{"label":"Line 6 (Naples Metro)","uri":"http://dbpedia.org/resource/Line_6_(Naples_Metro)"},{"label":"Past Life (TV series)","uri":"http://dbpedia.org/resource/Past_Life_(TV_series)"},{"label":"Pio Monte della Misericordia","uri":"http://dbpedia.org/resource/Pio_Monte_della_Misericordia"},{"label":"Southern Regional Council","uri":"http://dbpedia.org/resource/Southern_Regional_Council"},{"label":"The Starters","uri":"http://dbpedia.org/resource/The_Starters"},{"label":"Trevelino/Keller","uri":"http://dbpedia.org/resource/Trevelino/Keller"},{"label":"Vilant Systems","uri":"http://dbpedia.org/resource/Vilant_Systems"},{"label":"Willingway Hospital","uri":"http://dbpedia.org/resource/Willingway_Hospital"},{"label":"Worth County Middle School","uri":"http://dbpedia.org/resource/Worth_County_Middle_School"},{"label":"Becker Island","uri":"http://dbpedia.org/resource/Becker_Island"},{"label":"Boulder Bridge","uri":"http://dbpedia.org/resource/Boulder_Bridge"},{"label":"Cape Canaveral Air Force Station Skid Strip","uri":"http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Skid_Strip"},{"label":"Coalmont Bank Building","uri":"http://dbpedia.org/resource/Coalmont_Bank_Building"},{"label":"Fort Discovery","uri":"http://dbpedia.org/resource/Fort_Discovery"},{"label":"Israel National Museum of Science, Technology, and Space","uri":"http://dbpedia.org/resource/Israel_National_Museum_of_Science,_Technology,_and_Space"},{"label":"Lake Conasauga","uri":"http://dbpedia.org/resource/Lake_Conasauga"},{"label":"Palmer Plaza","uri":"http://dbpedia.org/resource/Palmer_Plaza"},{"label":"Tennessee Brewery","uri":"http://dbpedia.org/resource/Tennessee_Brewery"},{"label":"Tumut Pond Dam","uri":"http://dbpedia.org/resource/Tumut_Pond_Dam"},{"label":"Celtic Park (Derry)","uri":"http://dbpedia.org/resource/Celtic_Park_(Derry)"},{"label":"Vardy Community School","uri":"http://dbpedia.org/resource/Vardy_Community_School"},{"label":"Ashkelon Sports Arena","uri":"http://dbpedia.org/resource/Ashkelon_Sports_Arena"},{"label":"Foster Bay","uri":"http://dbpedia.org/resource/Foster_Bay"},{"label":"Frederick E. Hyde Fjord","uri":"http://dbpedia.org/resource/Frederick_E._Hyde_Fjord"},{"label":"Gael Hamkes Bay","uri":"http://dbpedia.org/resource/Gael_Hamkes_Bay"},{"label":"Hagen Fjord","uri":"http://dbpedia.org/resource/Hagen_Fjord"},{"label":"J.P. Koch Fjord","uri":"http://dbpedia.org/resource/J.P._Koch_Fjord"},{"label":"Jøkelbugten","uri":"http://dbpedia.org/resource/Jøkelbugten"},{"label":"Lithia Springs Hotel","uri":"http://dbpedia.org/resource/Lithia_Springs_Hotel"},{"label":"Moore County High School","uri":"http://dbpedia.org/resource/Moore_County_High_School"},{"label":"Nansen Fjord","uri":"http://dbpedia.org/resource/Nansen_Fjord"},{"label":"Napoleon Stadium","uri":"http://dbpedia.org/resource/Napoleon_Stadium"},{"label":"Nordenskiöld Fjord","uri":"http://dbpedia.org/resource/Nordenskiöld_Fjord"},{"label":"Old Hell Lake","uri":"http://dbpedia.org/resource/Old_Hell_Lake"},{"label":"Pacco Qillo","uri":"http://dbpedia.org/resource/Pacco_Qillo"},{"label":"Romema Arena","uri":"http://dbpedia.org/resource/Romema_Arena"},{"label":"Sevastopol International Airport","uri":"http://dbpedia.org/resource/Sevastopol_International_Airport"},{"label":"Standing Boy Creek State Park","uri":"http://dbpedia.org/resource/Standing_Boy_Creek_State_Park"},{"label":"Victoria Fjord","uri":"http://dbpedia.org/resource/Victoria_Fjord"},{"label":"Augusta Exchange","uri":"http://dbpedia.org/resource/Augusta_Exchange"},{"label":"Camp Trousdale","uri":"http://dbpedia.org/resource/Camp_Trousdale"},{"label":"Lissan House","uri":"http://dbpedia.org/resource/Lissan_House"},{"label":"Akko Light","uri":"http://dbpedia.org/resource/Akko_Light"},{"label":"Ashkelon Coal Jetty Breakwater Light","uri":"http://dbpedia.org/resource/Ashkelon_Coal_Jetty_Breakwater_Light"},{"label":"Ashkelon Marina Breakwater Light","uri":"http://dbpedia.org/resource/Ashkelon_Marina_Breakwater_Light"},{"label":"One Commerce Square","uri":"http://dbpedia.org/resource/One_Commerce_Square"},{"label":"WinWinD","uri":"http://dbpedia.org/resource/WinWinD"},{"label":"Association for Civil Rights in Israel","uri":"http://dbpedia.org/resource/Association_for_Civil_Rights_in_Israel"},{"label":"Cadet College Sanghar","uri":"http://dbpedia.org/resource/Cadet_College_Sanghar"},{"label":"Eastside High School (Covington, Georgia)","uri":"http://dbpedia.org/resource/Eastside_High_School_(Covington,_Georgia)"},{"label":"Savannah National Wildlife Refuge","uri":"http://dbpedia.org/resource/Savannah_National_Wildlife_Refuge"},{"label":"B. V. S. Parsi High School","uri":"http://dbpedia.org/resource/B._V._S._Parsi_High_School"},{"label":"Balter, Guth, Aloni & Co.","uri":"http://dbpedia.org/resource/Balter,_Guth,_Aloni_&_Co."},{"label":"Banks Lake National Wildlife Refuge","uri":"http://dbpedia.org/resource/Banks_Lake_National_Wildlife_Refuge"},{"label":"BellSouth Telecommunications","uri":"http://dbpedia.org/resource/BellSouth_Telecommunications"},{"label":"BlueLinx","uri":"http://dbpedia.org/resource/BlueLinx"},{"label":"Center for Puppetry Arts","uri":"http://dbpedia.org/resource/Center_for_Puppetry_Arts"},{"label":"Clarke Central High School","uri":"http://dbpedia.org/resource/Clarke_Central_High_School"},{"label":"Eufaula National Wildlife Refuge","uri":"http://dbpedia.org/resource/Eufaula_National_Wildlife_Refuge"},{"label":"Fort Reno (Oklahoma)","uri":"http://dbpedia.org/resource/Fort_Reno_(Oklahoma)"},{"label":"Hart State Park","uri":"http://dbpedia.org/resource/Hart_State_Park"},{"label":"Kiryat Eliezer Stadium","uri":"http://dbpedia.org/resource/Kiryat_Eliezer_Stadium"},{"label":"Latin American Public Opinion Project","uri":"http://dbpedia.org/resource/Latin_American_Public_Opinion_Project"}]},"combination":false},{"id":"3","language":"EN","type":"SENTENCE","bindingType":"LOCATION","returnType":"LOCATION","frameType":"FULL_DATASET","sentences":["Where is $x located?"],"queryType":"SELECT","sparqlQuery":"(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n","sentenceToSparqlParameterMapping":{"$x":"subjOfProp"},"returnVariable":"objOfProp","sentenceBindings":{"bindingVariableName":"$x","bindingList":[{"label":"Whitehaven, Memphis, Tennessee","uri":"http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"},{"label":"Lake Zabuye","uri":"http://dbpedia.org/resource/Lake_Zabuye"},{"label":"Mid-Atlantic states","uri":"http://dbpedia.org/resource/Mid-Atlantic_states"},{"label":"New England","uri":"http://dbpedia.org/resource/New_England"},{"label":"Kuta Raja","uri":"http://dbpedia.org/resource/Kuta_Raja"},{"label":"San Biagio Maggiore","uri":"http://dbpedia.org/resource/San_Biagio_Maggiore"},{"label":"Namcha Barwa Himal","uri":"http://dbpedia.org/resource/Namcha_Barwa_Himal"},{"label":"San Nicola a Nilo","uri":"http://dbpedia.org/resource/San_Nicola_a_Nilo"},{"label":"Adra, Syria","uri":"http://dbpedia.org/resource/Adra,_Syria"},{"label":"Al-Mazraa","uri":"http://dbpedia.org/resource/Al-Mazraa"},{"label":"Al-Rastan","uri":"http://dbpedia.org/resource/Al-Rastan"},{"label":"Al-Hawash, Homs Governorate","uri":"http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"},{"label":"Ayn al-Bardah","uri":"http://dbpedia.org/resource/Ayn_al-Bardah"},{"label":"Khabab","uri":"http://dbpedia.org/resource/Khabab"},{"label":"Al-Kafr","uri":"http://dbpedia.org/resource/Al-Kafr"},{"label":"Deir Mama","uri":"http://dbpedia.org/resource/Deir_Mama"},{"label":"Madaya, Syria","uri":"http://dbpedia.org/resource/Madaya,_Syria"},{"label":"Tayru","uri":"http://dbpedia.org/resource/Tayru"},{"label":"Al-Khalidiyah, Syria","uri":"http://dbpedia.org/resource/Al-Khalidiyah,_Syria"},{"label":"Al-Khalidiyah, al-Hasakah Governorate","uri":"http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"},{"label":"Basatin al-Assad","uri":"http://dbpedia.org/resource/Basatin_al-Assad"},{"label":"Hala, Syria","uri":"http://dbpedia.org/resource/Hala,_Syria"},{"label":"Harran, Idlib","uri":"http://dbpedia.org/resource/Harran,_Idlib"},{"label":"Harran, as-Suwayda","uri":"http://dbpedia.org/resource/Harran,_as-Suwayda"},{"label":"Harran al-Awamid","uri":"http://dbpedia.org/resource/Harran_al-Awamid"},{"label":"Wadi al-Nasara","uri":"http://dbpedia.org/resource/Wadi_al-Nasara"},{"label":"Abu Khanadiq","uri":"http://dbpedia.org/resource/Abu_Khanadiq"},{"label":"Abu Kleefun","uri":"http://dbpedia.org/resource/Abu_Kleefun"},{"label":"Abul Fashafish","uri":"http://dbpedia.org/resource/Abul_Fashafish"},{"label":"Al-'Amrah","uri":"http://dbpedia.org/resource/Al-'Amrah"},{"label":"Al-Atnah","uri":"http://dbpedia.org/resource/Al-Atnah"},{"label":"Al-Fayadiyah","uri":"http://dbpedia.org/resource/Al-Fayadiyah"},{"label":"Al-Humayra","uri":"http://dbpedia.org/resource/Al-Humayra"},{"label":"Al-Jarajir","uri":"http://dbpedia.org/resource/Al-Jarajir"},{"label":"Al-Khandaq al-Sharqiyah","uri":"http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"},{"label":"Al-Muhajirin, Hama Governorate","uri":"http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"},{"label":"Al-Narjis","uri":"http://dbpedia.org/resource/Al-Narjis"},{"label":"Al-Nazaza","uri":"http://dbpedia.org/resource/Al-Nazaza"},{"label":"Al-Nour, Syria","uri":"http://dbpedia.org/resource/Al-Nour,_Syria"},{"label":"Al-Ramlah, Syria","uri":"http://dbpedia.org/resource/Al-Ramlah,_Syria"},{"label":"Al-Salihiyah, Hama","uri":"http://dbpedia.org/resource/Al-Salihiyah,_Hama"},{"label":"Al-Sindiyana, Suqaylabiyah","uri":"http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"},{"label":"Al-Swaia","uri":"http://dbpedia.org/resource/Al-Swaia"},{"label":"Al-Thawrah, Hama Governorate","uri":"http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"},{"label":"Al-Tulaysiyah al-Janubiyah","uri":"http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"},{"label":"Al-Zitiyah","uri":"http://dbpedia.org/resource/Al-Zitiyah"},{"label":"Ammurin","uri":"http://dbpedia.org/resource/Ammurin"},{"label":"Ayn Dara","uri":"http://dbpedia.org/resource/Ayn_Dara"},{"label":"Balluneh","uri":"http://dbpedia.org/resource/Balluneh"},{"label":"Beij","uri":"http://dbpedia.org/resource/Beij"},{"label":"Bgheidid","uri":"http://dbpedia.org/resource/Bgheidid"},{"label":"Bustan Sbeih","uri":"http://dbpedia.org/resource/Bustan_Sbeih"},{"label":"Deir Sunbul","uri":"http://dbpedia.org/resource/Deir_Sunbul"},{"label":"Ein Elhamam","uri":"http://dbpedia.org/resource/Ein_Elhamam"},{"label":"Ein Warideh","uri":"http://dbpedia.org/resource/Ein_Warideh"},{"label":"Elrihana","uri":"http://dbpedia.org/resource/Elrihana"},{"label":"Fawrah","uri":"http://dbpedia.org/resource/Fawrah"},{"label":"Hamrit","uri":"http://dbpedia.org/resource/Hamrit"},{"label":"Hanuteh","uri":"http://dbpedia.org/resource/Hanuteh"},{"label":"Hdaj","uri":"http://dbpedia.org/resource/Hdaj"},{"label":"Jakuziyeh","uri":"http://dbpedia.org/resource/Jakuziyeh"},{"label":"Jamala, Hama","uri":"http://dbpedia.org/resource/Jamala,_Hama"},{"label":"Jeb Dkileh","uri":"http://dbpedia.org/resource/Jeb_Dkileh"},{"label":"Jeb Zreiq","uri":"http://dbpedia.org/resource/Jeb_Zreiq"},{"label":"Jessine","uri":"http://dbpedia.org/resource/Jessine"},{"label":"Karama, Hama","uri":"http://dbpedia.org/resource/Karama,_Hama"},{"label":"Kasun Eljabal","uri":"http://dbpedia.org/resource/Kasun_Eljabal"},{"label":"Kawri","uri":"http://dbpedia.org/resource/Kawri"},{"label":"Khala, Hama","uri":"http://dbpedia.org/resource/Khala,_Hama"},{"label":"Khansaa - Shetheh","uri":"http://dbpedia.org/resource/Khansaa_-_Shetheh"},{"label":"Maar Shamali","uri":"http://dbpedia.org/resource/Maar_Shamali"},{"label":"Makhbuta","uri":"http://dbpedia.org/resource/Makhbuta"},{"label":"Maksar, Hama","uri":"http://dbpedia.org/resource/Maksar,_Hama"},{"label":"Marana, Hama","uri":"http://dbpedia.org/resource/Marana,_Hama"},{"label":"Mashta Elshalahmeh","uri":"http://dbpedia.org/resource/Mashta_Elshalahmeh"},{"label":"Mastarihat Afamiyah","uri":"http://dbpedia.org/resource/Mastarihat_Afamiyah"},{"label":"Mrikb","uri":"http://dbpedia.org/resource/Mrikb"},{"label":"Mweileh","uri":"http://dbpedia.org/resource/Mweileh"},{"label":"Nabe Eltib","uri":"http://dbpedia.org/resource/Nabe_Eltib"},{"label":"Ojet - Kabasin Elarab","uri":"http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"},{"label":"Ojt Eltoba","uri":"http://dbpedia.org/resource/Ojt_Eltoba"},{"label":"Qal'at al-Jaras","uri":"http://dbpedia.org/resource/Qal'at_al-Jaras"},{"label":"Qanater, Hama Governorate","uri":"http://dbpedia.org/resource/Qanater,_Hama_Governorate"},{"label":"Qastal al-Burj","uri":"http://dbpedia.org/resource/Qastal_al-Burj"},{"label":"Ras al-Maara","uri":"http://dbpedia.org/resource/Ras_al-Maara"},{"label":"Rasm Al-Brdkana","uri":"http://dbpedia.org/resource/Rasm_Al-Brdkana"},{"label":"Rasm Amun","uri":"http://dbpedia.org/resource/Rasm_Amun"},{"label":"Rasm Anz","uri":"http://dbpedia.org/resource/Rasm_Anz"},{"label":"Rasm Elahmar","uri":"http://dbpedia.org/resource/Rasm_Elahmar"},{"label":"Rudat al-Tar","uri":"http://dbpedia.org/resource/Rudat_al-Tar"},{"label":"Rweideh","uri":"http://dbpedia.org/resource/Rweideh"},{"label":"Saidiyeh, Hama","uri":"http://dbpedia.org/resource/Saidiyeh,_Hama"},{"label":"Saqiyet Nijm","uri":"http://dbpedia.org/resource/Saqiyet_Nijm"},{"label":"Shahta","uri":"http://dbpedia.org/resource/Shahta"},{"label":"Shatheh","uri":"http://dbpedia.org/resource/Shatheh"},{"label":"Shaykh Ali","uri":"http://dbpedia.org/resource/Shaykh_Ali"},{"label":"Suwak al-Shamali","uri":"http://dbpedia.org/resource/Suwak_al-Shamali"},{"label":"Tabara Elhamra","uri":"http://dbpedia.org/resource/Tabara_Elhamra"},{"label":"Tahunet Elhalawa","uri":"http://dbpedia.org/resource/Tahunet_Elhalawa"},{"label":"Tell al-Shih","uri":"http://dbpedia.org/resource/Tell_al-Shih"}]},"combination":false}]}
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "PERSON",
+            "returnType": "PERSON",
+            "frameType": "VP",
+            "sentences": ["Which person assassinated ($x | PERSON_NP)?", "Who assassinated ($x | PERSON_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/spouse> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "objOfProp"
+            },
+            "returnVariable": "subjOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Andrzej Wajda",
+                        "uri": "http://dbpedia.org/resource/Andrzej_Wajda"
+                    }, {
+                        "label": "Billung",
+                        "uri": "http://dbpedia.org/resource/Billung"
+                    }, {
+                        "label": "Brad Pitt",
+                        "uri": "http://dbpedia.org/resource/Brad_Pitt"
+                    }, {
+                        "label": "Carole Lombard",
+                        "uri": "http://dbpedia.org/resource/Carole_Lombard"
+                    }, {
+                        "label": "Caroline of Brunswick",
+                        "uri": "http://dbpedia.org/resource/Caroline_of_Brunswick"
+                    }, {
+                        "label": "Catherine I of Russia",
+                        "uri": "http://dbpedia.org/resource/Catherine_I_of_Russia"
+                    }, {
+                        "label": "Clark Gable",
+                        "uri": "http://dbpedia.org/resource/Clark_Gable"
+                    }, {
+                        "label": "Cnut the Great",
+                        "uri": "http://dbpedia.org/resource/Cnut_the_Great"
+                    }, {
+                        "label": "Edmond Hamilton",
+                        "uri": "http://dbpedia.org/resource/Edmond_Hamilton"
+                    }, {
+                        "label": "Elizabeth Taylor",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Taylor"
+                    }, {
+                        "label": "Elizabeth Woodville",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Woodville"
+                    }, {
+                        "label": "Emma of Normandy",
+                        "uri": "http://dbpedia.org/resource/Emma_of_Normandy"
+                    }, {
+                        "label": "George IV of the United Kingdom",
+                        "uri": "http://dbpedia.org/resource/George_IV_of_the_United_Kingdom"
+                    }, {
+                        "label": "Gwyneth Paltrow",
+                        "uri": "http://dbpedia.org/resource/Gwyneth_Paltrow"
+                    }, {
+                        "label": "Hector Berlioz",
+                        "uri": "http://dbpedia.org/resource/Hector_Berlioz"
+                    }, {
+                        "label": "Ingrid Bergman",
+                        "uri": "http://dbpedia.org/resource/Ingrid_Bergman"
+                    }, {
+                        "label": "Jennifer Aniston",
+                        "uri": "http://dbpedia.org/resource/Jennifer_Aniston"
+                    }, {
+                        "label": "Laurence Olivier",
+                        "uri": "http://dbpedia.org/resource/Laurence_Olivier"
+                    }, {
+                        "label": "Leigh Brackett",
+                        "uri": "http://dbpedia.org/resource/Leigh_Brackett"
+                    }, {
+                        "label": "Louis XVI of France",
+                        "uri": "http://dbpedia.org/resource/Louis_XVI_of_France"
+                    }, {
+                        "label": "Marie Antoinette",
+                        "uri": "http://dbpedia.org/resource/Marie_Antoinette"
+                    }, {
+                        "label": "Meg Ryan",
+                        "uri": "http://dbpedia.org/resource/Meg_Ryan"
+                    }, {
+                        "label": "Otto II, Holy Roman Emperor",
+                        "uri": "http://dbpedia.org/resource/Otto_II,_Holy_Roman_Emperor"
+                    }, {
+                        "label": "Peter the Great",
+                        "uri": "http://dbpedia.org/resource/Peter_the_Great"
+                    }, {
+                        "label": "Richard Burton",
+                        "uri": "http://dbpedia.org/resource/Richard_Burton"
+                    }, {
+                        "label": "Roberto Rossellini",
+                        "uri": "http://dbpedia.org/resource/Roberto_Rossellini"
+                    }, {
+                        "label": "Salman Rushdie",
+                        "uri": "http://dbpedia.org/resource/Salman_Rushdie"
+                    }, {
+                        "label": "Sophie Marceau",
+                        "uri": "http://dbpedia.org/resource/Sophie_Marceau"
+                    }, {
+                        "label": "Sylvia Plath",
+                        "uri": "http://dbpedia.org/resource/Sylvia_Plath"
+                    }, {
+                        "label": "Ted Hughes",
+                        "uri": "http://dbpedia.org/resource/Ted_Hughes"
+                    }, {
+                        "label": "Val Kilmer",
+                        "uri": "http://dbpedia.org/resource/Val_Kilmer"
+                    }, {
+                        "label": "Chris Martin",
+                        "uri": "http://dbpedia.org/resource/Chris_Martin"
+                    }, {
+                        "label": "Céline Bara",
+                        "uri": "http://dbpedia.org/resource/Céline_Bara"
+                    }, {
+                        "label": "Gabrielle Renaudot Flammarion",
+                        "uri": "http://dbpedia.org/resource/Gabrielle_Renaudot_Flammarion"
+                    }, {
+                        "label": "Harrison Grey Fiske",
+                        "uri": "http://dbpedia.org/resource/Harrison_Grey_Fiske"
+                    }, {
+                        "label": "Joanne Whalley",
+                        "uri": "http://dbpedia.org/resource/Joanne_Whalley"
+                    }, {
+                        "label": "John Grey of Groby",
+                        "uri": "http://dbpedia.org/resource/John_Grey_of_Groby"
+                    }, {
+                        "label": "Padma Lakshmi",
+                        "uri": "http://dbpedia.org/resource/Padma_Lakshmi"
+                    }, {
+                        "label": "Savitri (actress)",
+                        "uri": "http://dbpedia.org/resource/Savitri_(actress)"
+                    }, {
+                        "label": "Talisa Soto",
+                        "uri": "http://dbpedia.org/resource/Talisa_Soto"
+                    }, {
+                        "label": "Aaron Spelling",
+                        "uri": "http://dbpedia.org/resource/Aaron_Spelling"
+                    }, {
+                        "label": "Adam Hochschild",
+                        "uri": "http://dbpedia.org/resource/Adam_Hochschild"
+                    }, {
+                        "label": "Alastair Dunnett",
+                        "uri": "http://dbpedia.org/resource/Alastair_Dunnett"
+                    }, {
+                        "label": "Aliza Olmert",
+                        "uri": "http://dbpedia.org/resource/Aliza_Olmert"
+                    }, {
+                        "label": "Arlie Russell Hochschild",
+                        "uri": "http://dbpedia.org/resource/Arlie_Russell_Hochschild"
+                    }, {
+                        "label": "Aruna Roy",
+                        "uri": "http://dbpedia.org/resource/Aruna_Roy"
+                    }, {
+                        "label": "Barbara Simons",
+                        "uri": "http://dbpedia.org/resource/Barbara_Simons"
+                    }, {
+                        "label": "Beata Tyszkiewicz",
+                        "uri": "http://dbpedia.org/resource/Beata_Tyszkiewicz"
+                    }, {
+                        "label": "Benjamin Bratt",
+                        "uri": "http://dbpedia.org/resource/Benjamin_Bratt"
+                    }, {
+                        "label": "Bermudo II of León",
+                        "uri": "http://dbpedia.org/resource/Bermudo_II_of_León"
+                    }, {
+                        "label": "Candy Spelling",
+                        "uri": "http://dbpedia.org/resource/Candy_Spelling"
+                    }, {
+                        "label": "Cyrille Bara",
+                        "uri": "http://dbpedia.org/resource/Cyrille_Bara"
+                    }, {
+                        "label": "Dorothy Dunnett",
+                        "uri": "http://dbpedia.org/resource/Dorothy_Dunnett"
+                    }, {
+                        "label": "Eleanor Silliman Belknap Humphrey",
+                        "uri": "http://dbpedia.org/resource/Eleanor_Silliman_Belknap_Humphrey"
+                    }, {
+                        "label": "Elvira of Castile, Queen of León",
+                        "uri": "http://dbpedia.org/resource/Elvira_of_Castile,_Queen_of_León"
+                    }, {
+                        "label": "Flora Fraser, 21st Lady Saltoun",
+                        "uri": "http://dbpedia.org/resource/Flora_Fraser,_21st_Lady_Saltoun"
+                    }, {
+                        "label": "Florence Dugdale",
+                        "uri": "http://dbpedia.org/resource/Florence_Dugdale"
+                    }, {
+                        "label": "Gemini Ganesan",
+                        "uri": "http://dbpedia.org/resource/Gemini_Ganesan"
+                    }, {
+                        "label": "James Harris Simons",
+                        "uri": "http://dbpedia.org/resource/James_Harris_Simons"
+                    }, {
+                        "label": "Lewis Craig Humphrey",
+                        "uri": "http://dbpedia.org/resource/Lewis_Craig_Humphrey"
+                    }, {
+                        "label": "Léon Brunschvicg",
+                        "uri": "http://dbpedia.org/resource/Léon_Brunschvicg"
+                    }, {
+                        "label": "Martin Van Buren Bates",
+                        "uri": "http://dbpedia.org/resource/Martin_Van_Buren_Bates"
+                    }, {
+                        "label": "Mary Boies",
+                        "uri": "http://dbpedia.org/resource/Mary_Boies"
+                    }, {
+                        "label": "Mary Lee Fitzhugh Custis",
+                        "uri": "http://dbpedia.org/resource/Mary_Lee_Fitzhugh_Custis"
+                    }, {
+                        "label": "Michael Bakewell",
+                        "uri": "http://dbpedia.org/resource/Michael_Bakewell"
+                    }, {
+                        "label": "Millicent Hearst",
+                        "uri": "http://dbpedia.org/resource/Millicent_Hearst"
+                    }, {
+                        "label": "Philip Ruppe",
+                        "uri": "http://dbpedia.org/resource/Philip_Ruppe"
+                    }, {
+                        "label": "Rolly Bester",
+                        "uri": "http://dbpedia.org/resource/Rolly_Bester"
+                    }, {
+                        "label": "Ruy Guerra",
+                        "uri": "http://dbpedia.org/resource/Ruy_Guerra"
+                    }, {
+                        "label": "Sinéad de Valera",
+                        "uri": "http://dbpedia.org/resource/Sinéad_de_Valera"
+                    }, {
+                        "label": "Sophie de Condorcet",
+                        "uri": "http://dbpedia.org/resource/Sophie_de_Condorcet"
+                    }, {
+                        "label": "Yasuko Hatoyama",
+                        "uri": "http://dbpedia.org/resource/Yasuko_Hatoyama"
+                    }, {
+                        "label": "Padmé Amidala",
+                        "uri": "http://dbpedia.org/resource/Padmé_Amidala"
+                    }, {
+                        "label": "Deborah Walley",
+                        "uri": "http://dbpedia.org/resource/Deborah_Walley"
+                    }, {
+                        "label": "Lisa Kreuzer",
+                        "uri": "http://dbpedia.org/resource/Lisa_Kreuzer"
+                    }, {
+                        "label": "Magdolna Purgly",
+                        "uri": "http://dbpedia.org/resource/Magdolna_Purgly"
+                    }, {
+                        "label": "Murray McLauchlan",
+                        "uri": "http://dbpedia.org/resource/Murray_McLauchlan"
+                    }, {
+                        "label": "Maxwell Reed",
+                        "uri": "http://dbpedia.org/resource/Maxwell_Reed"
+                    }, {
+                        "label": "Peter Holm",
+                        "uri": "http://dbpedia.org/resource/Peter_Holm"
+                    }, {
+                        "label": "Russell Simmons",
+                        "uri": "http://dbpedia.org/resource/Russell_Simmons"
+                    }, {
+                        "label": "Sigrid the Haughty",
+                        "uri": "http://dbpedia.org/resource/Sigrid_the_Haughty"
+                    }, {
+                        "label": "Elena Ceaușescu",
+                        "uri": "http://dbpedia.org/resource/Elena_Ceaușescu"
+                    }, {
+                        "label": "Lydia Clarke",
+                        "uri": "http://dbpedia.org/resource/Lydia_Clarke"
+                    }, {
+                        "label": "Jacqueline Lamba",
+                        "uri": "http://dbpedia.org/resource/Jacqueline_Lamba"
+                    }, {
+                        "label": "Eliza Jumel",
+                        "uri": "http://dbpedia.org/resource/Eliza_Jumel"
+                    }, {
+                        "label": "Jean Bouise",
+                        "uri": "http://dbpedia.org/resource/Jean_Bouise"
+                    }, {
+                        "label": "John V of Nassau-Dillenburg",
+                        "uri": "http://dbpedia.org/resource/John_V_of_Nassau-Dillenburg"
+                    }, {
+                        "label": "Raja Zarith Sofia",
+                        "uri": "http://dbpedia.org/resource/Raja_Zarith_Sofia"
+                    }, {
+                        "label": "Lena Herzog",
+                        "uri": "http://dbpedia.org/resource/Lena_Herzog"
+                    }, {
+                        "label": "Margaret of Soissons, Queen of Armenia",
+                        "uri": "http://dbpedia.org/resource/Margaret_of_Soissons,_Queen_of_Armenia"
+                    }, {
+                        "label": "Nagarjuna Akkineni",
+                        "uri": "http://dbpedia.org/resource/Nagarjuna_Akkineni"
+                    }, {
+                        "label": "Suzy Miller",
+                        "uri": "http://dbpedia.org/resource/Suzy_Miller"
+                    }, {
+                        "label": "Li Shang (Mulan character)",
+                        "uri": "http://dbpedia.org/resource/Li_Shang_(Mulan_character)"
+                    }, {
+                        "label": "Isabelle of Valois (1348-1372)",
+                        "uri": "http://dbpedia.org/resource/Isabelle_of_Valois_(1348-1372)"
+                    }, {
+                        "label": "Linda Tuhiwai Smith",
+                        "uri": "http://dbpedia.org/resource/Linda_Tuhiwai_Smith"
+                    }, {
+                        "label": "Nene (person)",
+                        "uri": "http://dbpedia.org/resource/Nene_(person)"
+                    }, {
+                        "label": "Linda Ruth Williams",
+                        "uri": "http://dbpedia.org/resource/Linda_Ruth_Williams"
+                    }, {
+                        "label": "Ceca (singer)",
+                        "uri": "http://dbpedia.org/resource/Ceca_(singer)"
+                    }, {
+                        "label": "Constance Towers",
+                        "uri": "http://dbpedia.org/resource/Constance_Towers"
+                    }, {
+                        "label": "Elsa Pataky",
+                        "uri": "http://dbpedia.org/resource/Elsa_Pataky"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "PERSON",
+            "returnType": "PERSON",
+            "frameType": "APP",
+            "sentences": ["Which person is assassinated to ($x | PERSON_NP)?", "Which person was assassinated to ($x | PERSON_NP)?", "Which persons are assassinated to ($x | PERSON_NP)?", "Which persons were assassinated to ($x | PERSON_NP)?", "Who is assassinated to ($x | PERSON_NP)?", "Who was assassinated to ($x | PERSON_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/spouse> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Aaron Burr",
+                        "uri": "http://dbpedia.org/resource/Aaron_Burr"
+                    }, {
+                        "label": "Adrienne Rich",
+                        "uri": "http://dbpedia.org/resource/Adrienne_Rich"
+                    }, {
+                        "label": "Alan Rickman",
+                        "uri": "http://dbpedia.org/resource/Alan_Rickman"
+                    }, {
+                        "label": "Albert Finney",
+                        "uri": "http://dbpedia.org/resource/Albert_Finney"
+                    }, {
+                        "label": "Albrecht III Achilles, Elector of Brandenburg",
+                        "uri": "http://dbpedia.org/resource/Albrecht_III_Achilles,_Elector_of_Brandenburg"
+                    }, {
+                        "label": "Alexandru Ioan Cuza",
+                        "uri": "http://dbpedia.org/resource/Alexandru_Ioan_Cuza"
+                    }, {
+                        "label": "Alfred Bester",
+                        "uri": "http://dbpedia.org/resource/Alfred_Bester"
+                    }, {
+                        "label": "Alyson Hannigan",
+                        "uri": "http://dbpedia.org/resource/Alyson_Hannigan"
+                    }, {
+                        "label": "Andrew Lloyd Webber",
+                        "uri": "http://dbpedia.org/resource/Andrew_Lloyd_Webber"
+                    }, {
+                        "label": "Andrew Sarris",
+                        "uri": "http://dbpedia.org/resource/Andrew_Sarris"
+                    }, {
+                        "label": "Andrzej Wajda",
+                        "uri": "http://dbpedia.org/resource/Andrzej_Wajda"
+                    }, {
+                        "label": "Andrzej Żuławski",
+                        "uri": "http://dbpedia.org/resource/Andrzej_Żuławski"
+                    }, {
+                        "label": "André Breton",
+                        "uri": "http://dbpedia.org/resource/André_Breton"
+                    }, {
+                        "label": "André Malraux",
+                        "uri": "http://dbpedia.org/resource/André_Malraux"
+                    }, {
+                        "label": "Anna of Russia",
+                        "uri": "http://dbpedia.org/resource/Anna_of_Russia"
+                    }, {
+                        "label": "Anne, Queen of Great Britain",
+                        "uri": "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+                    }, {
+                        "label": "Anne Boleyn",
+                        "uri": "http://dbpedia.org/resource/Anne_Boleyn"
+                    }, {
+                        "label": "Anne Neville",
+                        "uri": "http://dbpedia.org/resource/Anne_Neville"
+                    }, {
+                        "label": "Anne of Cleves",
+                        "uri": "http://dbpedia.org/resource/Anne_of_Cleves"
+                    }, {
+                        "label": "Anne of Denmark",
+                        "uri": "http://dbpedia.org/resource/Anne_of_Denmark"
+                    }, {
+                        "label": "Anthony Burgess",
+                        "uri": "http://dbpedia.org/resource/Anthony_Burgess"
+                    }, {
+                        "label": "Antonio Banderas",
+                        "uri": "http://dbpedia.org/resource/Antonio_Banderas"
+                    }, {
+                        "label": "Anwar Sadat",
+                        "uri": "http://dbpedia.org/resource/Anwar_Sadat"
+                    }, {
+                        "label": "Arkan",
+                        "uri": "http://dbpedia.org/resource/Arkan"
+                    }, {
+                        "label": "Ashley Judd",
+                        "uri": "http://dbpedia.org/resource/Ashley_Judd"
+                    }, {
+                        "label": "August Strindberg",
+                        "uri": "http://dbpedia.org/resource/August_Strindberg"
+                    }, {
+                        "label": "Aurelian",
+                        "uri": "http://dbpedia.org/resource/Aurelian"
+                    }, {
+                        "label": "Austin Powers (character)",
+                        "uri": "http://dbpedia.org/resource/Austin_Powers_(character)"
+                    }, {
+                        "label": "Ava Gardner",
+                        "uri": "http://dbpedia.org/resource/Ava_Gardner"
+                    }, {
+                        "label": "Ben Chifley",
+                        "uri": "http://dbpedia.org/resource/Ben_Chifley"
+                    }, {
+                        "label": "Benjamin Netanyahu",
+                        "uri": "http://dbpedia.org/resource/Benjamin_Netanyahu"
+                    }, {
+                        "label": "Blake Edwards",
+                        "uri": "http://dbpedia.org/resource/Blake_Edwards"
+                    }, {
+                        "label": "Bob Dole",
+                        "uri": "http://dbpedia.org/resource/Bob_Dole"
+                    }, {
+                        "label": "Bolesław I the Brave",
+                        "uri": "http://dbpedia.org/resource/Bolesław_I_the_Brave"
+                    }, {
+                        "label": "Booker T. Washington",
+                        "uri": "http://dbpedia.org/resource/Booker_T._Washington"
+                    }, {
+                        "label": "Boris III of Bulgaria",
+                        "uri": "http://dbpedia.org/resource/Boris_III_of_Bulgaria"
+                    }, {
+                        "label": "Brad Pitt",
+                        "uri": "http://dbpedia.org/resource/Brad_Pitt"
+                    }, {
+                        "label": "Bruce Lee",
+                        "uri": "http://dbpedia.org/resource/Bruce_Lee"
+                    }, {
+                        "label": "Buster Keaton",
+                        "uri": "http://dbpedia.org/resource/Buster_Keaton"
+                    }, {
+                        "label": "Cameron Diaz",
+                        "uri": "http://dbpedia.org/resource/Cameron_Diaz"
+                    }, {
+                        "label": "Caracalla",
+                        "uri": "http://dbpedia.org/resource/Caracalla"
+                    }, {
+                        "label": "Carl Bildt",
+                        "uri": "http://dbpedia.org/resource/Carl_Bildt"
+                    }, {
+                        "label": "Carlos Menem",
+                        "uri": "http://dbpedia.org/resource/Carlos_Menem"
+                    }, {
+                        "label": "Carol II of Romania",
+                        "uri": "http://dbpedia.org/resource/Carol_II_of_Romania"
+                    }, {
+                        "label": "Carole Lombard",
+                        "uri": "http://dbpedia.org/resource/Carole_Lombard"
+                    }, {
+                        "label": "Caroline of Ansbach",
+                        "uri": "http://dbpedia.org/resource/Caroline_of_Ansbach"
+                    }, {
+                        "label": "Caroline of Brunswick",
+                        "uri": "http://dbpedia.org/resource/Caroline_of_Brunswick"
+                    }, {
+                        "label": "Carter Harrison Jr.",
+                        "uri": "http://dbpedia.org/resource/Carter_Harrison_Jr."
+                    }, {
+                        "label": "Casimir IV Jagiellon",
+                        "uri": "http://dbpedia.org/resource/Casimir_IV_Jagiellon"
+                    }, {
+                        "label": "Catherine Deneuve",
+                        "uri": "http://dbpedia.org/resource/Catherine_Deneuve"
+                    }, {
+                        "label": "Catherine I of Russia",
+                        "uri": "http://dbpedia.org/resource/Catherine_I_of_Russia"
+                    }, {
+                        "label": "Catherine de' Medici",
+                        "uri": "http://dbpedia.org/resource/Catherine_de'_Medici"
+                    }, {
+                        "label": "Catherine of Valois",
+                        "uri": "http://dbpedia.org/resource/Catherine_of_Valois"
+                    }, {
+                        "label": "Catherine the Great",
+                        "uri": "http://dbpedia.org/resource/Catherine_the_Great"
+                    }, {
+                        "label": "Charles Maurice de Talleyrand-Périgord",
+                        "uri": "http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord"
+                    }, {
+                        "label": "Charles Rennie Mackintosh",
+                        "uri": "http://dbpedia.org/resource/Charles_Rennie_Mackintosh"
+                    }, {
+                        "label": "Charles VII, Holy Roman Emperor",
+                        "uri": "http://dbpedia.org/resource/Charles_VII,_Holy_Roman_Emperor"
+                    }, {
+                        "label": "Charlton Heston",
+                        "uri": "http://dbpedia.org/resource/Charlton_Heston"
+                    }, {
+                        "label": "Chen Shui-bian",
+                        "uri": "http://dbpedia.org/resource/Chen_Shui-bian"
+                    }, {
+                        "label": "Childeric I",
+                        "uri": "http://dbpedia.org/resource/Childeric_I"
+                    }, {
+                        "label": "Christine McVie",
+                        "uri": "http://dbpedia.org/resource/Christine_McVie"
+                    }, {
+                        "label": "Christopher Lambert",
+                        "uri": "http://dbpedia.org/resource/Christopher_Lambert"
+                    }, {
+                        "label": "Clark Gable",
+                        "uri": "http://dbpedia.org/resource/Clark_Gable"
+                    }, {
+                        "label": "Clint Eastwood",
+                        "uri": "http://dbpedia.org/resource/Clint_Eastwood"
+                    }, {
+                        "label": "Cnut the Great",
+                        "uri": "http://dbpedia.org/resource/Cnut_the_Great"
+                    }, {
+                        "label": "Conrad III of Germany",
+                        "uri": "http://dbpedia.org/resource/Conrad_III_of_Germany"
+                    }, {
+                        "label": "Dan Aykroyd",
+                        "uri": "http://dbpedia.org/resource/Dan_Aykroyd"
+                    }, {
+                        "label": "Dannii Minogue",
+                        "uri": "http://dbpedia.org/resource/Dannii_Minogue"
+                    }, {
+                        "label": "Darth Vader",
+                        "uri": "http://dbpedia.org/resource/Darth_Vader"
+                    }, {
+                        "label": "David Boies",
+                        "uri": "http://dbpedia.org/resource/David_Boies"
+                    }, {
+                        "label": "David Eddings",
+                        "uri": "http://dbpedia.org/resource/David_Eddings"
+                    }, {
+                        "label": "David Lloyd George",
+                        "uri": "http://dbpedia.org/resource/David_Lloyd_George"
+                    }, {
+                        "label": "Denise Richards",
+                        "uri": "http://dbpedia.org/resource/Denise_Richards"
+                    }, {
+                        "label": "Don Siegel",
+                        "uri": "http://dbpedia.org/resource/Don_Siegel"
+                    }, {
+                        "label": "Dudley Moore",
+                        "uri": "http://dbpedia.org/resource/Dudley_Moore"
+                    }, {
+                        "label": "Dustin Hoffman",
+                        "uri": "http://dbpedia.org/resource/Dustin_Hoffman"
+                    }, {
+                        "label": "Eadwig",
+                        "uri": "http://dbpedia.org/resource/Eadwig"
+                    }, {
+                        "label": "Edmond Hamilton",
+                        "uri": "http://dbpedia.org/resource/Edmond_Hamilton"
+                    }, {
+                        "label": "Edward Witten",
+                        "uri": "http://dbpedia.org/resource/Edward_Witten"
+                    }, {
+                        "label": "Elia Kazan",
+                        "uri": "http://dbpedia.org/resource/Elia_Kazan"
+                    }, {
+                        "label": "Elizabeth Cady Stanton",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Cady_Stanton"
+                    }, {
+                        "label": "Elizabeth Gaskell",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Gaskell"
+                    }, {
+                        "label": "Elizabeth Taylor",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Taylor"
+                    }, {
+                        "label": "Elizabeth Woodville",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Woodville"
+                    }, {
+                        "label": "Ella Fitzgerald",
+                        "uri": "http://dbpedia.org/resource/Ella_Fitzgerald"
+                    }, {
+                        "label": "Emilio Lussu",
+                        "uri": "http://dbpedia.org/resource/Emilio_Lussu"
+                    }, {
+                        "label": "Emma of Normandy",
+                        "uri": "http://dbpedia.org/resource/Emma_of_Normandy"
+                    }, {
+                        "label": "Emmanuelle Seigner",
+                        "uri": "http://dbpedia.org/resource/Emmanuelle_Seigner"
+                    }, {
+                        "label": "Eric Idle",
+                        "uri": "http://dbpedia.org/resource/Eric_Idle"
+                    }, {
+                        "label": "Erich Honecker",
+                        "uri": "http://dbpedia.org/resource/Erich_Honecker"
+                    }, {
+                        "label": "Ernest Jones",
+                        "uri": "http://dbpedia.org/resource/Ernest_Jones"
+                    }, {
+                        "label": "Estrid of the Obotrites",
+                        "uri": "http://dbpedia.org/resource/Estrid_of_the_Obotrites"
+                    }, {
+                        "label": "Eunice Kennedy Shriver",
+                        "uri": "http://dbpedia.org/resource/Eunice_Kennedy_Shriver"
+                    }, {
+                        "label": "Eva Perón",
+                        "uri": "http://dbpedia.org/resource/Eva_Perón"
+                    }, {
+                        "label": "Farouk of Egypt",
+                        "uri": "http://dbpedia.org/resource/Farouk_of_Egypt"
+                    }, {
+                        "label": "Felix Dzerzhinsky",
+                        "uri": "http://dbpedia.org/resource/Felix_Dzerzhinsky"
+                    }, {
+                        "label": "Francis I of France",
+                        "uri": "http://dbpedia.org/resource/Francis_I_of_France"
+                    }, {
+                        "label": "Francis Walsingham",
+                        "uri": "http://dbpedia.org/resource/Francis_Walsingham"
+                    }, {
+                        "label": "Francisco Pizarro",
+                        "uri": "http://dbpedia.org/resource/Francisco_Pizarro"
+                    }, {
+                        "label": "Franz Joseph I of Austria",
+                        "uri": "http://dbpedia.org/resource/Franz_Joseph_I_of_Austria"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "PERSON",
+            "returnType": "PERSON",
+            "frameType": "APP",
+            "sentences": ["persons assassinated to $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/spouse> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Aaron Burr",
+                        "uri": "http://dbpedia.org/resource/Aaron_Burr"
+                    }, {
+                        "label": "Adrienne Rich",
+                        "uri": "http://dbpedia.org/resource/Adrienne_Rich"
+                    }, {
+                        "label": "Alan Rickman",
+                        "uri": "http://dbpedia.org/resource/Alan_Rickman"
+                    }, {
+                        "label": "Albert Finney",
+                        "uri": "http://dbpedia.org/resource/Albert_Finney"
+                    }, {
+                        "label": "Albrecht III Achilles, Elector of Brandenburg",
+                        "uri": "http://dbpedia.org/resource/Albrecht_III_Achilles,_Elector_of_Brandenburg"
+                    }, {
+                        "label": "Alexandru Ioan Cuza",
+                        "uri": "http://dbpedia.org/resource/Alexandru_Ioan_Cuza"
+                    }, {
+                        "label": "Alfred Bester",
+                        "uri": "http://dbpedia.org/resource/Alfred_Bester"
+                    }, {
+                        "label": "Alyson Hannigan",
+                        "uri": "http://dbpedia.org/resource/Alyson_Hannigan"
+                    }, {
+                        "label": "Andrew Lloyd Webber",
+                        "uri": "http://dbpedia.org/resource/Andrew_Lloyd_Webber"
+                    }, {
+                        "label": "Andrew Sarris",
+                        "uri": "http://dbpedia.org/resource/Andrew_Sarris"
+                    }, {
+                        "label": "Andrzej Wajda",
+                        "uri": "http://dbpedia.org/resource/Andrzej_Wajda"
+                    }, {
+                        "label": "Andrzej Żuławski",
+                        "uri": "http://dbpedia.org/resource/Andrzej_Żuławski"
+                    }, {
+                        "label": "André Breton",
+                        "uri": "http://dbpedia.org/resource/André_Breton"
+                    }, {
+                        "label": "André Malraux",
+                        "uri": "http://dbpedia.org/resource/André_Malraux"
+                    }, {
+                        "label": "Anna of Russia",
+                        "uri": "http://dbpedia.org/resource/Anna_of_Russia"
+                    }, {
+                        "label": "Anne, Queen of Great Britain",
+                        "uri": "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+                    }, {
+                        "label": "Anne Boleyn",
+                        "uri": "http://dbpedia.org/resource/Anne_Boleyn"
+                    }, {
+                        "label": "Anne Neville",
+                        "uri": "http://dbpedia.org/resource/Anne_Neville"
+                    }, {
+                        "label": "Anne of Cleves",
+                        "uri": "http://dbpedia.org/resource/Anne_of_Cleves"
+                    }, {
+                        "label": "Anne of Denmark",
+                        "uri": "http://dbpedia.org/resource/Anne_of_Denmark"
+                    }, {
+                        "label": "Anthony Burgess",
+                        "uri": "http://dbpedia.org/resource/Anthony_Burgess"
+                    }, {
+                        "label": "Antonio Banderas",
+                        "uri": "http://dbpedia.org/resource/Antonio_Banderas"
+                    }, {
+                        "label": "Anwar Sadat",
+                        "uri": "http://dbpedia.org/resource/Anwar_Sadat"
+                    }, {
+                        "label": "Arkan",
+                        "uri": "http://dbpedia.org/resource/Arkan"
+                    }, {
+                        "label": "Ashley Judd",
+                        "uri": "http://dbpedia.org/resource/Ashley_Judd"
+                    }, {
+                        "label": "August Strindberg",
+                        "uri": "http://dbpedia.org/resource/August_Strindberg"
+                    }, {
+                        "label": "Aurelian",
+                        "uri": "http://dbpedia.org/resource/Aurelian"
+                    }, {
+                        "label": "Austin Powers (character)",
+                        "uri": "http://dbpedia.org/resource/Austin_Powers_(character)"
+                    }, {
+                        "label": "Ava Gardner",
+                        "uri": "http://dbpedia.org/resource/Ava_Gardner"
+                    }, {
+                        "label": "Ben Chifley",
+                        "uri": "http://dbpedia.org/resource/Ben_Chifley"
+                    }, {
+                        "label": "Benjamin Netanyahu",
+                        "uri": "http://dbpedia.org/resource/Benjamin_Netanyahu"
+                    }, {
+                        "label": "Blake Edwards",
+                        "uri": "http://dbpedia.org/resource/Blake_Edwards"
+                    }, {
+                        "label": "Bob Dole",
+                        "uri": "http://dbpedia.org/resource/Bob_Dole"
+                    }, {
+                        "label": "Bolesław I the Brave",
+                        "uri": "http://dbpedia.org/resource/Bolesław_I_the_Brave"
+                    }, {
+                        "label": "Booker T. Washington",
+                        "uri": "http://dbpedia.org/resource/Booker_T._Washington"
+                    }, {
+                        "label": "Boris III of Bulgaria",
+                        "uri": "http://dbpedia.org/resource/Boris_III_of_Bulgaria"
+                    }, {
+                        "label": "Brad Pitt",
+                        "uri": "http://dbpedia.org/resource/Brad_Pitt"
+                    }, {
+                        "label": "Bruce Lee",
+                        "uri": "http://dbpedia.org/resource/Bruce_Lee"
+                    }, {
+                        "label": "Buster Keaton",
+                        "uri": "http://dbpedia.org/resource/Buster_Keaton"
+                    }, {
+                        "label": "Cameron Diaz",
+                        "uri": "http://dbpedia.org/resource/Cameron_Diaz"
+                    }, {
+                        "label": "Caracalla",
+                        "uri": "http://dbpedia.org/resource/Caracalla"
+                    }, {
+                        "label": "Carl Bildt",
+                        "uri": "http://dbpedia.org/resource/Carl_Bildt"
+                    }, {
+                        "label": "Carlos Menem",
+                        "uri": "http://dbpedia.org/resource/Carlos_Menem"
+                    }, {
+                        "label": "Carol II of Romania",
+                        "uri": "http://dbpedia.org/resource/Carol_II_of_Romania"
+                    }, {
+                        "label": "Carole Lombard",
+                        "uri": "http://dbpedia.org/resource/Carole_Lombard"
+                    }, {
+                        "label": "Caroline of Ansbach",
+                        "uri": "http://dbpedia.org/resource/Caroline_of_Ansbach"
+                    }, {
+                        "label": "Caroline of Brunswick",
+                        "uri": "http://dbpedia.org/resource/Caroline_of_Brunswick"
+                    }, {
+                        "label": "Carter Harrison Jr.",
+                        "uri": "http://dbpedia.org/resource/Carter_Harrison_Jr."
+                    }, {
+                        "label": "Casimir IV Jagiellon",
+                        "uri": "http://dbpedia.org/resource/Casimir_IV_Jagiellon"
+                    }, {
+                        "label": "Catherine Deneuve",
+                        "uri": "http://dbpedia.org/resource/Catherine_Deneuve"
+                    }, {
+                        "label": "Catherine I of Russia",
+                        "uri": "http://dbpedia.org/resource/Catherine_I_of_Russia"
+                    }, {
+                        "label": "Catherine de' Medici",
+                        "uri": "http://dbpedia.org/resource/Catherine_de'_Medici"
+                    }, {
+                        "label": "Catherine of Valois",
+                        "uri": "http://dbpedia.org/resource/Catherine_of_Valois"
+                    }, {
+                        "label": "Catherine the Great",
+                        "uri": "http://dbpedia.org/resource/Catherine_the_Great"
+                    }, {
+                        "label": "Charles Maurice de Talleyrand-Périgord",
+                        "uri": "http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord"
+                    }, {
+                        "label": "Charles Rennie Mackintosh",
+                        "uri": "http://dbpedia.org/resource/Charles_Rennie_Mackintosh"
+                    }, {
+                        "label": "Charles VII, Holy Roman Emperor",
+                        "uri": "http://dbpedia.org/resource/Charles_VII,_Holy_Roman_Emperor"
+                    }, {
+                        "label": "Charlton Heston",
+                        "uri": "http://dbpedia.org/resource/Charlton_Heston"
+                    }, {
+                        "label": "Chen Shui-bian",
+                        "uri": "http://dbpedia.org/resource/Chen_Shui-bian"
+                    }, {
+                        "label": "Childeric I",
+                        "uri": "http://dbpedia.org/resource/Childeric_I"
+                    }, {
+                        "label": "Christine McVie",
+                        "uri": "http://dbpedia.org/resource/Christine_McVie"
+                    }, {
+                        "label": "Christopher Lambert",
+                        "uri": "http://dbpedia.org/resource/Christopher_Lambert"
+                    }, {
+                        "label": "Clark Gable",
+                        "uri": "http://dbpedia.org/resource/Clark_Gable"
+                    }, {
+                        "label": "Clint Eastwood",
+                        "uri": "http://dbpedia.org/resource/Clint_Eastwood"
+                    }, {
+                        "label": "Cnut the Great",
+                        "uri": "http://dbpedia.org/resource/Cnut_the_Great"
+                    }, {
+                        "label": "Conrad III of Germany",
+                        "uri": "http://dbpedia.org/resource/Conrad_III_of_Germany"
+                    }, {
+                        "label": "Dan Aykroyd",
+                        "uri": "http://dbpedia.org/resource/Dan_Aykroyd"
+                    }, {
+                        "label": "Dannii Minogue",
+                        "uri": "http://dbpedia.org/resource/Dannii_Minogue"
+                    }, {
+                        "label": "Darth Vader",
+                        "uri": "http://dbpedia.org/resource/Darth_Vader"
+                    }, {
+                        "label": "David Boies",
+                        "uri": "http://dbpedia.org/resource/David_Boies"
+                    }, {
+                        "label": "David Eddings",
+                        "uri": "http://dbpedia.org/resource/David_Eddings"
+                    }, {
+                        "label": "David Lloyd George",
+                        "uri": "http://dbpedia.org/resource/David_Lloyd_George"
+                    }, {
+                        "label": "Denise Richards",
+                        "uri": "http://dbpedia.org/resource/Denise_Richards"
+                    }, {
+                        "label": "Don Siegel",
+                        "uri": "http://dbpedia.org/resource/Don_Siegel"
+                    }, {
+                        "label": "Dudley Moore",
+                        "uri": "http://dbpedia.org/resource/Dudley_Moore"
+                    }, {
+                        "label": "Dustin Hoffman",
+                        "uri": "http://dbpedia.org/resource/Dustin_Hoffman"
+                    }, {
+                        "label": "Eadwig",
+                        "uri": "http://dbpedia.org/resource/Eadwig"
+                    }, {
+                        "label": "Edmond Hamilton",
+                        "uri": "http://dbpedia.org/resource/Edmond_Hamilton"
+                    }, {
+                        "label": "Edward Witten",
+                        "uri": "http://dbpedia.org/resource/Edward_Witten"
+                    }, {
+                        "label": "Elia Kazan",
+                        "uri": "http://dbpedia.org/resource/Elia_Kazan"
+                    }, {
+                        "label": "Elizabeth Cady Stanton",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Cady_Stanton"
+                    }, {
+                        "label": "Elizabeth Gaskell",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Gaskell"
+                    }, {
+                        "label": "Elizabeth Taylor",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Taylor"
+                    }, {
+                        "label": "Elizabeth Woodville",
+                        "uri": "http://dbpedia.org/resource/Elizabeth_Woodville"
+                    }, {
+                        "label": "Ella Fitzgerald",
+                        "uri": "http://dbpedia.org/resource/Ella_Fitzgerald"
+                    }, {
+                        "label": "Emilio Lussu",
+                        "uri": "http://dbpedia.org/resource/Emilio_Lussu"
+                    }, {
+                        "label": "Emma of Normandy",
+                        "uri": "http://dbpedia.org/resource/Emma_of_Normandy"
+                    }, {
+                        "label": "Emmanuelle Seigner",
+                        "uri": "http://dbpedia.org/resource/Emmanuelle_Seigner"
+                    }, {
+                        "label": "Eric Idle",
+                        "uri": "http://dbpedia.org/resource/Eric_Idle"
+                    }, {
+                        "label": "Erich Honecker",
+                        "uri": "http://dbpedia.org/resource/Erich_Honecker"
+                    }, {
+                        "label": "Ernest Jones",
+                        "uri": "http://dbpedia.org/resource/Ernest_Jones"
+                    }, {
+                        "label": "Estrid of the Obotrites",
+                        "uri": "http://dbpedia.org/resource/Estrid_of_the_Obotrites"
+                    }, {
+                        "label": "Eunice Kennedy Shriver",
+                        "uri": "http://dbpedia.org/resource/Eunice_Kennedy_Shriver"
+                    }, {
+                        "label": "Eva Perón",
+                        "uri": "http://dbpedia.org/resource/Eva_Perón"
+                    }, {
+                        "label": "Farouk of Egypt",
+                        "uri": "http://dbpedia.org/resource/Farouk_of_Egypt"
+                    }, {
+                        "label": "Felix Dzerzhinsky",
+                        "uri": "http://dbpedia.org/resource/Felix_Dzerzhinsky"
+                    }, {
+                        "label": "Francis I of France",
+                        "uri": "http://dbpedia.org/resource/Francis_I_of_France"
+                    }, {
+                        "label": "Francis Walsingham",
+                        "uri": "http://dbpedia.org/resource/Francis_Walsingham"
+                    }, {
+                        "label": "Francisco Pizarro",
+                        "uri": "http://dbpedia.org/resource/Francisco_Pizarro"
+                    }, {
+                        "label": "Franz Joseph I of Austria",
+                        "uri": "http://dbpedia.org/resource/Franz_Joseph_I_of_Austria"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "4",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Whitehaven, Memphis, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+                    }, {
+                        "label": "Lake Zabuye",
+                        "uri": "http://dbpedia.org/resource/Lake_Zabuye"
+                    }, {
+                        "label": "Mid-Atlantic states",
+                        "uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+                    }, {
+                        "label": "New England",
+                        "uri": "http://dbpedia.org/resource/New_England"
+                    }, {
+                        "label": "Kuta Raja",
+                        "uri": "http://dbpedia.org/resource/Kuta_Raja"
+                    }, {
+                        "label": "San Biagio Maggiore",
+                        "uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+                    }, {
+                        "label": "Namcha Barwa Himal",
+                        "uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+                    }, {
+                        "label": "San Nicola a Nilo",
+                        "uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+                    }, {
+                        "label": "Adra, Syria",
+                        "uri": "http://dbpedia.org/resource/Adra,_Syria"
+                    }, {
+                        "label": "Al-Mazraa",
+                        "uri": "http://dbpedia.org/resource/Al-Mazraa"
+                    }, {
+                        "label": "Al-Rastan",
+                        "uri": "http://dbpedia.org/resource/Al-Rastan"
+                    }, {
+                        "label": "Al-Hawash, Homs Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+                    }, {
+                        "label": "Ayn al-Bardah",
+                        "uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+                    }, {
+                        "label": "Khabab",
+                        "uri": "http://dbpedia.org/resource/Khabab"
+                    }, {
+                        "label": "Al-Kafr",
+                        "uri": "http://dbpedia.org/resource/Al-Kafr"
+                    }, {
+                        "label": "Deir Mama",
+                        "uri": "http://dbpedia.org/resource/Deir_Mama"
+                    }, {
+                        "label": "Madaya, Syria",
+                        "uri": "http://dbpedia.org/resource/Madaya,_Syria"
+                    }, {
+                        "label": "Tayru",
+                        "uri": "http://dbpedia.org/resource/Tayru"
+                    }, {
+                        "label": "Al-Khalidiyah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+                    }, {
+                        "label": "Al-Khalidiyah, al-Hasakah Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+                    }, {
+                        "label": "Basatin al-Assad",
+                        "uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+                    }, {
+                        "label": "Hala, Syria",
+                        "uri": "http://dbpedia.org/resource/Hala,_Syria"
+                    }, {
+                        "label": "Harran, Idlib",
+                        "uri": "http://dbpedia.org/resource/Harran,_Idlib"
+                    }, {
+                        "label": "Harran, as-Suwayda",
+                        "uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+                    }, {
+                        "label": "Harran al-Awamid",
+                        "uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+                    }, {
+                        "label": "Wadi al-Nasara",
+                        "uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+                    }, {
+                        "label": "Abu Khanadiq",
+                        "uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+                    }, {
+                        "label": "Abu Kleefun",
+                        "uri": "http://dbpedia.org/resource/Abu_Kleefun"
+                    }, {
+                        "label": "Abul Fashafish",
+                        "uri": "http://dbpedia.org/resource/Abul_Fashafish"
+                    }, {
+                        "label": "Al-'Amrah",
+                        "uri": "http://dbpedia.org/resource/Al-'Amrah"
+                    }, {
+                        "label": "Al-Atnah",
+                        "uri": "http://dbpedia.org/resource/Al-Atnah"
+                    }, {
+                        "label": "Al-Fayadiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+                    }, {
+                        "label": "Al-Humayra",
+                        "uri": "http://dbpedia.org/resource/Al-Humayra"
+                    }, {
+                        "label": "Al-Jarajir",
+                        "uri": "http://dbpedia.org/resource/Al-Jarajir"
+                    }, {
+                        "label": "Al-Khandaq al-Sharqiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+                    }, {
+                        "label": "Al-Muhajirin, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Narjis",
+                        "uri": "http://dbpedia.org/resource/Al-Narjis"
+                    }, {
+                        "label": "Al-Nazaza",
+                        "uri": "http://dbpedia.org/resource/Al-Nazaza"
+                    }, {
+                        "label": "Al-Nour, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+                    }, {
+                        "label": "Al-Ramlah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+                    }, {
+                        "label": "Al-Salihiyah, Hama",
+                        "uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+                    }, {
+                        "label": "Al-Sindiyana, Suqaylabiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+                    }, {
+                        "label": "Al-Swaia",
+                        "uri": "http://dbpedia.org/resource/Al-Swaia"
+                    }, {
+                        "label": "Al-Thawrah, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Tulaysiyah al-Janubiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+                    }, {
+                        "label": "Al-Zitiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Zitiyah"
+                    }, {
+                        "label": "Ammurin",
+                        "uri": "http://dbpedia.org/resource/Ammurin"
+                    }, {
+                        "label": "Ayn Dara",
+                        "uri": "http://dbpedia.org/resource/Ayn_Dara"
+                    }, {
+                        "label": "Balluneh",
+                        "uri": "http://dbpedia.org/resource/Balluneh"
+                    }, {
+                        "label": "Beij",
+                        "uri": "http://dbpedia.org/resource/Beij"
+                    }, {
+                        "label": "Bgheidid",
+                        "uri": "http://dbpedia.org/resource/Bgheidid"
+                    }, {
+                        "label": "Bustan Sbeih",
+                        "uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+                    }, {
+                        "label": "Deir Sunbul",
+                        "uri": "http://dbpedia.org/resource/Deir_Sunbul"
+                    }, {
+                        "label": "Ein Elhamam",
+                        "uri": "http://dbpedia.org/resource/Ein_Elhamam"
+                    }, {
+                        "label": "Ein Warideh",
+                        "uri": "http://dbpedia.org/resource/Ein_Warideh"
+                    }, {
+                        "label": "Elrihana",
+                        "uri": "http://dbpedia.org/resource/Elrihana"
+                    }, {
+                        "label": "Fawrah",
+                        "uri": "http://dbpedia.org/resource/Fawrah"
+                    }, {
+                        "label": "Hamrit",
+                        "uri": "http://dbpedia.org/resource/Hamrit"
+                    }, {
+                        "label": "Hanuteh",
+                        "uri": "http://dbpedia.org/resource/Hanuteh"
+                    }, {
+                        "label": "Hdaj",
+                        "uri": "http://dbpedia.org/resource/Hdaj"
+                    }, {
+                        "label": "Jakuziyeh",
+                        "uri": "http://dbpedia.org/resource/Jakuziyeh"
+                    }, {
+                        "label": "Jamala, Hama",
+                        "uri": "http://dbpedia.org/resource/Jamala,_Hama"
+                    }, {
+                        "label": "Jeb Dkileh",
+                        "uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+                    }, {
+                        "label": "Jeb Zreiq",
+                        "uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+                    }, {
+                        "label": "Jessine",
+                        "uri": "http://dbpedia.org/resource/Jessine"
+                    }, {
+                        "label": "Karama, Hama",
+                        "uri": "http://dbpedia.org/resource/Karama,_Hama"
+                    }, {
+                        "label": "Kasun Eljabal",
+                        "uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+                    }, {
+                        "label": "Kawri",
+                        "uri": "http://dbpedia.org/resource/Kawri"
+                    }, {
+                        "label": "Khala, Hama",
+                        "uri": "http://dbpedia.org/resource/Khala,_Hama"
+                    }, {
+                        "label": "Khansaa - Shetheh",
+                        "uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+                    }, {
+                        "label": "Maar Shamali",
+                        "uri": "http://dbpedia.org/resource/Maar_Shamali"
+                    }, {
+                        "label": "Makhbuta",
+                        "uri": "http://dbpedia.org/resource/Makhbuta"
+                    }, {
+                        "label": "Maksar, Hama",
+                        "uri": "http://dbpedia.org/resource/Maksar,_Hama"
+                    }, {
+                        "label": "Marana, Hama",
+                        "uri": "http://dbpedia.org/resource/Marana,_Hama"
+                    }, {
+                        "label": "Mashta Elshalahmeh",
+                        "uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+                    }, {
+                        "label": "Mastarihat Afamiyah",
+                        "uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+                    }, {
+                        "label": "Mrikb",
+                        "uri": "http://dbpedia.org/resource/Mrikb"
+                    }, {
+                        "label": "Mweileh",
+                        "uri": "http://dbpedia.org/resource/Mweileh"
+                    }, {
+                        "label": "Nabe Eltib",
+                        "uri": "http://dbpedia.org/resource/Nabe_Eltib"
+                    }, {
+                        "label": "Ojet - Kabasin Elarab",
+                        "uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+                    }, {
+                        "label": "Ojt Eltoba",
+                        "uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+                    }, {
+                        "label": "Qal'at al-Jaras",
+                        "uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+                    }, {
+                        "label": "Qanater, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+                    }, {
+                        "label": "Qastal al-Burj",
+                        "uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+                    }, {
+                        "label": "Ras al-Maara",
+                        "uri": "http://dbpedia.org/resource/Ras_al-Maara"
+                    }, {
+                        "label": "Rasm Al-Brdkana",
+                        "uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+                    }, {
+                        "label": "Rasm Amun",
+                        "uri": "http://dbpedia.org/resource/Rasm_Amun"
+                    }, {
+                        "label": "Rasm Anz",
+                        "uri": "http://dbpedia.org/resource/Rasm_Anz"
+                    }, {
+                        "label": "Rasm Elahmar",
+                        "uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+                    }, {
+                        "label": "Rudat al-Tar",
+                        "uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+                    }, {
+                        "label": "Rweideh",
+                        "uri": "http://dbpedia.org/resource/Rweideh"
+                    }, {
+                        "label": "Saidiyeh, Hama",
+                        "uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+                    }, {
+                        "label": "Saqiyet Nijm",
+                        "uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+                    }, {
+                        "label": "Shahta",
+                        "uri": "http://dbpedia.org/resource/Shahta"
+                    }, {
+                        "label": "Shatheh",
+                        "uri": "http://dbpedia.org/resource/Shatheh"
+                    }, {
+                        "label": "Shaykh Ali",
+                        "uri": "http://dbpedia.org/resource/Shaykh_Ali"
+                    }, {
+                        "label": "Suwak al-Shamali",
+                        "uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+                    }, {
+                        "label": "Tabara Elhamra",
+                        "uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+                    }, {
+                        "label": "Tahunet Elhalawa",
+                        "uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+                    }, {
+                        "label": "Tell al-Shih",
+                        "uri": "http://dbpedia.org/resource/Tell_al-Shih"
+                    }]
+            },
+            "combination": false
+        }]
+}

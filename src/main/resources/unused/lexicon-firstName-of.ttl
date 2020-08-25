@@ -1,0 +1,43 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base            <http://localhost:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :firstName_of ;
+  lemon:entry    :of .
+
+:firstName_of a       lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:noun ;
+  lemon:canonicalForm  :firstName_form ;
+  lemon:synBehavior    :firstName_of_nounpp ;
+  lemon:sense          :firstName_sense_ontomap .
+
+:firstName_form a lemon:Form ;
+  lemon:writtenRep "first name"@en .
+
+:firstName_of_nounpp a        lexinfo:NounPPFrame ;
+  lexinfo:copulativeArg        :arg1 ;
+  lexinfo:prepositionalAdjunct :arg2 .
+
+:firstName_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping         :firstName_sense_ontomap ;
+  lemon:reference           <http://dbpedia.org/ontology/Name> ;
+  lemon:subjOfProp          :arg2 ;
+  lemon:objOfProp           :arg1 ;
+  lemon:condition           :firstName_condition .
+
+:firstName_condition a lemon:condition ;
+  lemon:propertyDomain  <http://dbpedia.org/ontology/musicalBand> ;
+  lemon:propertyRange   <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+
+:arg2 lemon:marker :of .
+
+## Prepositions ##
+
+:of a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "of"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
