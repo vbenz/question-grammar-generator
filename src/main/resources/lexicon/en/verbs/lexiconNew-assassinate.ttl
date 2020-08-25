@@ -33,13 +33,13 @@
 
 :assassinate_ontomap a    lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping :assassinate_ontomap ;
-  lemon:reference   <http://dbpedia.org/ontology/spouse> ;
+  lemon:reference   <http://dbpedia.org/resource/Category:American_assassins> ;
   lemon:subjOfProp  :assassinate_subj ;
   lemon:objOfProp   :assassinate_obj ;
   lemon:condition   :assassinate_condition .
 
 :assassinate_condition a     lemon:condition ;
-  lemon:propertyDomain <http://dbpedia.org/ontology/Person> ;
+  lemon:propertyDomain <http://dbpedia.org/ontology/President> ;
   lemon:propertyRange  <http://dbpedia.org/ontology/Person> .
 
 # see https://lemon-model.net/lemon-cookbook/node17.html
@@ -65,7 +65,7 @@
 
 :assassinated_ontomap a  lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping :assassinated_ontomap ;
-  lemon:reference   <http://dbpedia.org/ontology/spouse> ;
+  lemon:reference   <http://dbpedia.org/resource/Category:American_assassins> ;
   lemon:subjOfProp  :assassinated_obj ;
   lemon:objOfProp   :assassinated_subj ;
   lemon:condition   :assassinate_condition .

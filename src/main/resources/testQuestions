@@ -71,5 +71,14 @@ Who questions!!!!!!!!!!!!
 "sparql": "PREFIX dbr: <http://dbpedia.org/resource/> PREFIX dbo: <http://dbpedia.org/ontology/> select ?uri where { dbr:Pluto dbo:discoverer ?uri }"
 
 
+"string": "Who killed Caesar?",
+"sparql": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> select distinct ?uri where { ?uri dct:subject dbc:Assassins_of_Julius_Caesar. }"
+
+
 "string": "Who assassinated President McKinley?",
 "sparql": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX dbo: <http://dbpedia.org/ontology/>  PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> select distinct ?uri where { ?uri rdf:type dbo:Person . ?uri dct:subject dbc:American_assassins . ?uri dct:subject dbc:Assassination_of_William_McKinley . }"
+
+
+http://dbpedia.org/resource/Category:American_assassins
+
+http://purl.org/dc/terms/

@@ -3,12 +3,12 @@
             "id": "1",
             "language": "EN",
             "type": "SENTENCE",
-            "bindingType": "PERSON",
-            "returnType": "PERSON",
+            "bindingType": "RIVER",
+            "returnType": "BRIDGE",
             "frameType": "VP",
-            "sentences": ["Which person assassinated ($x | PERSON_NP)?", "Who assassinated ($x | PERSON_NP)?"],
+            "sentences": ["What crossed ($x | RIVER_NP)?", "What crosses ($x | RIVER_NP)?", "Which bridge crossed ($x | RIVER_NP)?", "Which bridge crosses ($x | RIVER_NP)?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/spouse> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/crosses> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "objOfProp"
             },
@@ -16,305 +16,305 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Andrzej Wajda",
-                        "uri": "http://dbpedia.org/resource/Andrzej_Wajda"
+                        "label": "Amtrak",
+                        "uri": "http://dbpedia.org/resource/Amtrak"
                     }, {
-                        "label": "Billung",
-                        "uri": "http://dbpedia.org/resource/Billung"
+                        "label": "Seine",
+                        "uri": "http://dbpedia.org/resource/Seine"
                     }, {
-                        "label": "Brad Pitt",
-                        "uri": "http://dbpedia.org/resource/Brad_Pitt"
+                        "label": "Bago River",
+                        "uri": "http://dbpedia.org/resource/Bago_River"
                     }, {
-                        "label": "Carole Lombard",
-                        "uri": "http://dbpedia.org/resource/Carole_Lombard"
+                        "label": "Dadu River (Sichuan)",
+                        "uri": "http://dbpedia.org/resource/Dadu_River_(Sichuan)"
                     }, {
-                        "label": "Caroline of Brunswick",
-                        "uri": "http://dbpedia.org/resource/Caroline_of_Brunswick"
+                        "label": "Kharkiv River",
+                        "uri": "http://dbpedia.org/resource/Kharkiv_River"
                     }, {
-                        "label": "Catherine I of Russia",
-                        "uri": "http://dbpedia.org/resource/Catherine_I_of_Russia"
+                        "label": "Syria",
+                        "uri": "http://dbpedia.org/resource/Syria"
                     }, {
-                        "label": "Clark Gable",
-                        "uri": "http://dbpedia.org/resource/Clark_Gable"
+                        "label": "Tana River (Norway)",
+                        "uri": "http://dbpedia.org/resource/Tana_River_(Norway)"
                     }, {
-                        "label": "Cnut the Great",
-                        "uri": "http://dbpedia.org/resource/Cnut_the_Great"
+                        "label": "Row River",
+                        "uri": "http://dbpedia.org/resource/Row_River"
                     }, {
-                        "label": "Edmond Hamilton",
-                        "uri": "http://dbpedia.org/resource/Edmond_Hamilton"
+                        "label": "Eastern Branch Elizabeth River",
+                        "uri": "http://dbpedia.org/resource/Eastern_Branch_Elizabeth_River"
                     }, {
-                        "label": "Elizabeth Taylor",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Taylor"
+                        "label": "Fyksesund",
+                        "uri": "http://dbpedia.org/resource/Fyksesund"
                     }, {
-                        "label": "Elizabeth Woodville",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Woodville"
+                        "label": "Ligovo railway station",
+                        "uri": "http://dbpedia.org/resource/Ligovo_railway_station"
                     }, {
-                        "label": "Emma of Normandy",
-                        "uri": "http://dbpedia.org/resource/Emma_of_Normandy"
+                        "label": "Waiwhakaiho River",
+                        "uri": "http://dbpedia.org/resource/Waiwhakaiho_River"
                     }, {
-                        "label": "George IV of the United Kingdom",
-                        "uri": "http://dbpedia.org/resource/George_IV_of_the_United_Kingdom"
+                        "label": "Lake Sidney Lanier",
+                        "uri": "http://dbpedia.org/resource/Lake_Sidney_Lanier"
                     }, {
-                        "label": "Gwyneth Paltrow",
-                        "uri": "http://dbpedia.org/resource/Gwyneth_Paltrow"
+                        "label": "Charlotte Running Track",
+                        "uri": "http://dbpedia.org/resource/Charlotte_Running_Track"
                     }, {
-                        "label": "Hector Berlioz",
-                        "uri": "http://dbpedia.org/resource/Hector_Berlioz"
+                        "label": "River Dee (Wales)",
+                        "uri": "http://dbpedia.org/resource/River_Dee_(Wales)"
                     }, {
-                        "label": "Ingrid Bergman",
-                        "uri": "http://dbpedia.org/resource/Ingrid_Bergman"
+                        "label": "Singasandra",
+                        "uri": "http://dbpedia.org/resource/Singasandra"
                     }, {
-                        "label": "Jennifer Aniston",
-                        "uri": "http://dbpedia.org/resource/Jennifer_Aniston"
+                        "label": "Israel-Gaza Strip barrier",
+                        "uri": "http://dbpedia.org/resource/Israel-Gaza_Strip_barrier"
                     }, {
-                        "label": "Laurence Olivier",
-                        "uri": "http://dbpedia.org/resource/Laurence_Olivier"
+                        "label": "Knarreviksundet",
+                        "uri": "http://dbpedia.org/resource/Knarreviksundet"
                     }, {
-                        "label": "Leigh Brackett",
-                        "uri": "http://dbpedia.org/resource/Leigh_Brackett"
+                        "label": "Cockle Bay (Sydney)",
+                        "uri": "http://dbpedia.org/resource/Cockle_Bay_(Sydney)"
                     }, {
-                        "label": "Louis XVI of France",
-                        "uri": "http://dbpedia.org/resource/Louis_XVI_of_France"
+                        "label": "Mells River",
+                        "uri": "http://dbpedia.org/resource/Mells_River"
                     }, {
-                        "label": "Marie Antoinette",
-                        "uri": "http://dbpedia.org/resource/Marie_Antoinette"
+                        "label": "Oder",
+                        "uri": "http://dbpedia.org/resource/Oder"
                     }, {
-                        "label": "Meg Ryan",
-                        "uri": "http://dbpedia.org/resource/Meg_Ryan"
+                        "label": "River Avill",
+                        "uri": "http://dbpedia.org/resource/River_Avill"
                     }, {
-                        "label": "Otto II, Holy Roman Emperor",
-                        "uri": "http://dbpedia.org/resource/Otto_II,_Holy_Roman_Emperor"
+                        "label": "Minnesota State Highway 55",
+                        "uri": "http://dbpedia.org/resource/Minnesota_State_Highway_55"
                     }, {
-                        "label": "Peter the Great",
-                        "uri": "http://dbpedia.org/resource/Peter_the_Great"
+                        "label": "Mekong River",
+                        "uri": "http://dbpedia.org/resource/Mekong_River"
                     }, {
-                        "label": "Richard Burton",
-                        "uri": "http://dbpedia.org/resource/Richard_Burton"
+                        "label": "Black River (Ohio)",
+                        "uri": "http://dbpedia.org/resource/Black_River_(Ohio)"
                     }, {
-                        "label": "Roberto Rossellini",
-                        "uri": "http://dbpedia.org/resource/Roberto_Rossellini"
+                        "label": "Blue Line (Lebanon)",
+                        "uri": "http://dbpedia.org/resource/Blue_Line_(Lebanon)"
                     }, {
-                        "label": "Salman Rushdie",
-                        "uri": "http://dbpedia.org/resource/Salman_Rushdie"
+                        "label": "Lake Oroville",
+                        "uri": "http://dbpedia.org/resource/Lake_Oroville"
                     }, {
-                        "label": "Sophie Marceau",
-                        "uri": "http://dbpedia.org/resource/Sophie_Marceau"
+                        "label": "Litani River",
+                        "uri": "http://dbpedia.org/resource/Litani_River"
                     }, {
-                        "label": "Sylvia Plath",
-                        "uri": "http://dbpedia.org/resource/Sylvia_Plath"
+                        "label": "Niantic River",
+                        "uri": "http://dbpedia.org/resource/Niantic_River"
                     }, {
-                        "label": "Ted Hughes",
-                        "uri": "http://dbpedia.org/resource/Ted_Hughes"
+                        "label": "Pitt River",
+                        "uri": "http://dbpedia.org/resource/Pitt_River"
                     }, {
-                        "label": "Val Kilmer",
-                        "uri": "http://dbpedia.org/resource/Val_Kilmer"
+                        "label": "Railroad",
+                        "uri": "http://dbpedia.org/resource/Railroad"
                     }, {
-                        "label": "Chris Martin",
-                        "uri": "http://dbpedia.org/resource/Chris_Martin"
+                        "label": "Schuylkill Expressway",
+                        "uri": "http://dbpedia.org/resource/Schuylkill_Expressway"
                     }, {
-                        "label": "Céline Bara",
-                        "uri": "http://dbpedia.org/resource/Céline_Bara"
+                        "label": "Schuylkill River Trail",
+                        "uri": "http://dbpedia.org/resource/Schuylkill_River_Trail"
                     }, {
-                        "label": "Gabrielle Renaudot Flammarion",
-                        "uri": "http://dbpedia.org/resource/Gabrielle_Renaudot_Flammarion"
+                        "label": "Smith River (Virginia)",
+                        "uri": "http://dbpedia.org/resource/Smith_River_(Virginia)"
                     }, {
-                        "label": "Harrison Grey Fiske",
-                        "uri": "http://dbpedia.org/resource/Harrison_Grey_Fiske"
+                        "label": "The Lakes, Copenhagen",
+                        "uri": "http://dbpedia.org/resource/The_Lakes,_Copenhagen"
                     }, {
-                        "label": "Joanne Whalley",
-                        "uri": "http://dbpedia.org/resource/Joanne_Whalley"
+                        "label": "Upper Mississippi River",
+                        "uri": "http://dbpedia.org/resource/Upper_Mississippi_River"
                     }, {
-                        "label": "John Grey of Groby",
-                        "uri": "http://dbpedia.org/resource/John_Grey_of_Groby"
+                        "label": "Winooski River",
+                        "uri": "http://dbpedia.org/resource/Winooski_River"
                     }, {
-                        "label": "Padma Lakshmi",
-                        "uri": "http://dbpedia.org/resource/Padma_Lakshmi"
+                        "label": "Yuba River",
+                        "uri": "http://dbpedia.org/resource/Yuba_River"
                     }, {
-                        "label": "Savitri (actress)",
-                        "uri": "http://dbpedia.org/resource/Savitri_(actress)"
+                        "label": "Allan Water",
+                        "uri": "http://dbpedia.org/resource/Allan_Water"
                     }, {
-                        "label": "Talisa Soto",
-                        "uri": "http://dbpedia.org/resource/Talisa_Soto"
+                        "label": "Ashley River (South Carolina)",
+                        "uri": "http://dbpedia.org/resource/Ashley_River_(South_Carolina)"
                     }, {
-                        "label": "Aaron Spelling",
-                        "uri": "http://dbpedia.org/resource/Aaron_Spelling"
+                        "label": "Bacchiglione",
+                        "uri": "http://dbpedia.org/resource/Bacchiglione"
                     }, {
-                        "label": "Adam Hochschild",
-                        "uri": "http://dbpedia.org/resource/Adam_Hochschild"
+                        "label": "Beauly Firth",
+                        "uri": "http://dbpedia.org/resource/Beauly_Firth"
                     }, {
-                        "label": "Alastair Dunnett",
-                        "uri": "http://dbpedia.org/resource/Alastair_Dunnett"
+                        "label": "Berbice River",
+                        "uri": "http://dbpedia.org/resource/Berbice_River"
                     }, {
-                        "label": "Aliza Olmert",
-                        "uri": "http://dbpedia.org/resource/Aliza_Olmert"
+                        "label": "Brunei Bay",
+                        "uri": "http://dbpedia.org/resource/Brunei_Bay"
                     }, {
-                        "label": "Arlie Russell Hochschild",
-                        "uri": "http://dbpedia.org/resource/Arlie_Russell_Hochschild"
+                        "label": "Conestoga River",
+                        "uri": "http://dbpedia.org/resource/Conestoga_River"
                     }, {
-                        "label": "Aruna Roy",
-                        "uri": "http://dbpedia.org/resource/Aruna_Roy"
+                        "label": "Delaware and Hudson Canal",
+                        "uri": "http://dbpedia.org/resource/Delaware_and_Hudson_Canal"
                     }, {
-                        "label": "Barbara Simons",
-                        "uri": "http://dbpedia.org/resource/Barbara_Simons"
+                        "label": "Dollis Brook",
+                        "uri": "http://dbpedia.org/resource/Dollis_Brook"
                     }, {
-                        "label": "Beata Tyszkiewicz",
-                        "uri": "http://dbpedia.org/resource/Beata_Tyszkiewicz"
+                        "label": "Kallang River",
+                        "uri": "http://dbpedia.org/resource/Kallang_River"
                     }, {
-                        "label": "Benjamin Bratt",
-                        "uri": "http://dbpedia.org/resource/Benjamin_Bratt"
+                        "label": "Kangaroo River (Shoalhaven)",
+                        "uri": "http://dbpedia.org/resource/Kangaroo_River_(Shoalhaven)"
                     }, {
-                        "label": "Bermudo II of León",
-                        "uri": "http://dbpedia.org/resource/Bermudo_II_of_León"
+                        "label": "Laguna de Términos",
+                        "uri": "http://dbpedia.org/resource/Laguna_de_Términos"
                     }, {
-                        "label": "Candy Spelling",
-                        "uri": "http://dbpedia.org/resource/Candy_Spelling"
+                        "label": "Loch Etive",
+                        "uri": "http://dbpedia.org/resource/Loch_Etive"
                     }, {
-                        "label": "Cyrille Bara",
-                        "uri": "http://dbpedia.org/resource/Cyrille_Bara"
+                        "label": "Milwaukee River",
+                        "uri": "http://dbpedia.org/resource/Milwaukee_River"
                     }, {
-                        "label": "Dorothy Dunnett",
-                        "uri": "http://dbpedia.org/resource/Dorothy_Dunnett"
+                        "label": "Onyar",
+                        "uri": "http://dbpedia.org/resource/Onyar"
                     }, {
-                        "label": "Eleanor Silliman Belknap Humphrey",
-                        "uri": "http://dbpedia.org/resource/Eleanor_Silliman_Belknap_Humphrey"
+                        "label": "Padma River",
+                        "uri": "http://dbpedia.org/resource/Padma_River"
                     }, {
-                        "label": "Elvira of Castile, Queen of León",
-                        "uri": "http://dbpedia.org/resource/Elvira_of_Castile,_Queen_of_León"
+                        "label": "Pahang River",
+                        "uri": "http://dbpedia.org/resource/Pahang_River"
                     }, {
-                        "label": "Flora Fraser, 21st Lady Saltoun",
-                        "uri": "http://dbpedia.org/resource/Flora_Fraser,_21st_Lady_Saltoun"
+                        "label": "Paluxy River",
+                        "uri": "http://dbpedia.org/resource/Paluxy_River"
                     }, {
-                        "label": "Florence Dugdale",
-                        "uri": "http://dbpedia.org/resource/Florence_Dugdale"
+                        "label": "Panj River",
+                        "uri": "http://dbpedia.org/resource/Panj_River"
                     }, {
-                        "label": "Gemini Ganesan",
-                        "uri": "http://dbpedia.org/resource/Gemini_Ganesan"
+                        "label": "Pemigewasset River",
+                        "uri": "http://dbpedia.org/resource/Pemigewasset_River"
                     }, {
-                        "label": "James Harris Simons",
-                        "uri": "http://dbpedia.org/resource/James_Harris_Simons"
+                        "label": "Rajang River",
+                        "uri": "http://dbpedia.org/resource/Rajang_River"
                     }, {
-                        "label": "Lewis Craig Humphrey",
-                        "uri": "http://dbpedia.org/resource/Lewis_Craig_Humphrey"
+                        "label": "River Ayr",
+                        "uri": "http://dbpedia.org/resource/River_Ayr"
                     }, {
-                        "label": "Léon Brunschvicg",
-                        "uri": "http://dbpedia.org/resource/Léon_Brunschvicg"
+                        "label": "River Darwen",
+                        "uri": "http://dbpedia.org/resource/River_Darwen"
                     }, {
-                        "label": "Martin Van Buren Bates",
-                        "uri": "http://dbpedia.org/resource/Martin_Van_Buren_Bates"
+                        "label": "River Dwyryd",
+                        "uri": "http://dbpedia.org/resource/River_Dwyryd"
                     }, {
-                        "label": "Mary Boies",
-                        "uri": "http://dbpedia.org/resource/Mary_Boies"
+                        "label": "Schoharie Creek",
+                        "uri": "http://dbpedia.org/resource/Schoharie_Creek"
                     }, {
-                        "label": "Mary Lee Fitzhugh Custis",
-                        "uri": "http://dbpedia.org/resource/Mary_Lee_Fitzhugh_Custis"
+                        "label": "Mirna (Croatia)",
+                        "uri": "http://dbpedia.org/resource/Mirna_(Croatia)"
                     }, {
-                        "label": "Michael Bakewell",
-                        "uri": "http://dbpedia.org/resource/Michael_Bakewell"
+                        "label": "Ayalon River",
+                        "uri": "http://dbpedia.org/resource/Ayalon_River"
                     }, {
-                        "label": "Millicent Hearst",
-                        "uri": "http://dbpedia.org/resource/Millicent_Hearst"
+                        "label": "Port of Copenhagen",
+                        "uri": "http://dbpedia.org/resource/Port_of_Copenhagen"
                     }, {
-                        "label": "Philip Ruppe",
-                        "uri": "http://dbpedia.org/resource/Philip_Ruppe"
+                        "label": "Tauranga Harbour",
+                        "uri": "http://dbpedia.org/resource/Tauranga_Harbour"
                     }, {
-                        "label": "Rolly Bester",
-                        "uri": "http://dbpedia.org/resource/Rolly_Bester"
+                        "label": "Tromsøysundet",
+                        "uri": "http://dbpedia.org/resource/Tromsøysundet"
                     }, {
-                        "label": "Ruy Guerra",
-                        "uri": "http://dbpedia.org/resource/Ruy_Guerra"
+                        "label": "Vejle Fjord",
+                        "uri": "http://dbpedia.org/resource/Vejle_Fjord"
                     }, {
-                        "label": "Sinéad de Valera",
-                        "uri": "http://dbpedia.org/resource/Sinéad_de_Valera"
+                        "label": "Crystal Creek, Queensland",
+                        "uri": "http://dbpedia.org/resource/Crystal_Creek,_Queensland"
                     }, {
-                        "label": "Sophie de Condorcet",
-                        "uri": "http://dbpedia.org/resource/Sophie_de_Condorcet"
+                        "label": "Stadsgraven",
+                        "uri": "http://dbpedia.org/resource/Stadsgraven"
                     }, {
-                        "label": "Yasuko Hatoyama",
-                        "uri": "http://dbpedia.org/resource/Yasuko_Hatoyama"
+                        "label": "Swinomish Channel",
+                        "uri": "http://dbpedia.org/resource/Swinomish_Channel"
                     }, {
-                        "label": "Padmé Amidala",
-                        "uri": "http://dbpedia.org/resource/Padmé_Amidala"
+                        "label": "Sykkylvsfjorden",
+                        "uri": "http://dbpedia.org/resource/Sykkylvsfjorden"
                     }, {
-                        "label": "Deborah Walley",
-                        "uri": "http://dbpedia.org/resource/Deborah_Walley"
+                        "label": "Rivière des Envies",
+                        "uri": "http://dbpedia.org/resource/Rivière_des_Envies"
                     }, {
-                        "label": "Lisa Kreuzer",
-                        "uri": "http://dbpedia.org/resource/Lisa_Kreuzer"
+                        "label": "Mahanadi River",
+                        "uri": "http://dbpedia.org/resource/Mahanadi_River"
                     }, {
-                        "label": "Magdolna Purgly",
-                        "uri": "http://dbpedia.org/resource/Magdolna_Purgly"
+                        "label": "Route 33 (Virginia)",
+                        "uri": "http://dbpedia.org/resource/Route_33_(Virginia)"
                     }, {
-                        "label": "Murray McLauchlan",
-                        "uri": "http://dbpedia.org/resource/Murray_McLauchlan"
+                        "label": "Columbia River",
+                        "uri": "http://dbpedia.org/resource/Columbia_River"
                     }, {
-                        "label": "Maxwell Reed",
-                        "uri": "http://dbpedia.org/resource/Maxwell_Reed"
+                        "label": "Daugava",
+                        "uri": "http://dbpedia.org/resource/Daugava"
                     }, {
-                        "label": "Peter Holm",
-                        "uri": "http://dbpedia.org/resource/Peter_Holm"
+                        "label": "Detroit River",
+                        "uri": "http://dbpedia.org/resource/Detroit_River"
                     }, {
-                        "label": "Russell Simmons",
-                        "uri": "http://dbpedia.org/resource/Russell_Simmons"
+                        "label": "East River",
+                        "uri": "http://dbpedia.org/resource/East_River"
                     }, {
-                        "label": "Sigrid the Haughty",
-                        "uri": "http://dbpedia.org/resource/Sigrid_the_Haughty"
+                        "label": "Euphrates",
+                        "uri": "http://dbpedia.org/resource/Euphrates"
                     }, {
-                        "label": "Elena Ceaușescu",
-                        "uri": "http://dbpedia.org/resource/Elena_Ceaușescu"
+                        "label": "Finland",
+                        "uri": "http://dbpedia.org/resource/Finland"
                     }, {
-                        "label": "Lydia Clarke",
-                        "uri": "http://dbpedia.org/resource/Lydia_Clarke"
+                        "label": "Ganges",
+                        "uri": "http://dbpedia.org/resource/Ganges"
                     }, {
-                        "label": "Jacqueline Lamba",
-                        "uri": "http://dbpedia.org/resource/Jacqueline_Lamba"
+                        "label": "Göta älv",
+                        "uri": "http://dbpedia.org/resource/Göta_älv"
                     }, {
-                        "label": "Eliza Jumel",
-                        "uri": "http://dbpedia.org/resource/Eliza_Jumel"
+                        "label": "Indonesia",
+                        "uri": "http://dbpedia.org/resource/Indonesia"
                     }, {
-                        "label": "Jean Bouise",
-                        "uri": "http://dbpedia.org/resource/Jean_Bouise"
+                        "label": "Kiel Canal",
+                        "uri": "http://dbpedia.org/resource/Kiel_Canal"
                     }, {
-                        "label": "John V of Nassau-Dillenburg",
-                        "uri": "http://dbpedia.org/resource/John_V_of_Nassau-Dillenburg"
+                        "label": "Lebanon",
+                        "uri": "http://dbpedia.org/resource/Lebanon"
                     }, {
-                        "label": "Raja Zarith Sofia",
-                        "uri": "http://dbpedia.org/resource/Raja_Zarith_Sofia"
+                        "label": "Mississippi River",
+                        "uri": "http://dbpedia.org/resource/Mississippi_River"
                     }, {
-                        "label": "Lena Herzog",
-                        "uri": "http://dbpedia.org/resource/Lena_Herzog"
+                        "label": "Missouri River",
+                        "uri": "http://dbpedia.org/resource/Missouri_River"
                     }, {
-                        "label": "Margaret of Soissons, Queen of Armenia",
-                        "uri": "http://dbpedia.org/resource/Margaret_of_Soissons,_Queen_of_Armenia"
+                        "label": "Murray River",
+                        "uri": "http://dbpedia.org/resource/Murray_River"
                     }, {
-                        "label": "Nagarjuna Akkineni",
-                        "uri": "http://dbpedia.org/resource/Nagarjuna_Akkineni"
+                        "label": "Neva River",
+                        "uri": "http://dbpedia.org/resource/Neva_River"
                     }, {
-                        "label": "Suzy Miller",
-                        "uri": "http://dbpedia.org/resource/Suzy_Miller"
+                        "label": "North Sea",
+                        "uri": "http://dbpedia.org/resource/North_Sea"
                     }, {
-                        "label": "Li Shang (Mulan character)",
-                        "uri": "http://dbpedia.org/resource/Li_Shang_(Mulan_character)"
+                        "label": "Ohio River",
+                        "uri": "http://dbpedia.org/resource/Ohio_River"
                     }, {
-                        "label": "Isabelle of Valois (1348-1372)",
-                        "uri": "http://dbpedia.org/resource/Isabelle_of_Valois_(1348-1372)"
+                        "label": "Panama Canal",
+                        "uri": "http://dbpedia.org/resource/Panama_Canal"
                     }, {
-                        "label": "Linda Tuhiwai Smith",
-                        "uri": "http://dbpedia.org/resource/Linda_Tuhiwai_Smith"
+                        "label": "Rhine",
+                        "uri": "http://dbpedia.org/resource/Rhine"
                     }, {
-                        "label": "Nene (person)",
-                        "uri": "http://dbpedia.org/resource/Nene_(person)"
+                        "label": "Saint Lawrence Seaway",
+                        "uri": "http://dbpedia.org/resource/Saint_Lawrence_Seaway"
                     }, {
-                        "label": "Linda Ruth Williams",
-                        "uri": "http://dbpedia.org/resource/Linda_Ruth_Williams"
+                        "label": "San Francisco Bay",
+                        "uri": "http://dbpedia.org/resource/San_Francisco_Bay"
                     }, {
-                        "label": "Ceca (singer)",
-                        "uri": "http://dbpedia.org/resource/Ceca_(singer)"
+                        "label": "Snake River",
+                        "uri": "http://dbpedia.org/resource/Snake_River"
                     }, {
-                        "label": "Constance Towers",
-                        "uri": "http://dbpedia.org/resource/Constance_Towers"
+                        "label": "Barron River (Queensland)",
+                        "uri": "http://dbpedia.org/resource/Barron_River_(Queensland)"
                     }, {
-                        "label": "Elsa Pataky",
-                        "uri": "http://dbpedia.org/resource/Elsa_Pataky"
+                        "label": "Hers-Mort",
+                        "uri": "http://dbpedia.org/resource/Hers-Mort"
                     }]
             },
             "combination": false
@@ -322,12 +322,12 @@
             "id": "2",
             "language": "EN",
             "type": "SENTENCE",
-            "bindingType": "PERSON",
-            "returnType": "PERSON",
+            "bindingType": "BRIDGE",
+            "returnType": "RIVER",
             "frameType": "APP",
-            "sentences": ["Which person is assassinated to ($x | PERSON_NP)?", "Which person was assassinated to ($x | PERSON_NP)?", "Which persons are assassinated to ($x | PERSON_NP)?", "Which persons were assassinated to ($x | PERSON_NP)?", "Who is assassinated to ($x | PERSON_NP)?", "Who was assassinated to ($x | PERSON_NP)?"],
+            "sentences": ["What is crossed by ($x | BRIDGE_NP)?", "What was crossed by ($x | BRIDGE_NP)?", "Which river is crossed by ($x | BRIDGE_NP)?", "Which river was crossed by ($x | BRIDGE_NP)?", "Which rivers are crossed by ($x | BRIDGE_NP)?", "Which rivers were crossed by ($x | BRIDGE_NP)?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/spouse> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/crosses> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -335,305 +335,305 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Aaron Burr",
-                        "uri": "http://dbpedia.org/resource/Aaron_Burr"
+                        "label": "Blackfriars Bridge",
+                        "uri": "http://dbpedia.org/resource/Blackfriars_Bridge"
                     }, {
-                        "label": "Adrienne Rich",
-                        "uri": "http://dbpedia.org/resource/Adrienne_Rich"
+                        "label": "Brooklyn Bridge",
+                        "uri": "http://dbpedia.org/resource/Brooklyn_Bridge"
                     }, {
-                        "label": "Alan Rickman",
-                        "uri": "http://dbpedia.org/resource/Alan_Rickman"
+                        "label": "Theodor Heuss Bridge (Düsseldorf)",
+                        "uri": "http://dbpedia.org/resource/Theodor_Heuss_Bridge_(Düsseldorf)"
                     }, {
-                        "label": "Albert Finney",
-                        "uri": "http://dbpedia.org/resource/Albert_Finney"
+                        "label": "Baldwin Bridge, Koblenz",
+                        "uri": "http://dbpedia.org/resource/Baldwin_Bridge,_Koblenz"
                     }, {
-                        "label": "Albrecht III Achilles, Elector of Brandenburg",
-                        "uri": "http://dbpedia.org/resource/Albrecht_III_Achilles,_Elector_of_Brandenburg"
+                        "label": "Berkley Bridge (Virginia)",
+                        "uri": "http://dbpedia.org/resource/Berkley_Bridge_(Virginia)"
                     }, {
-                        "label": "Alexandru Ioan Cuza",
-                        "uri": "http://dbpedia.org/resource/Alexandru_Ioan_Cuza"
+                        "label": "Bodine's Bridge",
+                        "uri": "http://dbpedia.org/resource/Bodine's_Bridge"
                     }, {
-                        "label": "Alfred Bester",
-                        "uri": "http://dbpedia.org/resource/Alfred_Bester"
+                        "label": "Clifton Bridge (Nottingham)",
+                        "uri": "http://dbpedia.org/resource/Clifton_Bridge_(Nottingham)"
                     }, {
-                        "label": "Alyson Hannigan",
-                        "uri": "http://dbpedia.org/resource/Alyson_Hannigan"
+                        "label": "Ferry Street Bridge (Eugene, Oregon)",
+                        "uri": "http://dbpedia.org/resource/Ferry_Street_Bridge_(Eugene,_Oregon)"
                     }, {
-                        "label": "Andrew Lloyd Webber",
-                        "uri": "http://dbpedia.org/resource/Andrew_Lloyd_Webber"
+                        "label": "Green Bridge (New Orleans)",
+                        "uri": "http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"
                     }, {
-                        "label": "Andrew Sarris",
-                        "uri": "http://dbpedia.org/resource/Andrew_Sarris"
+                        "label": "Green Bridge (Vilnius)",
+                        "uri": "http://dbpedia.org/resource/Green_Bridge_(Vilnius)"
                     }, {
-                        "label": "Andrzej Wajda",
-                        "uri": "http://dbpedia.org/resource/Andrzej_Wajda"
+                        "label": "Howard Frankland Bridge",
+                        "uri": "http://dbpedia.org/resource/Howard_Frankland_Bridge"
                     }, {
-                        "label": "Andrzej Żuławski",
-                        "uri": "http://dbpedia.org/resource/Andrzej_Żuławski"
+                        "label": "MacArthur Bridge (Manila)",
+                        "uri": "http://dbpedia.org/resource/MacArthur_Bridge_(Manila)"
                     }, {
-                        "label": "André Breton",
-                        "uri": "http://dbpedia.org/resource/André_Breton"
+                        "label": "Market Street Bridge (Chattanooga)",
+                        "uri": "http://dbpedia.org/resource/Market_Street_Bridge_(Chattanooga)"
                     }, {
-                        "label": "André Malraux",
-                        "uri": "http://dbpedia.org/resource/André_Malraux"
+                        "label": "Market Street Bridge (Philadelphia)",
+                        "uri": "http://dbpedia.org/resource/Market_Street_Bridge_(Philadelphia)"
                     }, {
-                        "label": "Anna of Russia",
-                        "uri": "http://dbpedia.org/resource/Anna_of_Russia"
+                        "label": "Market Street Bridge (Steubenville)",
+                        "uri": "http://dbpedia.org/resource/Market_Street_Bridge_(Steubenville)"
                     }, {
-                        "label": "Anne, Queen of Great Britain",
-                        "uri": "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+                        "label": "Mormon Bridge (Omaha)",
+                        "uri": "http://dbpedia.org/resource/Mormon_Bridge_(Omaha)"
                     }, {
-                        "label": "Anne Boleyn",
-                        "uri": "http://dbpedia.org/resource/Anne_Boleyn"
+                        "label": "Outerbridge Crossing",
+                        "uri": "http://dbpedia.org/resource/Outerbridge_Crossing"
                     }, {
-                        "label": "Anne Neville",
-                        "uri": "http://dbpedia.org/resource/Anne_Neville"
+                        "label": "Peace Bridge",
+                        "uri": "http://dbpedia.org/resource/Peace_Bridge"
                     }, {
-                        "label": "Anne of Cleves",
-                        "uri": "http://dbpedia.org/resource/Anne_of_Cleves"
+                        "label": "Peace Bridge (Calgary)",
+                        "uri": "http://dbpedia.org/resource/Peace_Bridge_(Calgary)"
                     }, {
-                        "label": "Anne of Denmark",
-                        "uri": "http://dbpedia.org/resource/Anne_of_Denmark"
+                        "label": "Peace Bridge (Foyle)",
+                        "uri": "http://dbpedia.org/resource/Peace_Bridge_(Foyle)"
                     }, {
-                        "label": "Anthony Burgess",
-                        "uri": "http://dbpedia.org/resource/Anthony_Burgess"
+                        "label": "Sagadahoc Bridge",
+                        "uri": "http://dbpedia.org/resource/Sagadahoc_Bridge"
                     }, {
-                        "label": "Antonio Banderas",
-                        "uri": "http://dbpedia.org/resource/Antonio_Banderas"
+                        "label": "South Market Street Bridge (Wilmington, Delaware)",
+                        "uri": "http://dbpedia.org/resource/South_Market_Street_Bridge_(Wilmington,_Delaware)"
                     }, {
-                        "label": "Anwar Sadat",
-                        "uri": "http://dbpedia.org/resource/Anwar_Sadat"
+                        "label": "Tauranga Harbour Bridge",
+                        "uri": "http://dbpedia.org/resource/Tauranga_Harbour_Bridge"
                     }, {
-                        "label": "Arkan",
-                        "uri": "http://dbpedia.org/resource/Arkan"
+                        "label": "Trinity Bridge, Greater Manchester",
+                        "uri": "http://dbpedia.org/resource/Trinity_Bridge,_Greater_Manchester"
                     }, {
-                        "label": "Ashley Judd",
-                        "uri": "http://dbpedia.org/resource/Ashley_Judd"
+                        "label": "Tulip Viaduct",
+                        "uri": "http://dbpedia.org/resource/Tulip_Viaduct"
                     }, {
-                        "label": "August Strindberg",
-                        "uri": "http://dbpedia.org/resource/August_Strindberg"
+                        "label": "Veterans Bridge (Chesapeake, Virginia)",
+                        "uri": "http://dbpedia.org/resource/Veterans_Bridge_(Chesapeake,_Virginia)"
                     }, {
-                        "label": "Aurelian",
-                        "uri": "http://dbpedia.org/resource/Aurelian"
+                        "label": "Victory Bridge (New Jersey)",
+                        "uri": "http://dbpedia.org/resource/Victory_Bridge_(New_Jersey)"
                     }, {
-                        "label": "Austin Powers (character)",
-                        "uri": "http://dbpedia.org/resource/Austin_Powers_(character)"
+                        "label": "Hosur Road Elevated Expressway",
+                        "uri": "http://dbpedia.org/resource/Hosur_Road_Elevated_Expressway"
                     }, {
-                        "label": "Ava Gardner",
-                        "uri": "http://dbpedia.org/resource/Ava_Gardner"
+                        "label": "Columbia River Crossing",
+                        "uri": "http://dbpedia.org/resource/Columbia_River_Crossing"
                     }, {
-                        "label": "Ben Chifley",
-                        "uri": "http://dbpedia.org/resource/Ben_Chifley"
+                        "label": "Puente Transbordador",
+                        "uri": "http://dbpedia.org/resource/Puente_Transbordador"
                     }, {
-                        "label": "Benjamin Netanyahu",
-                        "uri": "http://dbpedia.org/resource/Benjamin_Netanyahu"
+                        "label": "Rochefort-Martrou Transporter Bridge",
+                        "uri": "http://dbpedia.org/resource/Rochefort-Martrou_Transporter_Bridge"
                     }, {
-                        "label": "Blake Edwards",
-                        "uri": "http://dbpedia.org/resource/Blake_Edwards"
+                        "label": "Schierstein Bridge",
+                        "uri": "http://dbpedia.org/resource/Schierstein_Bridge"
                     }, {
-                        "label": "Bob Dole",
-                        "uri": "http://dbpedia.org/resource/Bob_Dole"
+                        "label": "Tahune AirWalk",
+                        "uri": "http://dbpedia.org/resource/Tahune_AirWalk"
                     }, {
-                        "label": "Bolesław I the Brave",
-                        "uri": "http://dbpedia.org/resource/Bolesław_I_the_Brave"
+                        "label": "Calle-Calle Bridge",
+                        "uri": "http://dbpedia.org/resource/Calle-Calle_Bridge"
                     }, {
-                        "label": "Booker T. Washington",
-                        "uri": "http://dbpedia.org/resource/Booker_T._Washington"
+                        "label": "Chenab Bridge",
+                        "uri": "http://dbpedia.org/resource/Chenab_Bridge"
                     }, {
-                        "label": "Boris III of Bulgaria",
-                        "uri": "http://dbpedia.org/resource/Boris_III_of_Bulgaria"
+                        "label": "Chikugo River Lift Bridge",
+                        "uri": "http://dbpedia.org/resource/Chikugo_River_Lift_Bridge"
                     }, {
-                        "label": "Brad Pitt",
-                        "uri": "http://dbpedia.org/resource/Brad_Pitt"
+                        "label": "Cần Thơ Bridge",
+                        "uri": "http://dbpedia.org/resource/Cần_Thơ_Bridge"
                     }, {
-                        "label": "Bruce Lee",
-                        "uri": "http://dbpedia.org/resource/Bruce_Lee"
+                        "label": "Des Plaines River Valley Bridge",
+                        "uri": "http://dbpedia.org/resource/Des_Plaines_River_Valley_Bridge"
                     }, {
-                        "label": "Buster Keaton",
-                        "uri": "http://dbpedia.org/resource/Buster_Keaton"
+                        "label": "Eysey Footbridge",
+                        "uri": "http://dbpedia.org/resource/Eysey_Footbridge"
                     }, {
-                        "label": "Cameron Diaz",
-                        "uri": "http://dbpedia.org/resource/Cameron_Diaz"
+                        "label": "Galveston Causeway",
+                        "uri": "http://dbpedia.org/resource/Galveston_Causeway"
                     }, {
-                        "label": "Caracalla",
-                        "uri": "http://dbpedia.org/resource/Caracalla"
+                        "label": "Halfpenny Bridge",
+                        "uri": "http://dbpedia.org/resource/Halfpenny_Bridge"
                     }, {
-                        "label": "Carl Bildt",
-                        "uri": "http://dbpedia.org/resource/Carl_Bildt"
+                        "label": "Independence Bridge",
+                        "uri": "http://dbpedia.org/resource/Independence_Bridge"
                     }, {
-                        "label": "Carlos Menem",
-                        "uri": "http://dbpedia.org/resource/Carlos_Menem"
+                        "label": "Jack's Creek Covered Bridge",
+                        "uri": "http://dbpedia.org/resource/Jack's_Creek_Covered_Bridge"
                     }, {
-                        "label": "Carol II of Romania",
-                        "uri": "http://dbpedia.org/resource/Carol_II_of_Romania"
+                        "label": "Kanchanaphisek Bridge",
+                        "uri": "http://dbpedia.org/resource/Kanchanaphisek_Bridge"
                     }, {
-                        "label": "Carole Lombard",
-                        "uri": "http://dbpedia.org/resource/Carole_Lombard"
+                        "label": "Kennington Railway Bridge",
+                        "uri": "http://dbpedia.org/resource/Kennington_Railway_Bridge"
                     }, {
-                        "label": "Caroline of Ansbach",
-                        "uri": "http://dbpedia.org/resource/Caroline_of_Ansbach"
+                        "label": "La Vicaria Arch Bridge",
+                        "uri": "http://dbpedia.org/resource/La_Vicaria_Arch_Bridge"
                     }, {
-                        "label": "Caroline of Brunswick",
-                        "uri": "http://dbpedia.org/resource/Caroline_of_Brunswick"
+                        "label": "Lafayette Avenue Bridge",
+                        "uri": "http://dbpedia.org/resource/Lafayette_Avenue_Bridge"
                     }, {
-                        "label": "Carter Harrison Jr.",
-                        "uri": "http://dbpedia.org/resource/Carter_Harrison_Jr."
+                        "label": "Liberty Bridge (Bay City, Michigan)",
+                        "uri": "http://dbpedia.org/resource/Liberty_Bridge_(Bay_City,_Michigan)"
                     }, {
-                        "label": "Casimir IV Jagiellon",
-                        "uri": "http://dbpedia.org/resource/Casimir_IV_Jagiellon"
+                        "label": "Louis Bisson Bridge",
+                        "uri": "http://dbpedia.org/resource/Louis_Bisson_Bridge"
                     }, {
-                        "label": "Catherine Deneuve",
-                        "uri": "http://dbpedia.org/resource/Catherine_Deneuve"
+                        "label": "Mile-Long Bridge",
+                        "uri": "http://dbpedia.org/resource/Mile-Long_Bridge"
                     }, {
-                        "label": "Catherine I of Russia",
-                        "uri": "http://dbpedia.org/resource/Catherine_I_of_Russia"
+                        "label": "Military Order of the Purple Heart Bridge",
+                        "uri": "http://dbpedia.org/resource/Military_Order_of_the_Purple_Heart_Bridge"
                     }, {
-                        "label": "Catherine de' Medici",
-                        "uri": "http://dbpedia.org/resource/Catherine_de'_Medici"
+                        "label": "Moses Wheeler Bridge",
+                        "uri": "http://dbpedia.org/resource/Moses_Wheeler_Bridge"
                     }, {
-                        "label": "Catherine of Valois",
-                        "uri": "http://dbpedia.org/resource/Catherine_of_Valois"
+                        "label": "Médéric Martin Bridge",
+                        "uri": "http://dbpedia.org/resource/Médéric_Martin_Bridge"
                     }, {
-                        "label": "Catherine the Great",
-                        "uri": "http://dbpedia.org/resource/Catherine_the_Great"
+                        "label": "New Martinsville Bridge",
+                        "uri": "http://dbpedia.org/resource/New_Martinsville_Bridge"
                     }, {
-                        "label": "Charles Maurice de Talleyrand-Périgord",
-                        "uri": "http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord"
+                        "label": "Nuneham Railway Bridge",
+                        "uri": "http://dbpedia.org/resource/Nuneham_Railway_Bridge"
                     }, {
-                        "label": "Charles Rennie Mackintosh",
-                        "uri": "http://dbpedia.org/resource/Charles_Rennie_Mackintosh"
+                        "label": "Oakachoy Covered Bridge",
+                        "uri": "http://dbpedia.org/resource/Oakachoy_Covered_Bridge"
                     }, {
-                        "label": "Charles VII, Holy Roman Emperor",
-                        "uri": "http://dbpedia.org/resource/Charles_VII,_Holy_Roman_Emperor"
+                        "label": "Octávio Frias de Oliveira Bridge",
+                        "uri": "http://dbpedia.org/resource/Octávio_Frias_de_Oliveira_Bridge"
                     }, {
-                        "label": "Charlton Heston",
-                        "uri": "http://dbpedia.org/resource/Charlton_Heston"
+                        "label": "Osney Rail Bridge",
+                        "uri": "http://dbpedia.org/resource/Osney_Rail_Bridge"
                     }, {
-                        "label": "Chen Shui-bian",
-                        "uri": "http://dbpedia.org/resource/Chen_Shui-bian"
+                        "label": "Passerelle Debilly",
+                        "uri": "http://dbpedia.org/resource/Passerelle_Debilly"
                     }, {
-                        "label": "Childeric I",
-                        "uri": "http://dbpedia.org/resource/Childeric_I"
+                        "label": "Pont Charles-de-Gaulle",
+                        "uri": "http://dbpedia.org/resource/Pont_Charles-de-Gaulle"
                     }, {
-                        "label": "Christine McVie",
-                        "uri": "http://dbpedia.org/resource/Christine_McVie"
+                        "label": "Pont Royal",
+                        "uri": "http://dbpedia.org/resource/Pont_Royal"
                     }, {
-                        "label": "Christopher Lambert",
-                        "uri": "http://dbpedia.org/resource/Christopher_Lambert"
+                        "label": "Pont amont",
+                        "uri": "http://dbpedia.org/resource/Pont_amont"
                     }, {
-                        "label": "Clark Gable",
-                        "uri": "http://dbpedia.org/resource/Clark_Gable"
+                        "label": "Pont d'Iéna",
+                        "uri": "http://dbpedia.org/resource/Pont_d'Iéna"
                     }, {
-                        "label": "Clint Eastwood",
-                        "uri": "http://dbpedia.org/resource/Clint_Eastwood"
+                        "label": "Pont de l'Archevêché",
+                        "uri": "http://dbpedia.org/resource/Pont_de_l'Archevêché"
                     }, {
-                        "label": "Cnut the Great",
-                        "uri": "http://dbpedia.org/resource/Cnut_the_Great"
+                        "label": "Pont de la Tournelle",
+                        "uri": "http://dbpedia.org/resource/Pont_de_la_Tournelle"
                     }, {
-                        "label": "Conrad III of Germany",
-                        "uri": "http://dbpedia.org/resource/Conrad_III_of_Germany"
+                        "label": "Pont des Invalides",
+                        "uri": "http://dbpedia.org/resource/Pont_des_Invalides"
                     }, {
-                        "label": "Dan Aykroyd",
-                        "uri": "http://dbpedia.org/resource/Dan_Aykroyd"
+                        "label": "Rama III Bridge",
+                        "uri": "http://dbpedia.org/resource/Rama_III_Bridge"
                     }, {
-                        "label": "Dannii Minogue",
-                        "uri": "http://dbpedia.org/resource/Dannii_Minogue"
+                        "label": "Rama IX Bridge",
+                        "uri": "http://dbpedia.org/resource/Rama_IX_Bridge"
                     }, {
-                        "label": "Darth Vader",
-                        "uri": "http://dbpedia.org/resource/Darth_Vader"
+                        "label": "Silverwater Bridge",
+                        "uri": "http://dbpedia.org/resource/Silverwater_Bridge"
                     }, {
-                        "label": "David Boies",
-                        "uri": "http://dbpedia.org/resource/David_Boies"
+                        "label": "Sonning Backwater Bridges",
+                        "uri": "http://dbpedia.org/resource/Sonning_Backwater_Bridges"
                     }, {
-                        "label": "David Eddings",
-                        "uri": "http://dbpedia.org/resource/David_Eddings"
+                        "label": "St. John's Bridge, Lechlade",
+                        "uri": "http://dbpedia.org/resource/St._John's_Bridge,_Lechlade"
                     }, {
-                        "label": "David Lloyd George",
-                        "uri": "http://dbpedia.org/resource/David_Lloyd_George"
+                        "label": "Suffield and Thompsonville Bridge",
+                        "uri": "http://dbpedia.org/resource/Suffield_and_Thompsonville_Bridge"
                     }, {
-                        "label": "Denise Richards",
-                        "uri": "http://dbpedia.org/resource/Denise_Richards"
+                        "label": "Summerleaze Footbridge",
+                        "uri": "http://dbpedia.org/resource/Summerleaze_Footbridge"
                     }, {
-                        "label": "Don Siegel",
-                        "uri": "http://dbpedia.org/resource/Don_Siegel"
+                        "label": "Sutton Bridge, Oxfordshire",
+                        "uri": "http://dbpedia.org/resource/Sutton_Bridge,_Oxfordshire"
                     }, {
-                        "label": "Dudley Moore",
-                        "uri": "http://dbpedia.org/resource/Dudley_Moore"
+                        "label": "Taksin Bridge",
+                        "uri": "http://dbpedia.org/resource/Taksin_Bridge"
                     }, {
-                        "label": "Dustin Hoffman",
-                        "uri": "http://dbpedia.org/resource/Dustin_Hoffman"
+                        "label": "Tenfoot Bridge",
+                        "uri": "http://dbpedia.org/resource/Tenfoot_Bridge"
                     }, {
-                        "label": "Eadwig",
-                        "uri": "http://dbpedia.org/resource/Eadwig"
+                        "label": "Veterans Memorial Bridge (Bay City, Michigan)",
+                        "uri": "http://dbpedia.org/resource/Veterans_Memorial_Bridge_(Bay_City,_Michigan)"
                     }, {
-                        "label": "Edmond Hamilton",
-                        "uri": "http://dbpedia.org/resource/Edmond_Hamilton"
+                        "label": "Veterans Memorial Bridge (Bristol County, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Veterans_Memorial_Bridge_(Bristol_County,_Massachusetts)"
                     }, {
-                        "label": "Edward Witten",
-                        "uri": "http://dbpedia.org/resource/Edward_Witten"
+                        "label": "Viaduc d'Austerlitz",
+                        "uri": "http://dbpedia.org/resource/Viaduc_d'Austerlitz"
                     }, {
-                        "label": "Elia Kazan",
-                        "uri": "http://dbpedia.org/resource/Elia_Kazan"
+                        "label": "Wabash Bridge (Pittsburgh)",
+                        "uri": "http://dbpedia.org/resource/Wabash_Bridge_(Pittsburgh)"
                     }, {
-                        "label": "Elizabeth Cady Stanton",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Cady_Stanton"
+                        "label": "Walden Low Bridge",
+                        "uri": "http://dbpedia.org/resource/Walden_Low_Bridge"
                     }, {
-                        "label": "Elizabeth Gaskell",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Gaskell"
+                        "label": "Washington Street Bridge (Brainerd, Minnesota)",
+                        "uri": "http://dbpedia.org/resource/Washington_Street_Bridge_(Brainerd,_Minnesota)"
                     }, {
-                        "label": "Elizabeth Taylor",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Taylor"
+                        "label": "Water Eaton House Bridge",
+                        "uri": "http://dbpedia.org/resource/Water_Eaton_House_Bridge"
                     }, {
-                        "label": "Elizabeth Woodville",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Woodville"
+                        "label": "Bajer Bridge",
+                        "uri": "http://dbpedia.org/resource/Bajer_Bridge"
                     }, {
-                        "label": "Ella Fitzgerald",
-                        "uri": "http://dbpedia.org/resource/Ella_Fitzgerald"
+                        "label": "Currin Bridge",
+                        "uri": "http://dbpedia.org/resource/Currin_Bridge"
                     }, {
-                        "label": "Emilio Lussu",
-                        "uri": "http://dbpedia.org/resource/Emilio_Lussu"
+                        "label": "Chiniot Bridge",
+                        "uri": "http://dbpedia.org/resource/Chiniot_Bridge"
                     }, {
-                        "label": "Emma of Normandy",
-                        "uri": "http://dbpedia.org/resource/Emma_of_Normandy"
+                        "label": "Drežnik Viaduct",
+                        "uri": "http://dbpedia.org/resource/Drežnik_Viaduct"
                     }, {
-                        "label": "Emmanuelle Seigner",
-                        "uri": "http://dbpedia.org/resource/Emmanuelle_Seigner"
+                        "label": "Frank Sherwin Bridge",
+                        "uri": "http://dbpedia.org/resource/Frank_Sherwin_Bridge"
                     }, {
-                        "label": "Eric Idle",
-                        "uri": "http://dbpedia.org/resource/Eric_Idle"
+                        "label": "George V Bridge, Orléans",
+                        "uri": "http://dbpedia.org/resource/George_V_Bridge,_Orléans"
                     }, {
-                        "label": "Erich Honecker",
-                        "uri": "http://dbpedia.org/resource/Erich_Honecker"
+                        "label": "Jiangwan Bridge",
+                        "uri": "http://dbpedia.org/resource/Jiangwan_Bridge"
                     }, {
-                        "label": "Ernest Jones",
-                        "uri": "http://dbpedia.org/resource/Ernest_Jones"
+                        "label": "Kharkiv Metro Bridge",
+                        "uri": "http://dbpedia.org/resource/Kharkiv_Metro_Bridge"
                     }, {
-                        "label": "Estrid of the Obotrites",
-                        "uri": "http://dbpedia.org/resource/Estrid_of_the_Obotrites"
+                        "label": "Kiev Metro Bridge",
+                        "uri": "http://dbpedia.org/resource/Kiev_Metro_Bridge"
                     }, {
-                        "label": "Eunice Kennedy Shriver",
-                        "uri": "http://dbpedia.org/resource/Eunice_Kennedy_Shriver"
+                        "label": "Kotezi Viaduct",
+                        "uri": "http://dbpedia.org/resource/Kotezi_Viaduct"
                     }, {
-                        "label": "Eva Perón",
-                        "uri": "http://dbpedia.org/resource/Eva_Perón"
+                        "label": "Old Wye Bridge, Chepstow",
+                        "uri": "http://dbpedia.org/resource/Old_Wye_Bridge,_Chepstow"
                     }, {
-                        "label": "Farouk of Egypt",
-                        "uri": "http://dbpedia.org/resource/Farouk_of_Egypt"
+                        "label": "Point Bridge (Pittsburgh)",
+                        "uri": "http://dbpedia.org/resource/Point_Bridge_(Pittsburgh)"
                     }, {
-                        "label": "Felix Dzerzhinsky",
-                        "uri": "http://dbpedia.org/resource/Felix_Dzerzhinsky"
+                        "label": "Wye Bridge, Monmouth",
+                        "uri": "http://dbpedia.org/resource/Wye_Bridge,_Monmouth"
                     }, {
-                        "label": "Francis I of France",
-                        "uri": "http://dbpedia.org/resource/Francis_I_of_France"
+                        "label": "Abu Bakar Bridge",
+                        "uri": "http://dbpedia.org/resource/Abu_Bakar_Bridge"
                     }, {
-                        "label": "Francis Walsingham",
-                        "uri": "http://dbpedia.org/resource/Francis_Walsingham"
+                        "label": "Banghwa Bridge",
+                        "uri": "http://dbpedia.org/resource/Banghwa_Bridge"
                     }, {
-                        "label": "Francisco Pizarro",
-                        "uri": "http://dbpedia.org/resource/Francisco_Pizarro"
+                        "label": "Beebe Bridge",
+                        "uri": "http://dbpedia.org/resource/Beebe_Bridge"
                     }, {
-                        "label": "Franz Joseph I of Austria",
-                        "uri": "http://dbpedia.org/resource/Franz_Joseph_I_of_Austria"
+                        "label": "Bigelow Bridge",
+                        "uri": "http://dbpedia.org/resource/Bigelow_Bridge"
                     }]
             },
             "combination": false
@@ -641,12 +641,12 @@
             "id": "3",
             "language": "EN",
             "type": "NP",
-            "bindingType": "PERSON",
-            "returnType": "PERSON",
+            "bindingType": "BRIDGE",
+            "returnType": "RIVER",
             "frameType": "APP",
-            "sentences": ["persons assassinated to $x"],
+            "sentences": ["rivers crossed by $x"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/spouse> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/crosses> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -654,305 +654,305 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Aaron Burr",
-                        "uri": "http://dbpedia.org/resource/Aaron_Burr"
+                        "label": "Blackfriars Bridge",
+                        "uri": "http://dbpedia.org/resource/Blackfriars_Bridge"
                     }, {
-                        "label": "Adrienne Rich",
-                        "uri": "http://dbpedia.org/resource/Adrienne_Rich"
+                        "label": "Brooklyn Bridge",
+                        "uri": "http://dbpedia.org/resource/Brooklyn_Bridge"
                     }, {
-                        "label": "Alan Rickman",
-                        "uri": "http://dbpedia.org/resource/Alan_Rickman"
+                        "label": "Theodor Heuss Bridge (Düsseldorf)",
+                        "uri": "http://dbpedia.org/resource/Theodor_Heuss_Bridge_(Düsseldorf)"
                     }, {
-                        "label": "Albert Finney",
-                        "uri": "http://dbpedia.org/resource/Albert_Finney"
+                        "label": "Baldwin Bridge, Koblenz",
+                        "uri": "http://dbpedia.org/resource/Baldwin_Bridge,_Koblenz"
                     }, {
-                        "label": "Albrecht III Achilles, Elector of Brandenburg",
-                        "uri": "http://dbpedia.org/resource/Albrecht_III_Achilles,_Elector_of_Brandenburg"
+                        "label": "Berkley Bridge (Virginia)",
+                        "uri": "http://dbpedia.org/resource/Berkley_Bridge_(Virginia)"
                     }, {
-                        "label": "Alexandru Ioan Cuza",
-                        "uri": "http://dbpedia.org/resource/Alexandru_Ioan_Cuza"
+                        "label": "Bodine's Bridge",
+                        "uri": "http://dbpedia.org/resource/Bodine's_Bridge"
                     }, {
-                        "label": "Alfred Bester",
-                        "uri": "http://dbpedia.org/resource/Alfred_Bester"
+                        "label": "Clifton Bridge (Nottingham)",
+                        "uri": "http://dbpedia.org/resource/Clifton_Bridge_(Nottingham)"
                     }, {
-                        "label": "Alyson Hannigan",
-                        "uri": "http://dbpedia.org/resource/Alyson_Hannigan"
+                        "label": "Ferry Street Bridge (Eugene, Oregon)",
+                        "uri": "http://dbpedia.org/resource/Ferry_Street_Bridge_(Eugene,_Oregon)"
                     }, {
-                        "label": "Andrew Lloyd Webber",
-                        "uri": "http://dbpedia.org/resource/Andrew_Lloyd_Webber"
+                        "label": "Green Bridge (New Orleans)",
+                        "uri": "http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"
                     }, {
-                        "label": "Andrew Sarris",
-                        "uri": "http://dbpedia.org/resource/Andrew_Sarris"
+                        "label": "Green Bridge (Vilnius)",
+                        "uri": "http://dbpedia.org/resource/Green_Bridge_(Vilnius)"
                     }, {
-                        "label": "Andrzej Wajda",
-                        "uri": "http://dbpedia.org/resource/Andrzej_Wajda"
+                        "label": "Howard Frankland Bridge",
+                        "uri": "http://dbpedia.org/resource/Howard_Frankland_Bridge"
                     }, {
-                        "label": "Andrzej Żuławski",
-                        "uri": "http://dbpedia.org/resource/Andrzej_Żuławski"
+                        "label": "MacArthur Bridge (Manila)",
+                        "uri": "http://dbpedia.org/resource/MacArthur_Bridge_(Manila)"
                     }, {
-                        "label": "André Breton",
-                        "uri": "http://dbpedia.org/resource/André_Breton"
+                        "label": "Market Street Bridge (Chattanooga)",
+                        "uri": "http://dbpedia.org/resource/Market_Street_Bridge_(Chattanooga)"
                     }, {
-                        "label": "André Malraux",
-                        "uri": "http://dbpedia.org/resource/André_Malraux"
+                        "label": "Market Street Bridge (Philadelphia)",
+                        "uri": "http://dbpedia.org/resource/Market_Street_Bridge_(Philadelphia)"
                     }, {
-                        "label": "Anna of Russia",
-                        "uri": "http://dbpedia.org/resource/Anna_of_Russia"
+                        "label": "Market Street Bridge (Steubenville)",
+                        "uri": "http://dbpedia.org/resource/Market_Street_Bridge_(Steubenville)"
                     }, {
-                        "label": "Anne, Queen of Great Britain",
-                        "uri": "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+                        "label": "Mormon Bridge (Omaha)",
+                        "uri": "http://dbpedia.org/resource/Mormon_Bridge_(Omaha)"
                     }, {
-                        "label": "Anne Boleyn",
-                        "uri": "http://dbpedia.org/resource/Anne_Boleyn"
+                        "label": "Outerbridge Crossing",
+                        "uri": "http://dbpedia.org/resource/Outerbridge_Crossing"
                     }, {
-                        "label": "Anne Neville",
-                        "uri": "http://dbpedia.org/resource/Anne_Neville"
+                        "label": "Peace Bridge",
+                        "uri": "http://dbpedia.org/resource/Peace_Bridge"
                     }, {
-                        "label": "Anne of Cleves",
-                        "uri": "http://dbpedia.org/resource/Anne_of_Cleves"
+                        "label": "Peace Bridge (Calgary)",
+                        "uri": "http://dbpedia.org/resource/Peace_Bridge_(Calgary)"
                     }, {
-                        "label": "Anne of Denmark",
-                        "uri": "http://dbpedia.org/resource/Anne_of_Denmark"
+                        "label": "Peace Bridge (Foyle)",
+                        "uri": "http://dbpedia.org/resource/Peace_Bridge_(Foyle)"
                     }, {
-                        "label": "Anthony Burgess",
-                        "uri": "http://dbpedia.org/resource/Anthony_Burgess"
+                        "label": "Sagadahoc Bridge",
+                        "uri": "http://dbpedia.org/resource/Sagadahoc_Bridge"
                     }, {
-                        "label": "Antonio Banderas",
-                        "uri": "http://dbpedia.org/resource/Antonio_Banderas"
+                        "label": "South Market Street Bridge (Wilmington, Delaware)",
+                        "uri": "http://dbpedia.org/resource/South_Market_Street_Bridge_(Wilmington,_Delaware)"
                     }, {
-                        "label": "Anwar Sadat",
-                        "uri": "http://dbpedia.org/resource/Anwar_Sadat"
+                        "label": "Tauranga Harbour Bridge",
+                        "uri": "http://dbpedia.org/resource/Tauranga_Harbour_Bridge"
                     }, {
-                        "label": "Arkan",
-                        "uri": "http://dbpedia.org/resource/Arkan"
+                        "label": "Trinity Bridge, Greater Manchester",
+                        "uri": "http://dbpedia.org/resource/Trinity_Bridge,_Greater_Manchester"
                     }, {
-                        "label": "Ashley Judd",
-                        "uri": "http://dbpedia.org/resource/Ashley_Judd"
+                        "label": "Tulip Viaduct",
+                        "uri": "http://dbpedia.org/resource/Tulip_Viaduct"
                     }, {
-                        "label": "August Strindberg",
-                        "uri": "http://dbpedia.org/resource/August_Strindberg"
+                        "label": "Veterans Bridge (Chesapeake, Virginia)",
+                        "uri": "http://dbpedia.org/resource/Veterans_Bridge_(Chesapeake,_Virginia)"
                     }, {
-                        "label": "Aurelian",
-                        "uri": "http://dbpedia.org/resource/Aurelian"
+                        "label": "Victory Bridge (New Jersey)",
+                        "uri": "http://dbpedia.org/resource/Victory_Bridge_(New_Jersey)"
                     }, {
-                        "label": "Austin Powers (character)",
-                        "uri": "http://dbpedia.org/resource/Austin_Powers_(character)"
+                        "label": "Hosur Road Elevated Expressway",
+                        "uri": "http://dbpedia.org/resource/Hosur_Road_Elevated_Expressway"
                     }, {
-                        "label": "Ava Gardner",
-                        "uri": "http://dbpedia.org/resource/Ava_Gardner"
+                        "label": "Columbia River Crossing",
+                        "uri": "http://dbpedia.org/resource/Columbia_River_Crossing"
                     }, {
-                        "label": "Ben Chifley",
-                        "uri": "http://dbpedia.org/resource/Ben_Chifley"
+                        "label": "Puente Transbordador",
+                        "uri": "http://dbpedia.org/resource/Puente_Transbordador"
                     }, {
-                        "label": "Benjamin Netanyahu",
-                        "uri": "http://dbpedia.org/resource/Benjamin_Netanyahu"
+                        "label": "Rochefort-Martrou Transporter Bridge",
+                        "uri": "http://dbpedia.org/resource/Rochefort-Martrou_Transporter_Bridge"
                     }, {
-                        "label": "Blake Edwards",
-                        "uri": "http://dbpedia.org/resource/Blake_Edwards"
+                        "label": "Schierstein Bridge",
+                        "uri": "http://dbpedia.org/resource/Schierstein_Bridge"
                     }, {
-                        "label": "Bob Dole",
-                        "uri": "http://dbpedia.org/resource/Bob_Dole"
+                        "label": "Tahune AirWalk",
+                        "uri": "http://dbpedia.org/resource/Tahune_AirWalk"
                     }, {
-                        "label": "Bolesław I the Brave",
-                        "uri": "http://dbpedia.org/resource/Bolesław_I_the_Brave"
+                        "label": "Calle-Calle Bridge",
+                        "uri": "http://dbpedia.org/resource/Calle-Calle_Bridge"
                     }, {
-                        "label": "Booker T. Washington",
-                        "uri": "http://dbpedia.org/resource/Booker_T._Washington"
+                        "label": "Chenab Bridge",
+                        "uri": "http://dbpedia.org/resource/Chenab_Bridge"
                     }, {
-                        "label": "Boris III of Bulgaria",
-                        "uri": "http://dbpedia.org/resource/Boris_III_of_Bulgaria"
+                        "label": "Chikugo River Lift Bridge",
+                        "uri": "http://dbpedia.org/resource/Chikugo_River_Lift_Bridge"
                     }, {
-                        "label": "Brad Pitt",
-                        "uri": "http://dbpedia.org/resource/Brad_Pitt"
+                        "label": "Cần Thơ Bridge",
+                        "uri": "http://dbpedia.org/resource/Cần_Thơ_Bridge"
                     }, {
-                        "label": "Bruce Lee",
-                        "uri": "http://dbpedia.org/resource/Bruce_Lee"
+                        "label": "Des Plaines River Valley Bridge",
+                        "uri": "http://dbpedia.org/resource/Des_Plaines_River_Valley_Bridge"
                     }, {
-                        "label": "Buster Keaton",
-                        "uri": "http://dbpedia.org/resource/Buster_Keaton"
+                        "label": "Eysey Footbridge",
+                        "uri": "http://dbpedia.org/resource/Eysey_Footbridge"
                     }, {
-                        "label": "Cameron Diaz",
-                        "uri": "http://dbpedia.org/resource/Cameron_Diaz"
+                        "label": "Galveston Causeway",
+                        "uri": "http://dbpedia.org/resource/Galveston_Causeway"
                     }, {
-                        "label": "Caracalla",
-                        "uri": "http://dbpedia.org/resource/Caracalla"
+                        "label": "Halfpenny Bridge",
+                        "uri": "http://dbpedia.org/resource/Halfpenny_Bridge"
                     }, {
-                        "label": "Carl Bildt",
-                        "uri": "http://dbpedia.org/resource/Carl_Bildt"
+                        "label": "Independence Bridge",
+                        "uri": "http://dbpedia.org/resource/Independence_Bridge"
                     }, {
-                        "label": "Carlos Menem",
-                        "uri": "http://dbpedia.org/resource/Carlos_Menem"
+                        "label": "Jack's Creek Covered Bridge",
+                        "uri": "http://dbpedia.org/resource/Jack's_Creek_Covered_Bridge"
                     }, {
-                        "label": "Carol II of Romania",
-                        "uri": "http://dbpedia.org/resource/Carol_II_of_Romania"
+                        "label": "Kanchanaphisek Bridge",
+                        "uri": "http://dbpedia.org/resource/Kanchanaphisek_Bridge"
                     }, {
-                        "label": "Carole Lombard",
-                        "uri": "http://dbpedia.org/resource/Carole_Lombard"
+                        "label": "Kennington Railway Bridge",
+                        "uri": "http://dbpedia.org/resource/Kennington_Railway_Bridge"
                     }, {
-                        "label": "Caroline of Ansbach",
-                        "uri": "http://dbpedia.org/resource/Caroline_of_Ansbach"
+                        "label": "La Vicaria Arch Bridge",
+                        "uri": "http://dbpedia.org/resource/La_Vicaria_Arch_Bridge"
                     }, {
-                        "label": "Caroline of Brunswick",
-                        "uri": "http://dbpedia.org/resource/Caroline_of_Brunswick"
+                        "label": "Lafayette Avenue Bridge",
+                        "uri": "http://dbpedia.org/resource/Lafayette_Avenue_Bridge"
                     }, {
-                        "label": "Carter Harrison Jr.",
-                        "uri": "http://dbpedia.org/resource/Carter_Harrison_Jr."
+                        "label": "Liberty Bridge (Bay City, Michigan)",
+                        "uri": "http://dbpedia.org/resource/Liberty_Bridge_(Bay_City,_Michigan)"
                     }, {
-                        "label": "Casimir IV Jagiellon",
-                        "uri": "http://dbpedia.org/resource/Casimir_IV_Jagiellon"
+                        "label": "Louis Bisson Bridge",
+                        "uri": "http://dbpedia.org/resource/Louis_Bisson_Bridge"
                     }, {
-                        "label": "Catherine Deneuve",
-                        "uri": "http://dbpedia.org/resource/Catherine_Deneuve"
+                        "label": "Mile-Long Bridge",
+                        "uri": "http://dbpedia.org/resource/Mile-Long_Bridge"
                     }, {
-                        "label": "Catherine I of Russia",
-                        "uri": "http://dbpedia.org/resource/Catherine_I_of_Russia"
+                        "label": "Military Order of the Purple Heart Bridge",
+                        "uri": "http://dbpedia.org/resource/Military_Order_of_the_Purple_Heart_Bridge"
                     }, {
-                        "label": "Catherine de' Medici",
-                        "uri": "http://dbpedia.org/resource/Catherine_de'_Medici"
+                        "label": "Moses Wheeler Bridge",
+                        "uri": "http://dbpedia.org/resource/Moses_Wheeler_Bridge"
                     }, {
-                        "label": "Catherine of Valois",
-                        "uri": "http://dbpedia.org/resource/Catherine_of_Valois"
+                        "label": "Médéric Martin Bridge",
+                        "uri": "http://dbpedia.org/resource/Médéric_Martin_Bridge"
                     }, {
-                        "label": "Catherine the Great",
-                        "uri": "http://dbpedia.org/resource/Catherine_the_Great"
+                        "label": "New Martinsville Bridge",
+                        "uri": "http://dbpedia.org/resource/New_Martinsville_Bridge"
                     }, {
-                        "label": "Charles Maurice de Talleyrand-Périgord",
-                        "uri": "http://dbpedia.org/resource/Charles_Maurice_de_Talleyrand-Périgord"
+                        "label": "Nuneham Railway Bridge",
+                        "uri": "http://dbpedia.org/resource/Nuneham_Railway_Bridge"
                     }, {
-                        "label": "Charles Rennie Mackintosh",
-                        "uri": "http://dbpedia.org/resource/Charles_Rennie_Mackintosh"
+                        "label": "Oakachoy Covered Bridge",
+                        "uri": "http://dbpedia.org/resource/Oakachoy_Covered_Bridge"
                     }, {
-                        "label": "Charles VII, Holy Roman Emperor",
-                        "uri": "http://dbpedia.org/resource/Charles_VII,_Holy_Roman_Emperor"
+                        "label": "Octávio Frias de Oliveira Bridge",
+                        "uri": "http://dbpedia.org/resource/Octávio_Frias_de_Oliveira_Bridge"
                     }, {
-                        "label": "Charlton Heston",
-                        "uri": "http://dbpedia.org/resource/Charlton_Heston"
+                        "label": "Osney Rail Bridge",
+                        "uri": "http://dbpedia.org/resource/Osney_Rail_Bridge"
                     }, {
-                        "label": "Chen Shui-bian",
-                        "uri": "http://dbpedia.org/resource/Chen_Shui-bian"
+                        "label": "Passerelle Debilly",
+                        "uri": "http://dbpedia.org/resource/Passerelle_Debilly"
                     }, {
-                        "label": "Childeric I",
-                        "uri": "http://dbpedia.org/resource/Childeric_I"
+                        "label": "Pont Charles-de-Gaulle",
+                        "uri": "http://dbpedia.org/resource/Pont_Charles-de-Gaulle"
                     }, {
-                        "label": "Christine McVie",
-                        "uri": "http://dbpedia.org/resource/Christine_McVie"
+                        "label": "Pont Royal",
+                        "uri": "http://dbpedia.org/resource/Pont_Royal"
                     }, {
-                        "label": "Christopher Lambert",
-                        "uri": "http://dbpedia.org/resource/Christopher_Lambert"
+                        "label": "Pont amont",
+                        "uri": "http://dbpedia.org/resource/Pont_amont"
                     }, {
-                        "label": "Clark Gable",
-                        "uri": "http://dbpedia.org/resource/Clark_Gable"
+                        "label": "Pont d'Iéna",
+                        "uri": "http://dbpedia.org/resource/Pont_d'Iéna"
                     }, {
-                        "label": "Clint Eastwood",
-                        "uri": "http://dbpedia.org/resource/Clint_Eastwood"
+                        "label": "Pont de l'Archevêché",
+                        "uri": "http://dbpedia.org/resource/Pont_de_l'Archevêché"
                     }, {
-                        "label": "Cnut the Great",
-                        "uri": "http://dbpedia.org/resource/Cnut_the_Great"
+                        "label": "Pont de la Tournelle",
+                        "uri": "http://dbpedia.org/resource/Pont_de_la_Tournelle"
                     }, {
-                        "label": "Conrad III of Germany",
-                        "uri": "http://dbpedia.org/resource/Conrad_III_of_Germany"
+                        "label": "Pont des Invalides",
+                        "uri": "http://dbpedia.org/resource/Pont_des_Invalides"
                     }, {
-                        "label": "Dan Aykroyd",
-                        "uri": "http://dbpedia.org/resource/Dan_Aykroyd"
+                        "label": "Rama III Bridge",
+                        "uri": "http://dbpedia.org/resource/Rama_III_Bridge"
                     }, {
-                        "label": "Dannii Minogue",
-                        "uri": "http://dbpedia.org/resource/Dannii_Minogue"
+                        "label": "Rama IX Bridge",
+                        "uri": "http://dbpedia.org/resource/Rama_IX_Bridge"
                     }, {
-                        "label": "Darth Vader",
-                        "uri": "http://dbpedia.org/resource/Darth_Vader"
+                        "label": "Silverwater Bridge",
+                        "uri": "http://dbpedia.org/resource/Silverwater_Bridge"
                     }, {
-                        "label": "David Boies",
-                        "uri": "http://dbpedia.org/resource/David_Boies"
+                        "label": "Sonning Backwater Bridges",
+                        "uri": "http://dbpedia.org/resource/Sonning_Backwater_Bridges"
                     }, {
-                        "label": "David Eddings",
-                        "uri": "http://dbpedia.org/resource/David_Eddings"
+                        "label": "St. John's Bridge, Lechlade",
+                        "uri": "http://dbpedia.org/resource/St._John's_Bridge,_Lechlade"
                     }, {
-                        "label": "David Lloyd George",
-                        "uri": "http://dbpedia.org/resource/David_Lloyd_George"
+                        "label": "Suffield and Thompsonville Bridge",
+                        "uri": "http://dbpedia.org/resource/Suffield_and_Thompsonville_Bridge"
                     }, {
-                        "label": "Denise Richards",
-                        "uri": "http://dbpedia.org/resource/Denise_Richards"
+                        "label": "Summerleaze Footbridge",
+                        "uri": "http://dbpedia.org/resource/Summerleaze_Footbridge"
                     }, {
-                        "label": "Don Siegel",
-                        "uri": "http://dbpedia.org/resource/Don_Siegel"
+                        "label": "Sutton Bridge, Oxfordshire",
+                        "uri": "http://dbpedia.org/resource/Sutton_Bridge,_Oxfordshire"
                     }, {
-                        "label": "Dudley Moore",
-                        "uri": "http://dbpedia.org/resource/Dudley_Moore"
+                        "label": "Taksin Bridge",
+                        "uri": "http://dbpedia.org/resource/Taksin_Bridge"
                     }, {
-                        "label": "Dustin Hoffman",
-                        "uri": "http://dbpedia.org/resource/Dustin_Hoffman"
+                        "label": "Tenfoot Bridge",
+                        "uri": "http://dbpedia.org/resource/Tenfoot_Bridge"
                     }, {
-                        "label": "Eadwig",
-                        "uri": "http://dbpedia.org/resource/Eadwig"
+                        "label": "Veterans Memorial Bridge (Bay City, Michigan)",
+                        "uri": "http://dbpedia.org/resource/Veterans_Memorial_Bridge_(Bay_City,_Michigan)"
                     }, {
-                        "label": "Edmond Hamilton",
-                        "uri": "http://dbpedia.org/resource/Edmond_Hamilton"
+                        "label": "Veterans Memorial Bridge (Bristol County, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Veterans_Memorial_Bridge_(Bristol_County,_Massachusetts)"
                     }, {
-                        "label": "Edward Witten",
-                        "uri": "http://dbpedia.org/resource/Edward_Witten"
+                        "label": "Viaduc d'Austerlitz",
+                        "uri": "http://dbpedia.org/resource/Viaduc_d'Austerlitz"
                     }, {
-                        "label": "Elia Kazan",
-                        "uri": "http://dbpedia.org/resource/Elia_Kazan"
+                        "label": "Wabash Bridge (Pittsburgh)",
+                        "uri": "http://dbpedia.org/resource/Wabash_Bridge_(Pittsburgh)"
                     }, {
-                        "label": "Elizabeth Cady Stanton",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Cady_Stanton"
+                        "label": "Walden Low Bridge",
+                        "uri": "http://dbpedia.org/resource/Walden_Low_Bridge"
                     }, {
-                        "label": "Elizabeth Gaskell",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Gaskell"
+                        "label": "Washington Street Bridge (Brainerd, Minnesota)",
+                        "uri": "http://dbpedia.org/resource/Washington_Street_Bridge_(Brainerd,_Minnesota)"
                     }, {
-                        "label": "Elizabeth Taylor",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Taylor"
+                        "label": "Water Eaton House Bridge",
+                        "uri": "http://dbpedia.org/resource/Water_Eaton_House_Bridge"
                     }, {
-                        "label": "Elizabeth Woodville",
-                        "uri": "http://dbpedia.org/resource/Elizabeth_Woodville"
+                        "label": "Bajer Bridge",
+                        "uri": "http://dbpedia.org/resource/Bajer_Bridge"
                     }, {
-                        "label": "Ella Fitzgerald",
-                        "uri": "http://dbpedia.org/resource/Ella_Fitzgerald"
+                        "label": "Currin Bridge",
+                        "uri": "http://dbpedia.org/resource/Currin_Bridge"
                     }, {
-                        "label": "Emilio Lussu",
-                        "uri": "http://dbpedia.org/resource/Emilio_Lussu"
+                        "label": "Chiniot Bridge",
+                        "uri": "http://dbpedia.org/resource/Chiniot_Bridge"
                     }, {
-                        "label": "Emma of Normandy",
-                        "uri": "http://dbpedia.org/resource/Emma_of_Normandy"
+                        "label": "Drežnik Viaduct",
+                        "uri": "http://dbpedia.org/resource/Drežnik_Viaduct"
                     }, {
-                        "label": "Emmanuelle Seigner",
-                        "uri": "http://dbpedia.org/resource/Emmanuelle_Seigner"
+                        "label": "Frank Sherwin Bridge",
+                        "uri": "http://dbpedia.org/resource/Frank_Sherwin_Bridge"
                     }, {
-                        "label": "Eric Idle",
-                        "uri": "http://dbpedia.org/resource/Eric_Idle"
+                        "label": "George V Bridge, Orléans",
+                        "uri": "http://dbpedia.org/resource/George_V_Bridge,_Orléans"
                     }, {
-                        "label": "Erich Honecker",
-                        "uri": "http://dbpedia.org/resource/Erich_Honecker"
+                        "label": "Jiangwan Bridge",
+                        "uri": "http://dbpedia.org/resource/Jiangwan_Bridge"
                     }, {
-                        "label": "Ernest Jones",
-                        "uri": "http://dbpedia.org/resource/Ernest_Jones"
+                        "label": "Kharkiv Metro Bridge",
+                        "uri": "http://dbpedia.org/resource/Kharkiv_Metro_Bridge"
                     }, {
-                        "label": "Estrid of the Obotrites",
-                        "uri": "http://dbpedia.org/resource/Estrid_of_the_Obotrites"
+                        "label": "Kiev Metro Bridge",
+                        "uri": "http://dbpedia.org/resource/Kiev_Metro_Bridge"
                     }, {
-                        "label": "Eunice Kennedy Shriver",
-                        "uri": "http://dbpedia.org/resource/Eunice_Kennedy_Shriver"
+                        "label": "Kotezi Viaduct",
+                        "uri": "http://dbpedia.org/resource/Kotezi_Viaduct"
                     }, {
-                        "label": "Eva Perón",
-                        "uri": "http://dbpedia.org/resource/Eva_Perón"
+                        "label": "Old Wye Bridge, Chepstow",
+                        "uri": "http://dbpedia.org/resource/Old_Wye_Bridge,_Chepstow"
                     }, {
-                        "label": "Farouk of Egypt",
-                        "uri": "http://dbpedia.org/resource/Farouk_of_Egypt"
+                        "label": "Point Bridge (Pittsburgh)",
+                        "uri": "http://dbpedia.org/resource/Point_Bridge_(Pittsburgh)"
                     }, {
-                        "label": "Felix Dzerzhinsky",
-                        "uri": "http://dbpedia.org/resource/Felix_Dzerzhinsky"
+                        "label": "Wye Bridge, Monmouth",
+                        "uri": "http://dbpedia.org/resource/Wye_Bridge,_Monmouth"
                     }, {
-                        "label": "Francis I of France",
-                        "uri": "http://dbpedia.org/resource/Francis_I_of_France"
+                        "label": "Abu Bakar Bridge",
+                        "uri": "http://dbpedia.org/resource/Abu_Bakar_Bridge"
                     }, {
-                        "label": "Francis Walsingham",
-                        "uri": "http://dbpedia.org/resource/Francis_Walsingham"
+                        "label": "Banghwa Bridge",
+                        "uri": "http://dbpedia.org/resource/Banghwa_Bridge"
                     }, {
-                        "label": "Francisco Pizarro",
-                        "uri": "http://dbpedia.org/resource/Francisco_Pizarro"
+                        "label": "Beebe Bridge",
+                        "uri": "http://dbpedia.org/resource/Beebe_Bridge"
                     }, {
-                        "label": "Franz Joseph I of Austria",
-                        "uri": "http://dbpedia.org/resource/Franz_Joseph_I_of_Austria"
+                        "label": "Bigelow Bridge",
+                        "uri": "http://dbpedia.org/resource/Bigelow_Bridge"
                     }]
             },
             "combination": false
