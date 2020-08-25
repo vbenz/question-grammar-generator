@@ -2146,7 +2146,7 @@
 "question": [
 {
 "language": "en",
-"string": "What was the name of the famous battle in 1836 in San Antonio?",
+"string": "What was the name of the famous battle in 1836?",
 "keywords": "famous battle, 1836, San Antonio"
 },{
 "language": "fa",
@@ -10154,7 +10154,7 @@
 "question": [
 {
 "language": "en",
-"string": "What was the first name of the band Queens of the Stone Age?",
+"string": "What is the other name of the band Queens of the Stone Age?",
 "keywords": "first name, Queens of the Stone Age"
 },{
 "language": "fa",

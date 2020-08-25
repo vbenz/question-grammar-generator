@@ -33,7 +33,7 @@
 
 :kill_ontomap a    lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping :assassinate_ontomap ;
-  lemon:reference   <http://dbpedia.org/property/conviction> ;
+  lemon:reference   <http://dbpedia.org/page/Killer> ;
   lemon:subjOfProp  :kill_subj ;
   lemon:objOfProp   :kill_obj ;
   lemon:condition   :kill_condition .

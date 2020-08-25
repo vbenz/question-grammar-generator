@@ -28,7 +28,7 @@ class EvaluateAgainstQALDTest {
   /**
    * This does not actually test anything it is only there to generate the evaluation files.
    */
-  @Disabled
+  
   @Test
   void testEvaluateAndOutput() throws IOException {
     evaluateAgainstQALD.evaluateAndOutput(grammarWrapper);
