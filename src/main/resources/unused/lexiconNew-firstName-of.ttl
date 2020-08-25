@@ -25,7 +25,7 @@
 
 :firstName_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping         :firstName_sense_ontomap ;
-  lemon:reference           <http://dbpedia.org/property/firstname> ;
+  lemon:reference           <http://dbpedia.org/ontology/GivenName> ;
   lemon:subjOfProp          :arg2 ;
   lemon:objOfProp           :arg1 ;
   lemon:condition           :firstName_condition .

@@ -7,31 +7,31 @@
 
 :lexicon_en a    lemon:Lexicon ;
   lemon:language "en" ;
-  lemon:entry    :firstName_of ;
+  lemon:entry    :name_of ;
   lemon:entry    :of .
 
-:firstName_of a       lemon:LexicalEntry ;
+:name_of a       lemon:LexicalEntry ;
   lexinfo:partOfSpeech lexinfo:noun ;
-  lemon:canonicalForm  :firstName_form ;
-  lemon:synBehavior    :firstName_of_nounpp ;
-  lemon:sense          :firstName_sense_ontomap .
+  lemon:canonicalForm  :name_form ;
+  lemon:synBehavior    :name_of_nounpp ;
+  lemon:sense          :name_sense_ontomap .
 
-:firstName_form a lemon:Form ;
-  lemon:writtenRep "first name"@en .
+:name_form a lemon:Form ;
+  lemon:writtenRep "name"@en .
 
-:firstName_of_nounpp a        lexinfo:NounPPFrame ;
+:name_of_nounpp a        lexinfo:NounPPFrame ;
   lexinfo:copulativeArg        :arg1 ;
   lexinfo:prepositionalAdjunct :arg2 .
 
-:firstName_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
-  lemon:ontoMapping         :firstName_sense_ontomap ;
-  lemon:reference           <http://dbpedia.org/property/firstname> ;
+:name_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping         :name_sense_ontomap ;
+  lemon:reference           <http://dbpedia.org/property/name> ;
   lemon:subjOfProp          :arg2 ;
   lemon:objOfProp           :arg1 ;
-  lemon:condition           :firstName_condition .
+  lemon:condition           :name_condition .
 
-:firstName_condition a lemon:condition ;
-  lemon:propertyDomain  <http://dbpedia.org/ontology/associatedBand> ;
+:name_condition a lemon:condition ;
+  lemon:propertyDomain  <http://dbpedia.org/ontology/MilitaryConflict> ;
   lemon:propertyRange   <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
 
 :arg2 lemon:marker :of .

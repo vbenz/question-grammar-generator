@@ -33,7 +33,7 @@
 
 :largestState_of_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping             :largestState_of_sense_ontomap ;
-  lemon:reference               <http://dbpedia.org/page/Category:States_of_the_United_States> ;
+  lemon:reference               <http://dbpedia.org/ontology/AdministrativeRegion> ;
   lemon:subjOfProp              :arg2 ;
   lemon:objOfProp               :arg1 ;
   lemon:condition               :largestState_condition .
@@ -44,7 +44,7 @@
 
 :largestState_in_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping             :largestState_in_sense_ontomap ;
-  lemon:reference              <http://dbpedia.org/page/Category:States_of_the_United_States> ;
+  lemon:reference              <http://dbpedia.org/ontology/AdministrativeRegion> ;
   lemon:subjOfProp              :largestState_in_obj ;
   lemon:objOfProp               :largestState_in_subj ;
   lemon:condition               :largestState_condition .
