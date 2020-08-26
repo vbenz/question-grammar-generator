@@ -14,8 +14,6 @@ import java.util.List;
 import static util.io.ResourceHelper.loadResource;
 
 public class QALDImporter {
-  public static final String QALD_FILE = "QALD-2017/qald-7-train-multilingual.json";
-  public static final String QALD_FILE_MODIFIED = "QALD-2017/qald-7-train-multilingual_modified.json";
   private static final Logger LOG = LogManager.getLogger(QALDImporter.class);
 
   public QALDImporter() {}
@@ -40,11 +38,17 @@ public class QALDImporter {
   private List<String[]> qaldJsonToCSVTemplate(QALD qaldFile) {
     List<String[]> list = new ArrayList<>();
     list.add(new String[]{"id", "answertype", "question", "sparql"});
-    qaldFile.questions.forEach(qaldQuestions -> {
-      list.add(new String[]{qaldQuestions.id, qaldQuestions.answertype, getQaldQuestionString(qaldQuestions,
-                                                                                              "en"
-      ), qaldQuestions.query.sparql});
-    });
+    qaldFile.questions.forEach(
+      qaldQuestions ->
+        list.add(
+          new String[]{
+            qaldQuestions.id,
+            qaldQuestions.answertype,
+            getQaldQuestionString(qaldQuestions, "en"),
+            qaldQuestions.query.sparql
+          }
+        )
+    );
     return list;
   }
 

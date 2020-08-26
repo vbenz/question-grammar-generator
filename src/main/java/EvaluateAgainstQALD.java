@@ -44,31 +44,38 @@ public class EvaluateAgainstQALD {
     this.language = language;
   }
 
-  public void evaluateAndOutput(GrammarWrapper grammarWrapper) throws IOException {
-    String qaldOriginalFile = QALDImporter.QALD_FILE;
-    String qaldModifiedFile = QALDImporter.QALD_FILE_MODIFIED;
-    String resultFileName = "QALD-QueGG-Comparison_" + LocalDateTime.now()
-                                                                    .format(DateTimeFormatter.ofPattern(
-                                                                      "yyyy-MM-dd_hh-mm")) + ".csv";
-    QALDImporter qaldImporter = new QALDImporter();
-    qaldImporter.qaldToCSV(qaldOriginalFile, "QALD-2017-dataset-raw.csv");
-    QALD qaldModified = qaldImporter.readQald(qaldModifiedFile);
-    QALD qaldOriginal = qaldImporter.readQald(qaldOriginalFile);
+  public void evaluateAndOutput(
+    GrammarWrapper grammarWrapper,
+    QALD qaldOriginal,
+    QALD qaldModified,
+    boolean includeASK
+  ) throws IOException {
+    String resultFileName =
+      String.format(
+        "QALD-QueGG-Comparison_%s_%s_%s.csv",
+        qaldOriginal.equals(qaldModified) ? "original" : "modified",
+        includeASK ? "includeASK" : "withoutASK",
+        LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm"))
+      );
+    String summaryFileName = resultFileName.replace(".csv", "_summary.csv");
 
     ZonedDateTime before = ZonedDateTime.now();
-    EvaluationResult result = doEvaluation(qaldModified, grammarWrapper);
+    EvaluationResult result = doEvaluation(qaldModified, grammarWrapper, includeASK);
     ZonedDateTime after = ZonedDateTime.now();
     long duration = Duration.between(before, after).toSeconds();
 
+    QALDImporter qaldImporter = new QALDImporter();
     qaldImporter.writeToCSV(resultToPrintableList(result, qaldOriginal), resultFileName);
+    qaldImporter.writeToCSV(summaryToPrintableList(result, qaldOriginal), summaryFileName);
     LOG.info(String.format("Evaluation was completed in %dmin %ds", duration / 60, duration % 60));
     LOG.info("Results are available here: " + resultFileName);
+    LOG.info("A summary is available here: " + summaryFileName);
   }
 
-  private EvaluationResult doEvaluation(QALD qaldFile, GrammarWrapper grammarWrapper) {
+  private EvaluationResult doEvaluation(QALD qaldFile, GrammarWrapper grammarWrapper, boolean includeASK) {
 
     EvaluationResult evaluationResult = new EvaluationResult();
-    List<EntryComparison> entryComparisons = getAllSentenceMatches(qaldFile, grammarWrapper);
+    List<EntryComparison> entryComparisons = getAllSentenceMatches(qaldFile, grammarWrapper, includeASK);
     for (EntryComparison entryComparison : entryComparisons) {
 
       compareEntries(entryComparison);
@@ -78,27 +85,40 @@ public class EvaluateAgainstQALD {
       evaluationResult.setTp_global(evaluationResult.getTp_global() + entryComparison.getTp());
       evaluationResult.setFp_global(evaluationResult.getFp_global() + entryComparison.getFp());
       evaluationResult.setFn_global(evaluationResult.getFn_global() + entryComparison.getFn());
-    }
 
-    evaluationResult.setPrecision_global(calculateMeasure(
+      // Sum up precision and recall for macro value
+      evaluationResult.setPrecision_macro(evaluationResult.getPrecision_macro() + entryComparison.getPrecision());
+      evaluationResult.setRecall_macro(evaluationResult.getRecall_macro() + entryComparison.getRecall());
+      evaluationResult.setF_measure_macro(evaluationResult.getF_measure_macro() + entryComparison.getF_measure());
+    }
+    // Calculate the macro measures by averaging the already summed up values
+    evaluationResult.setPrecision_macro(evaluationResult.getPrecision_macro() / evaluationResult.getEntryComparisons()
+                                                                                                .size());
+    evaluationResult.setRecall_macro(evaluationResult.getRecall_macro() / evaluationResult.getEntryComparisons()
+                                                                                          .size());
+    evaluationResult.setF_measure_macro(evaluationResult.getF_measure_macro() / evaluationResult.getEntryComparisons()
+                                                                                                .size());
+
+    // Calculate the micro measures based on the summed up TP, FP and FN
+    evaluationResult.setPrecision_micro(calculateMeasure(
       evaluationResult.getTp_global(),
       evaluationResult.getTp_global(),
       evaluationResult
         .getFp_global()
     ));
-    evaluationResult.setRecall_global(calculateMeasure(
+    evaluationResult.setRecall_micro(calculateMeasure(
       evaluationResult.getTp_global(),
       evaluationResult.getTp_global(),
       evaluationResult
         .getFn_global()
     ));
-    evaluationResult.setF_measure_global(
+    evaluationResult.setF_measure_micro(
       (2 *
         (
           calculateMeasure(
-            evaluationResult.getPrecision_global() * evaluationResult.getRecall_global(),
-            evaluationResult.getPrecision_global(),
-            evaluationResult.getRecall_global()
+            evaluationResult.getPrecision_micro() * evaluationResult.getRecall_micro(),
+            evaluationResult.getPrecision_micro(),
+            evaluationResult.getRecall_micro()
           )
         )
       )
@@ -112,10 +132,16 @@ public class EvaluateAgainstQALD {
       evaluationResult.getFn_global()
     );
     LOG.info(
-      "precision_global: {}, recall_global: {}, f_measure_global: {}",
-      evaluationResult.getPrecision_global(),
-      evaluationResult.getRecall_global(),
-      evaluationResult.getF_measure_global()
+      "precision_micro: {}, recall_micro: {}, f_measure_micro: {}",
+      evaluationResult.getPrecision_micro(),
+      evaluationResult.getRecall_micro(),
+      evaluationResult.getF_measure_micro()
+    );
+    LOG.info(
+      "precision_macro: {}, recall_macro: {}, f_measure_macro: {}",
+      evaluationResult.getPrecision_macro(),
+      evaluationResult.getRecall_macro(),
+      evaluationResult.getF_measure_macro()
     );
     return evaluationResult;
   }
@@ -136,7 +162,6 @@ public class EvaluateAgainstQALD {
       "F-Measure",
       "Reformulated?"
     });
-    int numberOfQueGGMatches = 0;
     for (EntryComparison entryComparison : result.getEntryComparisons()) {
       list.add(
         new String[]{
@@ -162,36 +187,138 @@ public class EvaluateAgainstQALD {
           ), language.name().toLowerCase()), entryComparison.getQaldEntry().getQuestions()))
         }
       );
-      if (
-        !isNull(entryComparison.getQueGGEntry()) &&
-          !isNull(entryComparison.getQueGGEntry().getSparql()) &&
-          !entryComparison.getQueGGEntry().getSparql().equals("")
-      ) {
-        numberOfQueGGMatches++;
-      }
     }
+
+    return list;
+  }
+
+  private List<String[]> summaryToPrintableList(EvaluationResult result, QALD qaldOriginal) {
+    List<String[]> list = new ArrayList<>();
+
+    long totalEntries = result.getEntryComparisons().size();
+    long numberOfQueGGMatches =
+      result.getEntryComparisons().stream()
+            .filter(entryComparison -> !isNull(entryComparison.getQueGGEntry()))
+            .filter(entryComparison -> !isNull(entryComparison.getQueGGEntry().getSparql()))
+            .filter(entryComparison -> !entryComparison.getQueGGEntry().getSparql().equals(""))
+            .count();
+    long numberMatchesReformulated =
+      result.getEntryComparisons().stream().parallel()
+            .filter(entryComparison -> !isNull(entryComparison.getQueGGEntry()))
+            .filter(entryComparison -> !isNull(entryComparison.getQueGGEntry().getSparql()))
+            .filter(entryComparison -> !entryComparison.getQueGGEntry().getSparql().equals(""))
+            .filter(entryComparison ->
+                      checkReformulated(
+                        QALDImporter.getQaldQuestionString(
+                          getMatchingOriginalQaldQuestions(qaldOriginal, entryComparison),
+                          language.name().toLowerCase()
+                        ),
+                        entryComparison.getQaldEntry().getQuestions()
+                      )
+            )
+            .count();
+    long numberMatchesOriginal =
+      result.getEntryComparisons().stream()
+            .filter(entryComparison -> !isNull(entryComparison.getQueGGEntry()))
+            .filter(entryComparison -> !isNull(entryComparison.getQueGGEntry().getSparql()))
+            .filter(entryComparison -> !entryComparison.getQueGGEntry().getSparql().equals(""))
+            .filter(entryComparison ->
+                      !checkReformulated(
+                        QALDImporter.getQaldQuestionString(
+                          getMatchingOriginalQaldQuestions(qaldOriginal, entryComparison),
+                          language.name().toLowerCase()
+                        ),
+                        entryComparison.getQaldEntry().getQuestions()
+                      )
+            )
+            .count();
+    long numberOfReformulatedQuestions =
+      result.getEntryComparisons().stream().parallel()
+            .filter(entryComparison ->
+                      checkReformulated(
+                        QALDImporter.getQaldQuestionString(
+                          getMatchingOriginalQaldQuestions(qaldOriginal, entryComparison),
+                          language.name().toLowerCase()
+                        ),
+                        entryComparison.getQaldEntry().getQuestions()
+                      )
+            )
+            .count();
+    long numberOfASKQueries =
+      result.getEntryComparisons().stream().parallel()
+            .map(entryComparison -> entryComparison.getQaldEntry().getActualEntry())
+            .map(entryComparison -> (QALD.QALDQuestions) entryComparison)
+            .filter(qaldQuestions -> qaldQuestions.answertype.equals("boolean"))
+            .count();
+
     list.add(new String[]{
-      "",                                           // "QALD id",
-      "",                                           // "QALD original question",
-      "",                                           // "QALD original SPARQL query",
-      "",                                           // "QALD reformulated question",
-      "",                                           // "QueGG SPARQL query",
+      "",
+      "TP_sum",
+      "FP_sum",
+      "FN_sum",
+      "Precision",
+      "Recall",
+      "F-measure",
+      "#matches original",
+      "#matches reformulated",
+      "#matches total",
+      "#reformulated",
+      "#ASK_queries",
+      "#total"
+    });
+    list.add(new String[]{
+      "Micro measures",                             // "",
       String.valueOf(result.getTp_global()),        // "TP",
       String.valueOf(result.getFp_global()),        // "FP",
       String.valueOf(result.getFn_global()),        // "FN",
-      String.valueOf(result.getPrecision_global()), // "Precision",
-      String.valueOf(result.getRecall_global()),    // "Recall",
-      String.valueOf(result.getF_measure_global()), // "F-Measure",
-      "",                                           // "Reformulated?"
+      String.valueOf(result.getPrecision_micro()),  // "Precision",
+      String.valueOf(result.getRecall_micro()),     // "Recall",
+      String.valueOf(result.getF_measure_micro()),  // "F-Measure",
+      "",                                           // "#matches original"
+      "",                                           // "#matches reformulated"
+      "",                                           // "#matches total"
+      "",                                           // "#reformulated"
+      "",                                           // "#ASK_queries"
+      "",                                           // "#total"
+    });
+    list.add(new String[]{
+      "Macro measures",                             // "",
+      "",                                           // "TP",
+      "",                                           // "FP",
+      "",                                           // "FN",
+      String.valueOf(result.getPrecision_macro()),  // "Precision",
+      String.valueOf(result.getRecall_macro()),     // "Recall",
+      String.valueOf(result.getF_measure_macro()),  // "F-Measure",
+      "",                                           // "#matches original"
+      "",                                           // "#matches reformulated"
+      "",                                           // "#matches total"
+      "",                                           // "#reformulated"
+      "",                                           // "#ASK_queries"
+      "",                                           // "#total"
+    });
+    list.add(new String[]{
+      "Summary",                                    // "",
+      "",                                           // "TP",
+      "",                                           // "FP",
+      "",                                           // "FN",
+      "",                                           // "Precision",
+      "",                                           // "Recall",
+      "",                                           // "F-Measure",
+      String.valueOf(numberMatchesOriginal),        // "#matches original"
+      String.valueOf(numberMatchesReformulated),    // "#matches reformulated"
+      String.valueOf(numberOfQueGGMatches),         // "#matches total"
+      String.valueOf(numberOfReformulatedQuestions),// "#reformulated"
+      String.valueOf(numberOfASKQueries),           // "#ASK_queries"
+      String.valueOf(totalEntries),                 // "#total"
     });
     LOG.info(String.format("Total matches: %d", numberOfQueGGMatches));
     LOG.info(String.format(
       "QALD coverage: %.2f%%",
-      (float) (numberOfQueGGMatches) / (float) qaldOriginal.questions.size() * 100
+      (float) (numberOfQueGGMatches) / (float) totalEntries * 100
     ));
-
     return list;
   }
+
 
   /**
    * QueGG Satz-Prototyp: Who wrote $x?
@@ -201,7 +328,9 @@ public class EvaluateAgainstQALD {
    * -> uri nehmen und in QueGG sparql einsetzen, Ergebnisse der sparql queries (QueGG <-> QALD) vergleichen
    */
   private void compareEntries(EntryComparison entryComparison) {
-    GrammarEntry grammarEntry = !isNull(entryComparison.getQueGGEntry()) ? (GrammarEntry) entryComparison.getQueGGEntry().getActualEntry() : null;
+    GrammarEntry grammarEntry = !isNull(entryComparison.getQueGGEntry()) ?
+                                (GrammarEntry) entryComparison.getQueGGEntry().getActualEntry() :
+                                null;
     String qaldQuestion = entryComparison.getQaldEntry().getQuestions();
     String cleanQaldQuestion = cleanQALDString(qaldQuestion); //  make lower case
     String qaldSparql = entryComparison.getQaldEntry().getSparql();
@@ -220,7 +349,7 @@ public class EvaluateAgainstQALD {
                        .map(this::cleanString)
                        .map(Pattern::compile)
                        .filter(pattern -> !PatternMatchHelper.getPatternMatch(cleanQaldQuestion, pattern)
-                                                                     .isEmpty())
+                                                             .isEmpty())
                        .collect(Collectors.toList());
       // We already know that there is at least one match in the sentences!
       if (matchedPatterns.size() == 1) {
@@ -233,7 +362,6 @@ public class EvaluateAgainstQALD {
     }
 
     String uriMatch = "";
-    String bindingVarName = "";
     List<String> uriResultListQueGG = new ArrayList<>();
     List<String> uriResultListQALD;
     String matchedPattern = "";
@@ -251,7 +379,7 @@ public class EvaluateAgainstQALD {
     entryComparison.setQaldResults(uriResultListQALD);
 
     // get variable name (i.e. objOfProp, subjOfProp) from QueGG binding sparql to replace it with uriMatch
-    bindingVarName = getVarNameFromQueGGBinding(grammarEntry);
+    String bindingVarName = getVarNameFromQueGGBinding(grammarEntry);
     if (bindingVarName.isEmpty() || uriMatch.isEmpty()) {
       // Variable name to substitute in the bindings SPARQL or a valid uri substitute could not be found
       LOG.info("No match for {}", qaldQuestion);
@@ -414,7 +542,11 @@ public class EvaluateAgainstQALD {
     return !isNull(grammarEntry) ? Var.alloc(grammarEntry.getBindingVariable()).toString() : "";
   }
 
-  private List<EntryComparison> getAllSentenceMatches(QALD qaldFile, GrammarWrapper grammarWrapper) {
+  private List<EntryComparison> getAllSentenceMatches(
+    QALD qaldFile,
+    GrammarWrapper grammarWrapper,
+    boolean includeASK
+  ) {
     List<EntryComparison> matchingEntries = new ArrayList<>();
     List<String> qaldSentences =
       qaldFile.questions
@@ -523,28 +655,29 @@ public class EvaluateAgainstQALD {
         }
       );
 
-    List<EntryComparison> notMatchedQALD = qaldFile.questions.stream().parallel()
-                      .filter(
-                        qaldQuestion1 ->
-                          matchingEntries
-                            .stream().parallel()
-                            .noneMatch(entryComparison -> qaldQuestion1.id.equals(entryComparison.getQaldEntry().getId())
-                            )
-                      )
-//                      .filter(qaldQuestions -> !qaldQuestions.answertype.equals("boolean")) // removes ASK queries from result set
-                      .map(qaldQuestions -> {
-                        EntryComparison entryComparison = new EntryComparison();
-                        String qaldQuestion = QALDImporter.getQaldQuestionString(qaldQuestions, "en");
-                        String qaldSparql = qaldQuestions.query.sparql;
-                        Entry qaldEntry = new Entry();
-                        qaldEntry.setActualEntry(qaldQuestions);
-                        qaldEntry.setId(qaldQuestions.id);
-                        qaldEntry.setQuestions(qaldQuestion);
-                        qaldEntry.setSparql(qaldSparql);
-                        entryComparison.setQaldEntry(qaldEntry);
-                        return entryComparison;
-                      })
-                      .collect(Collectors.toList());
+    List<EntryComparison> notMatchedQALD =
+      qaldFile.questions.stream().parallel()
+                        .filter(
+                          qaldQuestion1 ->
+                            matchingEntries
+                              .stream().parallel()
+                              .noneMatch(entryComparison ->
+                                           qaldQuestion1.id.equals(entryComparison.getQaldEntry().getId()))
+                        )
+                        .filter(qaldQuestions -> !qaldQuestions.answertype.equals("boolean") || includeASK)
+                        .map(qaldQuestions -> {
+                          EntryComparison entryComparison = new EntryComparison();
+                          String qaldQuestion = QALDImporter.getQaldQuestionString(qaldQuestions, "en");
+                          String qaldSparql = qaldQuestions.query.sparql;
+                          Entry qaldEntry = new Entry();
+                          qaldEntry.setActualEntry(qaldQuestions);
+                          qaldEntry.setId(qaldQuestions.id);
+                          qaldEntry.setQuestions(qaldQuestion);
+                          qaldEntry.setSparql(qaldSparql);
+                          entryComparison.setQaldEntry(qaldEntry);
+                          return entryComparison;
+                        })
+                        .collect(Collectors.toList());
     matchingEntries.addAll(notMatchedQALD);
     return sortMatches(matchingEntries);
   }
