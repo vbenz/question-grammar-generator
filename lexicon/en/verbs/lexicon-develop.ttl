@@ -26,7 +26,7 @@
 
 :form_develops a   lemon:Form ;
   lemon:writtenRep "develops"@en ;
-  lexinfo:person   lexinfo:secondPerson .
+  lexinfo:person   lexinfo:thirdPerson .
 
 :form_developed a  lemon:Form ;
   lemon:writtenRep "developed"@en ;
