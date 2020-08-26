@@ -29,7 +29,7 @@
 :form_discovers a  lemon:Form ;
   lemon:writtenRep "discovers"@en ;
   lexinfo:tense    lexinfo:present ;
-  lexinfo:person   lexinfo:secondPerson .
+  lexinfo:person   lexinfo:thirdPerson .
 
 :form_discovered a lemon:Form ;
   lemon:writtenRep "discovered"@en ;

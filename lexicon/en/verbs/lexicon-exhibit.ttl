@@ -29,7 +29,7 @@
 :form_exhibits a   lemon:Form ;
   lemon:writtenRep "exhibits"@en ;
   lexinfo:tense    lexinfo:present ;
-  lexinfo:person   lexinfo:secondPerson .
+  lexinfo:person   lexinfo:thirdPerson .
 
 :form_exhibited a  lemon:Form ;
   lemon:writtenRep "exhibited"@en ;

@@ -26,7 +26,7 @@
 
 :form_directs a    lemon:Form ;
   lemon:writtenRep "directs"@en ;
-  lexinfo:person   lexinfo:secondPerson .
+  lexinfo:person   lexinfo:thirdPerson .
 
 :form_directed a   lemon:Form ;
   lemon:writtenRep "directed"@en ;
