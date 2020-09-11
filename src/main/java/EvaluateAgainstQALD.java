@@ -1,3 +1,4 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
 import evaluation.Entry;
 import evaluation.EntryComparison;
 import evaluation.EvaluationResult;
@@ -33,8 +34,11 @@ import java.util.stream.Collectors;
 
 import static grammar.generator.BindingResolver.insertBindingInSPARQL;
 import static grammar.generator.helper.BindingConstants.DEFAULT_BINDING_VARIABLE;
+import java.io.FileNotFoundException;
+import java.net.URL;
 import static java.util.Objects.isNull;
 import static org.apache.jena.sparql.syntax.ElementWalker.walk;
+import static util.io.ResourceHelper.loadResource;
 
 public class EvaluateAgainstQALD {
   private static final Logger LOG = LogManager.getLogger(EvaluateAgainstQALD.class);
@@ -42,6 +46,27 @@ public class EvaluateAgainstQALD {
 
   EvaluateAgainstQALD(Language language) {
     this.language = language;
+  }
+  
+   /*public static void main(String[] args) throws IOException {
+   EvaluateAgainstQALD evaluateAgainstQALD = new EvaluateAgainstQALD(Language.EN);
+   GrammarWrapper grammarWrapper;
+    ObjectMapper objectMapper = new ObjectMapper();
+    URL grammarEntriesFile = loadResource("grammar_FULL_DATASET_EN.json", this.getClass());
+    URL grammarEntriesFile2 = loadResource("grammar_COMBINATIONS_EN.json", this.getClass());
+    grammarWrapper = objectMapper.readValue(grammarEntriesFile, GrammarWrapper.class);
+    GrammarWrapper gw2 = objectMapper.readValue(grammarEntriesFile2, GrammarWrapper.class);
+    grammarWrapper.merge(gw2);
+  
+       
+   }*/
+   
+   public static URL loadResource(String resource, Class<?> clazz) throws FileNotFoundException {
+    URL res = clazz.getClassLoader().getResource(resource);
+    if (isNull(res)) {
+      throw new FileNotFoundException(String.format("FileNotFound: %s", resource));
+    }
+    return res;
   }
 
   public void evaluateAndOutput(GrammarWrapper grammarWrapper) throws IOException {
