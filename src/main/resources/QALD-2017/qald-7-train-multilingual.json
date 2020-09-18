@@ -14,41 +14,6 @@
 					"language": "en",
 					"string": "When was the Battle of Gettysburg?",
 					"keywords": "Battle of Gettysburg"
-				},
-				{
-					"language": "pt_BR",
-					"string": "Quando foi a batalha de Gettysburg?",
-					"keywords": "batalha de Gettysburg"
-				},
-				{
-					"language": "de",
-					"string": "Wann fand die Schlacht von Gettysburg statt?",
-					"keywords": "Schlacht von Gettysburg"
-				},
-				{
-					"language": "es",
-					"string": "¿Cuándo tuvo lugar la batalla de Gettysburg?",
-					"keywords": "batalla de Gettysburg"
-				},
-				{
-					"language": "it",
-					"string": "Quando ha avuto luogo la battaglia di Gettysburg?",
-					"keywords": "battaglia di Gettysburg"
-				},
-				{
-					"language": "fr",
-					"string": "Quand se déroula la bataille de Gettysburg?",
-					"keywords": "bataille de Gettysburg, quand"
-				},
-				{
-					"language": "nl",
-					"string": "Wanneer was de Slag bij Gettysburg?",
-					"keywords": "Slag bij Gettysburg"
-				},
-				{
-					"language": "hi_IN",
-					"string": "गेटिसबर्ग का युद्ध कब हुआ था?",
-					"keywords": "गेटिसबर्ग का युद्ध"
 				}
 			],
 			"query": {

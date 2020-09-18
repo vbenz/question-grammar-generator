@@ -4,11 +4,11 @@
             "language": "EN",
             "type": "SENTENCE",
             "bindingType": "THING",
-            "returnType": "THING",
+            "returnType": "NUMBER",
             "frameType": "NPP",
-            "sentences": ["What is the name of ($x | THING_NP)?", "What was the name of ($x | THING_NP)?"],
+            "sentences": ["What is the wavelength of ($x | THING_NP)?", "What was the wavelength of ($x | THING_NP)?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/battle> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/wavelength> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -16,305 +16,47 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Gamal Abdel Nasser",
-                        "uri": "http://dbpedia.org/resource/Gamal_Abdel_Nasser"
+                        "label": "Violet (color)",
+                        "uri": "http://dbpedia.org/resource/Violet_(color)"
                     }, {
-                        "label": "Yitzhak Rabin",
-                        "uri": "http://dbpedia.org/resource/Yitzhak_Rabin"
+                        "label": "Yellow",
+                        "uri": "http://dbpedia.org/resource/Yellow"
                     }, {
-                        "label": "Billy Fiske",
-                        "uri": "http://dbpedia.org/resource/Billy_Fiske"
+                        "label": "Shades of orange",
+                        "uri": "http://dbpedia.org/resource/Shades_of_orange"
                     }, {
-                        "label": "Oskar Romm",
-                        "uri": "http://dbpedia.org/resource/Oskar_Romm"
+                        "label": "Blue",
+                        "uri": "http://dbpedia.org/resource/Blue"
                     }, {
-                        "label": "Alan Christopher Deere",
-                        "uri": "http://dbpedia.org/resource/Alan_Christopher_Deere"
+                        "label": "Cyan",
+                        "uri": "http://dbpedia.org/resource/Cyan"
                     }, {
-                        "label": "Desmond Piers",
-                        "uri": "http://dbpedia.org/resource/Desmond_Piers"
+                        "label": "Green",
+                        "uri": "http://dbpedia.org/resource/Green"
                     }, {
-                        "label": "Douglas Bader",
-                        "uri": "http://dbpedia.org/resource/Douglas_Bader"
+                        "label": "Indigo",
+                        "uri": "http://dbpedia.org/resource/Indigo"
                     }, {
-                        "label": "Gerhard Konopka",
-                        "uri": "http://dbpedia.org/resource/Gerhard_Konopka"
+                        "label": "Red",
+                        "uri": "http://dbpedia.org/resource/Red"
                     }, {
-                        "label": "Helmut Witte",
-                        "uri": "http://dbpedia.org/resource/Helmut_Witte"
+                        "label": "Shades of green",
+                        "uri": "http://dbpedia.org/resource/Shades_of_green"
                     }, {
-                        "label": "Jesse B. Oldendorf",
-                        "uri": "http://dbpedia.org/resource/Jesse_B._Oldendorf"
+                        "label": "Shades of violet",
+                        "uri": "http://dbpedia.org/resource/Shades_of_violet"
                     }, {
-                        "label": "Johannes de Boer",
-                        "uri": "http://dbpedia.org/resource/Johannes_de_Boer"
+                        "label": "Shades of yellow",
+                        "uri": "http://dbpedia.org/resource/Shades_of_yellow"
                     }, {
-                        "label": "Jonathan Rogers (GC)",
-                        "uri": "http://dbpedia.org/resource/Jonathan_Rogers_(GC)"
+                        "label": "Orange (colour)",
+                        "uri": "http://dbpedia.org/resource/Orange_(colour)"
                     }, {
-                        "label": "Keith Park",
-                        "uri": "http://dbpedia.org/resource/Keith_Park"
+                        "label": "Shades of red",
+                        "uri": "http://dbpedia.org/resource/Shades_of_red"
                     }, {
-                        "label": "Tim Vigors",
-                        "uri": "http://dbpedia.org/resource/Tim_Vigors"
-                    }, {
-                        "label": "No. 232 Squadron RAF",
-                        "uri": "http://dbpedia.org/resource/No._232_Squadron_RAF"
-                    }, {
-                        "label": "No. 234 Squadron RAF",
-                        "uri": "http://dbpedia.org/resource/No._234_Squadron_RAF"
-                    }, {
-                        "label": "Alfred Eick",
-                        "uri": "http://dbpedia.org/resource/Alfred_Eick"
-                    }, {
-                        "label": "Barrie Heath",
-                        "uri": "http://dbpedia.org/resource/Barrie_Heath"
-                    }, {
-                        "label": "Ernst Hechler",
-                        "uri": "http://dbpedia.org/resource/Ernst_Hechler"
-                    }, {
-                        "label": "Georg Olschewski",
-                        "uri": "http://dbpedia.org/resource/Georg_Olschewski"
-                    }, {
-                        "label": "Gerhard Thäter",
-                        "uri": "http://dbpedia.org/resource/Gerhard_Thäter"
-                    }, {
-                        "label": "Heinrich Praßdorf",
-                        "uri": "http://dbpedia.org/resource/Heinrich_Praßdorf"
-                    }, {
-                        "label": "Heinrich Schroeteler",
-                        "uri": "http://dbpedia.org/resource/Heinrich_Schroeteler"
-                    }, {
-                        "label": "Heinz Sieder",
-                        "uri": "http://dbpedia.org/resource/Heinz_Sieder"
-                    }, {
-                        "label": "Hellmut Rohweder",
-                        "uri": "http://dbpedia.org/resource/Hellmut_Rohweder"
-                    }, {
-                        "label": "Horst Hofmann",
-                        "uri": "http://dbpedia.org/resource/Horst_Hofmann"
-                    }, {
-                        "label": "Horst von Schroeter",
-                        "uri": "http://dbpedia.org/resource/Horst_von_Schroeter"
-                    }, {
-                        "label": "Mohammad Shariff",
-                        "uri": "http://dbpedia.org/resource/Mohammad_Shariff"
-                    }, {
-                        "label": "Otto Westphalen",
-                        "uri": "http://dbpedia.org/resource/Otto_Westphalen"
-                    }, {
-                        "label": "Rudolf Mühlbauer",
-                        "uri": "http://dbpedia.org/resource/Rudolf_Mühlbauer"
-                    }, {
-                        "label": "Siegfried Koitschka",
-                        "uri": "http://dbpedia.org/resource/Siegfried_Koitschka"
-                    }, {
-                        "label": "Siegfried Lüdden",
-                        "uri": "http://dbpedia.org/resource/Siegfried_Lüdden"
-                    }, {
-                        "label": "Vernon Keogh",
-                        "uri": "http://dbpedia.org/resource/Vernon_Keogh"
-                    }, {
-                        "label": "Adolf Borchers",
-                        "uri": "http://dbpedia.org/resource/Adolf_Borchers"
-                    }, {
-                        "label": "Bruno Stolle",
-                        "uri": "http://dbpedia.org/resource/Bruno_Stolle"
-                    }, {
-                        "label": "Edward Wolfe (RAF officer)",
-                        "uri": "http://dbpedia.org/resource/Edward_Wolfe_(RAF_officer)"
-                    }, {
-                        "label": "Erich Schmidt (pilot)",
-                        "uri": "http://dbpedia.org/resource/Erich_Schmidt_(pilot)"
-                    }, {
-                        "label": "Friedrich Beckh",
-                        "uri": "http://dbpedia.org/resource/Friedrich_Beckh"
-                    }, {
-                        "label": "Georg Ackermann (pilot)",
-                        "uri": "http://dbpedia.org/resource/Georg_Ackermann_(pilot)"
-                    }, {
-                        "label": "Hans Fritsche (officer)",
-                        "uri": "http://dbpedia.org/resource/Hans_Fritsche_(officer)"
-                    }, {
-                        "label": "Johannes Steinhoff",
-                        "uri": "http://dbpedia.org/resource/Johannes_Steinhoff"
-                    }, {
-                        "label": "Olaf M. Hustvedt",
-                        "uri": "http://dbpedia.org/resource/Olaf_M._Hustvedt"
-                    }, {
-                        "label": "Reinhard Günzel (pilot)",
-                        "uri": "http://dbpedia.org/resource/Reinhard_Günzel_(pilot)"
-                    }, {
-                        "label": "Roland Beamont",
-                        "uri": "http://dbpedia.org/resource/Roland_Beamont"
-                    }, {
-                        "label": "Vasily Sokolovsky",
-                        "uri": "http://dbpedia.org/resource/Vasily_Sokolovsky"
-                    }, {
-                        "label": "Vollrath Lübbe",
-                        "uri": "http://dbpedia.org/resource/Vollrath_Lübbe"
-                    }, {
-                        "label": "Wilhelm Mink (pilot)",
-                        "uri": "http://dbpedia.org/resource/Wilhelm_Mink_(pilot)"
-                    }, {
-                        "label": "Alexander Danilovich Menshikov",
-                        "uri": "http://dbpedia.org/resource/Alexander_Danilovich_Menshikov"
-                    }, {
-                        "label": "Henry Kent Hewitt",
-                        "uri": "http://dbpedia.org/resource/Henry_Kent_Hewitt"
-                    }, {
-                        "label": "No. 162 Squadron RCAF",
-                        "uri": "http://dbpedia.org/resource/No._162_Squadron_RCAF"
-                    }, {
-                        "label": "Jordanian Central Command",
-                        "uri": "http://dbpedia.org/resource/Jordanian_Central_Command"
-                    }, {
-                        "label": "Jordanian Northern Command",
-                        "uri": "http://dbpedia.org/resource/Jordanian_Northern_Command"
-                    }, {
-                        "label": "1st Air Army",
-                        "uri": "http://dbpedia.org/resource/1st_Air_Army"
-                    }, {
-                        "label": "40th Army (Soviet Union)",
-                        "uri": "http://dbpedia.org/resource/40th_Army_(Soviet_Union)"
-                    }, {
-                        "label": "Fritz Losigkeit",
-                        "uri": "http://dbpedia.org/resource/Fritz_Losigkeit"
-                    }, {
-                        "label": "Geoffrey Page",
-                        "uri": "http://dbpedia.org/resource/Geoffrey_Page"
-                    }, {
-                        "label": "Gerhard Schöpfel",
-                        "uri": "http://dbpedia.org/resource/Gerhard_Schöpfel"
-                    }, {
-                        "label": "Hans \"Assi\" Hahn",
-                        "uri": "http://dbpedia.org/resource/Hans_%22Assi%22_Hahn"
-                    }, {
-                        "label": "Heinz Lange",
-                        "uri": "http://dbpedia.org/resource/Heinz_Lange"
-                    }, {
-                        "label": "No. 242 Squadron RAF",
-                        "uri": "http://dbpedia.org/resource/No._242_Squadron_RAF"
-                    }, {
-                        "label": "Rodger Winn",
-                        "uri": "http://dbpedia.org/resource/Rodger_Winn"
-                    }, {
-                        "label": "Alexander Gläser",
-                        "uri": "http://dbpedia.org/resource/Alexander_Gläser"
-                    }, {
-                        "label": "Cecil Hight",
-                        "uri": "http://dbpedia.org/resource/Cecil_Hight"
-                    }, {
-                        "label": "Erich Jaschke",
-                        "uri": "http://dbpedia.org/resource/Erich_Jaschke"
-                    }, {
-                        "label": "Ernst Buffa",
-                        "uri": "http://dbpedia.org/resource/Ernst_Buffa"
-                    }, {
-                        "label": "Friedrich Raaf",
-                        "uri": "http://dbpedia.org/resource/Friedrich_Raaf"
-                    }, {
-                        "label": "Georg Dörffel",
-                        "uri": "http://dbpedia.org/resource/Georg_Dörffel"
-                    }, {
-                        "label": "Georg Jakob",
-                        "uri": "http://dbpedia.org/resource/Georg_Jakob"
-                    }, {
-                        "label": "Gerhard Stüdemann",
-                        "uri": "http://dbpedia.org/resource/Gerhard_Stüdemann"
-                    }, {
-                        "label": "Gustav Reimar",
-                        "uri": "http://dbpedia.org/resource/Gustav_Reimar"
-                    }, {
-                        "label": "Gustav Schubert",
-                        "uri": "http://dbpedia.org/resource/Gustav_Schubert"
-                    }, {
-                        "label": "Günther Tonne",
-                        "uri": "http://dbpedia.org/resource/Günther_Tonne"
-                    }, {
-                        "label": "Hans Engelien",
-                        "uri": "http://dbpedia.org/resource/Hans_Engelien"
-                    }, {
-                        "label": "Hans Kamecke",
-                        "uri": "http://dbpedia.org/resource/Hans_Kamecke"
-                    }, {
-                        "label": "Heinrich Höfer",
-                        "uri": "http://dbpedia.org/resource/Heinrich_Höfer"
-                    }, {
-                        "label": "Heinz Frank",
-                        "uri": "http://dbpedia.org/resource/Heinz_Frank"
-                    }, {
-                        "label": "Helmut Haugk",
-                        "uri": "http://dbpedia.org/resource/Helmut_Haugk"
-                    }, {
-                        "label": "Helmuth Bode",
-                        "uri": "http://dbpedia.org/resource/Helmuth_Bode"
-                    }, {
-                        "label": "Joachim Pötter",
-                        "uri": "http://dbpedia.org/resource/Joachim_Pötter"
-                    }, {
-                        "label": "Johann Schalanda",
-                        "uri": "http://dbpedia.org/resource/Johann_Schalanda"
-                    }, {
-                        "label": "Johann Schmid",
-                        "uri": "http://dbpedia.org/resource/Johann_Schmid"
-                    }, {
-                        "label": "John Fraser Drummond",
-                        "uri": "http://dbpedia.org/resource/John_Fraser_Drummond"
-                    }, {
-                        "label": "John Loverseed",
-                        "uri": "http://dbpedia.org/resource/John_Loverseed"
-                    }, {
-                        "label": "Karl-Heinz Jaeger",
-                        "uri": "http://dbpedia.org/resource/Karl-Heinz_Jaeger"
-                    }, {
-                        "label": "Karl von Oven",
-                        "uri": "http://dbpedia.org/resource/Karl_von_Oven"
-                    }, {
-                        "label": "Otto Dommeratzky",
-                        "uri": "http://dbpedia.org/resource/Otto_Dommeratzky"
-                    }, {
-                        "label": "Petrus Hugo",
-                        "uri": "http://dbpedia.org/resource/Petrus_Hugo"
-                    }, {
-                        "label": "Reinhard Aigen",
-                        "uri": "http://dbpedia.org/resource/Reinhard_Aigen"
-                    }, {
-                        "label": "Ulrich Freiherr von Canstein",
-                        "uri": "http://dbpedia.org/resource/Ulrich_Freiherr_von_Canstein"
-                    }, {
-                        "label": "Walter Bornschein",
-                        "uri": "http://dbpedia.org/resource/Walter_Bornschein"
-                    }, {
-                        "label": "Walter Churchill",
-                        "uri": "http://dbpedia.org/resource/Walter_Churchill"
-                    }, {
-                        "label": "Werner Dörnbrack",
-                        "uri": "http://dbpedia.org/resource/Werner_Dörnbrack"
-                    }, {
-                        "label": "Wilhelm Antrup",
-                        "uri": "http://dbpedia.org/resource/Wilhelm_Antrup"
-                    }, {
-                        "label": "Wilhelm Boffer",
-                        "uri": "http://dbpedia.org/resource/Wilhelm_Boffer"
-                    }, {
-                        "label": "Wilhelm von Malachowski",
-                        "uri": "http://dbpedia.org/resource/Wilhelm_von_Malachowski"
-                    }, {
-                        "label": "No. 609 Squadron RAF",
-                        "uri": "http://dbpedia.org/resource/No._609_Squadron_RAF"
-                    }, {
-                        "label": "Robert Stanford Tuck",
-                        "uri": "http://dbpedia.org/resource/Robert_Stanford_Tuck"
-                    }, {
-                        "label": "Erich von Manstein",
-                        "uri": "http://dbpedia.org/resource/Erich_von_Manstein"
-                    }, {
-                        "label": "Michael Wittmann",
-                        "uri": "http://dbpedia.org/resource/Michael_Wittmann"
-                    }, {
-                        "label": "Ivan Yakubovsky",
-                        "uri": "http://dbpedia.org/resource/Ivan_Yakubovsky"
+                        "label": "Shades of blue",
+                        "uri": "http://dbpedia.org/resource/Shades_of_blue"
                     }]
             },
             "combination": false
@@ -323,11 +65,11 @@
             "language": "EN",
             "type": "NP",
             "bindingType": "THING",
-            "returnType": "THING",
+            "returnType": "NUMBER",
             "frameType": "NPP",
-            "sentences": ["the name of $x"],
+            "sentences": ["the wavelength of $x"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/battle> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/wavelength> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -335,310 +77,1404 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Gamal Abdel Nasser",
-                        "uri": "http://dbpedia.org/resource/Gamal_Abdel_Nasser"
+                        "label": "Violet (color)",
+                        "uri": "http://dbpedia.org/resource/Violet_(color)"
                     }, {
-                        "label": "Yitzhak Rabin",
-                        "uri": "http://dbpedia.org/resource/Yitzhak_Rabin"
+                        "label": "Yellow",
+                        "uri": "http://dbpedia.org/resource/Yellow"
                     }, {
-                        "label": "Billy Fiske",
-                        "uri": "http://dbpedia.org/resource/Billy_Fiske"
+                        "label": "Shades of orange",
+                        "uri": "http://dbpedia.org/resource/Shades_of_orange"
                     }, {
-                        "label": "Oskar Romm",
-                        "uri": "http://dbpedia.org/resource/Oskar_Romm"
+                        "label": "Blue",
+                        "uri": "http://dbpedia.org/resource/Blue"
                     }, {
-                        "label": "Alan Christopher Deere",
-                        "uri": "http://dbpedia.org/resource/Alan_Christopher_Deere"
+                        "label": "Cyan",
+                        "uri": "http://dbpedia.org/resource/Cyan"
                     }, {
-                        "label": "Desmond Piers",
-                        "uri": "http://dbpedia.org/resource/Desmond_Piers"
+                        "label": "Green",
+                        "uri": "http://dbpedia.org/resource/Green"
                     }, {
-                        "label": "Douglas Bader",
-                        "uri": "http://dbpedia.org/resource/Douglas_Bader"
+                        "label": "Indigo",
+                        "uri": "http://dbpedia.org/resource/Indigo"
                     }, {
-                        "label": "Gerhard Konopka",
-                        "uri": "http://dbpedia.org/resource/Gerhard_Konopka"
+                        "label": "Red",
+                        "uri": "http://dbpedia.org/resource/Red"
                     }, {
-                        "label": "Helmut Witte",
-                        "uri": "http://dbpedia.org/resource/Helmut_Witte"
+                        "label": "Shades of green",
+                        "uri": "http://dbpedia.org/resource/Shades_of_green"
                     }, {
-                        "label": "Jesse B. Oldendorf",
-                        "uri": "http://dbpedia.org/resource/Jesse_B._Oldendorf"
+                        "label": "Shades of violet",
+                        "uri": "http://dbpedia.org/resource/Shades_of_violet"
                     }, {
-                        "label": "Johannes de Boer",
-                        "uri": "http://dbpedia.org/resource/Johannes_de_Boer"
+                        "label": "Shades of yellow",
+                        "uri": "http://dbpedia.org/resource/Shades_of_yellow"
                     }, {
-                        "label": "Jonathan Rogers (GC)",
-                        "uri": "http://dbpedia.org/resource/Jonathan_Rogers_(GC)"
+                        "label": "Orange (colour)",
+                        "uri": "http://dbpedia.org/resource/Orange_(colour)"
                     }, {
-                        "label": "Keith Park",
-                        "uri": "http://dbpedia.org/resource/Keith_Park"
+                        "label": "Shades of red",
+                        "uri": "http://dbpedia.org/resource/Shades_of_red"
                     }, {
-                        "label": "Tim Vigors",
-                        "uri": "http://dbpedia.org/resource/Tim_Vigors"
-                    }, {
-                        "label": "No. 232 Squadron RAF",
-                        "uri": "http://dbpedia.org/resource/No._232_Squadron_RAF"
-                    }, {
-                        "label": "No. 234 Squadron RAF",
-                        "uri": "http://dbpedia.org/resource/No._234_Squadron_RAF"
-                    }, {
-                        "label": "Alfred Eick",
-                        "uri": "http://dbpedia.org/resource/Alfred_Eick"
-                    }, {
-                        "label": "Barrie Heath",
-                        "uri": "http://dbpedia.org/resource/Barrie_Heath"
-                    }, {
-                        "label": "Ernst Hechler",
-                        "uri": "http://dbpedia.org/resource/Ernst_Hechler"
-                    }, {
-                        "label": "Georg Olschewski",
-                        "uri": "http://dbpedia.org/resource/Georg_Olschewski"
-                    }, {
-                        "label": "Gerhard Thäter",
-                        "uri": "http://dbpedia.org/resource/Gerhard_Thäter"
-                    }, {
-                        "label": "Heinrich Praßdorf",
-                        "uri": "http://dbpedia.org/resource/Heinrich_Praßdorf"
-                    }, {
-                        "label": "Heinrich Schroeteler",
-                        "uri": "http://dbpedia.org/resource/Heinrich_Schroeteler"
-                    }, {
-                        "label": "Heinz Sieder",
-                        "uri": "http://dbpedia.org/resource/Heinz_Sieder"
-                    }, {
-                        "label": "Hellmut Rohweder",
-                        "uri": "http://dbpedia.org/resource/Hellmut_Rohweder"
-                    }, {
-                        "label": "Horst Hofmann",
-                        "uri": "http://dbpedia.org/resource/Horst_Hofmann"
-                    }, {
-                        "label": "Horst von Schroeter",
-                        "uri": "http://dbpedia.org/resource/Horst_von_Schroeter"
-                    }, {
-                        "label": "Mohammad Shariff",
-                        "uri": "http://dbpedia.org/resource/Mohammad_Shariff"
-                    }, {
-                        "label": "Otto Westphalen",
-                        "uri": "http://dbpedia.org/resource/Otto_Westphalen"
-                    }, {
-                        "label": "Rudolf Mühlbauer",
-                        "uri": "http://dbpedia.org/resource/Rudolf_Mühlbauer"
-                    }, {
-                        "label": "Siegfried Koitschka",
-                        "uri": "http://dbpedia.org/resource/Siegfried_Koitschka"
-                    }, {
-                        "label": "Siegfried Lüdden",
-                        "uri": "http://dbpedia.org/resource/Siegfried_Lüdden"
-                    }, {
-                        "label": "Vernon Keogh",
-                        "uri": "http://dbpedia.org/resource/Vernon_Keogh"
-                    }, {
-                        "label": "Adolf Borchers",
-                        "uri": "http://dbpedia.org/resource/Adolf_Borchers"
-                    }, {
-                        "label": "Bruno Stolle",
-                        "uri": "http://dbpedia.org/resource/Bruno_Stolle"
-                    }, {
-                        "label": "Edward Wolfe (RAF officer)",
-                        "uri": "http://dbpedia.org/resource/Edward_Wolfe_(RAF_officer)"
-                    }, {
-                        "label": "Erich Schmidt (pilot)",
-                        "uri": "http://dbpedia.org/resource/Erich_Schmidt_(pilot)"
-                    }, {
-                        "label": "Friedrich Beckh",
-                        "uri": "http://dbpedia.org/resource/Friedrich_Beckh"
-                    }, {
-                        "label": "Georg Ackermann (pilot)",
-                        "uri": "http://dbpedia.org/resource/Georg_Ackermann_(pilot)"
-                    }, {
-                        "label": "Hans Fritsche (officer)",
-                        "uri": "http://dbpedia.org/resource/Hans_Fritsche_(officer)"
-                    }, {
-                        "label": "Johannes Steinhoff",
-                        "uri": "http://dbpedia.org/resource/Johannes_Steinhoff"
-                    }, {
-                        "label": "Olaf M. Hustvedt",
-                        "uri": "http://dbpedia.org/resource/Olaf_M._Hustvedt"
-                    }, {
-                        "label": "Reinhard Günzel (pilot)",
-                        "uri": "http://dbpedia.org/resource/Reinhard_Günzel_(pilot)"
-                    }, {
-                        "label": "Roland Beamont",
-                        "uri": "http://dbpedia.org/resource/Roland_Beamont"
-                    }, {
-                        "label": "Vasily Sokolovsky",
-                        "uri": "http://dbpedia.org/resource/Vasily_Sokolovsky"
-                    }, {
-                        "label": "Vollrath Lübbe",
-                        "uri": "http://dbpedia.org/resource/Vollrath_Lübbe"
-                    }, {
-                        "label": "Wilhelm Mink (pilot)",
-                        "uri": "http://dbpedia.org/resource/Wilhelm_Mink_(pilot)"
-                    }, {
-                        "label": "Alexander Danilovich Menshikov",
-                        "uri": "http://dbpedia.org/resource/Alexander_Danilovich_Menshikov"
-                    }, {
-                        "label": "Henry Kent Hewitt",
-                        "uri": "http://dbpedia.org/resource/Henry_Kent_Hewitt"
-                    }, {
-                        "label": "No. 162 Squadron RCAF",
-                        "uri": "http://dbpedia.org/resource/No._162_Squadron_RCAF"
-                    }, {
-                        "label": "Jordanian Central Command",
-                        "uri": "http://dbpedia.org/resource/Jordanian_Central_Command"
-                    }, {
-                        "label": "Jordanian Northern Command",
-                        "uri": "http://dbpedia.org/resource/Jordanian_Northern_Command"
-                    }, {
-                        "label": "1st Air Army",
-                        "uri": "http://dbpedia.org/resource/1st_Air_Army"
-                    }, {
-                        "label": "40th Army (Soviet Union)",
-                        "uri": "http://dbpedia.org/resource/40th_Army_(Soviet_Union)"
-                    }, {
-                        "label": "Fritz Losigkeit",
-                        "uri": "http://dbpedia.org/resource/Fritz_Losigkeit"
-                    }, {
-                        "label": "Geoffrey Page",
-                        "uri": "http://dbpedia.org/resource/Geoffrey_Page"
-                    }, {
-                        "label": "Gerhard Schöpfel",
-                        "uri": "http://dbpedia.org/resource/Gerhard_Schöpfel"
-                    }, {
-                        "label": "Hans \"Assi\" Hahn",
-                        "uri": "http://dbpedia.org/resource/Hans_%22Assi%22_Hahn"
-                    }, {
-                        "label": "Heinz Lange",
-                        "uri": "http://dbpedia.org/resource/Heinz_Lange"
-                    }, {
-                        "label": "No. 242 Squadron RAF",
-                        "uri": "http://dbpedia.org/resource/No._242_Squadron_RAF"
-                    }, {
-                        "label": "Rodger Winn",
-                        "uri": "http://dbpedia.org/resource/Rodger_Winn"
-                    }, {
-                        "label": "Alexander Gläser",
-                        "uri": "http://dbpedia.org/resource/Alexander_Gläser"
-                    }, {
-                        "label": "Cecil Hight",
-                        "uri": "http://dbpedia.org/resource/Cecil_Hight"
-                    }, {
-                        "label": "Erich Jaschke",
-                        "uri": "http://dbpedia.org/resource/Erich_Jaschke"
-                    }, {
-                        "label": "Ernst Buffa",
-                        "uri": "http://dbpedia.org/resource/Ernst_Buffa"
-                    }, {
-                        "label": "Friedrich Raaf",
-                        "uri": "http://dbpedia.org/resource/Friedrich_Raaf"
-                    }, {
-                        "label": "Georg Dörffel",
-                        "uri": "http://dbpedia.org/resource/Georg_Dörffel"
-                    }, {
-                        "label": "Georg Jakob",
-                        "uri": "http://dbpedia.org/resource/Georg_Jakob"
-                    }, {
-                        "label": "Gerhard Stüdemann",
-                        "uri": "http://dbpedia.org/resource/Gerhard_Stüdemann"
-                    }, {
-                        "label": "Gustav Reimar",
-                        "uri": "http://dbpedia.org/resource/Gustav_Reimar"
-                    }, {
-                        "label": "Gustav Schubert",
-                        "uri": "http://dbpedia.org/resource/Gustav_Schubert"
-                    }, {
-                        "label": "Günther Tonne",
-                        "uri": "http://dbpedia.org/resource/Günther_Tonne"
-                    }, {
-                        "label": "Hans Engelien",
-                        "uri": "http://dbpedia.org/resource/Hans_Engelien"
-                    }, {
-                        "label": "Hans Kamecke",
-                        "uri": "http://dbpedia.org/resource/Hans_Kamecke"
-                    }, {
-                        "label": "Heinrich Höfer",
-                        "uri": "http://dbpedia.org/resource/Heinrich_Höfer"
-                    }, {
-                        "label": "Heinz Frank",
-                        "uri": "http://dbpedia.org/resource/Heinz_Frank"
-                    }, {
-                        "label": "Helmut Haugk",
-                        "uri": "http://dbpedia.org/resource/Helmut_Haugk"
-                    }, {
-                        "label": "Helmuth Bode",
-                        "uri": "http://dbpedia.org/resource/Helmuth_Bode"
-                    }, {
-                        "label": "Joachim Pötter",
-                        "uri": "http://dbpedia.org/resource/Joachim_Pötter"
-                    }, {
-                        "label": "Johann Schalanda",
-                        "uri": "http://dbpedia.org/resource/Johann_Schalanda"
-                    }, {
-                        "label": "Johann Schmid",
-                        "uri": "http://dbpedia.org/resource/Johann_Schmid"
-                    }, {
-                        "label": "John Fraser Drummond",
-                        "uri": "http://dbpedia.org/resource/John_Fraser_Drummond"
-                    }, {
-                        "label": "John Loverseed",
-                        "uri": "http://dbpedia.org/resource/John_Loverseed"
-                    }, {
-                        "label": "Karl-Heinz Jaeger",
-                        "uri": "http://dbpedia.org/resource/Karl-Heinz_Jaeger"
-                    }, {
-                        "label": "Karl von Oven",
-                        "uri": "http://dbpedia.org/resource/Karl_von_Oven"
-                    }, {
-                        "label": "Otto Dommeratzky",
-                        "uri": "http://dbpedia.org/resource/Otto_Dommeratzky"
-                    }, {
-                        "label": "Petrus Hugo",
-                        "uri": "http://dbpedia.org/resource/Petrus_Hugo"
-                    }, {
-                        "label": "Reinhard Aigen",
-                        "uri": "http://dbpedia.org/resource/Reinhard_Aigen"
-                    }, {
-                        "label": "Ulrich Freiherr von Canstein",
-                        "uri": "http://dbpedia.org/resource/Ulrich_Freiherr_von_Canstein"
-                    }, {
-                        "label": "Walter Bornschein",
-                        "uri": "http://dbpedia.org/resource/Walter_Bornschein"
-                    }, {
-                        "label": "Walter Churchill",
-                        "uri": "http://dbpedia.org/resource/Walter_Churchill"
-                    }, {
-                        "label": "Werner Dörnbrack",
-                        "uri": "http://dbpedia.org/resource/Werner_Dörnbrack"
-                    }, {
-                        "label": "Wilhelm Antrup",
-                        "uri": "http://dbpedia.org/resource/Wilhelm_Antrup"
-                    }, {
-                        "label": "Wilhelm Boffer",
-                        "uri": "http://dbpedia.org/resource/Wilhelm_Boffer"
-                    }, {
-                        "label": "Wilhelm von Malachowski",
-                        "uri": "http://dbpedia.org/resource/Wilhelm_von_Malachowski"
-                    }, {
-                        "label": "No. 609 Squadron RAF",
-                        "uri": "http://dbpedia.org/resource/No._609_Squadron_RAF"
-                    }, {
-                        "label": "Robert Stanford Tuck",
-                        "uri": "http://dbpedia.org/resource/Robert_Stanford_Tuck"
-                    }, {
-                        "label": "Erich von Manstein",
-                        "uri": "http://dbpedia.org/resource/Erich_von_Manstein"
-                    }, {
-                        "label": "Michael Wittmann",
-                        "uri": "http://dbpedia.org/resource/Michael_Wittmann"
-                    }, {
-                        "label": "Ivan Yakubovsky",
-                        "uri": "http://dbpedia.org/resource/Ivan_Yakubovsky"
+                        "label": "Shades of blue",
+                        "uri": "http://dbpedia.org/resource/Shades_of_blue"
                     }]
             },
             "combination": false
         }, {
             "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "COUNTRY",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["What is the largest state in ($x | COUNTRY_NP)?", "What was the largest state in ($x | COUNTRY_NP)?", "Which state is the largest state in ($x | COUNTRY_NP)?", "Which state was the largest state in ($x | COUNTRY_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/AdministrativeRegion> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "COUNTRY",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the largest state in $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/AdministrativeRegion> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "5",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["What is the other name of ($x | THING_NP)?", "What was the other name of ($x | THING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/otherName> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Hira Mountains",
+                        "uri": "http://dbpedia.org/resource/Hira_Mountains"
+                    }, {
+                        "label": "Kula (volcano)",
+                        "uri": "http://dbpedia.org/resource/Kula_(volcano)"
+                    }, {
+                        "label": "Mount Aino",
+                        "uri": "http://dbpedia.org/resource/Mount_Aino"
+                    }, {
+                        "label": "North Head, New Zealand",
+                        "uri": "http://dbpedia.org/resource/North_Head,_New_Zealand"
+                    }, {
+                        "label": "Kronplatz",
+                        "uri": "http://dbpedia.org/resource/Kronplatz"
+                    }, {
+                        "label": "Askøyfjellet",
+                        "uri": "http://dbpedia.org/resource/Askøyfjellet"
+                    }, {
+                        "label": "Hazaran",
+                        "uri": "http://dbpedia.org/resource/Hazaran"
+                    }, {
+                        "label": "Kozubová",
+                        "uri": "http://dbpedia.org/resource/Kozubová"
+                    }, {
+                        "label": "Letha Taung",
+                        "uri": "http://dbpedia.org/resource/Letha_Taung"
+                    }, {
+                        "label": "Monte Amiata",
+                        "uri": "http://dbpedia.org/resource/Monte_Amiata"
+                    }, {
+                        "label": "San Carlos (Equatorial Guinea)",
+                        "uri": "http://dbpedia.org/resource/San_Carlos_(Equatorial_Guinea)"
+                    }, {
+                        "label": "Schynige Platte",
+                        "uri": "http://dbpedia.org/resource/Schynige_Platte"
+                    }, {
+                        "label": "Slieve na Calliagh",
+                        "uri": "http://dbpedia.org/resource/Slieve_na_Calliagh"
+                    }, {
+                        "label": "Slieveboy",
+                        "uri": "http://dbpedia.org/resource/Slieveboy"
+                    }, {
+                        "label": "Svartfjellet, Kvaløya",
+                        "uri": "http://dbpedia.org/resource/Svartfjellet,_Kvaløya"
+                    }, {
+                        "label": "Taras Hill",
+                        "uri": "http://dbpedia.org/resource/Taras_Hill"
+                    }, {
+                        "label": "Doi Luang, Phi Pan Nam Range",
+                        "uri": "http://dbpedia.org/resource/Doi_Luang,_Phi_Pan_Nam_Range"
+                    }, {
+                        "label": "Liushi Shan",
+                        "uri": "http://dbpedia.org/resource/Liushi_Shan"
+                    }, {
+                        "label": "Mittaghorn (Rawilpass)",
+                        "uri": "http://dbpedia.org/resource/Mittaghorn_(Rawilpass)"
+                    }, {
+                        "label": "Sickle Moon Peak",
+                        "uri": "http://dbpedia.org/resource/Sickle_Moon_Peak"
+                    }, {
+                        "label": "Chinchey",
+                        "uri": "http://dbpedia.org/resource/Chinchey"
+                    }, {
+                        "label": "Laguna Volcanic Field",
+                        "uri": "http://dbpedia.org/resource/Laguna_Volcanic_Field"
+                    }, {
+                        "label": "Slieve Gullion",
+                        "uri": "http://dbpedia.org/resource/Slieve_Gullion"
+                    }, {
+                        "label": "Bible Rock",
+                        "uri": "http://dbpedia.org/resource/Bible_Rock"
+                    }, {
+                        "label": "Boccard Point",
+                        "uri": "http://dbpedia.org/resource/Boccard_Point"
+                    }, {
+                        "label": "Bulahdelah Mountain",
+                        "uri": "http://dbpedia.org/resource/Bulahdelah_Mountain"
+                    }, {
+                        "label": "Chaupi Orco (mountain)",
+                        "uri": "http://dbpedia.org/resource/Chaupi_Orco_(mountain)"
+                    }, {
+                        "label": "Colline du Charf",
+                        "uri": "http://dbpedia.org/resource/Colline_du_Charf"
+                    }, {
+                        "label": "Dreischusterspitze",
+                        "uri": "http://dbpedia.org/resource/Dreischusterspitze"
+                    }, {
+                        "label": "Hualca Hualca",
+                        "uri": "http://dbpedia.org/resource/Hualca_Hualca"
+                    }, {
+                        "label": "Huandoy",
+                        "uri": "http://dbpedia.org/resource/Huandoy"
+                    }, {
+                        "label": "Jôf di Montasio",
+                        "uri": "http://dbpedia.org/resource/Jôf_di_Montasio"
+                    }, {
+                        "label": "Kalanag",
+                        "uri": "http://dbpedia.org/resource/Kalanag"
+                    }, {
+                        "label": "Mangart",
+                        "uri": "http://dbpedia.org/resource/Mangart"
+                    }, {
+                        "label": "Mehammarsåta",
+                        "uri": "http://dbpedia.org/resource/Mehammarsåta"
+                    }, {
+                        "label": "Mount Bélair",
+                        "uri": "http://dbpedia.org/resource/Mount_Bélair"
+                    }, {
+                        "label": "Saka Haphong",
+                        "uri": "http://dbpedia.org/resource/Saka_Haphong"
+                    }, {
+                        "label": "Baga Bogd",
+                        "uri": "http://dbpedia.org/resource/Baga_Bogd"
+                    }, {
+                        "label": "Birreencorragh",
+                        "uri": "http://dbpedia.org/resource/Birreencorragh"
+                    }, {
+                        "label": "Espadas Peak",
+                        "uri": "http://dbpedia.org/resource/Espadas_Peak"
+                    }, {
+                        "label": "Großer Sonnblick",
+                        "uri": "http://dbpedia.org/resource/Großer_Sonnblick"
+                    }, {
+                        "label": "Hülfensberg",
+                        "uri": "http://dbpedia.org/resource/Hülfensberg"
+                    }, {
+                        "label": "Malepunyo Mountain Range",
+                        "uri": "http://dbpedia.org/resource/Malepunyo_Mountain_Range"
+                    }, {
+                        "label": "Mount Adishi",
+                        "uri": "http://dbpedia.org/resource/Mount_Adishi"
+                    }, {
+                        "label": "Mount Tapulao",
+                        "uri": "http://dbpedia.org/resource/Mount_Tapulao"
+                    }, {
+                        "label": "Pointe de Paumont",
+                        "uri": "http://dbpedia.org/resource/Pointe_de_Paumont"
+                    }, {
+                        "label": "Punta Sommeiller",
+                        "uri": "http://dbpedia.org/resource/Punta_Sommeiller"
+                    }, {
+                        "label": "Sutai Mountain",
+                        "uri": "http://dbpedia.org/resource/Sutai_Mountain"
+                    }, {
+                        "label": "Tsambagarav",
+                        "uri": "http://dbpedia.org/resource/Tsambagarav"
+                    }, {
+                        "label": "Yuzhu Peak",
+                        "uri": "http://dbpedia.org/resource/Yuzhu_Peak"
+                    }, {
+                        "label": "Belmore Mountain",
+                        "uri": "http://dbpedia.org/resource/Belmore_Mountain"
+                    }, {
+                        "label": "Black Mountain (Australian Capital Territory)",
+                        "uri": "http://dbpedia.org/resource/Black_Mountain_(Australian_Capital_Territory)"
+                    }, {
+                        "label": "Black Mountain (Belfast)",
+                        "uri": "http://dbpedia.org/resource/Black_Mountain_(Belfast)"
+                    }, {
+                        "label": "L'Argentine",
+                        "uri": "http://dbpedia.org/resource/L'Argentine"
+                    }, {
+                        "label": "Mont Durand",
+                        "uri": "http://dbpedia.org/resource/Mont_Durand"
+                    }, {
+                        "label": "Mount Pinnacle",
+                        "uri": "http://dbpedia.org/resource/Mount_Pinnacle"
+                    }, {
+                        "label": "Mount Takao",
+                        "uri": "http://dbpedia.org/resource/Mount_Takao"
+                    }, {
+                        "label": "Mount Thor",
+                        "uri": "http://dbpedia.org/resource/Mount_Thor"
+                    }, {
+                        "label": "Penobscot Knob",
+                        "uri": "http://dbpedia.org/resource/Penobscot_Knob"
+                    }, {
+                        "label": "Santa Isabel (volcano)",
+                        "uri": "http://dbpedia.org/resource/Santa_Isabel_(volcano)"
+                    }, {
+                        "label": "Sentinel Peak (Arizona)",
+                        "uri": "http://dbpedia.org/resource/Sentinel_Peak_(Arizona)"
+                    }, {
+                        "label": "Serra de Crevillent",
+                        "uri": "http://dbpedia.org/resource/Serra_de_Crevillent"
+                    }, {
+                        "label": "Taal Volcano",
+                        "uri": "http://dbpedia.org/resource/Taal_Volcano"
+                    }, {
+                        "label": "Binevenagh",
+                        "uri": "http://dbpedia.org/resource/Binevenagh"
+                    }, {
+                        "label": "Cuilcagh",
+                        "uri": "http://dbpedia.org/resource/Cuilcagh"
+                    }, {
+                        "label": "Devilsmother",
+                        "uri": "http://dbpedia.org/resource/Devilsmother"
+                    }, {
+                        "label": "Divis",
+                        "uri": "http://dbpedia.org/resource/Divis"
+                    }, {
+                        "label": "Mweelrea",
+                        "uri": "http://dbpedia.org/resource/Mweelrea"
+                    }, {
+                        "label": "Rimutaka Range",
+                        "uri": "http://dbpedia.org/resource/Rimutaka_Range"
+                    }, {
+                        "label": "Slieve Bloom Mountains",
+                        "uri": "http://dbpedia.org/resource/Slieve_Bloom_Mountains"
+                    }, {
+                        "label": "Slieve League",
+                        "uri": "http://dbpedia.org/resource/Slieve_League"
+                    }, {
+                        "label": "Sugarloaf (County Cork)",
+                        "uri": "http://dbpedia.org/resource/Sugarloaf_(County_Cork)"
+                    }, {
+                        "label": "Corbières Massif",
+                        "uri": "http://dbpedia.org/resource/Corbières_Massif"
+                    }, {
+                        "label": "Aj Bogd",
+                        "uri": "http://dbpedia.org/resource/Aj_Bogd"
+                    }, {
+                        "label": "Mount Hobson (Auckland)",
+                        "uri": "http://dbpedia.org/resource/Mount_Hobson_(Auckland)"
+                    }, {
+                        "label": "Mullaghmore, County Clare",
+                        "uri": "http://dbpedia.org/resource/Mullaghmore,_County_Clare"
+                    }, {
+                        "label": "Puncak Jaya",
+                        "uri": "http://dbpedia.org/resource/Puncak_Jaya"
+                    }, {
+                        "label": "Sela (Saudi Arabia)",
+                        "uri": "http://dbpedia.org/resource/Sela_(Saudi_Arabia)"
+                    }, {
+                        "label": "Bwlch y Ddwyallt",
+                        "uri": "http://dbpedia.org/resource/Bwlch_y_Ddwyallt"
+                    }, {
+                        "label": "Garreg Las",
+                        "uri": "http://dbpedia.org/resource/Garreg_Las"
+                    }, {
+                        "label": "Mount Smart",
+                        "uri": "http://dbpedia.org/resource/Mount_Smart"
+                    }, {
+                        "label": "Rhos Fawr",
+                        "uri": "http://dbpedia.org/resource/Rhos_Fawr"
+                    }, {
+                        "label": "Mount Richmond",
+                        "uri": "http://dbpedia.org/resource/Mount_Richmond"
+                    }, {
+                        "label": "Alcamarinayoc",
+                        "uri": "http://dbpedia.org/resource/Alcamarinayoc"
+                    }, {
+                        "label": "Ambuthirtha",
+                        "uri": "http://dbpedia.org/resource/Ambuthirtha"
+                    }, {
+                        "label": "Big Baldy Mountain (Montana)",
+                        "uri": "http://dbpedia.org/resource/Big_Baldy_Mountain_(Montana)"
+                    }, {
+                        "label": "Champara",
+                        "uri": "http://dbpedia.org/resource/Champara"
+                    }, {
+                        "label": "Dobro Pole",
+                        "uri": "http://dbpedia.org/resource/Dobro_Pole"
+                    }, {
+                        "label": "Furgglenfirst",
+                        "uri": "http://dbpedia.org/resource/Furgglenfirst"
+                    }, {
+                        "label": "Japu Punta",
+                        "uri": "http://dbpedia.org/resource/Japu_Punta"
+                    }, {
+                        "label": "Jebel Azao",
+                        "uri": "http://dbpedia.org/resource/Jebel_Azao"
+                    }, {
+                        "label": "Khao Kho",
+                        "uri": "http://dbpedia.org/resource/Khao_Kho"
+                    }, {
+                        "label": "Melsnuten",
+                        "uri": "http://dbpedia.org/resource/Melsnuten"
+                    }, {
+                        "label": "Mullwharchar",
+                        "uri": "http://dbpedia.org/resource/Mullwharchar"
+                    }, {
+                        "label": "Padreyoc (Cusco)",
+                        "uri": "http://dbpedia.org/resource/Padreyoc_(Cusco)"
+                    }, {
+                        "label": "Paohanli Peak",
+                        "uri": "http://dbpedia.org/resource/Paohanli_Peak"
+                    }, {
+                        "label": "Piz di Sassiglion",
+                        "uri": "http://dbpedia.org/resource/Piz_di_Sassiglion"
+                    }, {
+                        "label": "Sahuasiray",
+                        "uri": "http://dbpedia.org/resource/Sahuasiray"
+                    }, {
+                        "label": "Sex du Coeur",
+                        "uri": "http://dbpedia.org/resource/Sex_du_Coeur"
+                    }, {
+                        "label": "Urus (mountain)",
+                        "uri": "http://dbpedia.org/resource/Urus_(mountain)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "6",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the other name of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/otherName> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Hira Mountains",
+                        "uri": "http://dbpedia.org/resource/Hira_Mountains"
+                    }, {
+                        "label": "Kula (volcano)",
+                        "uri": "http://dbpedia.org/resource/Kula_(volcano)"
+                    }, {
+                        "label": "Mount Aino",
+                        "uri": "http://dbpedia.org/resource/Mount_Aino"
+                    }, {
+                        "label": "North Head, New Zealand",
+                        "uri": "http://dbpedia.org/resource/North_Head,_New_Zealand"
+                    }, {
+                        "label": "Kronplatz",
+                        "uri": "http://dbpedia.org/resource/Kronplatz"
+                    }, {
+                        "label": "Askøyfjellet",
+                        "uri": "http://dbpedia.org/resource/Askøyfjellet"
+                    }, {
+                        "label": "Hazaran",
+                        "uri": "http://dbpedia.org/resource/Hazaran"
+                    }, {
+                        "label": "Kozubová",
+                        "uri": "http://dbpedia.org/resource/Kozubová"
+                    }, {
+                        "label": "Letha Taung",
+                        "uri": "http://dbpedia.org/resource/Letha_Taung"
+                    }, {
+                        "label": "Monte Amiata",
+                        "uri": "http://dbpedia.org/resource/Monte_Amiata"
+                    }, {
+                        "label": "San Carlos (Equatorial Guinea)",
+                        "uri": "http://dbpedia.org/resource/San_Carlos_(Equatorial_Guinea)"
+                    }, {
+                        "label": "Schynige Platte",
+                        "uri": "http://dbpedia.org/resource/Schynige_Platte"
+                    }, {
+                        "label": "Slieve na Calliagh",
+                        "uri": "http://dbpedia.org/resource/Slieve_na_Calliagh"
+                    }, {
+                        "label": "Slieveboy",
+                        "uri": "http://dbpedia.org/resource/Slieveboy"
+                    }, {
+                        "label": "Svartfjellet, Kvaløya",
+                        "uri": "http://dbpedia.org/resource/Svartfjellet,_Kvaløya"
+                    }, {
+                        "label": "Taras Hill",
+                        "uri": "http://dbpedia.org/resource/Taras_Hill"
+                    }, {
+                        "label": "Doi Luang, Phi Pan Nam Range",
+                        "uri": "http://dbpedia.org/resource/Doi_Luang,_Phi_Pan_Nam_Range"
+                    }, {
+                        "label": "Liushi Shan",
+                        "uri": "http://dbpedia.org/resource/Liushi_Shan"
+                    }, {
+                        "label": "Mittaghorn (Rawilpass)",
+                        "uri": "http://dbpedia.org/resource/Mittaghorn_(Rawilpass)"
+                    }, {
+                        "label": "Sickle Moon Peak",
+                        "uri": "http://dbpedia.org/resource/Sickle_Moon_Peak"
+                    }, {
+                        "label": "Chinchey",
+                        "uri": "http://dbpedia.org/resource/Chinchey"
+                    }, {
+                        "label": "Laguna Volcanic Field",
+                        "uri": "http://dbpedia.org/resource/Laguna_Volcanic_Field"
+                    }, {
+                        "label": "Slieve Gullion",
+                        "uri": "http://dbpedia.org/resource/Slieve_Gullion"
+                    }, {
+                        "label": "Bible Rock",
+                        "uri": "http://dbpedia.org/resource/Bible_Rock"
+                    }, {
+                        "label": "Boccard Point",
+                        "uri": "http://dbpedia.org/resource/Boccard_Point"
+                    }, {
+                        "label": "Bulahdelah Mountain",
+                        "uri": "http://dbpedia.org/resource/Bulahdelah_Mountain"
+                    }, {
+                        "label": "Chaupi Orco (mountain)",
+                        "uri": "http://dbpedia.org/resource/Chaupi_Orco_(mountain)"
+                    }, {
+                        "label": "Colline du Charf",
+                        "uri": "http://dbpedia.org/resource/Colline_du_Charf"
+                    }, {
+                        "label": "Dreischusterspitze",
+                        "uri": "http://dbpedia.org/resource/Dreischusterspitze"
+                    }, {
+                        "label": "Hualca Hualca",
+                        "uri": "http://dbpedia.org/resource/Hualca_Hualca"
+                    }, {
+                        "label": "Huandoy",
+                        "uri": "http://dbpedia.org/resource/Huandoy"
+                    }, {
+                        "label": "Jôf di Montasio",
+                        "uri": "http://dbpedia.org/resource/Jôf_di_Montasio"
+                    }, {
+                        "label": "Kalanag",
+                        "uri": "http://dbpedia.org/resource/Kalanag"
+                    }, {
+                        "label": "Mangart",
+                        "uri": "http://dbpedia.org/resource/Mangart"
+                    }, {
+                        "label": "Mehammarsåta",
+                        "uri": "http://dbpedia.org/resource/Mehammarsåta"
+                    }, {
+                        "label": "Mount Bélair",
+                        "uri": "http://dbpedia.org/resource/Mount_Bélair"
+                    }, {
+                        "label": "Saka Haphong",
+                        "uri": "http://dbpedia.org/resource/Saka_Haphong"
+                    }, {
+                        "label": "Baga Bogd",
+                        "uri": "http://dbpedia.org/resource/Baga_Bogd"
+                    }, {
+                        "label": "Birreencorragh",
+                        "uri": "http://dbpedia.org/resource/Birreencorragh"
+                    }, {
+                        "label": "Espadas Peak",
+                        "uri": "http://dbpedia.org/resource/Espadas_Peak"
+                    }, {
+                        "label": "Großer Sonnblick",
+                        "uri": "http://dbpedia.org/resource/Großer_Sonnblick"
+                    }, {
+                        "label": "Hülfensberg",
+                        "uri": "http://dbpedia.org/resource/Hülfensberg"
+                    }, {
+                        "label": "Malepunyo Mountain Range",
+                        "uri": "http://dbpedia.org/resource/Malepunyo_Mountain_Range"
+                    }, {
+                        "label": "Mount Adishi",
+                        "uri": "http://dbpedia.org/resource/Mount_Adishi"
+                    }, {
+                        "label": "Mount Tapulao",
+                        "uri": "http://dbpedia.org/resource/Mount_Tapulao"
+                    }, {
+                        "label": "Pointe de Paumont",
+                        "uri": "http://dbpedia.org/resource/Pointe_de_Paumont"
+                    }, {
+                        "label": "Punta Sommeiller",
+                        "uri": "http://dbpedia.org/resource/Punta_Sommeiller"
+                    }, {
+                        "label": "Sutai Mountain",
+                        "uri": "http://dbpedia.org/resource/Sutai_Mountain"
+                    }, {
+                        "label": "Tsambagarav",
+                        "uri": "http://dbpedia.org/resource/Tsambagarav"
+                    }, {
+                        "label": "Yuzhu Peak",
+                        "uri": "http://dbpedia.org/resource/Yuzhu_Peak"
+                    }, {
+                        "label": "Belmore Mountain",
+                        "uri": "http://dbpedia.org/resource/Belmore_Mountain"
+                    }, {
+                        "label": "Black Mountain (Australian Capital Territory)",
+                        "uri": "http://dbpedia.org/resource/Black_Mountain_(Australian_Capital_Territory)"
+                    }, {
+                        "label": "Black Mountain (Belfast)",
+                        "uri": "http://dbpedia.org/resource/Black_Mountain_(Belfast)"
+                    }, {
+                        "label": "L'Argentine",
+                        "uri": "http://dbpedia.org/resource/L'Argentine"
+                    }, {
+                        "label": "Mont Durand",
+                        "uri": "http://dbpedia.org/resource/Mont_Durand"
+                    }, {
+                        "label": "Mount Pinnacle",
+                        "uri": "http://dbpedia.org/resource/Mount_Pinnacle"
+                    }, {
+                        "label": "Mount Takao",
+                        "uri": "http://dbpedia.org/resource/Mount_Takao"
+                    }, {
+                        "label": "Mount Thor",
+                        "uri": "http://dbpedia.org/resource/Mount_Thor"
+                    }, {
+                        "label": "Penobscot Knob",
+                        "uri": "http://dbpedia.org/resource/Penobscot_Knob"
+                    }, {
+                        "label": "Santa Isabel (volcano)",
+                        "uri": "http://dbpedia.org/resource/Santa_Isabel_(volcano)"
+                    }, {
+                        "label": "Sentinel Peak (Arizona)",
+                        "uri": "http://dbpedia.org/resource/Sentinel_Peak_(Arizona)"
+                    }, {
+                        "label": "Serra de Crevillent",
+                        "uri": "http://dbpedia.org/resource/Serra_de_Crevillent"
+                    }, {
+                        "label": "Taal Volcano",
+                        "uri": "http://dbpedia.org/resource/Taal_Volcano"
+                    }, {
+                        "label": "Binevenagh",
+                        "uri": "http://dbpedia.org/resource/Binevenagh"
+                    }, {
+                        "label": "Cuilcagh",
+                        "uri": "http://dbpedia.org/resource/Cuilcagh"
+                    }, {
+                        "label": "Devilsmother",
+                        "uri": "http://dbpedia.org/resource/Devilsmother"
+                    }, {
+                        "label": "Divis",
+                        "uri": "http://dbpedia.org/resource/Divis"
+                    }, {
+                        "label": "Mweelrea",
+                        "uri": "http://dbpedia.org/resource/Mweelrea"
+                    }, {
+                        "label": "Rimutaka Range",
+                        "uri": "http://dbpedia.org/resource/Rimutaka_Range"
+                    }, {
+                        "label": "Slieve Bloom Mountains",
+                        "uri": "http://dbpedia.org/resource/Slieve_Bloom_Mountains"
+                    }, {
+                        "label": "Slieve League",
+                        "uri": "http://dbpedia.org/resource/Slieve_League"
+                    }, {
+                        "label": "Sugarloaf (County Cork)",
+                        "uri": "http://dbpedia.org/resource/Sugarloaf_(County_Cork)"
+                    }, {
+                        "label": "Corbières Massif",
+                        "uri": "http://dbpedia.org/resource/Corbières_Massif"
+                    }, {
+                        "label": "Aj Bogd",
+                        "uri": "http://dbpedia.org/resource/Aj_Bogd"
+                    }, {
+                        "label": "Mount Hobson (Auckland)",
+                        "uri": "http://dbpedia.org/resource/Mount_Hobson_(Auckland)"
+                    }, {
+                        "label": "Mullaghmore, County Clare",
+                        "uri": "http://dbpedia.org/resource/Mullaghmore,_County_Clare"
+                    }, {
+                        "label": "Puncak Jaya",
+                        "uri": "http://dbpedia.org/resource/Puncak_Jaya"
+                    }, {
+                        "label": "Sela (Saudi Arabia)",
+                        "uri": "http://dbpedia.org/resource/Sela_(Saudi_Arabia)"
+                    }, {
+                        "label": "Bwlch y Ddwyallt",
+                        "uri": "http://dbpedia.org/resource/Bwlch_y_Ddwyallt"
+                    }, {
+                        "label": "Garreg Las",
+                        "uri": "http://dbpedia.org/resource/Garreg_Las"
+                    }, {
+                        "label": "Mount Smart",
+                        "uri": "http://dbpedia.org/resource/Mount_Smart"
+                    }, {
+                        "label": "Rhos Fawr",
+                        "uri": "http://dbpedia.org/resource/Rhos_Fawr"
+                    }, {
+                        "label": "Mount Richmond",
+                        "uri": "http://dbpedia.org/resource/Mount_Richmond"
+                    }, {
+                        "label": "Alcamarinayoc",
+                        "uri": "http://dbpedia.org/resource/Alcamarinayoc"
+                    }, {
+                        "label": "Ambuthirtha",
+                        "uri": "http://dbpedia.org/resource/Ambuthirtha"
+                    }, {
+                        "label": "Big Baldy Mountain (Montana)",
+                        "uri": "http://dbpedia.org/resource/Big_Baldy_Mountain_(Montana)"
+                    }, {
+                        "label": "Champara",
+                        "uri": "http://dbpedia.org/resource/Champara"
+                    }, {
+                        "label": "Dobro Pole",
+                        "uri": "http://dbpedia.org/resource/Dobro_Pole"
+                    }, {
+                        "label": "Furgglenfirst",
+                        "uri": "http://dbpedia.org/resource/Furgglenfirst"
+                    }, {
+                        "label": "Japu Punta",
+                        "uri": "http://dbpedia.org/resource/Japu_Punta"
+                    }, {
+                        "label": "Jebel Azao",
+                        "uri": "http://dbpedia.org/resource/Jebel_Azao"
+                    }, {
+                        "label": "Khao Kho",
+                        "uri": "http://dbpedia.org/resource/Khao_Kho"
+                    }, {
+                        "label": "Melsnuten",
+                        "uri": "http://dbpedia.org/resource/Melsnuten"
+                    }, {
+                        "label": "Mullwharchar",
+                        "uri": "http://dbpedia.org/resource/Mullwharchar"
+                    }, {
+                        "label": "Padreyoc (Cusco)",
+                        "uri": "http://dbpedia.org/resource/Padreyoc_(Cusco)"
+                    }, {
+                        "label": "Paohanli Peak",
+                        "uri": "http://dbpedia.org/resource/Paohanli_Peak"
+                    }, {
+                        "label": "Piz di Sassiglion",
+                        "uri": "http://dbpedia.org/resource/Piz_di_Sassiglion"
+                    }, {
+                        "label": "Sahuasiray",
+                        "uri": "http://dbpedia.org/resource/Sahuasiray"
+                    }, {
+                        "label": "Sex du Coeur",
+                        "uri": "http://dbpedia.org/resource/Sex_du_Coeur"
+                    }, {
+                        "label": "Urus (mountain)",
+                        "uri": "http://dbpedia.org/resource/Urus_(mountain)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "7",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "COUNTRY",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["What is the largest state of ($x | COUNTRY_NP)?", "What was the largest state of ($x | COUNTRY_NP)?", "Which state is the largest state of ($x | COUNTRY_NP)?", "Which state was the largest state of ($x | COUNTRY_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/AdministrativeRegion> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "8",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "COUNTRY",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the largest state of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/AdministrativeRegion> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "9",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["What is the name of ($x | THING_NP)?", "What was the name of ($x | THING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/property/name> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "1959 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1959_Tour_of_Flanders"
+                    }, {
+                        "label": "1960 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1960_Tour_of_Flanders"
+                    }, {
+                        "label": "1962 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1962_Tour_of_Flanders"
+                    }, {
+                        "label": "1963 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1963_Tour_of_Flanders"
+                    }, {
+                        "label": "1964 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1964_Tour_of_Flanders"
+                    }, {
+                        "label": "1965 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1965_Tour_of_Flanders"
+                    }, {
+                        "label": "1966 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1966_Tour_of_Flanders"
+                    }, {
+                        "label": "1967 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1967_Tour_of_Flanders"
+                    }, {
+                        "label": "1968 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1968_Tour_of_Flanders"
+                    }, {
+                        "label": "2016 Dallas Wings season",
+                        "uri": "http://dbpedia.org/resource/2016_Dallas_Wings_season"
+                    }, {
+                        "label": "1978 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1978_Tour_of_Flanders"
+                    }, {
+                        "label": "1979 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1979_Tour_of_Flanders"
+                    }, {
+                        "label": "Abdul Waheed (field hockey)",
+                        "uri": "http://dbpedia.org/resource/Abdul_Waheed_(field_hockey)"
+                    }, {
+                        "label": "Abdulaziz Alshatti",
+                        "uri": "http://dbpedia.org/resource/Abdulaziz_Alshatti"
+                    }, {
+                        "label": "Abdulrahman Al-Faihan",
+                        "uri": "http://dbpedia.org/resource/Abdulrahman_Al-Faihan"
+                    }, {
+                        "label": "Ahmad Alafasi",
+                        "uri": "http://dbpedia.org/resource/Ahmad_Alafasi"
+                    }, {
+                        "label": "Anatoliy Abdula",
+                        "uri": "http://dbpedia.org/resource/Anatoliy_Abdula"
+                    }, {
+                        "label": "Briana Provancha",
+                        "uri": "http://dbpedia.org/resource/Briana_Provancha"
+                    }, {
+                        "label": "Daryl Homer",
+                        "uri": "http://dbpedia.org/resource/Daryl_Homer"
+                    }, {
+                        "label": "Giles Scott",
+                        "uri": "http://dbpedia.org/resource/Giles_Scott"
+                    }, {
+                        "label": "Grade I listed buildings in Coventry",
+                        "uri": "http://dbpedia.org/resource/Grade_I_listed_buildings_in_Coventry"
+                    }, {
+                        "label": "Ilya Mokretsov",
+                        "uri": "http://dbpedia.org/resource/Ilya_Mokretsov"
+                    }, {
+                        "label": "Maximilien van Haaster",
+                        "uri": "http://dbpedia.org/resource/Maximilien_van_Haaster"
+                    }, {
+                        "label": "Mohammed Al-Hakim",
+                        "uri": "http://dbpedia.org/resource/Mohammed_Al-Hakim"
+                    }, {
+                        "label": "Monica Aksamit",
+                        "uri": "http://dbpedia.org/resource/Monica_Aksamit"
+                    }, {
+                        "label": "Olena Kravatska",
+                        "uri": "http://dbpedia.org/resource/Olena_Kravatska"
+                    }, {
+                        "label": "Oromerycidae",
+                        "uri": "http://dbpedia.org/resource/Oromerycidae"
+                    }, {
+                        "label": "Pierre Moussette",
+                        "uri": "http://dbpedia.org/resource/Pierre_Moussette"
+                    }, {
+                        "label": "Savage Skulls (Gang)",
+                        "uri": "http://dbpedia.org/resource/Savage_Skulls_(Gang)"
+                    }, {
+                        "label": "Southern giraffe",
+                        "uri": "http://dbpedia.org/resource/Southern_giraffe"
+                    }, {
+                        "label": "Victory Medal (Romania)",
+                        "uri": "http://dbpedia.org/resource/Victory_Medal_(Romania)"
+                    }, {
+                        "label": "Yémi Apithy",
+                        "uri": "http://dbpedia.org/resource/Yémi_Apithy"
+                    }, {
+                        "label": "'Ndrangheta",
+                        "uri": "http://dbpedia.org/resource/'Ndrangheta"
+                    }, {
+                        "label": "1896 Summer Olympics",
+                        "uri": "http://dbpedia.org/resource/1896_Summer_Olympics"
+                    }, {
+                        "label": "1928 Winter Olympics",
+                        "uri": "http://dbpedia.org/resource/1928_Winter_Olympics"
+                    }, {
+                        "label": "1948 Winter Olympics",
+                        "uri": "http://dbpedia.org/resource/1948_Winter_Olympics"
+                    }, {
+                        "label": "2001 Tour de France",
+                        "uri": "http://dbpedia.org/resource/2001_Tour_de_France"
+                    }, {
+                        "label": "2002 Winter Olympics",
+                        "uri": "http://dbpedia.org/resource/2002_Winter_Olympics"
+                    }, {
+                        "label": "35 mm film",
+                        "uri": "http://dbpedia.org/resource/35_mm_film"
+                    }, {
+                        "label": "5.56×45mm NATO",
+                        "uri": "http://dbpedia.org/resource/5.56×45mm_NATO"
+                    }, {
+                        "label": "61 Cygni",
+                        "uri": "http://dbpedia.org/resource/61_Cygni"
+                    }, {
+                        "label": "A-wing",
+                        "uri": "http://dbpedia.org/resource/A-wing"
+                    }, {
+                        "label": "AIBO",
+                        "uri": "http://dbpedia.org/resource/AIBO"
+                    }, {
+                        "label": "AIML",
+                        "uri": "http://dbpedia.org/resource/AIML"
+                    }, {
+                        "label": "ARJ",
+                        "uri": "http://dbpedia.org/resource/ARJ"
+                    }, {
+                        "label": "Aaron Burr",
+                        "uri": "http://dbpedia.org/resource/Aaron_Burr"
+                    }, {
+                        "label": "Aaron Copland",
+                        "uri": "http://dbpedia.org/resource/Aaron_Copland"
+                    }, {
+                        "label": "Acanthocephala",
+                        "uri": "http://dbpedia.org/resource/Acanthocephala"
+                    }, {
+                        "label": "Acetylcholine",
+                        "uri": "http://dbpedia.org/resource/Acetylcholine"
+                    }, {
+                        "label": "Act Prohibiting Importation of Slaves",
+                        "uri": "http://dbpedia.org/resource/Act_Prohibiting_Importation_of_Slaves"
+                    }, {
+                        "label": "Actuary",
+                        "uri": "http://dbpedia.org/resource/Actuary"
+                    }, {
+                        "label": "Adam Oehlenschläger",
+                        "uri": "http://dbpedia.org/resource/Adam_Oehlenschläger"
+                    }, {
+                        "label": "Aida",
+                        "uri": "http://dbpedia.org/resource/Aida"
+                    }, {
+                        "label": "Air traffic control",
+                        "uri": "http://dbpedia.org/resource/Air_traffic_control"
+                    }, {
+                        "label": "Alan Shearer",
+                        "uri": "http://dbpedia.org/resource/Alan_Shearer"
+                    }, {
+                        "label": "Alessandro Manzoni",
+                        "uri": "http://dbpedia.org/resource/Alessandro_Manzoni"
+                    }, {
+                        "label": "Alex Ferguson",
+                        "uri": "http://dbpedia.org/resource/Alex_Ferguson"
+                    }, {
+                        "label": "Alfred North Whitehead",
+                        "uri": "http://dbpedia.org/resource/Alfred_North_Whitehead"
+                    }, {
+                        "label": "Algonquian languages",
+                        "uri": "http://dbpedia.org/resource/Algonquian_languages"
+                    }, {
+                        "label": "Alice in Chains",
+                        "uri": "http://dbpedia.org/resource/Alice_in_Chains"
+                    }, {
+                        "label": "Allan Pinkerton",
+                        "uri": "http://dbpedia.org/resource/Allan_Pinkerton"
+                    }, {
+                        "label": "American bison",
+                        "uri": "http://dbpedia.org/resource/American_bison"
+                    }, {
+                        "label": "American black bear",
+                        "uri": "http://dbpedia.org/resource/American_black_bear"
+                    }, {
+                        "label": "American goldfinch",
+                        "uri": "http://dbpedia.org/resource/American_goldfinch"
+                    }, {
+                        "label": "Amphora",
+                        "uri": "http://dbpedia.org/resource/Amphora"
+                    }, {
+                        "label": "Andrew Marvell",
+                        "uri": "http://dbpedia.org/resource/Andrew_Marvell"
+                    }, {
+                        "label": "Andrzej Żuławski",
+                        "uri": "http://dbpedia.org/resource/Andrzej_Żuławski"
+                    }, {
+                        "label": "André Malraux",
+                        "uri": "http://dbpedia.org/resource/André_Malraux"
+                    }, {
+                        "label": "Anesthesia",
+                        "uri": "http://dbpedia.org/resource/Anesthesia"
+                    }, {
+                        "label": "Angband",
+                        "uri": "http://dbpedia.org/resource/Angband"
+                    }, {
+                        "label": "Anne, Queen of Great Britain",
+                        "uri": "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+                    }, {
+                        "label": "Anne of Green Gables",
+                        "uri": "http://dbpedia.org/resource/Anne_of_Green_Gables"
+                    }, {
+                        "label": "Anorexia (symptom)",
+                        "uri": "http://dbpedia.org/resource/Anorexia_(symptom)"
+                    }, {
+                        "label": "Antioch",
+                        "uri": "http://dbpedia.org/resource/Antioch"
+                    }, {
+                        "label": "Anton Cermak",
+                        "uri": "http://dbpedia.org/resource/Anton_Cermak"
+                    }, {
+                        "label": "Antonie van Leeuwenhoek",
+                        "uri": "http://dbpedia.org/resource/Antonie_van_Leeuwenhoek"
+                    }, {
+                        "label": "Anwar Sadat",
+                        "uri": "http://dbpedia.org/resource/Anwar_Sadat"
+                    }, {
+                        "label": "Apricot",
+                        "uri": "http://dbpedia.org/resource/Apricot"
+                    }, {
+                        "label": "Arachne",
+                        "uri": "http://dbpedia.org/resource/Arachne"
+                    }, {
+                        "label": "Arcade game",
+                        "uri": "http://dbpedia.org/resource/Arcade_game"
+                    }, {
+                        "label": "Arkan",
+                        "uri": "http://dbpedia.org/resource/Arkan"
+                    }, {
+                        "label": "Arnold Bennett",
+                        "uri": "http://dbpedia.org/resource/Arnold_Bennett"
+                    }, {
+                        "label": "Around the World in Eighty Days",
+                        "uri": "http://dbpedia.org/resource/Around_the_World_in_Eighty_Days"
+                    }, {
+                        "label": "Arthur Machen",
+                        "uri": "http://dbpedia.org/resource/Arthur_Machen"
+                    }, {
+                        "label": "Ashley Judd",
+                        "uri": "http://dbpedia.org/resource/Ashley_Judd"
+                    }, {
+                        "label": "Asian Games",
+                        "uri": "http://dbpedia.org/resource/Asian_Games"
+                    }, {
+                        "label": "Asparagus",
+                        "uri": "http://dbpedia.org/resource/Asparagus"
+                    }, {
+                        "label": "Assata Shakur",
+                        "uri": "http://dbpedia.org/resource/Assata_Shakur"
+                    }, {
+                        "label": "Astrid Lindgren",
+                        "uri": "http://dbpedia.org/resource/Astrid_Lindgren"
+                    }, {
+                        "label": "Audio Video Interleave",
+                        "uri": "http://dbpedia.org/resource/Audio_Video_Interleave"
+                    }, {
+                        "label": "August Strindberg",
+                        "uri": "http://dbpedia.org/resource/August_Strindberg"
+                    }, {
+                        "label": "August Weismann",
+                        "uri": "http://dbpedia.org/resource/August_Weismann"
+                    }, {
+                        "label": "Augustus Pitt Rivers",
+                        "uri": "http://dbpedia.org/resource/Augustus_Pitt_Rivers"
+                    }, {
+                        "label": "Auk",
+                        "uri": "http://dbpedia.org/resource/Auk"
+                    }, {
+                        "label": "Austronesian languages",
+                        "uri": "http://dbpedia.org/resource/Austronesian_languages"
+                    }, {
+                        "label": "Autonomous communities of Spain",
+                        "uri": "http://dbpedia.org/resource/Autonomous_communities_of_Spain"
+                    }, {
+                        "label": "Aztec mythology",
+                        "uri": "http://dbpedia.org/resource/Aztec_mythology"
+                    }, {
+                        "label": "Baal",
+                        "uri": "http://dbpedia.org/resource/Baal"
+                    }, {
+                        "label": "Baker v. Vermont",
+                        "uri": "http://dbpedia.org/resource/Baker_v._Vermont"
+                    }, {
+                        "label": "Bamboo",
+                        "uri": "http://dbpedia.org/resource/Bamboo"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "10",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the name of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/property/name> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "1959 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1959_Tour_of_Flanders"
+                    }, {
+                        "label": "1960 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1960_Tour_of_Flanders"
+                    }, {
+                        "label": "1962 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1962_Tour_of_Flanders"
+                    }, {
+                        "label": "1963 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1963_Tour_of_Flanders"
+                    }, {
+                        "label": "1964 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1964_Tour_of_Flanders"
+                    }, {
+                        "label": "1965 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1965_Tour_of_Flanders"
+                    }, {
+                        "label": "1966 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1966_Tour_of_Flanders"
+                    }, {
+                        "label": "1967 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1967_Tour_of_Flanders"
+                    }, {
+                        "label": "1968 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1968_Tour_of_Flanders"
+                    }, {
+                        "label": "2016 Dallas Wings season",
+                        "uri": "http://dbpedia.org/resource/2016_Dallas_Wings_season"
+                    }, {
+                        "label": "1978 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1978_Tour_of_Flanders"
+                    }, {
+                        "label": "1979 Tour of Flanders",
+                        "uri": "http://dbpedia.org/resource/1979_Tour_of_Flanders"
+                    }, {
+                        "label": "Abdul Waheed (field hockey)",
+                        "uri": "http://dbpedia.org/resource/Abdul_Waheed_(field_hockey)"
+                    }, {
+                        "label": "Abdulaziz Alshatti",
+                        "uri": "http://dbpedia.org/resource/Abdulaziz_Alshatti"
+                    }, {
+                        "label": "Abdulrahman Al-Faihan",
+                        "uri": "http://dbpedia.org/resource/Abdulrahman_Al-Faihan"
+                    }, {
+                        "label": "Ahmad Alafasi",
+                        "uri": "http://dbpedia.org/resource/Ahmad_Alafasi"
+                    }, {
+                        "label": "Anatoliy Abdula",
+                        "uri": "http://dbpedia.org/resource/Anatoliy_Abdula"
+                    }, {
+                        "label": "Briana Provancha",
+                        "uri": "http://dbpedia.org/resource/Briana_Provancha"
+                    }, {
+                        "label": "Daryl Homer",
+                        "uri": "http://dbpedia.org/resource/Daryl_Homer"
+                    }, {
+                        "label": "Giles Scott",
+                        "uri": "http://dbpedia.org/resource/Giles_Scott"
+                    }, {
+                        "label": "Grade I listed buildings in Coventry",
+                        "uri": "http://dbpedia.org/resource/Grade_I_listed_buildings_in_Coventry"
+                    }, {
+                        "label": "Ilya Mokretsov",
+                        "uri": "http://dbpedia.org/resource/Ilya_Mokretsov"
+                    }, {
+                        "label": "Maximilien van Haaster",
+                        "uri": "http://dbpedia.org/resource/Maximilien_van_Haaster"
+                    }, {
+                        "label": "Mohammed Al-Hakim",
+                        "uri": "http://dbpedia.org/resource/Mohammed_Al-Hakim"
+                    }, {
+                        "label": "Monica Aksamit",
+                        "uri": "http://dbpedia.org/resource/Monica_Aksamit"
+                    }, {
+                        "label": "Olena Kravatska",
+                        "uri": "http://dbpedia.org/resource/Olena_Kravatska"
+                    }, {
+                        "label": "Oromerycidae",
+                        "uri": "http://dbpedia.org/resource/Oromerycidae"
+                    }, {
+                        "label": "Pierre Moussette",
+                        "uri": "http://dbpedia.org/resource/Pierre_Moussette"
+                    }, {
+                        "label": "Savage Skulls (Gang)",
+                        "uri": "http://dbpedia.org/resource/Savage_Skulls_(Gang)"
+                    }, {
+                        "label": "Southern giraffe",
+                        "uri": "http://dbpedia.org/resource/Southern_giraffe"
+                    }, {
+                        "label": "Victory Medal (Romania)",
+                        "uri": "http://dbpedia.org/resource/Victory_Medal_(Romania)"
+                    }, {
+                        "label": "Yémi Apithy",
+                        "uri": "http://dbpedia.org/resource/Yémi_Apithy"
+                    }, {
+                        "label": "'Ndrangheta",
+                        "uri": "http://dbpedia.org/resource/'Ndrangheta"
+                    }, {
+                        "label": "1896 Summer Olympics",
+                        "uri": "http://dbpedia.org/resource/1896_Summer_Olympics"
+                    }, {
+                        "label": "1928 Winter Olympics",
+                        "uri": "http://dbpedia.org/resource/1928_Winter_Olympics"
+                    }, {
+                        "label": "1948 Winter Olympics",
+                        "uri": "http://dbpedia.org/resource/1948_Winter_Olympics"
+                    }, {
+                        "label": "2001 Tour de France",
+                        "uri": "http://dbpedia.org/resource/2001_Tour_de_France"
+                    }, {
+                        "label": "2002 Winter Olympics",
+                        "uri": "http://dbpedia.org/resource/2002_Winter_Olympics"
+                    }, {
+                        "label": "35 mm film",
+                        "uri": "http://dbpedia.org/resource/35_mm_film"
+                    }, {
+                        "label": "5.56×45mm NATO",
+                        "uri": "http://dbpedia.org/resource/5.56×45mm_NATO"
+                    }, {
+                        "label": "61 Cygni",
+                        "uri": "http://dbpedia.org/resource/61_Cygni"
+                    }, {
+                        "label": "A-wing",
+                        "uri": "http://dbpedia.org/resource/A-wing"
+                    }, {
+                        "label": "AIBO",
+                        "uri": "http://dbpedia.org/resource/AIBO"
+                    }, {
+                        "label": "AIML",
+                        "uri": "http://dbpedia.org/resource/AIML"
+                    }, {
+                        "label": "ARJ",
+                        "uri": "http://dbpedia.org/resource/ARJ"
+                    }, {
+                        "label": "Aaron Burr",
+                        "uri": "http://dbpedia.org/resource/Aaron_Burr"
+                    }, {
+                        "label": "Aaron Copland",
+                        "uri": "http://dbpedia.org/resource/Aaron_Copland"
+                    }, {
+                        "label": "Acanthocephala",
+                        "uri": "http://dbpedia.org/resource/Acanthocephala"
+                    }, {
+                        "label": "Acetylcholine",
+                        "uri": "http://dbpedia.org/resource/Acetylcholine"
+                    }, {
+                        "label": "Act Prohibiting Importation of Slaves",
+                        "uri": "http://dbpedia.org/resource/Act_Prohibiting_Importation_of_Slaves"
+                    }, {
+                        "label": "Actuary",
+                        "uri": "http://dbpedia.org/resource/Actuary"
+                    }, {
+                        "label": "Adam Oehlenschläger",
+                        "uri": "http://dbpedia.org/resource/Adam_Oehlenschläger"
+                    }, {
+                        "label": "Aida",
+                        "uri": "http://dbpedia.org/resource/Aida"
+                    }, {
+                        "label": "Air traffic control",
+                        "uri": "http://dbpedia.org/resource/Air_traffic_control"
+                    }, {
+                        "label": "Alan Shearer",
+                        "uri": "http://dbpedia.org/resource/Alan_Shearer"
+                    }, {
+                        "label": "Alessandro Manzoni",
+                        "uri": "http://dbpedia.org/resource/Alessandro_Manzoni"
+                    }, {
+                        "label": "Alex Ferguson",
+                        "uri": "http://dbpedia.org/resource/Alex_Ferguson"
+                    }, {
+                        "label": "Alfred North Whitehead",
+                        "uri": "http://dbpedia.org/resource/Alfred_North_Whitehead"
+                    }, {
+                        "label": "Algonquian languages",
+                        "uri": "http://dbpedia.org/resource/Algonquian_languages"
+                    }, {
+                        "label": "Alice in Chains",
+                        "uri": "http://dbpedia.org/resource/Alice_in_Chains"
+                    }, {
+                        "label": "Allan Pinkerton",
+                        "uri": "http://dbpedia.org/resource/Allan_Pinkerton"
+                    }, {
+                        "label": "American bison",
+                        "uri": "http://dbpedia.org/resource/American_bison"
+                    }, {
+                        "label": "American black bear",
+                        "uri": "http://dbpedia.org/resource/American_black_bear"
+                    }, {
+                        "label": "American goldfinch",
+                        "uri": "http://dbpedia.org/resource/American_goldfinch"
+                    }, {
+                        "label": "Amphora",
+                        "uri": "http://dbpedia.org/resource/Amphora"
+                    }, {
+                        "label": "Andrew Marvell",
+                        "uri": "http://dbpedia.org/resource/Andrew_Marvell"
+                    }, {
+                        "label": "Andrzej Żuławski",
+                        "uri": "http://dbpedia.org/resource/Andrzej_Żuławski"
+                    }, {
+                        "label": "André Malraux",
+                        "uri": "http://dbpedia.org/resource/André_Malraux"
+                    }, {
+                        "label": "Anesthesia",
+                        "uri": "http://dbpedia.org/resource/Anesthesia"
+                    }, {
+                        "label": "Angband",
+                        "uri": "http://dbpedia.org/resource/Angband"
+                    }, {
+                        "label": "Anne, Queen of Great Britain",
+                        "uri": "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+                    }, {
+                        "label": "Anne of Green Gables",
+                        "uri": "http://dbpedia.org/resource/Anne_of_Green_Gables"
+                    }, {
+                        "label": "Anorexia (symptom)",
+                        "uri": "http://dbpedia.org/resource/Anorexia_(symptom)"
+                    }, {
+                        "label": "Antioch",
+                        "uri": "http://dbpedia.org/resource/Antioch"
+                    }, {
+                        "label": "Anton Cermak",
+                        "uri": "http://dbpedia.org/resource/Anton_Cermak"
+                    }, {
+                        "label": "Antonie van Leeuwenhoek",
+                        "uri": "http://dbpedia.org/resource/Antonie_van_Leeuwenhoek"
+                    }, {
+                        "label": "Anwar Sadat",
+                        "uri": "http://dbpedia.org/resource/Anwar_Sadat"
+                    }, {
+                        "label": "Apricot",
+                        "uri": "http://dbpedia.org/resource/Apricot"
+                    }, {
+                        "label": "Arachne",
+                        "uri": "http://dbpedia.org/resource/Arachne"
+                    }, {
+                        "label": "Arcade game",
+                        "uri": "http://dbpedia.org/resource/Arcade_game"
+                    }, {
+                        "label": "Arkan",
+                        "uri": "http://dbpedia.org/resource/Arkan"
+                    }, {
+                        "label": "Arnold Bennett",
+                        "uri": "http://dbpedia.org/resource/Arnold_Bennett"
+                    }, {
+                        "label": "Around the World in Eighty Days",
+                        "uri": "http://dbpedia.org/resource/Around_the_World_in_Eighty_Days"
+                    }, {
+                        "label": "Arthur Machen",
+                        "uri": "http://dbpedia.org/resource/Arthur_Machen"
+                    }, {
+                        "label": "Ashley Judd",
+                        "uri": "http://dbpedia.org/resource/Ashley_Judd"
+                    }, {
+                        "label": "Asian Games",
+                        "uri": "http://dbpedia.org/resource/Asian_Games"
+                    }, {
+                        "label": "Asparagus",
+                        "uri": "http://dbpedia.org/resource/Asparagus"
+                    }, {
+                        "label": "Assata Shakur",
+                        "uri": "http://dbpedia.org/resource/Assata_Shakur"
+                    }, {
+                        "label": "Astrid Lindgren",
+                        "uri": "http://dbpedia.org/resource/Astrid_Lindgren"
+                    }, {
+                        "label": "Audio Video Interleave",
+                        "uri": "http://dbpedia.org/resource/Audio_Video_Interleave"
+                    }, {
+                        "label": "August Strindberg",
+                        "uri": "http://dbpedia.org/resource/August_Strindberg"
+                    }, {
+                        "label": "August Weismann",
+                        "uri": "http://dbpedia.org/resource/August_Weismann"
+                    }, {
+                        "label": "Augustus Pitt Rivers",
+                        "uri": "http://dbpedia.org/resource/Augustus_Pitt_Rivers"
+                    }, {
+                        "label": "Auk",
+                        "uri": "http://dbpedia.org/resource/Auk"
+                    }, {
+                        "label": "Austronesian languages",
+                        "uri": "http://dbpedia.org/resource/Austronesian_languages"
+                    }, {
+                        "label": "Autonomous communities of Spain",
+                        "uri": "http://dbpedia.org/resource/Autonomous_communities_of_Spain"
+                    }, {
+                        "label": "Aztec mythology",
+                        "uri": "http://dbpedia.org/resource/Aztec_mythology"
+                    }, {
+                        "label": "Baal",
+                        "uri": "http://dbpedia.org/resource/Baal"
+                    }, {
+                        "label": "Baker v. Vermont",
+                        "uri": "http://dbpedia.org/resource/Baker_v._Vermont"
+                    }, {
+                        "label": "Bamboo",
+                        "uri": "http://dbpedia.org/resource/Bamboo"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "11",
             "language": "EN",
             "type": "SENTENCE",
             "bindingType": "LOCATION",

@@ -33,7 +33,7 @@ public class LexiconImporter {
     LemonModel model = null;
     try (Stream<Path> paths = Files.walk(Paths.get(dir))) {
       List<Path> list = filterFiles(paths);
-      for (Path file : list) {
+      for (Path file: list) {
         try {
           if (model == null) {
             model = serializer.read(new FileReader(file.toString()));

@@ -14,46 +14,12 @@
 "language": "en",
 "string": "Are there any castles in the United States?",
 "keywords": "castles, United States"
-},{
-"language": "fa",
-"string": "",
-"keywords": ""
-},{
-"language": "de",
-"string": "Gibt es irgendwelche Schlösser in den Vereinigten Staaten?",
-"keywords": "Schlösser, Vereinigte Staaten"
-},{
-"language": "es",
-"string": "",
-"keywords": ""
-},{
-"language": "it",
-"string": "Ci sono castelli negli Stati Uniti?",
-"keywords": "castelli, Stati Uniti"
-},{
-"language": "fr",
-"string": "Y a-t-il des châteaux aux États-Unis?",
-"keywords": "châteaux, États-Unis"
-},{
-"language": "nl",
-"string": "",
-"keywords": ""
-},{
-"language": "ro",
-"string": "",
-"keywords": ""
 }
 ],
 "query":{
 "sparql": "PREFIX dct: <http://purl.org/dc/terms/> PREFIX dbc: <http://dbpedia.org/resource/Category:> ask where {?uri dct:subject dbc:Castles_in_the_United_States}"
 },
-"answers": [
-{
-"head": {
-},
-"boolean": true
-}
-]
+"answers": "test"
 }
 ,
 {
@@ -67,34 +33,6 @@
 "language": "en",
 "string": "Can you find frescoes in Crete?",
 "keywords": "frescoes, Crete"
-},{
-"language": "fa",
-"string": "",
-"keywords": ""
-},{
-"language": "de",
-"string": "Können Sie Fresken in Kreta finden?",
-"keywords": "Fresken, Kreta"
-},{
-"language": "es",
-"string": "",
-"keywords": ""
-},{
-"language": "it",
-"string": "Si possono trovare affreschi a Creta?",
-"keywords": "affreschi, Creta"
-},{
-"language": "fr",
-"string": "Peut-on trouver des fresques en Crète?",
-"keywords": "fresques, Crète"
-},{
-"language": "nl",
-"string": "",
-"keywords": ""
-},{
-"language": "ro",
-"string": "",
-"keywords": ""
 }
 ],
 "query":{

@@ -27,8 +27,8 @@ public class QueGG {
 
   public static void main(String[] args) {
         Language language=Language.stringToLanguage("EN");
-        String inputDir="src/main/resources/qald-test-dictionaries";
-        String outputDir="src/main/resources/qald-test-dictionaries";
+        String inputDir="src/main/resources/lexicon/en/nouns/input/";
+        String outputDir="src/main/resources/lexicon/en/nouns/new/output/";
       
     try {
       if (args.length < 3) {
