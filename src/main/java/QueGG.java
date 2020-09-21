@@ -33,9 +33,9 @@ public class QueGG {
     try {
       if (args.length < 3) {
         System.out.println("running on default parameter!!");
-        System.out.println("language:"+language);
+       /*System.out.println("language:"+language);
         System.out.println("inputDir:"+inputDir);
-        System.out.println("outputDir:"+outputDir);     
+        System.out.println("outputDir:"+outputDir);  */   
       }
       else{
         language = Language.stringToLanguage(args[0]);

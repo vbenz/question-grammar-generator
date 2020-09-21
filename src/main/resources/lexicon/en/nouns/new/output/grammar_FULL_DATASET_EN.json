@@ -3,12 +3,12 @@
             "id": "1",
             "language": "EN",
             "type": "SENTENCE",
-            "bindingType": "THING",
-            "returnType": "NUMBER",
+            "bindingType": "COUNTRY",
+            "returnType": "CURRENCY",
             "frameType": "NPP",
-            "sentences": ["What is the wavelength of ($x | THING_NP)?", "What was the wavelength of ($x | THING_NP)?"],
+            "sentences": ["List the currency of ($x | COUNTRY_NP)?", "What is the currency of ($x | COUNTRY_NP)?", "What was the currency of ($x | COUNTRY_NP)?", "Which currency is the currency of ($x | COUNTRY_NP)?", "Which currency was the currency of ($x | COUNTRY_NP)?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/wavelength> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/currency> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -16,47 +16,305 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Violet (color)",
-                        "uri": "http://dbpedia.org/resource/Violet_(color)"
+                        "label": "Abbasid Caliphate",
+                        "uri": "http://dbpedia.org/resource/Abbasid_Caliphate"
                     }, {
-                        "label": "Yellow",
-                        "uri": "http://dbpedia.org/resource/Yellow"
+                        "label": "Almohad Caliphate",
+                        "uri": "http://dbpedia.org/resource/Almohad_Caliphate"
                     }, {
-                        "label": "Shades of orange",
-                        "uri": "http://dbpedia.org/resource/Shades_of_orange"
+                        "label": "Dacia",
+                        "uri": "http://dbpedia.org/resource/Dacia"
                     }, {
-                        "label": "Blue",
-                        "uri": "http://dbpedia.org/resource/Blue"
+                        "label": "Democratic Republic of Afghanistan",
+                        "uri": "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan"
                     }, {
-                        "label": "Cyan",
-                        "uri": "http://dbpedia.org/resource/Cyan"
+                        "label": "Fatimid Caliphate",
+                        "uri": "http://dbpedia.org/resource/Fatimid_Caliphate"
                     }, {
-                        "label": "Green",
-                        "uri": "http://dbpedia.org/resource/Green"
+                        "label": "French Equatorial Africa",
+                        "uri": "http://dbpedia.org/resource/French_Equatorial_Africa"
                     }, {
-                        "label": "Indigo",
-                        "uri": "http://dbpedia.org/resource/Indigo"
+                        "label": "History of Portugal (1415–1578)",
+                        "uri": "http://dbpedia.org/resource/History_of_Portugal_(1415–1578)"
                     }, {
-                        "label": "Red",
-                        "uri": "http://dbpedia.org/resource/Red"
+                        "label": "Italian East Africa",
+                        "uri": "http://dbpedia.org/resource/Italian_East_Africa"
                     }, {
-                        "label": "Shades of green",
-                        "uri": "http://dbpedia.org/resource/Shades_of_green"
+                        "label": "Jin dynasty (1115–1234)",
+                        "uri": "http://dbpedia.org/resource/Jin_dynasty_(1115–1234)"
                     }, {
-                        "label": "Shades of violet",
-                        "uri": "http://dbpedia.org/resource/Shades_of_violet"
+                        "label": "Jin dynasty (265–420)",
+                        "uri": "http://dbpedia.org/resource/Jin_dynasty_(265–420)"
                     }, {
-                        "label": "Shades of yellow",
-                        "uri": "http://dbpedia.org/resource/Shades_of_yellow"
+                        "label": "Lower Canada",
+                        "uri": "http://dbpedia.org/resource/Lower_Canada"
                     }, {
-                        "label": "Orange (colour)",
-                        "uri": "http://dbpedia.org/resource/Orange_(colour)"
+                        "label": "Macedonia (ancient kingdom)",
+                        "uri": "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
                     }, {
-                        "label": "Shades of red",
-                        "uri": "http://dbpedia.org/resource/Shades_of_red"
+                        "label": "Moldavia",
+                        "uri": "http://dbpedia.org/resource/Moldavia"
                     }, {
-                        "label": "Shades of blue",
-                        "uri": "http://dbpedia.org/resource/Shades_of_blue"
+                        "label": "Netherlands New Guinea",
+                        "uri": "http://dbpedia.org/resource/Netherlands_New_Guinea"
+                    }, {
+                        "label": "New Netherland",
+                        "uri": "http://dbpedia.org/resource/New_Netherland"
+                    }, {
+                        "label": "Song dynasty",
+                        "uri": "http://dbpedia.org/resource/Song_dynasty"
+                    }, {
+                        "label": "South-West Africa",
+                        "uri": "http://dbpedia.org/resource/South-West_Africa"
+                    }, {
+                        "label": "Tang dynasty",
+                        "uri": "http://dbpedia.org/resource/Tang_dynasty"
+                    }, {
+                        "label": "Thirteen Colonies",
+                        "uri": "http://dbpedia.org/resource/Thirteen_Colonies"
+                    }, {
+                        "label": "Umayyad Caliphate",
+                        "uri": "http://dbpedia.org/resource/Umayyad_Caliphate"
+                    }, {
+                        "label": "United Nations Interim Administration Mission in Kosovo",
+                        "uri": "http://dbpedia.org/resource/United_Nations_Interim_Administration_Mission_in_Kosovo"
+                    }, {
+                        "label": "United States Minor Outlying Islands",
+                        "uri": "http://dbpedia.org/resource/United_States_Minor_Outlying_Islands"
+                    }, {
+                        "label": "Zhou dynasty",
+                        "uri": "http://dbpedia.org/resource/Zhou_dynasty"
+                    }, {
+                        "label": "Dutch East Indies",
+                        "uri": "http://dbpedia.org/resource/Dutch_East_Indies"
+                    }, {
+                        "label": "State of Katanga",
+                        "uri": "http://dbpedia.org/resource/State_of_Katanga"
+                    }, {
+                        "label": "Transnistria autonomous territorial unit with special legal status",
+                        "uri": "http://dbpedia.org/resource/Transnistria_autonomous_territorial_unit_with_special_legal_status"
+                    }, {
+                        "label": "Arab Kingdom of Syria",
+                        "uri": "http://dbpedia.org/resource/Arab_Kingdom_of_Syria"
+                    }, {
+                        "label": "British Ceylon",
+                        "uri": "http://dbpedia.org/resource/British_Ceylon"
+                    }, {
+                        "label": "Dominion of Ceylon",
+                        "uri": "http://dbpedia.org/resource/Dominion_of_Ceylon"
+                    }, {
+                        "label": "East African Federation",
+                        "uri": "http://dbpedia.org/resource/East_African_Federation"
+                    }, {
+                        "label": "Portuguese Angola",
+                        "uri": "http://dbpedia.org/resource/Portuguese_Angola"
+                    }, {
+                        "label": "Republic of New Granada",
+                        "uri": "http://dbpedia.org/resource/Republic_of_New_Granada"
+                    }, {
+                        "label": "Syria",
+                        "uri": "http://dbpedia.org/resource/Syria"
+                    }, {
+                        "label": "Tabasco (former state)",
+                        "uri": "http://dbpedia.org/resource/Tabasco_(former_state)"
+                    }, {
+                        "label": "Taifa of Niebla",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Niebla"
+                    }, {
+                        "label": "Taifa of Tejada",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Tejada"
+                    }, {
+                        "label": "Tibet (1912–51)",
+                        "uri": "http://dbpedia.org/resource/Tibet_(1912–51)"
+                    }, {
+                        "label": "Vichy France",
+                        "uri": "http://dbpedia.org/resource/Vichy_France"
+                    }, {
+                        "label": "Falkland Islands Dependencies",
+                        "uri": "http://dbpedia.org/resource/Falkland_Islands_Dependencies"
+                    }, {
+                        "label": "Republic of China (1912–49)",
+                        "uri": "http://dbpedia.org/resource/Republic_of_China_(1912–49)"
+                    }, {
+                        "label": "Corpus separatum (Fiume)",
+                        "uri": "http://dbpedia.org/resource/Corpus_separatum_(Fiume)"
+                    }, {
+                        "label": "Kingdom of Wallachia",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Wallachia"
+                    }, {
+                        "label": "Republic of Afghanistan",
+                        "uri": "http://dbpedia.org/resource/Republic_of_Afghanistan"
+                    }, {
+                        "label": "Burid dynasty",
+                        "uri": "http://dbpedia.org/resource/Burid_dynasty"
+                    }, {
+                        "label": "First Mexican Republic",
+                        "uri": "http://dbpedia.org/resource/First_Mexican_Republic"
+                    }, {
+                        "label": "Kiautschou Bay concession",
+                        "uri": "http://dbpedia.org/resource/Kiautschou_Bay_concession"
+                    }, {
+                        "label": "Ma-i",
+                        "uri": "http://dbpedia.org/resource/Ma-i"
+                    }, {
+                        "label": "North Vietnam",
+                        "uri": "http://dbpedia.org/resource/North_Vietnam"
+                    }, {
+                        "label": "Taifa of Dénia",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Dénia"
+                    }, {
+                        "label": "Taifa of Majorca",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Majorca"
+                    }, {
+                        "label": "Taifa of Tortosa",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Tortosa"
+                    }, {
+                        "label": "Federation of Nigeria",
+                        "uri": "http://dbpedia.org/resource/Federation_of_Nigeria"
+                    }, {
+                        "label": "Luhansk People's Republic",
+                        "uri": "http://dbpedia.org/resource/Luhansk_People's_Republic"
+                    }, {
+                        "label": "Newfoundland Colony",
+                        "uri": "http://dbpedia.org/resource/Newfoundland_Colony"
+                    }, {
+                        "label": "Taifa of Mértola",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Mértola"
+                    }, {
+                        "label": "Taifa of Orihuela",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Orihuela"
+                    }, {
+                        "label": "Taifa of Santa Maria do Algarve",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Santa_Maria_do_Algarve"
+                    }, {
+                        "label": "Tanganyika (territory)",
+                        "uri": "http://dbpedia.org/resource/Tanganyika_(territory)"
+                    }, {
+                        "label": "Presidential Republic (1925–73)",
+                        "uri": "http://dbpedia.org/resource/Presidential_Republic_(1925–73)"
+                    }, {
+                        "label": "Kingdom of Kano",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Kano"
+                    }, {
+                        "label": "Republic of Vevčani",
+                        "uri": "http://dbpedia.org/resource/Republic_of_Vevčani"
+                    }, {
+                        "label": "Venezuela Province",
+                        "uri": "http://dbpedia.org/resource/Venezuela_Province"
+                    }, {
+                        "label": "Government of the Autonomous Republic of Abkhazia",
+                        "uri": "http://dbpedia.org/resource/Government_of_the_Autonomous_Republic_of_Abkhazia"
+                    }, {
+                        "label": "History of the Philippines (1986–present)",
+                        "uri": "http://dbpedia.org/resource/History_of_the_Philippines_(1986–present)"
+                    }, {
+                        "label": "Republic of Molossia",
+                        "uri": "http://dbpedia.org/resource/Republic_of_Molossia"
+                    }, {
+                        "label": "Malacca Sultanate",
+                        "uri": "http://dbpedia.org/resource/Malacca_Sultanate"
+                    }, {
+                        "label": "Mali Empire",
+                        "uri": "http://dbpedia.org/resource/Mali_Empire"
+                    }, {
+                        "label": "Safavid dynasty",
+                        "uri": "http://dbpedia.org/resource/Safavid_dynasty"
+                    }, {
+                        "label": "German East Africa",
+                        "uri": "http://dbpedia.org/resource/German_East_Africa"
+                    }, {
+                        "label": "Hasmonean dynasty",
+                        "uri": "http://dbpedia.org/resource/Hasmonean_dynasty"
+                    }, {
+                        "label": "Parthenopean Republic",
+                        "uri": "http://dbpedia.org/resource/Parthenopean_Republic"
+                    }, {
+                        "label": "Tanganyika",
+                        "uri": "http://dbpedia.org/resource/Tanganyika"
+                    }, {
+                        "label": "Provisional Government of Hawaii",
+                        "uri": "http://dbpedia.org/resource/Provisional_Government_of_Hawaii"
+                    }, {
+                        "label": "Togoland",
+                        "uri": "http://dbpedia.org/resource/Togoland"
+                    }, {
+                        "label": "Brazilian military government",
+                        "uri": "http://dbpedia.org/resource/Brazilian_military_government"
+                    }, {
+                        "label": "Derg",
+                        "uri": "http://dbpedia.org/resource/Derg"
+                    }, {
+                        "label": "Kingdom of Tunisia",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Tunisia"
+                    }, {
+                        "label": "Republic of Egypt (1953–58)",
+                        "uri": "http://dbpedia.org/resource/Republic_of_Egypt_(1953–58)"
+                    }, {
+                        "label": "Transitional Government of Ethiopia",
+                        "uri": "http://dbpedia.org/resource/Transitional_Government_of_Ethiopia"
+                    }, {
+                        "label": "Allied administration of Libya",
+                        "uri": "http://dbpedia.org/resource/Allied_administration_of_Libya"
+                    }, {
+                        "label": "Dutch Cape Colony",
+                        "uri": "http://dbpedia.org/resource/Dutch_Cape_Colony"
+                    }, {
+                        "label": "Dutch Celebes",
+                        "uri": "http://dbpedia.org/resource/Dutch_Celebes"
+                    }, {
+                        "label": "Dutch Loango-Angola",
+                        "uri": "http://dbpedia.org/resource/Dutch_Loango-Angola"
+                    }, {
+                        "label": "People's Republic of Mozambique",
+                        "uri": "http://dbpedia.org/resource/People's_Republic_of_Mozambique"
+                    }, {
+                        "label": "Provisional Administration of South Ossetia",
+                        "uri": "http://dbpedia.org/resource/Provisional_Administration_of_South_Ossetia"
+                    }, {
+                        "label": "State of Malta",
+                        "uri": "http://dbpedia.org/resource/State_of_Malta"
+                    }, {
+                        "label": "Taifa of Purchena",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Purchena"
+                    }, {
+                        "label": "Taifa of Santarém",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Santarém"
+                    }, {
+                        "label": "Taifa of Segura",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Segura"
+                    }, {
+                        "label": "Taifa of Tavira",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Tavira"
+                    }, {
+                        "label": "Bengal Sultanate",
+                        "uri": "http://dbpedia.org/resource/Bengal_Sultanate"
+                    }, {
+                        "label": "Colony of Niger",
+                        "uri": "http://dbpedia.org/resource/Colony_of_Niger"
+                    }, {
+                        "label": "Save Aramoana Campaign",
+                        "uri": "http://dbpedia.org/resource/Save_Aramoana_Campaign"
+                    }, {
+                        "label": "Sultanate of Gowa",
+                        "uri": "http://dbpedia.org/resource/Sultanate_of_Gowa"
+                    }, {
+                        "label": "Provisional People's Committee for North Korea",
+                        "uri": "http://dbpedia.org/resource/Provisional_People's_Committee_for_North_Korea"
+                    }, {
+                        "label": "Democratic Government of Albania",
+                        "uri": "http://dbpedia.org/resource/Democratic_Government_of_Albania"
+                    }, {
+                        "label": "Lü (state)",
+                        "uri": "http://dbpedia.org/resource/Lü_(state)"
+                    }, {
+                        "label": "Belgium (1914–1940)",
+                        "uri": "http://dbpedia.org/resource/Belgium_(1914–1940)"
+                    }, {
+                        "label": "Coorg Province",
+                        "uri": "http://dbpedia.org/resource/Coorg_Province"
+                    }, {
+                        "label": "Intendancy of Chiloé",
+                        "uri": "http://dbpedia.org/resource/Intendancy_of_Chiloé"
                     }]
             },
             "combination": false
@@ -64,12 +322,12 @@
             "id": "2",
             "language": "EN",
             "type": "NP",
-            "bindingType": "THING",
-            "returnType": "NUMBER",
+            "bindingType": "COUNTRY",
+            "returnType": "CURRENCY",
             "frameType": "NPP",
-            "sentences": ["the wavelength of $x"],
+            "sentences": ["the currency of $x"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/wavelength> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/currency> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -77,1404 +335,310 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Violet (color)",
-                        "uri": "http://dbpedia.org/resource/Violet_(color)"
+                        "label": "Abbasid Caliphate",
+                        "uri": "http://dbpedia.org/resource/Abbasid_Caliphate"
                     }, {
-                        "label": "Yellow",
-                        "uri": "http://dbpedia.org/resource/Yellow"
+                        "label": "Almohad Caliphate",
+                        "uri": "http://dbpedia.org/resource/Almohad_Caliphate"
                     }, {
-                        "label": "Shades of orange",
-                        "uri": "http://dbpedia.org/resource/Shades_of_orange"
+                        "label": "Dacia",
+                        "uri": "http://dbpedia.org/resource/Dacia"
                     }, {
-                        "label": "Blue",
-                        "uri": "http://dbpedia.org/resource/Blue"
+                        "label": "Democratic Republic of Afghanistan",
+                        "uri": "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan"
                     }, {
-                        "label": "Cyan",
-                        "uri": "http://dbpedia.org/resource/Cyan"
+                        "label": "Fatimid Caliphate",
+                        "uri": "http://dbpedia.org/resource/Fatimid_Caliphate"
                     }, {
-                        "label": "Green",
-                        "uri": "http://dbpedia.org/resource/Green"
+                        "label": "French Equatorial Africa",
+                        "uri": "http://dbpedia.org/resource/French_Equatorial_Africa"
                     }, {
-                        "label": "Indigo",
-                        "uri": "http://dbpedia.org/resource/Indigo"
+                        "label": "History of Portugal (1415–1578)",
+                        "uri": "http://dbpedia.org/resource/History_of_Portugal_(1415–1578)"
                     }, {
-                        "label": "Red",
-                        "uri": "http://dbpedia.org/resource/Red"
+                        "label": "Italian East Africa",
+                        "uri": "http://dbpedia.org/resource/Italian_East_Africa"
                     }, {
-                        "label": "Shades of green",
-                        "uri": "http://dbpedia.org/resource/Shades_of_green"
+                        "label": "Jin dynasty (1115–1234)",
+                        "uri": "http://dbpedia.org/resource/Jin_dynasty_(1115–1234)"
                     }, {
-                        "label": "Shades of violet",
-                        "uri": "http://dbpedia.org/resource/Shades_of_violet"
+                        "label": "Jin dynasty (265–420)",
+                        "uri": "http://dbpedia.org/resource/Jin_dynasty_(265–420)"
                     }, {
-                        "label": "Shades of yellow",
-                        "uri": "http://dbpedia.org/resource/Shades_of_yellow"
+                        "label": "Lower Canada",
+                        "uri": "http://dbpedia.org/resource/Lower_Canada"
                     }, {
-                        "label": "Orange (colour)",
-                        "uri": "http://dbpedia.org/resource/Orange_(colour)"
+                        "label": "Macedonia (ancient kingdom)",
+                        "uri": "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
                     }, {
-                        "label": "Shades of red",
-                        "uri": "http://dbpedia.org/resource/Shades_of_red"
+                        "label": "Moldavia",
+                        "uri": "http://dbpedia.org/resource/Moldavia"
                     }, {
-                        "label": "Shades of blue",
-                        "uri": "http://dbpedia.org/resource/Shades_of_blue"
+                        "label": "Netherlands New Guinea",
+                        "uri": "http://dbpedia.org/resource/Netherlands_New_Guinea"
+                    }, {
+                        "label": "New Netherland",
+                        "uri": "http://dbpedia.org/resource/New_Netherland"
+                    }, {
+                        "label": "Song dynasty",
+                        "uri": "http://dbpedia.org/resource/Song_dynasty"
+                    }, {
+                        "label": "South-West Africa",
+                        "uri": "http://dbpedia.org/resource/South-West_Africa"
+                    }, {
+                        "label": "Tang dynasty",
+                        "uri": "http://dbpedia.org/resource/Tang_dynasty"
+                    }, {
+                        "label": "Thirteen Colonies",
+                        "uri": "http://dbpedia.org/resource/Thirteen_Colonies"
+                    }, {
+                        "label": "Umayyad Caliphate",
+                        "uri": "http://dbpedia.org/resource/Umayyad_Caliphate"
+                    }, {
+                        "label": "United Nations Interim Administration Mission in Kosovo",
+                        "uri": "http://dbpedia.org/resource/United_Nations_Interim_Administration_Mission_in_Kosovo"
+                    }, {
+                        "label": "United States Minor Outlying Islands",
+                        "uri": "http://dbpedia.org/resource/United_States_Minor_Outlying_Islands"
+                    }, {
+                        "label": "Zhou dynasty",
+                        "uri": "http://dbpedia.org/resource/Zhou_dynasty"
+                    }, {
+                        "label": "Dutch East Indies",
+                        "uri": "http://dbpedia.org/resource/Dutch_East_Indies"
+                    }, {
+                        "label": "State of Katanga",
+                        "uri": "http://dbpedia.org/resource/State_of_Katanga"
+                    }, {
+                        "label": "Transnistria autonomous territorial unit with special legal status",
+                        "uri": "http://dbpedia.org/resource/Transnistria_autonomous_territorial_unit_with_special_legal_status"
+                    }, {
+                        "label": "Arab Kingdom of Syria",
+                        "uri": "http://dbpedia.org/resource/Arab_Kingdom_of_Syria"
+                    }, {
+                        "label": "British Ceylon",
+                        "uri": "http://dbpedia.org/resource/British_Ceylon"
+                    }, {
+                        "label": "Dominion of Ceylon",
+                        "uri": "http://dbpedia.org/resource/Dominion_of_Ceylon"
+                    }, {
+                        "label": "East African Federation",
+                        "uri": "http://dbpedia.org/resource/East_African_Federation"
+                    }, {
+                        "label": "Portuguese Angola",
+                        "uri": "http://dbpedia.org/resource/Portuguese_Angola"
+                    }, {
+                        "label": "Republic of New Granada",
+                        "uri": "http://dbpedia.org/resource/Republic_of_New_Granada"
+                    }, {
+                        "label": "Syria",
+                        "uri": "http://dbpedia.org/resource/Syria"
+                    }, {
+                        "label": "Tabasco (former state)",
+                        "uri": "http://dbpedia.org/resource/Tabasco_(former_state)"
+                    }, {
+                        "label": "Taifa of Niebla",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Niebla"
+                    }, {
+                        "label": "Taifa of Tejada",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Tejada"
+                    }, {
+                        "label": "Tibet (1912–51)",
+                        "uri": "http://dbpedia.org/resource/Tibet_(1912–51)"
+                    }, {
+                        "label": "Vichy France",
+                        "uri": "http://dbpedia.org/resource/Vichy_France"
+                    }, {
+                        "label": "Falkland Islands Dependencies",
+                        "uri": "http://dbpedia.org/resource/Falkland_Islands_Dependencies"
+                    }, {
+                        "label": "Republic of China (1912–49)",
+                        "uri": "http://dbpedia.org/resource/Republic_of_China_(1912–49)"
+                    }, {
+                        "label": "Corpus separatum (Fiume)",
+                        "uri": "http://dbpedia.org/resource/Corpus_separatum_(Fiume)"
+                    }, {
+                        "label": "Kingdom of Wallachia",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Wallachia"
+                    }, {
+                        "label": "Republic of Afghanistan",
+                        "uri": "http://dbpedia.org/resource/Republic_of_Afghanistan"
+                    }, {
+                        "label": "Burid dynasty",
+                        "uri": "http://dbpedia.org/resource/Burid_dynasty"
+                    }, {
+                        "label": "First Mexican Republic",
+                        "uri": "http://dbpedia.org/resource/First_Mexican_Republic"
+                    }, {
+                        "label": "Kiautschou Bay concession",
+                        "uri": "http://dbpedia.org/resource/Kiautschou_Bay_concession"
+                    }, {
+                        "label": "Ma-i",
+                        "uri": "http://dbpedia.org/resource/Ma-i"
+                    }, {
+                        "label": "North Vietnam",
+                        "uri": "http://dbpedia.org/resource/North_Vietnam"
+                    }, {
+                        "label": "Taifa of Dénia",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Dénia"
+                    }, {
+                        "label": "Taifa of Majorca",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Majorca"
+                    }, {
+                        "label": "Taifa of Tortosa",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Tortosa"
+                    }, {
+                        "label": "Federation of Nigeria",
+                        "uri": "http://dbpedia.org/resource/Federation_of_Nigeria"
+                    }, {
+                        "label": "Luhansk People's Republic",
+                        "uri": "http://dbpedia.org/resource/Luhansk_People's_Republic"
+                    }, {
+                        "label": "Newfoundland Colony",
+                        "uri": "http://dbpedia.org/resource/Newfoundland_Colony"
+                    }, {
+                        "label": "Taifa of Mértola",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Mértola"
+                    }, {
+                        "label": "Taifa of Orihuela",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Orihuela"
+                    }, {
+                        "label": "Taifa of Santa Maria do Algarve",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Santa_Maria_do_Algarve"
+                    }, {
+                        "label": "Tanganyika (territory)",
+                        "uri": "http://dbpedia.org/resource/Tanganyika_(territory)"
+                    }, {
+                        "label": "Presidential Republic (1925–73)",
+                        "uri": "http://dbpedia.org/resource/Presidential_Republic_(1925–73)"
+                    }, {
+                        "label": "Kingdom of Kano",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Kano"
+                    }, {
+                        "label": "Republic of Vevčani",
+                        "uri": "http://dbpedia.org/resource/Republic_of_Vevčani"
+                    }, {
+                        "label": "Venezuela Province",
+                        "uri": "http://dbpedia.org/resource/Venezuela_Province"
+                    }, {
+                        "label": "Government of the Autonomous Republic of Abkhazia",
+                        "uri": "http://dbpedia.org/resource/Government_of_the_Autonomous_Republic_of_Abkhazia"
+                    }, {
+                        "label": "History of the Philippines (1986–present)",
+                        "uri": "http://dbpedia.org/resource/History_of_the_Philippines_(1986–present)"
+                    }, {
+                        "label": "Republic of Molossia",
+                        "uri": "http://dbpedia.org/resource/Republic_of_Molossia"
+                    }, {
+                        "label": "Malacca Sultanate",
+                        "uri": "http://dbpedia.org/resource/Malacca_Sultanate"
+                    }, {
+                        "label": "Mali Empire",
+                        "uri": "http://dbpedia.org/resource/Mali_Empire"
+                    }, {
+                        "label": "Safavid dynasty",
+                        "uri": "http://dbpedia.org/resource/Safavid_dynasty"
+                    }, {
+                        "label": "German East Africa",
+                        "uri": "http://dbpedia.org/resource/German_East_Africa"
+                    }, {
+                        "label": "Hasmonean dynasty",
+                        "uri": "http://dbpedia.org/resource/Hasmonean_dynasty"
+                    }, {
+                        "label": "Parthenopean Republic",
+                        "uri": "http://dbpedia.org/resource/Parthenopean_Republic"
+                    }, {
+                        "label": "Tanganyika",
+                        "uri": "http://dbpedia.org/resource/Tanganyika"
+                    }, {
+                        "label": "Provisional Government of Hawaii",
+                        "uri": "http://dbpedia.org/resource/Provisional_Government_of_Hawaii"
+                    }, {
+                        "label": "Togoland",
+                        "uri": "http://dbpedia.org/resource/Togoland"
+                    }, {
+                        "label": "Brazilian military government",
+                        "uri": "http://dbpedia.org/resource/Brazilian_military_government"
+                    }, {
+                        "label": "Derg",
+                        "uri": "http://dbpedia.org/resource/Derg"
+                    }, {
+                        "label": "Kingdom of Tunisia",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Tunisia"
+                    }, {
+                        "label": "Republic of Egypt (1953–58)",
+                        "uri": "http://dbpedia.org/resource/Republic_of_Egypt_(1953–58)"
+                    }, {
+                        "label": "Transitional Government of Ethiopia",
+                        "uri": "http://dbpedia.org/resource/Transitional_Government_of_Ethiopia"
+                    }, {
+                        "label": "Allied administration of Libya",
+                        "uri": "http://dbpedia.org/resource/Allied_administration_of_Libya"
+                    }, {
+                        "label": "Dutch Cape Colony",
+                        "uri": "http://dbpedia.org/resource/Dutch_Cape_Colony"
+                    }, {
+                        "label": "Dutch Celebes",
+                        "uri": "http://dbpedia.org/resource/Dutch_Celebes"
+                    }, {
+                        "label": "Dutch Loango-Angola",
+                        "uri": "http://dbpedia.org/resource/Dutch_Loango-Angola"
+                    }, {
+                        "label": "People's Republic of Mozambique",
+                        "uri": "http://dbpedia.org/resource/People's_Republic_of_Mozambique"
+                    }, {
+                        "label": "Provisional Administration of South Ossetia",
+                        "uri": "http://dbpedia.org/resource/Provisional_Administration_of_South_Ossetia"
+                    }, {
+                        "label": "State of Malta",
+                        "uri": "http://dbpedia.org/resource/State_of_Malta"
+                    }, {
+                        "label": "Taifa of Purchena",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Purchena"
+                    }, {
+                        "label": "Taifa of Santarém",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Santarém"
+                    }, {
+                        "label": "Taifa of Segura",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Segura"
+                    }, {
+                        "label": "Taifa of Tavira",
+                        "uri": "http://dbpedia.org/resource/Taifa_of_Tavira"
+                    }, {
+                        "label": "Bengal Sultanate",
+                        "uri": "http://dbpedia.org/resource/Bengal_Sultanate"
+                    }, {
+                        "label": "Colony of Niger",
+                        "uri": "http://dbpedia.org/resource/Colony_of_Niger"
+                    }, {
+                        "label": "Save Aramoana Campaign",
+                        "uri": "http://dbpedia.org/resource/Save_Aramoana_Campaign"
+                    }, {
+                        "label": "Sultanate of Gowa",
+                        "uri": "http://dbpedia.org/resource/Sultanate_of_Gowa"
+                    }, {
+                        "label": "Provisional People's Committee for North Korea",
+                        "uri": "http://dbpedia.org/resource/Provisional_People's_Committee_for_North_Korea"
+                    }, {
+                        "label": "Democratic Government of Albania",
+                        "uri": "http://dbpedia.org/resource/Democratic_Government_of_Albania"
+                    }, {
+                        "label": "Lü (state)",
+                        "uri": "http://dbpedia.org/resource/Lü_(state)"
+                    }, {
+                        "label": "Belgium (1914–1940)",
+                        "uri": "http://dbpedia.org/resource/Belgium_(1914–1940)"
+                    }, {
+                        "label": "Coorg Province",
+                        "uri": "http://dbpedia.org/resource/Coorg_Province"
+                    }, {
+                        "label": "Intendancy of Chiloé",
+                        "uri": "http://dbpedia.org/resource/Intendancy_of_Chiloé"
                     }]
             },
             "combination": false
         }, {
             "id": "3",
-            "language": "EN",
-            "type": "SENTENCE",
-            "bindingType": "COUNTRY",
-            "returnType": "THING",
-            "frameType": "NPP",
-            "sentences": ["What is the largest state in ($x | COUNTRY_NP)?", "What was the largest state in ($x | COUNTRY_NP)?", "Which state is the largest state in ($x | COUNTRY_NP)?", "Which state was the largest state in ($x | COUNTRY_NP)?"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/AdministrativeRegion> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
-            },
-            "returnVariable": "objOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": []
-            },
-            "combination": false
-        }, {
-            "id": "4",
-            "language": "EN",
-            "type": "NP",
-            "bindingType": "COUNTRY",
-            "returnType": "THING",
-            "frameType": "NPP",
-            "sentences": ["the largest state in $x"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/AdministrativeRegion> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
-            },
-            "returnVariable": "objOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": []
-            },
-            "combination": false
-        }, {
-            "id": "5",
-            "language": "EN",
-            "type": "SENTENCE",
-            "bindingType": "THING",
-            "returnType": "THING",
-            "frameType": "NPP",
-            "sentences": ["What is the other name of ($x | THING_NP)?", "What was the other name of ($x | THING_NP)?"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/otherName> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
-            },
-            "returnVariable": "objOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": [{
-                        "label": "Hira Mountains",
-                        "uri": "http://dbpedia.org/resource/Hira_Mountains"
-                    }, {
-                        "label": "Kula (volcano)",
-                        "uri": "http://dbpedia.org/resource/Kula_(volcano)"
-                    }, {
-                        "label": "Mount Aino",
-                        "uri": "http://dbpedia.org/resource/Mount_Aino"
-                    }, {
-                        "label": "North Head, New Zealand",
-                        "uri": "http://dbpedia.org/resource/North_Head,_New_Zealand"
-                    }, {
-                        "label": "Kronplatz",
-                        "uri": "http://dbpedia.org/resource/Kronplatz"
-                    }, {
-                        "label": "Askøyfjellet",
-                        "uri": "http://dbpedia.org/resource/Askøyfjellet"
-                    }, {
-                        "label": "Hazaran",
-                        "uri": "http://dbpedia.org/resource/Hazaran"
-                    }, {
-                        "label": "Kozubová",
-                        "uri": "http://dbpedia.org/resource/Kozubová"
-                    }, {
-                        "label": "Letha Taung",
-                        "uri": "http://dbpedia.org/resource/Letha_Taung"
-                    }, {
-                        "label": "Monte Amiata",
-                        "uri": "http://dbpedia.org/resource/Monte_Amiata"
-                    }, {
-                        "label": "San Carlos (Equatorial Guinea)",
-                        "uri": "http://dbpedia.org/resource/San_Carlos_(Equatorial_Guinea)"
-                    }, {
-                        "label": "Schynige Platte",
-                        "uri": "http://dbpedia.org/resource/Schynige_Platte"
-                    }, {
-                        "label": "Slieve na Calliagh",
-                        "uri": "http://dbpedia.org/resource/Slieve_na_Calliagh"
-                    }, {
-                        "label": "Slieveboy",
-                        "uri": "http://dbpedia.org/resource/Slieveboy"
-                    }, {
-                        "label": "Svartfjellet, Kvaløya",
-                        "uri": "http://dbpedia.org/resource/Svartfjellet,_Kvaløya"
-                    }, {
-                        "label": "Taras Hill",
-                        "uri": "http://dbpedia.org/resource/Taras_Hill"
-                    }, {
-                        "label": "Doi Luang, Phi Pan Nam Range",
-                        "uri": "http://dbpedia.org/resource/Doi_Luang,_Phi_Pan_Nam_Range"
-                    }, {
-                        "label": "Liushi Shan",
-                        "uri": "http://dbpedia.org/resource/Liushi_Shan"
-                    }, {
-                        "label": "Mittaghorn (Rawilpass)",
-                        "uri": "http://dbpedia.org/resource/Mittaghorn_(Rawilpass)"
-                    }, {
-                        "label": "Sickle Moon Peak",
-                        "uri": "http://dbpedia.org/resource/Sickle_Moon_Peak"
-                    }, {
-                        "label": "Chinchey",
-                        "uri": "http://dbpedia.org/resource/Chinchey"
-                    }, {
-                        "label": "Laguna Volcanic Field",
-                        "uri": "http://dbpedia.org/resource/Laguna_Volcanic_Field"
-                    }, {
-                        "label": "Slieve Gullion",
-                        "uri": "http://dbpedia.org/resource/Slieve_Gullion"
-                    }, {
-                        "label": "Bible Rock",
-                        "uri": "http://dbpedia.org/resource/Bible_Rock"
-                    }, {
-                        "label": "Boccard Point",
-                        "uri": "http://dbpedia.org/resource/Boccard_Point"
-                    }, {
-                        "label": "Bulahdelah Mountain",
-                        "uri": "http://dbpedia.org/resource/Bulahdelah_Mountain"
-                    }, {
-                        "label": "Chaupi Orco (mountain)",
-                        "uri": "http://dbpedia.org/resource/Chaupi_Orco_(mountain)"
-                    }, {
-                        "label": "Colline du Charf",
-                        "uri": "http://dbpedia.org/resource/Colline_du_Charf"
-                    }, {
-                        "label": "Dreischusterspitze",
-                        "uri": "http://dbpedia.org/resource/Dreischusterspitze"
-                    }, {
-                        "label": "Hualca Hualca",
-                        "uri": "http://dbpedia.org/resource/Hualca_Hualca"
-                    }, {
-                        "label": "Huandoy",
-                        "uri": "http://dbpedia.org/resource/Huandoy"
-                    }, {
-                        "label": "Jôf di Montasio",
-                        "uri": "http://dbpedia.org/resource/Jôf_di_Montasio"
-                    }, {
-                        "label": "Kalanag",
-                        "uri": "http://dbpedia.org/resource/Kalanag"
-                    }, {
-                        "label": "Mangart",
-                        "uri": "http://dbpedia.org/resource/Mangart"
-                    }, {
-                        "label": "Mehammarsåta",
-                        "uri": "http://dbpedia.org/resource/Mehammarsåta"
-                    }, {
-                        "label": "Mount Bélair",
-                        "uri": "http://dbpedia.org/resource/Mount_Bélair"
-                    }, {
-                        "label": "Saka Haphong",
-                        "uri": "http://dbpedia.org/resource/Saka_Haphong"
-                    }, {
-                        "label": "Baga Bogd",
-                        "uri": "http://dbpedia.org/resource/Baga_Bogd"
-                    }, {
-                        "label": "Birreencorragh",
-                        "uri": "http://dbpedia.org/resource/Birreencorragh"
-                    }, {
-                        "label": "Espadas Peak",
-                        "uri": "http://dbpedia.org/resource/Espadas_Peak"
-                    }, {
-                        "label": "Großer Sonnblick",
-                        "uri": "http://dbpedia.org/resource/Großer_Sonnblick"
-                    }, {
-                        "label": "Hülfensberg",
-                        "uri": "http://dbpedia.org/resource/Hülfensberg"
-                    }, {
-                        "label": "Malepunyo Mountain Range",
-                        "uri": "http://dbpedia.org/resource/Malepunyo_Mountain_Range"
-                    }, {
-                        "label": "Mount Adishi",
-                        "uri": "http://dbpedia.org/resource/Mount_Adishi"
-                    }, {
-                        "label": "Mount Tapulao",
-                        "uri": "http://dbpedia.org/resource/Mount_Tapulao"
-                    }, {
-                        "label": "Pointe de Paumont",
-                        "uri": "http://dbpedia.org/resource/Pointe_de_Paumont"
-                    }, {
-                        "label": "Punta Sommeiller",
-                        "uri": "http://dbpedia.org/resource/Punta_Sommeiller"
-                    }, {
-                        "label": "Sutai Mountain",
-                        "uri": "http://dbpedia.org/resource/Sutai_Mountain"
-                    }, {
-                        "label": "Tsambagarav",
-                        "uri": "http://dbpedia.org/resource/Tsambagarav"
-                    }, {
-                        "label": "Yuzhu Peak",
-                        "uri": "http://dbpedia.org/resource/Yuzhu_Peak"
-                    }, {
-                        "label": "Belmore Mountain",
-                        "uri": "http://dbpedia.org/resource/Belmore_Mountain"
-                    }, {
-                        "label": "Black Mountain (Australian Capital Territory)",
-                        "uri": "http://dbpedia.org/resource/Black_Mountain_(Australian_Capital_Territory)"
-                    }, {
-                        "label": "Black Mountain (Belfast)",
-                        "uri": "http://dbpedia.org/resource/Black_Mountain_(Belfast)"
-                    }, {
-                        "label": "L'Argentine",
-                        "uri": "http://dbpedia.org/resource/L'Argentine"
-                    }, {
-                        "label": "Mont Durand",
-                        "uri": "http://dbpedia.org/resource/Mont_Durand"
-                    }, {
-                        "label": "Mount Pinnacle",
-                        "uri": "http://dbpedia.org/resource/Mount_Pinnacle"
-                    }, {
-                        "label": "Mount Takao",
-                        "uri": "http://dbpedia.org/resource/Mount_Takao"
-                    }, {
-                        "label": "Mount Thor",
-                        "uri": "http://dbpedia.org/resource/Mount_Thor"
-                    }, {
-                        "label": "Penobscot Knob",
-                        "uri": "http://dbpedia.org/resource/Penobscot_Knob"
-                    }, {
-                        "label": "Santa Isabel (volcano)",
-                        "uri": "http://dbpedia.org/resource/Santa_Isabel_(volcano)"
-                    }, {
-                        "label": "Sentinel Peak (Arizona)",
-                        "uri": "http://dbpedia.org/resource/Sentinel_Peak_(Arizona)"
-                    }, {
-                        "label": "Serra de Crevillent",
-                        "uri": "http://dbpedia.org/resource/Serra_de_Crevillent"
-                    }, {
-                        "label": "Taal Volcano",
-                        "uri": "http://dbpedia.org/resource/Taal_Volcano"
-                    }, {
-                        "label": "Binevenagh",
-                        "uri": "http://dbpedia.org/resource/Binevenagh"
-                    }, {
-                        "label": "Cuilcagh",
-                        "uri": "http://dbpedia.org/resource/Cuilcagh"
-                    }, {
-                        "label": "Devilsmother",
-                        "uri": "http://dbpedia.org/resource/Devilsmother"
-                    }, {
-                        "label": "Divis",
-                        "uri": "http://dbpedia.org/resource/Divis"
-                    }, {
-                        "label": "Mweelrea",
-                        "uri": "http://dbpedia.org/resource/Mweelrea"
-                    }, {
-                        "label": "Rimutaka Range",
-                        "uri": "http://dbpedia.org/resource/Rimutaka_Range"
-                    }, {
-                        "label": "Slieve Bloom Mountains",
-                        "uri": "http://dbpedia.org/resource/Slieve_Bloom_Mountains"
-                    }, {
-                        "label": "Slieve League",
-                        "uri": "http://dbpedia.org/resource/Slieve_League"
-                    }, {
-                        "label": "Sugarloaf (County Cork)",
-                        "uri": "http://dbpedia.org/resource/Sugarloaf_(County_Cork)"
-                    }, {
-                        "label": "Corbières Massif",
-                        "uri": "http://dbpedia.org/resource/Corbières_Massif"
-                    }, {
-                        "label": "Aj Bogd",
-                        "uri": "http://dbpedia.org/resource/Aj_Bogd"
-                    }, {
-                        "label": "Mount Hobson (Auckland)",
-                        "uri": "http://dbpedia.org/resource/Mount_Hobson_(Auckland)"
-                    }, {
-                        "label": "Mullaghmore, County Clare",
-                        "uri": "http://dbpedia.org/resource/Mullaghmore,_County_Clare"
-                    }, {
-                        "label": "Puncak Jaya",
-                        "uri": "http://dbpedia.org/resource/Puncak_Jaya"
-                    }, {
-                        "label": "Sela (Saudi Arabia)",
-                        "uri": "http://dbpedia.org/resource/Sela_(Saudi_Arabia)"
-                    }, {
-                        "label": "Bwlch y Ddwyallt",
-                        "uri": "http://dbpedia.org/resource/Bwlch_y_Ddwyallt"
-                    }, {
-                        "label": "Garreg Las",
-                        "uri": "http://dbpedia.org/resource/Garreg_Las"
-                    }, {
-                        "label": "Mount Smart",
-                        "uri": "http://dbpedia.org/resource/Mount_Smart"
-                    }, {
-                        "label": "Rhos Fawr",
-                        "uri": "http://dbpedia.org/resource/Rhos_Fawr"
-                    }, {
-                        "label": "Mount Richmond",
-                        "uri": "http://dbpedia.org/resource/Mount_Richmond"
-                    }, {
-                        "label": "Alcamarinayoc",
-                        "uri": "http://dbpedia.org/resource/Alcamarinayoc"
-                    }, {
-                        "label": "Ambuthirtha",
-                        "uri": "http://dbpedia.org/resource/Ambuthirtha"
-                    }, {
-                        "label": "Big Baldy Mountain (Montana)",
-                        "uri": "http://dbpedia.org/resource/Big_Baldy_Mountain_(Montana)"
-                    }, {
-                        "label": "Champara",
-                        "uri": "http://dbpedia.org/resource/Champara"
-                    }, {
-                        "label": "Dobro Pole",
-                        "uri": "http://dbpedia.org/resource/Dobro_Pole"
-                    }, {
-                        "label": "Furgglenfirst",
-                        "uri": "http://dbpedia.org/resource/Furgglenfirst"
-                    }, {
-                        "label": "Japu Punta",
-                        "uri": "http://dbpedia.org/resource/Japu_Punta"
-                    }, {
-                        "label": "Jebel Azao",
-                        "uri": "http://dbpedia.org/resource/Jebel_Azao"
-                    }, {
-                        "label": "Khao Kho",
-                        "uri": "http://dbpedia.org/resource/Khao_Kho"
-                    }, {
-                        "label": "Melsnuten",
-                        "uri": "http://dbpedia.org/resource/Melsnuten"
-                    }, {
-                        "label": "Mullwharchar",
-                        "uri": "http://dbpedia.org/resource/Mullwharchar"
-                    }, {
-                        "label": "Padreyoc (Cusco)",
-                        "uri": "http://dbpedia.org/resource/Padreyoc_(Cusco)"
-                    }, {
-                        "label": "Paohanli Peak",
-                        "uri": "http://dbpedia.org/resource/Paohanli_Peak"
-                    }, {
-                        "label": "Piz di Sassiglion",
-                        "uri": "http://dbpedia.org/resource/Piz_di_Sassiglion"
-                    }, {
-                        "label": "Sahuasiray",
-                        "uri": "http://dbpedia.org/resource/Sahuasiray"
-                    }, {
-                        "label": "Sex du Coeur",
-                        "uri": "http://dbpedia.org/resource/Sex_du_Coeur"
-                    }, {
-                        "label": "Urus (mountain)",
-                        "uri": "http://dbpedia.org/resource/Urus_(mountain)"
-                    }]
-            },
-            "combination": false
-        }, {
-            "id": "6",
-            "language": "EN",
-            "type": "NP",
-            "bindingType": "THING",
-            "returnType": "THING",
-            "frameType": "NPP",
-            "sentences": ["the other name of $x"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/otherName> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
-            },
-            "returnVariable": "objOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": [{
-                        "label": "Hira Mountains",
-                        "uri": "http://dbpedia.org/resource/Hira_Mountains"
-                    }, {
-                        "label": "Kula (volcano)",
-                        "uri": "http://dbpedia.org/resource/Kula_(volcano)"
-                    }, {
-                        "label": "Mount Aino",
-                        "uri": "http://dbpedia.org/resource/Mount_Aino"
-                    }, {
-                        "label": "North Head, New Zealand",
-                        "uri": "http://dbpedia.org/resource/North_Head,_New_Zealand"
-                    }, {
-                        "label": "Kronplatz",
-                        "uri": "http://dbpedia.org/resource/Kronplatz"
-                    }, {
-                        "label": "Askøyfjellet",
-                        "uri": "http://dbpedia.org/resource/Askøyfjellet"
-                    }, {
-                        "label": "Hazaran",
-                        "uri": "http://dbpedia.org/resource/Hazaran"
-                    }, {
-                        "label": "Kozubová",
-                        "uri": "http://dbpedia.org/resource/Kozubová"
-                    }, {
-                        "label": "Letha Taung",
-                        "uri": "http://dbpedia.org/resource/Letha_Taung"
-                    }, {
-                        "label": "Monte Amiata",
-                        "uri": "http://dbpedia.org/resource/Monte_Amiata"
-                    }, {
-                        "label": "San Carlos (Equatorial Guinea)",
-                        "uri": "http://dbpedia.org/resource/San_Carlos_(Equatorial_Guinea)"
-                    }, {
-                        "label": "Schynige Platte",
-                        "uri": "http://dbpedia.org/resource/Schynige_Platte"
-                    }, {
-                        "label": "Slieve na Calliagh",
-                        "uri": "http://dbpedia.org/resource/Slieve_na_Calliagh"
-                    }, {
-                        "label": "Slieveboy",
-                        "uri": "http://dbpedia.org/resource/Slieveboy"
-                    }, {
-                        "label": "Svartfjellet, Kvaløya",
-                        "uri": "http://dbpedia.org/resource/Svartfjellet,_Kvaløya"
-                    }, {
-                        "label": "Taras Hill",
-                        "uri": "http://dbpedia.org/resource/Taras_Hill"
-                    }, {
-                        "label": "Doi Luang, Phi Pan Nam Range",
-                        "uri": "http://dbpedia.org/resource/Doi_Luang,_Phi_Pan_Nam_Range"
-                    }, {
-                        "label": "Liushi Shan",
-                        "uri": "http://dbpedia.org/resource/Liushi_Shan"
-                    }, {
-                        "label": "Mittaghorn (Rawilpass)",
-                        "uri": "http://dbpedia.org/resource/Mittaghorn_(Rawilpass)"
-                    }, {
-                        "label": "Sickle Moon Peak",
-                        "uri": "http://dbpedia.org/resource/Sickle_Moon_Peak"
-                    }, {
-                        "label": "Chinchey",
-                        "uri": "http://dbpedia.org/resource/Chinchey"
-                    }, {
-                        "label": "Laguna Volcanic Field",
-                        "uri": "http://dbpedia.org/resource/Laguna_Volcanic_Field"
-                    }, {
-                        "label": "Slieve Gullion",
-                        "uri": "http://dbpedia.org/resource/Slieve_Gullion"
-                    }, {
-                        "label": "Bible Rock",
-                        "uri": "http://dbpedia.org/resource/Bible_Rock"
-                    }, {
-                        "label": "Boccard Point",
-                        "uri": "http://dbpedia.org/resource/Boccard_Point"
-                    }, {
-                        "label": "Bulahdelah Mountain",
-                        "uri": "http://dbpedia.org/resource/Bulahdelah_Mountain"
-                    }, {
-                        "label": "Chaupi Orco (mountain)",
-                        "uri": "http://dbpedia.org/resource/Chaupi_Orco_(mountain)"
-                    }, {
-                        "label": "Colline du Charf",
-                        "uri": "http://dbpedia.org/resource/Colline_du_Charf"
-                    }, {
-                        "label": "Dreischusterspitze",
-                        "uri": "http://dbpedia.org/resource/Dreischusterspitze"
-                    }, {
-                        "label": "Hualca Hualca",
-                        "uri": "http://dbpedia.org/resource/Hualca_Hualca"
-                    }, {
-                        "label": "Huandoy",
-                        "uri": "http://dbpedia.org/resource/Huandoy"
-                    }, {
-                        "label": "Jôf di Montasio",
-                        "uri": "http://dbpedia.org/resource/Jôf_di_Montasio"
-                    }, {
-                        "label": "Kalanag",
-                        "uri": "http://dbpedia.org/resource/Kalanag"
-                    }, {
-                        "label": "Mangart",
-                        "uri": "http://dbpedia.org/resource/Mangart"
-                    }, {
-                        "label": "Mehammarsåta",
-                        "uri": "http://dbpedia.org/resource/Mehammarsåta"
-                    }, {
-                        "label": "Mount Bélair",
-                        "uri": "http://dbpedia.org/resource/Mount_Bélair"
-                    }, {
-                        "label": "Saka Haphong",
-                        "uri": "http://dbpedia.org/resource/Saka_Haphong"
-                    }, {
-                        "label": "Baga Bogd",
-                        "uri": "http://dbpedia.org/resource/Baga_Bogd"
-                    }, {
-                        "label": "Birreencorragh",
-                        "uri": "http://dbpedia.org/resource/Birreencorragh"
-                    }, {
-                        "label": "Espadas Peak",
-                        "uri": "http://dbpedia.org/resource/Espadas_Peak"
-                    }, {
-                        "label": "Großer Sonnblick",
-                        "uri": "http://dbpedia.org/resource/Großer_Sonnblick"
-                    }, {
-                        "label": "Hülfensberg",
-                        "uri": "http://dbpedia.org/resource/Hülfensberg"
-                    }, {
-                        "label": "Malepunyo Mountain Range",
-                        "uri": "http://dbpedia.org/resource/Malepunyo_Mountain_Range"
-                    }, {
-                        "label": "Mount Adishi",
-                        "uri": "http://dbpedia.org/resource/Mount_Adishi"
-                    }, {
-                        "label": "Mount Tapulao",
-                        "uri": "http://dbpedia.org/resource/Mount_Tapulao"
-                    }, {
-                        "label": "Pointe de Paumont",
-                        "uri": "http://dbpedia.org/resource/Pointe_de_Paumont"
-                    }, {
-                        "label": "Punta Sommeiller",
-                        "uri": "http://dbpedia.org/resource/Punta_Sommeiller"
-                    }, {
-                        "label": "Sutai Mountain",
-                        "uri": "http://dbpedia.org/resource/Sutai_Mountain"
-                    }, {
-                        "label": "Tsambagarav",
-                        "uri": "http://dbpedia.org/resource/Tsambagarav"
-                    }, {
-                        "label": "Yuzhu Peak",
-                        "uri": "http://dbpedia.org/resource/Yuzhu_Peak"
-                    }, {
-                        "label": "Belmore Mountain",
-                        "uri": "http://dbpedia.org/resource/Belmore_Mountain"
-                    }, {
-                        "label": "Black Mountain (Australian Capital Territory)",
-                        "uri": "http://dbpedia.org/resource/Black_Mountain_(Australian_Capital_Territory)"
-                    }, {
-                        "label": "Black Mountain (Belfast)",
-                        "uri": "http://dbpedia.org/resource/Black_Mountain_(Belfast)"
-                    }, {
-                        "label": "L'Argentine",
-                        "uri": "http://dbpedia.org/resource/L'Argentine"
-                    }, {
-                        "label": "Mont Durand",
-                        "uri": "http://dbpedia.org/resource/Mont_Durand"
-                    }, {
-                        "label": "Mount Pinnacle",
-                        "uri": "http://dbpedia.org/resource/Mount_Pinnacle"
-                    }, {
-                        "label": "Mount Takao",
-                        "uri": "http://dbpedia.org/resource/Mount_Takao"
-                    }, {
-                        "label": "Mount Thor",
-                        "uri": "http://dbpedia.org/resource/Mount_Thor"
-                    }, {
-                        "label": "Penobscot Knob",
-                        "uri": "http://dbpedia.org/resource/Penobscot_Knob"
-                    }, {
-                        "label": "Santa Isabel (volcano)",
-                        "uri": "http://dbpedia.org/resource/Santa_Isabel_(volcano)"
-                    }, {
-                        "label": "Sentinel Peak (Arizona)",
-                        "uri": "http://dbpedia.org/resource/Sentinel_Peak_(Arizona)"
-                    }, {
-                        "label": "Serra de Crevillent",
-                        "uri": "http://dbpedia.org/resource/Serra_de_Crevillent"
-                    }, {
-                        "label": "Taal Volcano",
-                        "uri": "http://dbpedia.org/resource/Taal_Volcano"
-                    }, {
-                        "label": "Binevenagh",
-                        "uri": "http://dbpedia.org/resource/Binevenagh"
-                    }, {
-                        "label": "Cuilcagh",
-                        "uri": "http://dbpedia.org/resource/Cuilcagh"
-                    }, {
-                        "label": "Devilsmother",
-                        "uri": "http://dbpedia.org/resource/Devilsmother"
-                    }, {
-                        "label": "Divis",
-                        "uri": "http://dbpedia.org/resource/Divis"
-                    }, {
-                        "label": "Mweelrea",
-                        "uri": "http://dbpedia.org/resource/Mweelrea"
-                    }, {
-                        "label": "Rimutaka Range",
-                        "uri": "http://dbpedia.org/resource/Rimutaka_Range"
-                    }, {
-                        "label": "Slieve Bloom Mountains",
-                        "uri": "http://dbpedia.org/resource/Slieve_Bloom_Mountains"
-                    }, {
-                        "label": "Slieve League",
-                        "uri": "http://dbpedia.org/resource/Slieve_League"
-                    }, {
-                        "label": "Sugarloaf (County Cork)",
-                        "uri": "http://dbpedia.org/resource/Sugarloaf_(County_Cork)"
-                    }, {
-                        "label": "Corbières Massif",
-                        "uri": "http://dbpedia.org/resource/Corbières_Massif"
-                    }, {
-                        "label": "Aj Bogd",
-                        "uri": "http://dbpedia.org/resource/Aj_Bogd"
-                    }, {
-                        "label": "Mount Hobson (Auckland)",
-                        "uri": "http://dbpedia.org/resource/Mount_Hobson_(Auckland)"
-                    }, {
-                        "label": "Mullaghmore, County Clare",
-                        "uri": "http://dbpedia.org/resource/Mullaghmore,_County_Clare"
-                    }, {
-                        "label": "Puncak Jaya",
-                        "uri": "http://dbpedia.org/resource/Puncak_Jaya"
-                    }, {
-                        "label": "Sela (Saudi Arabia)",
-                        "uri": "http://dbpedia.org/resource/Sela_(Saudi_Arabia)"
-                    }, {
-                        "label": "Bwlch y Ddwyallt",
-                        "uri": "http://dbpedia.org/resource/Bwlch_y_Ddwyallt"
-                    }, {
-                        "label": "Garreg Las",
-                        "uri": "http://dbpedia.org/resource/Garreg_Las"
-                    }, {
-                        "label": "Mount Smart",
-                        "uri": "http://dbpedia.org/resource/Mount_Smart"
-                    }, {
-                        "label": "Rhos Fawr",
-                        "uri": "http://dbpedia.org/resource/Rhos_Fawr"
-                    }, {
-                        "label": "Mount Richmond",
-                        "uri": "http://dbpedia.org/resource/Mount_Richmond"
-                    }, {
-                        "label": "Alcamarinayoc",
-                        "uri": "http://dbpedia.org/resource/Alcamarinayoc"
-                    }, {
-                        "label": "Ambuthirtha",
-                        "uri": "http://dbpedia.org/resource/Ambuthirtha"
-                    }, {
-                        "label": "Big Baldy Mountain (Montana)",
-                        "uri": "http://dbpedia.org/resource/Big_Baldy_Mountain_(Montana)"
-                    }, {
-                        "label": "Champara",
-                        "uri": "http://dbpedia.org/resource/Champara"
-                    }, {
-                        "label": "Dobro Pole",
-                        "uri": "http://dbpedia.org/resource/Dobro_Pole"
-                    }, {
-                        "label": "Furgglenfirst",
-                        "uri": "http://dbpedia.org/resource/Furgglenfirst"
-                    }, {
-                        "label": "Japu Punta",
-                        "uri": "http://dbpedia.org/resource/Japu_Punta"
-                    }, {
-                        "label": "Jebel Azao",
-                        "uri": "http://dbpedia.org/resource/Jebel_Azao"
-                    }, {
-                        "label": "Khao Kho",
-                        "uri": "http://dbpedia.org/resource/Khao_Kho"
-                    }, {
-                        "label": "Melsnuten",
-                        "uri": "http://dbpedia.org/resource/Melsnuten"
-                    }, {
-                        "label": "Mullwharchar",
-                        "uri": "http://dbpedia.org/resource/Mullwharchar"
-                    }, {
-                        "label": "Padreyoc (Cusco)",
-                        "uri": "http://dbpedia.org/resource/Padreyoc_(Cusco)"
-                    }, {
-                        "label": "Paohanli Peak",
-                        "uri": "http://dbpedia.org/resource/Paohanli_Peak"
-                    }, {
-                        "label": "Piz di Sassiglion",
-                        "uri": "http://dbpedia.org/resource/Piz_di_Sassiglion"
-                    }, {
-                        "label": "Sahuasiray",
-                        "uri": "http://dbpedia.org/resource/Sahuasiray"
-                    }, {
-                        "label": "Sex du Coeur",
-                        "uri": "http://dbpedia.org/resource/Sex_du_Coeur"
-                    }, {
-                        "label": "Urus (mountain)",
-                        "uri": "http://dbpedia.org/resource/Urus_(mountain)"
-                    }]
-            },
-            "combination": false
-        }, {
-            "id": "7",
-            "language": "EN",
-            "type": "SENTENCE",
-            "bindingType": "COUNTRY",
-            "returnType": "THING",
-            "frameType": "NPP",
-            "sentences": ["What is the largest state of ($x | COUNTRY_NP)?", "What was the largest state of ($x | COUNTRY_NP)?", "Which state is the largest state of ($x | COUNTRY_NP)?", "Which state was the largest state of ($x | COUNTRY_NP)?"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/AdministrativeRegion> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
-            },
-            "returnVariable": "objOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": []
-            },
-            "combination": false
-        }, {
-            "id": "8",
-            "language": "EN",
-            "type": "NP",
-            "bindingType": "COUNTRY",
-            "returnType": "THING",
-            "frameType": "NPP",
-            "sentences": ["the largest state of $x"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/AdministrativeRegion> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
-            },
-            "returnVariable": "objOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": []
-            },
-            "combination": false
-        }, {
-            "id": "9",
-            "language": "EN",
-            "type": "SENTENCE",
-            "bindingType": "THING",
-            "returnType": "THING",
-            "frameType": "NPP",
-            "sentences": ["What is the name of ($x | THING_NP)?", "What was the name of ($x | THING_NP)?"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/property/name> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
-            },
-            "returnVariable": "objOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": [{
-                        "label": "1959 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1959_Tour_of_Flanders"
-                    }, {
-                        "label": "1960 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1960_Tour_of_Flanders"
-                    }, {
-                        "label": "1962 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1962_Tour_of_Flanders"
-                    }, {
-                        "label": "1963 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1963_Tour_of_Flanders"
-                    }, {
-                        "label": "1964 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1964_Tour_of_Flanders"
-                    }, {
-                        "label": "1965 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1965_Tour_of_Flanders"
-                    }, {
-                        "label": "1966 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1966_Tour_of_Flanders"
-                    }, {
-                        "label": "1967 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1967_Tour_of_Flanders"
-                    }, {
-                        "label": "1968 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1968_Tour_of_Flanders"
-                    }, {
-                        "label": "2016 Dallas Wings season",
-                        "uri": "http://dbpedia.org/resource/2016_Dallas_Wings_season"
-                    }, {
-                        "label": "1978 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1978_Tour_of_Flanders"
-                    }, {
-                        "label": "1979 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1979_Tour_of_Flanders"
-                    }, {
-                        "label": "Abdul Waheed (field hockey)",
-                        "uri": "http://dbpedia.org/resource/Abdul_Waheed_(field_hockey)"
-                    }, {
-                        "label": "Abdulaziz Alshatti",
-                        "uri": "http://dbpedia.org/resource/Abdulaziz_Alshatti"
-                    }, {
-                        "label": "Abdulrahman Al-Faihan",
-                        "uri": "http://dbpedia.org/resource/Abdulrahman_Al-Faihan"
-                    }, {
-                        "label": "Ahmad Alafasi",
-                        "uri": "http://dbpedia.org/resource/Ahmad_Alafasi"
-                    }, {
-                        "label": "Anatoliy Abdula",
-                        "uri": "http://dbpedia.org/resource/Anatoliy_Abdula"
-                    }, {
-                        "label": "Briana Provancha",
-                        "uri": "http://dbpedia.org/resource/Briana_Provancha"
-                    }, {
-                        "label": "Daryl Homer",
-                        "uri": "http://dbpedia.org/resource/Daryl_Homer"
-                    }, {
-                        "label": "Giles Scott",
-                        "uri": "http://dbpedia.org/resource/Giles_Scott"
-                    }, {
-                        "label": "Grade I listed buildings in Coventry",
-                        "uri": "http://dbpedia.org/resource/Grade_I_listed_buildings_in_Coventry"
-                    }, {
-                        "label": "Ilya Mokretsov",
-                        "uri": "http://dbpedia.org/resource/Ilya_Mokretsov"
-                    }, {
-                        "label": "Maximilien van Haaster",
-                        "uri": "http://dbpedia.org/resource/Maximilien_van_Haaster"
-                    }, {
-                        "label": "Mohammed Al-Hakim",
-                        "uri": "http://dbpedia.org/resource/Mohammed_Al-Hakim"
-                    }, {
-                        "label": "Monica Aksamit",
-                        "uri": "http://dbpedia.org/resource/Monica_Aksamit"
-                    }, {
-                        "label": "Olena Kravatska",
-                        "uri": "http://dbpedia.org/resource/Olena_Kravatska"
-                    }, {
-                        "label": "Oromerycidae",
-                        "uri": "http://dbpedia.org/resource/Oromerycidae"
-                    }, {
-                        "label": "Pierre Moussette",
-                        "uri": "http://dbpedia.org/resource/Pierre_Moussette"
-                    }, {
-                        "label": "Savage Skulls (Gang)",
-                        "uri": "http://dbpedia.org/resource/Savage_Skulls_(Gang)"
-                    }, {
-                        "label": "Southern giraffe",
-                        "uri": "http://dbpedia.org/resource/Southern_giraffe"
-                    }, {
-                        "label": "Victory Medal (Romania)",
-                        "uri": "http://dbpedia.org/resource/Victory_Medal_(Romania)"
-                    }, {
-                        "label": "Yémi Apithy",
-                        "uri": "http://dbpedia.org/resource/Yémi_Apithy"
-                    }, {
-                        "label": "'Ndrangheta",
-                        "uri": "http://dbpedia.org/resource/'Ndrangheta"
-                    }, {
-                        "label": "1896 Summer Olympics",
-                        "uri": "http://dbpedia.org/resource/1896_Summer_Olympics"
-                    }, {
-                        "label": "1928 Winter Olympics",
-                        "uri": "http://dbpedia.org/resource/1928_Winter_Olympics"
-                    }, {
-                        "label": "1948 Winter Olympics",
-                        "uri": "http://dbpedia.org/resource/1948_Winter_Olympics"
-                    }, {
-                        "label": "2001 Tour de France",
-                        "uri": "http://dbpedia.org/resource/2001_Tour_de_France"
-                    }, {
-                        "label": "2002 Winter Olympics",
-                        "uri": "http://dbpedia.org/resource/2002_Winter_Olympics"
-                    }, {
-                        "label": "35 mm film",
-                        "uri": "http://dbpedia.org/resource/35_mm_film"
-                    }, {
-                        "label": "5.56×45mm NATO",
-                        "uri": "http://dbpedia.org/resource/5.56×45mm_NATO"
-                    }, {
-                        "label": "61 Cygni",
-                        "uri": "http://dbpedia.org/resource/61_Cygni"
-                    }, {
-                        "label": "A-wing",
-                        "uri": "http://dbpedia.org/resource/A-wing"
-                    }, {
-                        "label": "AIBO",
-                        "uri": "http://dbpedia.org/resource/AIBO"
-                    }, {
-                        "label": "AIML",
-                        "uri": "http://dbpedia.org/resource/AIML"
-                    }, {
-                        "label": "ARJ",
-                        "uri": "http://dbpedia.org/resource/ARJ"
-                    }, {
-                        "label": "Aaron Burr",
-                        "uri": "http://dbpedia.org/resource/Aaron_Burr"
-                    }, {
-                        "label": "Aaron Copland",
-                        "uri": "http://dbpedia.org/resource/Aaron_Copland"
-                    }, {
-                        "label": "Acanthocephala",
-                        "uri": "http://dbpedia.org/resource/Acanthocephala"
-                    }, {
-                        "label": "Acetylcholine",
-                        "uri": "http://dbpedia.org/resource/Acetylcholine"
-                    }, {
-                        "label": "Act Prohibiting Importation of Slaves",
-                        "uri": "http://dbpedia.org/resource/Act_Prohibiting_Importation_of_Slaves"
-                    }, {
-                        "label": "Actuary",
-                        "uri": "http://dbpedia.org/resource/Actuary"
-                    }, {
-                        "label": "Adam Oehlenschläger",
-                        "uri": "http://dbpedia.org/resource/Adam_Oehlenschläger"
-                    }, {
-                        "label": "Aida",
-                        "uri": "http://dbpedia.org/resource/Aida"
-                    }, {
-                        "label": "Air traffic control",
-                        "uri": "http://dbpedia.org/resource/Air_traffic_control"
-                    }, {
-                        "label": "Alan Shearer",
-                        "uri": "http://dbpedia.org/resource/Alan_Shearer"
-                    }, {
-                        "label": "Alessandro Manzoni",
-                        "uri": "http://dbpedia.org/resource/Alessandro_Manzoni"
-                    }, {
-                        "label": "Alex Ferguson",
-                        "uri": "http://dbpedia.org/resource/Alex_Ferguson"
-                    }, {
-                        "label": "Alfred North Whitehead",
-                        "uri": "http://dbpedia.org/resource/Alfred_North_Whitehead"
-                    }, {
-                        "label": "Algonquian languages",
-                        "uri": "http://dbpedia.org/resource/Algonquian_languages"
-                    }, {
-                        "label": "Alice in Chains",
-                        "uri": "http://dbpedia.org/resource/Alice_in_Chains"
-                    }, {
-                        "label": "Allan Pinkerton",
-                        "uri": "http://dbpedia.org/resource/Allan_Pinkerton"
-                    }, {
-                        "label": "American bison",
-                        "uri": "http://dbpedia.org/resource/American_bison"
-                    }, {
-                        "label": "American black bear",
-                        "uri": "http://dbpedia.org/resource/American_black_bear"
-                    }, {
-                        "label": "American goldfinch",
-                        "uri": "http://dbpedia.org/resource/American_goldfinch"
-                    }, {
-                        "label": "Amphora",
-                        "uri": "http://dbpedia.org/resource/Amphora"
-                    }, {
-                        "label": "Andrew Marvell",
-                        "uri": "http://dbpedia.org/resource/Andrew_Marvell"
-                    }, {
-                        "label": "Andrzej Żuławski",
-                        "uri": "http://dbpedia.org/resource/Andrzej_Żuławski"
-                    }, {
-                        "label": "André Malraux",
-                        "uri": "http://dbpedia.org/resource/André_Malraux"
-                    }, {
-                        "label": "Anesthesia",
-                        "uri": "http://dbpedia.org/resource/Anesthesia"
-                    }, {
-                        "label": "Angband",
-                        "uri": "http://dbpedia.org/resource/Angband"
-                    }, {
-                        "label": "Anne, Queen of Great Britain",
-                        "uri": "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
-                    }, {
-                        "label": "Anne of Green Gables",
-                        "uri": "http://dbpedia.org/resource/Anne_of_Green_Gables"
-                    }, {
-                        "label": "Anorexia (symptom)",
-                        "uri": "http://dbpedia.org/resource/Anorexia_(symptom)"
-                    }, {
-                        "label": "Antioch",
-                        "uri": "http://dbpedia.org/resource/Antioch"
-                    }, {
-                        "label": "Anton Cermak",
-                        "uri": "http://dbpedia.org/resource/Anton_Cermak"
-                    }, {
-                        "label": "Antonie van Leeuwenhoek",
-                        "uri": "http://dbpedia.org/resource/Antonie_van_Leeuwenhoek"
-                    }, {
-                        "label": "Anwar Sadat",
-                        "uri": "http://dbpedia.org/resource/Anwar_Sadat"
-                    }, {
-                        "label": "Apricot",
-                        "uri": "http://dbpedia.org/resource/Apricot"
-                    }, {
-                        "label": "Arachne",
-                        "uri": "http://dbpedia.org/resource/Arachne"
-                    }, {
-                        "label": "Arcade game",
-                        "uri": "http://dbpedia.org/resource/Arcade_game"
-                    }, {
-                        "label": "Arkan",
-                        "uri": "http://dbpedia.org/resource/Arkan"
-                    }, {
-                        "label": "Arnold Bennett",
-                        "uri": "http://dbpedia.org/resource/Arnold_Bennett"
-                    }, {
-                        "label": "Around the World in Eighty Days",
-                        "uri": "http://dbpedia.org/resource/Around_the_World_in_Eighty_Days"
-                    }, {
-                        "label": "Arthur Machen",
-                        "uri": "http://dbpedia.org/resource/Arthur_Machen"
-                    }, {
-                        "label": "Ashley Judd",
-                        "uri": "http://dbpedia.org/resource/Ashley_Judd"
-                    }, {
-                        "label": "Asian Games",
-                        "uri": "http://dbpedia.org/resource/Asian_Games"
-                    }, {
-                        "label": "Asparagus",
-                        "uri": "http://dbpedia.org/resource/Asparagus"
-                    }, {
-                        "label": "Assata Shakur",
-                        "uri": "http://dbpedia.org/resource/Assata_Shakur"
-                    }, {
-                        "label": "Astrid Lindgren",
-                        "uri": "http://dbpedia.org/resource/Astrid_Lindgren"
-                    }, {
-                        "label": "Audio Video Interleave",
-                        "uri": "http://dbpedia.org/resource/Audio_Video_Interleave"
-                    }, {
-                        "label": "August Strindberg",
-                        "uri": "http://dbpedia.org/resource/August_Strindberg"
-                    }, {
-                        "label": "August Weismann",
-                        "uri": "http://dbpedia.org/resource/August_Weismann"
-                    }, {
-                        "label": "Augustus Pitt Rivers",
-                        "uri": "http://dbpedia.org/resource/Augustus_Pitt_Rivers"
-                    }, {
-                        "label": "Auk",
-                        "uri": "http://dbpedia.org/resource/Auk"
-                    }, {
-                        "label": "Austronesian languages",
-                        "uri": "http://dbpedia.org/resource/Austronesian_languages"
-                    }, {
-                        "label": "Autonomous communities of Spain",
-                        "uri": "http://dbpedia.org/resource/Autonomous_communities_of_Spain"
-                    }, {
-                        "label": "Aztec mythology",
-                        "uri": "http://dbpedia.org/resource/Aztec_mythology"
-                    }, {
-                        "label": "Baal",
-                        "uri": "http://dbpedia.org/resource/Baal"
-                    }, {
-                        "label": "Baker v. Vermont",
-                        "uri": "http://dbpedia.org/resource/Baker_v._Vermont"
-                    }, {
-                        "label": "Bamboo",
-                        "uri": "http://dbpedia.org/resource/Bamboo"
-                    }]
-            },
-            "combination": false
-        }, {
-            "id": "10",
-            "language": "EN",
-            "type": "NP",
-            "bindingType": "THING",
-            "returnType": "THING",
-            "frameType": "NPP",
-            "sentences": ["the name of $x"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/property/name> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
-            },
-            "returnVariable": "objOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": [{
-                        "label": "1959 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1959_Tour_of_Flanders"
-                    }, {
-                        "label": "1960 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1960_Tour_of_Flanders"
-                    }, {
-                        "label": "1962 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1962_Tour_of_Flanders"
-                    }, {
-                        "label": "1963 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1963_Tour_of_Flanders"
-                    }, {
-                        "label": "1964 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1964_Tour_of_Flanders"
-                    }, {
-                        "label": "1965 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1965_Tour_of_Flanders"
-                    }, {
-                        "label": "1966 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1966_Tour_of_Flanders"
-                    }, {
-                        "label": "1967 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1967_Tour_of_Flanders"
-                    }, {
-                        "label": "1968 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1968_Tour_of_Flanders"
-                    }, {
-                        "label": "2016 Dallas Wings season",
-                        "uri": "http://dbpedia.org/resource/2016_Dallas_Wings_season"
-                    }, {
-                        "label": "1978 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1978_Tour_of_Flanders"
-                    }, {
-                        "label": "1979 Tour of Flanders",
-                        "uri": "http://dbpedia.org/resource/1979_Tour_of_Flanders"
-                    }, {
-                        "label": "Abdul Waheed (field hockey)",
-                        "uri": "http://dbpedia.org/resource/Abdul_Waheed_(field_hockey)"
-                    }, {
-                        "label": "Abdulaziz Alshatti",
-                        "uri": "http://dbpedia.org/resource/Abdulaziz_Alshatti"
-                    }, {
-                        "label": "Abdulrahman Al-Faihan",
-                        "uri": "http://dbpedia.org/resource/Abdulrahman_Al-Faihan"
-                    }, {
-                        "label": "Ahmad Alafasi",
-                        "uri": "http://dbpedia.org/resource/Ahmad_Alafasi"
-                    }, {
-                        "label": "Anatoliy Abdula",
-                        "uri": "http://dbpedia.org/resource/Anatoliy_Abdula"
-                    }, {
-                        "label": "Briana Provancha",
-                        "uri": "http://dbpedia.org/resource/Briana_Provancha"
-                    }, {
-                        "label": "Daryl Homer",
-                        "uri": "http://dbpedia.org/resource/Daryl_Homer"
-                    }, {
-                        "label": "Giles Scott",
-                        "uri": "http://dbpedia.org/resource/Giles_Scott"
-                    }, {
-                        "label": "Grade I listed buildings in Coventry",
-                        "uri": "http://dbpedia.org/resource/Grade_I_listed_buildings_in_Coventry"
-                    }, {
-                        "label": "Ilya Mokretsov",
-                        "uri": "http://dbpedia.org/resource/Ilya_Mokretsov"
-                    }, {
-                        "label": "Maximilien van Haaster",
-                        "uri": "http://dbpedia.org/resource/Maximilien_van_Haaster"
-                    }, {
-                        "label": "Mohammed Al-Hakim",
-                        "uri": "http://dbpedia.org/resource/Mohammed_Al-Hakim"
-                    }, {
-                        "label": "Monica Aksamit",
-                        "uri": "http://dbpedia.org/resource/Monica_Aksamit"
-                    }, {
-                        "label": "Olena Kravatska",
-                        "uri": "http://dbpedia.org/resource/Olena_Kravatska"
-                    }, {
-                        "label": "Oromerycidae",
-                        "uri": "http://dbpedia.org/resource/Oromerycidae"
-                    }, {
-                        "label": "Pierre Moussette",
-                        "uri": "http://dbpedia.org/resource/Pierre_Moussette"
-                    }, {
-                        "label": "Savage Skulls (Gang)",
-                        "uri": "http://dbpedia.org/resource/Savage_Skulls_(Gang)"
-                    }, {
-                        "label": "Southern giraffe",
-                        "uri": "http://dbpedia.org/resource/Southern_giraffe"
-                    }, {
-                        "label": "Victory Medal (Romania)",
-                        "uri": "http://dbpedia.org/resource/Victory_Medal_(Romania)"
-                    }, {
-                        "label": "Yémi Apithy",
-                        "uri": "http://dbpedia.org/resource/Yémi_Apithy"
-                    }, {
-                        "label": "'Ndrangheta",
-                        "uri": "http://dbpedia.org/resource/'Ndrangheta"
-                    }, {
-                        "label": "1896 Summer Olympics",
-                        "uri": "http://dbpedia.org/resource/1896_Summer_Olympics"
-                    }, {
-                        "label": "1928 Winter Olympics",
-                        "uri": "http://dbpedia.org/resource/1928_Winter_Olympics"
-                    }, {
-                        "label": "1948 Winter Olympics",
-                        "uri": "http://dbpedia.org/resource/1948_Winter_Olympics"
-                    }, {
-                        "label": "2001 Tour de France",
-                        "uri": "http://dbpedia.org/resource/2001_Tour_de_France"
-                    }, {
-                        "label": "2002 Winter Olympics",
-                        "uri": "http://dbpedia.org/resource/2002_Winter_Olympics"
-                    }, {
-                        "label": "35 mm film",
-                        "uri": "http://dbpedia.org/resource/35_mm_film"
-                    }, {
-                        "label": "5.56×45mm NATO",
-                        "uri": "http://dbpedia.org/resource/5.56×45mm_NATO"
-                    }, {
-                        "label": "61 Cygni",
-                        "uri": "http://dbpedia.org/resource/61_Cygni"
-                    }, {
-                        "label": "A-wing",
-                        "uri": "http://dbpedia.org/resource/A-wing"
-                    }, {
-                        "label": "AIBO",
-                        "uri": "http://dbpedia.org/resource/AIBO"
-                    }, {
-                        "label": "AIML",
-                        "uri": "http://dbpedia.org/resource/AIML"
-                    }, {
-                        "label": "ARJ",
-                        "uri": "http://dbpedia.org/resource/ARJ"
-                    }, {
-                        "label": "Aaron Burr",
-                        "uri": "http://dbpedia.org/resource/Aaron_Burr"
-                    }, {
-                        "label": "Aaron Copland",
-                        "uri": "http://dbpedia.org/resource/Aaron_Copland"
-                    }, {
-                        "label": "Acanthocephala",
-                        "uri": "http://dbpedia.org/resource/Acanthocephala"
-                    }, {
-                        "label": "Acetylcholine",
-                        "uri": "http://dbpedia.org/resource/Acetylcholine"
-                    }, {
-                        "label": "Act Prohibiting Importation of Slaves",
-                        "uri": "http://dbpedia.org/resource/Act_Prohibiting_Importation_of_Slaves"
-                    }, {
-                        "label": "Actuary",
-                        "uri": "http://dbpedia.org/resource/Actuary"
-                    }, {
-                        "label": "Adam Oehlenschläger",
-                        "uri": "http://dbpedia.org/resource/Adam_Oehlenschläger"
-                    }, {
-                        "label": "Aida",
-                        "uri": "http://dbpedia.org/resource/Aida"
-                    }, {
-                        "label": "Air traffic control",
-                        "uri": "http://dbpedia.org/resource/Air_traffic_control"
-                    }, {
-                        "label": "Alan Shearer",
-                        "uri": "http://dbpedia.org/resource/Alan_Shearer"
-                    }, {
-                        "label": "Alessandro Manzoni",
-                        "uri": "http://dbpedia.org/resource/Alessandro_Manzoni"
-                    }, {
-                        "label": "Alex Ferguson",
-                        "uri": "http://dbpedia.org/resource/Alex_Ferguson"
-                    }, {
-                        "label": "Alfred North Whitehead",
-                        "uri": "http://dbpedia.org/resource/Alfred_North_Whitehead"
-                    }, {
-                        "label": "Algonquian languages",
-                        "uri": "http://dbpedia.org/resource/Algonquian_languages"
-                    }, {
-                        "label": "Alice in Chains",
-                        "uri": "http://dbpedia.org/resource/Alice_in_Chains"
-                    }, {
-                        "label": "Allan Pinkerton",
-                        "uri": "http://dbpedia.org/resource/Allan_Pinkerton"
-                    }, {
-                        "label": "American bison",
-                        "uri": "http://dbpedia.org/resource/American_bison"
-                    }, {
-                        "label": "American black bear",
-                        "uri": "http://dbpedia.org/resource/American_black_bear"
-                    }, {
-                        "label": "American goldfinch",
-                        "uri": "http://dbpedia.org/resource/American_goldfinch"
-                    }, {
-                        "label": "Amphora",
-                        "uri": "http://dbpedia.org/resource/Amphora"
-                    }, {
-                        "label": "Andrew Marvell",
-                        "uri": "http://dbpedia.org/resource/Andrew_Marvell"
-                    }, {
-                        "label": "Andrzej Żuławski",
-                        "uri": "http://dbpedia.org/resource/Andrzej_Żuławski"
-                    }, {
-                        "label": "André Malraux",
-                        "uri": "http://dbpedia.org/resource/André_Malraux"
-                    }, {
-                        "label": "Anesthesia",
-                        "uri": "http://dbpedia.org/resource/Anesthesia"
-                    }, {
-                        "label": "Angband",
-                        "uri": "http://dbpedia.org/resource/Angband"
-                    }, {
-                        "label": "Anne, Queen of Great Britain",
-                        "uri": "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
-                    }, {
-                        "label": "Anne of Green Gables",
-                        "uri": "http://dbpedia.org/resource/Anne_of_Green_Gables"
-                    }, {
-                        "label": "Anorexia (symptom)",
-                        "uri": "http://dbpedia.org/resource/Anorexia_(symptom)"
-                    }, {
-                        "label": "Antioch",
-                        "uri": "http://dbpedia.org/resource/Antioch"
-                    }, {
-                        "label": "Anton Cermak",
-                        "uri": "http://dbpedia.org/resource/Anton_Cermak"
-                    }, {
-                        "label": "Antonie van Leeuwenhoek",
-                        "uri": "http://dbpedia.org/resource/Antonie_van_Leeuwenhoek"
-                    }, {
-                        "label": "Anwar Sadat",
-                        "uri": "http://dbpedia.org/resource/Anwar_Sadat"
-                    }, {
-                        "label": "Apricot",
-                        "uri": "http://dbpedia.org/resource/Apricot"
-                    }, {
-                        "label": "Arachne",
-                        "uri": "http://dbpedia.org/resource/Arachne"
-                    }, {
-                        "label": "Arcade game",
-                        "uri": "http://dbpedia.org/resource/Arcade_game"
-                    }, {
-                        "label": "Arkan",
-                        "uri": "http://dbpedia.org/resource/Arkan"
-                    }, {
-                        "label": "Arnold Bennett",
-                        "uri": "http://dbpedia.org/resource/Arnold_Bennett"
-                    }, {
-                        "label": "Around the World in Eighty Days",
-                        "uri": "http://dbpedia.org/resource/Around_the_World_in_Eighty_Days"
-                    }, {
-                        "label": "Arthur Machen",
-                        "uri": "http://dbpedia.org/resource/Arthur_Machen"
-                    }, {
-                        "label": "Ashley Judd",
-                        "uri": "http://dbpedia.org/resource/Ashley_Judd"
-                    }, {
-                        "label": "Asian Games",
-                        "uri": "http://dbpedia.org/resource/Asian_Games"
-                    }, {
-                        "label": "Asparagus",
-                        "uri": "http://dbpedia.org/resource/Asparagus"
-                    }, {
-                        "label": "Assata Shakur",
-                        "uri": "http://dbpedia.org/resource/Assata_Shakur"
-                    }, {
-                        "label": "Astrid Lindgren",
-                        "uri": "http://dbpedia.org/resource/Astrid_Lindgren"
-                    }, {
-                        "label": "Audio Video Interleave",
-                        "uri": "http://dbpedia.org/resource/Audio_Video_Interleave"
-                    }, {
-                        "label": "August Strindberg",
-                        "uri": "http://dbpedia.org/resource/August_Strindberg"
-                    }, {
-                        "label": "August Weismann",
-                        "uri": "http://dbpedia.org/resource/August_Weismann"
-                    }, {
-                        "label": "Augustus Pitt Rivers",
-                        "uri": "http://dbpedia.org/resource/Augustus_Pitt_Rivers"
-                    }, {
-                        "label": "Auk",
-                        "uri": "http://dbpedia.org/resource/Auk"
-                    }, {
-                        "label": "Austronesian languages",
-                        "uri": "http://dbpedia.org/resource/Austronesian_languages"
-                    }, {
-                        "label": "Autonomous communities of Spain",
-                        "uri": "http://dbpedia.org/resource/Autonomous_communities_of_Spain"
-                    }, {
-                        "label": "Aztec mythology",
-                        "uri": "http://dbpedia.org/resource/Aztec_mythology"
-                    }, {
-                        "label": "Baal",
-                        "uri": "http://dbpedia.org/resource/Baal"
-                    }, {
-                        "label": "Baker v. Vermont",
-                        "uri": "http://dbpedia.org/resource/Baker_v._Vermont"
-                    }, {
-                        "label": "Bamboo",
-                        "uri": "http://dbpedia.org/resource/Bamboo"
-                    }]
-            },
-            "combination": false
-        }, {
-            "id": "11",
             "language": "EN",
             "type": "SENTENCE",
             "bindingType": "LOCATION",

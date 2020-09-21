@@ -36,7 +36,8 @@ class SentenceTemplateFactoryEN implements Factory<SentenceTemplateRepository> {
         language,
         List.of(
           "interrogativeDeterminer noun(condition:copulativeArg) verb(reference:component_be) NP(prepositionalAdjunct)?",
-          "interrogativePronoun verb(reference:component_be) NP(prepositionalAdjunct)?"
+          "interrogativePronoun verb(reference:component_be) NP(prepositionalAdjunct)?",
+          "verb(reference:component_imperative) determiner(reference:component_the) noun(root) preposition prepositionalAdjunct"
         ),
         "copulativeArg",
         "prepositionalAdjunct"

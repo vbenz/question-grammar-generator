@@ -43,6 +43,8 @@ import java.util.Map;
 
 import static grammar.sparql.SPARQLRequest.DEFAULT_LIMIT;
 import static java.util.Objects.isNull;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Getter
 @Setter
@@ -193,7 +195,7 @@ public abstract class GrammarRuleGeneratorRoot implements GrammarRuleGenerator {
           grammarEntry.setSentenceBindings(sentenceBindings);
 
           // generate sentences
-          List<String> sentences = generateSentences(lexicalEntryUtil);
+          List<String> sentences =  generateSentences(lexicalEntryUtil);
           grammarEntry.setSentences(sentences);
 
           grammarEntry.setReturnType(DomainOrRangeType.getMatchingType(lexicalEntryUtil.getConditionUriBySelectVariable(
@@ -309,4 +311,16 @@ public abstract class GrammarRuleGeneratorRoot implements GrammarRuleGenerator {
     fragmentEntry.setSentenceToSparqlParameterMapping(grammarEntry.getSentenceToSparqlParameterMapping());
     return fragmentEntry;
   }
+  
+  private List<String> modify(List<String> sentences) {
+        List<String> firstWordSentenceCaseSentences=new ArrayList<String>();
+        for (String sentence : sentences) {
+            String modifySentence = Stream.of(sentence.trim().split("\\s"))
+                    .filter(word -> word.length() > 0)
+                    .map(word -> word.substring(0, 1).toUpperCase() + word.substring(1))
+                    .collect(Collectors.joining(" "));
+           firstWordSentenceCaseSentences.add(modifySentence);
+        }
+        return firstWordSentenceCaseSentences;
+    }
 }

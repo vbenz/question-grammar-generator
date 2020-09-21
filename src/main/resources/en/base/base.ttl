@@ -9,6 +9,7 @@
   lemon:language "en" ;
   lemon:entry    :component_be ;
   lemon:entry    :component_do ;
+  lemon:entry    :component_imperative ;
   lemon:entry    :component_have ;
   lemon:entry    :component_the ;
   lemon:entry    :component_a ;
@@ -54,6 +55,16 @@
   lexinfo:tense                           lexinfo:present ;
   lexinfo:person                          lexinfo:thirdPerson ;
   lexinfo:number                          lexinfo:singular ] .
+
+:component_imperative a        lemon:LexicalEntry ;
+  lemon:canonicalForm  [ lemon:writtenRep "list"@en ;
+  lexinfo:verbFormMood                    lexinfo:infinitive ] ;
+  lemon:otherForm      [ lemon:writtenRep "List"@en ;
+  lexinfo:tense                           lexinfo:present ;
+  lexinfo:person                          lexinfo:secondPerson ;
+  lexinfo:number                          lexinfo:singular ] ;
+  lexinfo:partOfSpeech lexinfo:verb .
+
 
 :component_have a      lemon:LexicalEntry ;
   lemon:canonicalForm  [ lemon:writtenRep "have"@en ] ;
