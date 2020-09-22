@@ -6,7 +6,7 @@
             "bindingType": "COUNTRY",
             "returnType": "CURRENCY",
             "frameType": "NPP",
-            "sentences": ["Give me the currency of ($x | COUNTRY_NP)?", "Inform me the currency of ($x | COUNTRY_NP)?", "Show me the currency of ($x | COUNTRY_NP)?", "Tell me the currency of ($x | COUNTRY_NP)?", "What is the currency of ($x | COUNTRY_NP)?", "What was the currency of ($x | COUNTRY_NP)?", "Which currency is the currency of ($x | COUNTRY_NP)?", "Which currency was the currency of ($x | COUNTRY_NP)?"],
+            "sentences": ["Give me the currency of ($x | COUNTRY_NP)?", "Inform me the currency of ($x | COUNTRY_NP)?", "List the currencies of ($x | COUNTRY_NP)?", "Show me the currency of ($x | COUNTRY_NP)?", "Tell me the currency of ($x | COUNTRY_NP)?", "What are the currencies of ($x | COUNTRY_NP)?", "What is the currency of ($x | COUNTRY_NP)?", "What was the currency of ($x | COUNTRY_NP)?", "What were the currencies of ($x | COUNTRY_NP)?", "Which currencies are the currencies of ($x | COUNTRY_NP)?", "Which currencies were the currencies of ($x | COUNTRY_NP)?", "Which currency is the currency of ($x | COUNTRY_NP)?", "Which currency was the currency of ($x | COUNTRY_NP)?"],
             "queryType": "SELECT",
             "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/currency> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
@@ -19,17 +19,11 @@
                         "label": "Abbasid Caliphate",
                         "uri": "http://dbpedia.org/resource/Abbasid_Caliphate"
                     }, {
-                        "label": "Almohad Caliphate",
-                        "uri": "http://dbpedia.org/resource/Almohad_Caliphate"
-                    }, {
                         "label": "Dacia",
                         "uri": "http://dbpedia.org/resource/Dacia"
                     }, {
                         "label": "Democratic Republic of Afghanistan",
                         "uri": "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan"
-                    }, {
-                        "label": "Fatimid Caliphate",
-                        "uri": "http://dbpedia.org/resource/Fatimid_Caliphate"
                     }, {
                         "label": "French Equatorial Africa",
                         "uri": "http://dbpedia.org/resource/French_Equatorial_Africa"
@@ -43,20 +37,8 @@
                         "label": "Jin dynasty (1115–1234)",
                         "uri": "http://dbpedia.org/resource/Jin_dynasty_(1115–1234)"
                     }, {
-                        "label": "Jin dynasty (265–420)",
-                        "uri": "http://dbpedia.org/resource/Jin_dynasty_(265–420)"
-                    }, {
-                        "label": "Lower Canada",
-                        "uri": "http://dbpedia.org/resource/Lower_Canada"
-                    }, {
                         "label": "Macedonia (ancient kingdom)",
                         "uri": "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
-                    }, {
-                        "label": "Moldavia",
-                        "uri": "http://dbpedia.org/resource/Moldavia"
-                    }, {
-                        "label": "Netherlands New Guinea",
-                        "uri": "http://dbpedia.org/resource/Netherlands_New_Guinea"
                     }, {
                         "label": "New Netherland",
                         "uri": "http://dbpedia.org/resource/New_Netherland"
@@ -82,21 +64,6 @@
                         "label": "United States Minor Outlying Islands",
                         "uri": "http://dbpedia.org/resource/United_States_Minor_Outlying_Islands"
                     }, {
-                        "label": "Zhou dynasty",
-                        "uri": "http://dbpedia.org/resource/Zhou_dynasty"
-                    }, {
-                        "label": "Dutch East Indies",
-                        "uri": "http://dbpedia.org/resource/Dutch_East_Indies"
-                    }, {
-                        "label": "State of Katanga",
-                        "uri": "http://dbpedia.org/resource/State_of_Katanga"
-                    }, {
-                        "label": "Transnistria autonomous territorial unit with special legal status",
-                        "uri": "http://dbpedia.org/resource/Transnistria_autonomous_territorial_unit_with_special_legal_status"
-                    }, {
-                        "label": "Arab Kingdom of Syria",
-                        "uri": "http://dbpedia.org/resource/Arab_Kingdom_of_Syria"
-                    }, {
                         "label": "British Ceylon",
                         "uri": "http://dbpedia.org/resource/British_Ceylon"
                     }, {
@@ -106,15 +73,6 @@
                         "label": "East African Federation",
                         "uri": "http://dbpedia.org/resource/East_African_Federation"
                     }, {
-                        "label": "Portuguese Angola",
-                        "uri": "http://dbpedia.org/resource/Portuguese_Angola"
-                    }, {
-                        "label": "Republic of New Granada",
-                        "uri": "http://dbpedia.org/resource/Republic_of_New_Granada"
-                    }, {
-                        "label": "Syria",
-                        "uri": "http://dbpedia.org/resource/Syria"
-                    }, {
                         "label": "Tabasco (former state)",
                         "uri": "http://dbpedia.org/resource/Tabasco_(former_state)"
                     }, {
@@ -123,12 +81,6 @@
                     }, {
                         "label": "Taifa of Tejada",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Tejada"
-                    }, {
-                        "label": "Tibet (1912–51)",
-                        "uri": "http://dbpedia.org/resource/Tibet_(1912–51)"
-                    }, {
-                        "label": "Vichy France",
-                        "uri": "http://dbpedia.org/resource/Vichy_France"
                     }, {
                         "label": "Falkland Islands Dependencies",
                         "uri": "http://dbpedia.org/resource/Falkland_Islands_Dependencies"
@@ -145,9 +97,6 @@
                         "label": "Republic of Afghanistan",
                         "uri": "http://dbpedia.org/resource/Republic_of_Afghanistan"
                     }, {
-                        "label": "Burid dynasty",
-                        "uri": "http://dbpedia.org/resource/Burid_dynasty"
-                    }, {
                         "label": "First Mexican Republic",
                         "uri": "http://dbpedia.org/resource/First_Mexican_Republic"
                     }, {
@@ -156,9 +105,6 @@
                     }, {
                         "label": "Ma-i",
                         "uri": "http://dbpedia.org/resource/Ma-i"
-                    }, {
-                        "label": "North Vietnam",
-                        "uri": "http://dbpedia.org/resource/North_Vietnam"
                     }, {
                         "label": "Taifa of Dénia",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Dénia"
@@ -169,14 +115,8 @@
                         "label": "Taifa of Tortosa",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Tortosa"
                     }, {
-                        "label": "Federation of Nigeria",
-                        "uri": "http://dbpedia.org/resource/Federation_of_Nigeria"
-                    }, {
                         "label": "Luhansk People's Republic",
                         "uri": "http://dbpedia.org/resource/Luhansk_People's_Republic"
-                    }, {
-                        "label": "Newfoundland Colony",
-                        "uri": "http://dbpedia.org/resource/Newfoundland_Colony"
                     }, {
                         "label": "Taifa of Mértola",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Mértola"
@@ -202,15 +142,6 @@
                         "label": "Venezuela Province",
                         "uri": "http://dbpedia.org/resource/Venezuela_Province"
                     }, {
-                        "label": "Government of the Autonomous Republic of Abkhazia",
-                        "uri": "http://dbpedia.org/resource/Government_of_the_Autonomous_Republic_of_Abkhazia"
-                    }, {
-                        "label": "History of the Philippines (1986–present)",
-                        "uri": "http://dbpedia.org/resource/History_of_the_Philippines_(1986–present)"
-                    }, {
-                        "label": "Republic of Molossia",
-                        "uri": "http://dbpedia.org/resource/Republic_of_Molossia"
-                    }, {
                         "label": "Malacca Sultanate",
                         "uri": "http://dbpedia.org/resource/Malacca_Sultanate"
                     }, {
@@ -220,14 +151,8 @@
                         "label": "Safavid dynasty",
                         "uri": "http://dbpedia.org/resource/Safavid_dynasty"
                     }, {
-                        "label": "German East Africa",
-                        "uri": "http://dbpedia.org/resource/German_East_Africa"
-                    }, {
                         "label": "Hasmonean dynasty",
                         "uri": "http://dbpedia.org/resource/Hasmonean_dynasty"
-                    }, {
-                        "label": "Parthenopean Republic",
-                        "uri": "http://dbpedia.org/resource/Parthenopean_Republic"
                     }, {
                         "label": "Tanganyika",
                         "uri": "http://dbpedia.org/resource/Tanganyika"
@@ -235,20 +160,11 @@
                         "label": "Provisional Government of Hawaii",
                         "uri": "http://dbpedia.org/resource/Provisional_Government_of_Hawaii"
                     }, {
-                        "label": "Togoland",
-                        "uri": "http://dbpedia.org/resource/Togoland"
-                    }, {
                         "label": "Brazilian military government",
                         "uri": "http://dbpedia.org/resource/Brazilian_military_government"
                     }, {
                         "label": "Derg",
                         "uri": "http://dbpedia.org/resource/Derg"
-                    }, {
-                        "label": "Kingdom of Tunisia",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Tunisia"
-                    }, {
-                        "label": "Republic of Egypt (1953–58)",
-                        "uri": "http://dbpedia.org/resource/Republic_of_Egypt_(1953–58)"
                     }, {
                         "label": "Transitional Government of Ethiopia",
                         "uri": "http://dbpedia.org/resource/Transitional_Government_of_Ethiopia"
@@ -258,21 +174,6 @@
                     }, {
                         "label": "Dutch Cape Colony",
                         "uri": "http://dbpedia.org/resource/Dutch_Cape_Colony"
-                    }, {
-                        "label": "Dutch Celebes",
-                        "uri": "http://dbpedia.org/resource/Dutch_Celebes"
-                    }, {
-                        "label": "Dutch Loango-Angola",
-                        "uri": "http://dbpedia.org/resource/Dutch_Loango-Angola"
-                    }, {
-                        "label": "People's Republic of Mozambique",
-                        "uri": "http://dbpedia.org/resource/People's_Republic_of_Mozambique"
-                    }, {
-                        "label": "Provisional Administration of South Ossetia",
-                        "uri": "http://dbpedia.org/resource/Provisional_Administration_of_South_Ossetia"
-                    }, {
-                        "label": "State of Malta",
-                        "uri": "http://dbpedia.org/resource/State_of_Malta"
                     }, {
                         "label": "Taifa of Purchena",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Purchena"
@@ -292,20 +193,11 @@
                         "label": "Colony of Niger",
                         "uri": "http://dbpedia.org/resource/Colony_of_Niger"
                     }, {
-                        "label": "Save Aramoana Campaign",
-                        "uri": "http://dbpedia.org/resource/Save_Aramoana_Campaign"
-                    }, {
                         "label": "Sultanate of Gowa",
                         "uri": "http://dbpedia.org/resource/Sultanate_of_Gowa"
                     }, {
                         "label": "Provisional People's Committee for North Korea",
                         "uri": "http://dbpedia.org/resource/Provisional_People's_Committee_for_North_Korea"
-                    }, {
-                        "label": "Democratic Government of Albania",
-                        "uri": "http://dbpedia.org/resource/Democratic_Government_of_Albania"
-                    }, {
-                        "label": "Lü (state)",
-                        "uri": "http://dbpedia.org/resource/Lü_(state)"
                     }, {
                         "label": "Belgium (1914–1940)",
                         "uri": "http://dbpedia.org/resource/Belgium_(1914–1940)"
@@ -315,6 +207,114 @@
                     }, {
                         "label": "Intendancy of Chiloé",
                         "uri": "http://dbpedia.org/resource/Intendancy_of_Chiloé"
+                    }, {
+                        "label": "British Indian Ocean Territory",
+                        "uri": "http://dbpedia.org/resource/British_Indian_Ocean_Territory"
+                    }, {
+                        "label": "Duchy of Parma",
+                        "uri": "http://dbpedia.org/resource/Duchy_of_Parma"
+                    }, {
+                        "label": "First Empire of Haiti",
+                        "uri": "http://dbpedia.org/resource/First_Empire_of_Haiti"
+                    }, {
+                        "label": "Free State of Fiume",
+                        "uri": "http://dbpedia.org/resource/Free_State_of_Fiume"
+                    }, {
+                        "label": "French West Africa",
+                        "uri": "http://dbpedia.org/resource/French_West_Africa"
+                    }, {
+                        "label": "Jin (Chinese state)",
+                        "uri": "http://dbpedia.org/resource/Jin_(Chinese_state)"
+                    }, {
+                        "label": "Kingdom of Galicia and Lodomeria",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Galicia_and_Lodomeria"
+                    }, {
+                        "label": "Kingdom of Greece",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Greece"
+                    }, {
+                        "label": "Komi Autonomous Soviet Socialist Republic",
+                        "uri": "http://dbpedia.org/resource/Komi_Autonomous_Soviet_Socialist_Republic"
+                    }, {
+                        "label": "Mahdist Sudan",
+                        "uri": "http://dbpedia.org/resource/Mahdist_Sudan"
+                    }, {
+                        "label": "New Zealand",
+                        "uri": "http://dbpedia.org/resource/New_Zealand"
+                    }, {
+                        "label": "Northern Liao",
+                        "uri": "http://dbpedia.org/resource/Northern_Liao"
+                    }, {
+                        "label": "People's Republic of Kampuchea",
+                        "uri": "http://dbpedia.org/resource/People's_Republic_of_Kampuchea"
+                    }, {
+                        "label": "Province of New York",
+                        "uri": "http://dbpedia.org/resource/Province_of_New_York"
+                    }, {
+                        "label": "State of Grão-Pará and Maranhão",
+                        "uri": "http://dbpedia.org/resource/State_of_Grão-Pará_and_Maranhão"
+                    }, {
+                        "label": "State of Grão-Pará and Rio Negro",
+                        "uri": "http://dbpedia.org/resource/State_of_Grão-Pará_and_Rio_Negro"
+                    }, {
+                        "label": "Territory of Papua and New Guinea",
+                        "uri": "http://dbpedia.org/resource/Territory_of_Papua_and_New_Guinea"
+                    }, {
+                        "label": "Ukrainian People's Republic",
+                        "uri": "http://dbpedia.org/resource/Ukrainian_People's_Republic"
+                    }, {
+                        "label": "United States of Indonesia",
+                        "uri": "http://dbpedia.org/resource/United_States_of_Indonesia"
+                    }, {
+                        "label": "United States of Venezuela",
+                        "uri": "http://dbpedia.org/resource/United_States_of_Venezuela"
+                    }, {
+                        "label": "United States of the Ionian Islands",
+                        "uri": "http://dbpedia.org/resource/United_States_of_the_Ionian_Islands"
+                    }, {
+                        "label": "Azerbaijan Democratic Republic",
+                        "uri": "http://dbpedia.org/resource/Azerbaijan_Democratic_Republic"
+                    }, {
+                        "label": "Colony of Fiji",
+                        "uri": "http://dbpedia.org/resource/Colony_of_Fiji"
+                    }, {
+                        "label": "Hatay State",
+                        "uri": "http://dbpedia.org/resource/Hatay_State"
+                    }, {
+                        "label": "Kingdom of Dalmatia",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Dalmatia"
+                    }, {
+                        "label": "Kingdom of Tungning",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Tungning"
+                    }, {
+                        "label": "Mali Federation",
+                        "uri": "http://dbpedia.org/resource/Mali_Federation"
+                    }, {
+                        "label": "Northern Nigeria Protectorate",
+                        "uri": "http://dbpedia.org/resource/Northern_Nigeria_Protectorate"
+                    }, {
+                        "label": "Ober Ost",
+                        "uri": "http://dbpedia.org/resource/Ober_Ost"
+                    }, {
+                        "label": "Ruanda-Urundi",
+                        "uri": "http://dbpedia.org/resource/Ruanda-Urundi"
+                    }, {
+                        "label": "Southern Nigeria Protectorate",
+                        "uri": "http://dbpedia.org/resource/Southern_Nigeria_Protectorate"
+                    }, {
+                        "label": "Twente",
+                        "uri": "http://dbpedia.org/resource/Twente"
+                    }, {
+                        "label": "Cayor",
+                        "uri": "http://dbpedia.org/resource/Cayor"
+                    }, {
+                        "label": "Allied-occupied Germany",
+                        "uri": "http://dbpedia.org/resource/Allied-occupied_Germany"
+                    }, {
+                        "label": "Francia",
+                        "uri": "http://dbpedia.org/resource/Francia"
+                    }, {
+                        "label": "Kaabu",
+                        "uri": "http://dbpedia.org/resource/Kaabu"
                     }]
             },
             "combination": false
@@ -325,7 +325,7 @@
             "bindingType": "COUNTRY",
             "returnType": "CURRENCY",
             "frameType": "NPP",
-            "sentences": ["the currency of $x"],
+            "sentences": ["the currencies of $x", "the currency of $x"],
             "queryType": "SELECT",
             "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/currency> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
@@ -338,17 +338,11 @@
                         "label": "Abbasid Caliphate",
                         "uri": "http://dbpedia.org/resource/Abbasid_Caliphate"
                     }, {
-                        "label": "Almohad Caliphate",
-                        "uri": "http://dbpedia.org/resource/Almohad_Caliphate"
-                    }, {
                         "label": "Dacia",
                         "uri": "http://dbpedia.org/resource/Dacia"
                     }, {
                         "label": "Democratic Republic of Afghanistan",
                         "uri": "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan"
-                    }, {
-                        "label": "Fatimid Caliphate",
-                        "uri": "http://dbpedia.org/resource/Fatimid_Caliphate"
                     }, {
                         "label": "French Equatorial Africa",
                         "uri": "http://dbpedia.org/resource/French_Equatorial_Africa"
@@ -362,20 +356,8 @@
                         "label": "Jin dynasty (1115–1234)",
                         "uri": "http://dbpedia.org/resource/Jin_dynasty_(1115–1234)"
                     }, {
-                        "label": "Jin dynasty (265–420)",
-                        "uri": "http://dbpedia.org/resource/Jin_dynasty_(265–420)"
-                    }, {
-                        "label": "Lower Canada",
-                        "uri": "http://dbpedia.org/resource/Lower_Canada"
-                    }, {
                         "label": "Macedonia (ancient kingdom)",
                         "uri": "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
-                    }, {
-                        "label": "Moldavia",
-                        "uri": "http://dbpedia.org/resource/Moldavia"
-                    }, {
-                        "label": "Netherlands New Guinea",
-                        "uri": "http://dbpedia.org/resource/Netherlands_New_Guinea"
                     }, {
                         "label": "New Netherland",
                         "uri": "http://dbpedia.org/resource/New_Netherland"
@@ -401,21 +383,6 @@
                         "label": "United States Minor Outlying Islands",
                         "uri": "http://dbpedia.org/resource/United_States_Minor_Outlying_Islands"
                     }, {
-                        "label": "Zhou dynasty",
-                        "uri": "http://dbpedia.org/resource/Zhou_dynasty"
-                    }, {
-                        "label": "Dutch East Indies",
-                        "uri": "http://dbpedia.org/resource/Dutch_East_Indies"
-                    }, {
-                        "label": "State of Katanga",
-                        "uri": "http://dbpedia.org/resource/State_of_Katanga"
-                    }, {
-                        "label": "Transnistria autonomous territorial unit with special legal status",
-                        "uri": "http://dbpedia.org/resource/Transnistria_autonomous_territorial_unit_with_special_legal_status"
-                    }, {
-                        "label": "Arab Kingdom of Syria",
-                        "uri": "http://dbpedia.org/resource/Arab_Kingdom_of_Syria"
-                    }, {
                         "label": "British Ceylon",
                         "uri": "http://dbpedia.org/resource/British_Ceylon"
                     }, {
@@ -425,15 +392,6 @@
                         "label": "East African Federation",
                         "uri": "http://dbpedia.org/resource/East_African_Federation"
                     }, {
-                        "label": "Portuguese Angola",
-                        "uri": "http://dbpedia.org/resource/Portuguese_Angola"
-                    }, {
-                        "label": "Republic of New Granada",
-                        "uri": "http://dbpedia.org/resource/Republic_of_New_Granada"
-                    }, {
-                        "label": "Syria",
-                        "uri": "http://dbpedia.org/resource/Syria"
-                    }, {
                         "label": "Tabasco (former state)",
                         "uri": "http://dbpedia.org/resource/Tabasco_(former_state)"
                     }, {
@@ -442,12 +400,6 @@
                     }, {
                         "label": "Taifa of Tejada",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Tejada"
-                    }, {
-                        "label": "Tibet (1912–51)",
-                        "uri": "http://dbpedia.org/resource/Tibet_(1912–51)"
-                    }, {
-                        "label": "Vichy France",
-                        "uri": "http://dbpedia.org/resource/Vichy_France"
                     }, {
                         "label": "Falkland Islands Dependencies",
                         "uri": "http://dbpedia.org/resource/Falkland_Islands_Dependencies"
@@ -464,9 +416,6 @@
                         "label": "Republic of Afghanistan",
                         "uri": "http://dbpedia.org/resource/Republic_of_Afghanistan"
                     }, {
-                        "label": "Burid dynasty",
-                        "uri": "http://dbpedia.org/resource/Burid_dynasty"
-                    }, {
                         "label": "First Mexican Republic",
                         "uri": "http://dbpedia.org/resource/First_Mexican_Republic"
                     }, {
@@ -475,9 +424,6 @@
                     }, {
                         "label": "Ma-i",
                         "uri": "http://dbpedia.org/resource/Ma-i"
-                    }, {
-                        "label": "North Vietnam",
-                        "uri": "http://dbpedia.org/resource/North_Vietnam"
                     }, {
                         "label": "Taifa of Dénia",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Dénia"
@@ -488,14 +434,8 @@
                         "label": "Taifa of Tortosa",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Tortosa"
                     }, {
-                        "label": "Federation of Nigeria",
-                        "uri": "http://dbpedia.org/resource/Federation_of_Nigeria"
-                    }, {
                         "label": "Luhansk People's Republic",
                         "uri": "http://dbpedia.org/resource/Luhansk_People's_Republic"
-                    }, {
-                        "label": "Newfoundland Colony",
-                        "uri": "http://dbpedia.org/resource/Newfoundland_Colony"
                     }, {
                         "label": "Taifa of Mértola",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Mértola"
@@ -521,15 +461,6 @@
                         "label": "Venezuela Province",
                         "uri": "http://dbpedia.org/resource/Venezuela_Province"
                     }, {
-                        "label": "Government of the Autonomous Republic of Abkhazia",
-                        "uri": "http://dbpedia.org/resource/Government_of_the_Autonomous_Republic_of_Abkhazia"
-                    }, {
-                        "label": "History of the Philippines (1986–present)",
-                        "uri": "http://dbpedia.org/resource/History_of_the_Philippines_(1986–present)"
-                    }, {
-                        "label": "Republic of Molossia",
-                        "uri": "http://dbpedia.org/resource/Republic_of_Molossia"
-                    }, {
                         "label": "Malacca Sultanate",
                         "uri": "http://dbpedia.org/resource/Malacca_Sultanate"
                     }, {
@@ -539,14 +470,8 @@
                         "label": "Safavid dynasty",
                         "uri": "http://dbpedia.org/resource/Safavid_dynasty"
                     }, {
-                        "label": "German East Africa",
-                        "uri": "http://dbpedia.org/resource/German_East_Africa"
-                    }, {
                         "label": "Hasmonean dynasty",
                         "uri": "http://dbpedia.org/resource/Hasmonean_dynasty"
-                    }, {
-                        "label": "Parthenopean Republic",
-                        "uri": "http://dbpedia.org/resource/Parthenopean_Republic"
                     }, {
                         "label": "Tanganyika",
                         "uri": "http://dbpedia.org/resource/Tanganyika"
@@ -554,20 +479,11 @@
                         "label": "Provisional Government of Hawaii",
                         "uri": "http://dbpedia.org/resource/Provisional_Government_of_Hawaii"
                     }, {
-                        "label": "Togoland",
-                        "uri": "http://dbpedia.org/resource/Togoland"
-                    }, {
                         "label": "Brazilian military government",
                         "uri": "http://dbpedia.org/resource/Brazilian_military_government"
                     }, {
                         "label": "Derg",
                         "uri": "http://dbpedia.org/resource/Derg"
-                    }, {
-                        "label": "Kingdom of Tunisia",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Tunisia"
-                    }, {
-                        "label": "Republic of Egypt (1953–58)",
-                        "uri": "http://dbpedia.org/resource/Republic_of_Egypt_(1953–58)"
                     }, {
                         "label": "Transitional Government of Ethiopia",
                         "uri": "http://dbpedia.org/resource/Transitional_Government_of_Ethiopia"
@@ -577,21 +493,6 @@
                     }, {
                         "label": "Dutch Cape Colony",
                         "uri": "http://dbpedia.org/resource/Dutch_Cape_Colony"
-                    }, {
-                        "label": "Dutch Celebes",
-                        "uri": "http://dbpedia.org/resource/Dutch_Celebes"
-                    }, {
-                        "label": "Dutch Loango-Angola",
-                        "uri": "http://dbpedia.org/resource/Dutch_Loango-Angola"
-                    }, {
-                        "label": "People's Republic of Mozambique",
-                        "uri": "http://dbpedia.org/resource/People's_Republic_of_Mozambique"
-                    }, {
-                        "label": "Provisional Administration of South Ossetia",
-                        "uri": "http://dbpedia.org/resource/Provisional_Administration_of_South_Ossetia"
-                    }, {
-                        "label": "State of Malta",
-                        "uri": "http://dbpedia.org/resource/State_of_Malta"
                     }, {
                         "label": "Taifa of Purchena",
                         "uri": "http://dbpedia.org/resource/Taifa_of_Purchena"
@@ -611,20 +512,11 @@
                         "label": "Colony of Niger",
                         "uri": "http://dbpedia.org/resource/Colony_of_Niger"
                     }, {
-                        "label": "Save Aramoana Campaign",
-                        "uri": "http://dbpedia.org/resource/Save_Aramoana_Campaign"
-                    }, {
                         "label": "Sultanate of Gowa",
                         "uri": "http://dbpedia.org/resource/Sultanate_of_Gowa"
                     }, {
                         "label": "Provisional People's Committee for North Korea",
                         "uri": "http://dbpedia.org/resource/Provisional_People's_Committee_for_North_Korea"
-                    }, {
-                        "label": "Democratic Government of Albania",
-                        "uri": "http://dbpedia.org/resource/Democratic_Government_of_Albania"
-                    }, {
-                        "label": "Lü (state)",
-                        "uri": "http://dbpedia.org/resource/Lü_(state)"
                     }, {
                         "label": "Belgium (1914–1940)",
                         "uri": "http://dbpedia.org/resource/Belgium_(1914–1940)"
@@ -634,6 +526,114 @@
                     }, {
                         "label": "Intendancy of Chiloé",
                         "uri": "http://dbpedia.org/resource/Intendancy_of_Chiloé"
+                    }, {
+                        "label": "British Indian Ocean Territory",
+                        "uri": "http://dbpedia.org/resource/British_Indian_Ocean_Territory"
+                    }, {
+                        "label": "Duchy of Parma",
+                        "uri": "http://dbpedia.org/resource/Duchy_of_Parma"
+                    }, {
+                        "label": "First Empire of Haiti",
+                        "uri": "http://dbpedia.org/resource/First_Empire_of_Haiti"
+                    }, {
+                        "label": "Free State of Fiume",
+                        "uri": "http://dbpedia.org/resource/Free_State_of_Fiume"
+                    }, {
+                        "label": "French West Africa",
+                        "uri": "http://dbpedia.org/resource/French_West_Africa"
+                    }, {
+                        "label": "Jin (Chinese state)",
+                        "uri": "http://dbpedia.org/resource/Jin_(Chinese_state)"
+                    }, {
+                        "label": "Kingdom of Galicia and Lodomeria",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Galicia_and_Lodomeria"
+                    }, {
+                        "label": "Kingdom of Greece",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Greece"
+                    }, {
+                        "label": "Komi Autonomous Soviet Socialist Republic",
+                        "uri": "http://dbpedia.org/resource/Komi_Autonomous_Soviet_Socialist_Republic"
+                    }, {
+                        "label": "Mahdist Sudan",
+                        "uri": "http://dbpedia.org/resource/Mahdist_Sudan"
+                    }, {
+                        "label": "New Zealand",
+                        "uri": "http://dbpedia.org/resource/New_Zealand"
+                    }, {
+                        "label": "Northern Liao",
+                        "uri": "http://dbpedia.org/resource/Northern_Liao"
+                    }, {
+                        "label": "People's Republic of Kampuchea",
+                        "uri": "http://dbpedia.org/resource/People's_Republic_of_Kampuchea"
+                    }, {
+                        "label": "Province of New York",
+                        "uri": "http://dbpedia.org/resource/Province_of_New_York"
+                    }, {
+                        "label": "State of Grão-Pará and Maranhão",
+                        "uri": "http://dbpedia.org/resource/State_of_Grão-Pará_and_Maranhão"
+                    }, {
+                        "label": "State of Grão-Pará and Rio Negro",
+                        "uri": "http://dbpedia.org/resource/State_of_Grão-Pará_and_Rio_Negro"
+                    }, {
+                        "label": "Territory of Papua and New Guinea",
+                        "uri": "http://dbpedia.org/resource/Territory_of_Papua_and_New_Guinea"
+                    }, {
+                        "label": "Ukrainian People's Republic",
+                        "uri": "http://dbpedia.org/resource/Ukrainian_People's_Republic"
+                    }, {
+                        "label": "United States of Indonesia",
+                        "uri": "http://dbpedia.org/resource/United_States_of_Indonesia"
+                    }, {
+                        "label": "United States of Venezuela",
+                        "uri": "http://dbpedia.org/resource/United_States_of_Venezuela"
+                    }, {
+                        "label": "United States of the Ionian Islands",
+                        "uri": "http://dbpedia.org/resource/United_States_of_the_Ionian_Islands"
+                    }, {
+                        "label": "Azerbaijan Democratic Republic",
+                        "uri": "http://dbpedia.org/resource/Azerbaijan_Democratic_Republic"
+                    }, {
+                        "label": "Colony of Fiji",
+                        "uri": "http://dbpedia.org/resource/Colony_of_Fiji"
+                    }, {
+                        "label": "Hatay State",
+                        "uri": "http://dbpedia.org/resource/Hatay_State"
+                    }, {
+                        "label": "Kingdom of Dalmatia",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Dalmatia"
+                    }, {
+                        "label": "Kingdom of Tungning",
+                        "uri": "http://dbpedia.org/resource/Kingdom_of_Tungning"
+                    }, {
+                        "label": "Mali Federation",
+                        "uri": "http://dbpedia.org/resource/Mali_Federation"
+                    }, {
+                        "label": "Northern Nigeria Protectorate",
+                        "uri": "http://dbpedia.org/resource/Northern_Nigeria_Protectorate"
+                    }, {
+                        "label": "Ober Ost",
+                        "uri": "http://dbpedia.org/resource/Ober_Ost"
+                    }, {
+                        "label": "Ruanda-Urundi",
+                        "uri": "http://dbpedia.org/resource/Ruanda-Urundi"
+                    }, {
+                        "label": "Southern Nigeria Protectorate",
+                        "uri": "http://dbpedia.org/resource/Southern_Nigeria_Protectorate"
+                    }, {
+                        "label": "Twente",
+                        "uri": "http://dbpedia.org/resource/Twente"
+                    }, {
+                        "label": "Cayor",
+                        "uri": "http://dbpedia.org/resource/Cayor"
+                    }, {
+                        "label": "Allied-occupied Germany",
+                        "uri": "http://dbpedia.org/resource/Allied-occupied_Germany"
+                    }, {
+                        "label": "Francia",
+                        "uri": "http://dbpedia.org/resource/Francia"
+                    }, {
+                        "label": "Kaabu",
+                        "uri": "http://dbpedia.org/resource/Kaabu"
                     }]
             },
             "combination": false

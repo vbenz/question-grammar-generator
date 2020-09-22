@@ -96,8 +96,6 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
                             URI detRef = pronounObjectToken.get().getLocalReference();
                             LexicalEntry entry = new LexiconSearch(lexicalEntryUtil.getLexicon()).getReferencedResource(detRef);
                             String object_pronoun = entry.getCanonicalForm().getWrittenRep().value;
-                            System.out.println(object_pronoun);
-                            System.out.println(pronounObjectToken.get().getPosition());
                             sentenceArray[pronounObjectToken.get().getPosition()] = object_pronoun;
                         }
 

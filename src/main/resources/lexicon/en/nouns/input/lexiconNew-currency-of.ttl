@@ -13,11 +13,17 @@
 :currency_of a         lemon:LexicalEntry ;
   lexinfo:partOfSpeech lexinfo:noun ;
   lemon:canonicalForm  :currency_form ;
+  lemon:otherForm      :currencies_form ;
   lemon:synBehavior    :currency_of_nounpp ;
   lemon:sense          :currency_sense_ontomap .
 
 :currency_form a   lemon:Form ;
-  lemon:writtenRep "currency"@en .
+  lemon:writtenRep "currency"@en ;
+  lexinfo:number   lexinfo:singular .
+
+:currencies_form a   lemon:Form ;
+  lemon:writtenRep "currencies"@en ;
+  lexinfo:number   lexinfo:plural .
 
 :currency_of_nounpp a          lexinfo:NounPPFrame ;
   lexinfo:copulativeArg        :arg1 ;
