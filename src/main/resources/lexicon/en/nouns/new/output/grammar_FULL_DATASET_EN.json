@@ -6,7 +6,7 @@
             "bindingType": "COUNTRY",
             "returnType": "CURRENCY",
             "frameType": "NPP",
-            "sentences": ["List the currency of ($x | COUNTRY_NP)?", "What is the currency of ($x | COUNTRY_NP)?", "What was the currency of ($x | COUNTRY_NP)?", "Which currency is the currency of ($x | COUNTRY_NP)?", "Which currency was the currency of ($x | COUNTRY_NP)?"],
+            "sentences": ["Give me the currency of ($x | COUNTRY_NP)?", "Inform me the currency of ($x | COUNTRY_NP)?", "Show me the currency of ($x | COUNTRY_NP)?", "Tell me the currency of ($x | COUNTRY_NP)?", "What is the currency of ($x | COUNTRY_NP)?", "What was the currency of ($x | COUNTRY_NP)?", "Which currency is the currency of ($x | COUNTRY_NP)?", "Which currency was the currency of ($x | COUNTRY_NP)?"],
             "queryType": "SELECT",
             "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/currency> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
