@@ -3,12 +3,12 @@
             "id": "1",
             "language": "EN",
             "type": "SENTENCE",
-            "bindingType": "COUNTRY",
-            "returnType": "CURRENCY",
-            "frameType": "NPP",
-            "sentences": ["Give me the currencies of ($x | COUNTRY_NP)?", "Give me the currency of ($x | COUNTRY_NP)?", "Inform me the currencies of ($x | COUNTRY_NP)?", "Inform me the currency of ($x | COUNTRY_NP)?", "List the currencies of ($x | COUNTRY_NP)?", "Show me the currencies of ($x | COUNTRY_NP)?", "Show me the currency of ($x | COUNTRY_NP)?", "Tell me the currencies of ($x | COUNTRY_NP)?", "Tell me the currency of ($x | COUNTRY_NP)?", "What are the currencies of ($x | COUNTRY_NP)?", "What is the currency of ($x | COUNTRY_NP)?", "What was the currency of ($x | COUNTRY_NP)?", "What were the currencies of ($x | COUNTRY_NP)?", "Which currencies are the currencies of ($x | COUNTRY_NP)?", "Which currencies were the currencies of ($x | COUNTRY_NP)?", "Which currency is the currency of ($x | COUNTRY_NP)?", "Which currency was the currency of ($x | COUNTRY_NP)?"],
+            "bindingType": "BUILDING",
+            "returnType": "THING",
+            "frameType": "IPP",
+            "sentences": ["When was the ($x | BUILDING_NP) completed?", "Which year was the ($x | BUILDING_NP) completed?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/currency> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingEndDate> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -16,624 +16,624 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Abbasid Caliphate",
-                        "uri": "http://dbpedia.org/resource/Abbasid_Caliphate"
+                        "label": "Theodor Heuss Bridge (Düsseldorf)",
+                        "uri": "http://dbpedia.org/resource/Theodor_Heuss_Bridge_(Düsseldorf)"
                     }, {
-                        "label": "Dacia",
-                        "uri": "http://dbpedia.org/resource/Dacia"
+                        "label": "Central Stadium (Yekaterinburg)",
+                        "uri": "http://dbpedia.org/resource/Central_Stadium_(Yekaterinburg)"
                     }, {
-                        "label": "Democratic Republic of Afghanistan",
-                        "uri": "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan"
+                        "label": "Fort Whipple, Arizona",
+                        "uri": "http://dbpedia.org/resource/Fort_Whipple,_Arizona"
                     }, {
-                        "label": "French Equatorial Africa",
-                        "uri": "http://dbpedia.org/resource/French_Equatorial_Africa"
+                        "label": "Houston Hall (University of Pennsylvania)",
+                        "uri": "http://dbpedia.org/resource/Houston_Hall_(University_of_Pennsylvania)"
                     }, {
-                        "label": "History of Portugal (1415–1578)",
-                        "uri": "http://dbpedia.org/resource/History_of_Portugal_(1415–1578)"
+                        "label": "Park Place (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Park_Place_(Atlanta)"
                     }, {
-                        "label": "Italian East Africa",
-                        "uri": "http://dbpedia.org/resource/Italian_East_Africa"
+                        "label": "Brooklyn Conservatory of Music",
+                        "uri": "http://dbpedia.org/resource/Brooklyn_Conservatory_of_Music"
                     }, {
-                        "label": "Jin dynasty (1115–1234)",
-                        "uri": "http://dbpedia.org/resource/Jin_dynasty_(1115–1234)"
+                        "label": "Jai Vilas Mahal",
+                        "uri": "http://dbpedia.org/resource/Jai_Vilas_Mahal"
                     }, {
-                        "label": "Macedonia (ancient kingdom)",
-                        "uri": "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
+                        "label": "Tallinn Town Hall",
+                        "uri": "http://dbpedia.org/resource/Tallinn_Town_Hall"
                     }, {
-                        "label": "New Netherland",
-                        "uri": "http://dbpedia.org/resource/New_Netherland"
+                        "label": "123 Mission Street",
+                        "uri": "http://dbpedia.org/resource/123_Mission_Street"
                     }, {
-                        "label": "Song dynasty",
-                        "uri": "http://dbpedia.org/resource/Song_dynasty"
+                        "label": "580 California Street",
+                        "uri": "http://dbpedia.org/resource/580_California_Street"
                     }, {
-                        "label": "South-West Africa",
-                        "uri": "http://dbpedia.org/resource/South-West_Africa"
+                        "label": "Ben Buckler Gun Battery",
+                        "uri": "http://dbpedia.org/resource/Ben_Buckler_Gun_Battery"
                     }, {
-                        "label": "Tang dynasty",
-                        "uri": "http://dbpedia.org/resource/Tang_dynasty"
+                        "label": "Boyd's Automatic tide signalling apparatus",
+                        "uri": "http://dbpedia.org/resource/Boyd's_Automatic_tide_signalling_apparatus"
                     }, {
-                        "label": "Thirteen Colonies",
-                        "uri": "http://dbpedia.org/resource/Thirteen_Colonies"
+                        "label": "Cardiff Athletics Stadium",
+                        "uri": "http://dbpedia.org/resource/Cardiff_Athletics_Stadium"
                     }, {
-                        "label": "Umayyad Caliphate",
-                        "uri": "http://dbpedia.org/resource/Umayyad_Caliphate"
+                        "label": "Kannonji Castle",
+                        "uri": "http://dbpedia.org/resource/Kannonji_Castle"
                     }, {
-                        "label": "United Nations Interim Administration Mission in Kosovo",
-                        "uri": "http://dbpedia.org/resource/United_Nations_Interim_Administration_Mission_in_Kosovo"
+                        "label": "Palmer Plaza",
+                        "uri": "http://dbpedia.org/resource/Palmer_Plaza"
                     }, {
-                        "label": "United States Minor Outlying Islands",
-                        "uri": "http://dbpedia.org/resource/United_States_Minor_Outlying_Islands"
+                        "label": "RCAF Station Cranberry Portage",
+                        "uri": "http://dbpedia.org/resource/RCAF_Station_Cranberry_Portage"
                     }, {
-                        "label": "British Ceylon",
-                        "uri": "http://dbpedia.org/resource/British_Ceylon"
+                        "label": "Robot Building",
+                        "uri": "http://dbpedia.org/resource/Robot_Building"
                     }, {
-                        "label": "Dominion of Ceylon",
-                        "uri": "http://dbpedia.org/resource/Dominion_of_Ceylon"
+                        "label": "Sears, Roebuck and Company Complex",
+                        "uri": "http://dbpedia.org/resource/Sears,_Roebuck_and_Company_Complex"
                     }, {
-                        "label": "East African Federation",
-                        "uri": "http://dbpedia.org/resource/East_African_Federation"
+                        "label": "Stallings Air Base",
+                        "uri": "http://dbpedia.org/resource/Stallings_Air_Base"
                     }, {
-                        "label": "Tabasco (former state)",
-                        "uri": "http://dbpedia.org/resource/Tabasco_(former_state)"
+                        "label": "Bubble Houses (Litchfield Park, Arizona)",
+                        "uri": "http://dbpedia.org/resource/Bubble_Houses_(Litchfield_Park,_Arizona)"
                     }, {
-                        "label": "Taifa of Niebla",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Niebla"
+                        "label": "Cathedral of Our Lady of Lourdes (Canela)",
+                        "uri": "http://dbpedia.org/resource/Cathedral_of_Our_Lady_of_Lourdes_(Canela)"
                     }, {
-                        "label": "Taifa of Tejada",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Tejada"
+                        "label": "Land Titles Building (Prince Albert)",
+                        "uri": "http://dbpedia.org/resource/Land_Titles_Building_(Prince_Albert)"
                     }, {
-                        "label": "Falkland Islands Dependencies",
-                        "uri": "http://dbpedia.org/resource/Falkland_Islands_Dependencies"
+                        "label": "McFarlin Building",
+                        "uri": "http://dbpedia.org/resource/McFarlin_Building"
                     }, {
-                        "label": "Republic of China (1912–49)",
-                        "uri": "http://dbpedia.org/resource/Republic_of_China_(1912–49)"
+                        "label": "Siebens Building",
+                        "uri": "http://dbpedia.org/resource/Siebens_Building"
                     }, {
-                        "label": "Corpus separatum (Fiume)",
-                        "uri": "http://dbpedia.org/resource/Corpus_separatum_(Fiume)"
+                        "label": "St. Anselm's Church (Bronx, New York)",
+                        "uri": "http://dbpedia.org/resource/St._Anselm's_Church_(Bronx,_New_York)"
                     }, {
-                        "label": "Kingdom of Wallachia",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Wallachia"
+                        "label": "Trafalgar Building, Hobart",
+                        "uri": "http://dbpedia.org/resource/Trafalgar_Building,_Hobart"
                     }, {
-                        "label": "Republic of Afghanistan",
-                        "uri": "http://dbpedia.org/resource/Republic_of_Afghanistan"
+                        "label": "Clifton Hill House",
+                        "uri": "http://dbpedia.org/resource/Clifton_Hill_House"
                     }, {
-                        "label": "First Mexican Republic",
-                        "uri": "http://dbpedia.org/resource/First_Mexican_Republic"
+                        "label": "Alas Building",
+                        "uri": "http://dbpedia.org/resource/Alas_Building"
                     }, {
-                        "label": "Kiautschou Bay concession",
-                        "uri": "http://dbpedia.org/resource/Kiautschou_Bay_concession"
+                        "label": "Artus Court",
+                        "uri": "http://dbpedia.org/resource/Artus_Court"
                     }, {
-                        "label": "Ma-i",
-                        "uri": "http://dbpedia.org/resource/Ma-i"
+                        "label": "Bagnoli Airfield",
+                        "uri": "http://dbpedia.org/resource/Bagnoli_Airfield"
                     }, {
-                        "label": "Taifa of Dénia",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Dénia"
+                        "label": "Bēne Manor",
+                        "uri": "http://dbpedia.org/resource/Bēne_Manor"
                     }, {
-                        "label": "Taifa of Majorca",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Majorca"
+                        "label": "Cattolica Airfield",
+                        "uri": "http://dbpedia.org/resource/Cattolica_Airfield"
                     }, {
-                        "label": "Taifa of Tortosa",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Tortosa"
+                        "label": "Dikļi Manor",
+                        "uri": "http://dbpedia.org/resource/Dikļi_Manor"
                     }, {
-                        "label": "Luhansk People's Republic",
-                        "uri": "http://dbpedia.org/resource/Luhansk_People's_Republic"
+                        "label": "Dohazari Airfield",
+                        "uri": "http://dbpedia.org/resource/Dohazari_Airfield"
                     }, {
-                        "label": "Taifa of Mértola",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Mértola"
+                        "label": "Erskine College, Wellington",
+                        "uri": "http://dbpedia.org/resource/Erskine_College,_Wellington"
                     }, {
-                        "label": "Taifa of Orihuela",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Orihuela"
+                        "label": "Estadio Cartagonova",
+                        "uri": "http://dbpedia.org/resource/Estadio_Cartagonova"
                     }, {
-                        "label": "Taifa of Santa Maria do Algarve",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Santa_Maria_do_Algarve"
+                        "label": "Follonica Airfield",
+                        "uri": "http://dbpedia.org/resource/Follonica_Airfield"
                     }, {
-                        "label": "Tanganyika (territory)",
-                        "uri": "http://dbpedia.org/resource/Tanganyika_(territory)"
+                        "label": "Guskhara Airfield",
+                        "uri": "http://dbpedia.org/resource/Guskhara_Airfield"
                     }, {
-                        "label": "Presidential Republic (1925–73)",
-                        "uri": "http://dbpedia.org/resource/Presidential_Republic_(1925–73)"
+                        "label": "Hailakandi Airfield",
+                        "uri": "http://dbpedia.org/resource/Hailakandi_Airfield"
                     }, {
-                        "label": "Kingdom of Kano",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Kano"
+                        "label": "Halifax Town Hall",
+                        "uri": "http://dbpedia.org/resource/Halifax_Town_Hall"
                     }, {
-                        "label": "Republic of Vevčani",
-                        "uri": "http://dbpedia.org/resource/Republic_of_Vevčani"
+                        "label": "Hathazari Airfield",
+                        "uri": "http://dbpedia.org/resource/Hathazari_Airfield"
                     }, {
-                        "label": "Venezuela Province",
-                        "uri": "http://dbpedia.org/resource/Venezuela_Province"
+                        "label": "Hereford Road Skew Bridge",
+                        "uri": "http://dbpedia.org/resource/Hereford_Road_Skew_Bridge"
                     }, {
-                        "label": "Malacca Sultanate",
-                        "uri": "http://dbpedia.org/resource/Malacca_Sultanate"
+                        "label": "Hunter Building",
+                        "uri": "http://dbpedia.org/resource/Hunter_Building"
                     }, {
-                        "label": "Mali Empire",
-                        "uri": "http://dbpedia.org/resource/Mali_Empire"
+                        "label": "Iesi Airfield",
+                        "uri": "http://dbpedia.org/resource/Iesi_Airfield"
                     }, {
-                        "label": "Safavid dynasty",
-                        "uri": "http://dbpedia.org/resource/Safavid_dynasty"
+                        "label": "Jaungulbene Manor",
+                        "uri": "http://dbpedia.org/resource/Jaungulbene_Manor"
                     }, {
-                        "label": "Hasmonean dynasty",
-                        "uri": "http://dbpedia.org/resource/Hasmonean_dynasty"
+                        "label": "La Vallon Airfield",
+                        "uri": "http://dbpedia.org/resource/La_Vallon_Airfield"
                     }, {
-                        "label": "Tanganyika",
-                        "uri": "http://dbpedia.org/resource/Tanganyika"
+                        "label": "Lithia Springs Hotel",
+                        "uri": "http://dbpedia.org/resource/Lithia_Springs_Hotel"
                     }, {
-                        "label": "Provisional Government of Hawaii",
-                        "uri": "http://dbpedia.org/resource/Provisional_Government_of_Hawaii"
+                        "label": "Loyettes Airfield",
+                        "uri": "http://dbpedia.org/resource/Loyettes_Airfield"
                     }, {
-                        "label": "Brazilian military government",
-                        "uri": "http://dbpedia.org/resource/Brazilian_military_government"
+                        "label": "Lyne Viaduct",
+                        "uri": "http://dbpedia.org/resource/Lyne_Viaduct"
                     }, {
-                        "label": "Derg",
-                        "uri": "http://dbpedia.org/resource/Derg"
+                        "label": "Marcianise Airfield",
+                        "uri": "http://dbpedia.org/resource/Marcianise_Airfield"
                     }, {
-                        "label": "Transitional Government of Ethiopia",
-                        "uri": "http://dbpedia.org/resource/Transitional_Government_of_Ethiopia"
+                        "label": "Montalto Di Castro Airfield",
+                        "uri": "http://dbpedia.org/resource/Montalto_Di_Castro_Airfield"
                     }, {
-                        "label": "Allied administration of Libya",
-                        "uri": "http://dbpedia.org/resource/Allied_administration_of_Libya"
+                        "label": "Nawadih Airfield",
+                        "uri": "http://dbpedia.org/resource/Nawadih_Airfield"
                     }, {
-                        "label": "Dutch Cape Colony",
-                        "uri": "http://dbpedia.org/resource/Dutch_Cape_Colony"
+                        "label": "Neidpath Viaduct",
+                        "uri": "http://dbpedia.org/resource/Neidpath_Viaduct"
                     }, {
-                        "label": "Taifa of Purchena",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Purchena"
+                        "label": "Ombrene Airfield",
+                        "uri": "http://dbpedia.org/resource/Ombrene_Airfield"
                     }, {
-                        "label": "Taifa of Santarém",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Santarém"
+                        "label": "Piagiolino Airfield",
+                        "uri": "http://dbpedia.org/resource/Piagiolino_Airfield"
                     }, {
-                        "label": "Taifa of Segura",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Segura"
+                        "label": "Piombino Airfield",
+                        "uri": "http://dbpedia.org/resource/Piombino_Airfield"
                     }, {
-                        "label": "Taifa of Tavira",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Tavira"
+                        "label": "Pittsburgh IAP Air Reserve Station",
+                        "uri": "http://dbpedia.org/resource/Pittsburgh_IAP_Air_Reserve_Station"
                     }, {
-                        "label": "Bengal Sultanate",
-                        "uri": "http://dbpedia.org/resource/Bengal_Sultanate"
+                        "label": "Sahmaw Airfield",
+                        "uri": "http://dbpedia.org/resource/Sahmaw_Airfield"
                     }, {
-                        "label": "Colony of Niger",
-                        "uri": "http://dbpedia.org/resource/Colony_of_Niger"
+                        "label": "Sauto Theater",
+                        "uri": "http://dbpedia.org/resource/Sauto_Theater"
                     }, {
-                        "label": "Sultanate of Gowa",
-                        "uri": "http://dbpedia.org/resource/Sultanate_of_Gowa"
+                        "label": "Solonzara Airfield",
+                        "uri": "http://dbpedia.org/resource/Solonzara_Airfield"
                     }, {
-                        "label": "Provisional People's Committee for North Korea",
-                        "uri": "http://dbpedia.org/resource/Provisional_People's_Committee_for_North_Korea"
+                        "label": "Tingkawk Sakan Airfield",
+                        "uri": "http://dbpedia.org/resource/Tingkawk_Sakan_Airfield"
                     }, {
-                        "label": "Belgium (1914–1940)",
-                        "uri": "http://dbpedia.org/resource/Belgium_(1914–1940)"
+                        "label": "Voltone Airfield",
+                        "uri": "http://dbpedia.org/resource/Voltone_Airfield"
                     }, {
-                        "label": "Coorg Province",
-                        "uri": "http://dbpedia.org/resource/Coorg_Province"
+                        "label": "Whittington Barracks",
+                        "uri": "http://dbpedia.org/resource/Whittington_Barracks"
                     }, {
-                        "label": "Intendancy of Chiloé",
-                        "uri": "http://dbpedia.org/resource/Intendancy_of_Chiloé"
+                        "label": "Zvārtava Manor",
+                        "uri": "http://dbpedia.org/resource/Zvārtava_Manor"
                     }, {
-                        "label": "British Indian Ocean Territory",
-                        "uri": "http://dbpedia.org/resource/British_Indian_Ocean_Territory"
+                        "label": "AF and AM Lodge 687",
+                        "uri": "http://dbpedia.org/resource/AF_and_AM_Lodge_687"
                     }, {
-                        "label": "Duchy of Parma",
-                        "uri": "http://dbpedia.org/resource/Duchy_of_Parma"
+                        "label": "West Block",
+                        "uri": "http://dbpedia.org/resource/West_Block"
                     }, {
-                        "label": "First Empire of Haiti",
-                        "uri": "http://dbpedia.org/resource/First_Empire_of_Haiti"
+                        "label": "Mapperley Hall",
+                        "uri": "http://dbpedia.org/resource/Mapperley_Hall"
                     }, {
-                        "label": "Free State of Fiume",
-                        "uri": "http://dbpedia.org/resource/Free_State_of_Fiume"
+                        "label": "Berry Head Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Berry_Head_Lighthouse"
                     }, {
-                        "label": "French West Africa",
-                        "uri": "http://dbpedia.org/resource/French_West_Africa"
+                        "label": "Crowdy Head Light",
+                        "uri": "http://dbpedia.org/resource/Crowdy_Head_Light"
                     }, {
-                        "label": "Jin (Chinese state)",
-                        "uri": "http://dbpedia.org/resource/Jin_(Chinese_state)"
+                        "label": "Recalada a Bahía Blanca Light",
+                        "uri": "http://dbpedia.org/resource/Recalada_a_Bahía_Blanca_Light"
                     }, {
-                        "label": "Kingdom of Galicia and Lodomeria",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Galicia_and_Lodomeria"
+                        "label": "Shrine of Our Lady of Lourdes, Blackpool",
+                        "uri": "http://dbpedia.org/resource/Shrine_of_Our_Lady_of_Lourdes,_Blackpool"
                     }, {
-                        "label": "Kingdom of Greece",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Greece"
+                        "label": "Fort Rodd Hill National Historic Site",
+                        "uri": "http://dbpedia.org/resource/Fort_Rodd_Hill_National_Historic_Site"
                     }, {
-                        "label": "Komi Autonomous Soviet Socialist Republic",
-                        "uri": "http://dbpedia.org/resource/Komi_Autonomous_Soviet_Socialist_Republic"
+                        "label": "Ledaal",
+                        "uri": "http://dbpedia.org/resource/Ledaal"
                     }, {
-                        "label": "Mahdist Sudan",
-                        "uri": "http://dbpedia.org/resource/Mahdist_Sudan"
+                        "label": "NBC Tower",
+                        "uri": "http://dbpedia.org/resource/NBC_Tower"
                     }, {
-                        "label": "New Zealand",
-                        "uri": "http://dbpedia.org/resource/New_Zealand"
+                        "label": "461 Fifth Avenue",
+                        "uri": "http://dbpedia.org/resource/461_Fifth_Avenue"
                     }, {
-                        "label": "Northern Liao",
-                        "uri": "http://dbpedia.org/resource/Northern_Liao"
+                        "label": "Bebrene Manor",
+                        "uri": "http://dbpedia.org/resource/Bebrene_Manor"
                     }, {
-                        "label": "People's Republic of Kampuchea",
-                        "uri": "http://dbpedia.org/resource/People's_Republic_of_Kampuchea"
+                        "label": "EQT Plaza",
+                        "uri": "http://dbpedia.org/resource/EQT_Plaza"
                     }, {
-                        "label": "Province of New York",
-                        "uri": "http://dbpedia.org/resource/Province_of_New_York"
+                        "label": "Näsbyholm Castle",
+                        "uri": "http://dbpedia.org/resource/Näsbyholm_Castle"
                     }, {
-                        "label": "State of Grão-Pará and Maranhão",
-                        "uri": "http://dbpedia.org/resource/State_of_Grão-Pará_and_Maranhão"
+                        "label": "Trinity Buoy Wharf",
+                        "uri": "http://dbpedia.org/resource/Trinity_Buoy_Wharf"
                     }, {
-                        "label": "State of Grão-Pará and Rio Negro",
-                        "uri": "http://dbpedia.org/resource/State_of_Grão-Pará_and_Rio_Negro"
+                        "label": "257 Central Park West",
+                        "uri": "http://dbpedia.org/resource/257_Central_Park_West"
                     }, {
-                        "label": "Territory of Papua and New Guinea",
-                        "uri": "http://dbpedia.org/resource/Territory_of_Papua_and_New_Guinea"
+                        "label": "Alumnae Hall (Miami University)",
+                        "uri": "http://dbpedia.org/resource/Alumnae_Hall_(Miami_University)"
                     }, {
-                        "label": "Ukrainian People's Republic",
-                        "uri": "http://dbpedia.org/resource/Ukrainian_People's_Republic"
+                        "label": "Perth Amboy City Hall",
+                        "uri": "http://dbpedia.org/resource/Perth_Amboy_City_Hall"
                     }, {
-                        "label": "United States of Indonesia",
-                        "uri": "http://dbpedia.org/resource/United_States_of_Indonesia"
+                        "label": "La Rive Condominiums",
+                        "uri": "http://dbpedia.org/resource/La_Rive_Condominiums"
                     }, {
-                        "label": "United States of Venezuela",
-                        "uri": "http://dbpedia.org/resource/United_States_of_Venezuela"
+                        "label": "Plaza VII",
+                        "uri": "http://dbpedia.org/resource/Plaza_VII"
                     }, {
-                        "label": "United States of the Ionian Islands",
-                        "uri": "http://dbpedia.org/resource/United_States_of_the_Ionian_Islands"
+                        "label": "Gorleston (Range Rear) Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Gorleston_(Range_Rear)_Lighthouse"
                     }, {
-                        "label": "Azerbaijan Democratic Republic",
-                        "uri": "http://dbpedia.org/resource/Azerbaijan_Democratic_Republic"
+                        "label": "Church of St James, Ashwick",
+                        "uri": "http://dbpedia.org/resource/Church_of_St_James,_Ashwick"
                     }, {
-                        "label": "Colony of Fiji",
-                        "uri": "http://dbpedia.org/resource/Colony_of_Fiji"
+                        "label": "Church of St John the Baptist, Carhampton",
+                        "uri": "http://dbpedia.org/resource/Church_of_St_John_the_Baptist,_Carhampton"
                     }, {
-                        "label": "Hatay State",
-                        "uri": "http://dbpedia.org/resource/Hatay_State"
+                        "label": "Church of St Lawrence, Lydeard St Lawrence",
+                        "uri": "http://dbpedia.org/resource/Church_of_St_Lawrence,_Lydeard_St_Lawrence"
                     }, {
-                        "label": "Kingdom of Dalmatia",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Dalmatia"
+                        "label": "Church of St Peter, Hornblotton",
+                        "uri": "http://dbpedia.org/resource/Church_of_St_Peter,_Hornblotton"
                     }, {
-                        "label": "Kingdom of Tungning",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Tungning"
+                        "label": "Nadur Tower",
+                        "uri": "http://dbpedia.org/resource/Nadur_Tower"
                     }, {
-                        "label": "Mali Federation",
-                        "uri": "http://dbpedia.org/resource/Mali_Federation"
+                        "label": "Cape Engaño Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Cape_Engaño_Lighthouse"
                     }, {
-                        "label": "Northern Nigeria Protectorate",
-                        "uri": "http://dbpedia.org/resource/Northern_Nigeria_Protectorate"
+                        "label": "Sussex Heights",
+                        "uri": "http://dbpedia.org/resource/Sussex_Heights"
                     }, {
-                        "label": "Ober Ost",
-                        "uri": "http://dbpedia.org/resource/Ober_Ost"
+                        "label": "Manchester Courts",
+                        "uri": "http://dbpedia.org/resource/Manchester_Courts"
                     }, {
-                        "label": "Ruanda-Urundi",
-                        "uri": "http://dbpedia.org/resource/Ruanda-Urundi"
+                        "label": "Flatholmen Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Flatholmen_Lighthouse"
                     }, {
-                        "label": "Southern Nigeria Protectorate",
-                        "uri": "http://dbpedia.org/resource/Southern_Nigeria_Protectorate"
+                        "label": "Flint and Pere Marquette Railroad East Saginaw Depot",
+                        "uri": "http://dbpedia.org/resource/Flint_and_Pere_Marquette_Railroad_East_Saginaw_Depot"
                     }, {
-                        "label": "Twente",
-                        "uri": "http://dbpedia.org/resource/Twente"
+                        "label": "Gunfleet Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Gunfleet_Lighthouse"
                     }, {
-                        "label": "Cayor",
-                        "uri": "http://dbpedia.org/resource/Cayor"
+                        "label": "Hoge vuurtoren van IJmuiden",
+                        "uri": "http://dbpedia.org/resource/Hoge_vuurtoren_van_IJmuiden"
                     }, {
-                        "label": "Allied-occupied Germany",
-                        "uri": "http://dbpedia.org/resource/Allied-occupied_Germany"
+                        "label": "Ingmire Hall",
+                        "uri": "http://dbpedia.org/resource/Ingmire_Hall"
                     }, {
-                        "label": "Francia",
-                        "uri": "http://dbpedia.org/resource/Francia"
+                        "label": "Lage vuurtoren van IJmuiden",
+                        "uri": "http://dbpedia.org/resource/Lage_vuurtoren_van_IJmuiden"
                     }, {
-                        "label": "Kaabu",
-                        "uri": "http://dbpedia.org/resource/Kaabu"
+                        "label": "Myken Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Myken_Lighthouse"
                     }]
             },
             "combination": false
         }, {
             "id": "2",
             "language": "EN",
-            "type": "NP",
-            "bindingType": "COUNTRY",
-            "returnType": "CURRENCY",
-            "frameType": "NPP",
-            "sentences": ["the currencies of $x", "the currency of $x"],
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "BUILDING",
+            "frameType": "IPP",
+            "sentences": ["What does $x complete null?", "Which architectural structure does $x complete null?", "Which architectural structures does $x complete null?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/currency> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingEndDate> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
-                "$x": "subjOfProp"
+                "$x": "objOfProp"
             },
-            "returnVariable": "objOfProp",
+            "returnVariable": "subjOfProp",
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "Abbasid Caliphate",
-                        "uri": "http://dbpedia.org/resource/Abbasid_Caliphate"
+                        "label": "1076",
+                        "uri": "1076"
                     }, {
-                        "label": "Dacia",
-                        "uri": "http://dbpedia.org/resource/Dacia"
+                        "label": "1084",
+                        "uri": "1084"
                     }, {
-                        "label": "Democratic Republic of Afghanistan",
-                        "uri": "http://dbpedia.org/resource/Democratic_Republic_of_Afghanistan"
+                        "label": "1182",
+                        "uri": "1182"
                     }, {
-                        "label": "French Equatorial Africa",
-                        "uri": "http://dbpedia.org/resource/French_Equatorial_Africa"
+                        "label": "1185",
+                        "uri": "1185"
                     }, {
-                        "label": "History of Portugal (1415–1578)",
-                        "uri": "http://dbpedia.org/resource/History_of_Portugal_(1415–1578)"
+                        "label": "1292",
+                        "uri": "1292"
                     }, {
-                        "label": "Italian East Africa",
-                        "uri": "http://dbpedia.org/resource/Italian_East_Africa"
+                        "label": "1294",
+                        "uri": "1294"
                     }, {
-                        "label": "Jin dynasty (1115–1234)",
-                        "uri": "http://dbpedia.org/resource/Jin_dynasty_(1115–1234)"
+                        "label": "1308",
+                        "uri": "1308"
                     }, {
-                        "label": "Macedonia (ancient kingdom)",
-                        "uri": "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
+                        "label": "1333",
+                        "uri": "1333"
                     }, {
-                        "label": "New Netherland",
-                        "uri": "http://dbpedia.org/resource/New_Netherland"
+                        "label": "1350",
+                        "uri": "1350"
                     }, {
-                        "label": "Song dynasty",
-                        "uri": "http://dbpedia.org/resource/Song_dynasty"
+                        "label": "1404",
+                        "uri": "1404"
                     }, {
-                        "label": "South-West Africa",
-                        "uri": "http://dbpedia.org/resource/South-West_Africa"
+                        "label": "1411",
+                        "uri": "1411"
                     }, {
-                        "label": "Tang dynasty",
-                        "uri": "http://dbpedia.org/resource/Tang_dynasty"
+                        "label": "1415",
+                        "uri": "1415"
                     }, {
-                        "label": "Thirteen Colonies",
-                        "uri": "http://dbpedia.org/resource/Thirteen_Colonies"
+                        "label": "1430",
+                        "uri": "1430"
                     }, {
-                        "label": "Umayyad Caliphate",
-                        "uri": "http://dbpedia.org/resource/Umayyad_Caliphate"
+                        "label": "1446",
+                        "uri": "1446"
                     }, {
-                        "label": "United Nations Interim Administration Mission in Kosovo",
-                        "uri": "http://dbpedia.org/resource/United_Nations_Interim_Administration_Mission_in_Kosovo"
+                        "label": "1452",
+                        "uri": "1452"
                     }, {
-                        "label": "United States Minor Outlying Islands",
-                        "uri": "http://dbpedia.org/resource/United_States_Minor_Outlying_Islands"
+                        "label": "1468",
+                        "uri": "1468"
                     }, {
-                        "label": "British Ceylon",
-                        "uri": "http://dbpedia.org/resource/British_Ceylon"
+                        "label": "1470",
+                        "uri": "1470"
                     }, {
-                        "label": "Dominion of Ceylon",
-                        "uri": "http://dbpedia.org/resource/Dominion_of_Ceylon"
+                        "label": "1479",
+                        "uri": "1479"
                     }, {
-                        "label": "East African Federation",
-                        "uri": "http://dbpedia.org/resource/East_African_Federation"
+                        "label": "1490",
+                        "uri": "1490"
                     }, {
-                        "label": "Tabasco (former state)",
-                        "uri": "http://dbpedia.org/resource/Tabasco_(former_state)"
+                        "label": "1505",
+                        "uri": "1505"
                     }, {
-                        "label": "Taifa of Niebla",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Niebla"
+                        "label": "1521",
+                        "uri": "1521"
                     }, {
-                        "label": "Taifa of Tejada",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Tejada"
+                        "label": "1533",
+                        "uri": "1533"
                     }, {
-                        "label": "Falkland Islands Dependencies",
-                        "uri": "http://dbpedia.org/resource/Falkland_Islands_Dependencies"
+                        "label": "1548",
+                        "uri": "1548"
                     }, {
-                        "label": "Republic of China (1912–49)",
-                        "uri": "http://dbpedia.org/resource/Republic_of_China_(1912–49)"
+                        "label": "1553",
+                        "uri": "1553"
                     }, {
-                        "label": "Corpus separatum (Fiume)",
-                        "uri": "http://dbpedia.org/resource/Corpus_separatum_(Fiume)"
+                        "label": "1598",
+                        "uri": "1598"
                     }, {
-                        "label": "Kingdom of Wallachia",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Wallachia"
+                        "label": "1637",
+                        "uri": "1637"
                     }, {
-                        "label": "Republic of Afghanistan",
-                        "uri": "http://dbpedia.org/resource/Republic_of_Afghanistan"
+                        "label": "1655",
+                        "uri": "1655"
                     }, {
-                        "label": "First Mexican Republic",
-                        "uri": "http://dbpedia.org/resource/First_Mexican_Republic"
+                        "label": "1684",
+                        "uri": "1684"
                     }, {
-                        "label": "Kiautschou Bay concession",
-                        "uri": "http://dbpedia.org/resource/Kiautschou_Bay_concession"
+                        "label": "1703",
+                        "uri": "1703"
                     }, {
-                        "label": "Ma-i",
-                        "uri": "http://dbpedia.org/resource/Ma-i"
+                        "label": "1717",
+                        "uri": "1717"
                     }, {
-                        "label": "Taifa of Dénia",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Dénia"
+                        "label": "1730",
+                        "uri": "1730"
                     }, {
-                        "label": "Taifa of Majorca",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Majorca"
+                        "label": "1735",
+                        "uri": "1735"
                     }, {
-                        "label": "Taifa of Tortosa",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Tortosa"
+                        "label": "1750",
+                        "uri": "1750"
                     }, {
-                        "label": "Luhansk People's Republic",
-                        "uri": "http://dbpedia.org/resource/Luhansk_People's_Republic"
+                        "label": "1764",
+                        "uri": "1764"
                     }, {
-                        "label": "Taifa of Mértola",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Mértola"
+                        "label": "1792",
+                        "uri": "1792"
                     }, {
-                        "label": "Taifa of Orihuela",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Orihuela"
+                        "label": "1796",
+                        "uri": "1796"
                     }, {
-                        "label": "Taifa of Santa Maria do Algarve",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Santa_Maria_do_Algarve"
+                        "label": "1800-1804",
+                        "uri": "1800-1804"
                     }, {
-                        "label": "Tanganyika (territory)",
-                        "uri": "http://dbpedia.org/resource/Tanganyika_(territory)"
+                        "label": "1802",
+                        "uri": "1802"
                     }, {
-                        "label": "Presidential Republic (1925–73)",
-                        "uri": "http://dbpedia.org/resource/Presidential_Republic_(1925–73)"
+                        "label": "1803",
+                        "uri": "1803"
                     }, {
-                        "label": "Kingdom of Kano",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Kano"
+                        "label": "1849",
+                        "uri": "1849"
                     }, {
-                        "label": "Republic of Vevčani",
-                        "uri": "http://dbpedia.org/resource/Republic_of_Vevčani"
+                        "label": "1850",
+                        "uri": "1850"
                     }, {
-                        "label": "Venezuela Province",
-                        "uri": "http://dbpedia.org/resource/Venezuela_Province"
+                        "label": "1863",
+                        "uri": "1863"
                     }, {
-                        "label": "Malacca Sultanate",
-                        "uri": "http://dbpedia.org/resource/Malacca_Sultanate"
+                        "label": "1874",
+                        "uri": "1874"
                     }, {
-                        "label": "Mali Empire",
-                        "uri": "http://dbpedia.org/resource/Mali_Empire"
+                        "label": "1878",
+                        "uri": "1878"
                     }, {
-                        "label": "Safavid dynasty",
-                        "uri": "http://dbpedia.org/resource/Safavid_dynasty"
+                        "label": "1881",
+                        "uri": "1881"
                     }, {
-                        "label": "Hasmonean dynasty",
-                        "uri": "http://dbpedia.org/resource/Hasmonean_dynasty"
+                        "label": "1892",
+                        "uri": "1892"
                     }, {
-                        "label": "Tanganyika",
-                        "uri": "http://dbpedia.org/resource/Tanganyika"
+                        "label": "1896",
+                        "uri": "1896"
                     }, {
-                        "label": "Provisional Government of Hawaii",
-                        "uri": "http://dbpedia.org/resource/Provisional_Government_of_Hawaii"
+                        "label": "1906",
+                        "uri": "1906"
                     }, {
-                        "label": "Brazilian military government",
-                        "uri": "http://dbpedia.org/resource/Brazilian_military_government"
+                        "label": "1918",
+                        "uri": "1918"
                     }, {
-                        "label": "Derg",
-                        "uri": "http://dbpedia.org/resource/Derg"
+                        "label": "1944",
+                        "uri": "1944"
                     }, {
-                        "label": "Transitional Government of Ethiopia",
-                        "uri": "http://dbpedia.org/resource/Transitional_Government_of_Ethiopia"
+                        "label": "1953",
+                        "uri": "1953"
                     }, {
-                        "label": "Allied administration of Libya",
-                        "uri": "http://dbpedia.org/resource/Allied_administration_of_Libya"
+                        "label": "1957",
+                        "uri": "1957"
                     }, {
-                        "label": "Dutch Cape Colony",
-                        "uri": "http://dbpedia.org/resource/Dutch_Cape_Colony"
+                        "label": "1968",
+                        "uri": "1968"
                     }, {
-                        "label": "Taifa of Purchena",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Purchena"
+                        "label": "1986",
+                        "uri": "1986"
                     }, {
-                        "label": "Taifa of Santarém",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Santarém"
+                        "label": "1987",
+                        "uri": "1987"
                     }, {
-                        "label": "Taifa of Segura",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Segura"
+                        "label": "1989",
+                        "uri": "1989"
                     }, {
-                        "label": "Taifa of Tavira",
-                        "uri": "http://dbpedia.org/resource/Taifa_of_Tavira"
+                        "label": "1998",
+                        "uri": "1998"
                     }, {
-                        "label": "Bengal Sultanate",
-                        "uri": "http://dbpedia.org/resource/Bengal_Sultanate"
+                        "label": "2014",
+                        "uri": "2014"
                     }, {
-                        "label": "Colony of Niger",
-                        "uri": "http://dbpedia.org/resource/Colony_of_Niger"
+                        "label": "79",
+                        "uri": "79"
                     }, {
-                        "label": "Sultanate of Gowa",
-                        "uri": "http://dbpedia.org/resource/Sultanate_of_Gowa"
+                        "label": "866",
+                        "uri": "866"
                     }, {
-                        "label": "Provisional People's Committee for North Korea",
-                        "uri": "http://dbpedia.org/resource/Provisional_People's_Committee_for_North_Korea"
+                        "label": "1349",
+                        "uri": "1349"
                     }, {
-                        "label": "Belgium (1914–1940)",
-                        "uri": "http://dbpedia.org/resource/Belgium_(1914–1940)"
+                        "label": "1400",
+                        "uri": "1400"
                     }, {
-                        "label": "Coorg Province",
-                        "uri": "http://dbpedia.org/resource/Coorg_Province"
+                        "label": "1485",
+                        "uri": "1485"
                     }, {
-                        "label": "Intendancy of Chiloé",
-                        "uri": "http://dbpedia.org/resource/Intendancy_of_Chiloé"
+                        "label": "1489",
+                        "uri": "1489"
                     }, {
-                        "label": "British Indian Ocean Territory",
-                        "uri": "http://dbpedia.org/resource/British_Indian_Ocean_Territory"
+                        "label": "1491",
+                        "uri": "1491"
                     }, {
-                        "label": "Duchy of Parma",
-                        "uri": "http://dbpedia.org/resource/Duchy_of_Parma"
+                        "label": "1567",
+                        "uri": "1567"
                     }, {
-                        "label": "First Empire of Haiti",
-                        "uri": "http://dbpedia.org/resource/First_Empire_of_Haiti"
+                        "label": "1593",
+                        "uri": "1593"
                     }, {
-                        "label": "Free State of Fiume",
-                        "uri": "http://dbpedia.org/resource/Free_State_of_Fiume"
+                        "label": "1941",
+                        "uri": "1941"
                     }, {
-                        "label": "French West Africa",
-                        "uri": "http://dbpedia.org/resource/French_West_Africa"
+                        "label": "2016",
+                        "uri": "2016"
                     }, {
-                        "label": "Jin (Chinese state)",
-                        "uri": "http://dbpedia.org/resource/Jin_(Chinese_state)"
+                        "label": "1379",
+                        "uri": "1379"
                     }, {
-                        "label": "Kingdom of Galicia and Lodomeria",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Galicia_and_Lodomeria"
+                        "label": "1402",
+                        "uri": "1402"
                     }, {
-                        "label": "Kingdom of Greece",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Greece"
+                        "label": "1503",
+                        "uri": "1503"
                     }, {
-                        "label": "Komi Autonomous Soviet Socialist Republic",
-                        "uri": "http://dbpedia.org/resource/Komi_Autonomous_Soviet_Socialist_Republic"
+                        "label": "1525",
+                        "uri": "1525"
                     }, {
-                        "label": "Mahdist Sudan",
-                        "uri": "http://dbpedia.org/resource/Mahdist_Sudan"
+                        "label": "1543",
+                        "uri": "1543"
                     }, {
-                        "label": "New Zealand",
-                        "uri": "http://dbpedia.org/resource/New_Zealand"
+                        "label": "1570",
+                        "uri": "1570"
                     }, {
-                        "label": "Northern Liao",
-                        "uri": "http://dbpedia.org/resource/Northern_Liao"
+                        "label": "1577",
+                        "uri": "1577"
                     }, {
-                        "label": "People's Republic of Kampuchea",
-                        "uri": "http://dbpedia.org/resource/People's_Republic_of_Kampuchea"
+                        "label": "1623",
+                        "uri": "1623"
                     }, {
-                        "label": "Province of New York",
-                        "uri": "http://dbpedia.org/resource/Province_of_New_York"
+                        "label": "1666",
+                        "uri": "1666"
                     }, {
-                        "label": "State of Grão-Pará and Maranhão",
-                        "uri": "http://dbpedia.org/resource/State_of_Grão-Pará_and_Maranhão"
+                        "label": "1670",
+                        "uri": "1670"
                     }, {
-                        "label": "State of Grão-Pará and Rio Negro",
-                        "uri": "http://dbpedia.org/resource/State_of_Grão-Pará_and_Rio_Negro"
+                        "label": "1685",
+                        "uri": "1685"
                     }, {
-                        "label": "Territory of Papua and New Guinea",
-                        "uri": "http://dbpedia.org/resource/Territory_of_Papua_and_New_Guinea"
+                        "label": "1768",
+                        "uri": "1768"
                     }, {
-                        "label": "Ukrainian People's Republic",
-                        "uri": "http://dbpedia.org/resource/Ukrainian_People's_Republic"
+                        "label": "1817",
+                        "uri": "1817"
                     }, {
-                        "label": "United States of Indonesia",
-                        "uri": "http://dbpedia.org/resource/United_States_of_Indonesia"
+                        "label": "1819",
+                        "uri": "1819"
                     }, {
-                        "label": "United States of Venezuela",
-                        "uri": "http://dbpedia.org/resource/United_States_of_Venezuela"
+                        "label": "1820",
+                        "uri": "1820"
                     }, {
-                        "label": "United States of the Ionian Islands",
-                        "uri": "http://dbpedia.org/resource/United_States_of_the_Ionian_Islands"
+                        "label": "1080",
+                        "uri": "1080"
                     }, {
-                        "label": "Azerbaijan Democratic Republic",
-                        "uri": "http://dbpedia.org/resource/Azerbaijan_Democratic_Republic"
+                        "label": "1458",
+                        "uri": "1458"
                     }, {
-                        "label": "Colony of Fiji",
-                        "uri": "http://dbpedia.org/resource/Colony_of_Fiji"
+                        "label": "1488",
+                        "uri": "1488"
                     }, {
-                        "label": "Hatay State",
-                        "uri": "http://dbpedia.org/resource/Hatay_State"
+                        "label": "1574",
+                        "uri": "1574"
                     }, {
-                        "label": "Kingdom of Dalmatia",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Dalmatia"
+                        "label": "1617",
+                        "uri": "1617"
                     }, {
-                        "label": "Kingdom of Tungning",
-                        "uri": "http://dbpedia.org/resource/Kingdom_of_Tungning"
+                        "label": "1677",
+                        "uri": "1677"
                     }, {
-                        "label": "Mali Federation",
-                        "uri": "http://dbpedia.org/resource/Mali_Federation"
+                        "label": "1733",
+                        "uri": "1733"
                     }, {
-                        "label": "Northern Nigeria Protectorate",
-                        "uri": "http://dbpedia.org/resource/Northern_Nigeria_Protectorate"
+                        "label": "1838",
+                        "uri": "1838"
                     }, {
-                        "label": "Ober Ost",
-                        "uri": "http://dbpedia.org/resource/Ober_Ost"
+                        "label": "1975",
+                        "uri": "1975"
                     }, {
-                        "label": "Ruanda-Urundi",
-                        "uri": "http://dbpedia.org/resource/Ruanda-Urundi"
+                        "label": "2008",
+                        "uri": "2008"
                     }, {
-                        "label": "Southern Nigeria Protectorate",
-                        "uri": "http://dbpedia.org/resource/Southern_Nigeria_Protectorate"
+                        "label": "2013",
+                        "uri": "2013"
                     }, {
-                        "label": "Twente",
-                        "uri": "http://dbpedia.org/resource/Twente"
+                        "label": "2021",
+                        "uri": "2021"
                     }, {
-                        "label": "Cayor",
-                        "uri": "http://dbpedia.org/resource/Cayor"
+                        "label": "1682",
+                        "uri": "1682"
                     }, {
-                        "label": "Allied-occupied Germany",
-                        "uri": "http://dbpedia.org/resource/Allied-occupied_Germany"
+                        "label": "1405",
+                        "uri": "1405"
                     }, {
-                        "label": "Francia",
-                        "uri": "http://dbpedia.org/resource/Francia"
+                        "label": "1313",
+                        "uri": "1313"
                     }, {
-                        "label": "Kaabu",
-                        "uri": "http://dbpedia.org/resource/Kaabu"
+                        "label": "1544",
+                        "uri": "1544"
                     }]
             },
             "combination": false

@@ -131,6 +131,16 @@ class SentenceTemplateFactoryEN implements Factory<SentenceTemplateRepository> {
         "prepositionalAdjunct"
       )
     );
+    sentenceTemplateRepository.add(
+      createSentenceTemplate(
+        language,
+        List.of(
+          "TemporalDeterminer noun(condition:subject) VP(temporalAdjunct)?"
+        ),
+        "subject",
+        "temporalAdjunct"
+      )
+    );
     // TransitiveFrame
     sentenceTemplateRepository.add(
       createSentenceTemplate(

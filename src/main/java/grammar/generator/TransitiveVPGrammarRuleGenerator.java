@@ -32,7 +32,7 @@ public class TransitiveVPGrammarRuleGenerator extends GrammarRuleGeneratorRoot {
                                                                                                           QueGGMissingFactoryClassException {
     List<String> generatedSentences = new ArrayList<>();
 
-    SubjectType subjectType = lexicalEntryUtil.getSubjectType(lexicalEntryUtil.getSelectVariable());
+    SubjectType subjectType = lexicalEntryUtil.getSubjectType(lexicalEntryUtil.getSelectVariable(),DomainOrRangeType.PERSON);
     String qWord = lexicalEntryUtil.getSubjectBySubjectType(subjectType, getLanguage(), null);
 
     List<AnnotatedVerb> annotatedVerbs = lexicalEntryUtil.parseLexicalEntryToAnnotatedVerbs();

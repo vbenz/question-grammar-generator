@@ -55,7 +55,7 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
         List<AnnotatedNounOrQuestionWord> annotatedLexicalEntryNouns = lexicalEntryUtil.parseLexicalEntryToAnnotatedAnnotatedNounOrQuestionWords();
         AnnotatedNounOrQuestionWord questionWord
                 = // Who / what
-                getAnnotatedQuestionWordBySubjectType(lexicalEntryUtil.getSubjectType(lexicalEntryUtil.getSelectVariable()), getLanguage(), null);
+                getAnnotatedQuestionWordBySubjectType(lexicalEntryUtil.getSubjectType(lexicalEntryUtil.getSelectVariable(),DomainOrRangeType.PERSON), getLanguage(), null);
         String nounToken = lexicalEntryUtil.getReturnVariableConditionLabel(lexicalEntryUtil.getSelectVariable());
         String object = String.format(
                 BINDING_TOKEN_TEMPLATE,
