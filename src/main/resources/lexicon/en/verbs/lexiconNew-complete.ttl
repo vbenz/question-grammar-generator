@@ -8,7 +8,7 @@
 :lexicon_en a    lemon:Lexicon ;
   lemon:language "en" ;
   lemon:entry    :to_complete ;
-  lemon:entry    :through .
+  lemon:entry    :in .
 
 :to_complete a             lemon:LexicalEntry ;
   lexinfo:partOfSpeech lexinfo:verb ;
@@ -46,11 +46,11 @@
   lemon:propertyDomain <http://dbpedia.org/ontology/ArchitecturalStructure> ;
   lemon:propertyRange  <http://dbpedia.org/ontology/year> .
 
-:complete_obj lemon:marker :through .
+:complete_obj lemon:marker :in .
 
 ## Prepositions ##
 
-:through a                  lemon:SynRoleMarker ;
+:in a                  lemon:SynRoleMarker ;
   lemon:canonicalForm  [ lemon:writtenRep "in"@en ] ;
   lexinfo:partOfSpeech lexinfo:preposition .
 
