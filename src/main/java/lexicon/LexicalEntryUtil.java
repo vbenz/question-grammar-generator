@@ -78,10 +78,10 @@ public class LexicalEntryUtil {
         this.owlRestriction = new OWLRestriction(lexicon, lexicalSense.getReference()).invoke();
     }
 
-    public List<AnnotatedVerb> loadToBeVerbs() {
+    /*public List<AnnotatedVerb> loadToBeVerbs() {
         LexicalEntry entry = new LexiconSearch(lexicon).getReferencedResource("component_be");
         return parseLexicalEntryToAnnotatedVerbs(entry.getOtherForms());
-    }
+    }*/
 
     public static SelectVariable getOppositeSelectVariable(SelectVariable selectVariable) {
         return selectVariable

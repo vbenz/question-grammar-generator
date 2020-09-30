@@ -9,6 +9,7 @@
   lemon:language "en" ;
   lemon:entry    :component_be ;
   lemon:entry    :component_do ;
+  lemon:entry    :component_aux_object_past ;
   lemon:entry    :component_imperative_plural ;
   lemon:entry    :component_imperative_transitive ;
   lemon:entry    :component_have ;
@@ -57,6 +58,19 @@
   lexinfo:tense                           lexinfo:present ;
   lexinfo:person                          lexinfo:thirdPerson ;
   lexinfo:number                          lexinfo:singular ] .
+
+:component_aux_object_past a        lemon:LexicalEntry ;
+  lemon:canonicalForm  [ lemon:writtenRep "be"@en ] ;
+  lexinfo:partOfSpeech lexinfo:verb ;
+  lemon:otherForm      [ lemon:writtenRep "was"@en ;
+  lexinfo:tense                           lexinfo:past ;
+  lexinfo:person                          lexinfo:thirdPerson ;
+  lexinfo:number                          lexinfo:singular ] ;
+  lemon:otherForm      [ lemon:writtenRep "were"@en ;
+  lexinfo:tense                           lexinfo:past ;
+  lexinfo:person                          lexinfo:thirdPerson ;
+  lexinfo:number                          lexinfo:plural ] .
+
 
 :component_imperative_plural a        lemon:LexicalEntry ;
   lemon:canonicalForm  [ lemon:writtenRep "List"@en ;

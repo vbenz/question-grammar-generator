@@ -32,7 +32,7 @@
 
 :complete_frame a                  lexinfo:IntransitivePPFrame ;
   lexinfo:subject              :complete_subj ;
-  lexinfo:prepositionalAdjunct :complete_obj .
+  lexinfo:temporalAdjunct :complete_obj .
 
 :complete_ontomap a     lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping :complete_ontomap ;
