@@ -65,6 +65,12 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             domainOrRangeType = DomainOrRangeType.THING;
         }
 
+        List<PropertyValue> numberList = new ArrayList<>();
+        numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("singular"));
+        numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("plural"));
+
+        List<String> auxilaries = this.getAuxilariesVerb(numberList, "component_aux_object_past", lexInfo);
+
         if (!lexInfo.getPropertyValue("infinitive").equals(annotatedVerb.getVerbFormMood())) {
             // Make simple sentence (Which river flows through $x?)
             if (lexInfo.getPropertyValue("singular").equals(annotatedVerb.getNumber())) {
@@ -82,14 +88,18 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                 );
 
                 if (flag) {
-                    sentence = String.format(
-                            "%s %s %s %s %s?",
-                            qWord,
-                            "was",
-                            "the",
-                            binding,
-                            annotatedVerb.getWrittenRepValue()
-                    );
+                    for (String auxilariesVerb : auxilaries) {
+                        sentence = String.format(
+                                "%s %s %s %s %s?",
+                                qWord,
+                                auxilariesVerb,
+                                "the",
+                                binding,
+                                annotatedVerb.getWrittenRepValue()
+                        );
+                        generatedSentences.add(sentence);
+                    }
+
                 } else {
                     sentence = String.format(
                             "%s %s %s %s?",
@@ -98,9 +108,8 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                             preposition,
                             binding
                     );
+                    generatedSentences.add(sentence);
                 }
-
-                generatedSentences.add(sentence);
 
             }
             // Make sentence using the specified domain or range property (Which museum exhibits $x?)
@@ -125,14 +134,17 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                 );
 
                 if (flag) {
-                    sentence = String.format(
-                            "%s %s %s %s %s?",
-                            determinerToken,
-                            "was",
-                            "the",
-                            binding,
-                            annotatedVerb.getWrittenRepValue()
-                    );
+                    for (String auxilariesVerb : auxilaries) {
+                        sentence = String.format(
+                                "%s %s %s %s %s?",
+                                determinerToken,
+                                auxilariesVerb,
+                                "the",
+                                binding,
+                                annotatedVerb.getWrittenRepValue()
+                        );
+                        generatedSentences.add(sentence);
+                    }
 
                 } else {
                     sentence = String.format(
@@ -142,9 +154,9 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                             preposition,
                             binding
                     );
+                    generatedSentences.add(sentence);
                 }
 
-                generatedSentences.add(sentence);
             }
         }
         return generatedSentences;
@@ -217,9 +229,6 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
         LexInfo lexInfo = this.lexicalEntryUtil.getLexInfo();
         String preposition = this.lexicalEntryUtil.getPreposition();
         DomainOrRangeType domainOrRangeType;
-        //This is a temporary solution
-        String source="http://www.lexinfo.net/ontology/2.0/lexinfo#";
-      
 
         if (sentenceTemplate.contains("temporalAdjunct")) {
             domainOrRangeType = DomainOrRangeType.THING;
@@ -232,50 +241,14 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             List<PropertyValue> numberList = new ArrayList<>();
             numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("singular"));
             numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("plural"));
-            // Get verb "do"
-            LexicalEntry component_do = new LexiconSearch(this.lexicalEntryUtil.getLexicon()).getReferencedResource("component_aux_object_past");
-         
-            //LexicalEntry preposition_comp = new LexiconSearch(this.lexicalEntryUtil.getLexicon()).getReferencedResource("in");
-            
-            /*preposition=  preposition_comp.getForms().stream()
-                                .filter(lexicalForm -> lexicalForm.getProperty(lexInfo.getProperty("partOfSpeech"))
-                                .contains(lexInfo.getPropertyValue("preposition")))
-                                .findFirst()
-                                .orElseThrow()
-                                .getWrittenRep().value;*/
-            
-            //horrible coding...many different ways to do the same thing in all Gramatical sentence
-            
-            //Collection<LexicalForm> LexicalForms=component_do.getForms();
-            
-            //temporarySolutions..
-            //Set<String> numbers=new HashSet<String>();
-            List<String> auxilaries = new ArrayList<String>();
-            //numbers.add("singular");
-            //numbers.add("plural");
-            
-            for (PropertyValue number : numberList) {
-                String numberStr=number.toString().replace(source, "");
-                auxilaries.add(
-                        component_do.getForms().stream()
-                                .filter(lexicalForm -> lexicalForm.getProperty(lexInfo.getProperty("tense"))
-                                .contains(lexInfo.getPropertyValue("past")))
-                                .filter(lexicalForm -> lexicalForm.getProperty(lexInfo.getProperty("number"))
-                                .contains(lexInfo.getPropertyValue(numberStr)))
-                                .findFirst()
-                                .orElseThrow()
-                                .getWrittenRep().value);
-            }
-
-           
-            
+            //LexicalEntry auxilaryVerb = new LexiconSearch(this.lexicalEntryUtil.getLexicon()).getReferencedResource("component_aux_object_past");
+            List<String> auxilaries = this.getAuxilariesVerb(numberList, "component_aux_object_past", lexInfo);
 
             // opposite select variable
             SelectVariable oppositeSelectVariable = LexicalEntryUtil.getOppositeSelectVariable(this.lexicalEntryUtil.getSelectVariable());
             // get subjectType of this sentence's object
             SubjectType subjectType = this.lexicalEntryUtil.getSubjectType(oppositeSelectVariable, domainOrRangeType);
             String qWord = this.lexicalEntryUtil.getSubjectBySubjectType(subjectType, language, null); // Who / What
-
 
             for (String auxilariesVerb : auxilaries) {
                 sentence = String.format(
@@ -289,7 +262,6 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                 generatedSentences.add(sentence);
             }
 
-           
             if (!this.lexicalEntryUtil.hasInvalidDeterminerToken(this.lexicalEntryUtil.getSelectVariable())) {
                 for (PropertyValue number : numberList) {
                     String conditionLabel = this.lexicalEntryUtil.getReturnVariableConditionLabel(oppositeSelectVariable);
@@ -312,11 +284,28 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                         generatedSentences.add(sentence);
                     }
 
-                    
                 }
             }
         }
         return generatedSentences;
+    }
+
+    private List<String> getAuxilariesVerb(List<PropertyValue> numberList, String auxilaryVerbString, LexInfo lexInfo) {
+        LexicalEntry auxilaryVerb = new LexiconSearch(this.lexicalEntryUtil.getLexicon()).getReferencedResource(auxilaryVerbString);
+
+        List<String> auxilaries = new ArrayList<String>();
+        for (PropertyValue number : numberList) {
+            String[] info = number.toString().split("#");
+            auxilaries.add(auxilaryVerb.getForms().stream()
+                    .filter(lexicalForm -> lexicalForm.getProperty(lexInfo.getProperty("tense"))
+                    .contains(lexInfo.getPropertyValue("past")))
+                    .filter(lexicalForm -> lexicalForm.getProperty(lexInfo.getProperty("number"))
+                    .contains(lexInfo.getPropertyValue(info[1])))
+                    .findFirst()
+                    .orElseThrow()
+                    .getWrittenRep().value);
+        }
+        return auxilaries;
     }
 
 }
