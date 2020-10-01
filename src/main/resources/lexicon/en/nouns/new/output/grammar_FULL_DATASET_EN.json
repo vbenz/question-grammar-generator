@@ -6,7 +6,7 @@
             "bindingType": "BUILDING",
             "returnType": "THING",
             "frameType": "IPP",
-            "sentences": ["When was the ($x | BUILDING_NP) completed?", "When were the ($x | BUILDING_NP) completed?", "Which year was the ($x | BUILDING_NP) completed?", "Which year were the ($x | BUILDING_NP) completed?"],
+            "sentences": ["When was the ($x | BUILDING_NP) completed?", "When was the ($x | BUILDING_NP) completed?", "When were the ($x | BUILDING_NP) completed?", "When were the ($x | BUILDING_NP) completed?", "Which year was the ($x | BUILDING_NP) completed?", "Which year was the ($x | BUILDING_NP) completed?", "Which year were the ($x | BUILDING_NP) completed?", "Which year were the ($x | BUILDING_NP) completed?"],
             "queryType": "SELECT",
             "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingEndDate> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
@@ -335,305 +335,305 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "1972",
-                        "uri": "1972"
+                        "label": "1076",
+                        "uri": "1076"
                     }, {
-                        "label": "1943",
-                        "uri": "1943"
+                        "label": "1084",
+                        "uri": "1084"
                     }, {
-                        "label": "1920",
-                        "uri": "1920"
+                        "label": "1182",
+                        "uri": "1182"
                     }, {
-                        "label": "1956",
-                        "uri": "1956"
+                        "label": "1185",
+                        "uri": "1185"
                     }, {
-                        "label": "1970",
-                        "uri": "1970"
+                        "label": "1292",
+                        "uri": "1292"
                     }, {
-                        "label": "2008",
-                        "uri": "2008"
+                        "label": "1294",
+                        "uri": "1294"
                     }, {
-                        "label": "2003",
-                        "uri": "2003"
+                        "label": "1308",
+                        "uri": "1308"
                     }, {
-                        "label": "1940–44",
-                        "uri": "1940–44"
+                        "label": "1333",
+                        "uri": "1333"
                     }, {
-                        "label": "1946–1947",
-                        "uri": "1946–1947"
+                        "label": "1350",
+                        "uri": "1350"
                     }, {
-                        "label": "2014",
-                        "uri": "2014"
+                        "label": "1404",
+                        "uri": "1404"
                     }, {
-                        "label": "2009",
-                        "uri": "2009"
+                        "label": "1411",
+                        "uri": "1411"
                     }, {
-                        "label": "1957",
-                        "uri": "1957"
+                        "label": "1415",
+                        "uri": "1415"
                     }, {
-                        "label": "1983",
-                        "uri": "1983"
+                        "label": "1430",
+                        "uri": "1430"
                     }, {
-                        "label": "1966",
-                        "uri": "1966"
+                        "label": "1446",
+                        "uri": "1446"
                     }, {
-                        "label": "1971",
-                        "uri": "1971"
+                        "label": "1452",
+                        "uri": "1452"
                     }, {
-                        "label": "1903",
-                        "uri": "1903"
+                        "label": "1468",
+                        "uri": "1468"
                     }, {
-                        "label": "2012",
-                        "uri": "2012"
+                        "label": "1470",
+                        "uri": "1470"
                     }, {
-                        "label": "1429",
-                        "uri": "1429"
+                        "label": "1479",
+                        "uri": "1479"
                     }, {
-                        "label": "16th century",
-                        "uri": "16th century"
+                        "label": "1490",
+                        "uri": "1490"
                     }, {
-                        "label": "early 1941 as military barracks; expanded significantly by the Japanese",
-                        "uri": "early 1941 as military barracks; expanded significantly by the Japanese"
+                        "label": "1505",
+                        "uri": "1505"
                     }, {
-                        "label": "1866",
-                        "uri": "1866"
+                        "label": "1521",
+                        "uri": "1521"
                     }, {
-                        "label": "1687",
-                        "uri": "1687"
+                        "label": "1533",
+                        "uri": "1533"
                     }, {
-                        "label": "1914",
-                        "uri": "1914"
+                        "label": "1548",
+                        "uri": "1548"
                     }, {
-                        "label": "1940",
-                        "uri": "1940"
+                        "label": "1553",
+                        "uri": "1553"
                     }, {
-                        "label": "1954",
-                        "uri": "1954"
+                        "label": "1598",
+                        "uri": "1598"
                     }, {
-                        "label": "1917",
-                        "uri": "1917"
+                        "label": "1637",
+                        "uri": "1637"
                     }, {
-                        "label": "1694",
-                        "uri": "1694"
+                        "label": "1655",
+                        "uri": "1655"
                     }, {
-                        "label": "1593",
-                        "uri": "1593"
+                        "label": "1684",
+                        "uri": "1684"
                     }, {
-                        "label": "1820",
-                        "uri": "1820"
+                        "label": "1703",
+                        "uri": "1703"
                     }, {
-                        "label": "1911",
-                        "uri": "1911"
+                        "label": "1717",
+                        "uri": "1717"
                     }, {
-                        "label": "1862",
-                        "uri": "1862"
+                        "label": "1730",
+                        "uri": "1730"
                     }, {
-                        "label": "1861",
-                        "uri": "1861"
+                        "label": "1735",
+                        "uri": "1735"
+                    }, {
+                        "label": "1750",
+                        "uri": "1750"
+                    }, {
+                        "label": "1764",
+                        "uri": "1764"
+                    }, {
+                        "label": "1792",
+                        "uri": "1792"
+                    }, {
+                        "label": "1796",
+                        "uri": "1796"
+                    }, {
+                        "label": "1800-1804",
+                        "uri": "1800-1804"
+                    }, {
+                        "label": "1802",
+                        "uri": "1802"
+                    }, {
+                        "label": "1803",
+                        "uri": "1803"
+                    }, {
+                        "label": "1849",
+                        "uri": "1849"
+                    }, {
+                        "label": "1850",
+                        "uri": "1850"
                     }, {
                         "label": "1863",
                         "uri": "1863"
                     }, {
-                        "label": "1685",
-                        "uri": "1685"
+                        "label": "1874",
+                        "uri": "1874"
                     }, {
-                        "label": "2005",
-                        "uri": "2005"
+                        "label": "1878",
+                        "uri": "1878"
                     }, {
-                        "label": "Early 17th century",
-                        "uri": "Early 17th century"
+                        "label": "1881",
+                        "uri": "1881"
                     }, {
-                        "label": "1928",
-                        "uri": "1928"
-                    }, {
-                        "label": "1782",
-                        "uri": "1782"
-                    }, {
-                        "label": "1912 (for church)",
-                        "uri": "1912 (for church)"
-                    }, {
-                        "label": "1898",
-                        "uri": "1898"
+                        "label": "1892",
+                        "uri": "1892"
                     }, {
                         "label": "1896",
                         "uri": "1896"
                     }, {
-                        "label": "1839, Renovated 1911",
-                        "uri": "1839, Renovated 1911"
+                        "label": "1906",
+                        "uri": "1906"
                     }, {
-                        "label": "1869",
-                        "uri": "1869"
+                        "label": "1918",
+                        "uri": "1918"
                     }, {
-                        "label": "1736",
-                        "uri": "1736"
+                        "label": "1944",
+                        "uri": "1944"
                     }, {
-                        "label": "2002",
-                        "uri": "2002"
+                        "label": "1953",
+                        "uri": "1953"
                     }, {
-                        "label": "1965",
-                        "uri": "1965"
+                        "label": "1957",
+                        "uri": "1957"
                     }, {
-                        "label": "1990",
-                        "uri": "1990"
-                    }, {
-                        "label": "1927",
-                        "uri": "1927"
-                    }, {
-                        "label": "17 July 1934",
-                        "uri": "17 July 1934"
-                    }, {
-                        "label": "1884",
-                        "uri": "1884"
-                    }, {
-                        "label": "2010",
-                        "uri": "2010"
-                    }, {
-                        "label": "2001",
-                        "uri": "2001"
-                    }, {
-                        "label": "2015",
-                        "uri": "2015"
-                    }, {
-                        "label": "2006",
-                        "uri": "2006"
-                    }, {
-                        "label": "1994",
-                        "uri": "1994"
-                    }, {
-                        "label": "March 2014",
-                        "uri": "March 2014"
-                    }, {
-                        "label": "1985",
-                        "uri": "1985"
-                    }, {
-                        "label": "1801-1811",
-                        "uri": "1801-1811"
-                    }, {
-                        "label": "1897-1898",
-                        "uri": "1897-1898"
-                    }, {
-                        "label": "1897",
-                        "uri": "1897"
-                    }, {
-                        "label": "1909",
-                        "uri": "1909"
+                        "label": "1968",
+                        "uri": "1968"
                     }, {
                         "label": "1986",
                         "uri": "1986"
                     }, {
-                        "label": "March 2012",
-                        "uri": "March 2012"
+                        "label": "1987",
+                        "uri": "1987"
                     }, {
-                        "label": "1776 (first)",
-                        "uri": "1776 (first)"
+                        "label": "1989",
+                        "uri": "1989"
                     }, {
-                        "label": "1844 (second)",
-                        "uri": "1844 (second)"
+                        "label": "1998",
+                        "uri": "1998"
                     }, {
-                        "label": "1825",
-                        "uri": "1825"
+                        "label": "2014",
+                        "uri": "2014"
                     }, {
-                        "label": "3rd century BC ?, expendedin 1406",
-                        "uri": "3rd century BC ?, expendedin 1406"
+                        "label": "79",
+                        "uri": "79"
+                    }, {
+                        "label": "866",
+                        "uri": "866"
+                    }, {
+                        "label": "1349",
+                        "uri": "1349"
+                    }, {
+                        "label": "1400",
+                        "uri": "1400"
+                    }, {
+                        "label": "1485",
+                        "uri": "1485"
+                    }, {
+                        "label": "1489",
+                        "uri": "1489"
+                    }, {
+                        "label": "1491",
+                        "uri": "1491"
+                    }, {
+                        "label": "1567",
+                        "uri": "1567"
+                    }, {
+                        "label": "1593",
+                        "uri": "1593"
+                    }, {
+                        "label": "1941",
+                        "uri": "1941"
+                    }, {
+                        "label": "2016",
+                        "uri": "2016"
+                    }, {
+                        "label": "1379",
+                        "uri": "1379"
+                    }, {
+                        "label": "1402",
+                        "uri": "1402"
+                    }, {
+                        "label": "1503",
+                        "uri": "1503"
+                    }, {
+                        "label": "1525",
+                        "uri": "1525"
+                    }, {
+                        "label": "1543",
+                        "uri": "1543"
+                    }, {
+                        "label": "1570",
+                        "uri": "1570"
+                    }, {
+                        "label": "1577",
+                        "uri": "1577"
+                    }, {
+                        "label": "1623",
+                        "uri": "1623"
+                    }, {
+                        "label": "1666",
+                        "uri": "1666"
+                    }, {
+                        "label": "1670",
+                        "uri": "1670"
+                    }, {
+                        "label": "1685",
+                        "uri": "1685"
+                    }, {
+                        "label": "1768",
+                        "uri": "1768"
+                    }, {
+                        "label": "1817",
+                        "uri": "1817"
+                    }, {
+                        "label": "1819",
+                        "uri": "1819"
+                    }, {
+                        "label": "1820",
+                        "uri": "1820"
+                    }, {
+                        "label": "1080",
+                        "uri": "1080"
+                    }, {
+                        "label": "1458",
+                        "uri": "1458"
+                    }, {
+                        "label": "1488",
+                        "uri": "1488"
+                    }, {
+                        "label": "1574",
+                        "uri": "1574"
+                    }, {
+                        "label": "1617",
+                        "uri": "1617"
+                    }, {
+                        "label": "1677",
+                        "uri": "1677"
+                    }, {
+                        "label": "1733",
+                        "uri": "1733"
+                    }, {
+                        "label": "1838",
+                        "uri": "1838"
                     }, {
                         "label": "1975",
                         "uri": "1975"
                     }, {
-                        "label": "2011",
-                        "uri": "2011"
+                        "label": "2008",
+                        "uri": "2008"
                     }, {
-                        "label": "1961",
-                        "uri": "1961"
+                        "label": "2013",
+                        "uri": "2013"
                     }, {
-                        "label": "1757",
-                        "uri": "1757"
+                        "label": "2021",
+                        "uri": "2021"
                     }, {
-                        "label": "1967",
-                        "uri": "1967"
+                        "label": "1682",
+                        "uri": "1682"
                     }, {
-                        "label": "Circa 1886",
-                        "uri": "Circa 1886"
+                        "label": "1405",
+                        "uri": "1405"
                     }, {
-                        "label": "1864 (first)",
-                        "uri": "1864 (first)"
+                        "label": "1313",
+                        "uri": "1313"
                     }, {
-                        "label": "1930",
-                        "uri": "1930"
-                    }, {
-                        "label": "1929",
-                        "uri": "1929"
-                    }, {
-                        "label": "late 16th century",
-                        "uri": "late 16th century"
-                    }, {
-                        "label": "2007",
-                        "uri": "2007"
-                    }, {
-                        "label": "2014-15 (Tower A) 2016-17 (Tower B)",
-                        "uri": "2014-15 (Tower A) 2016-17 (Tower B)"
-                    }, {
-                        "label": "18th Century",
-                        "uri": "18th Century"
-                    }, {
-                        "label": "1949 – 1954",
-                        "uri": "1949 – 1954"
-                    }, {
-                        "label": "1995",
-                        "uri": "1995"
-                    }, {
-                        "label": "December, 1906",
-                        "uri": "December, 1906"
-                    }, {
-                        "label": "1887",
-                        "uri": "1887"
-                    }, {
-                        "label": "1510",
-                        "uri": "1510"
-                    }, {
-                        "label": "1840",
-                        "uri": "1840"
-                    }, {
-                        "label": "1348",
-                        "uri": "1348"
-                    }, {
-                        "label": "1902",
-                        "uri": "1902"
-                    }, {
-                        "label": "1880",
-                        "uri": "1880"
-                    }, {
-                        "label": "1929, 1952, 1999",
-                        "uri": "1929, 1952, 1999"
-                    }, {
-                        "label": "1873",
-                        "uri": "1873"
-                    }, {
-                        "label": "1821",
-                        "uri": "1821"
-                    }, {
-                        "label": "November 2008",
-                        "uri": "November 2008"
-                    }, {
-                        "label": "1976",
-                        "uri": "1976"
-                    }, {
-                        "label": "2017",
-                        "uri": "2017"
-                    }, {
-                        "label": "2005-2008",
-                        "uri": "2005-2008"
-                    }, {
-                        "label": "1964",
-                        "uri": "1964"
-                    }, {
-                        "label": "1916",
-                        "uri": "1916"
-                    }, {
-                        "label": "1901",
-                        "uri": "1901"
-                    }, {
-                        "label": "12th century",
-                        "uri": "12th century"
+                        "label": "1544",
+                        "uri": "1544"
                     }]
             },
             "combination": false

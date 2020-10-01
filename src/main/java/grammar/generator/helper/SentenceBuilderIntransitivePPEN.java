@@ -20,6 +20,7 @@ import static grammar.generator.helper.BindingConstants.BINDING_TOKEN_TEMPLATE;
 import grammar.generator.helper.parser.SentenceToken;
 import java.net.URI;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import static java.util.Objects.isNull;
@@ -34,7 +35,12 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
     private final LexicalEntryUtil lexicalEntryUtil;
     //Since many things are hard coded or solved by if else so this is a temporary solution. 
     //the logic of Sentencebuilder works almost same way so it should be merged NNP
-    private String sentenceTemplate = "TemporalDeterminer verb(reference:component_be) determiner(reference:component_the) noun(condition:subject) VP(temporalAdjunct)?";
+    private Map<String,String> sentenceTemplates = new HashMap<String,String>();
+    private static final String TEMPORAL_PAST_TEMPLATE = "TEMPORAL_PAST_TEMPLATE";
+    private static final String TEMPORAL_DO_TEMPLATE = "TEMPORAL_PAST_TEMPLATE";
+    private static  String SELECTED_TEMPLATE = null;
+    private static  List<PropertyValue> numberList = new ArrayList<PropertyValue>();;
+           
 
     public SentenceBuilderIntransitivePPEN(
             AnnotatedVerb annotatedVerb,
@@ -43,6 +49,11 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
         this.language = Language.EN;
         this.annotatedVerb = annotatedVerb;
         this.lexicalEntryUtil = lexicalEntryUtil;
+        this.sentenceTemplates.put(TEMPORAL_PAST_TEMPLATE, "TemporalDeterminer verb(reference:component_be) determiner(reference:component_the) noun(condition:subject) VP(temporalAdjunct)");
+        this.sentenceTemplates.put(TEMPORAL_DO_TEMPLATE, "TemporalDeterminer verb(reference:component_do) noun(condition:subject) VP(temporalAdjunct)");
+        this.SELECTED_TEMPLATE=TEMPORAL_PAST_TEMPLATE;
+        this.numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("singular"));
+        this.numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("plural"));
     }
 
     @Override
@@ -51,6 +62,7 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
         String sentence, preposition;
         DomainOrRangeType domainOrRangeType;
         String binding = null, verb = null;
+        
         LexInfo lexInfo = this.lexicalEntryUtil.getLexInfo();
 
         preposition = this.lexicalEntryUtil.getPreposition();
@@ -59,15 +71,16 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
         Boolean flag = true;
 
         //The code was not written to use sentence template to work for intransitive verb. This has to be integreated. This is temporary solution.
-        if (sentenceTemplate.contains("temporalAdjunct")) {
+        if (this.SELECTED_TEMPLATE.contains(TEMPORAL_PAST_TEMPLATE)) {
             domainOrRangeType = DomainOrRangeType.YEAR;
-        } else {
+        } else if(this.SELECTED_TEMPLATE.contains(TEMPORAL_DO_TEMPLATE)){
+             domainOrRangeType = DomainOrRangeType.PERSON;
+        }
+        else {
             domainOrRangeType = DomainOrRangeType.THING;
         }
 
-        List<PropertyValue> numberList = new ArrayList<>();
-        numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("singular"));
-        numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("plural"));
+     
 
         List<String> auxilaries = this.getAuxilariesVerb(numberList, "component_aux_object_past", lexInfo);
 
@@ -230,7 +243,7 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
         String preposition = this.lexicalEntryUtil.getPreposition();
         DomainOrRangeType domainOrRangeType;
 
-        if (sentenceTemplate.contains("temporalAdjunct")) {
+        if (this.SELECTED_TEMPLATE.contains(TEMPORAL_PAST_TEMPLATE)) {
             domainOrRangeType = DomainOrRangeType.THING;
         } else {
             domainOrRangeType = DomainOrRangeType.PERSON;
