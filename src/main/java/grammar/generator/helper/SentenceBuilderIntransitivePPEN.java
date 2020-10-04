@@ -1,5 +1,6 @@
 package grammar.generator.helper;
 
+import com.github.andrewoma.dexx.collection.Pair;
 import eu.monnetproject.lemon.model.LexicalEntry;
 import eu.monnetproject.lemon.model.LexicalForm;
 import eu.monnetproject.lemon.model.PropertyValue;
@@ -27,6 +28,7 @@ import static java.util.Objects.isNull;
 import java.util.Optional;
 import java.util.Set;
 import static lexicon.LexicalEntryUtil.getDeterminerTokenByNumber;
+import static lexicon.LexicalEntryUtil.getDeterminerTokenByNumberNew;
 
 public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
 
@@ -82,7 +84,8 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
 
      
 
-        List<String> auxilaries = this.getAuxilariesVerb(numberList, "component_aux_object_past", lexInfo);
+        Map<String,String> auxilaries = new HashMap<String,String>();
+             
 
         if (!lexInfo.getPropertyValue("infinitive").equals(annotatedVerb.getVerbFormMood())) {
             // Make simple sentence (Which river flows through $x?)
@@ -99,9 +102,11 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                         bindingString,
                         SentenceType.NP
                 );
+                auxilaries =  this.getAuxilariesVerb(numberList, "component_aux_object_past", lexInfo);
 
                 if (flag) {
-                    for (String auxilariesVerb : auxilaries) {
+                    for (String key : auxilaries.keySet()) {
+                        String auxilariesVerb=auxilaries.get(key);
                         sentence = String.format(
                                 "%s %s %s %s %s?",
                                 qWord,
@@ -135,7 +140,6 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                         null
                 );
                 String determinerToken = getDeterminerTokenByNumber(annotatedVerb.getNumber(), conditionLabel, determiner);
-
                 String bindingString = DomainOrRangeType.getMatchingType(this.lexicalEntryUtil.getConditionUriBySelectVariable(
                         LexicalEntryUtil.getOppositeSelectVariable(this.lexicalEntryUtil.getSelectVariable())
                 )).name();
@@ -147,7 +151,9 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                 );
 
                 if (flag) {
-                    for (String auxilariesVerb : auxilaries) {
+                    for (String key : auxilaries.keySet()) {
+                        String auxilariesVerb=auxilaries.get(key);
+                        
                         sentence = String.format(
                                 "%s %s %s %s %s?",
                                 determinerToken,
@@ -255,7 +261,7 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("singular"));
             numberList.add(this.lexicalEntryUtil.getLexInfo().getPropertyValue("plural"));
             //LexicalEntry auxilaryVerb = new LexiconSearch(this.lexicalEntryUtil.getLexicon()).getReferencedResource("component_aux_object_past");
-            List<String> auxilaries = this.getAuxilariesVerb(numberList, "component_aux_object_past", lexInfo);
+            Map<String, String> auxilaries = this.getAuxilariesVerb(numberList, "component_aux_object_past", lexInfo);
 
             // opposite select variable
             SelectVariable oppositeSelectVariable = LexicalEntryUtil.getOppositeSelectVariable(this.lexicalEntryUtil.getSelectVariable());
@@ -263,7 +269,10 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             SubjectType subjectType = this.lexicalEntryUtil.getSubjectType(oppositeSelectVariable, domainOrRangeType);
             String qWord = this.lexicalEntryUtil.getSubjectBySubjectType(subjectType, language, null); // Who / What
 
-            for (String auxilariesVerb : auxilaries) {
+            System.out.println("question word: " + qWord);
+
+            for (String key : auxilaries.keySet()) {
+                String auxilariesVerb=auxilaries.get(key);
                 sentence = String.format(
                         "%s %s %s %s %s?",
                         qWord,
@@ -283,42 +292,52 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                             language,
                             null
                     );
-                    String determinerToken = getDeterminerTokenByNumber(number, conditionLabel, determiner);
-
-                    for (String auxilariesVerb : auxilaries) {
-                        sentence = String.format(
-                                "%s %s %s %s %s?",
-                                determinerToken,
-                                auxilariesVerb,
-                                annotatedVerb.getWrittenRepValue(),
-                                preposition,
-                                bindingVariable
-                        );
-                        generatedSentences.add(sentence);
+                    Pair<String, String> determinerTokenPair = getDeterminerTokenByNumberNew(number, conditionLabel, determiner);
+                    String determinerToken = determinerTokenPair.component1();
+                    String determinerTokenNumber = determinerTokenPair.component2();
+                    for (String  key : auxilaries.keySet()) {
+                         String auxilariesVerb=auxilaries.get(key);
+                        if (key.contains(determinerTokenNumber)) {
+                            sentence = String.format(
+                                    "%s %s %s %s %s?",
+                                    determinerToken,
+                                    auxilariesVerb,
+                                    annotatedVerb.getWrittenRepValue(),
+                                    preposition,
+                                    bindingVariable
+                            );
+                            generatedSentences.add(sentence);
+                        }
                     }
-
                 }
             }
         }
         return generatedSentences;
     }
 
-    private List<String> getAuxilariesVerb(List<PropertyValue> numberList, String auxilaryVerbString, LexInfo lexInfo) {
+    private Map<String,String> getAuxilariesVerb(List<PropertyValue> numberList, String auxilaryVerbString, LexInfo lexInfo) {
         LexicalEntry auxilaryVerb = new LexiconSearch(this.lexicalEntryUtil.getLexicon()).getReferencedResource(auxilaryVerbString);
 
-        List<String> auxilaries = new ArrayList<String>();
+        Map<String,String> auxilaries = new HashMap<String,String>();
         for (PropertyValue number : numberList) {
             String[] info = number.toString().split("#");
-            auxilaries.add(auxilaryVerb.getForms().stream()
+            String auxVerb=auxilaryVerb.getForms().stream()
                     .filter(lexicalForm -> lexicalForm.getProperty(lexInfo.getProperty("tense"))
                     .contains(lexInfo.getPropertyValue("past")))
                     .filter(lexicalForm -> lexicalForm.getProperty(lexInfo.getProperty("number"))
                     .contains(lexInfo.getPropertyValue(info[1])))
                     .findFirst()
                     .orElseThrow()
-                    .getWrittenRep().value);
+                    .getWrittenRep().value;
+           auxilaries.put(info[1],auxVerb);
+            
         }
         return auxilaries;
+    }
+
+    private boolean isAuxAndNounHold(String auxilariesVerb, String determinerToken) {
+       
+        return true;
     }
 
 }

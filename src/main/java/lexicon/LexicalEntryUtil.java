@@ -1,5 +1,6 @@
 package lexicon;
 
+import com.github.andrewoma.dexx.collection.Pair;
 import eu.monnetproject.lemon.impl.LexicalEntryImpl;
 import eu.monnetproject.lemon.model.Condition;
 import eu.monnetproject.lemon.model.Frame;
@@ -173,6 +174,24 @@ public class LexicalEntryUtil {
         }
         determinerToken = compileDeterminerToken(conditionLabel, determiner);
         return determinerToken.trim();
+    }
+    
+    public static Pair<String, String> getDeterminerTokenByNumberNew(
+            PropertyValue number, String conditionLabel,
+            String determiner
+    ) {
+        String determinerToken;
+
+        if (number.equals(new LexInfo().getPropertyValue("plural"))) {
+            conditionLabel = getPluralFormEn(conditionLabel);
+              determinerToken = compileDeterminerToken(conditionLabel, determiner);
+              return new Pair<String, String>(determinerToken.trim(),"plural");
+        } else {
+            determinerToken = compileDeterminerToken(conditionLabel, determiner);
+            return new Pair<String, String>(determinerToken.trim(), "singular");
+        }
+            
+      
     }
 
     private static String getPluralFormEn(String noun) {

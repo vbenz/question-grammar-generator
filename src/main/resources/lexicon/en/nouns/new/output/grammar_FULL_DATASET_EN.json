@@ -6,7 +6,7 @@
             "bindingType": "BUILDING",
             "returnType": "THING",
             "frameType": "IPP",
-            "sentences": ["When was the ($x | BUILDING_NP) completed?", "When was the ($x | BUILDING_NP) completed?", "When were the ($x | BUILDING_NP) completed?", "When were the ($x | BUILDING_NP) completed?", "Which year was the ($x | BUILDING_NP) completed?", "Which year was the ($x | BUILDING_NP) completed?", "Which year were the ($x | BUILDING_NP) completed?", "Which year were the ($x | BUILDING_NP) completed?"],
+            "sentences": ["When was the ($x | BUILDING_NP) completed?", "When were the ($x | BUILDING_NP) completed?", "Which year was the ($x | BUILDING_NP) completed?", "Which year were the ($x | BUILDING_NP) completed?"],
             "queryType": "SELECT",
             "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingEndDate> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
@@ -325,7 +325,7 @@
             "bindingType": "THING",
             "returnType": "BUILDING",
             "frameType": "IPP",
-            "sentences": ["What was completed in $x?", "What were completed in $x?", "Which architectural structure was completed in $x?", "Which architectural structure were completed in $x?", "Which architectural structures was completed in $x?", "Which architectural structures were completed in $x?"],
+            "sentences": ["What was completed in $x?", "What were completed in $x?", "Which architectural structure was completed in $x?", "Which architectural structures were completed in $x?"],
             "queryType": "SELECT",
             "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingEndDate> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
