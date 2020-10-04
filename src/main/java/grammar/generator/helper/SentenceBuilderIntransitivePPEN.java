@@ -268,8 +268,7 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             // get subjectType of this sentence's object
             SubjectType subjectType = this.lexicalEntryUtil.getSubjectType(oppositeSelectVariable, domainOrRangeType);
             String qWord = this.lexicalEntryUtil.getSubjectBySubjectType(subjectType, language, null); // Who / What
-
-            System.out.println("question word: " + qWord);
+            
 
             for (String key : auxilaries.keySet()) {
                 String auxilariesVerb=auxilaries.get(key);
@@ -335,9 +334,5 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
         return auxilaries;
     }
 
-    private boolean isAuxAndNounHold(String auxilariesVerb, String determinerToken) {
-       
-        return true;
-    }
-
+   
 }
