@@ -64,7 +64,6 @@ public class AdjAttrGrammarRuleGenerator extends GrammarRuleGeneratorRoot {
 
     // filter lexicon for correct grammar type:
     List<LexicalEntry> entriesFilteredByLanguageAndGrammarType = getEntriesFilteredByGrammarType(lexicon);
-
     try {
       for (LexicalEntry lexicalEntry : entriesFilteredByLanguageAndGrammarType) {
         for (LexicalSense lexicalSense : lexicalEntry.getSenses()) {

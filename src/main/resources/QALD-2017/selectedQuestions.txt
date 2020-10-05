@@ -1,3 +1,21 @@
+How high is the Mount Everest? How long is the Nile etc? 
+How tall is Michael Jordan? 
+How big is Germany? How big is the capital of Germany?
+
+10. How tall is Claudia Schiffer?
+res:Claudia_Schiffer   dbo:height ?height .
+(Claudia_Schiffer)    (tall_is)  How   
+
+X: Claudia_Schiffer :          lemon:propertyDomain dbo:()
+tall_is :                      tall is dbo:height
+Y: How :                       propertyRange  dbo:number   
+
+11.How tall is Michael Jordan?
+res:Michael_Jordan dbo:height ?num
+
+12. How high is the Yokohama Marine Tower?
+res:Yokohama_Marine_Tower dbo:height ?num .
+
 
 QALD-17 training
 
