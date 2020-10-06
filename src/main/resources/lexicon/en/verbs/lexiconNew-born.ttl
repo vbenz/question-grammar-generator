@@ -15,7 +15,8 @@
   lemon:canonicalForm  :form_complete ;
   lemon:otherForm      :form_complete_past ;
   lemon:synBehavior    :complete_frame ;
-  lemon:sense          :complete_ontomap .
+  lemon:sense          :complete_ontomap ;
+  lemon:sense          :complete_sense1_ontomap .
 
 :form_complete a           lemon:Form ;
   lemon:writtenRep     "born"@en ;
@@ -45,6 +46,18 @@
 :complete_condition a      lemon:condition ;
   lemon:propertyDomain <http://dbpedia.org/ontology/Person> ;
   lemon:propertyRange  <http://www.w3.org/2001/XMLSchema#date> .
+
+:complete_sense1_ontomap a     lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping :complete_sense1_ontomap ;
+  lemon:reference   <http://dbpedia.org/ontology/birthPlace> ;
+  lemon:subjOfProp  :complete_obj ;
+  lemon:objOfProp   :complete_subj ;
+  lemon:condition   :complete_city_condition .
+
+
+:complete_city_condition a      lemon:condition ;
+  lemon:propertyDomain <http://dbpedia.org/ontology/City> ;
+  lemon:propertyRange  <http://dbpedia.org/ontology/Person> .
 
 :complete_obj lemon:marker :in .
 
