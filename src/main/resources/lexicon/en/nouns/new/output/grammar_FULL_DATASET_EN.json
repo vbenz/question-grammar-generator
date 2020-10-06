@@ -4,11 +4,11 @@
             "language": "EN",
             "type": "SENTENCE",
             "bindingType": "BUILDING",
-            "returnType": "THING",
-            "frameType": "IPP",
-            "sentences": ["When was the ($x | BUILDING_NP) inaugurated?", "When were the ($x | BUILDING_NP) inaugurated?"],
+            "returnType": "LOCATION",
+            "frameType": "NPP",
+            "sentences": ["Give me the location of ($x | BUILDING_NP)?", "Show me the location of ($x | BUILDING_NP)?", "Tell me the location of ($x | BUILDING_NP)?", "What is the location of ($x | BUILDING_NP)?", "What was the location of ($x | BUILDING_NP)?", "Which place is the location of ($x | BUILDING_NP)?", "Which place was the location of ($x | BUILDING_NP)?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/openingDate> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -16,629 +16,1905 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "List of tenants in One World Trade Center",
-                        "uri": "http://dbpedia.org/resource/List_of_tenants_in_One_World_Trade_Center"
+                        "label": "Hall Island (Arctic)",
+                        "uri": "http://dbpedia.org/resource/Hall_Island_(Arctic)"
                     }, {
-                        "label": "United Airlines",
-                        "uri": "http://dbpedia.org/resource/United_Airlines"
+                        "label": "Taq Kasra",
+                        "uri": "http://dbpedia.org/resource/Taq_Kasra"
                     }, {
-                        "label": "Akshardham metro station",
-                        "uri": "http://dbpedia.org/resource/Akshardham_metro_station"
+                        "label": "Academy of Medicine (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
                     }, {
-                        "label": "Anadolu Medical Center",
-                        "uri": "http://dbpedia.org/resource/Anadolu_Medical_Center"
+                        "label": "East Hall High School",
+                        "uri": "http://dbpedia.org/resource/East_Hall_High_School"
                     }, {
-                        "label": "Arkhitektora Beketova (Kharkiv Metro)",
-                        "uri": "http://dbpedia.org/resource/Arkhitektora_Beketova_(Kharkiv_Metro)"
+                        "label": "Giles County High School",
+                        "uri": "http://dbpedia.org/resource/Giles_County_High_School"
                     }, {
-                        "label": "Borajet",
-                        "uri": "http://dbpedia.org/resource/Borajet"
+                        "label": "Heritage High School (Ringgold, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Heritage_High_School_(Ringgold,_Georgia)"
                     }, {
-                        "label": "Carandiru (São Paulo Metro)",
-                        "uri": "http://dbpedia.org/resource/Carandiru_(São_Paulo_Metro)"
+                        "label": "JDC Welfare Organization",
+                        "uri": "http://dbpedia.org/resource/JDC_Welfare_Organization"
                     }, {
-                        "label": "Eastland Mall (Bloomington, Illinois)",
-                        "uri": "http://dbpedia.org/resource/Eastland_Mall_(Bloomington,_Illinois)"
+                        "label": "Lofton Creek Records",
+                        "uri": "http://dbpedia.org/resource/Lofton_Creek_Records"
                     }, {
-                        "label": "Eastland Mall (North Versailles, Pennsylvania)",
-                        "uri": "http://dbpedia.org/resource/Eastland_Mall_(North_Versailles,_Pennsylvania)"
+                        "label": "North Hall High School",
+                        "uri": "http://dbpedia.org/resource/North_Hall_High_School"
                     }, {
-                        "label": "Girish Mancha",
-                        "uri": "http://dbpedia.org/resource/Girish_Mancha"
+                        "label": "Park Place (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Park_Place_(Atlanta)"
                     }, {
-                        "label": "Johor Premium Outlets",
-                        "uri": "http://dbpedia.org/resource/Johor_Premium_Outlets"
+                        "label": "Transform (consulting firm)",
+                        "uri": "http://dbpedia.org/resource/Transform_(consulting_firm)"
                     }, {
-                        "label": "Kahl Nuclear Power Plant",
-                        "uri": "http://dbpedia.org/resource/Kahl_Nuclear_Power_Plant"
+                        "label": "Watertown High School (Tennessee)",
+                        "uri": "http://dbpedia.org/resource/Watertown_High_School_(Tennessee)"
                     }, {
-                        "label": "Muri Railway Station",
-                        "uri": "http://dbpedia.org/resource/Muri_Railway_Station"
+                        "label": "West Hall High School",
+                        "uri": "http://dbpedia.org/resource/West_Hall_High_School"
                     }, {
-                        "label": "North Lake College (DART station)",
-                        "uri": "http://dbpedia.org/resource/North_Lake_College_(DART_station)"
+                        "label": "2009 Arab Capital of Culture",
+                        "uri": "http://dbpedia.org/resource/2009_Arab_Capital_of_Culture"
                     }, {
-                        "label": "Red Bull Arena (Salzburg)",
-                        "uri": "http://dbpedia.org/resource/Red_Bull_Arena_(Salzburg)"
+                        "label": "American Southern Bank",
+                        "uri": "http://dbpedia.org/resource/American_Southern_Bank"
                     }, {
-                        "label": "Stadio Comunale Bellinzona",
-                        "uri": "http://dbpedia.org/resource/Stadio_Comunale_Bellinzona"
+                        "label": "Art Museum of the University of Memphis",
+                        "uri": "http://dbpedia.org/resource/Art_Museum_of_the_University_of_Memphis"
                     }, {
-                        "label": "Toei Shinjuku Line",
-                        "uri": "http://dbpedia.org/resource/Toei_Shinjuku_Line"
+                        "label": "Atlanta Pride",
+                        "uri": "http://dbpedia.org/resource/Atlanta_Pride"
                     }, {
-                        "label": "Town Toyota Center",
-                        "uri": "http://dbpedia.org/resource/Town_Toyota_Center"
+                        "label": "AutoTrader.com",
+                        "uri": "http://dbpedia.org/resource/AutoTrader.com"
                     }, {
-                        "label": "Valley Mall (Hagerstown)",
-                        "uri": "http://dbpedia.org/resource/Valley_Mall_(Hagerstown)"
+                        "label": "Boone Dam",
+                        "uri": "http://dbpedia.org/resource/Boone_Dam"
                     }, {
-                        "label": "Americana at Brand",
-                        "uri": "http://dbpedia.org/resource/Americana_at_Brand"
+                        "label": "Canaan Fair Trade",
+                        "uri": "http://dbpedia.org/resource/Canaan_Fair_Trade"
                     }, {
-                        "label": "Athletic Park (Vancouver)",
-                        "uri": "http://dbpedia.org/resource/Athletic_Park_(Vancouver)"
+                        "label": "Cass High School (Georgia)",
+                        "uri": "http://dbpedia.org/resource/Cass_High_School_(Georgia)"
                     }, {
-                        "label": "Bridge Street Town Centre",
-                        "uri": "http://dbpedia.org/resource/Bridge_Street_Town_Centre"
+                        "label": "Cherokee Dam",
+                        "uri": "http://dbpedia.org/resource/Cherokee_Dam"
                     }, {
-                        "label": "Campello (MBTA station)",
-                        "uri": "http://dbpedia.org/resource/Campello_(MBTA_station)"
+                        "label": "Children's Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Children's_Museum_of_Memphis"
                     }, {
-                        "label": "Celerina (Rhaetian Railway station)",
-                        "uri": "http://dbpedia.org/resource/Celerina_(Rhaetian_Railway_station)"
+                        "label": "Cocke County High School",
+                        "uri": "http://dbpedia.org/resource/Cocke_County_High_School"
                     }, {
-                        "label": "Celerina Staz (Rhaetian Railway station)",
-                        "uri": "http://dbpedia.org/resource/Celerina_Staz_(Rhaetian_Railway_station)"
+                        "label": "CrossLink International",
+                        "uri": "http://dbpedia.org/resource/CrossLink_International"
                     }, {
-                        "label": "Chandni Chowk metro station, Kolkata",
-                        "uri": "http://dbpedia.org/resource/Chandni_Chowk_metro_station,_Kolkata"
+                        "label": "Design Factory",
+                        "uri": "http://dbpedia.org/resource/Design_Factory"
                     }, {
-                        "label": "Clifton Bridge (Nottingham)",
-                        "uri": "http://dbpedia.org/resource/Clifton_Bridge_(Nottingham)"
+                        "label": "Dockery Lake Recreation Area",
+                        "uri": "http://dbpedia.org/resource/Dockery_Lake_Recreation_Area"
                     }, {
-                        "label": "D. J. Sokol Arena",
-                        "uri": "http://dbpedia.org/resource/D._J._Sokol_Arena"
+                        "label": "EarthLink",
+                        "uri": "http://dbpedia.org/resource/EarthLink"
                     }, {
-                        "label": "Downtown MRT Line",
-                        "uri": "http://dbpedia.org/resource/Downtown_MRT_Line"
+                        "label": "Efecte",
+                        "uri": "http://dbpedia.org/resource/Efecte"
                     }, {
-                        "label": "Duroc (Paris Métro)",
-                        "uri": "http://dbpedia.org/resource/Duroc_(Paris_Métro)"
+                        "label": "Fire Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Fire_Museum_of_Memphis"
                     }, {
-                        "label": "Fort Douglas (UTA station)",
-                        "uri": "http://dbpedia.org/resource/Fort_Douglas_(UTA_station)"
+                        "label": "Gatlinburg Space Needle",
+                        "uri": "http://dbpedia.org/resource/Gatlinburg_Space_Needle"
                     }, {
-                        "label": "Frölunda Torg",
-                        "uri": "http://dbpedia.org/resource/Frölunda_Torg"
+                        "label": "Getz Pharma",
+                        "uri": "http://dbpedia.org/resource/Getz_Pharma"
                     }, {
-                        "label": "Fuji Dream Airlines",
-                        "uri": "http://dbpedia.org/resource/Fuji_Dream_Airlines"
+                        "label": "Guglielmo coffee",
+                        "uri": "http://dbpedia.org/resource/Guglielmo_coffee"
                     }, {
-                        "label": "Goes railway station",
-                        "uri": "http://dbpedia.org/resource/Goes_railway_station"
+                        "label": "HD Supply",
+                        "uri": "http://dbpedia.org/resource/HD_Supply"
                     }, {
-                        "label": "Golden Eagle Regional Park",
-                        "uri": "http://dbpedia.org/resource/Golden_Eagle_Regional_Park"
+                        "label": "Hart County High School",
+                        "uri": "http://dbpedia.org/resource/Hart_County_High_School"
                     }, {
-                        "label": "Green Bridge (New Orleans)",
-                        "uri": "http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"
+                        "label": "Hussaini Blood Bank",
+                        "uri": "http://dbpedia.org/resource/Hussaini_Blood_Bank"
                     }, {
-                        "label": "Hanshin Main Line",
-                        "uri": "http://dbpedia.org/resource/Hanshin_Main_Line"
+                        "label": "Line 1 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_1_(Naples_Metro)"
                     }, {
-                        "label": "IFFCO Chowk metro station",
-                        "uri": "http://dbpedia.org/resource/IFFCO_Chowk_metro_station"
+                        "label": "Line 6 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_6_(Naples_Metro)"
                     }, {
-                        "label": "IRT Nostrand Avenue Line",
-                        "uri": "http://dbpedia.org/resource/IRT_Nostrand_Avenue_Line"
+                        "label": "Past Life (TV series)",
+                        "uri": "http://dbpedia.org/resource/Past_Life_(TV_series)"
                     }, {
-                        "label": "Kitayama Station (Kyoto)",
-                        "uri": "http://dbpedia.org/resource/Kitayama_Station_(Kyoto)"
+                        "label": "Pio Monte della Misericordia",
+                        "uri": "http://dbpedia.org/resource/Pio_Monte_della_Misericordia"
                     }, {
-                        "label": "Kiyone Station",
-                        "uri": "http://dbpedia.org/resource/Kiyone_Station"
+                        "label": "Southern Regional Council",
+                        "uri": "http://dbpedia.org/resource/Southern_Regional_Council"
                     }, {
-                        "label": "Lerdo de Tejada (Monterrey Metro)",
-                        "uri": "http://dbpedia.org/resource/Lerdo_de_Tejada_(Monterrey_Metro)"
+                        "label": "The Starters",
+                        "uri": "http://dbpedia.org/resource/The_Starters"
                     }, {
-                        "label": "Liberté (Paris Métro)",
-                        "uri": "http://dbpedia.org/resource/Liberté_(Paris_Métro)"
+                        "label": "Trevelino/Keller",
+                        "uri": "http://dbpedia.org/resource/Trevelino/Keller"
                     }, {
-                        "label": "Liverpool Overhead Railway",
-                        "uri": "http://dbpedia.org/resource/Liverpool_Overhead_Railway"
+                        "label": "Vilant Systems",
+                        "uri": "http://dbpedia.org/resource/Vilant_Systems"
                     }, {
-                        "label": "Locksley railway station, Victoria",
-                        "uri": "http://dbpedia.org/resource/Locksley_railway_station,_Victoria"
+                        "label": "Willingway Hospital",
+                        "uri": "http://dbpedia.org/resource/Willingway_Hospital"
                     }, {
-                        "label": "Lokomotiv Stadium (Gorna Oryahovitsa)",
-                        "uri": "http://dbpedia.org/resource/Lokomotiv_Stadium_(Gorna_Oryahovitsa)"
+                        "label": "Worth County Middle School",
+                        "uri": "http://dbpedia.org/resource/Worth_County_Middle_School"
                     }, {
-                        "label": "Market Street Subway",
-                        "uri": "http://dbpedia.org/resource/Market_Street_Subway"
+                        "label": "Becker Island",
+                        "uri": "http://dbpedia.org/resource/Becker_Island"
                     }, {
-                        "label": "Melbourne Rectangular Stadium",
-                        "uri": "http://dbpedia.org/resource/Melbourne_Rectangular_Stadium"
+                        "label": "Boulder Bridge",
+                        "uri": "http://dbpedia.org/resource/Boulder_Bridge"
                     }, {
-                        "label": "Miaoli Station",
-                        "uri": "http://dbpedia.org/resource/Miaoli_Station"
+                        "label": "Cape Canaveral Air Force Station Skid Strip",
+                        "uri": "http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Skid_Strip"
                     }, {
-                        "label": "Myra Station",
-                        "uri": "http://dbpedia.org/resource/Myra_Station"
+                        "label": "Coalmont Bank Building",
+                        "uri": "http://dbpedia.org/resource/Coalmont_Bank_Building"
                     }, {
-                        "label": "Northern State Parkway",
-                        "uri": "http://dbpedia.org/resource/Northern_State_Parkway"
+                        "label": "Fort Discovery",
+                        "uri": "http://dbpedia.org/resource/Fort_Discovery"
                     }, {
-                        "label": "Outerbridge Crossing",
-                        "uri": "http://dbpedia.org/resource/Outerbridge_Crossing"
+                        "label": "Israel National Museum of Science, Technology, and Space",
+                        "uri": "http://dbpedia.org/resource/Israel_National_Museum_of_Science,_Technology,_and_Space"
                     }, {
-                        "label": "Palace Hotel (Copenhagen)",
-                        "uri": "http://dbpedia.org/resource/Palace_Hotel_(Copenhagen)"
+                        "label": "Lake Conasauga",
+                        "uri": "http://dbpedia.org/resource/Lake_Conasauga"
                     }, {
-                        "label": "Patel Chowk metro station",
-                        "uri": "http://dbpedia.org/resource/Patel_Chowk_metro_station"
+                        "label": "Palmer Plaza",
+                        "uri": "http://dbpedia.org/resource/Palmer_Plaza"
                     }, {
-                        "label": "Peace Bridge (Calgary)",
-                        "uri": "http://dbpedia.org/resource/Peace_Bridge_(Calgary)"
+                        "label": "Tennessee Brewery",
+                        "uri": "http://dbpedia.org/resource/Tennessee_Brewery"
                     }, {
-                        "label": "Peace Bridge (Foyle)",
-                        "uri": "http://dbpedia.org/resource/Peace_Bridge_(Foyle)"
+                        "label": "Tumut Pond Dam",
+                        "uri": "http://dbpedia.org/resource/Tumut_Pond_Dam"
                     }, {
-                        "label": "People's Square Station",
-                        "uri": "http://dbpedia.org/resource/People's_Square_Station"
+                        "label": "Celtic Park (Derry)",
+                        "uri": "http://dbpedia.org/resource/Celtic_Park_(Derry)"
                     }, {
-                        "label": "Pigalle (Paris Métro)",
-                        "uri": "http://dbpedia.org/resource/Pigalle_(Paris_Métro)"
+                        "label": "Vardy Community School",
+                        "uri": "http://dbpedia.org/resource/Vardy_Community_School"
                     }, {
-                        "label": "Pingtung Line",
-                        "uri": "http://dbpedia.org/resource/Pingtung_Line"
+                        "label": "Ashkelon Sports Arena",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Sports_Arena"
                     }, {
-                        "label": "Pingtung Station",
-                        "uri": "http://dbpedia.org/resource/Pingtung_Station"
+                        "label": "Foster Bay",
+                        "uri": "http://dbpedia.org/resource/Foster_Bay"
                     }, {
-                        "label": "Pride Air",
-                        "uri": "http://dbpedia.org/resource/Pride_Air"
+                        "label": "Frederick E. Hyde Fjord",
+                        "uri": "http://dbpedia.org/resource/Frederick_E._Hyde_Fjord"
                     }, {
-                        "label": "Rajiv Chowk metro station",
-                        "uri": "http://dbpedia.org/resource/Rajiv_Chowk_metro_station"
+                        "label": "Gael Hamkes Bay",
+                        "uri": "http://dbpedia.org/resource/Gael_Hamkes_Bay"
                     }, {
-                        "label": "Republic of China Air Force Museum",
-                        "uri": "http://dbpedia.org/resource/Republic_of_China_Air_Force_Museum"
+                        "label": "Hagen Fjord",
+                        "uri": "http://dbpedia.org/resource/Hagen_Fjord"
                     }, {
-                        "label": "Richmond Oval (South Australia)",
-                        "uri": "http://dbpedia.org/resource/Richmond_Oval_(South_Australia)"
+                        "label": "J.P. Koch Fjord",
+                        "uri": "http://dbpedia.org/resource/J.P._Koch_Fjord"
                     }, {
-                        "label": "Sagadahoc Bridge",
-                        "uri": "http://dbpedia.org/resource/Sagadahoc_Bridge"
+                        "label": "Jøkelbugten",
+                        "uri": "http://dbpedia.org/resource/Jøkelbugten"
                     }, {
-                        "label": "Seibu Chichibu Line",
-                        "uri": "http://dbpedia.org/resource/Seibu_Chichibu_Line"
+                        "label": "Lithia Springs Hotel",
+                        "uri": "http://dbpedia.org/resource/Lithia_Springs_Hotel"
                     }, {
-                        "label": "Shams Solar Power Station",
-                        "uri": "http://dbpedia.org/resource/Shams_Solar_Power_Station"
+                        "label": "Moore County High School",
+                        "uri": "http://dbpedia.org/resource/Moore_County_High_School"
                     }, {
-                        "label": "Sochi Central Stadium",
-                        "uri": "http://dbpedia.org/resource/Sochi_Central_Stadium"
+                        "label": "Nansen Fjord",
+                        "uri": "http://dbpedia.org/resource/Nansen_Fjord"
                     }, {
-                        "label": "Sodium Reactor Experiment",
-                        "uri": "http://dbpedia.org/resource/Sodium_Reactor_Experiment"
+                        "label": "Napoleon Stadium",
+                        "uri": "http://dbpedia.org/resource/Napoleon_Stadium"
                     }, {
-                        "label": "South Acton (MBTA station)",
-                        "uri": "http://dbpedia.org/resource/South_Acton_(MBTA_station)"
+                        "label": "Nordenskiöld Fjord",
+                        "uri": "http://dbpedia.org/resource/Nordenskiöld_Fjord"
                     }, {
-                        "label": "THSR Miaoli Station",
-                        "uri": "http://dbpedia.org/resource/THSR_Miaoli_Station"
+                        "label": "Old Hell Lake",
+                        "uri": "http://dbpedia.org/resource/Old_Hell_Lake"
                     }, {
-                        "label": "Tekniska högskolan metro station",
-                        "uri": "http://dbpedia.org/resource/Tekniska_högskolan_metro_station"
+                        "label": "Pacco Qillo",
+                        "uri": "http://dbpedia.org/resource/Pacco_Qillo"
                     }, {
-                        "label": "Thrum Hall",
-                        "uri": "http://dbpedia.org/resource/Thrum_Hall"
+                        "label": "Romema Arena",
+                        "uri": "http://dbpedia.org/resource/Romema_Arena"
                     }, {
-                        "label": "Times Square Station (Suzhou)",
-                        "uri": "http://dbpedia.org/resource/Times_Square_Station_(Suzhou)"
+                        "label": "Sevastopol International Airport",
+                        "uri": "http://dbpedia.org/resource/Sevastopol_International_Airport"
                     }, {
-                        "label": "Uijeongbu Station",
-                        "uri": "http://dbpedia.org/resource/Uijeongbu_Station"
+                        "label": "Standing Boy Creek State Park",
+                        "uri": "http://dbpedia.org/resource/Standing_Boy_Creek_State_Park"
                     }, {
-                        "label": "Van Nuys train station",
-                        "uri": "http://dbpedia.org/resource/Van_Nuys_train_station"
+                        "label": "Victoria Fjord",
+                        "uri": "http://dbpedia.org/resource/Victoria_Fjord"
                     }, {
-                        "label": "Victory Bridge (New Jersey)",
-                        "uri": "http://dbpedia.org/resource/Victory_Bridge_(New_Jersey)"
+                        "label": "Augusta Exchange",
+                        "uri": "http://dbpedia.org/resource/Augusta_Exchange"
                     }, {
-                        "label": "Westgate station (Las Vegas Monorail)",
-                        "uri": "http://dbpedia.org/resource/Westgate_station_(Las_Vegas_Monorail)"
+                        "label": "Camp Trousdale",
+                        "uri": "http://dbpedia.org/resource/Camp_Trousdale"
                     }, {
-                        "label": "Zvyozdnaya",
-                        "uri": "http://dbpedia.org/resource/Zvyozdnaya"
+                        "label": "Lissan House",
+                        "uri": "http://dbpedia.org/resource/Lissan_House"
                     }, {
-                        "label": "Ñuble metro station",
-                        "uri": "http://dbpedia.org/resource/Ñuble_metro_station"
+                        "label": "Akko Light",
+                        "uri": "http://dbpedia.org/resource/Akko_Light"
                     }, {
-                        "label": "Civic Center Music Hall",
-                        "uri": "http://dbpedia.org/resource/Civic_Center_Music_Hall"
+                        "label": "Ashkelon Coal Jetty Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Coal_Jetty_Breakwater_Light"
                     }, {
-                        "label": "Delhi Bus Rapid Transit System",
-                        "uri": "http://dbpedia.org/resource/Delhi_Bus_Rapid_Transit_System"
+                        "label": "Ashkelon Marina Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Marina_Breakwater_Light"
                     }, {
-                        "label": "Empresa Metropolitana de Servicios y Administración del Transporte",
-                        "uri": "http://dbpedia.org/resource/Empresa_Metropolitana_de_Servicios_y_Administración_del_Transporte"
+                        "label": "One Commerce Square",
+                        "uri": "http://dbpedia.org/resource/One_Commerce_Square"
                     }, {
-                        "label": "Fairmont Beijing",
-                        "uri": "http://dbpedia.org/resource/Fairmont_Beijing"
+                        "label": "WinWinD",
+                        "uri": "http://dbpedia.org/resource/WinWinD"
                     }, {
-                        "label": "Gasometer Oberhausen",
-                        "uri": "http://dbpedia.org/resource/Gasometer_Oberhausen"
+                        "label": "Association for Civil Rights in Israel",
+                        "uri": "http://dbpedia.org/resource/Association_for_Civil_Rights_in_Israel"
                     }, {
-                        "label": "Hosur Road Elevated Expressway",
-                        "uri": "http://dbpedia.org/resource/Hosur_Road_Elevated_Expressway"
+                        "label": "Cadet College Sanghar",
+                        "uri": "http://dbpedia.org/resource/Cadet_College_Sanghar"
                     }, {
-                        "label": "Lleida–La Pobla Line",
-                        "uri": "http://dbpedia.org/resource/Lleida–La_Pobla_Line"
+                        "label": "Eastside High School (Covington, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Eastside_High_School_(Covington,_Georgia)"
                     }, {
-                        "label": "Makati Medical Center",
-                        "uri": "http://dbpedia.org/resource/Makati_Medical_Center"
+                        "label": "Savannah National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Savannah_National_Wildlife_Refuge"
                     }, {
-                        "label": "Witten Hauptbahnhof",
-                        "uri": "http://dbpedia.org/resource/Witten_Hauptbahnhof"
+                        "label": "B. V. S. Parsi High School",
+                        "uri": "http://dbpedia.org/resource/B._V._S._Parsi_High_School"
                     }, {
-                        "label": "İstinye Park",
-                        "uri": "http://dbpedia.org/resource/İstinye_Park"
+                        "label": "Balter, Guth, Aloni & Co.",
+                        "uri": "http://dbpedia.org/resource/Balter,_Guth,_Aloni_&_Co."
                     }, {
-                        "label": "A-train (Denton County Transportation Authority)",
-                        "uri": "http://dbpedia.org/resource/A-train_(Denton_County_Transportation_Authority)"
+                        "label": "Banks Lake National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Banks_Lake_National_Wildlife_Refuge"
                     }, {
-                        "label": "ANKAmall",
-                        "uri": "http://dbpedia.org/resource/ANKAmall"
+                        "label": "BellSouth Telecommunications",
+                        "uri": "http://dbpedia.org/resource/BellSouth_Telecommunications"
                     }, {
-                        "label": "Adlershof station",
-                        "uri": "http://dbpedia.org/resource/Adlershof_station"
+                        "label": "BlueLinx",
+                        "uri": "http://dbpedia.org/resource/BlueLinx"
                     }, {
-                        "label": "Aizawl Adventist Hospital",
-                        "uri": "http://dbpedia.org/resource/Aizawl_Adventist_Hospital"
+                        "label": "Center for Puppetry Arts",
+                        "uri": "http://dbpedia.org/resource/Center_for_Puppetry_Arts"
                     }, {
-                        "label": "Alamance Crossing",
-                        "uri": "http://dbpedia.org/resource/Alamance_Crossing"
+                        "label": "Clarke Central High School",
+                        "uri": "http://dbpedia.org/resource/Clarke_Central_High_School"
                     }, {
-                        "label": "Alitalia",
-                        "uri": "http://dbpedia.org/resource/Alitalia"
+                        "label": "Eufaula National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Eufaula_National_Wildlife_Refuge"
                     }, {
-                        "label": "Ampang Line",
-                        "uri": "http://dbpedia.org/resource/Ampang_Line"
+                        "label": "Fort Reno (Oklahoma)",
+                        "uri": "http://dbpedia.org/resource/Fort_Reno_(Oklahoma)"
                     }, {
-                        "label": "Arena Khimki",
-                        "uri": "http://dbpedia.org/resource/Arena_Khimki"
+                        "label": "Hart State Park",
+                        "uri": "http://dbpedia.org/resource/Hart_State_Park"
                     }, {
-                        "label": "Arena Zenica",
-                        "uri": "http://dbpedia.org/resource/Arena_Zenica"
+                        "label": "Kiryat Eliezer Stadium",
+                        "uri": "http://dbpedia.org/resource/Kiryat_Eliezer_Stadium"
                     }, {
-                        "label": "Arena do Grêmio",
-                        "uri": "http://dbpedia.org/resource/Arena_do_Grêmio"
+                        "label": "Latin American Public Opinion Project",
+                        "uri": "http://dbpedia.org/resource/Latin_American_Public_Opinion_Project"
                     }]
             },
             "combination": false
         }, {
             "id": "2",
             "language": "EN",
-            "type": "SENTENCE",
-            "bindingType": "THING",
-            "returnType": "BUILDING",
-            "frameType": "IPP",
-            "sentences": ["What was inaugurated in $x?", "What were inaugurated in $x?"],
+            "type": "NP",
+            "bindingType": "BUILDING",
+            "returnType": "LOCATION",
+            "frameType": "NPP",
+            "sentences": ["the location of $x"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/openingDate> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
-                "$x": "objOfProp"
+                "$x": "subjOfProp"
             },
-            "returnVariable": "subjOfProp",
+            "returnVariable": "objOfProp",
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "1973-04-04",
-                        "uri": "1973-04-04"
+                        "label": "Hall Island (Arctic)",
+                        "uri": "http://dbpedia.org/resource/Hall_Island_(Arctic)"
                     }, {
-                        "label": "1931-03-28",
-                        "uri": "1931-03-28"
+                        "label": "Taq Kasra",
+                        "uri": "http://dbpedia.org/resource/Taq_Kasra"
                     }, {
-                        "label": "2012-11-09",
-                        "uri": "2012-11-09"
+                        "label": "Academy of Medicine (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
                     }, {
-                        "label": "2005-02-12",
-                        "uri": "2005-02-12"
+                        "label": "East Hall High School",
+                        "uri": "http://dbpedia.org/resource/East_Hall_High_School"
                     }, {
-                        "label": "1995-05-06",
-                        "uri": "1995-05-06"
+                        "label": "Giles County High School",
+                        "uri": "http://dbpedia.org/resource/Giles_County_High_School"
                     }, {
-                        "label": "2010-05-07",
-                        "uri": "2010-05-07"
+                        "label": "Heritage High School (Ringgold, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Heritage_High_School_(Ringgold,_Georgia)"
                     }, {
-                        "label": "1975-09-26",
-                        "uri": "1975-09-26"
+                        "label": "JDC Welfare Organization",
+                        "uri": "http://dbpedia.org/resource/JDC_Welfare_Organization"
                     }, {
-                        "label": "1967-02-16",
-                        "uri": "1967-02-16"
+                        "label": "Lofton Creek Records",
+                        "uri": "http://dbpedia.org/resource/Lofton_Creek_Records"
                     }, {
-                        "label": "1963-08-15",
-                        "uri": "1963-08-15"
+                        "label": "North Hall High School",
+                        "uri": "http://dbpedia.org/resource/North_Hall_High_School"
                     }, {
-                        "label": "1986-07-01",
-                        "uri": "1986-07-01"
+                        "label": "Park Place (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Park_Place_(Atlanta)"
                     }, {
-                        "label": "2011-12-11",
-                        "uri": "2011-12-11"
+                        "label": "Transform (consulting firm)",
+                        "uri": "http://dbpedia.org/resource/Transform_(consulting_firm)"
                     }, {
-                        "label": "1961-07-17",
-                        "uri": "1961-07-17"
+                        "label": "Watertown High School (Tennessee)",
+                        "uri": "http://dbpedia.org/resource/Watertown_High_School_(Tennessee)"
                     }, {
-                        "label": "1952-07-28",
-                        "uri": "1952-07-28"
+                        "label": "West Hall High School",
+                        "uri": "http://dbpedia.org/resource/West_Hall_High_School"
                     }, {
-                        "label": "2012-12-03",
-                        "uri": "2012-12-03"
+                        "label": "2009 Arab Capital of Culture",
+                        "uri": "http://dbpedia.org/resource/2009_Arab_Capital_of_Culture"
                     }, {
-                        "label": "2003-03-08",
-                        "uri": "2003-03-08"
+                        "label": "American Southern Bank",
+                        "uri": "http://dbpedia.org/resource/American_Southern_Bank"
                     }, {
-                        "label": "1947-05-27",
-                        "uri": "1947-05-27"
+                        "label": "Art Museum of the University of Memphis",
+                        "uri": "http://dbpedia.org/resource/Art_Museum_of_the_University_of_Memphis"
                     }, {
-                        "label": "1978-12-21",
-                        "uri": "1978-12-21"
+                        "label": "Atlanta Pride",
+                        "uri": "http://dbpedia.org/resource/Atlanta_Pride"
                     }, {
-                        "label": "2008-10-05",
-                        "uri": "2008-10-05"
+                        "label": "AutoTrader.com",
+                        "uri": "http://dbpedia.org/resource/AutoTrader.com"
                     }, {
-                        "label": "1974-08-15",
-                        "uri": "1974-08-15"
+                        "label": "Boone Dam",
+                        "uri": "http://dbpedia.org/resource/Boone_Dam"
                     }, {
-                        "label": "2008-05-02",
-                        "uri": "2008-05-02"
+                        "label": "Canaan Fair Trade",
+                        "uri": "http://dbpedia.org/resource/Canaan_Fair_Trade"
                     }, {
-                        "label": "1913-04-17",
-                        "uri": "1913-04-17"
+                        "label": "Cass High School (Georgia)",
+                        "uri": "http://dbpedia.org/resource/Cass_High_School_(Georgia)"
                     }, {
-                        "label": "2007-11-01",
-                        "uri": "2007-11-01"
+                        "label": "Cherokee Dam",
+                        "uri": "http://dbpedia.org/resource/Cherokee_Dam"
                     }, {
-                        "label": "1997-09-26",
-                        "uri": "1997-09-26"
+                        "label": "Children's Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Children's_Museum_of_Memphis"
                     }, {
-                        "label": "1903-07-01",
-                        "uri": "1903-07-01"
+                        "label": "Cocke County High School",
+                        "uri": "http://dbpedia.org/resource/Cocke_County_High_School"
                     }, {
-                        "label": "1908-08-18",
-                        "uri": "1908-08-18"
+                        "label": "CrossLink International",
+                        "uri": "http://dbpedia.org/resource/CrossLink_International"
                     }, {
-                        "label": "1995-02-19",
-                        "uri": "1995-02-19"
+                        "label": "Design Factory",
+                        "uri": "http://dbpedia.org/resource/Design_Factory"
                     }, {
-                        "label": "1958-06-05",
-                        "uri": "1958-06-05"
+                        "label": "Dockery Lake Recreation Area",
+                        "uri": "http://dbpedia.org/resource/Dockery_Lake_Recreation_Area"
                     }, {
-                        "label": "2009-08-28",
-                        "uri": "2009-08-28"
+                        "label": "EarthLink",
+                        "uri": "http://dbpedia.org/resource/EarthLink"
                     }, {
-                        "label": "2013-12-22",
-                        "uri": "2013-12-22"
+                        "label": "Efecte",
+                        "uri": "http://dbpedia.org/resource/Efecte"
                     }, {
-                        "label": "2015-12-27",
-                        "uri": "2015-12-27"
+                        "label": "Fire Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Fire_Museum_of_Memphis"
                     }, {
-                        "label": "1923-12-30",
-                        "uri": "1923-12-30"
+                        "label": "Gatlinburg Space Needle",
+                        "uri": "http://dbpedia.org/resource/Gatlinburg_Space_Needle"
                     }, {
-                        "label": "2003-09-29",
-                        "uri": "2003-09-29"
+                        "label": "Getz Pharma",
+                        "uri": "http://dbpedia.org/resource/Getz_Pharma"
                     }, {
-                        "label": "1966-09-08",
-                        "uri": "1966-09-08"
+                        "label": "Guglielmo coffee",
+                        "uri": "http://dbpedia.org/resource/Guglielmo_coffee"
                     }, {
-                        "label": "2009-07-23",
-                        "uri": "2009-07-23"
+                        "label": "HD Supply",
+                        "uri": "http://dbpedia.org/resource/HD_Supply"
                     }, {
-                        "label": "1868-07-01",
-                        "uri": "1868-07-01"
+                        "label": "Hart County High School",
+                        "uri": "http://dbpedia.org/resource/Hart_County_High_School"
                     }, {
-                        "label": "2008-04-14",
-                        "uri": "2008-04-14"
+                        "label": "Hussaini Blood Bank",
+                        "uri": "http://dbpedia.org/resource/Hussaini_Blood_Bank"
                     }, {
-                        "label": "1967-07-21",
-                        "uri": "1967-07-21"
+                        "label": "Line 1 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_1_(Naples_Metro)"
                     }, {
-                        "label": "1905-04-12",
-                        "uri": "1905-04-12"
+                        "label": "Line 6 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_6_(Naples_Metro)"
                     }, {
-                        "label": "2010-06-21",
-                        "uri": "2010-06-21"
+                        "label": "Past Life (TV series)",
+                        "uri": "http://dbpedia.org/resource/Past_Life_(TV_series)"
                     }, {
-                        "label": "1920-08-23",
-                        "uri": "1920-08-23"
+                        "label": "Pio Monte della Misericordia",
+                        "uri": "http://dbpedia.org/resource/Pio_Monte_della_Misericordia"
                     }, {
-                        "label": "1990-10-24",
-                        "uri": "1990-10-24"
+                        "label": "Southern Regional Council",
+                        "uri": "http://dbpedia.org/resource/Southern_Regional_Council"
                     }, {
-                        "label": "1925-02-17",
-                        "uri": "1925-02-17"
+                        "label": "The Starters",
+                        "uri": "http://dbpedia.org/resource/The_Starters"
                     }, {
-                        "label": "1995-05-21",
-                        "uri": "1995-05-21"
+                        "label": "Trevelino/Keller",
+                        "uri": "http://dbpedia.org/resource/Trevelino/Keller"
                     }, {
-                        "label": "1942-10-05",
-                        "uri": "1942-10-05"
+                        "label": "Vilant Systems",
+                        "uri": "http://dbpedia.org/resource/Vilant_Systems"
                     }, {
-                        "label": "1893-03-06",
-                        "uri": "1893-03-06"
+                        "label": "Willingway Hospital",
+                        "uri": "http://dbpedia.org/resource/Willingway_Hospital"
                     }, {
-                        "label": "1882-10-18",
-                        "uri": "1882-10-18"
+                        "label": "Worth County Middle School",
+                        "uri": "http://dbpedia.org/resource/Worth_County_Middle_School"
                     }, {
-                        "label": "1956-08-14",
-                        "uri": "1956-08-14"
+                        "label": "Becker Island",
+                        "uri": "http://dbpedia.org/resource/Becker_Island"
                     }, {
-                        "label": "1973-11-05",
-                        "uri": "1973-11-05"
+                        "label": "Boulder Bridge",
+                        "uri": "http://dbpedia.org/resource/Boulder_Bridge"
                     }, {
-                        "label": "1980-02-18",
-                        "uri": "1980-02-18"
+                        "label": "Cape Canaveral Air Force Station Skid Strip",
+                        "uri": "http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Skid_Strip"
                     }, {
-                        "label": "1903-03-25",
-                        "uri": "1903-03-25"
+                        "label": "Coalmont Bank Building",
+                        "uri": "http://dbpedia.org/resource/Coalmont_Bank_Building"
                     }, {
-                        "label": "1931-11-01",
-                        "uri": "1931-11-01"
+                        "label": "Fort Discovery",
+                        "uri": "http://dbpedia.org/resource/Fort_Discovery"
                     }, {
-                        "label": "1933-07-15",
-                        "uri": "1933-07-15"
+                        "label": "Israel National Museum of Science, Technology, and Space",
+                        "uri": "http://dbpedia.org/resource/Israel_National_Museum_of_Science,_Technology,_and_Space"
                     }, {
-                        "label": "1928-06-29",
-                        "uri": "1928-06-29"
+                        "label": "Lake Conasauga",
+                        "uri": "http://dbpedia.org/resource/Lake_Conasauga"
                     }, {
-                        "label": "1910-07-15",
-                        "uri": "1910-07-15"
+                        "label": "Palmer Plaza",
+                        "uri": "http://dbpedia.org/resource/Palmer_Plaza"
                     }, {
-                        "label": "2005-07-03",
-                        "uri": "2005-07-03"
+                        "label": "Tennessee Brewery",
+                        "uri": "http://dbpedia.org/resource/Tennessee_Brewery"
                     }, {
-                        "label": "2012-03-24",
-                        "uri": "2012-03-24"
+                        "label": "Tumut Pond Dam",
+                        "uri": "http://dbpedia.org/resource/Tumut_Pond_Dam"
                     }, {
-                        "label": "2011-06-25",
-                        "uri": "2011-06-25"
+                        "label": "Celtic Park (Derry)",
+                        "uri": "http://dbpedia.org/resource/Celtic_Park_(Derry)"
                     }, {
-                        "label": "1995-04-10",
-                        "uri": "1995-04-10"
+                        "label": "Vardy Community School",
+                        "uri": "http://dbpedia.org/resource/Vardy_Community_School"
                     }, {
-                        "label": "1902-10-07",
-                        "uri": "1902-10-07"
+                        "label": "Ashkelon Sports Arena",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Sports_Arena"
                     }, {
-                        "label": "1941-12-15",
-                        "uri": "1941-12-15"
+                        "label": "Foster Bay",
+                        "uri": "http://dbpedia.org/resource/Foster_Bay"
                     }, {
-                        "label": "1913-12-20",
-                        "uri": "1913-12-20"
+                        "label": "Frederick E. Hyde Fjord",
+                        "uri": "http://dbpedia.org/resource/Frederick_E._Hyde_Fjord"
                     }, {
-                        "label": "1985-08-01",
-                        "uri": "1985-08-01"
+                        "label": "Gael Hamkes Bay",
+                        "uri": "http://dbpedia.org/resource/Gael_Hamkes_Bay"
                     }, {
-                        "label": "2005-12-31",
-                        "uri": "2005-12-31"
+                        "label": "Hagen Fjord",
+                        "uri": "http://dbpedia.org/resource/Hagen_Fjord"
                     }, {
-                        "label": "1987-08-14",
-                        "uri": "1987-08-14"
+                        "label": "J.P. Koch Fjord",
+                        "uri": "http://dbpedia.org/resource/J.P._Koch_Fjord"
                     }, {
-                        "label": "1958-04-26",
-                        "uri": "1958-04-26"
+                        "label": "Jøkelbugten",
+                        "uri": "http://dbpedia.org/resource/Jøkelbugten"
                     }, {
-                        "label": "2000-08-01",
-                        "uri": "2000-08-01"
+                        "label": "Lithia Springs Hotel",
+                        "uri": "http://dbpedia.org/resource/Lithia_Springs_Hotel"
                     }, {
-                        "label": "1969-10-14",
-                        "uri": "1969-10-14"
+                        "label": "Moore County High School",
+                        "uri": "http://dbpedia.org/resource/Moore_County_High_School"
                     }, {
-                        "label": "2013-03-17",
-                        "uri": "2013-03-17"
+                        "label": "Nansen Fjord",
+                        "uri": "http://dbpedia.org/resource/Nansen_Fjord"
                     }, {
-                        "label": "1964-04-19",
-                        "uri": "1964-04-19"
+                        "label": "Napoleon Stadium",
+                        "uri": "http://dbpedia.org/resource/Napoleon_Stadium"
                     }, {
-                        "label": "1957-07-12",
-                        "uri": "1957-07-12"
+                        "label": "Nordenskiöld Fjord",
+                        "uri": "http://dbpedia.org/resource/Nordenskiöld_Fjord"
                     }, {
-                        "label": "1844-10-01",
-                        "uri": "1844-10-01"
+                        "label": "Old Hell Lake",
+                        "uri": "http://dbpedia.org/resource/Old_Hell_Lake"
                     }, {
-                        "label": "2015-12-01",
-                        "uri": "2015-12-01"
+                        "label": "Pacco Qillo",
+                        "uri": "http://dbpedia.org/resource/Pacco_Qillo"
                     }, {
-                        "label": "1973-09-30",
-                        "uri": "1973-09-30"
+                        "label": "Romema Arena",
+                        "uri": "http://dbpedia.org/resource/Romema_Arena"
                     }, {
-                        "label": "1886-09-18",
-                        "uri": "1886-09-18"
+                        "label": "Sevastopol International Airport",
+                        "uri": "http://dbpedia.org/resource/Sevastopol_International_Airport"
                     }, {
-                        "label": "2012-04-28",
-                        "uri": "2012-04-28"
+                        "label": "Standing Boy Creek State Park",
+                        "uri": "http://dbpedia.org/resource/Standing_Boy_Creek_State_Park"
                     }, {
-                        "label": "1911-10-15",
-                        "uri": "1911-10-15"
+                        "label": "Victoria Fjord",
+                        "uri": "http://dbpedia.org/resource/Victoria_Fjord"
                     }, {
-                        "label": "1986-09-02",
-                        "uri": "1986-09-02"
+                        "label": "Augusta Exchange",
+                        "uri": "http://dbpedia.org/resource/Augusta_Exchange"
                     }, {
-                        "label": "1995-12-16",
-                        "uri": "1995-12-16"
+                        "label": "Camp Trousdale",
+                        "uri": "http://dbpedia.org/resource/Camp_Trousdale"
                     }, {
-                        "label": "2004-06-08",
-                        "uri": "2004-06-08"
+                        "label": "Lissan House",
+                        "uri": "http://dbpedia.org/resource/Lissan_House"
                     }, {
-                        "label": "2004-07-15",
-                        "uri": "2004-07-15"
+                        "label": "Akko Light",
+                        "uri": "http://dbpedia.org/resource/Akko_Light"
                     }, {
-                        "label": "1972-12-25",
-                        "uri": "1972-12-25"
+                        "label": "Ashkelon Coal Jetty Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Coal_Jetty_Breakwater_Light"
                     }, {
-                        "label": "1997-04-05",
-                        "uri": "1997-04-05"
+                        "label": "Ashkelon Marina Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Marina_Breakwater_Light"
                     }, {
-                        "label": "1937-10-04",
-                        "uri": "1937-10-04"
+                        "label": "One Commerce Square",
+                        "uri": "http://dbpedia.org/resource/One_Commerce_Square"
                     }, {
-                        "label": "2008-05-01",
-                        "uri": "2008-05-01"
+                        "label": "WinWinD",
+                        "uri": "http://dbpedia.org/resource/WinWinD"
                     }, {
-                        "label": "2001-07-13",
-                        "uri": "2001-07-13"
+                        "label": "Association for Civil Rights in Israel",
+                        "uri": "http://dbpedia.org/resource/Association_for_Civil_Rights_in_Israel"
                     }, {
-                        "label": "2009-12-15",
-                        "uri": "2009-12-15"
+                        "label": "Cadet College Sanghar",
+                        "uri": "http://dbpedia.org/resource/Cadet_College_Sanghar"
                     }, {
-                        "label": "1929-05-15",
-                        "uri": "1929-05-15"
+                        "label": "Eastside High School (Covington, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Eastside_High_School_(Covington,_Georgia)"
                     }, {
-                        "label": "2010-01-22",
-                        "uri": "2010-01-22"
+                        "label": "Savannah National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Savannah_National_Wildlife_Refuge"
                     }, {
-                        "label": "1924-02-03",
-                        "uri": "1924-02-03"
+                        "label": "B. V. S. Parsi High School",
+                        "uri": "http://dbpedia.org/resource/B._V._S._Parsi_High_School"
                     }, {
-                        "label": "1969-05-31",
-                        "uri": "1969-05-31"
+                        "label": "Balter, Guth, Aloni & Co.",
+                        "uri": "http://dbpedia.org/resource/Balter,_Guth,_Aloni_&_Co."
                     }, {
-                        "label": "1849-03-09",
-                        "uri": "1849-03-09"
+                        "label": "Banks Lake National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Banks_Lake_National_Wildlife_Refuge"
                     }, {
-                        "label": "2007-09-21",
-                        "uri": "2007-09-21"
+                        "label": "BellSouth Telecommunications",
+                        "uri": "http://dbpedia.org/resource/BellSouth_Telecommunications"
                     }, {
-                        "label": "2011-06-20",
-                        "uri": "2011-06-20"
+                        "label": "BlueLinx",
+                        "uri": "http://dbpedia.org/resource/BlueLinx"
                     }, {
-                        "label": "1999-08-27",
-                        "uri": "1999-08-27"
+                        "label": "Center for Puppetry Arts",
+                        "uri": "http://dbpedia.org/resource/Center_for_Puppetry_Arts"
                     }, {
-                        "label": "2006-05-12",
-                        "uri": "2006-05-12"
+                        "label": "Clarke Central High School",
+                        "uri": "http://dbpedia.org/resource/Clarke_Central_High_School"
                     }, {
-                        "label": "1894-01-08",
-                        "uri": "1894-01-08"
+                        "label": "Eufaula National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Eufaula_National_Wildlife_Refuge"
                     }, {
-                        "label": "1996-02-27",
-                        "uri": "1996-02-27"
+                        "label": "Fort Reno (Oklahoma)",
+                        "uri": "http://dbpedia.org/resource/Fort_Reno_(Oklahoma)"
                     }, {
-                        "label": "2007-08-01",
-                        "uri": "2007-08-01"
+                        "label": "Hart State Park",
+                        "uri": "http://dbpedia.org/resource/Hart_State_Park"
                     }, {
-                        "label": "2015-01-01",
-                        "uri": "2015-01-01"
+                        "label": "Kiryat Eliezer Stadium",
+                        "uri": "http://dbpedia.org/resource/Kiryat_Eliezer_Stadium"
                     }, {
-                        "label": "1996-12-16",
-                        "uri": "1996-12-16"
+                        "label": "Latin American Public Opinion Project",
+                        "uri": "http://dbpedia.org/resource/Latin_American_Public_Opinion_Project"
                     }]
             },
             "combination": false
         }, {
             "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "NPP",
+            "sentences": ["Give me the location of ($x | LOCATION_NP)?", "Show me the location of ($x | LOCATION_NP)?", "Tell me the location of ($x | LOCATION_NP)?", "What is the location of ($x | LOCATION_NP)?", "What was the location of ($x | LOCATION_NP)?", "Which place is the location of ($x | LOCATION_NP)?", "Which place was the location of ($x | LOCATION_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Hall Island (Arctic)",
+                        "uri": "http://dbpedia.org/resource/Hall_Island_(Arctic)"
+                    }, {
+                        "label": "Taq Kasra",
+                        "uri": "http://dbpedia.org/resource/Taq_Kasra"
+                    }, {
+                        "label": "Academy of Medicine (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
+                    }, {
+                        "label": "East Hall High School",
+                        "uri": "http://dbpedia.org/resource/East_Hall_High_School"
+                    }, {
+                        "label": "Giles County High School",
+                        "uri": "http://dbpedia.org/resource/Giles_County_High_School"
+                    }, {
+                        "label": "Heritage High School (Ringgold, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Heritage_High_School_(Ringgold,_Georgia)"
+                    }, {
+                        "label": "JDC Welfare Organization",
+                        "uri": "http://dbpedia.org/resource/JDC_Welfare_Organization"
+                    }, {
+                        "label": "Lofton Creek Records",
+                        "uri": "http://dbpedia.org/resource/Lofton_Creek_Records"
+                    }, {
+                        "label": "North Hall High School",
+                        "uri": "http://dbpedia.org/resource/North_Hall_High_School"
+                    }, {
+                        "label": "Park Place (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Park_Place_(Atlanta)"
+                    }, {
+                        "label": "Transform (consulting firm)",
+                        "uri": "http://dbpedia.org/resource/Transform_(consulting_firm)"
+                    }, {
+                        "label": "Watertown High School (Tennessee)",
+                        "uri": "http://dbpedia.org/resource/Watertown_High_School_(Tennessee)"
+                    }, {
+                        "label": "West Hall High School",
+                        "uri": "http://dbpedia.org/resource/West_Hall_High_School"
+                    }, {
+                        "label": "2009 Arab Capital of Culture",
+                        "uri": "http://dbpedia.org/resource/2009_Arab_Capital_of_Culture"
+                    }, {
+                        "label": "American Southern Bank",
+                        "uri": "http://dbpedia.org/resource/American_Southern_Bank"
+                    }, {
+                        "label": "Art Museum of the University of Memphis",
+                        "uri": "http://dbpedia.org/resource/Art_Museum_of_the_University_of_Memphis"
+                    }, {
+                        "label": "Atlanta Pride",
+                        "uri": "http://dbpedia.org/resource/Atlanta_Pride"
+                    }, {
+                        "label": "AutoTrader.com",
+                        "uri": "http://dbpedia.org/resource/AutoTrader.com"
+                    }, {
+                        "label": "Boone Dam",
+                        "uri": "http://dbpedia.org/resource/Boone_Dam"
+                    }, {
+                        "label": "Canaan Fair Trade",
+                        "uri": "http://dbpedia.org/resource/Canaan_Fair_Trade"
+                    }, {
+                        "label": "Cass High School (Georgia)",
+                        "uri": "http://dbpedia.org/resource/Cass_High_School_(Georgia)"
+                    }, {
+                        "label": "Cherokee Dam",
+                        "uri": "http://dbpedia.org/resource/Cherokee_Dam"
+                    }, {
+                        "label": "Children's Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Children's_Museum_of_Memphis"
+                    }, {
+                        "label": "Cocke County High School",
+                        "uri": "http://dbpedia.org/resource/Cocke_County_High_School"
+                    }, {
+                        "label": "CrossLink International",
+                        "uri": "http://dbpedia.org/resource/CrossLink_International"
+                    }, {
+                        "label": "Design Factory",
+                        "uri": "http://dbpedia.org/resource/Design_Factory"
+                    }, {
+                        "label": "Dockery Lake Recreation Area",
+                        "uri": "http://dbpedia.org/resource/Dockery_Lake_Recreation_Area"
+                    }, {
+                        "label": "EarthLink",
+                        "uri": "http://dbpedia.org/resource/EarthLink"
+                    }, {
+                        "label": "Efecte",
+                        "uri": "http://dbpedia.org/resource/Efecte"
+                    }, {
+                        "label": "Fire Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Fire_Museum_of_Memphis"
+                    }, {
+                        "label": "Gatlinburg Space Needle",
+                        "uri": "http://dbpedia.org/resource/Gatlinburg_Space_Needle"
+                    }, {
+                        "label": "Getz Pharma",
+                        "uri": "http://dbpedia.org/resource/Getz_Pharma"
+                    }, {
+                        "label": "Guglielmo coffee",
+                        "uri": "http://dbpedia.org/resource/Guglielmo_coffee"
+                    }, {
+                        "label": "HD Supply",
+                        "uri": "http://dbpedia.org/resource/HD_Supply"
+                    }, {
+                        "label": "Hart County High School",
+                        "uri": "http://dbpedia.org/resource/Hart_County_High_School"
+                    }, {
+                        "label": "Hussaini Blood Bank",
+                        "uri": "http://dbpedia.org/resource/Hussaini_Blood_Bank"
+                    }, {
+                        "label": "Line 1 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_1_(Naples_Metro)"
+                    }, {
+                        "label": "Line 6 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_6_(Naples_Metro)"
+                    }, {
+                        "label": "Past Life (TV series)",
+                        "uri": "http://dbpedia.org/resource/Past_Life_(TV_series)"
+                    }, {
+                        "label": "Pio Monte della Misericordia",
+                        "uri": "http://dbpedia.org/resource/Pio_Monte_della_Misericordia"
+                    }, {
+                        "label": "Southern Regional Council",
+                        "uri": "http://dbpedia.org/resource/Southern_Regional_Council"
+                    }, {
+                        "label": "The Starters",
+                        "uri": "http://dbpedia.org/resource/The_Starters"
+                    }, {
+                        "label": "Trevelino/Keller",
+                        "uri": "http://dbpedia.org/resource/Trevelino/Keller"
+                    }, {
+                        "label": "Vilant Systems",
+                        "uri": "http://dbpedia.org/resource/Vilant_Systems"
+                    }, {
+                        "label": "Willingway Hospital",
+                        "uri": "http://dbpedia.org/resource/Willingway_Hospital"
+                    }, {
+                        "label": "Worth County Middle School",
+                        "uri": "http://dbpedia.org/resource/Worth_County_Middle_School"
+                    }, {
+                        "label": "Becker Island",
+                        "uri": "http://dbpedia.org/resource/Becker_Island"
+                    }, {
+                        "label": "Boulder Bridge",
+                        "uri": "http://dbpedia.org/resource/Boulder_Bridge"
+                    }, {
+                        "label": "Cape Canaveral Air Force Station Skid Strip",
+                        "uri": "http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Skid_Strip"
+                    }, {
+                        "label": "Coalmont Bank Building",
+                        "uri": "http://dbpedia.org/resource/Coalmont_Bank_Building"
+                    }, {
+                        "label": "Fort Discovery",
+                        "uri": "http://dbpedia.org/resource/Fort_Discovery"
+                    }, {
+                        "label": "Israel National Museum of Science, Technology, and Space",
+                        "uri": "http://dbpedia.org/resource/Israel_National_Museum_of_Science,_Technology,_and_Space"
+                    }, {
+                        "label": "Lake Conasauga",
+                        "uri": "http://dbpedia.org/resource/Lake_Conasauga"
+                    }, {
+                        "label": "Palmer Plaza",
+                        "uri": "http://dbpedia.org/resource/Palmer_Plaza"
+                    }, {
+                        "label": "Tennessee Brewery",
+                        "uri": "http://dbpedia.org/resource/Tennessee_Brewery"
+                    }, {
+                        "label": "Tumut Pond Dam",
+                        "uri": "http://dbpedia.org/resource/Tumut_Pond_Dam"
+                    }, {
+                        "label": "Celtic Park (Derry)",
+                        "uri": "http://dbpedia.org/resource/Celtic_Park_(Derry)"
+                    }, {
+                        "label": "Vardy Community School",
+                        "uri": "http://dbpedia.org/resource/Vardy_Community_School"
+                    }, {
+                        "label": "Ashkelon Sports Arena",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Sports_Arena"
+                    }, {
+                        "label": "Foster Bay",
+                        "uri": "http://dbpedia.org/resource/Foster_Bay"
+                    }, {
+                        "label": "Frederick E. Hyde Fjord",
+                        "uri": "http://dbpedia.org/resource/Frederick_E._Hyde_Fjord"
+                    }, {
+                        "label": "Gael Hamkes Bay",
+                        "uri": "http://dbpedia.org/resource/Gael_Hamkes_Bay"
+                    }, {
+                        "label": "Hagen Fjord",
+                        "uri": "http://dbpedia.org/resource/Hagen_Fjord"
+                    }, {
+                        "label": "J.P. Koch Fjord",
+                        "uri": "http://dbpedia.org/resource/J.P._Koch_Fjord"
+                    }, {
+                        "label": "Jøkelbugten",
+                        "uri": "http://dbpedia.org/resource/Jøkelbugten"
+                    }, {
+                        "label": "Lithia Springs Hotel",
+                        "uri": "http://dbpedia.org/resource/Lithia_Springs_Hotel"
+                    }, {
+                        "label": "Moore County High School",
+                        "uri": "http://dbpedia.org/resource/Moore_County_High_School"
+                    }, {
+                        "label": "Nansen Fjord",
+                        "uri": "http://dbpedia.org/resource/Nansen_Fjord"
+                    }, {
+                        "label": "Napoleon Stadium",
+                        "uri": "http://dbpedia.org/resource/Napoleon_Stadium"
+                    }, {
+                        "label": "Nordenskiöld Fjord",
+                        "uri": "http://dbpedia.org/resource/Nordenskiöld_Fjord"
+                    }, {
+                        "label": "Old Hell Lake",
+                        "uri": "http://dbpedia.org/resource/Old_Hell_Lake"
+                    }, {
+                        "label": "Pacco Qillo",
+                        "uri": "http://dbpedia.org/resource/Pacco_Qillo"
+                    }, {
+                        "label": "Romema Arena",
+                        "uri": "http://dbpedia.org/resource/Romema_Arena"
+                    }, {
+                        "label": "Sevastopol International Airport",
+                        "uri": "http://dbpedia.org/resource/Sevastopol_International_Airport"
+                    }, {
+                        "label": "Standing Boy Creek State Park",
+                        "uri": "http://dbpedia.org/resource/Standing_Boy_Creek_State_Park"
+                    }, {
+                        "label": "Victoria Fjord",
+                        "uri": "http://dbpedia.org/resource/Victoria_Fjord"
+                    }, {
+                        "label": "Augusta Exchange",
+                        "uri": "http://dbpedia.org/resource/Augusta_Exchange"
+                    }, {
+                        "label": "Camp Trousdale",
+                        "uri": "http://dbpedia.org/resource/Camp_Trousdale"
+                    }, {
+                        "label": "Lissan House",
+                        "uri": "http://dbpedia.org/resource/Lissan_House"
+                    }, {
+                        "label": "Akko Light",
+                        "uri": "http://dbpedia.org/resource/Akko_Light"
+                    }, {
+                        "label": "Ashkelon Coal Jetty Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Coal_Jetty_Breakwater_Light"
+                    }, {
+                        "label": "Ashkelon Marina Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Marina_Breakwater_Light"
+                    }, {
+                        "label": "One Commerce Square",
+                        "uri": "http://dbpedia.org/resource/One_Commerce_Square"
+                    }, {
+                        "label": "WinWinD",
+                        "uri": "http://dbpedia.org/resource/WinWinD"
+                    }, {
+                        "label": "Association for Civil Rights in Israel",
+                        "uri": "http://dbpedia.org/resource/Association_for_Civil_Rights_in_Israel"
+                    }, {
+                        "label": "Cadet College Sanghar",
+                        "uri": "http://dbpedia.org/resource/Cadet_College_Sanghar"
+                    }, {
+                        "label": "Eastside High School (Covington, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Eastside_High_School_(Covington,_Georgia)"
+                    }, {
+                        "label": "Savannah National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Savannah_National_Wildlife_Refuge"
+                    }, {
+                        "label": "B. V. S. Parsi High School",
+                        "uri": "http://dbpedia.org/resource/B._V._S._Parsi_High_School"
+                    }, {
+                        "label": "Balter, Guth, Aloni & Co.",
+                        "uri": "http://dbpedia.org/resource/Balter,_Guth,_Aloni_&_Co."
+                    }, {
+                        "label": "Banks Lake National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Banks_Lake_National_Wildlife_Refuge"
+                    }, {
+                        "label": "BellSouth Telecommunications",
+                        "uri": "http://dbpedia.org/resource/BellSouth_Telecommunications"
+                    }, {
+                        "label": "BlueLinx",
+                        "uri": "http://dbpedia.org/resource/BlueLinx"
+                    }, {
+                        "label": "Center for Puppetry Arts",
+                        "uri": "http://dbpedia.org/resource/Center_for_Puppetry_Arts"
+                    }, {
+                        "label": "Clarke Central High School",
+                        "uri": "http://dbpedia.org/resource/Clarke_Central_High_School"
+                    }, {
+                        "label": "Eufaula National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Eufaula_National_Wildlife_Refuge"
+                    }, {
+                        "label": "Fort Reno (Oklahoma)",
+                        "uri": "http://dbpedia.org/resource/Fort_Reno_(Oklahoma)"
+                    }, {
+                        "label": "Hart State Park",
+                        "uri": "http://dbpedia.org/resource/Hart_State_Park"
+                    }, {
+                        "label": "Kiryat Eliezer Stadium",
+                        "uri": "http://dbpedia.org/resource/Kiryat_Eliezer_Stadium"
+                    }, {
+                        "label": "Latin American Public Opinion Project",
+                        "uri": "http://dbpedia.org/resource/Latin_American_Public_Opinion_Project"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "NPP",
+            "sentences": ["the location of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Hall Island (Arctic)",
+                        "uri": "http://dbpedia.org/resource/Hall_Island_(Arctic)"
+                    }, {
+                        "label": "Taq Kasra",
+                        "uri": "http://dbpedia.org/resource/Taq_Kasra"
+                    }, {
+                        "label": "Academy of Medicine (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
+                    }, {
+                        "label": "East Hall High School",
+                        "uri": "http://dbpedia.org/resource/East_Hall_High_School"
+                    }, {
+                        "label": "Giles County High School",
+                        "uri": "http://dbpedia.org/resource/Giles_County_High_School"
+                    }, {
+                        "label": "Heritage High School (Ringgold, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Heritage_High_School_(Ringgold,_Georgia)"
+                    }, {
+                        "label": "JDC Welfare Organization",
+                        "uri": "http://dbpedia.org/resource/JDC_Welfare_Organization"
+                    }, {
+                        "label": "Lofton Creek Records",
+                        "uri": "http://dbpedia.org/resource/Lofton_Creek_Records"
+                    }, {
+                        "label": "North Hall High School",
+                        "uri": "http://dbpedia.org/resource/North_Hall_High_School"
+                    }, {
+                        "label": "Park Place (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Park_Place_(Atlanta)"
+                    }, {
+                        "label": "Transform (consulting firm)",
+                        "uri": "http://dbpedia.org/resource/Transform_(consulting_firm)"
+                    }, {
+                        "label": "Watertown High School (Tennessee)",
+                        "uri": "http://dbpedia.org/resource/Watertown_High_School_(Tennessee)"
+                    }, {
+                        "label": "West Hall High School",
+                        "uri": "http://dbpedia.org/resource/West_Hall_High_School"
+                    }, {
+                        "label": "2009 Arab Capital of Culture",
+                        "uri": "http://dbpedia.org/resource/2009_Arab_Capital_of_Culture"
+                    }, {
+                        "label": "American Southern Bank",
+                        "uri": "http://dbpedia.org/resource/American_Southern_Bank"
+                    }, {
+                        "label": "Art Museum of the University of Memphis",
+                        "uri": "http://dbpedia.org/resource/Art_Museum_of_the_University_of_Memphis"
+                    }, {
+                        "label": "Atlanta Pride",
+                        "uri": "http://dbpedia.org/resource/Atlanta_Pride"
+                    }, {
+                        "label": "AutoTrader.com",
+                        "uri": "http://dbpedia.org/resource/AutoTrader.com"
+                    }, {
+                        "label": "Boone Dam",
+                        "uri": "http://dbpedia.org/resource/Boone_Dam"
+                    }, {
+                        "label": "Canaan Fair Trade",
+                        "uri": "http://dbpedia.org/resource/Canaan_Fair_Trade"
+                    }, {
+                        "label": "Cass High School (Georgia)",
+                        "uri": "http://dbpedia.org/resource/Cass_High_School_(Georgia)"
+                    }, {
+                        "label": "Cherokee Dam",
+                        "uri": "http://dbpedia.org/resource/Cherokee_Dam"
+                    }, {
+                        "label": "Children's Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Children's_Museum_of_Memphis"
+                    }, {
+                        "label": "Cocke County High School",
+                        "uri": "http://dbpedia.org/resource/Cocke_County_High_School"
+                    }, {
+                        "label": "CrossLink International",
+                        "uri": "http://dbpedia.org/resource/CrossLink_International"
+                    }, {
+                        "label": "Design Factory",
+                        "uri": "http://dbpedia.org/resource/Design_Factory"
+                    }, {
+                        "label": "Dockery Lake Recreation Area",
+                        "uri": "http://dbpedia.org/resource/Dockery_Lake_Recreation_Area"
+                    }, {
+                        "label": "EarthLink",
+                        "uri": "http://dbpedia.org/resource/EarthLink"
+                    }, {
+                        "label": "Efecte",
+                        "uri": "http://dbpedia.org/resource/Efecte"
+                    }, {
+                        "label": "Fire Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Fire_Museum_of_Memphis"
+                    }, {
+                        "label": "Gatlinburg Space Needle",
+                        "uri": "http://dbpedia.org/resource/Gatlinburg_Space_Needle"
+                    }, {
+                        "label": "Getz Pharma",
+                        "uri": "http://dbpedia.org/resource/Getz_Pharma"
+                    }, {
+                        "label": "Guglielmo coffee",
+                        "uri": "http://dbpedia.org/resource/Guglielmo_coffee"
+                    }, {
+                        "label": "HD Supply",
+                        "uri": "http://dbpedia.org/resource/HD_Supply"
+                    }, {
+                        "label": "Hart County High School",
+                        "uri": "http://dbpedia.org/resource/Hart_County_High_School"
+                    }, {
+                        "label": "Hussaini Blood Bank",
+                        "uri": "http://dbpedia.org/resource/Hussaini_Blood_Bank"
+                    }, {
+                        "label": "Line 1 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_1_(Naples_Metro)"
+                    }, {
+                        "label": "Line 6 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_6_(Naples_Metro)"
+                    }, {
+                        "label": "Past Life (TV series)",
+                        "uri": "http://dbpedia.org/resource/Past_Life_(TV_series)"
+                    }, {
+                        "label": "Pio Monte della Misericordia",
+                        "uri": "http://dbpedia.org/resource/Pio_Monte_della_Misericordia"
+                    }, {
+                        "label": "Southern Regional Council",
+                        "uri": "http://dbpedia.org/resource/Southern_Regional_Council"
+                    }, {
+                        "label": "The Starters",
+                        "uri": "http://dbpedia.org/resource/The_Starters"
+                    }, {
+                        "label": "Trevelino/Keller",
+                        "uri": "http://dbpedia.org/resource/Trevelino/Keller"
+                    }, {
+                        "label": "Vilant Systems",
+                        "uri": "http://dbpedia.org/resource/Vilant_Systems"
+                    }, {
+                        "label": "Willingway Hospital",
+                        "uri": "http://dbpedia.org/resource/Willingway_Hospital"
+                    }, {
+                        "label": "Worth County Middle School",
+                        "uri": "http://dbpedia.org/resource/Worth_County_Middle_School"
+                    }, {
+                        "label": "Becker Island",
+                        "uri": "http://dbpedia.org/resource/Becker_Island"
+                    }, {
+                        "label": "Boulder Bridge",
+                        "uri": "http://dbpedia.org/resource/Boulder_Bridge"
+                    }, {
+                        "label": "Cape Canaveral Air Force Station Skid Strip",
+                        "uri": "http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Skid_Strip"
+                    }, {
+                        "label": "Coalmont Bank Building",
+                        "uri": "http://dbpedia.org/resource/Coalmont_Bank_Building"
+                    }, {
+                        "label": "Fort Discovery",
+                        "uri": "http://dbpedia.org/resource/Fort_Discovery"
+                    }, {
+                        "label": "Israel National Museum of Science, Technology, and Space",
+                        "uri": "http://dbpedia.org/resource/Israel_National_Museum_of_Science,_Technology,_and_Space"
+                    }, {
+                        "label": "Lake Conasauga",
+                        "uri": "http://dbpedia.org/resource/Lake_Conasauga"
+                    }, {
+                        "label": "Palmer Plaza",
+                        "uri": "http://dbpedia.org/resource/Palmer_Plaza"
+                    }, {
+                        "label": "Tennessee Brewery",
+                        "uri": "http://dbpedia.org/resource/Tennessee_Brewery"
+                    }, {
+                        "label": "Tumut Pond Dam",
+                        "uri": "http://dbpedia.org/resource/Tumut_Pond_Dam"
+                    }, {
+                        "label": "Celtic Park (Derry)",
+                        "uri": "http://dbpedia.org/resource/Celtic_Park_(Derry)"
+                    }, {
+                        "label": "Vardy Community School",
+                        "uri": "http://dbpedia.org/resource/Vardy_Community_School"
+                    }, {
+                        "label": "Ashkelon Sports Arena",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Sports_Arena"
+                    }, {
+                        "label": "Foster Bay",
+                        "uri": "http://dbpedia.org/resource/Foster_Bay"
+                    }, {
+                        "label": "Frederick E. Hyde Fjord",
+                        "uri": "http://dbpedia.org/resource/Frederick_E._Hyde_Fjord"
+                    }, {
+                        "label": "Gael Hamkes Bay",
+                        "uri": "http://dbpedia.org/resource/Gael_Hamkes_Bay"
+                    }, {
+                        "label": "Hagen Fjord",
+                        "uri": "http://dbpedia.org/resource/Hagen_Fjord"
+                    }, {
+                        "label": "J.P. Koch Fjord",
+                        "uri": "http://dbpedia.org/resource/J.P._Koch_Fjord"
+                    }, {
+                        "label": "Jøkelbugten",
+                        "uri": "http://dbpedia.org/resource/Jøkelbugten"
+                    }, {
+                        "label": "Lithia Springs Hotel",
+                        "uri": "http://dbpedia.org/resource/Lithia_Springs_Hotel"
+                    }, {
+                        "label": "Moore County High School",
+                        "uri": "http://dbpedia.org/resource/Moore_County_High_School"
+                    }, {
+                        "label": "Nansen Fjord",
+                        "uri": "http://dbpedia.org/resource/Nansen_Fjord"
+                    }, {
+                        "label": "Napoleon Stadium",
+                        "uri": "http://dbpedia.org/resource/Napoleon_Stadium"
+                    }, {
+                        "label": "Nordenskiöld Fjord",
+                        "uri": "http://dbpedia.org/resource/Nordenskiöld_Fjord"
+                    }, {
+                        "label": "Old Hell Lake",
+                        "uri": "http://dbpedia.org/resource/Old_Hell_Lake"
+                    }, {
+                        "label": "Pacco Qillo",
+                        "uri": "http://dbpedia.org/resource/Pacco_Qillo"
+                    }, {
+                        "label": "Romema Arena",
+                        "uri": "http://dbpedia.org/resource/Romema_Arena"
+                    }, {
+                        "label": "Sevastopol International Airport",
+                        "uri": "http://dbpedia.org/resource/Sevastopol_International_Airport"
+                    }, {
+                        "label": "Standing Boy Creek State Park",
+                        "uri": "http://dbpedia.org/resource/Standing_Boy_Creek_State_Park"
+                    }, {
+                        "label": "Victoria Fjord",
+                        "uri": "http://dbpedia.org/resource/Victoria_Fjord"
+                    }, {
+                        "label": "Augusta Exchange",
+                        "uri": "http://dbpedia.org/resource/Augusta_Exchange"
+                    }, {
+                        "label": "Camp Trousdale",
+                        "uri": "http://dbpedia.org/resource/Camp_Trousdale"
+                    }, {
+                        "label": "Lissan House",
+                        "uri": "http://dbpedia.org/resource/Lissan_House"
+                    }, {
+                        "label": "Akko Light",
+                        "uri": "http://dbpedia.org/resource/Akko_Light"
+                    }, {
+                        "label": "Ashkelon Coal Jetty Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Coal_Jetty_Breakwater_Light"
+                    }, {
+                        "label": "Ashkelon Marina Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Marina_Breakwater_Light"
+                    }, {
+                        "label": "One Commerce Square",
+                        "uri": "http://dbpedia.org/resource/One_Commerce_Square"
+                    }, {
+                        "label": "WinWinD",
+                        "uri": "http://dbpedia.org/resource/WinWinD"
+                    }, {
+                        "label": "Association for Civil Rights in Israel",
+                        "uri": "http://dbpedia.org/resource/Association_for_Civil_Rights_in_Israel"
+                    }, {
+                        "label": "Cadet College Sanghar",
+                        "uri": "http://dbpedia.org/resource/Cadet_College_Sanghar"
+                    }, {
+                        "label": "Eastside High School (Covington, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Eastside_High_School_(Covington,_Georgia)"
+                    }, {
+                        "label": "Savannah National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Savannah_National_Wildlife_Refuge"
+                    }, {
+                        "label": "B. V. S. Parsi High School",
+                        "uri": "http://dbpedia.org/resource/B._V._S._Parsi_High_School"
+                    }, {
+                        "label": "Balter, Guth, Aloni & Co.",
+                        "uri": "http://dbpedia.org/resource/Balter,_Guth,_Aloni_&_Co."
+                    }, {
+                        "label": "Banks Lake National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Banks_Lake_National_Wildlife_Refuge"
+                    }, {
+                        "label": "BellSouth Telecommunications",
+                        "uri": "http://dbpedia.org/resource/BellSouth_Telecommunications"
+                    }, {
+                        "label": "BlueLinx",
+                        "uri": "http://dbpedia.org/resource/BlueLinx"
+                    }, {
+                        "label": "Center for Puppetry Arts",
+                        "uri": "http://dbpedia.org/resource/Center_for_Puppetry_Arts"
+                    }, {
+                        "label": "Clarke Central High School",
+                        "uri": "http://dbpedia.org/resource/Clarke_Central_High_School"
+                    }, {
+                        "label": "Eufaula National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Eufaula_National_Wildlife_Refuge"
+                    }, {
+                        "label": "Fort Reno (Oklahoma)",
+                        "uri": "http://dbpedia.org/resource/Fort_Reno_(Oklahoma)"
+                    }, {
+                        "label": "Hart State Park",
+                        "uri": "http://dbpedia.org/resource/Hart_State_Park"
+                    }, {
+                        "label": "Kiryat Eliezer Stadium",
+                        "uri": "http://dbpedia.org/resource/Kiryat_Eliezer_Stadium"
+                    }, {
+                        "label": "Latin American Public Opinion Project",
+                        "uri": "http://dbpedia.org/resource/Latin_American_Public_Opinion_Project"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "5",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "ORGANISATION",
+            "returnType": "LOCATION",
+            "frameType": "NPP",
+            "sentences": ["Give me the location of ($x | ORGANISATION_NP)?", "Show me the location of ($x | ORGANISATION_NP)?", "Tell me the location of ($x | ORGANISATION_NP)?", "What is the location of ($x | ORGANISATION_NP)?", "What was the location of ($x | ORGANISATION_NP)?", "Which place is the location of ($x | ORGANISATION_NP)?", "Which place was the location of ($x | ORGANISATION_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Hall Island (Arctic)",
+                        "uri": "http://dbpedia.org/resource/Hall_Island_(Arctic)"
+                    }, {
+                        "label": "Taq Kasra",
+                        "uri": "http://dbpedia.org/resource/Taq_Kasra"
+                    }, {
+                        "label": "Academy of Medicine (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
+                    }, {
+                        "label": "East Hall High School",
+                        "uri": "http://dbpedia.org/resource/East_Hall_High_School"
+                    }, {
+                        "label": "Giles County High School",
+                        "uri": "http://dbpedia.org/resource/Giles_County_High_School"
+                    }, {
+                        "label": "Heritage High School (Ringgold, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Heritage_High_School_(Ringgold,_Georgia)"
+                    }, {
+                        "label": "JDC Welfare Organization",
+                        "uri": "http://dbpedia.org/resource/JDC_Welfare_Organization"
+                    }, {
+                        "label": "Lofton Creek Records",
+                        "uri": "http://dbpedia.org/resource/Lofton_Creek_Records"
+                    }, {
+                        "label": "North Hall High School",
+                        "uri": "http://dbpedia.org/resource/North_Hall_High_School"
+                    }, {
+                        "label": "Park Place (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Park_Place_(Atlanta)"
+                    }, {
+                        "label": "Transform (consulting firm)",
+                        "uri": "http://dbpedia.org/resource/Transform_(consulting_firm)"
+                    }, {
+                        "label": "Watertown High School (Tennessee)",
+                        "uri": "http://dbpedia.org/resource/Watertown_High_School_(Tennessee)"
+                    }, {
+                        "label": "West Hall High School",
+                        "uri": "http://dbpedia.org/resource/West_Hall_High_School"
+                    }, {
+                        "label": "2009 Arab Capital of Culture",
+                        "uri": "http://dbpedia.org/resource/2009_Arab_Capital_of_Culture"
+                    }, {
+                        "label": "American Southern Bank",
+                        "uri": "http://dbpedia.org/resource/American_Southern_Bank"
+                    }, {
+                        "label": "Art Museum of the University of Memphis",
+                        "uri": "http://dbpedia.org/resource/Art_Museum_of_the_University_of_Memphis"
+                    }, {
+                        "label": "Atlanta Pride",
+                        "uri": "http://dbpedia.org/resource/Atlanta_Pride"
+                    }, {
+                        "label": "AutoTrader.com",
+                        "uri": "http://dbpedia.org/resource/AutoTrader.com"
+                    }, {
+                        "label": "Boone Dam",
+                        "uri": "http://dbpedia.org/resource/Boone_Dam"
+                    }, {
+                        "label": "Canaan Fair Trade",
+                        "uri": "http://dbpedia.org/resource/Canaan_Fair_Trade"
+                    }, {
+                        "label": "Cass High School (Georgia)",
+                        "uri": "http://dbpedia.org/resource/Cass_High_School_(Georgia)"
+                    }, {
+                        "label": "Cherokee Dam",
+                        "uri": "http://dbpedia.org/resource/Cherokee_Dam"
+                    }, {
+                        "label": "Children's Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Children's_Museum_of_Memphis"
+                    }, {
+                        "label": "Cocke County High School",
+                        "uri": "http://dbpedia.org/resource/Cocke_County_High_School"
+                    }, {
+                        "label": "CrossLink International",
+                        "uri": "http://dbpedia.org/resource/CrossLink_International"
+                    }, {
+                        "label": "Design Factory",
+                        "uri": "http://dbpedia.org/resource/Design_Factory"
+                    }, {
+                        "label": "Dockery Lake Recreation Area",
+                        "uri": "http://dbpedia.org/resource/Dockery_Lake_Recreation_Area"
+                    }, {
+                        "label": "EarthLink",
+                        "uri": "http://dbpedia.org/resource/EarthLink"
+                    }, {
+                        "label": "Efecte",
+                        "uri": "http://dbpedia.org/resource/Efecte"
+                    }, {
+                        "label": "Fire Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Fire_Museum_of_Memphis"
+                    }, {
+                        "label": "Gatlinburg Space Needle",
+                        "uri": "http://dbpedia.org/resource/Gatlinburg_Space_Needle"
+                    }, {
+                        "label": "Getz Pharma",
+                        "uri": "http://dbpedia.org/resource/Getz_Pharma"
+                    }, {
+                        "label": "Guglielmo coffee",
+                        "uri": "http://dbpedia.org/resource/Guglielmo_coffee"
+                    }, {
+                        "label": "HD Supply",
+                        "uri": "http://dbpedia.org/resource/HD_Supply"
+                    }, {
+                        "label": "Hart County High School",
+                        "uri": "http://dbpedia.org/resource/Hart_County_High_School"
+                    }, {
+                        "label": "Hussaini Blood Bank",
+                        "uri": "http://dbpedia.org/resource/Hussaini_Blood_Bank"
+                    }, {
+                        "label": "Line 1 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_1_(Naples_Metro)"
+                    }, {
+                        "label": "Line 6 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_6_(Naples_Metro)"
+                    }, {
+                        "label": "Past Life (TV series)",
+                        "uri": "http://dbpedia.org/resource/Past_Life_(TV_series)"
+                    }, {
+                        "label": "Pio Monte della Misericordia",
+                        "uri": "http://dbpedia.org/resource/Pio_Monte_della_Misericordia"
+                    }, {
+                        "label": "Southern Regional Council",
+                        "uri": "http://dbpedia.org/resource/Southern_Regional_Council"
+                    }, {
+                        "label": "The Starters",
+                        "uri": "http://dbpedia.org/resource/The_Starters"
+                    }, {
+                        "label": "Trevelino/Keller",
+                        "uri": "http://dbpedia.org/resource/Trevelino/Keller"
+                    }, {
+                        "label": "Vilant Systems",
+                        "uri": "http://dbpedia.org/resource/Vilant_Systems"
+                    }, {
+                        "label": "Willingway Hospital",
+                        "uri": "http://dbpedia.org/resource/Willingway_Hospital"
+                    }, {
+                        "label": "Worth County Middle School",
+                        "uri": "http://dbpedia.org/resource/Worth_County_Middle_School"
+                    }, {
+                        "label": "Becker Island",
+                        "uri": "http://dbpedia.org/resource/Becker_Island"
+                    }, {
+                        "label": "Boulder Bridge",
+                        "uri": "http://dbpedia.org/resource/Boulder_Bridge"
+                    }, {
+                        "label": "Cape Canaveral Air Force Station Skid Strip",
+                        "uri": "http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Skid_Strip"
+                    }, {
+                        "label": "Coalmont Bank Building",
+                        "uri": "http://dbpedia.org/resource/Coalmont_Bank_Building"
+                    }, {
+                        "label": "Fort Discovery",
+                        "uri": "http://dbpedia.org/resource/Fort_Discovery"
+                    }, {
+                        "label": "Israel National Museum of Science, Technology, and Space",
+                        "uri": "http://dbpedia.org/resource/Israel_National_Museum_of_Science,_Technology,_and_Space"
+                    }, {
+                        "label": "Lake Conasauga",
+                        "uri": "http://dbpedia.org/resource/Lake_Conasauga"
+                    }, {
+                        "label": "Palmer Plaza",
+                        "uri": "http://dbpedia.org/resource/Palmer_Plaza"
+                    }, {
+                        "label": "Tennessee Brewery",
+                        "uri": "http://dbpedia.org/resource/Tennessee_Brewery"
+                    }, {
+                        "label": "Tumut Pond Dam",
+                        "uri": "http://dbpedia.org/resource/Tumut_Pond_Dam"
+                    }, {
+                        "label": "Celtic Park (Derry)",
+                        "uri": "http://dbpedia.org/resource/Celtic_Park_(Derry)"
+                    }, {
+                        "label": "Vardy Community School",
+                        "uri": "http://dbpedia.org/resource/Vardy_Community_School"
+                    }, {
+                        "label": "Ashkelon Sports Arena",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Sports_Arena"
+                    }, {
+                        "label": "Foster Bay",
+                        "uri": "http://dbpedia.org/resource/Foster_Bay"
+                    }, {
+                        "label": "Frederick E. Hyde Fjord",
+                        "uri": "http://dbpedia.org/resource/Frederick_E._Hyde_Fjord"
+                    }, {
+                        "label": "Gael Hamkes Bay",
+                        "uri": "http://dbpedia.org/resource/Gael_Hamkes_Bay"
+                    }, {
+                        "label": "Hagen Fjord",
+                        "uri": "http://dbpedia.org/resource/Hagen_Fjord"
+                    }, {
+                        "label": "J.P. Koch Fjord",
+                        "uri": "http://dbpedia.org/resource/J.P._Koch_Fjord"
+                    }, {
+                        "label": "Jøkelbugten",
+                        "uri": "http://dbpedia.org/resource/Jøkelbugten"
+                    }, {
+                        "label": "Lithia Springs Hotel",
+                        "uri": "http://dbpedia.org/resource/Lithia_Springs_Hotel"
+                    }, {
+                        "label": "Moore County High School",
+                        "uri": "http://dbpedia.org/resource/Moore_County_High_School"
+                    }, {
+                        "label": "Nansen Fjord",
+                        "uri": "http://dbpedia.org/resource/Nansen_Fjord"
+                    }, {
+                        "label": "Napoleon Stadium",
+                        "uri": "http://dbpedia.org/resource/Napoleon_Stadium"
+                    }, {
+                        "label": "Nordenskiöld Fjord",
+                        "uri": "http://dbpedia.org/resource/Nordenskiöld_Fjord"
+                    }, {
+                        "label": "Old Hell Lake",
+                        "uri": "http://dbpedia.org/resource/Old_Hell_Lake"
+                    }, {
+                        "label": "Pacco Qillo",
+                        "uri": "http://dbpedia.org/resource/Pacco_Qillo"
+                    }, {
+                        "label": "Romema Arena",
+                        "uri": "http://dbpedia.org/resource/Romema_Arena"
+                    }, {
+                        "label": "Sevastopol International Airport",
+                        "uri": "http://dbpedia.org/resource/Sevastopol_International_Airport"
+                    }, {
+                        "label": "Standing Boy Creek State Park",
+                        "uri": "http://dbpedia.org/resource/Standing_Boy_Creek_State_Park"
+                    }, {
+                        "label": "Victoria Fjord",
+                        "uri": "http://dbpedia.org/resource/Victoria_Fjord"
+                    }, {
+                        "label": "Augusta Exchange",
+                        "uri": "http://dbpedia.org/resource/Augusta_Exchange"
+                    }, {
+                        "label": "Camp Trousdale",
+                        "uri": "http://dbpedia.org/resource/Camp_Trousdale"
+                    }, {
+                        "label": "Lissan House",
+                        "uri": "http://dbpedia.org/resource/Lissan_House"
+                    }, {
+                        "label": "Akko Light",
+                        "uri": "http://dbpedia.org/resource/Akko_Light"
+                    }, {
+                        "label": "Ashkelon Coal Jetty Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Coal_Jetty_Breakwater_Light"
+                    }, {
+                        "label": "Ashkelon Marina Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Marina_Breakwater_Light"
+                    }, {
+                        "label": "One Commerce Square",
+                        "uri": "http://dbpedia.org/resource/One_Commerce_Square"
+                    }, {
+                        "label": "WinWinD",
+                        "uri": "http://dbpedia.org/resource/WinWinD"
+                    }, {
+                        "label": "Association for Civil Rights in Israel",
+                        "uri": "http://dbpedia.org/resource/Association_for_Civil_Rights_in_Israel"
+                    }, {
+                        "label": "Cadet College Sanghar",
+                        "uri": "http://dbpedia.org/resource/Cadet_College_Sanghar"
+                    }, {
+                        "label": "Eastside High School (Covington, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Eastside_High_School_(Covington,_Georgia)"
+                    }, {
+                        "label": "Savannah National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Savannah_National_Wildlife_Refuge"
+                    }, {
+                        "label": "B. V. S. Parsi High School",
+                        "uri": "http://dbpedia.org/resource/B._V._S._Parsi_High_School"
+                    }, {
+                        "label": "Balter, Guth, Aloni & Co.",
+                        "uri": "http://dbpedia.org/resource/Balter,_Guth,_Aloni_&_Co."
+                    }, {
+                        "label": "Banks Lake National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Banks_Lake_National_Wildlife_Refuge"
+                    }, {
+                        "label": "BellSouth Telecommunications",
+                        "uri": "http://dbpedia.org/resource/BellSouth_Telecommunications"
+                    }, {
+                        "label": "BlueLinx",
+                        "uri": "http://dbpedia.org/resource/BlueLinx"
+                    }, {
+                        "label": "Center for Puppetry Arts",
+                        "uri": "http://dbpedia.org/resource/Center_for_Puppetry_Arts"
+                    }, {
+                        "label": "Clarke Central High School",
+                        "uri": "http://dbpedia.org/resource/Clarke_Central_High_School"
+                    }, {
+                        "label": "Eufaula National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Eufaula_National_Wildlife_Refuge"
+                    }, {
+                        "label": "Fort Reno (Oklahoma)",
+                        "uri": "http://dbpedia.org/resource/Fort_Reno_(Oklahoma)"
+                    }, {
+                        "label": "Hart State Park",
+                        "uri": "http://dbpedia.org/resource/Hart_State_Park"
+                    }, {
+                        "label": "Kiryat Eliezer Stadium",
+                        "uri": "http://dbpedia.org/resource/Kiryat_Eliezer_Stadium"
+                    }, {
+                        "label": "Latin American Public Opinion Project",
+                        "uri": "http://dbpedia.org/resource/Latin_American_Public_Opinion_Project"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "6",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "ORGANISATION",
+            "returnType": "LOCATION",
+            "frameType": "NPP",
+            "sentences": ["the location of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Hall Island (Arctic)",
+                        "uri": "http://dbpedia.org/resource/Hall_Island_(Arctic)"
+                    }, {
+                        "label": "Taq Kasra",
+                        "uri": "http://dbpedia.org/resource/Taq_Kasra"
+                    }, {
+                        "label": "Academy of Medicine (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
+                    }, {
+                        "label": "East Hall High School",
+                        "uri": "http://dbpedia.org/resource/East_Hall_High_School"
+                    }, {
+                        "label": "Giles County High School",
+                        "uri": "http://dbpedia.org/resource/Giles_County_High_School"
+                    }, {
+                        "label": "Heritage High School (Ringgold, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Heritage_High_School_(Ringgold,_Georgia)"
+                    }, {
+                        "label": "JDC Welfare Organization",
+                        "uri": "http://dbpedia.org/resource/JDC_Welfare_Organization"
+                    }, {
+                        "label": "Lofton Creek Records",
+                        "uri": "http://dbpedia.org/resource/Lofton_Creek_Records"
+                    }, {
+                        "label": "North Hall High School",
+                        "uri": "http://dbpedia.org/resource/North_Hall_High_School"
+                    }, {
+                        "label": "Park Place (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Park_Place_(Atlanta)"
+                    }, {
+                        "label": "Transform (consulting firm)",
+                        "uri": "http://dbpedia.org/resource/Transform_(consulting_firm)"
+                    }, {
+                        "label": "Watertown High School (Tennessee)",
+                        "uri": "http://dbpedia.org/resource/Watertown_High_School_(Tennessee)"
+                    }, {
+                        "label": "West Hall High School",
+                        "uri": "http://dbpedia.org/resource/West_Hall_High_School"
+                    }, {
+                        "label": "2009 Arab Capital of Culture",
+                        "uri": "http://dbpedia.org/resource/2009_Arab_Capital_of_Culture"
+                    }, {
+                        "label": "American Southern Bank",
+                        "uri": "http://dbpedia.org/resource/American_Southern_Bank"
+                    }, {
+                        "label": "Art Museum of the University of Memphis",
+                        "uri": "http://dbpedia.org/resource/Art_Museum_of_the_University_of_Memphis"
+                    }, {
+                        "label": "Atlanta Pride",
+                        "uri": "http://dbpedia.org/resource/Atlanta_Pride"
+                    }, {
+                        "label": "AutoTrader.com",
+                        "uri": "http://dbpedia.org/resource/AutoTrader.com"
+                    }, {
+                        "label": "Boone Dam",
+                        "uri": "http://dbpedia.org/resource/Boone_Dam"
+                    }, {
+                        "label": "Canaan Fair Trade",
+                        "uri": "http://dbpedia.org/resource/Canaan_Fair_Trade"
+                    }, {
+                        "label": "Cass High School (Georgia)",
+                        "uri": "http://dbpedia.org/resource/Cass_High_School_(Georgia)"
+                    }, {
+                        "label": "Cherokee Dam",
+                        "uri": "http://dbpedia.org/resource/Cherokee_Dam"
+                    }, {
+                        "label": "Children's Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Children's_Museum_of_Memphis"
+                    }, {
+                        "label": "Cocke County High School",
+                        "uri": "http://dbpedia.org/resource/Cocke_County_High_School"
+                    }, {
+                        "label": "CrossLink International",
+                        "uri": "http://dbpedia.org/resource/CrossLink_International"
+                    }, {
+                        "label": "Design Factory",
+                        "uri": "http://dbpedia.org/resource/Design_Factory"
+                    }, {
+                        "label": "Dockery Lake Recreation Area",
+                        "uri": "http://dbpedia.org/resource/Dockery_Lake_Recreation_Area"
+                    }, {
+                        "label": "EarthLink",
+                        "uri": "http://dbpedia.org/resource/EarthLink"
+                    }, {
+                        "label": "Efecte",
+                        "uri": "http://dbpedia.org/resource/Efecte"
+                    }, {
+                        "label": "Fire Museum of Memphis",
+                        "uri": "http://dbpedia.org/resource/Fire_Museum_of_Memphis"
+                    }, {
+                        "label": "Gatlinburg Space Needle",
+                        "uri": "http://dbpedia.org/resource/Gatlinburg_Space_Needle"
+                    }, {
+                        "label": "Getz Pharma",
+                        "uri": "http://dbpedia.org/resource/Getz_Pharma"
+                    }, {
+                        "label": "Guglielmo coffee",
+                        "uri": "http://dbpedia.org/resource/Guglielmo_coffee"
+                    }, {
+                        "label": "HD Supply",
+                        "uri": "http://dbpedia.org/resource/HD_Supply"
+                    }, {
+                        "label": "Hart County High School",
+                        "uri": "http://dbpedia.org/resource/Hart_County_High_School"
+                    }, {
+                        "label": "Hussaini Blood Bank",
+                        "uri": "http://dbpedia.org/resource/Hussaini_Blood_Bank"
+                    }, {
+                        "label": "Line 1 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_1_(Naples_Metro)"
+                    }, {
+                        "label": "Line 6 (Naples Metro)",
+                        "uri": "http://dbpedia.org/resource/Line_6_(Naples_Metro)"
+                    }, {
+                        "label": "Past Life (TV series)",
+                        "uri": "http://dbpedia.org/resource/Past_Life_(TV_series)"
+                    }, {
+                        "label": "Pio Monte della Misericordia",
+                        "uri": "http://dbpedia.org/resource/Pio_Monte_della_Misericordia"
+                    }, {
+                        "label": "Southern Regional Council",
+                        "uri": "http://dbpedia.org/resource/Southern_Regional_Council"
+                    }, {
+                        "label": "The Starters",
+                        "uri": "http://dbpedia.org/resource/The_Starters"
+                    }, {
+                        "label": "Trevelino/Keller",
+                        "uri": "http://dbpedia.org/resource/Trevelino/Keller"
+                    }, {
+                        "label": "Vilant Systems",
+                        "uri": "http://dbpedia.org/resource/Vilant_Systems"
+                    }, {
+                        "label": "Willingway Hospital",
+                        "uri": "http://dbpedia.org/resource/Willingway_Hospital"
+                    }, {
+                        "label": "Worth County Middle School",
+                        "uri": "http://dbpedia.org/resource/Worth_County_Middle_School"
+                    }, {
+                        "label": "Becker Island",
+                        "uri": "http://dbpedia.org/resource/Becker_Island"
+                    }, {
+                        "label": "Boulder Bridge",
+                        "uri": "http://dbpedia.org/resource/Boulder_Bridge"
+                    }, {
+                        "label": "Cape Canaveral Air Force Station Skid Strip",
+                        "uri": "http://dbpedia.org/resource/Cape_Canaveral_Air_Force_Station_Skid_Strip"
+                    }, {
+                        "label": "Coalmont Bank Building",
+                        "uri": "http://dbpedia.org/resource/Coalmont_Bank_Building"
+                    }, {
+                        "label": "Fort Discovery",
+                        "uri": "http://dbpedia.org/resource/Fort_Discovery"
+                    }, {
+                        "label": "Israel National Museum of Science, Technology, and Space",
+                        "uri": "http://dbpedia.org/resource/Israel_National_Museum_of_Science,_Technology,_and_Space"
+                    }, {
+                        "label": "Lake Conasauga",
+                        "uri": "http://dbpedia.org/resource/Lake_Conasauga"
+                    }, {
+                        "label": "Palmer Plaza",
+                        "uri": "http://dbpedia.org/resource/Palmer_Plaza"
+                    }, {
+                        "label": "Tennessee Brewery",
+                        "uri": "http://dbpedia.org/resource/Tennessee_Brewery"
+                    }, {
+                        "label": "Tumut Pond Dam",
+                        "uri": "http://dbpedia.org/resource/Tumut_Pond_Dam"
+                    }, {
+                        "label": "Celtic Park (Derry)",
+                        "uri": "http://dbpedia.org/resource/Celtic_Park_(Derry)"
+                    }, {
+                        "label": "Vardy Community School",
+                        "uri": "http://dbpedia.org/resource/Vardy_Community_School"
+                    }, {
+                        "label": "Ashkelon Sports Arena",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Sports_Arena"
+                    }, {
+                        "label": "Foster Bay",
+                        "uri": "http://dbpedia.org/resource/Foster_Bay"
+                    }, {
+                        "label": "Frederick E. Hyde Fjord",
+                        "uri": "http://dbpedia.org/resource/Frederick_E._Hyde_Fjord"
+                    }, {
+                        "label": "Gael Hamkes Bay",
+                        "uri": "http://dbpedia.org/resource/Gael_Hamkes_Bay"
+                    }, {
+                        "label": "Hagen Fjord",
+                        "uri": "http://dbpedia.org/resource/Hagen_Fjord"
+                    }, {
+                        "label": "J.P. Koch Fjord",
+                        "uri": "http://dbpedia.org/resource/J.P._Koch_Fjord"
+                    }, {
+                        "label": "Jøkelbugten",
+                        "uri": "http://dbpedia.org/resource/Jøkelbugten"
+                    }, {
+                        "label": "Lithia Springs Hotel",
+                        "uri": "http://dbpedia.org/resource/Lithia_Springs_Hotel"
+                    }, {
+                        "label": "Moore County High School",
+                        "uri": "http://dbpedia.org/resource/Moore_County_High_School"
+                    }, {
+                        "label": "Nansen Fjord",
+                        "uri": "http://dbpedia.org/resource/Nansen_Fjord"
+                    }, {
+                        "label": "Napoleon Stadium",
+                        "uri": "http://dbpedia.org/resource/Napoleon_Stadium"
+                    }, {
+                        "label": "Nordenskiöld Fjord",
+                        "uri": "http://dbpedia.org/resource/Nordenskiöld_Fjord"
+                    }, {
+                        "label": "Old Hell Lake",
+                        "uri": "http://dbpedia.org/resource/Old_Hell_Lake"
+                    }, {
+                        "label": "Pacco Qillo",
+                        "uri": "http://dbpedia.org/resource/Pacco_Qillo"
+                    }, {
+                        "label": "Romema Arena",
+                        "uri": "http://dbpedia.org/resource/Romema_Arena"
+                    }, {
+                        "label": "Sevastopol International Airport",
+                        "uri": "http://dbpedia.org/resource/Sevastopol_International_Airport"
+                    }, {
+                        "label": "Standing Boy Creek State Park",
+                        "uri": "http://dbpedia.org/resource/Standing_Boy_Creek_State_Park"
+                    }, {
+                        "label": "Victoria Fjord",
+                        "uri": "http://dbpedia.org/resource/Victoria_Fjord"
+                    }, {
+                        "label": "Augusta Exchange",
+                        "uri": "http://dbpedia.org/resource/Augusta_Exchange"
+                    }, {
+                        "label": "Camp Trousdale",
+                        "uri": "http://dbpedia.org/resource/Camp_Trousdale"
+                    }, {
+                        "label": "Lissan House",
+                        "uri": "http://dbpedia.org/resource/Lissan_House"
+                    }, {
+                        "label": "Akko Light",
+                        "uri": "http://dbpedia.org/resource/Akko_Light"
+                    }, {
+                        "label": "Ashkelon Coal Jetty Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Coal_Jetty_Breakwater_Light"
+                    }, {
+                        "label": "Ashkelon Marina Breakwater Light",
+                        "uri": "http://dbpedia.org/resource/Ashkelon_Marina_Breakwater_Light"
+                    }, {
+                        "label": "One Commerce Square",
+                        "uri": "http://dbpedia.org/resource/One_Commerce_Square"
+                    }, {
+                        "label": "WinWinD",
+                        "uri": "http://dbpedia.org/resource/WinWinD"
+                    }, {
+                        "label": "Association for Civil Rights in Israel",
+                        "uri": "http://dbpedia.org/resource/Association_for_Civil_Rights_in_Israel"
+                    }, {
+                        "label": "Cadet College Sanghar",
+                        "uri": "http://dbpedia.org/resource/Cadet_College_Sanghar"
+                    }, {
+                        "label": "Eastside High School (Covington, Georgia)",
+                        "uri": "http://dbpedia.org/resource/Eastside_High_School_(Covington,_Georgia)"
+                    }, {
+                        "label": "Savannah National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Savannah_National_Wildlife_Refuge"
+                    }, {
+                        "label": "B. V. S. Parsi High School",
+                        "uri": "http://dbpedia.org/resource/B._V._S._Parsi_High_School"
+                    }, {
+                        "label": "Balter, Guth, Aloni & Co.",
+                        "uri": "http://dbpedia.org/resource/Balter,_Guth,_Aloni_&_Co."
+                    }, {
+                        "label": "Banks Lake National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Banks_Lake_National_Wildlife_Refuge"
+                    }, {
+                        "label": "BellSouth Telecommunications",
+                        "uri": "http://dbpedia.org/resource/BellSouth_Telecommunications"
+                    }, {
+                        "label": "BlueLinx",
+                        "uri": "http://dbpedia.org/resource/BlueLinx"
+                    }, {
+                        "label": "Center for Puppetry Arts",
+                        "uri": "http://dbpedia.org/resource/Center_for_Puppetry_Arts"
+                    }, {
+                        "label": "Clarke Central High School",
+                        "uri": "http://dbpedia.org/resource/Clarke_Central_High_School"
+                    }, {
+                        "label": "Eufaula National Wildlife Refuge",
+                        "uri": "http://dbpedia.org/resource/Eufaula_National_Wildlife_Refuge"
+                    }, {
+                        "label": "Fort Reno (Oklahoma)",
+                        "uri": "http://dbpedia.org/resource/Fort_Reno_(Oklahoma)"
+                    }, {
+                        "label": "Hart State Park",
+                        "uri": "http://dbpedia.org/resource/Hart_State_Park"
+                    }, {
+                        "label": "Kiryat Eliezer Stadium",
+                        "uri": "http://dbpedia.org/resource/Kiryat_Eliezer_Stadium"
+                    }, {
+                        "label": "Latin American Public Opinion Project",
+                        "uri": "http://dbpedia.org/resource/Latin_American_Public_Opinion_Project"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "7",
             "language": "EN",
             "type": "SENTENCE",
             "bindingType": "LOCATION",

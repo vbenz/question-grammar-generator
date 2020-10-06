@@ -16,7 +16,8 @@
   lemon:synBehavior    :location_of_nounpp ;
   lemon:sense          :location_sense1_ontomap ;
   lemon:sense          :location_sense2_ontomap ;
-  lemon:sense          :location_sense3_ontomap .
+  lemon:sense          :location_sense2_ontomap ;
+  lemon:sense          :location_sense4_ontomap .
 
 :location_form a   lemon:Form ;
   lemon:writtenRep "location"@en .
@@ -58,6 +59,17 @@
 
 :location_condition_building a  lemon:condition ;
   lemon:propertyDomain <http://dbpedia.org/ontology/Building> ;
+  lemon:propertyRange  <http://dbpedia.org/ontology/Place> .
+
+:location_sense4_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping       :location_sense4_ontomap ;
+  lemon:reference         <http://dbpedia.org/ontology/location> ;
+  lemon:subjOfProp        :arg2 ;
+  lemon:objOfProp         :arg1 ;
+  lemon:condition         :location_condition_architecture .
+
+:location_condition_architecture a  lemon:condition ;
+  lemon:propertyDomain <http://dbpedia.org/ontology/ArchitecturalStructure> ;
   lemon:propertyRange  <http://dbpedia.org/ontology/Place> .
 
 
