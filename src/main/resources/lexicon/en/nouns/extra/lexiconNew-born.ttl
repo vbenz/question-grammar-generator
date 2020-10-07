@@ -15,18 +15,19 @@
   lemon:canonicalForm  :form_complete ;
   lemon:otherForm      :form_complete_past ;
   lemon:synBehavior    :complete_frame ;
-  lemon:sense          :complete_ontomap .
+  lemon:sense          :complete_ontomap ;
+  lemon:sense          :complete_sense1_ontomap .
 
 :form_complete a           lemon:Form ;
-  lemon:writtenRep     "complete"@en ;
+  lemon:writtenRep     "born"@en ;
   lexinfo:verbFormMood lexinfo:infinitive .
 
 
 :form_complete_past a lemon:Form ;
-  lemon:writtenRep  "live"@en ;
+  lemon:writtenRep  "born"@en ;
   lexinfo:number    lexinfo:singular ;
   lexinfo:person    lexinfo:thirdPerson ;
-  lexinfo:tense     lexinfo:present .
+  lexinfo:tense     lexinfo:past .
 
 
 
@@ -36,15 +37,27 @@
 
 :complete_ontomap a     lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping :complete_ontomap ;
-  lemon:reference   <http://dbpedia.org/ontology/buildingEndDate> ;
+  lemon:reference   <http://dbpedia.org/ontology/birthDate> ;
   lemon:subjOfProp  :complete_obj ;
   lemon:objOfProp   :complete_subj ;
   lemon:condition   :complete_condition .
 
 
 :complete_condition a      lemon:condition ;
-  lemon:propertyDomain <http://dbpedia.org/ontology/ArchitecturalStructure> ;
-  lemon:propertyRange  <http://dbpedia.org/ontology/year> .
+  lemon:propertyDomain <http://dbpedia.org/ontology/Person> ;
+  lemon:propertyRange  <http://www.w3.org/2001/XMLSchema#date> .
+
+:complete_sense1_ontomap a     lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping :complete_sense1_ontomap ;
+  lemon:reference   <http://dbpedia.org/ontology/birthPlace> ;
+  lemon:subjOfProp  :complete_obj ;
+  lemon:objOfProp   :complete_subj ;
+  lemon:condition   :complete_city_condition .
+
+
+:complete_city_condition a      lemon:condition ;
+  lemon:propertyDomain <http://dbpedia.org/ontology/City> ;
+  lemon:propertyRange  <http://dbpedia.org/ontology/Person> .
 
 :complete_obj lemon:marker :in .
 
