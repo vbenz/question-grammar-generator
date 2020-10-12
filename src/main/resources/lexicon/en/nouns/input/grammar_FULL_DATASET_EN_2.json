@@ -1,0 +1,304 @@
+{
+    "bindingVariableName": "$x",
+    "bindingList": [{
+            "label": "Blackfriars Bridge",
+            "uri": "http://dbpedia.org/resource/Blackfriars_Bridge"
+        }, {
+            "label": "Brooklyn Bridge",
+            "uri": "http://dbpedia.org/resource/Brooklyn_Bridge"
+        }, {
+            "label": "List of tenants in One World Trade Center",
+            "uri": "http://dbpedia.org/resource/List_of_tenants_in_One_World_Trade_Center"
+        }, {
+            "label": "Yosemite Valley",
+            "uri": "http://dbpedia.org/resource/Yosemite_Valley"
+        }, {
+            "label": "Abraham Lincoln Statue (Kentucky)",
+            "uri": "http://dbpedia.org/resource/Abraham_Lincoln_Statue_(Kentucky)"
+        }, {
+            "label": "Abraham Lincoln Statue and Park",
+            "uri": "http://dbpedia.org/resource/Abraham_Lincoln_Statue_and_Park"
+        }, {
+            "label": "Church of the Nativity (Manhattan)",
+            "uri": "http://dbpedia.org/resource/Church_of_the_Nativity_(Manhattan)"
+        }, {
+            "label": "Episcopal Church of the Nativity (Huntsville, Alabama)",
+            "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Nativity_(Huntsville,_Alabama)"
+        }, {
+            "label": "Fuller House (Syracuse, New York)",
+            "uri": "http://dbpedia.org/resource/Fuller_House_(Syracuse,_New_York)"
+        }, {
+            "label": "Kingsbridge Armory",
+            "uri": "http://dbpedia.org/resource/Kingsbridge_Armory"
+        }, {
+            "label": "Montezuma Fuller House",
+            "uri": "http://dbpedia.org/resource/Montezuma_Fuller_House"
+        }, {
+            "label": "Sacred Heart Cathedral, New Delhi",
+            "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral,_New_Delhi"
+        }, {
+            "label": "Sacred Heart Cathedral, Wellington",
+            "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral,_Wellington"
+        }, {
+            "label": "Sacred Heart Cathedral (Dodge City, Kansas)",
+            "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Dodge_City,_Kansas)"
+        }, {
+            "label": "Sacred Heart Cathedral (Salina, Kansas)",
+            "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Salina,_Kansas)"
+        }, {
+            "label": "Somerset County Courthouse (Pennsylvania)",
+            "uri": "http://dbpedia.org/resource/Somerset_County_Courthouse_(Pennsylvania)"
+        }, {
+            "label": "The Tower at Dubai Creek Harbour",
+            "uri": "http://dbpedia.org/resource/The_Tower_at_Dubai_Creek_Harbour"
+        }, {
+            "label": "Trinity Lutheran Church (Canton, Ohio)",
+            "uri": "http://dbpedia.org/resource/Trinity_Lutheran_Church_(Canton,_Ohio)"
+        }, {
+            "label": "Academy of Medicine (Atlanta)",
+            "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
+        }, {
+            "label": "Ambassador Hotel (Tulsa, Oklahoma)",
+            "uri": "http://dbpedia.org/resource/Ambassador_Hotel_(Tulsa,_Oklahoma)"
+        }, {
+            "label": "Amman (Spokane, Washington)",
+            "uri": "http://dbpedia.org/resource/Amman_(Spokane,_Washington)"
+        }, {
+            "label": "Baldwin Bridge, Koblenz",
+            "uri": "http://dbpedia.org/resource/Baldwin_Bridge,_Koblenz"
+        }, {
+            "label": "Biddlestone Chapel",
+            "uri": "http://dbpedia.org/resource/Biddlestone_Chapel"
+        }, {
+            "label": "Bridge of Sighs (Oxford)",
+            "uri": "http://dbpedia.org/resource/Bridge_of_Sighs_(Oxford)"
+        }, {
+            "label": "Brisbane Powerhouse",
+            "uri": "http://dbpedia.org/resource/Brisbane_Powerhouse"
+        }, {
+            "label": "Büro Center Nibelungenplatz",
+            "uri": "http://dbpedia.org/resource/Büro_Center_Nibelungenplatz"
+        }, {
+            "label": "Carroll Alsop House",
+            "uri": "http://dbpedia.org/resource/Carroll_Alsop_House"
+        }, {
+            "label": "Center School (Omaha)",
+            "uri": "http://dbpedia.org/resource/Center_School_(Omaha)"
+        }, {
+            "label": "Central Fire Station (Brockton, Massachusetts)",
+            "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Brockton,_Massachusetts)"
+        }, {
+            "label": "Central Fire Station (Falmouth, Massachusetts)",
+            "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Falmouth,_Massachusetts)"
+        }, {
+            "label": "Central Fire Station (Taunton, Massachusetts)",
+            "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Taunton,_Massachusetts)"
+        }, {
+            "label": "Central YMCA (Cleveland, Ohio)",
+            "uri": "http://dbpedia.org/resource/Central_YMCA_(Cleveland,_Ohio)"
+        }, {
+            "label": "Charles F. Adams House",
+            "uri": "http://dbpedia.org/resource/Charles_F._Adams_House"
+        }, {
+            "label": "Church of Our Lady of Laeken",
+            "uri": "http://dbpedia.org/resource/Church_of_Our_Lady_of_Laeken"
+        }, {
+            "label": "Church of the Ascension, Hall Green",
+            "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Hall_Green"
+        }, {
+            "label": "Church of the Ascension, Malvern Link",
+            "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Malvern_Link"
+        }, {
+            "label": "Church of the Ascension, Roman Catholic (Manhattan)",
+            "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Roman_Catholic_(Manhattan)"
+        }, {
+            "label": "Church of the Ascension (Fall River, Massachusetts)",
+            "uri": "http://dbpedia.org/resource/Church_of_the_Ascension_(Fall_River,_Massachusetts)"
+        }, {
+            "label": "Church of the Ascension and Saint Agnes",
+            "uri": "http://dbpedia.org/resource/Church_of_the_Ascension_and_Saint_Agnes"
+        }, {
+            "label": "Church of the Transfiguration (Blue Mountain Lake, New York)",
+            "uri": "http://dbpedia.org/resource/Church_of_the_Transfiguration_(Blue_Mountain_Lake,_New_York)"
+        }, {
+            "label": "Edward H. Bennett House and Studio",
+            "uri": "http://dbpedia.org/resource/Edward_H._Bennett_House_and_Studio"
+        }, {
+            "label": "Edward W. Bok Technical High School",
+            "uri": "http://dbpedia.org/resource/Edward_W._Bok_Technical_High_School"
+        }, {
+            "label": "Elmer Holmes Bobst Library",
+            "uri": "http://dbpedia.org/resource/Elmer_Holmes_Bobst_Library"
+        }, {
+            "label": "Episcopal Church of the Advent / St. John's Chapel",
+            "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Advent_/_St._John's_Chapel"
+        }, {
+            "label": "Episcopal Church of the Ascension (Sierra Madre, California)",
+            "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Ascension_(Sierra_Madre,_California)"
+        }, {
+            "label": "First Presbyterian Church, Leavenworth",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church,_Leavenworth"
+        }, {
+            "label": "First Presbyterian Church (Augusta, Georgia)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Augusta,_Georgia)"
+        }, {
+            "label": "First Presbyterian Church (Cottage Grove, Oregon)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Cottage_Grove,_Oregon)"
+        }, {
+            "label": "First Presbyterian Church (Detroit, Michigan)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Detroit,_Michigan)"
+        }, {
+            "label": "First Presbyterian Church (Fayetteville, North Carolina)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Fayetteville,_North_Carolina)"
+        }, {
+            "label": "First Presbyterian Church (Hartford City, Indiana)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hartford_City,_Indiana)"
+        }, {
+            "label": "First Presbyterian Church (Hastings, Minnesota)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hastings,_Minnesota)"
+        }, {
+            "label": "First Presbyterian Church (Hot Springs, Arkansas)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hot_Springs,_Arkansas)"
+        }, {
+            "label": "First Presbyterian Church (Lexington, Kentucky)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Lexington,_Kentucky)"
+        }, {
+            "label": "First Presbyterian Church (Little Rock, Arkansas)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Little_Rock,_Arkansas)"
+        }, {
+            "label": "First Presbyterian Church (Lonoke, Arkansas)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Lonoke,_Arkansas)"
+        }, {
+            "label": "First Presbyterian Church (Mankato, Minnesota)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Mankato,_Minnesota)"
+        }, {
+            "label": "First Presbyterian Church (Napoleon, Ohio)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Napoleon,_Ohio)"
+        }, {
+            "label": "First Presbyterian Church (Newport, Arkansas)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Newport,_Arkansas)"
+        }, {
+            "label": "First Presbyterian Church (Oshkosh, Wisconsin)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Oshkosh,_Wisconsin)"
+        }, {
+            "label": "First Presbyterian Church (Palestine, Texas)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Palestine,_Texas)"
+        }, {
+            "label": "First Presbyterian Church (Portland, Oregon)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Portland,_Oregon)"
+        }, {
+            "label": "First Presbyterian Church (Racine, Wisconsin)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Racine,_Wisconsin)"
+        }, {
+            "label": "First Presbyterian Church (San Luis Obispo, California)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(San_Luis_Obispo,_California)"
+        }, {
+            "label": "First Presbyterian Church (Spalding, Nebraska)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Spalding,_Nebraska)"
+        }, {
+            "label": "First Presbyterian Church (Tacoma, Washington)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Tacoma,_Washington)"
+        }, {
+            "label": "First Presbyterian Church (Utica, New York)",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Utica,_New_York)"
+        }, {
+            "label": "First Presbyterian Church and Lewis Pintard House",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_and_Lewis_Pintard_House"
+        }, {
+            "label": "First Presbyterian Church of Far Rockaway",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Far_Rockaway"
+        }, {
+            "label": "First Presbyterian Church of Meridian",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Meridian"
+        }, {
+            "label": "First Presbyterian Church of Oyster Bay",
+            "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Oyster_Bay"
+        }, {
+            "label": "Frederick Stearns Building",
+            "uri": "http://dbpedia.org/resource/Frederick_Stearns_Building"
+        }, {
+            "label": "Frölunda Torg",
+            "uri": "http://dbpedia.org/resource/Frölunda_Torg"
+        }, {
+            "label": "Garden District (Montgomery, Alabama)",
+            "uri": "http://dbpedia.org/resource/Garden_District_(Montgomery,_Alabama)"
+        }, {
+            "label": "Gemini Residence",
+            "uri": "http://dbpedia.org/resource/Gemini_Residence"
+        }, {
+            "label": "Glaspalast Sindelfingen",
+            "uri": "http://dbpedia.org/resource/Glaspalast_Sindelfingen"
+        }, {
+            "label": "Grace Church (Cincinnati, Ohio)",
+            "uri": "http://dbpedia.org/resource/Grace_Church_(Cincinnati,_Ohio)"
+        }, {
+            "label": "Grace Church (Newark)",
+            "uri": "http://dbpedia.org/resource/Grace_Church_(Newark)"
+        }, {
+            "label": "Grace Church (Utica, New York)",
+            "uri": "http://dbpedia.org/resource/Grace_Church_(Utica,_New_York)"
+        }, {
+            "label": "Grace Church Van Vorst",
+            "uri": "http://dbpedia.org/resource/Grace_Church_Van_Vorst"
+        }, {
+            "label": "Grace Episcopal Church (Galveston, Texas)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Galveston,_Texas)"
+        }, {
+            "label": "Grace Episcopal Church (Jamestown, North Dakota)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Jamestown,_North_Dakota)"
+        }, {
+            "label": "Grace Episcopal Church (Keswick, Virginia)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Keswick,_Virginia)"
+        }, {
+            "label": "Grace Episcopal Church (Lawrence, Massachusetts)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Lawrence,_Massachusetts)"
+        }, {
+            "label": "Grace Episcopal Church (Madison, Wisconsin)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Madison,_Wisconsin)"
+        }, {
+            "label": "Grace Episcopal Church (Medford, Massachusetts)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Medford,_Massachusetts)"
+        }, {
+            "label": "Grace Episcopal Church (Minnewaukan, North Dakota)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Minnewaukan,_North_Dakota)"
+        }, {
+            "label": "Grace Episcopal Church (Pembina, North Dakota)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Pembina,_North_Dakota)"
+        }, {
+            "label": "Grace Episcopal Church (Spring Hill, Tennessee)",
+            "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Spring_Hill,_Tennessee)"
+        }, {
+            "label": "Grand Concourse Apartments",
+            "uri": "http://dbpedia.org/resource/Grand_Concourse_Apartments"
+        }, {
+            "label": "Grand Opera House (Wilmington, Delaware)",
+            "uri": "http://dbpedia.org/resource/Grand_Opera_House_(Wilmington,_Delaware)"
+        }, {
+            "label": "Green Bridge (New Orleans)",
+            "uri": "http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"
+        }, {
+            "label": "Holy Trinity Church, Ashby-de-la-Zouch",
+            "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Ashby-de-la-Zouch"
+        }, {
+            "label": "Holy Trinity Church, Bickerton",
+            "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bickerton"
+        }, {
+            "label": "Holy Trinity Church, Birchfield",
+            "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Birchfield"
+        }, {
+            "label": "Holy Trinity Church, Blackburn",
+            "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Blackburn"
+        }, {
+            "label": "Holy Trinity Church, Blackpool",
+            "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Blackpool"
+        }, {
+            "label": "Holy Trinity Church, Bolton",
+            "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton"
+        }, {
+            "label": "Holy Trinity Church, Bolton-le-Sands",
+            "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton-le-Sands"
+        }, {
+            "label": "Holy Trinity Church, Bordesley",
+            "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bordesley"
+        }]
+}
