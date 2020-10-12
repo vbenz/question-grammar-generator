@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 
+import com.citec.treeLinker.app.QuestionAnswerMain;
+import com.citec.treeLinker.utils.FileRelatedUtils;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import grammar.read.result.GrammarEntries;
@@ -21,8 +23,18 @@ import java.util.List;
 public class GuiMain {
 
     private static String outputDir = "src/main/resources/lexicon/en/nouns/new/output/";
+    public static String INPUT_LOCATION = "src/main/resources";
+    public static String INPUT_TEXT = "questions.txt";
+
 
     public static void main(String[] args) throws IOException, Exception {
+       String content=QuestionAnswerMain.generateQuestionAnswer(INPUT_LOCATION, INPUT_TEXT);
+       //System.out.println(content);
+        //read question data
+        read();
+    }
+
+    private static void read() throws IOException, Exception {
         List<File> list = getFiles(outputDir, "grammar_FULL_DATASET_EN", ".json");
         if (list.isEmpty()) {
             throw new Exception("No property files to process!!");
@@ -43,18 +55,6 @@ public class GuiMain {
                     System.out.println(uriLabel.getUri());
                 }
             }
-
-            /*ObjectMapper mapper = new ObjectMapper();
-            GrammarEntryUnit grammarEntryUnit = mapper.readValue(file, GrammarEntryUnit.class);
-            List<UriLabel> uriLabels=grammarEntryUnit.getSentenceBindings().getBindingList();
-            for (UriLabel uriLabel:uriLabels){
-                 //System.out.println(uriLabel.getLabel());
-                 //System.out.println(uriLabel.getUri());
-            }
-            List<String> questions=new ArrayList<String>();
-            for (String question:grammarEntryUnit.getSentences()){
-                System.out.println(question);
-            }*/
         }
     }
 
