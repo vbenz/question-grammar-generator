@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grammar.question.answer.gui;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import grammar.read.result.GrammarEntries;
+import grammar.read.result.GrammarEntryUnit;
+import grammar.read.result.UriLabel;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -35,7 +37,7 @@ public class GuiMain {
                 for (String question : grammarEntryUnit.getSentences()) {
                     System.out.println(question);
                 }
-                List<UriLabel> uriLabels = grammarEntryUnit.getSentenceBindings().getBindingList();
+                List<UriLabel> uriLabels = grammarEntryUnit.getBindingList();
                 for (UriLabel uriLabel : uriLabels) {
                     System.out.println(uriLabel.getLabel());
                     System.out.println(uriLabel.getUri());

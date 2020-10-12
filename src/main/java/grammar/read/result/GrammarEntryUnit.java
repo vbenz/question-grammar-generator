@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grammar.question.answer.gui;
+package grammar.read.result;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -32,13 +32,13 @@ public class GrammarEntryUnit {
     @JsonProperty("frameType")
     private String frameType;
     @JsonProperty("sentences")
-    private List<String> sentences = new ArrayList<String>();
+    private List<String> sentences;
     @JsonProperty("queryType")
     private String queryType;
     @JsonProperty("sparqlQuery")
     private String sparqlQuery;
-    @JsonIgnore
-    private SentenceToSparqlParameterMapping sentenceToSparqlParameterMapping = null;
+    @JsonProperty("sentenceToSparqlParameterMapping")
+    private SentenceToSparqlParameterMapping sentenceToSparqlParameterMapping;
     @JsonProperty("returnVariable")
     private String returnVariable;
     @JsonProperty("sentenceBindings")
@@ -85,16 +85,20 @@ public class GrammarEntryUnit {
         return sparqlQuery;
     }
 
-    public SentenceToSparqlParameterMapping getSentenceToSparqlParameterMapping() {
-        return sentenceToSparqlParameterMapping;
+    public String getSentenceToSparqlParameterMappingX() {
+        return sentenceToSparqlParameterMapping.getX();
     }
 
     public String getReturnVariable() {
         return returnVariable;
     }
 
-    public SentenceBindings getSentenceBindings() {
-        return sentenceBindings;
+    public List<UriLabel> getBindingList() {
+        return sentenceBindings.getBindingList();
+    }
+    
+    public String getBindingVariableName() {
+        return sentenceBindings.getBindingVariableName();
     }
 
     public Boolean getCombination() {

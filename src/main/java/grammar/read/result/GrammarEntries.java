@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grammar.question.answer.gui;
+package grammar.read.result;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -14,18 +14,13 @@ import java.util.List;
  * @author elahi
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class SentenceBindings {
+public class GrammarEntries {
 
-    @JsonProperty("bindingVariableName")
-    private String bindingVariableName;
-    @JsonProperty("bindingList")
-    private List<UriLabel> bindingList;
+    @JsonProperty("grammarEntries")
+    private List<GrammarEntryUnit> grammarEntries;
 
-    public String getBindingVariableName() {
-        return bindingVariableName;
+    public List<GrammarEntryUnit> getGrammarEntries() {
+        return grammarEntries;
     }
 
-    public List<UriLabel> getBindingList() {
-        return bindingList;
-    }
 }

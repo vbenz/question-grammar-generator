@@ -3,24 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grammar.question.answer.gui;
+package grammar.read.result;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import java.util.List;
 
 /**
  *
  * @author elahi
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class GrammarEntries {
+public class SentenceToSparqlParameterMapping {
 
-    @JsonProperty("grammarEntries")
-    private List<GrammarEntryUnit> grammarEntries;
+    @JsonProperty("x")
+    private String x;
 
-    public List<GrammarEntryUnit> getGrammarEntries() {
-        return grammarEntries;
+    public String getX() {
+        return x;
     }
 
 }
