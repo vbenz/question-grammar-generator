@@ -12,6 +12,7 @@ import java.util.List;
  *
  * @author elahi
  */
+@Deprecated
 public class Tupple {
 
     private String entry;

@@ -15,6 +15,7 @@ import java.util.regex.Pattern;
  *
  * @author elahi
  */
+@Deprecated
 public class CreateTree {
 
     private TreeLexicon treeLexicon = new TreeLexicon();
@@ -24,10 +25,7 @@ public class CreateTree {
     public static String INPUT_TEXT = "questions.txt";
     
 
-    public CreateTree(String INPUT_LOCATION, String INPUT_TEXT) throws IOException, Exception {
-
-        String inputFileName = null;
-        inputFileName = INPUT_LOCATION + File.separator + INPUT_TEXT;
+    public CreateTree(String inputFileName) throws IOException, Exception {
         inputTupples = getInputTupplesFromPython(inputFileName);
         treeLexicon = createTree(inputTupples);
     }

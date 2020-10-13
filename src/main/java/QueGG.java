@@ -4,6 +4,8 @@ import grammar.generator.BindingResolver;
 import grammar.generator.GrammarRuleGeneratorRoot;
 import grammar.generator.GrammarRuleGeneratorRootImpl;
 import grammar.read.questions.CreateTree;
+import static grammar.read.questions.CreateTree.INPUT_LOCATION;
+import static grammar.read.questions.CreateTree.INPUT_TEXT;
 import grammar.read.questions.ReadAndWriteQuestions;
 import static grammar.read.questions.ReadAndWriteQuestions.output;
 import grammar.structure.component.DomainOrRangeType;
@@ -11,6 +13,7 @@ import grammar.structure.component.FrameType;
 import grammar.structure.component.GrammarEntry;
 import grammar.structure.component.GrammarWrapper;
 import grammar.structure.component.Language;
+import java.io.File;
 import lexicon.LexiconImporter;
 import lombok.NoArgsConstructor;
 import org.apache.logging.log4j.LogManager;
@@ -32,13 +35,16 @@ public class QueGG {
     //private static final Logger LOG = LogManager.getLogger(QueGG.class);
 
     private static String inputDir = "src/main/resources/lexicon/en/nouns/input/";
-    private static String outputDir = "src/main/resources/lexicon/en/nouns/new/output/";
-    public static String QUESTION_ANSWER_LOCATION = "/home/elahi/recent/question-grammar-generator/src/main/resources";
+    //this is a temporary solution. it will be removed later..
+    private static String BaseDir = "/home/elahi/recent/question-grammar-generator/";
+    private static String outputDir = BaseDir+"src/main/resources/lexicon/en/nouns/new/output/";
+
+    public static String QUESTION_ANSWER_LOCATION = BaseDir+"src/main/resources";
     public static String QUESTION_ANSWER_FILE = "questions.txt";
 
     public static void main(String[] args) {
         QueGG queGG = new QueGG();
-        ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions();
+        ReadAndWriteQuestions readAndWriteQuestions = null;
         Integer menu = 2;
         String content = "";
 
@@ -46,21 +52,15 @@ public class QueGG {
             generateQuestions(args, queGG);
         } else if (menu == 2) {
             try {
-                readAndWriteQuestions.readQuestionAnswers(outputDir);
+                readAndWriteQuestions = new ReadAndWriteQuestions(QUESTION_ANSWER_LOCATION,QUESTION_ANSWER_FILE,outputDir,"grammar_FULL_DATASET_EN");
+                System.out.println(readAndWriteQuestions.getQuesAnsStr());
+                
+                 //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
+                //content = output(createTree.getInputTupples());
             } catch (Exception ex) {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
             }
-        } else if (menu == 3) {
-            try {
-                //readAndWriteQuestions.readQuestionAnswers(outputDir);
-                CreateTree createTree = new CreateTree(QUESTION_ANSWER_LOCATION, QUESTION_ANSWER_FILE);
-                content = output(createTree.getInputTupples());
-                System.out.println(content);
-
-            } catch (Exception ex) {
-                java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
-            }
-
+        
         }
     }
 

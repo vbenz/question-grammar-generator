@@ -1,6 +1,7 @@
 
 package grammar.read.questions;
 
+@Deprecated
 public class Levenshtein {
 
     public static int distance(String a, String b) {

@@ -2,6 +2,7 @@ package grammar.read.questions;
 import java.util.ArrayList;
 import java.util.List;
 
+@Deprecated
 public class TreeLexicon {
 
     TreeLexiconNode Root;
