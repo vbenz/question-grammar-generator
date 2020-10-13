@@ -92,14 +92,6 @@
   lexinfo:tense                           lexinfo:present ;
   lexinfo:person                          lexinfo:secondPerson ;
   lexinfo:number                          lexinfo:plural ] ;
-  lemon:otherForm      [ lemon:writtenRep "Show"@en ;
-  lexinfo:tense                           lexinfo:present ;
-  lexinfo:person                          lexinfo:secondPerson ;
-  lexinfo:number                          lexinfo:singular ] ;
-  lemon:otherForm      [ lemon:writtenRep "Show"@en ;
-  lexinfo:tense                           lexinfo:present ;
-  lexinfo:person                          lexinfo:secondPerson ;
-  lexinfo:number                          lexinfo:plural ] ;
   lemon:otherForm      [ lemon:writtenRep "Tell"@en ;
   lexinfo:tense                           lexinfo:present ;
   lexinfo:person                          lexinfo:secondPerson ;

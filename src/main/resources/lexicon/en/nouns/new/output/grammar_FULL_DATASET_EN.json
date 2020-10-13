@@ -1,1 +1,960 @@
-{"grammarEntries":[{"id":"1","language":"EN","type":"SENTENCE","bindingType":"BUILDING","returnType":"PERSON","frameType":"NPP","sentences":["Give me the architect of ($x | BUILDING_NP)?","Show me the architect of ($x | BUILDING_NP)?","Tell me the architect of ($x | BUILDING_NP)?","What is the architect of ($x | BUILDING_NP)?","What was the architect of ($x | BUILDING_NP)?","Which person is the architect of ($x | BUILDING_NP)?","Which person was the architect of ($x | BUILDING_NP)?"],"queryType":"SELECT","sparqlQuery":"(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/architect> ?objOfProp))\n","sentenceToSparqlParameterMapping":{"$x":"subjOfProp"},"returnVariable":"objOfProp","sentenceBindings":{"bindingVariableName":"$x","bindingList":[{"label":"Blackfriars Bridge","uri":"http://dbpedia.org/resource/Blackfriars_Bridge"},{"label":"Brooklyn Bridge","uri":"http://dbpedia.org/resource/Brooklyn_Bridge"},{"label":"List of tenants in One World Trade Center","uri":"http://dbpedia.org/resource/List_of_tenants_in_One_World_Trade_Center"},{"label":"Yosemite Valley","uri":"http://dbpedia.org/resource/Yosemite_Valley"},{"label":"Abraham Lincoln Statue (Kentucky)","uri":"http://dbpedia.org/resource/Abraham_Lincoln_Statue_(Kentucky)"},{"label":"Abraham Lincoln Statue and Park","uri":"http://dbpedia.org/resource/Abraham_Lincoln_Statue_and_Park"},{"label":"Church of the Nativity (Manhattan)","uri":"http://dbpedia.org/resource/Church_of_the_Nativity_(Manhattan)"},{"label":"Episcopal Church of the Nativity (Huntsville, Alabama)","uri":"http://dbpedia.org/resource/Episcopal_Church_of_the_Nativity_(Huntsville,_Alabama)"},{"label":"Fuller House (Syracuse, New York)","uri":"http://dbpedia.org/resource/Fuller_House_(Syracuse,_New_York)"},{"label":"Kingsbridge Armory","uri":"http://dbpedia.org/resource/Kingsbridge_Armory"},{"label":"Montezuma Fuller House","uri":"http://dbpedia.org/resource/Montezuma_Fuller_House"},{"label":"Sacred Heart Cathedral, New Delhi","uri":"http://dbpedia.org/resource/Sacred_Heart_Cathedral,_New_Delhi"},{"label":"Sacred Heart Cathedral, Wellington","uri":"http://dbpedia.org/resource/Sacred_Heart_Cathedral,_Wellington"},{"label":"Sacred Heart Cathedral (Dodge City, Kansas)","uri":"http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Dodge_City,_Kansas)"},{"label":"Sacred Heart Cathedral (Salina, Kansas)","uri":"http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Salina,_Kansas)"},{"label":"Somerset County Courthouse (Pennsylvania)","uri":"http://dbpedia.org/resource/Somerset_County_Courthouse_(Pennsylvania)"},{"label":"The Tower at Dubai Creek Harbour","uri":"http://dbpedia.org/resource/The_Tower_at_Dubai_Creek_Harbour"},{"label":"Trinity Lutheran Church (Canton, Ohio)","uri":"http://dbpedia.org/resource/Trinity_Lutheran_Church_(Canton,_Ohio)"},{"label":"Academy of Medicine (Atlanta)","uri":"http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"},{"label":"Ambassador Hotel (Tulsa, Oklahoma)","uri":"http://dbpedia.org/resource/Ambassador_Hotel_(Tulsa,_Oklahoma)"},{"label":"Amman (Spokane, Washington)","uri":"http://dbpedia.org/resource/Amman_(Spokane,_Washington)"},{"label":"Baldwin Bridge, Koblenz","uri":"http://dbpedia.org/resource/Baldwin_Bridge,_Koblenz"},{"label":"Biddlestone Chapel","uri":"http://dbpedia.org/resource/Biddlestone_Chapel"},{"label":"Bridge of Sighs (Oxford)","uri":"http://dbpedia.org/resource/Bridge_of_Sighs_(Oxford)"},{"label":"Brisbane Powerhouse","uri":"http://dbpedia.org/resource/Brisbane_Powerhouse"},{"label":"Büro Center Nibelungenplatz","uri":"http://dbpedia.org/resource/Büro_Center_Nibelungenplatz"},{"label":"Carroll Alsop House","uri":"http://dbpedia.org/resource/Carroll_Alsop_House"},{"label":"Center School (Omaha)","uri":"http://dbpedia.org/resource/Center_School_(Omaha)"},{"label":"Central Fire Station (Brockton, Massachusetts)","uri":"http://dbpedia.org/resource/Central_Fire_Station_(Brockton,_Massachusetts)"},{"label":"Central Fire Station (Falmouth, Massachusetts)","uri":"http://dbpedia.org/resource/Central_Fire_Station_(Falmouth,_Massachusetts)"},{"label":"Central Fire Station (Taunton, Massachusetts)","uri":"http://dbpedia.org/resource/Central_Fire_Station_(Taunton,_Massachusetts)"},{"label":"Central YMCA (Cleveland, Ohio)","uri":"http://dbpedia.org/resource/Central_YMCA_(Cleveland,_Ohio)"},{"label":"Charles F. Adams House","uri":"http://dbpedia.org/resource/Charles_F._Adams_House"},{"label":"Church of Our Lady of Laeken","uri":"http://dbpedia.org/resource/Church_of_Our_Lady_of_Laeken"},{"label":"Church of the Ascension, Hall Green","uri":"http://dbpedia.org/resource/Church_of_the_Ascension,_Hall_Green"},{"label":"Church of the Ascension, Malvern Link","uri":"http://dbpedia.org/resource/Church_of_the_Ascension,_Malvern_Link"},{"label":"Church of the Ascension, Roman Catholic (Manhattan)","uri":"http://dbpedia.org/resource/Church_of_the_Ascension,_Roman_Catholic_(Manhattan)"},{"label":"Church of the Ascension (Fall River, Massachusetts)","uri":"http://dbpedia.org/resource/Church_of_the_Ascension_(Fall_River,_Massachusetts)"},{"label":"Church of the Ascension and Saint Agnes","uri":"http://dbpedia.org/resource/Church_of_the_Ascension_and_Saint_Agnes"},{"label":"Church of the Transfiguration (Blue Mountain Lake, New York)","uri":"http://dbpedia.org/resource/Church_of_the_Transfiguration_(Blue_Mountain_Lake,_New_York)"},{"label":"Edward H. Bennett House and Studio","uri":"http://dbpedia.org/resource/Edward_H._Bennett_House_and_Studio"},{"label":"Edward W. Bok Technical High School","uri":"http://dbpedia.org/resource/Edward_W._Bok_Technical_High_School"},{"label":"Elmer Holmes Bobst Library","uri":"http://dbpedia.org/resource/Elmer_Holmes_Bobst_Library"},{"label":"Episcopal Church of the Advent / St. John's Chapel","uri":"http://dbpedia.org/resource/Episcopal_Church_of_the_Advent_/_St._John's_Chapel"},{"label":"Episcopal Church of the Ascension (Sierra Madre, California)","uri":"http://dbpedia.org/resource/Episcopal_Church_of_the_Ascension_(Sierra_Madre,_California)"},{"label":"First Presbyterian Church, Leavenworth","uri":"http://dbpedia.org/resource/First_Presbyterian_Church,_Leavenworth"},{"label":"First Presbyterian Church (Augusta, Georgia)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Augusta,_Georgia)"},{"label":"First Presbyterian Church (Cottage Grove, Oregon)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Cottage_Grove,_Oregon)"},{"label":"First Presbyterian Church (Detroit, Michigan)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Detroit,_Michigan)"},{"label":"First Presbyterian Church (Fayetteville, North Carolina)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Fayetteville,_North_Carolina)"},{"label":"First Presbyterian Church (Hartford City, Indiana)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Hartford_City,_Indiana)"},{"label":"First Presbyterian Church (Hastings, Minnesota)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Hastings,_Minnesota)"},{"label":"First Presbyterian Church (Hot Springs, Arkansas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Hot_Springs,_Arkansas)"},{"label":"First Presbyterian Church (Lexington, Kentucky)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Lexington,_Kentucky)"},{"label":"First Presbyterian Church (Little Rock, Arkansas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Little_Rock,_Arkansas)"},{"label":"First Presbyterian Church (Lonoke, Arkansas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Lonoke,_Arkansas)"},{"label":"First Presbyterian Church (Mankato, Minnesota)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Mankato,_Minnesota)"},{"label":"First Presbyterian Church (Napoleon, Ohio)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Napoleon,_Ohio)"},{"label":"First Presbyterian Church (Newport, Arkansas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Newport,_Arkansas)"},{"label":"First Presbyterian Church (Oshkosh, Wisconsin)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Oshkosh,_Wisconsin)"},{"label":"First Presbyterian Church (Palestine, Texas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Palestine,_Texas)"},{"label":"First Presbyterian Church (Portland, Oregon)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Portland,_Oregon)"},{"label":"First Presbyterian Church (Racine, Wisconsin)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Racine,_Wisconsin)"},{"label":"First Presbyterian Church (San Luis Obispo, California)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(San_Luis_Obispo,_California)"},{"label":"First Presbyterian Church (Spalding, Nebraska)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Spalding,_Nebraska)"},{"label":"First Presbyterian Church (Tacoma, Washington)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Tacoma,_Washington)"},{"label":"First Presbyterian Church (Utica, New York)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Utica,_New_York)"},{"label":"First Presbyterian Church and Lewis Pintard House","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_and_Lewis_Pintard_House"},{"label":"First Presbyterian Church of Far Rockaway","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_of_Far_Rockaway"},{"label":"First Presbyterian Church of Meridian","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_of_Meridian"},{"label":"First Presbyterian Church of Oyster Bay","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_of_Oyster_Bay"},{"label":"Frederick Stearns Building","uri":"http://dbpedia.org/resource/Frederick_Stearns_Building"},{"label":"Frölunda Torg","uri":"http://dbpedia.org/resource/Frölunda_Torg"},{"label":"Garden District (Montgomery, Alabama)","uri":"http://dbpedia.org/resource/Garden_District_(Montgomery,_Alabama)"},{"label":"Gemini Residence","uri":"http://dbpedia.org/resource/Gemini_Residence"},{"label":"Glaspalast Sindelfingen","uri":"http://dbpedia.org/resource/Glaspalast_Sindelfingen"},{"label":"Grace Church (Cincinnati, Ohio)","uri":"http://dbpedia.org/resource/Grace_Church_(Cincinnati,_Ohio)"},{"label":"Grace Church (Newark)","uri":"http://dbpedia.org/resource/Grace_Church_(Newark)"},{"label":"Grace Church (Utica, New York)","uri":"http://dbpedia.org/resource/Grace_Church_(Utica,_New_York)"},{"label":"Grace Church Van Vorst","uri":"http://dbpedia.org/resource/Grace_Church_Van_Vorst"},{"label":"Grace Episcopal Church (Galveston, Texas)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Galveston,_Texas)"},{"label":"Grace Episcopal Church (Jamestown, North Dakota)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Jamestown,_North_Dakota)"},{"label":"Grace Episcopal Church (Keswick, Virginia)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Keswick,_Virginia)"},{"label":"Grace Episcopal Church (Lawrence, Massachusetts)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Lawrence,_Massachusetts)"},{"label":"Grace Episcopal Church (Madison, Wisconsin)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Madison,_Wisconsin)"},{"label":"Grace Episcopal Church (Medford, Massachusetts)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Medford,_Massachusetts)"},{"label":"Grace Episcopal Church (Minnewaukan, North Dakota)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Minnewaukan,_North_Dakota)"},{"label":"Grace Episcopal Church (Pembina, North Dakota)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Pembina,_North_Dakota)"},{"label":"Grace Episcopal Church (Spring Hill, Tennessee)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Spring_Hill,_Tennessee)"},{"label":"Grand Concourse Apartments","uri":"http://dbpedia.org/resource/Grand_Concourse_Apartments"},{"label":"Grand Opera House (Wilmington, Delaware)","uri":"http://dbpedia.org/resource/Grand_Opera_House_(Wilmington,_Delaware)"},{"label":"Green Bridge (New Orleans)","uri":"http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"},{"label":"Holy Trinity Church, Ashby-de-la-Zouch","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Ashby-de-la-Zouch"},{"label":"Holy Trinity Church, Bickerton","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Bickerton"},{"label":"Holy Trinity Church, Birchfield","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Birchfield"},{"label":"Holy Trinity Church, Blackburn","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Blackburn"},{"label":"Holy Trinity Church, Blackpool","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Blackpool"},{"label":"Holy Trinity Church, Bolton","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton"},{"label":"Holy Trinity Church, Bolton-le-Sands","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton-le-Sands"},{"label":"Holy Trinity Church, Bordesley","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Bordesley"}]},"combination":false},{"id":"2","language":"EN","type":"NP","bindingType":"BUILDING","returnType":"PERSON","frameType":"NPP","sentences":["the architect of $x"],"queryType":"SELECT","sparqlQuery":"(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/architect> ?objOfProp))\n","sentenceToSparqlParameterMapping":{"$x":"subjOfProp"},"returnVariable":"objOfProp","sentenceBindings":{"bindingVariableName":"$x","bindingList":[{"label":"Blackfriars Bridge","uri":"http://dbpedia.org/resource/Blackfriars_Bridge"},{"label":"Brooklyn Bridge","uri":"http://dbpedia.org/resource/Brooklyn_Bridge"},{"label":"List of tenants in One World Trade Center","uri":"http://dbpedia.org/resource/List_of_tenants_in_One_World_Trade_Center"},{"label":"Yosemite Valley","uri":"http://dbpedia.org/resource/Yosemite_Valley"},{"label":"Abraham Lincoln Statue (Kentucky)","uri":"http://dbpedia.org/resource/Abraham_Lincoln_Statue_(Kentucky)"},{"label":"Abraham Lincoln Statue and Park","uri":"http://dbpedia.org/resource/Abraham_Lincoln_Statue_and_Park"},{"label":"Church of the Nativity (Manhattan)","uri":"http://dbpedia.org/resource/Church_of_the_Nativity_(Manhattan)"},{"label":"Episcopal Church of the Nativity (Huntsville, Alabama)","uri":"http://dbpedia.org/resource/Episcopal_Church_of_the_Nativity_(Huntsville,_Alabama)"},{"label":"Fuller House (Syracuse, New York)","uri":"http://dbpedia.org/resource/Fuller_House_(Syracuse,_New_York)"},{"label":"Kingsbridge Armory","uri":"http://dbpedia.org/resource/Kingsbridge_Armory"},{"label":"Montezuma Fuller House","uri":"http://dbpedia.org/resource/Montezuma_Fuller_House"},{"label":"Sacred Heart Cathedral, New Delhi","uri":"http://dbpedia.org/resource/Sacred_Heart_Cathedral,_New_Delhi"},{"label":"Sacred Heart Cathedral, Wellington","uri":"http://dbpedia.org/resource/Sacred_Heart_Cathedral,_Wellington"},{"label":"Sacred Heart Cathedral (Dodge City, Kansas)","uri":"http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Dodge_City,_Kansas)"},{"label":"Sacred Heart Cathedral (Salina, Kansas)","uri":"http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Salina,_Kansas)"},{"label":"Somerset County Courthouse (Pennsylvania)","uri":"http://dbpedia.org/resource/Somerset_County_Courthouse_(Pennsylvania)"},{"label":"The Tower at Dubai Creek Harbour","uri":"http://dbpedia.org/resource/The_Tower_at_Dubai_Creek_Harbour"},{"label":"Trinity Lutheran Church (Canton, Ohio)","uri":"http://dbpedia.org/resource/Trinity_Lutheran_Church_(Canton,_Ohio)"},{"label":"Academy of Medicine (Atlanta)","uri":"http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"},{"label":"Ambassador Hotel (Tulsa, Oklahoma)","uri":"http://dbpedia.org/resource/Ambassador_Hotel_(Tulsa,_Oklahoma)"},{"label":"Amman (Spokane, Washington)","uri":"http://dbpedia.org/resource/Amman_(Spokane,_Washington)"},{"label":"Baldwin Bridge, Koblenz","uri":"http://dbpedia.org/resource/Baldwin_Bridge,_Koblenz"},{"label":"Biddlestone Chapel","uri":"http://dbpedia.org/resource/Biddlestone_Chapel"},{"label":"Bridge of Sighs (Oxford)","uri":"http://dbpedia.org/resource/Bridge_of_Sighs_(Oxford)"},{"label":"Brisbane Powerhouse","uri":"http://dbpedia.org/resource/Brisbane_Powerhouse"},{"label":"Büro Center Nibelungenplatz","uri":"http://dbpedia.org/resource/Büro_Center_Nibelungenplatz"},{"label":"Carroll Alsop House","uri":"http://dbpedia.org/resource/Carroll_Alsop_House"},{"label":"Center School (Omaha)","uri":"http://dbpedia.org/resource/Center_School_(Omaha)"},{"label":"Central Fire Station (Brockton, Massachusetts)","uri":"http://dbpedia.org/resource/Central_Fire_Station_(Brockton,_Massachusetts)"},{"label":"Central Fire Station (Falmouth, Massachusetts)","uri":"http://dbpedia.org/resource/Central_Fire_Station_(Falmouth,_Massachusetts)"},{"label":"Central Fire Station (Taunton, Massachusetts)","uri":"http://dbpedia.org/resource/Central_Fire_Station_(Taunton,_Massachusetts)"},{"label":"Central YMCA (Cleveland, Ohio)","uri":"http://dbpedia.org/resource/Central_YMCA_(Cleveland,_Ohio)"},{"label":"Charles F. Adams House","uri":"http://dbpedia.org/resource/Charles_F._Adams_House"},{"label":"Church of Our Lady of Laeken","uri":"http://dbpedia.org/resource/Church_of_Our_Lady_of_Laeken"},{"label":"Church of the Ascension, Hall Green","uri":"http://dbpedia.org/resource/Church_of_the_Ascension,_Hall_Green"},{"label":"Church of the Ascension, Malvern Link","uri":"http://dbpedia.org/resource/Church_of_the_Ascension,_Malvern_Link"},{"label":"Church of the Ascension, Roman Catholic (Manhattan)","uri":"http://dbpedia.org/resource/Church_of_the_Ascension,_Roman_Catholic_(Manhattan)"},{"label":"Church of the Ascension (Fall River, Massachusetts)","uri":"http://dbpedia.org/resource/Church_of_the_Ascension_(Fall_River,_Massachusetts)"},{"label":"Church of the Ascension and Saint Agnes","uri":"http://dbpedia.org/resource/Church_of_the_Ascension_and_Saint_Agnes"},{"label":"Church of the Transfiguration (Blue Mountain Lake, New York)","uri":"http://dbpedia.org/resource/Church_of_the_Transfiguration_(Blue_Mountain_Lake,_New_York)"},{"label":"Edward H. Bennett House and Studio","uri":"http://dbpedia.org/resource/Edward_H._Bennett_House_and_Studio"},{"label":"Edward W. Bok Technical High School","uri":"http://dbpedia.org/resource/Edward_W._Bok_Technical_High_School"},{"label":"Elmer Holmes Bobst Library","uri":"http://dbpedia.org/resource/Elmer_Holmes_Bobst_Library"},{"label":"Episcopal Church of the Advent / St. John's Chapel","uri":"http://dbpedia.org/resource/Episcopal_Church_of_the_Advent_/_St._John's_Chapel"},{"label":"Episcopal Church of the Ascension (Sierra Madre, California)","uri":"http://dbpedia.org/resource/Episcopal_Church_of_the_Ascension_(Sierra_Madre,_California)"},{"label":"First Presbyterian Church, Leavenworth","uri":"http://dbpedia.org/resource/First_Presbyterian_Church,_Leavenworth"},{"label":"First Presbyterian Church (Augusta, Georgia)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Augusta,_Georgia)"},{"label":"First Presbyterian Church (Cottage Grove, Oregon)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Cottage_Grove,_Oregon)"},{"label":"First Presbyterian Church (Detroit, Michigan)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Detroit,_Michigan)"},{"label":"First Presbyterian Church (Fayetteville, North Carolina)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Fayetteville,_North_Carolina)"},{"label":"First Presbyterian Church (Hartford City, Indiana)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Hartford_City,_Indiana)"},{"label":"First Presbyterian Church (Hastings, Minnesota)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Hastings,_Minnesota)"},{"label":"First Presbyterian Church (Hot Springs, Arkansas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Hot_Springs,_Arkansas)"},{"label":"First Presbyterian Church (Lexington, Kentucky)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Lexington,_Kentucky)"},{"label":"First Presbyterian Church (Little Rock, Arkansas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Little_Rock,_Arkansas)"},{"label":"First Presbyterian Church (Lonoke, Arkansas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Lonoke,_Arkansas)"},{"label":"First Presbyterian Church (Mankato, Minnesota)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Mankato,_Minnesota)"},{"label":"First Presbyterian Church (Napoleon, Ohio)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Napoleon,_Ohio)"},{"label":"First Presbyterian Church (Newport, Arkansas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Newport,_Arkansas)"},{"label":"First Presbyterian Church (Oshkosh, Wisconsin)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Oshkosh,_Wisconsin)"},{"label":"First Presbyterian Church (Palestine, Texas)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Palestine,_Texas)"},{"label":"First Presbyterian Church (Portland, Oregon)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Portland,_Oregon)"},{"label":"First Presbyterian Church (Racine, Wisconsin)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Racine,_Wisconsin)"},{"label":"First Presbyterian Church (San Luis Obispo, California)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(San_Luis_Obispo,_California)"},{"label":"First Presbyterian Church (Spalding, Nebraska)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Spalding,_Nebraska)"},{"label":"First Presbyterian Church (Tacoma, Washington)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Tacoma,_Washington)"},{"label":"First Presbyterian Church (Utica, New York)","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_(Utica,_New_York)"},{"label":"First Presbyterian Church and Lewis Pintard House","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_and_Lewis_Pintard_House"},{"label":"First Presbyterian Church of Far Rockaway","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_of_Far_Rockaway"},{"label":"First Presbyterian Church of Meridian","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_of_Meridian"},{"label":"First Presbyterian Church of Oyster Bay","uri":"http://dbpedia.org/resource/First_Presbyterian_Church_of_Oyster_Bay"},{"label":"Frederick Stearns Building","uri":"http://dbpedia.org/resource/Frederick_Stearns_Building"},{"label":"Frölunda Torg","uri":"http://dbpedia.org/resource/Frölunda_Torg"},{"label":"Garden District (Montgomery, Alabama)","uri":"http://dbpedia.org/resource/Garden_District_(Montgomery,_Alabama)"},{"label":"Gemini Residence","uri":"http://dbpedia.org/resource/Gemini_Residence"},{"label":"Glaspalast Sindelfingen","uri":"http://dbpedia.org/resource/Glaspalast_Sindelfingen"},{"label":"Grace Church (Cincinnati, Ohio)","uri":"http://dbpedia.org/resource/Grace_Church_(Cincinnati,_Ohio)"},{"label":"Grace Church (Newark)","uri":"http://dbpedia.org/resource/Grace_Church_(Newark)"},{"label":"Grace Church (Utica, New York)","uri":"http://dbpedia.org/resource/Grace_Church_(Utica,_New_York)"},{"label":"Grace Church Van Vorst","uri":"http://dbpedia.org/resource/Grace_Church_Van_Vorst"},{"label":"Grace Episcopal Church (Galveston, Texas)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Galveston,_Texas)"},{"label":"Grace Episcopal Church (Jamestown, North Dakota)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Jamestown,_North_Dakota)"},{"label":"Grace Episcopal Church (Keswick, Virginia)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Keswick,_Virginia)"},{"label":"Grace Episcopal Church (Lawrence, Massachusetts)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Lawrence,_Massachusetts)"},{"label":"Grace Episcopal Church (Madison, Wisconsin)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Madison,_Wisconsin)"},{"label":"Grace Episcopal Church (Medford, Massachusetts)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Medford,_Massachusetts)"},{"label":"Grace Episcopal Church (Minnewaukan, North Dakota)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Minnewaukan,_North_Dakota)"},{"label":"Grace Episcopal Church (Pembina, North Dakota)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Pembina,_North_Dakota)"},{"label":"Grace Episcopal Church (Spring Hill, Tennessee)","uri":"http://dbpedia.org/resource/Grace_Episcopal_Church_(Spring_Hill,_Tennessee)"},{"label":"Grand Concourse Apartments","uri":"http://dbpedia.org/resource/Grand_Concourse_Apartments"},{"label":"Grand Opera House (Wilmington, Delaware)","uri":"http://dbpedia.org/resource/Grand_Opera_House_(Wilmington,_Delaware)"},{"label":"Green Bridge (New Orleans)","uri":"http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"},{"label":"Holy Trinity Church, Ashby-de-la-Zouch","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Ashby-de-la-Zouch"},{"label":"Holy Trinity Church, Bickerton","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Bickerton"},{"label":"Holy Trinity Church, Birchfield","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Birchfield"},{"label":"Holy Trinity Church, Blackburn","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Blackburn"},{"label":"Holy Trinity Church, Blackpool","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Blackpool"},{"label":"Holy Trinity Church, Bolton","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton"},{"label":"Holy Trinity Church, Bolton-le-Sands","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton-le-Sands"},{"label":"Holy Trinity Church, Bordesley","uri":"http://dbpedia.org/resource/Holy_Trinity_Church,_Bordesley"}]},"combination":false},{"id":"3","language":"EN","type":"SENTENCE","bindingType":"LOCATION","returnType":"LOCATION","frameType":"FULL_DATASET","sentences":["Where is $x located?"],"queryType":"SELECT","sparqlQuery":"(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n","sentenceToSparqlParameterMapping":{"$x":"subjOfProp"},"returnVariable":"objOfProp","sentenceBindings":{"bindingVariableName":"$x","bindingList":[{"label":"Whitehaven, Memphis, Tennessee","uri":"http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"},{"label":"Lake Zabuye","uri":"http://dbpedia.org/resource/Lake_Zabuye"},{"label":"Mid-Atlantic states","uri":"http://dbpedia.org/resource/Mid-Atlantic_states"},{"label":"New England","uri":"http://dbpedia.org/resource/New_England"},{"label":"Kuta Raja","uri":"http://dbpedia.org/resource/Kuta_Raja"},{"label":"San Biagio Maggiore","uri":"http://dbpedia.org/resource/San_Biagio_Maggiore"},{"label":"Namcha Barwa Himal","uri":"http://dbpedia.org/resource/Namcha_Barwa_Himal"},{"label":"San Nicola a Nilo","uri":"http://dbpedia.org/resource/San_Nicola_a_Nilo"},{"label":"Adra, Syria","uri":"http://dbpedia.org/resource/Adra,_Syria"},{"label":"Al-Mazraa","uri":"http://dbpedia.org/resource/Al-Mazraa"},{"label":"Al-Rastan","uri":"http://dbpedia.org/resource/Al-Rastan"},{"label":"Al-Hawash, Homs Governorate","uri":"http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"},{"label":"Ayn al-Bardah","uri":"http://dbpedia.org/resource/Ayn_al-Bardah"},{"label":"Khabab","uri":"http://dbpedia.org/resource/Khabab"},{"label":"Al-Kafr","uri":"http://dbpedia.org/resource/Al-Kafr"},{"label":"Deir Mama","uri":"http://dbpedia.org/resource/Deir_Mama"},{"label":"Madaya, Syria","uri":"http://dbpedia.org/resource/Madaya,_Syria"},{"label":"Tayru","uri":"http://dbpedia.org/resource/Tayru"},{"label":"Al-Khalidiyah, Syria","uri":"http://dbpedia.org/resource/Al-Khalidiyah,_Syria"},{"label":"Al-Khalidiyah, al-Hasakah Governorate","uri":"http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"},{"label":"Basatin al-Assad","uri":"http://dbpedia.org/resource/Basatin_al-Assad"},{"label":"Hala, Syria","uri":"http://dbpedia.org/resource/Hala,_Syria"},{"label":"Harran, Idlib","uri":"http://dbpedia.org/resource/Harran,_Idlib"},{"label":"Harran, as-Suwayda","uri":"http://dbpedia.org/resource/Harran,_as-Suwayda"},{"label":"Harran al-Awamid","uri":"http://dbpedia.org/resource/Harran_al-Awamid"},{"label":"Wadi al-Nasara","uri":"http://dbpedia.org/resource/Wadi_al-Nasara"},{"label":"Abu Khanadiq","uri":"http://dbpedia.org/resource/Abu_Khanadiq"},{"label":"Abu Kleefun","uri":"http://dbpedia.org/resource/Abu_Kleefun"},{"label":"Abul Fashafish","uri":"http://dbpedia.org/resource/Abul_Fashafish"},{"label":"Al-'Amrah","uri":"http://dbpedia.org/resource/Al-'Amrah"},{"label":"Al-Atnah","uri":"http://dbpedia.org/resource/Al-Atnah"},{"label":"Al-Fayadiyah","uri":"http://dbpedia.org/resource/Al-Fayadiyah"},{"label":"Al-Humayra","uri":"http://dbpedia.org/resource/Al-Humayra"},{"label":"Al-Jarajir","uri":"http://dbpedia.org/resource/Al-Jarajir"},{"label":"Al-Khandaq al-Sharqiyah","uri":"http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"},{"label":"Al-Muhajirin, Hama Governorate","uri":"http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"},{"label":"Al-Narjis","uri":"http://dbpedia.org/resource/Al-Narjis"},{"label":"Al-Nazaza","uri":"http://dbpedia.org/resource/Al-Nazaza"},{"label":"Al-Nour, Syria","uri":"http://dbpedia.org/resource/Al-Nour,_Syria"},{"label":"Al-Ramlah, Syria","uri":"http://dbpedia.org/resource/Al-Ramlah,_Syria"},{"label":"Al-Salihiyah, Hama","uri":"http://dbpedia.org/resource/Al-Salihiyah,_Hama"},{"label":"Al-Sindiyana, Suqaylabiyah","uri":"http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"},{"label":"Al-Swaia","uri":"http://dbpedia.org/resource/Al-Swaia"},{"label":"Al-Thawrah, Hama Governorate","uri":"http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"},{"label":"Al-Tulaysiyah al-Janubiyah","uri":"http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"},{"label":"Al-Zitiyah","uri":"http://dbpedia.org/resource/Al-Zitiyah"},{"label":"Ammurin","uri":"http://dbpedia.org/resource/Ammurin"},{"label":"Ayn Dara","uri":"http://dbpedia.org/resource/Ayn_Dara"},{"label":"Balluneh","uri":"http://dbpedia.org/resource/Balluneh"},{"label":"Beij","uri":"http://dbpedia.org/resource/Beij"},{"label":"Bgheidid","uri":"http://dbpedia.org/resource/Bgheidid"},{"label":"Bustan Sbeih","uri":"http://dbpedia.org/resource/Bustan_Sbeih"},{"label":"Deir Sunbul","uri":"http://dbpedia.org/resource/Deir_Sunbul"},{"label":"Ein Elhamam","uri":"http://dbpedia.org/resource/Ein_Elhamam"},{"label":"Ein Warideh","uri":"http://dbpedia.org/resource/Ein_Warideh"},{"label":"Elrihana","uri":"http://dbpedia.org/resource/Elrihana"},{"label":"Fawrah","uri":"http://dbpedia.org/resource/Fawrah"},{"label":"Hamrit","uri":"http://dbpedia.org/resource/Hamrit"},{"label":"Hanuteh","uri":"http://dbpedia.org/resource/Hanuteh"},{"label":"Hdaj","uri":"http://dbpedia.org/resource/Hdaj"},{"label":"Jakuziyeh","uri":"http://dbpedia.org/resource/Jakuziyeh"},{"label":"Jamala, Hama","uri":"http://dbpedia.org/resource/Jamala,_Hama"},{"label":"Jeb Dkileh","uri":"http://dbpedia.org/resource/Jeb_Dkileh"},{"label":"Jeb Zreiq","uri":"http://dbpedia.org/resource/Jeb_Zreiq"},{"label":"Jessine","uri":"http://dbpedia.org/resource/Jessine"},{"label":"Karama, Hama","uri":"http://dbpedia.org/resource/Karama,_Hama"},{"label":"Kasun Eljabal","uri":"http://dbpedia.org/resource/Kasun_Eljabal"},{"label":"Kawri","uri":"http://dbpedia.org/resource/Kawri"},{"label":"Khala, Hama","uri":"http://dbpedia.org/resource/Khala,_Hama"},{"label":"Khansaa - Shetheh","uri":"http://dbpedia.org/resource/Khansaa_-_Shetheh"},{"label":"Maar Shamali","uri":"http://dbpedia.org/resource/Maar_Shamali"},{"label":"Makhbuta","uri":"http://dbpedia.org/resource/Makhbuta"},{"label":"Maksar, Hama","uri":"http://dbpedia.org/resource/Maksar,_Hama"},{"label":"Marana, Hama","uri":"http://dbpedia.org/resource/Marana,_Hama"},{"label":"Mashta Elshalahmeh","uri":"http://dbpedia.org/resource/Mashta_Elshalahmeh"},{"label":"Mastarihat Afamiyah","uri":"http://dbpedia.org/resource/Mastarihat_Afamiyah"},{"label":"Mrikb","uri":"http://dbpedia.org/resource/Mrikb"},{"label":"Mweileh","uri":"http://dbpedia.org/resource/Mweileh"},{"label":"Nabe Eltib","uri":"http://dbpedia.org/resource/Nabe_Eltib"},{"label":"Ojet - Kabasin Elarab","uri":"http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"},{"label":"Ojt Eltoba","uri":"http://dbpedia.org/resource/Ojt_Eltoba"},{"label":"Qal'at al-Jaras","uri":"http://dbpedia.org/resource/Qal'at_al-Jaras"},{"label":"Qanater, Hama Governorate","uri":"http://dbpedia.org/resource/Qanater,_Hama_Governorate"},{"label":"Qastal al-Burj","uri":"http://dbpedia.org/resource/Qastal_al-Burj"},{"label":"Ras al-Maara","uri":"http://dbpedia.org/resource/Ras_al-Maara"},{"label":"Rasm Al-Brdkana","uri":"http://dbpedia.org/resource/Rasm_Al-Brdkana"},{"label":"Rasm Amun","uri":"http://dbpedia.org/resource/Rasm_Amun"},{"label":"Rasm Anz","uri":"http://dbpedia.org/resource/Rasm_Anz"},{"label":"Rasm Elahmar","uri":"http://dbpedia.org/resource/Rasm_Elahmar"},{"label":"Rudat al-Tar","uri":"http://dbpedia.org/resource/Rudat_al-Tar"},{"label":"Rweideh","uri":"http://dbpedia.org/resource/Rweideh"},{"label":"Saidiyeh, Hama","uri":"http://dbpedia.org/resource/Saidiyeh,_Hama"},{"label":"Saqiyet Nijm","uri":"http://dbpedia.org/resource/Saqiyet_Nijm"},{"label":"Shahta","uri":"http://dbpedia.org/resource/Shahta"},{"label":"Shatheh","uri":"http://dbpedia.org/resource/Shatheh"},{"label":"Shaykh Ali","uri":"http://dbpedia.org/resource/Shaykh_Ali"},{"label":"Suwak al-Shamali","uri":"http://dbpedia.org/resource/Suwak_al-Shamali"},{"label":"Tabara Elhamra","uri":"http://dbpedia.org/resource/Tabara_Elhamra"},{"label":"Tahunet Elhalawa","uri":"http://dbpedia.org/resource/Tahunet_Elhalawa"},{"label":"Tell al-Shih","uri":"http://dbpedia.org/resource/Tell_al-Shih"}]},"combination":false}]}
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "BUILDING",
+            "returnType": "PERSON",
+            "frameType": "NPP",
+            "sentences": ["Give me the architect of ($x | BUILDING_NP)?", "Show me the architect of ($x | BUILDING_NP)?", "Tell me the architect of ($x | BUILDING_NP)?", "What is the architect of ($x | BUILDING_NP)?", "What was the architect of ($x | BUILDING_NP)?", "Which person is the architect of ($x | BUILDING_NP)?", "Which person was the architect of ($x | BUILDING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/architect> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Blackfriars Bridge",
+                        "uri": "http://dbpedia.org/resource/Blackfriars_Bridge"
+                    }, {
+                        "label": "Brooklyn Bridge",
+                        "uri": "http://dbpedia.org/resource/Brooklyn_Bridge"
+                    }, {
+                        "label": "List of tenants in One World Trade Center",
+                        "uri": "http://dbpedia.org/resource/List_of_tenants_in_One_World_Trade_Center"
+                    }, {
+                        "label": "Yosemite Valley",
+                        "uri": "http://dbpedia.org/resource/Yosemite_Valley"
+                    }, {
+                        "label": "Abraham Lincoln Statue (Kentucky)",
+                        "uri": "http://dbpedia.org/resource/Abraham_Lincoln_Statue_(Kentucky)"
+                    }, {
+                        "label": "Abraham Lincoln Statue and Park",
+                        "uri": "http://dbpedia.org/resource/Abraham_Lincoln_Statue_and_Park"
+                    }, {
+                        "label": "Church of the Nativity (Manhattan)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Nativity_(Manhattan)"
+                    }, {
+                        "label": "Episcopal Church of the Nativity (Huntsville, Alabama)",
+                        "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Nativity_(Huntsville,_Alabama)"
+                    }, {
+                        "label": "Fuller House (Syracuse, New York)",
+                        "uri": "http://dbpedia.org/resource/Fuller_House_(Syracuse,_New_York)"
+                    }, {
+                        "label": "Kingsbridge Armory",
+                        "uri": "http://dbpedia.org/resource/Kingsbridge_Armory"
+                    }, {
+                        "label": "Montezuma Fuller House",
+                        "uri": "http://dbpedia.org/resource/Montezuma_Fuller_House"
+                    }, {
+                        "label": "Sacred Heart Cathedral, New Delhi",
+                        "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral,_New_Delhi"
+                    }, {
+                        "label": "Sacred Heart Cathedral, Wellington",
+                        "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral,_Wellington"
+                    }, {
+                        "label": "Sacred Heart Cathedral (Dodge City, Kansas)",
+                        "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Dodge_City,_Kansas)"
+                    }, {
+                        "label": "Sacred Heart Cathedral (Salina, Kansas)",
+                        "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Salina,_Kansas)"
+                    }, {
+                        "label": "Somerset County Courthouse (Pennsylvania)",
+                        "uri": "http://dbpedia.org/resource/Somerset_County_Courthouse_(Pennsylvania)"
+                    }, {
+                        "label": "The Tower at Dubai Creek Harbour",
+                        "uri": "http://dbpedia.org/resource/The_Tower_at_Dubai_Creek_Harbour"
+                    }, {
+                        "label": "Trinity Lutheran Church (Canton, Ohio)",
+                        "uri": "http://dbpedia.org/resource/Trinity_Lutheran_Church_(Canton,_Ohio)"
+                    }, {
+                        "label": "Academy of Medicine (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
+                    }, {
+                        "label": "Ambassador Hotel (Tulsa, Oklahoma)",
+                        "uri": "http://dbpedia.org/resource/Ambassador_Hotel_(Tulsa,_Oklahoma)"
+                    }, {
+                        "label": "Amman (Spokane, Washington)",
+                        "uri": "http://dbpedia.org/resource/Amman_(Spokane,_Washington)"
+                    }, {
+                        "label": "Baldwin Bridge, Koblenz",
+                        "uri": "http://dbpedia.org/resource/Baldwin_Bridge,_Koblenz"
+                    }, {
+                        "label": "Biddlestone Chapel",
+                        "uri": "http://dbpedia.org/resource/Biddlestone_Chapel"
+                    }, {
+                        "label": "Bridge of Sighs (Oxford)",
+                        "uri": "http://dbpedia.org/resource/Bridge_of_Sighs_(Oxford)"
+                    }, {
+                        "label": "Brisbane Powerhouse",
+                        "uri": "http://dbpedia.org/resource/Brisbane_Powerhouse"
+                    }, {
+                        "label": "Büro Center Nibelungenplatz",
+                        "uri": "http://dbpedia.org/resource/Büro_Center_Nibelungenplatz"
+                    }, {
+                        "label": "Carroll Alsop House",
+                        "uri": "http://dbpedia.org/resource/Carroll_Alsop_House"
+                    }, {
+                        "label": "Center School (Omaha)",
+                        "uri": "http://dbpedia.org/resource/Center_School_(Omaha)"
+                    }, {
+                        "label": "Central Fire Station (Brockton, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Brockton,_Massachusetts)"
+                    }, {
+                        "label": "Central Fire Station (Falmouth, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Falmouth,_Massachusetts)"
+                    }, {
+                        "label": "Central Fire Station (Taunton, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Taunton,_Massachusetts)"
+                    }, {
+                        "label": "Central YMCA (Cleveland, Ohio)",
+                        "uri": "http://dbpedia.org/resource/Central_YMCA_(Cleveland,_Ohio)"
+                    }, {
+                        "label": "Charles F. Adams House",
+                        "uri": "http://dbpedia.org/resource/Charles_F._Adams_House"
+                    }, {
+                        "label": "Church of Our Lady of Laeken",
+                        "uri": "http://dbpedia.org/resource/Church_of_Our_Lady_of_Laeken"
+                    }, {
+                        "label": "Church of the Ascension, Hall Green",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Hall_Green"
+                    }, {
+                        "label": "Church of the Ascension, Malvern Link",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Malvern_Link"
+                    }, {
+                        "label": "Church of the Ascension, Roman Catholic (Manhattan)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Roman_Catholic_(Manhattan)"
+                    }, {
+                        "label": "Church of the Ascension (Fall River, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension_(Fall_River,_Massachusetts)"
+                    }, {
+                        "label": "Church of the Ascension and Saint Agnes",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension_and_Saint_Agnes"
+                    }, {
+                        "label": "Church of the Transfiguration (Blue Mountain Lake, New York)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Transfiguration_(Blue_Mountain_Lake,_New_York)"
+                    }, {
+                        "label": "Edward H. Bennett House and Studio",
+                        "uri": "http://dbpedia.org/resource/Edward_H._Bennett_House_and_Studio"
+                    }, {
+                        "label": "Edward W. Bok Technical High School",
+                        "uri": "http://dbpedia.org/resource/Edward_W._Bok_Technical_High_School"
+                    }, {
+                        "label": "Elmer Holmes Bobst Library",
+                        "uri": "http://dbpedia.org/resource/Elmer_Holmes_Bobst_Library"
+                    }, {
+                        "label": "Episcopal Church of the Advent / St. John's Chapel",
+                        "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Advent_/_St._John's_Chapel"
+                    }, {
+                        "label": "Episcopal Church of the Ascension (Sierra Madre, California)",
+                        "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Ascension_(Sierra_Madre,_California)"
+                    }, {
+                        "label": "First Presbyterian Church, Leavenworth",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church,_Leavenworth"
+                    }, {
+                        "label": "First Presbyterian Church (Augusta, Georgia)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Augusta,_Georgia)"
+                    }, {
+                        "label": "First Presbyterian Church (Cottage Grove, Oregon)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Cottage_Grove,_Oregon)"
+                    }, {
+                        "label": "First Presbyterian Church (Detroit, Michigan)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Detroit,_Michigan)"
+                    }, {
+                        "label": "First Presbyterian Church (Fayetteville, North Carolina)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Fayetteville,_North_Carolina)"
+                    }, {
+                        "label": "First Presbyterian Church (Hartford City, Indiana)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hartford_City,_Indiana)"
+                    }, {
+                        "label": "First Presbyterian Church (Hastings, Minnesota)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hastings,_Minnesota)"
+                    }, {
+                        "label": "First Presbyterian Church (Hot Springs, Arkansas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hot_Springs,_Arkansas)"
+                    }, {
+                        "label": "First Presbyterian Church (Lexington, Kentucky)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Lexington,_Kentucky)"
+                    }, {
+                        "label": "First Presbyterian Church (Little Rock, Arkansas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Little_Rock,_Arkansas)"
+                    }, {
+                        "label": "First Presbyterian Church (Lonoke, Arkansas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Lonoke,_Arkansas)"
+                    }, {
+                        "label": "First Presbyterian Church (Mankato, Minnesota)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Mankato,_Minnesota)"
+                    }, {
+                        "label": "First Presbyterian Church (Napoleon, Ohio)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Napoleon,_Ohio)"
+                    }, {
+                        "label": "First Presbyterian Church (Newport, Arkansas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Newport,_Arkansas)"
+                    }, {
+                        "label": "First Presbyterian Church (Oshkosh, Wisconsin)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Oshkosh,_Wisconsin)"
+                    }, {
+                        "label": "First Presbyterian Church (Palestine, Texas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Palestine,_Texas)"
+                    }, {
+                        "label": "First Presbyterian Church (Portland, Oregon)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Portland,_Oregon)"
+                    }, {
+                        "label": "First Presbyterian Church (Racine, Wisconsin)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Racine,_Wisconsin)"
+                    }, {
+                        "label": "First Presbyterian Church (San Luis Obispo, California)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(San_Luis_Obispo,_California)"
+                    }, {
+                        "label": "First Presbyterian Church (Spalding, Nebraska)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Spalding,_Nebraska)"
+                    }, {
+                        "label": "First Presbyterian Church (Tacoma, Washington)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Tacoma,_Washington)"
+                    }, {
+                        "label": "First Presbyterian Church (Utica, New York)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Utica,_New_York)"
+                    }, {
+                        "label": "First Presbyterian Church and Lewis Pintard House",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_and_Lewis_Pintard_House"
+                    }, {
+                        "label": "First Presbyterian Church of Far Rockaway",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Far_Rockaway"
+                    }, {
+                        "label": "First Presbyterian Church of Meridian",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Meridian"
+                    }, {
+                        "label": "First Presbyterian Church of Oyster Bay",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Oyster_Bay"
+                    }, {
+                        "label": "Frederick Stearns Building",
+                        "uri": "http://dbpedia.org/resource/Frederick_Stearns_Building"
+                    }, {
+                        "label": "Frölunda Torg",
+                        "uri": "http://dbpedia.org/resource/Frölunda_Torg"
+                    }, {
+                        "label": "Garden District (Montgomery, Alabama)",
+                        "uri": "http://dbpedia.org/resource/Garden_District_(Montgomery,_Alabama)"
+                    }, {
+                        "label": "Gemini Residence",
+                        "uri": "http://dbpedia.org/resource/Gemini_Residence"
+                    }, {
+                        "label": "Glaspalast Sindelfingen",
+                        "uri": "http://dbpedia.org/resource/Glaspalast_Sindelfingen"
+                    }, {
+                        "label": "Grace Church (Cincinnati, Ohio)",
+                        "uri": "http://dbpedia.org/resource/Grace_Church_(Cincinnati,_Ohio)"
+                    }, {
+                        "label": "Grace Church (Newark)",
+                        "uri": "http://dbpedia.org/resource/Grace_Church_(Newark)"
+                    }, {
+                        "label": "Grace Church (Utica, New York)",
+                        "uri": "http://dbpedia.org/resource/Grace_Church_(Utica,_New_York)"
+                    }, {
+                        "label": "Grace Church Van Vorst",
+                        "uri": "http://dbpedia.org/resource/Grace_Church_Van_Vorst"
+                    }, {
+                        "label": "Grace Episcopal Church (Galveston, Texas)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Galveston,_Texas)"
+                    }, {
+                        "label": "Grace Episcopal Church (Jamestown, North Dakota)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Jamestown,_North_Dakota)"
+                    }, {
+                        "label": "Grace Episcopal Church (Keswick, Virginia)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Keswick,_Virginia)"
+                    }, {
+                        "label": "Grace Episcopal Church (Lawrence, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Lawrence,_Massachusetts)"
+                    }, {
+                        "label": "Grace Episcopal Church (Madison, Wisconsin)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Madison,_Wisconsin)"
+                    }, {
+                        "label": "Grace Episcopal Church (Medford, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Medford,_Massachusetts)"
+                    }, {
+                        "label": "Grace Episcopal Church (Minnewaukan, North Dakota)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Minnewaukan,_North_Dakota)"
+                    }, {
+                        "label": "Grace Episcopal Church (Pembina, North Dakota)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Pembina,_North_Dakota)"
+                    }, {
+                        "label": "Grace Episcopal Church (Spring Hill, Tennessee)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Spring_Hill,_Tennessee)"
+                    }, {
+                        "label": "Grand Concourse Apartments",
+                        "uri": "http://dbpedia.org/resource/Grand_Concourse_Apartments"
+                    }, {
+                        "label": "Grand Opera House (Wilmington, Delaware)",
+                        "uri": "http://dbpedia.org/resource/Grand_Opera_House_(Wilmington,_Delaware)"
+                    }, {
+                        "label": "Green Bridge (New Orleans)",
+                        "uri": "http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"
+                    }, {
+                        "label": "Holy Trinity Church, Ashby-de-la-Zouch",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Ashby-de-la-Zouch"
+                    }, {
+                        "label": "Holy Trinity Church, Bickerton",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bickerton"
+                    }, {
+                        "label": "Holy Trinity Church, Birchfield",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Birchfield"
+                    }, {
+                        "label": "Holy Trinity Church, Blackburn",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Blackburn"
+                    }, {
+                        "label": "Holy Trinity Church, Blackpool",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Blackpool"
+                    }, {
+                        "label": "Holy Trinity Church, Bolton",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton"
+                    }, {
+                        "label": "Holy Trinity Church, Bolton-le-Sands",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton-le-Sands"
+                    }, {
+                        "label": "Holy Trinity Church, Bordesley",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bordesley"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "BUILDING",
+            "returnType": "PERSON",
+            "frameType": "NPP",
+            "sentences": ["the architect of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/architect> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Blackfriars Bridge",
+                        "uri": "http://dbpedia.org/resource/Blackfriars_Bridge"
+                    }, {
+                        "label": "Brooklyn Bridge",
+                        "uri": "http://dbpedia.org/resource/Brooklyn_Bridge"
+                    }, {
+                        "label": "List of tenants in One World Trade Center",
+                        "uri": "http://dbpedia.org/resource/List_of_tenants_in_One_World_Trade_Center"
+                    }, {
+                        "label": "Yosemite Valley",
+                        "uri": "http://dbpedia.org/resource/Yosemite_Valley"
+                    }, {
+                        "label": "Abraham Lincoln Statue (Kentucky)",
+                        "uri": "http://dbpedia.org/resource/Abraham_Lincoln_Statue_(Kentucky)"
+                    }, {
+                        "label": "Abraham Lincoln Statue and Park",
+                        "uri": "http://dbpedia.org/resource/Abraham_Lincoln_Statue_and_Park"
+                    }, {
+                        "label": "Church of the Nativity (Manhattan)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Nativity_(Manhattan)"
+                    }, {
+                        "label": "Episcopal Church of the Nativity (Huntsville, Alabama)",
+                        "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Nativity_(Huntsville,_Alabama)"
+                    }, {
+                        "label": "Fuller House (Syracuse, New York)",
+                        "uri": "http://dbpedia.org/resource/Fuller_House_(Syracuse,_New_York)"
+                    }, {
+                        "label": "Kingsbridge Armory",
+                        "uri": "http://dbpedia.org/resource/Kingsbridge_Armory"
+                    }, {
+                        "label": "Montezuma Fuller House",
+                        "uri": "http://dbpedia.org/resource/Montezuma_Fuller_House"
+                    }, {
+                        "label": "Sacred Heart Cathedral, New Delhi",
+                        "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral,_New_Delhi"
+                    }, {
+                        "label": "Sacred Heart Cathedral, Wellington",
+                        "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral,_Wellington"
+                    }, {
+                        "label": "Sacred Heart Cathedral (Dodge City, Kansas)",
+                        "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Dodge_City,_Kansas)"
+                    }, {
+                        "label": "Sacred Heart Cathedral (Salina, Kansas)",
+                        "uri": "http://dbpedia.org/resource/Sacred_Heart_Cathedral_(Salina,_Kansas)"
+                    }, {
+                        "label": "Somerset County Courthouse (Pennsylvania)",
+                        "uri": "http://dbpedia.org/resource/Somerset_County_Courthouse_(Pennsylvania)"
+                    }, {
+                        "label": "The Tower at Dubai Creek Harbour",
+                        "uri": "http://dbpedia.org/resource/The_Tower_at_Dubai_Creek_Harbour"
+                    }, {
+                        "label": "Trinity Lutheran Church (Canton, Ohio)",
+                        "uri": "http://dbpedia.org/resource/Trinity_Lutheran_Church_(Canton,_Ohio)"
+                    }, {
+                        "label": "Academy of Medicine (Atlanta)",
+                        "uri": "http://dbpedia.org/resource/Academy_of_Medicine_(Atlanta)"
+                    }, {
+                        "label": "Ambassador Hotel (Tulsa, Oklahoma)",
+                        "uri": "http://dbpedia.org/resource/Ambassador_Hotel_(Tulsa,_Oklahoma)"
+                    }, {
+                        "label": "Amman (Spokane, Washington)",
+                        "uri": "http://dbpedia.org/resource/Amman_(Spokane,_Washington)"
+                    }, {
+                        "label": "Baldwin Bridge, Koblenz",
+                        "uri": "http://dbpedia.org/resource/Baldwin_Bridge,_Koblenz"
+                    }, {
+                        "label": "Biddlestone Chapel",
+                        "uri": "http://dbpedia.org/resource/Biddlestone_Chapel"
+                    }, {
+                        "label": "Bridge of Sighs (Oxford)",
+                        "uri": "http://dbpedia.org/resource/Bridge_of_Sighs_(Oxford)"
+                    }, {
+                        "label": "Brisbane Powerhouse",
+                        "uri": "http://dbpedia.org/resource/Brisbane_Powerhouse"
+                    }, {
+                        "label": "Büro Center Nibelungenplatz",
+                        "uri": "http://dbpedia.org/resource/Büro_Center_Nibelungenplatz"
+                    }, {
+                        "label": "Carroll Alsop House",
+                        "uri": "http://dbpedia.org/resource/Carroll_Alsop_House"
+                    }, {
+                        "label": "Center School (Omaha)",
+                        "uri": "http://dbpedia.org/resource/Center_School_(Omaha)"
+                    }, {
+                        "label": "Central Fire Station (Brockton, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Brockton,_Massachusetts)"
+                    }, {
+                        "label": "Central Fire Station (Falmouth, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Falmouth,_Massachusetts)"
+                    }, {
+                        "label": "Central Fire Station (Taunton, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Central_Fire_Station_(Taunton,_Massachusetts)"
+                    }, {
+                        "label": "Central YMCA (Cleveland, Ohio)",
+                        "uri": "http://dbpedia.org/resource/Central_YMCA_(Cleveland,_Ohio)"
+                    }, {
+                        "label": "Charles F. Adams House",
+                        "uri": "http://dbpedia.org/resource/Charles_F._Adams_House"
+                    }, {
+                        "label": "Church of Our Lady of Laeken",
+                        "uri": "http://dbpedia.org/resource/Church_of_Our_Lady_of_Laeken"
+                    }, {
+                        "label": "Church of the Ascension, Hall Green",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Hall_Green"
+                    }, {
+                        "label": "Church of the Ascension, Malvern Link",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Malvern_Link"
+                    }, {
+                        "label": "Church of the Ascension, Roman Catholic (Manhattan)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Roman_Catholic_(Manhattan)"
+                    }, {
+                        "label": "Church of the Ascension (Fall River, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension_(Fall_River,_Massachusetts)"
+                    }, {
+                        "label": "Church of the Ascension and Saint Agnes",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension_and_Saint_Agnes"
+                    }, {
+                        "label": "Church of the Transfiguration (Blue Mountain Lake, New York)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Transfiguration_(Blue_Mountain_Lake,_New_York)"
+                    }, {
+                        "label": "Edward H. Bennett House and Studio",
+                        "uri": "http://dbpedia.org/resource/Edward_H._Bennett_House_and_Studio"
+                    }, {
+                        "label": "Edward W. Bok Technical High School",
+                        "uri": "http://dbpedia.org/resource/Edward_W._Bok_Technical_High_School"
+                    }, {
+                        "label": "Elmer Holmes Bobst Library",
+                        "uri": "http://dbpedia.org/resource/Elmer_Holmes_Bobst_Library"
+                    }, {
+                        "label": "Episcopal Church of the Advent / St. John's Chapel",
+                        "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Advent_/_St._John's_Chapel"
+                    }, {
+                        "label": "Episcopal Church of the Ascension (Sierra Madre, California)",
+                        "uri": "http://dbpedia.org/resource/Episcopal_Church_of_the_Ascension_(Sierra_Madre,_California)"
+                    }, {
+                        "label": "First Presbyterian Church, Leavenworth",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church,_Leavenworth"
+                    }, {
+                        "label": "First Presbyterian Church (Augusta, Georgia)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Augusta,_Georgia)"
+                    }, {
+                        "label": "First Presbyterian Church (Cottage Grove, Oregon)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Cottage_Grove,_Oregon)"
+                    }, {
+                        "label": "First Presbyterian Church (Detroit, Michigan)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Detroit,_Michigan)"
+                    }, {
+                        "label": "First Presbyterian Church (Fayetteville, North Carolina)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Fayetteville,_North_Carolina)"
+                    }, {
+                        "label": "First Presbyterian Church (Hartford City, Indiana)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hartford_City,_Indiana)"
+                    }, {
+                        "label": "First Presbyterian Church (Hastings, Minnesota)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hastings,_Minnesota)"
+                    }, {
+                        "label": "First Presbyterian Church (Hot Springs, Arkansas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Hot_Springs,_Arkansas)"
+                    }, {
+                        "label": "First Presbyterian Church (Lexington, Kentucky)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Lexington,_Kentucky)"
+                    }, {
+                        "label": "First Presbyterian Church (Little Rock, Arkansas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Little_Rock,_Arkansas)"
+                    }, {
+                        "label": "First Presbyterian Church (Lonoke, Arkansas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Lonoke,_Arkansas)"
+                    }, {
+                        "label": "First Presbyterian Church (Mankato, Minnesota)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Mankato,_Minnesota)"
+                    }, {
+                        "label": "First Presbyterian Church (Napoleon, Ohio)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Napoleon,_Ohio)"
+                    }, {
+                        "label": "First Presbyterian Church (Newport, Arkansas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Newport,_Arkansas)"
+                    }, {
+                        "label": "First Presbyterian Church (Oshkosh, Wisconsin)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Oshkosh,_Wisconsin)"
+                    }, {
+                        "label": "First Presbyterian Church (Palestine, Texas)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Palestine,_Texas)"
+                    }, {
+                        "label": "First Presbyterian Church (Portland, Oregon)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Portland,_Oregon)"
+                    }, {
+                        "label": "First Presbyterian Church (Racine, Wisconsin)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Racine,_Wisconsin)"
+                    }, {
+                        "label": "First Presbyterian Church (San Luis Obispo, California)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(San_Luis_Obispo,_California)"
+                    }, {
+                        "label": "First Presbyterian Church (Spalding, Nebraska)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Spalding,_Nebraska)"
+                    }, {
+                        "label": "First Presbyterian Church (Tacoma, Washington)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Tacoma,_Washington)"
+                    }, {
+                        "label": "First Presbyterian Church (Utica, New York)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Utica,_New_York)"
+                    }, {
+                        "label": "First Presbyterian Church and Lewis Pintard House",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_and_Lewis_Pintard_House"
+                    }, {
+                        "label": "First Presbyterian Church of Far Rockaway",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Far_Rockaway"
+                    }, {
+                        "label": "First Presbyterian Church of Meridian",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Meridian"
+                    }, {
+                        "label": "First Presbyterian Church of Oyster Bay",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_of_Oyster_Bay"
+                    }, {
+                        "label": "Frederick Stearns Building",
+                        "uri": "http://dbpedia.org/resource/Frederick_Stearns_Building"
+                    }, {
+                        "label": "Frölunda Torg",
+                        "uri": "http://dbpedia.org/resource/Frölunda_Torg"
+                    }, {
+                        "label": "Garden District (Montgomery, Alabama)",
+                        "uri": "http://dbpedia.org/resource/Garden_District_(Montgomery,_Alabama)"
+                    }, {
+                        "label": "Gemini Residence",
+                        "uri": "http://dbpedia.org/resource/Gemini_Residence"
+                    }, {
+                        "label": "Glaspalast Sindelfingen",
+                        "uri": "http://dbpedia.org/resource/Glaspalast_Sindelfingen"
+                    }, {
+                        "label": "Grace Church (Cincinnati, Ohio)",
+                        "uri": "http://dbpedia.org/resource/Grace_Church_(Cincinnati,_Ohio)"
+                    }, {
+                        "label": "Grace Church (Newark)",
+                        "uri": "http://dbpedia.org/resource/Grace_Church_(Newark)"
+                    }, {
+                        "label": "Grace Church (Utica, New York)",
+                        "uri": "http://dbpedia.org/resource/Grace_Church_(Utica,_New_York)"
+                    }, {
+                        "label": "Grace Church Van Vorst",
+                        "uri": "http://dbpedia.org/resource/Grace_Church_Van_Vorst"
+                    }, {
+                        "label": "Grace Episcopal Church (Galveston, Texas)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Galveston,_Texas)"
+                    }, {
+                        "label": "Grace Episcopal Church (Jamestown, North Dakota)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Jamestown,_North_Dakota)"
+                    }, {
+                        "label": "Grace Episcopal Church (Keswick, Virginia)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Keswick,_Virginia)"
+                    }, {
+                        "label": "Grace Episcopal Church (Lawrence, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Lawrence,_Massachusetts)"
+                    }, {
+                        "label": "Grace Episcopal Church (Madison, Wisconsin)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Madison,_Wisconsin)"
+                    }, {
+                        "label": "Grace Episcopal Church (Medford, Massachusetts)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Medford,_Massachusetts)"
+                    }, {
+                        "label": "Grace Episcopal Church (Minnewaukan, North Dakota)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Minnewaukan,_North_Dakota)"
+                    }, {
+                        "label": "Grace Episcopal Church (Pembina, North Dakota)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Pembina,_North_Dakota)"
+                    }, {
+                        "label": "Grace Episcopal Church (Spring Hill, Tennessee)",
+                        "uri": "http://dbpedia.org/resource/Grace_Episcopal_Church_(Spring_Hill,_Tennessee)"
+                    }, {
+                        "label": "Grand Concourse Apartments",
+                        "uri": "http://dbpedia.org/resource/Grand_Concourse_Apartments"
+                    }, {
+                        "label": "Grand Opera House (Wilmington, Delaware)",
+                        "uri": "http://dbpedia.org/resource/Grand_Opera_House_(Wilmington,_Delaware)"
+                    }, {
+                        "label": "Green Bridge (New Orleans)",
+                        "uri": "http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"
+                    }, {
+                        "label": "Holy Trinity Church, Ashby-de-la-Zouch",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Ashby-de-la-Zouch"
+                    }, {
+                        "label": "Holy Trinity Church, Bickerton",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bickerton"
+                    }, {
+                        "label": "Holy Trinity Church, Birchfield",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Birchfield"
+                    }, {
+                        "label": "Holy Trinity Church, Blackburn",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Blackburn"
+                    }, {
+                        "label": "Holy Trinity Church, Blackpool",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Blackpool"
+                    }, {
+                        "label": "Holy Trinity Church, Bolton",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton"
+                    }, {
+                        "label": "Holy Trinity Church, Bolton-le-Sands",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bolton-le-Sands"
+                    }, {
+                        "label": "Holy Trinity Church, Bordesley",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Bordesley"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Whitehaven, Memphis, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+                    }, {
+                        "label": "Lake Zabuye",
+                        "uri": "http://dbpedia.org/resource/Lake_Zabuye"
+                    }, {
+                        "label": "Mid-Atlantic states",
+                        "uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+                    }, {
+                        "label": "New England",
+                        "uri": "http://dbpedia.org/resource/New_England"
+                    }, {
+                        "label": "Kuta Raja",
+                        "uri": "http://dbpedia.org/resource/Kuta_Raja"
+                    }, {
+                        "label": "San Biagio Maggiore",
+                        "uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+                    }, {
+                        "label": "Namcha Barwa Himal",
+                        "uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+                    }, {
+                        "label": "San Nicola a Nilo",
+                        "uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+                    }, {
+                        "label": "Adra, Syria",
+                        "uri": "http://dbpedia.org/resource/Adra,_Syria"
+                    }, {
+                        "label": "Al-Mazraa",
+                        "uri": "http://dbpedia.org/resource/Al-Mazraa"
+                    }, {
+                        "label": "Al-Rastan",
+                        "uri": "http://dbpedia.org/resource/Al-Rastan"
+                    }, {
+                        "label": "Al-Hawash, Homs Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+                    }, {
+                        "label": "Ayn al-Bardah",
+                        "uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+                    }, {
+                        "label": "Khabab",
+                        "uri": "http://dbpedia.org/resource/Khabab"
+                    }, {
+                        "label": "Al-Kafr",
+                        "uri": "http://dbpedia.org/resource/Al-Kafr"
+                    }, {
+                        "label": "Deir Mama",
+                        "uri": "http://dbpedia.org/resource/Deir_Mama"
+                    }, {
+                        "label": "Madaya, Syria",
+                        "uri": "http://dbpedia.org/resource/Madaya,_Syria"
+                    }, {
+                        "label": "Tayru",
+                        "uri": "http://dbpedia.org/resource/Tayru"
+                    }, {
+                        "label": "Al-Khalidiyah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+                    }, {
+                        "label": "Al-Khalidiyah, al-Hasakah Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+                    }, {
+                        "label": "Basatin al-Assad",
+                        "uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+                    }, {
+                        "label": "Hala, Syria",
+                        "uri": "http://dbpedia.org/resource/Hala,_Syria"
+                    }, {
+                        "label": "Harran, Idlib",
+                        "uri": "http://dbpedia.org/resource/Harran,_Idlib"
+                    }, {
+                        "label": "Harran, as-Suwayda",
+                        "uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+                    }, {
+                        "label": "Harran al-Awamid",
+                        "uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+                    }, {
+                        "label": "Wadi al-Nasara",
+                        "uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+                    }, {
+                        "label": "Abu Khanadiq",
+                        "uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+                    }, {
+                        "label": "Abu Kleefun",
+                        "uri": "http://dbpedia.org/resource/Abu_Kleefun"
+                    }, {
+                        "label": "Abul Fashafish",
+                        "uri": "http://dbpedia.org/resource/Abul_Fashafish"
+                    }, {
+                        "label": "Al-'Amrah",
+                        "uri": "http://dbpedia.org/resource/Al-'Amrah"
+                    }, {
+                        "label": "Al-Atnah",
+                        "uri": "http://dbpedia.org/resource/Al-Atnah"
+                    }, {
+                        "label": "Al-Fayadiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+                    }, {
+                        "label": "Al-Humayra",
+                        "uri": "http://dbpedia.org/resource/Al-Humayra"
+                    }, {
+                        "label": "Al-Jarajir",
+                        "uri": "http://dbpedia.org/resource/Al-Jarajir"
+                    }, {
+                        "label": "Al-Khandaq al-Sharqiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+                    }, {
+                        "label": "Al-Muhajirin, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Narjis",
+                        "uri": "http://dbpedia.org/resource/Al-Narjis"
+                    }, {
+                        "label": "Al-Nazaza",
+                        "uri": "http://dbpedia.org/resource/Al-Nazaza"
+                    }, {
+                        "label": "Al-Nour, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+                    }, {
+                        "label": "Al-Ramlah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+                    }, {
+                        "label": "Al-Salihiyah, Hama",
+                        "uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+                    }, {
+                        "label": "Al-Sindiyana, Suqaylabiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+                    }, {
+                        "label": "Al-Swaia",
+                        "uri": "http://dbpedia.org/resource/Al-Swaia"
+                    }, {
+                        "label": "Al-Thawrah, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Tulaysiyah al-Janubiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+                    }, {
+                        "label": "Al-Zitiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Zitiyah"
+                    }, {
+                        "label": "Ammurin",
+                        "uri": "http://dbpedia.org/resource/Ammurin"
+                    }, {
+                        "label": "Ayn Dara",
+                        "uri": "http://dbpedia.org/resource/Ayn_Dara"
+                    }, {
+                        "label": "Balluneh",
+                        "uri": "http://dbpedia.org/resource/Balluneh"
+                    }, {
+                        "label": "Beij",
+                        "uri": "http://dbpedia.org/resource/Beij"
+                    }, {
+                        "label": "Bgheidid",
+                        "uri": "http://dbpedia.org/resource/Bgheidid"
+                    }, {
+                        "label": "Bustan Sbeih",
+                        "uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+                    }, {
+                        "label": "Deir Sunbul",
+                        "uri": "http://dbpedia.org/resource/Deir_Sunbul"
+                    }, {
+                        "label": "Ein Elhamam",
+                        "uri": "http://dbpedia.org/resource/Ein_Elhamam"
+                    }, {
+                        "label": "Ein Warideh",
+                        "uri": "http://dbpedia.org/resource/Ein_Warideh"
+                    }, {
+                        "label": "Elrihana",
+                        "uri": "http://dbpedia.org/resource/Elrihana"
+                    }, {
+                        "label": "Fawrah",
+                        "uri": "http://dbpedia.org/resource/Fawrah"
+                    }, {
+                        "label": "Hamrit",
+                        "uri": "http://dbpedia.org/resource/Hamrit"
+                    }, {
+                        "label": "Hanuteh",
+                        "uri": "http://dbpedia.org/resource/Hanuteh"
+                    }, {
+                        "label": "Hdaj",
+                        "uri": "http://dbpedia.org/resource/Hdaj"
+                    }, {
+                        "label": "Jakuziyeh",
+                        "uri": "http://dbpedia.org/resource/Jakuziyeh"
+                    }, {
+                        "label": "Jamala, Hama",
+                        "uri": "http://dbpedia.org/resource/Jamala,_Hama"
+                    }, {
+                        "label": "Jeb Dkileh",
+                        "uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+                    }, {
+                        "label": "Jeb Zreiq",
+                        "uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+                    }, {
+                        "label": "Jessine",
+                        "uri": "http://dbpedia.org/resource/Jessine"
+                    }, {
+                        "label": "Karama, Hama",
+                        "uri": "http://dbpedia.org/resource/Karama,_Hama"
+                    }, {
+                        "label": "Kasun Eljabal",
+                        "uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+                    }, {
+                        "label": "Kawri",
+                        "uri": "http://dbpedia.org/resource/Kawri"
+                    }, {
+                        "label": "Khala, Hama",
+                        "uri": "http://dbpedia.org/resource/Khala,_Hama"
+                    }, {
+                        "label": "Khansaa - Shetheh",
+                        "uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+                    }, {
+                        "label": "Maar Shamali",
+                        "uri": "http://dbpedia.org/resource/Maar_Shamali"
+                    }, {
+                        "label": "Makhbuta",
+                        "uri": "http://dbpedia.org/resource/Makhbuta"
+                    }, {
+                        "label": "Maksar, Hama",
+                        "uri": "http://dbpedia.org/resource/Maksar,_Hama"
+                    }, {
+                        "label": "Marana, Hama",
+                        "uri": "http://dbpedia.org/resource/Marana,_Hama"
+                    }, {
+                        "label": "Mashta Elshalahmeh",
+                        "uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+                    }, {
+                        "label": "Mastarihat Afamiyah",
+                        "uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+                    }, {
+                        "label": "Mrikb",
+                        "uri": "http://dbpedia.org/resource/Mrikb"
+                    }, {
+                        "label": "Mweileh",
+                        "uri": "http://dbpedia.org/resource/Mweileh"
+                    }, {
+                        "label": "Nabe Eltib",
+                        "uri": "http://dbpedia.org/resource/Nabe_Eltib"
+                    }, {
+                        "label": "Ojet - Kabasin Elarab",
+                        "uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+                    }, {
+                        "label": "Ojt Eltoba",
+                        "uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+                    }, {
+                        "label": "Qal'at al-Jaras",
+                        "uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+                    }, {
+                        "label": "Qanater, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+                    }, {
+                        "label": "Qastal al-Burj",
+                        "uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+                    }, {
+                        "label": "Ras al-Maara",
+                        "uri": "http://dbpedia.org/resource/Ras_al-Maara"
+                    }, {
+                        "label": "Rasm Al-Brdkana",
+                        "uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+                    }, {
+                        "label": "Rasm Amun",
+                        "uri": "http://dbpedia.org/resource/Rasm_Amun"
+                    }, {
+                        "label": "Rasm Anz",
+                        "uri": "http://dbpedia.org/resource/Rasm_Anz"
+                    }, {
+                        "label": "Rasm Elahmar",
+                        "uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+                    }, {
+                        "label": "Rudat al-Tar",
+                        "uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+                    }, {
+                        "label": "Rweideh",
+                        "uri": "http://dbpedia.org/resource/Rweideh"
+                    }, {
+                        "label": "Saidiyeh, Hama",
+                        "uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+                    }, {
+                        "label": "Saqiyet Nijm",
+                        "uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+                    }, {
+                        "label": "Shahta",
+                        "uri": "http://dbpedia.org/resource/Shahta"
+                    }, {
+                        "label": "Shatheh",
+                        "uri": "http://dbpedia.org/resource/Shatheh"
+                    }, {
+                        "label": "Shaykh Ali",
+                        "uri": "http://dbpedia.org/resource/Shaykh_Ali"
+                    }, {
+                        "label": "Suwak al-Shamali",
+                        "uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+                    }, {
+                        "label": "Tabara Elhamra",
+                        "uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+                    }, {
+                        "label": "Tahunet Elhalawa",
+                        "uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+                    }, {
+                        "label": "Tell al-Shih",
+                        "uri": "http://dbpedia.org/resource/Tell_al-Shih"
+                    }]
+            },
+            "combination": false
+        }]
+}

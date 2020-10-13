@@ -38,13 +38,19 @@ public class QueGG {
 
     public static void main(String[] args) {
         QueGG queGG = new QueGG();
+        ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions();
         Integer menu = 2;
         String content = "";
 
         if (menu == 1) {
             generateQuestions(args, queGG);
         } else if (menu == 2) {
-            ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions();
+            try {
+                readAndWriteQuestions.readQuestionAnswers(outputDir);
+            } catch (Exception ex) {
+                java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else if (menu == 3) {
             try {
                 //readAndWriteQuestions.readQuestionAnswers(outputDir);
                 CreateTree createTree = new CreateTree(QUESTION_ANSWER_LOCATION, QUESTION_ANSWER_FILE);
@@ -79,7 +85,7 @@ public class QueGG {
             queGG.init(language, inputDir, outputDir);
             //LOG.warn("To get optimal combinations of sentences please add the following types to {}\n{}",
             //        DomainOrRangeType.class.getName(), DomainOrRangeType.MISSING_TYPES.toString()
-           // );
+            // );
         } catch (IllegalArgumentException | IOException e) {
             System.err.printf("%s: %s%n", e.getClass().getSimpleName(), e.getMessage());
             System.err.printf("Usage: <%s> <input directory> <output directory>%n", Arrays.toString(Language.values()));

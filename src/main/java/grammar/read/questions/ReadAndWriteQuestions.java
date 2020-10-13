@@ -5,36 +5,20 @@ package grammar.read.questions;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import grammar.read.questions.CreateTree;
-import grammar.read.questions.GrammarEntries;
-import grammar.read.questions.GrammarEntryUnit;
-import grammar.read.questions.UriLabel;
-import grammar.read.questions.Tupple;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  *
  * @author elahi
  */
 public class ReadAndWriteQuestions {
-
-   
-   /* public static void main(String[] args) throws IOException, Exception {
-        ReadAndWriteQuestions guiMain=new ReadAndWriteQuestions();
-        guiMain.readQuestionAnswers();
-        String content = "";
-        CreateTree createTree = new CreateTree(QUESTION_ANSWER_LOCATION, QUESTION_ANSWER_FILE);
-        content = output(createTree.getInputTupples());
-        //System.out.println(content);
-        //read question data
-        //read();
-    }*/
+    private LinkedHashMap<String,String> questionAnswers=new LinkedHashMap<String,String>();
 
     public void readQuestionAnswers(String outputDir) throws IOException, Exception {
         List<File> list = getFiles(outputDir, "grammar_FULL_DATASET_EN", ".json");
@@ -42,21 +26,21 @@ public class ReadAndWriteQuestions {
             throw new Exception("No property files to process!!");
         }
         for (File file : list) {
-
             ObjectMapper mapper = new ObjectMapper();
             GrammarEntries grammarEntries = mapper.readValue(file, GrammarEntries.class);
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
-
-                List<String> questions = grammarEntryUnit.getSentences();
+                    String answer="Answer will be "+grammarEntryUnit.getReturnType()+" and can be found by running sparql for "+grammarEntryUnit.getReturnVariable()
+                            +" "+grammarEntryUnit.getSparqlQuery();
                 for (String question : grammarEntryUnit.getSentences()) {
-                    System.out.println(question);
+                      this.replaceVariables(question,grammarEntryUnit.getBindingList(),answer);
                 }
-                List<UriLabel> uriLabels = grammarEntryUnit.getBindingList();
-                for (UriLabel uriLabel : uriLabels) {
-                    System.out.println(uriLabel.getLabel());
-                    System.out.println(uriLabel.getUri());
-                }
+               
             }
+        }
+        
+        for(String question:questionAnswers.keySet()){
+            System.out.println(question);
+            //System.out.println(questionAnswers.get(question));
         }
     }
 
@@ -82,6 +66,16 @@ public class ReadAndWriteQuestions {
         return str;
     }
 
-  
+    private void replaceVariables(String question, List<UriLabel> uriLabels,String answer) {
+        if (question.contains("(") && question.contains(")")) {
+            String result = StringUtils.substringBetween(question, "(", ")");
+            question = question.replace("(", "");
+            question = question.replace(")", "");
+            for (UriLabel uriLabel : uriLabels) {
+                question = question.replace(result, uriLabel.getLabel());
+                questionAnswers.put(question,answer);
+            }
+        }
+    }
 
 }
