@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grammar.read.result;
+package grammar.read.questions;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -13,7 +13,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  * @author elahi
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class SentenceToSparqlParameterMapping {
+public class SentenceToSparql {
 
     @JsonProperty("x")
     private String x;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grammar.read.result;
+package grammar.read.questions;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -38,7 +38,7 @@ public class GrammarEntryUnit {
     @JsonProperty("sparqlQuery")
     private String sparqlQuery;
     @JsonProperty("sentenceToSparqlParameterMapping")
-    private SentenceToSparqlParameterMapping sentenceToSparqlParameterMapping;
+    private SentenceToSparql sentenceToSparqlParameterMapping;
     @JsonProperty("returnVariable")
     private String returnVariable;
     @JsonProperty("sentenceBindings")
