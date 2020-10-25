@@ -23,7 +23,7 @@
         <h2>Ask a question</h2>
         
         <?php
-        $text = shell_exec("java -jar /var/www/html/question-answering/target/QuestionGrammarGenerator.jar");
+        $text = shell_exec("java -jar /var/www/html/question-grammar-generator/target/QuestionGrammarGenerator.jar");
 
 
         $myArray = explode(PHP_EOL, $text);
@@ -51,7 +51,7 @@
         <!--Make sure the form has the autocomplete function switched off:-->
         <form autocomplete="off" id="form_id"> 
             <div class="autocomplete" style="width:300px;"> 
-                <textarea id="myInput"  cols="100" rows="2" type="text" placeholder="What/how.." style="font-size: 14pt"></textarea>
+                <textarea id="myInput"  cols="100" rows="2" type="text" placeholder="" style="font-size: 14pt"></textarea>
             </div> 
             <!--input id="submit" type="submit"--> 
             <!--input type="button" value="FindAnswer"-->

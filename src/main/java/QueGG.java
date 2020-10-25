@@ -36,36 +36,42 @@ public class QueGG {
     private static String inputDir = "src/main/resources/lexicon/en/nouns/input/";
     //this is a temporary solution. it will be removed later..
     private static String BaseDir = "/var/www/html/question-grammar-generator/";
-    private static String outputDir = BaseDir+"src/main/resources/lexicon/en/nouns/new/output/";
+    private static String outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
 
-    public static String QUESTION_ANSWER_LOCATION = BaseDir+"src/main/resources";
+    public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
     public static String QUESTION_ANSWER_FILE = "questions.txt";
 
+    //GENERATE_QUESTION_ANSWER_FROM_GRAMMAR=1
+    //PREPARE_QUESTION_ANSWER =1
+    // QUESTIONS_ANSWERS=2;
     public static void main(String[] args) {
         /*ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions();
         String subjProp="http://dbpedia.org/resource/Henri_Becquerel";
         String sparql = "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> ?objOfProp))";
         String answer=readAndWriteQuestions.getAnswer(subjProp,sparql,"NOUN");
         System.out.println(answer);
-        */
-        
+         */
         QueGG queGG = new QueGG();
+        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
+
         ReadAndWriteQuestions readAndWriteQuestions = null;
-        Integer menu = 2;
+        Integer menu = 3;
         String content = "";
 
         if (menu == 1) {
             generateQuestions(args, queGG);
         } else if (menu == 2) {
             try {
-                readAndWriteQuestions = new ReadAndWriteQuestions(QUESTION_ANSWER_LOCATION,QUESTION_ANSWER_FILE,outputDir,"grammar_FULL_DATASET_EN");
-                
-                 //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
+                readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN");
+                //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
                 //content = output(createTree.getInputTupples());
             } catch (Exception ex) {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
             }
-        
+
+        } else if (menu == 3) {
+            readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
+            System.out.println(readAndWriteQuestions.getContent());
         }
     }
 

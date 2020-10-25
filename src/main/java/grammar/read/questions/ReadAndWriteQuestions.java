@@ -6,11 +6,8 @@ package grammar.read.questions;
  * and open the template in the editor.
  */
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
@@ -22,31 +19,30 @@ import org.apache.commons.lang3.StringUtils;
 public class ReadAndWriteQuestions {
 
     private LinkedHashMap<String, String> questionAnswers = new LinkedHashMap<String, String>();
-    private String inputFileName = null;
+    private String content = null;
     public static String FRAMETYPE_NPP = "NPP";
-
-    public ReadAndWriteQuestions() {
+    public ReadAndWriteQuestions(String questionAnswerFile)  {
+        this.content = FileUtils.fileToString(questionAnswerFile);
 
     }
 
-    public ReadAndWriteQuestions(String QUESTION_ANSWER_LOCATION, String QUESTION_ANSWER_FILE, String outputDir, String outputFile) throws Exception {
-        this.inputFileName = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
-        List<File> list = getFiles(outputDir, outputFile, ".json");
+    public ReadAndWriteQuestions(String questionAnswerFile, String inputFileDir, String inputFile) throws Exception{
+        List<File> list = FileUtils.getFiles(inputFileDir, inputFile, ".json");
         if (list.isEmpty()) {
-            throw new Exception("No property files to process!!");
+            throw new Exception("No files to process for question answering system!!");
+        } else {
+            this.readQuestionAnswers(list);
         }
-        this.readQuestionAnswers(list);
-        for(String key:questionAnswers.keySet()){
-            System.out.println(key);
-             System.out.println(questionAnswers.get(key));
+        this.content =this.prepareQuestionAnswerStr();
 
-        }
-        //this.writeQuestionAnswers();
+        FileUtils.stringToFile(this.content, questionAnswerFile);
     }
 
     private void readQuestionAnswers(List<File> fileList) throws Exception {
         String sparql = null;
+        Integer index = 0;
         for (File file : fileList) {
+            index = index + 1;
             ObjectMapper mapper = new ObjectMapper();
             GrammarEntries grammarEntries = mapper.readValue(file, GrammarEntries.class);
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
@@ -54,31 +50,40 @@ public class ReadAndWriteQuestions {
                 for (String question : grammarEntryUnit.getSentences()) {
                     this.replaceVariables(question, grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
                 }
-
             }
         }
     }
 
     private void replaceVariables(String question, List<UriLabel> uriLabels, String sparql, String frameType) {
-        String result =null;
+        String result = null;
         if (question.contains("(") && question.contains(")")) {
             result = StringUtils.substringBetween(question, "(", ")");
             question = question.replace(result, "X");
-        }
-        /*else if(question.contains("$x")){
+        } else if (question.contains("$x")) {
             System.out.println(question);
-            
-        }*/
-        
-            for (UriLabel uriLabel : uriLabels) {
-                String questionT=question.replaceAll("(X)", uriLabel.getLabel());
-                questionT= questionT.replace("(", "");
-                questionT= questionT.replace(")", "");
-                String answer = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
-                System.out.println("answer:"+answer);
-                questionAnswers.put(questionT, answer);
-            }
-        
+
+        }
+        Integer index = 0;
+        for (UriLabel uriLabel : uriLabels) {
+            Boolean flag = false;
+            index = index + 1;
+            String questionT = question.replaceAll("(X)", uriLabel.getLabel());
+            questionT = questionT.replace("(", "");
+            questionT = questionT.replace(")", "");
+            /*if (questionT.contains("$x")) {
+                    flag=true;
+                }*/
+            questionT = questionT.replace("$x", uriLabel.getLabel());
+            String answer = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
+            //if(!flag){
+            System.out.println("questionT:" + questionT);
+            System.out.println("answer:" + answer);
+            //}
+
+            questionAnswers.put(questionT, answer);
+
+        }
+
     }
 
     public String getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
@@ -89,39 +94,18 @@ public class ReadAndWriteQuestions {
         return new SparqlQuery(subjProp, property).getObject();
     }
 
-    private String getContent() {
+    private String prepareQuestionAnswerStr() {
         String quesAnsStr = "";
         for (String question : questionAnswers.keySet()) {
-            String line = question + "=" + questionAnswers.get(question);
+            String line = question + "=" + questionAnswers.get(question) + "\n";
             quesAnsStr += line;
         }
         return quesAnsStr;
     }
 
-    private List<File> getFiles(String fileDir, String category, String extension) {
-                System.out.println("fileDir:"+fileDir);
 
-        String[] files = new File(fileDir).list();
-        List<File> selectedFiles = new ArrayList<File>();
-        for (String fileName : files) {
-            if (fileName.contains(category) && fileName.contains(extension)) {
-                selectedFiles.add(new File(fileDir + fileName));
-            }
-        }
-
-        return selectedFiles;
-
+    public String getContent() {
+        return content;
     }
 
-    private void writeQuestionAnswers()
-            throws IOException {
-        String quesAnsStr = this.getContent();
-        System.out.println(quesAnsStr);
-        BufferedWriter writer = new BufferedWriter(new FileWriter(this.inputFileName));
-        writer.write(quesAnsStr);
-        writer.close();
-
-    }
-
- 
 }
