@@ -52,12 +52,12 @@ public class QueGG {
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
 
         ReadAndWriteQuestions readAndWriteQuestions = null;
-        Integer menu = 2;
+        Integer task=3;
         String content = "";
 
-        if (menu == 1) {
+        if (task.equals(1)) {
             generateQuestions(args, queGG);
-        } else if (menu == 2) {
+        } else if (task.equals(2)) {
             try {
                 readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN");
                 //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
@@ -66,7 +66,7 @@ public class QueGG {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
             }
 
-        } else if (menu == 3) {
+        } else if (task.equals(3)) {
             readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
             System.out.println(readAndWriteQuestions.getContent());
         }
