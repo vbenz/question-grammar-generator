@@ -13,8 +13,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.apache.commons.lang3.StringUtils;
 
 /**
@@ -67,19 +65,23 @@ public class ReadAndWriteQuestions {
             result = StringUtils.substringBetween(question, "(", ")");
             question = question.replace(result, "X");
         }
+        /*else if(question.contains("$x")){
+            System.out.println(question);
+            
+        }*/
         
             for (UriLabel uriLabel : uriLabels) {
                 String questionT=question.replaceAll("(X)", uriLabel.getLabel());
                 questionT= questionT.replace("(", "");
                 questionT= questionT.replace(")", "");
-                String answer = this.getAnswer(uriLabel.getUri(), sparql, frameType);
-                System.out.println( questionT+" "+answer);
+                String answer = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
+                System.out.println("answer:"+answer);
                 questionAnswers.put(questionT, answer);
             }
         
     }
 
-    public String getAnswer(String subjProp, String sparql, String syntacticFrame) {
+    public String getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
         String property = null;
         if (syntacticFrame.contains(FRAMETYPE_NPP)) {
             property = StringUtils.substringBetween(sparql, "<", ">");
@@ -97,6 +99,8 @@ public class ReadAndWriteQuestions {
     }
 
     private List<File> getFiles(String fileDir, String category, String extension) {
+                System.out.println("fileDir:"+fileDir);
+
         String[] files = new File(fileDir).list();
         List<File> selectedFiles = new ArrayList<File>();
         for (String fileName : files) {

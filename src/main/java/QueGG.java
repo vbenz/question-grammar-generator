@@ -35,7 +35,7 @@ public class QueGG {
 
     private static String inputDir = "src/main/resources/lexicon/en/nouns/input/";
     //this is a temporary solution. it will be removed later..
-    private static String BaseDir = "/home/elahi/recent/question-grammar-generator/";
+    private static String BaseDir = "/var/www/html/question-grammar-generator/";
     private static String outputDir = BaseDir+"src/main/resources/lexicon/en/nouns/new/output/";
 
     public static String QUESTION_ANSWER_LOCATION = BaseDir+"src/main/resources";
