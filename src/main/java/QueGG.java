@@ -7,7 +7,6 @@ import grammar.read.questions.CreateTree;
 import static grammar.read.questions.CreateTree.INPUT_LOCATION;
 import static grammar.read.questions.CreateTree.INPUT_TEXT;
 import grammar.read.questions.ReadAndWriteQuestions;
-import static grammar.read.questions.ReadAndWriteQuestions.output;
 import grammar.structure.component.DomainOrRangeType;
 import grammar.structure.component.FrameType;
 import grammar.structure.component.GrammarEntry;
@@ -43,6 +42,13 @@ public class QueGG {
     public static String QUESTION_ANSWER_FILE = "questions.txt";
 
     public static void main(String[] args) {
+        /*ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions();
+        String subjProp="http://dbpedia.org/resource/Henri_Becquerel";
+        String sparql = "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> ?objOfProp))";
+        String answer=readAndWriteQuestions.getAnswer(subjProp,sparql,"NOUN");
+        System.out.println(answer);
+        */
+        
         QueGG queGG = new QueGG();
         ReadAndWriteQuestions readAndWriteQuestions = null;
         Integer menu = 2;
@@ -53,7 +59,6 @@ public class QueGG {
         } else if (menu == 2) {
             try {
                 readAndWriteQuestions = new ReadAndWriteQuestions(QUESTION_ANSWER_LOCATION,QUESTION_ANSWER_FILE,outputDir,"grammar_FULL_DATASET_EN");
-                System.out.println(readAndWriteQuestions.getQuesAnsStr());
                 
                  //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
                 //content = output(createTree.getInputTupples());

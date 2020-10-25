@@ -23,7 +23,7 @@
         <h2>Ask a question</h2>
         
         <?php
-        $text = shell_exec("java -jar /home/elahi/recent/question-grammar-generator/target/QuestionGrammarGenerator.jar");
+        $text = shell_exec("java -jar /var/www/html/question-answering/target/QuestionGrammarGenerator.jar");
 
 
         $myArray = explode(PHP_EOL, $text);

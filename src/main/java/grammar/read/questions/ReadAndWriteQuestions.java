@@ -25,62 +25,75 @@ public class ReadAndWriteQuestions {
 
     private LinkedHashMap<String, String> questionAnswers = new LinkedHashMap<String, String>();
     private String inputFileName = null;
-    private String quesAnsStr = null;
+    public static String FRAMETYPE_NPP = "NPP";
 
-    public ReadAndWriteQuestions(String QUESTION_ANSWER_LOCATION, String QUESTION_ANSWER_FILE, String outputDir, String outputFile) {
+    public ReadAndWriteQuestions() {
+
+    }
+
+    public ReadAndWriteQuestions(String QUESTION_ANSWER_LOCATION, String QUESTION_ANSWER_FILE, String outputDir, String outputFile) throws Exception {
         this.inputFileName = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
-        this.quesAnsStr = "";
-
-        try {
-            List<File> list = getFiles(outputDir, outputFile, ".json");
-            if (list.isEmpty()) {
-                throw new Exception("No property files to process!!");
-            }
-            this.readQuestionAnswers(list);
-            this.writeQuestionAnswers();
-        } catch (Exception ex) {
-            Logger.getLogger(ReadAndWriteQuestions.class.getName()).log(Level.SEVERE, null, ex);
+        List<File> list = getFiles(outputDir, outputFile, ".json");
+        if (list.isEmpty()) {
+            throw new Exception("No property files to process!!");
         }
+        this.readQuestionAnswers(list);
+        for(String key:questionAnswers.keySet()){
+            System.out.println(key);
+             System.out.println(questionAnswers.get(key));
+
+        }
+        //this.writeQuestionAnswers();
     }
 
     private void readQuestionAnswers(List<File> fileList) throws Exception {
-
+        String sparql = null;
         for (File file : fileList) {
             ObjectMapper mapper = new ObjectMapper();
             GrammarEntries grammarEntries = mapper.readValue(file, GrammarEntries.class);
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
-                String answer = "Answer will be " + grammarEntryUnit.getReturnType() + " and can be found by running sparql for " + grammarEntryUnit.getReturnVariable()
-                        + " " + grammarEntryUnit.getSparqlQuery();
+                sparql = grammarEntryUnit.getSparqlQuery();
                 for (String question : grammarEntryUnit.getSentences()) {
-                    this.replaceVariables(question, grammarEntryUnit.getBindingList(), answer);
+                    this.replaceVariables(question, grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
                 }
 
             }
         }
-
     }
 
-    private void writeQuestionAnswers()
-            throws IOException {
-        this.getContent();
-        BufferedWriter writer = new BufferedWriter(new FileWriter(this.inputFileName));
-        writer.write(this.quesAnsStr);
-        writer.close();
-
+    private void replaceVariables(String question, List<UriLabel> uriLabels, String sparql, String frameType) {
+        String result =null;
+        if (question.contains("(") && question.contains(")")) {
+            result = StringUtils.substringBetween(question, "(", ")");
+            question = question.replace(result, "X");
+        }
+        
+            for (UriLabel uriLabel : uriLabels) {
+                String questionT=question.replaceAll("(X)", uriLabel.getLabel());
+                questionT= questionT.replace("(", "");
+                questionT= questionT.replace(")", "");
+                String answer = this.getAnswer(uriLabel.getUri(), sparql, frameType);
+                System.out.println( questionT+" "+answer);
+                questionAnswers.put(questionT, answer);
+            }
+        
     }
 
-    private void getContent() {
+    public String getAnswer(String subjProp, String sparql, String syntacticFrame) {
+        String property = null;
+        if (syntacticFrame.contains(FRAMETYPE_NPP)) {
+            property = StringUtils.substringBetween(sparql, "<", ">");
+        }
+        return new SparqlQuery(subjProp, property).getObject();
+    }
+
+    private String getContent() {
+        String quesAnsStr = "";
         for (String question : questionAnswers.keySet()) {
             String line = question + "=" + questionAnswers.get(question);
-            this.quesAnsStr += line ;
+            quesAnsStr += line;
         }
-
-        /*for (String question : questionAnswers.keySet()) {
-            String questionLine = "Q: " + question + "\n";
-            String answerLine = "A: " + questionAnswers.get(question);
-            str += questionLine + answerLine;
-        }
-        return str;*/
+        return quesAnsStr;
     }
 
     private List<File> getFiles(String fileDir, String category, String extension) {
@@ -96,33 +109,15 @@ public class ReadAndWriteQuestions {
 
     }
 
-    public static String output(List<Tupple> inputTupples) throws IOException {
-        String str = "";
-        for (Tupple tupple : inputTupples) {
-            String line = tupple.getEntry() + " = " + tupple.getUri();
-            str += line + "\n";
-        }
-        return str;
+    private void writeQuestionAnswers()
+            throws IOException {
+        String quesAnsStr = this.getContent();
+        System.out.println(quesAnsStr);
+        BufferedWriter writer = new BufferedWriter(new FileWriter(this.inputFileName));
+        writer.write(quesAnsStr);
+        writer.close();
+
     }
 
-    private void replaceVariables(String question, List<UriLabel> uriLabels, String answer) {
-        if (question.contains("(") && question.contains(")")) {
-            String result = StringUtils.substringBetween(question, "(", ")");
-            question = question.replace("(", "");
-            question = question.replace(")", "");
-            for (UriLabel uriLabel : uriLabels) {
-                question = question.replace(result, uriLabel.getLabel());
-                questionAnswers.put(question, answer);
-            }
-        }
-    }
-
-    public String getInputFileName() {
-        return inputFileName;
-    }
-
-    public String getQuesAnsStr() {
-        return quesAnsStr;
-    }
-
+ 
 }
