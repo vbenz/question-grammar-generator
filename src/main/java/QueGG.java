@@ -3,9 +3,6 @@ import eu.monnetproject.lemon.LemonModel;
 import grammar.generator.BindingResolver;
 import grammar.generator.GrammarRuleGeneratorRoot;
 import grammar.generator.GrammarRuleGeneratorRootImpl;
-import grammar.read.questions.CreateTree;
-import static grammar.read.questions.CreateTree.INPUT_LOCATION;
-import static grammar.read.questions.CreateTree.INPUT_TEXT;
 import grammar.read.questions.ReadAndWriteQuestions;
 import grammar.structure.component.DomainOrRangeType;
 import grammar.structure.component.FrameType;
@@ -55,7 +52,7 @@ public class QueGG {
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
 
         ReadAndWriteQuestions readAndWriteQuestions = null;
-        Integer menu = 3;
+        Integer menu = 2;
         String content = "";
 
         if (menu == 1) {

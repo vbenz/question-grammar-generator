@@ -11,13 +11,6 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.DOMException;
@@ -33,12 +26,12 @@ import java.util.logging.Logger;
  *
  * @author elahi
  */
-public class SparqlQuery {
+public class TriggerSparqlQuery {
 
     private static String endpoint = "https://dbpedia.org/sparql";
     private String objectOfProperty;
 
-    public SparqlQuery(String entityUrl, String property) {
+    public TriggerSparqlQuery(String entityUrl, String property) {
         String sparqlQuery = this.setSparqlQueryProperty(entityUrl, property);
         //System.out.println("sparqlQuery:"+sparqlQuery);
         String resultSparql = executeSparqlQuery(sparqlQuery);
@@ -55,7 +48,7 @@ public class SparqlQuery {
             process = Runtime.getRuntime().exec(command);
             //System.out.print(command);
         } catch (Exception ex) {
-            Logger.getLogger(SparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TriggerSparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("error in unicode in sparql query!" + ex.getMessage());
             ex.printStackTrace();
         }
@@ -70,7 +63,7 @@ public class SparqlQuery {
             }
             result = builder.toString();
         } catch (IOException ex) {
-            Logger.getLogger(SparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TriggerSparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("error in reading sparql query!" + ex.getMessage());
             ex.printStackTrace();
         }
@@ -85,7 +78,7 @@ public class SparqlQuery {
             builder = factory.newDocumentBuilder();
             this.parseResult(builder, xmlStr);
         } catch (Exception ex) {
-            Logger.getLogger(SparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(TriggerSparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("error in parsing sparql in XML!" + ex.getMessage());
             ex.printStackTrace();
         }

@@ -5,6 +5,7 @@ package grammar.read.questions;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+import util.io.FileUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
@@ -91,7 +92,7 @@ public class ReadAndWriteQuestions {
         if (syntacticFrame.contains(FRAMETYPE_NPP)) {
             property = StringUtils.substringBetween(sparql, "<", ">");
         }
-        return new SparqlQuery(subjProp, property).getObject();
+        return new TriggerSparqlQuery(subjProp, property).getObject();
     }
 
     private String prepareQuestionAnswerStr() {

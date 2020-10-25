@@ -5,9 +5,6 @@
  */
 package grammar.read.questions;
 
-import java.util.HashMap;
-import java.util.List;
-
 /**
  *
  * @author elahi
