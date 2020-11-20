@@ -361,7 +361,7 @@ public class LexicalEntryUtil {
         
         //many things are hard coded currently, this is temporary code to solve the problem, it will be refactored later on.
         domainOrRangeResponse = "https://www.w3.org/2001/XMLSchema#gYear";
-        System.out.println(mapsToWho.toString());
+        //System.out.println(mapsToWho.toString());
         for (String key : mapsToWho) {
             if (key.contains("Year")) {
                 return SubjectType.INTERROGATIVE_TEMPORAL;

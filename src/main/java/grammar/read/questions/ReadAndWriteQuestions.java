@@ -61,7 +61,7 @@ public class ReadAndWriteQuestions {
             result = StringUtils.substringBetween(question, "(", ")");
             question = question.replace(result, "X");
         } else if (question.contains("$x")) {
-            System.out.println(question);
+            //System.out.println(question);
 
         }
         Integer index = 0;
@@ -77,8 +77,8 @@ public class ReadAndWriteQuestions {
             questionT = questionT.replace("$x", uriLabel.getLabel());
             String answer = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
             //if(!flag){
-            System.out.println("questionT:" + questionT);
-            System.out.println("answer:" + answer);
+            //System.out.println("questionT:" + questionT);
+            //System.out.println("answer:" + answer);
             //}
 
             questionAnswers.put(questionT, answer);

@@ -46,7 +46,7 @@ public class FileUtils {
                 line = buf.readLine();
             }
             fileAsString = sb.toString();
-            System.out.println("Contents : " + fileAsString);
+            //System.out.println("Contents : " + fileAsString);
         } catch (Exception ex) {
             Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, ex);
         }
