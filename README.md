@@ -4,11 +4,10 @@ A question grammar generator based on Lemon turtle lexica and DBPedia ontology.
 ## Compile And Run
 <p>The source code can be compiled and run using <em>Java 11</em> and <em>Maven</em>.</p>
 
-To install QueGG to your local maven repository:
 ```shell script
 mvn clean install
 ```
-You can also build a jar file like this:
+build the jar file
 ```shell script
 mvn clean package
 ```
