@@ -12,26 +12,15 @@ You can also build a jar file like this:
 ```shell script
 mvn clean package
 ```
-The jar file will be written to `target\QuestionGrammarGenerator.jar`
-
-To execute this jar you have to provide some parameters ([see Program Arguments](#Program-Arguments)).
-
-E.g. in order to read some english turtle lexicon files from the relative directory `lexicon/en` and write the output files to the execution directory you can execute:
-````shell script
-java -jar QuestionGrammarGenerator.jar EN lexicon/en .
-````
-## Program Arguments
-
-QueGG takes three parameters:
-```
-<language> <input_directory> <output_director>
-```
+Run the system:
 - language: `EN` or `DE`
 - input_directory: The directory that contains the turtle lexicon files that will be processed by QueGG
 - output_director: The output directory for the json grammar entry files that are produced by QueGG
 
-> So far only the language parameter `EN` will actually yield results.
-
+````shell script
+java -jar <jar file> <language> <input_directory> <output_director>
+java -jar target/QuestionGrammarGenerator.jar EN lexicon/en output
+````
 ## Functionality And Examples
 
 ### Input File Definition
