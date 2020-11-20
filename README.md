@@ -3,13 +3,13 @@ A question grammar generator based on Lemon turtle lexica and DBPedia ontology.
 
 ## Compile And Run
 <p>The source code can be compiled and run using <em>Java 11</em> and <em>Maven</em>.</p>
-### compile and build
+compile and build
 ```shell script
 mvn clean install
 
 mvn clean package
 ```
-### Run:
+Run
 ````shell script
 java -jar <jar file> <language> <input_directory> <output_director>
 java -jar target/QuestionGrammarGenerator.jar EN lexicon/en output
