@@ -158,13 +158,9 @@ sentenceBindings.bindingList.label | The language specific label that was retrie
 sentenceBindings.bindingList.uri | The DBPedia ontology reference URI, will be identical to label for literals - can be used to insert into the SPARQL query 
 combination | A flag that shows if this grammar entry is a combination of multiple grammar entries or a base entry
 
-In total QueGG produces three output files:
-1. `grammar_FULL_DATASET_<LANGUAGE>.json`
+QueGG produces the following output:
+`grammar_FULL_DATASET_<LANGUAGE>.json`
 > Contains all base grammar entries (SentenceType: SENTENCE and NP)
-2. `grammar_COMBINATIONS_<LANGUAGE>.json`
-> Contains all combined grammar entries (SentenceType: SENTENCE only)
-3. `grammar_FULL_WITH_BINDINGS_<LANGUAGE>.json`
-> Contains all base and combined (SentenceType: SENTENCE) grammar entries with every of their possible bindings inserted into the sentences and SPARQL queries
 
 ## Parsing Grammar Entries
 
