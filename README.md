@@ -3,21 +3,23 @@ A question grammar generator based on Lemon turtle lexica and DBPedia ontology.
 
 ## Compile And Run
 <p>The source code can be compiled and run using <em>Java 11</em> and <em>Maven</em>.</p>
-compile and build
+
 ```shell script
 mvn clean install
-
+```
+build the jar file
+```shell script
 mvn clean package
 ```
-Run
-````shell script
-java -jar <jar file> <language> <input_directory> <output_director>
-java -jar target/QuestionGrammarGenerator.jar EN lexicon/en output
-````
+Run the system:
 - language: `EN` or `DE`
 - input_directory: The directory that contains the turtle lexicon files that will be processed by QueGG
 - output_director: The output directory for the json grammar entry files that are produced by QueGG
 
+````shell script
+java -jar <jar file> <language> <input_directory> <output_director>
+java -jar target/QuestionGrammarGenerator.jar EN lexicon/en output
+````
 ## Functionality And Examples
 
 ### Input File Definition
