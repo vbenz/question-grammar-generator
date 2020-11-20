@@ -180,30 +180,13 @@ An elaborate example on how to parse the above output files and compile the alge
 
 ## Used Frameworks And Libraries
 
-### Lemon API
-QueGG uses the Lemon API to parse and access the properties of the turtle lexicon files. The API and more information on the Lemon API can be found here: https://github.com/monnetproject/lemon.api
-
-### DBPedia
-QueGG uses the [DBPedia](https://wiki.dbpedia.org) [SPARQL endpoint](http://dbpedia.org/sparql) to access the DBPedia Ontology.
+- Lemon API: QueGG uses the Lemon API to parse and access the properties of the turtle lexicon files. The API and more information on the Lemon API can be found here: https://github.com/monnetproject/lemon.api
+- DBPedia: QueGG uses the [DBPedia](https://wiki.dbpedia.org) [SPARQL endpoint](http://dbpedia.org/sparql) to access the DBPedia Ontology.
 All URIs in the SPARQL query and the binding list point to entities in the DBPedia Ontology.
-
-### Jena
-QueGG uses [Jena](https://github.com/apache/jena) to create, parse and execute SPARQL queries.
-
-### Jackson Databind
-QueGG uses [Jackson Databind](https://github.com/FasterXML/jackson-databind) to write and read the grammar entry JSON files.
-
-### Lombok
-QueGG uses [Lombok](https://github.com/rzwitserloot/lombok) to... well save time and skip writing those getters and setters!
-
-### OpenCSV
-QueGG uses [OpenCSV](https://github.com/loretoparisi/opencsv) to write the CSV file for the evaluation.
-
-### QALD
-QueGG uses a file from the [QALD](https://github.com/ag-sc/QALD/blob/master/7/data/qald-7-train-multilingual.json) dataset to evaluate the generated sentences and SPARQL queries.
-
-### Log4J 2
-QueGG uses [Log4J 2](https://github.com/apache/logging-log4j2) for logging.
-
-### JUnit Jupiter
-QueGG uses JUnit Jupiter for testing.
+- Jena: QueGG uses [Jena](https://github.com/apache/jena) to create, parse and execute SPARQL queries.
+- Jackson Databind:QueGG uses [Jackson Databind](https://github.com/FasterXML/jackson-databind) to write and read the grammar entry JSON files.
+- Lombok: QueGG uses [Lombok](https://github.com/rzwitserloot/lombok) to... well save time and skip writing those getters and setters!
+- OpenCSV:QueGG uses [OpenCSV](https://github.com/loretoparisi/opencsv) to write the CSV file for the evaluation.
+- QALD: QueGG uses a file from the [QALD](https://github.com/ag-sc/QALD/blob/master/7/data/qald-7-train-multilingual.json) dataset to evaluate the generated sentences and SPARQL queries.
+- Log4J 2: QueGG uses [Log4J 2](https://github.com/apache/logging-log4j2) for logging.
+- JUnit Jupiter:QueGG uses JUnit Jupiter for testing.
