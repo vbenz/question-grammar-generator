@@ -1,6 +1,7 @@
 package grammar.generator;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import eu.monnetproject.lemon.model.Frame;
 import eu.monnetproject.lemon.model.LexicalEntry;
 import eu.monnetproject.lemon.model.LexicalSense;
@@ -145,7 +146,9 @@ public abstract class GrammarRuleGeneratorRoot implements GrammarRuleGenerator {
 
   @Override
   public void dumpToJSON(String fileName, GrammarWrapper grammarWrapper) throws IOException {
-    ObjectMapper objectMapper = new ObjectMapper();
+    //ObjectMapper objectMapper = new ObjectMapper();
+    ObjectMapper objectMapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
+
     objectMapper.writeValue(new File(fileName), grammarWrapper);
     LOG.info("New file created: {}", fileName);
   }
