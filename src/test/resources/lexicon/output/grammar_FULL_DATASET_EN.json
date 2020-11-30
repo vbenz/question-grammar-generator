@@ -1,0 +1,960 @@
+{
+  "grammarEntries" : [ {
+    "id" : "1",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "PERSON",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "Give me the birth place of ($x | PERSON_NP)?", "Tell me the birth place of ($x | PERSON_NP)?", "What is the birth place of ($x | PERSON_NP)?", "What was the birth place of ($x | PERSON_NP)?", "Which place is the birth place of ($x | PERSON_NP)?", "Which place was the birth place of ($x | PERSON_NP)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthPlace> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Andreas Ekberg",
+        "uri" : "http://dbpedia.org/resource/Andreas_Ekberg"
+      }, {
+        "label" : "Nikolaos Ventouras",
+        "uri" : "http://dbpedia.org/resource/Nikolaos_Ventouras"
+      }, {
+        "label" : "Sani ol molk",
+        "uri" : "http://dbpedia.org/resource/Sani_ol_molk"
+      }, {
+        "label" : "Witold Gerutto",
+        "uri" : "http://dbpedia.org/resource/Witold_Gerutto"
+      }, {
+        "label" : "Anatoliy Abdula",
+        "uri" : "http://dbpedia.org/resource/Anatoliy_Abdula"
+      }, {
+        "label" : "Bojan Pandžić",
+        "uri" : "http://dbpedia.org/resource/Bojan_Pandžić"
+      }, {
+        "label" : "Briana Provancha",
+        "uri" : "http://dbpedia.org/resource/Briana_Provancha"
+      }, {
+        "label" : "Daryl Homer",
+        "uri" : "http://dbpedia.org/resource/Daryl_Homer"
+      }, {
+        "label" : "Francesco Boffo",
+        "uri" : "http://dbpedia.org/resource/Francesco_Boffo"
+      }, {
+        "label" : "Frano Vićan",
+        "uri" : "http://dbpedia.org/resource/Frano_Vićan"
+      }, {
+        "label" : "Giles Scott",
+        "uri" : "http://dbpedia.org/resource/Giles_Scott"
+      }, {
+        "label" : "Giovan Francesco Buonamici",
+        "uri" : "http://dbpedia.org/resource/Giovan_Francesco_Buonamici"
+      }, {
+        "label" : "Grace McKenzie",
+        "uri" : "http://dbpedia.org/resource/Grace_McKenzie"
+      }, {
+        "label" : "Graham Dadds",
+        "uri" : "http://dbpedia.org/resource/Graham_Dadds"
+      }, {
+        "label" : "Ilya Mokretsov",
+        "uri" : "http://dbpedia.org/resource/Ilya_Mokretsov"
+      }, {
+        "label" : "Larry Hurtado",
+        "uri" : "http://dbpedia.org/resource/Larry_Hurtado"
+      }, {
+        "label" : "Maximilien van Haaster",
+        "uri" : "http://dbpedia.org/resource/Maximilien_van_Haaster"
+      }, {
+        "label" : "Mohammed Al-Hakim",
+        "uri" : "http://dbpedia.org/resource/Mohammed_Al-Hakim"
+      }, {
+        "label" : "Monica Aksamit",
+        "uri" : "http://dbpedia.org/resource/Monica_Aksamit"
+      }, {
+        "label" : "Olena Kravatska",
+        "uri" : "http://dbpedia.org/resource/Olena_Kravatska"
+      }, {
+        "label" : "A. C. Bhaktivedanta Swami Prabhupada",
+        "uri" : "http://dbpedia.org/resource/A._C._Bhaktivedanta_Swami_Prabhupada"
+      }, {
+        "label" : "Aaron Burr",
+        "uri" : "http://dbpedia.org/resource/Aaron_Burr"
+      }, {
+        "label" : "Aaron Copland",
+        "uri" : "http://dbpedia.org/resource/Aaron_Copland"
+      }, {
+        "label" : "Abbie Hoffman",
+        "uri" : "http://dbpedia.org/resource/Abbie_Hoffman"
+      }, {
+        "label" : "Abraham Robinson",
+        "uri" : "http://dbpedia.org/resource/Abraham_Robinson"
+      }, {
+        "label" : "Abraham de Moivre",
+        "uri" : "http://dbpedia.org/resource/Abraham_de_Moivre"
+      }, {
+        "label" : "Adalbert of Magdeburg",
+        "uri" : "http://dbpedia.org/resource/Adalbert_of_Magdeburg"
+      }, {
+        "label" : "Adam Oehlenschläger",
+        "uri" : "http://dbpedia.org/resource/Adam_Oehlenschläger"
+      }, {
+        "label" : "Adam Wiśniewski-Snerg",
+        "uri" : "http://dbpedia.org/resource/Adam_Wiśniewski-Snerg"
+      }, {
+        "label" : "Adi Shamir",
+        "uri" : "http://dbpedia.org/resource/Adi_Shamir"
+      }, {
+        "label" : "Adlai Stevenson II",
+        "uri" : "http://dbpedia.org/resource/Adlai_Stevenson_II"
+      }, {
+        "label" : "Adolf Loos",
+        "uri" : "http://dbpedia.org/resource/Adolf_Loos"
+      }, {
+        "label" : "Adrien-Marie Legendre",
+        "uri" : "http://dbpedia.org/resource/Adrien-Marie_Legendre"
+      }, {
+        "label" : "Adrienne Rich",
+        "uri" : "http://dbpedia.org/resource/Adrienne_Rich"
+      }, {
+        "label" : "Akiko Yano",
+        "uri" : "http://dbpedia.org/resource/Akiko_Yano"
+      }, {
+        "label" : "Al Pacino",
+        "uri" : "http://dbpedia.org/resource/Al_Pacino"
+      }, {
+        "label" : "Alain Prost",
+        "uri" : "http://dbpedia.org/resource/Alain_Prost"
+      }, {
+        "label" : "Alan Rickman",
+        "uri" : "http://dbpedia.org/resource/Alan_Rickman"
+      }, {
+        "label" : "Alan Shearer",
+        "uri" : "http://dbpedia.org/resource/Alan_Shearer"
+      }, {
+        "label" : "Albert Abrams",
+        "uri" : "http://dbpedia.org/resource/Albert_Abrams"
+      }, {
+        "label" : "Albert Brudzewski",
+        "uri" : "http://dbpedia.org/resource/Albert_Brudzewski"
+      }, {
+        "label" : "Albert Finney",
+        "uri" : "http://dbpedia.org/resource/Albert_Finney"
+      }, {
+        "label" : "Albrecht Giese",
+        "uri" : "http://dbpedia.org/resource/Albrecht_Giese"
+      }, {
+        "label" : "Albrecht III Achilles, Elector of Brandenburg",
+        "uri" : "http://dbpedia.org/resource/Albrecht_III_Achilles,_Elector_of_Brandenburg"
+      }, {
+        "label" : "Aldo Rossi",
+        "uri" : "http://dbpedia.org/resource/Aldo_Rossi"
+      }, {
+        "label" : "Alec Jeffreys",
+        "uri" : "http://dbpedia.org/resource/Alec_Jeffreys"
+      }, {
+        "label" : "Alessandro Manzoni",
+        "uri" : "http://dbpedia.org/resource/Alessandro_Manzoni"
+      }, {
+        "label" : "Alex Cox",
+        "uri" : "http://dbpedia.org/resource/Alex_Cox"
+      }, {
+        "label" : "Alex Ferguson",
+        "uri" : "http://dbpedia.org/resource/Alex_Ferguson"
+      }, {
+        "label" : "Alexander Dallas Bache",
+        "uri" : "http://dbpedia.org/resource/Alexander_Dallas_Bache"
+      }, {
+        "label" : "Alexander Shulgin",
+        "uri" : "http://dbpedia.org/resource/Alexander_Shulgin"
+      }, {
+        "label" : "Alexander Trocchi",
+        "uri" : "http://dbpedia.org/resource/Alexander_Trocchi"
+      }, {
+        "label" : "Alexandru Ioan Cuza",
+        "uri" : "http://dbpedia.org/resource/Alexandru_Ioan_Cuza"
+      }, {
+        "label" : "Alfred Bester",
+        "uri" : "http://dbpedia.org/resource/Alfred_Bester"
+      }, {
+        "label" : "Alfred Jodl",
+        "uri" : "http://dbpedia.org/resource/Alfred_Jodl"
+      }, {
+        "label" : "Alfred Kinsey",
+        "uri" : "http://dbpedia.org/resource/Alfred_Kinsey"
+      }, {
+        "label" : "Alfred Marshall",
+        "uri" : "http://dbpedia.org/resource/Alfred_Marshall"
+      }, {
+        "label" : "Alfred Meyer",
+        "uri" : "http://dbpedia.org/resource/Alfred_Meyer"
+      }, {
+        "label" : "Alfred North Whitehead",
+        "uri" : "http://dbpedia.org/resource/Alfred_North_Whitehead"
+      }, {
+        "label" : "Alfred Rosenberg",
+        "uri" : "http://dbpedia.org/resource/Alfred_Rosenberg"
+      }, {
+        "label" : "Alice Miller (psychologist)",
+        "uri" : "http://dbpedia.org/resource/Alice_Miller_(psychologist)"
+      }, {
+        "label" : "Alice Walker",
+        "uri" : "http://dbpedia.org/resource/Alice_Walker"
+      }, {
+        "label" : "Allan Pinkerton",
+        "uri" : "http://dbpedia.org/resource/Allan_Pinkerton"
+      }, {
+        "label" : "Allen G. Thurman",
+        "uri" : "http://dbpedia.org/resource/Allen_G._Thurman"
+      }, {
+        "label" : "Alonzo Church",
+        "uri" : "http://dbpedia.org/resource/Alonzo_Church"
+      }, {
+        "label" : "Aloysius Lilius",
+        "uri" : "http://dbpedia.org/resource/Aloysius_Lilius"
+      }, {
+        "label" : "Alyson Hannigan",
+        "uri" : "http://dbpedia.org/resource/Alyson_Hannigan"
+      }, {
+        "label" : "Amartya Sen",
+        "uri" : "http://dbpedia.org/resource/Amartya_Sen"
+      }, {
+        "label" : "Ambrosius Holbein",
+        "uri" : "http://dbpedia.org/resource/Ambrosius_Holbein"
+      }, {
+        "label" : "Amedeo Avogadro",
+        "uri" : "http://dbpedia.org/resource/Amedeo_Avogadro"
+      }, {
+        "label" : "Amy Tan",
+        "uri" : "http://dbpedia.org/resource/Amy_Tan"
+      }, {
+        "label" : "Anders Hejlsberg",
+        "uri" : "http://dbpedia.org/resource/Anders_Hejlsberg"
+      }, {
+        "label" : "Andie MacDowell",
+        "uri" : "http://dbpedia.org/resource/Andie_MacDowell"
+      }, {
+        "label" : "Andreas Vesalius",
+        "uri" : "http://dbpedia.org/resource/Andreas_Vesalius"
+      }, {
+        "label" : "Andrew Bobola",
+        "uri" : "http://dbpedia.org/resource/Andrew_Bobola"
+      }, {
+        "label" : "Andrew Fastow",
+        "uri" : "http://dbpedia.org/resource/Andrew_Fastow"
+      }, {
+        "label" : "Andrew Inglis Clark",
+        "uri" : "http://dbpedia.org/resource/Andrew_Inglis_Clark"
+      }, {
+        "label" : "Andrew Lloyd Webber",
+        "uri" : "http://dbpedia.org/resource/Andrew_Lloyd_Webber"
+      }, {
+        "label" : "Andrew Marvell",
+        "uri" : "http://dbpedia.org/resource/Andrew_Marvell"
+      }, {
+        "label" : "Andrew Sarris",
+        "uri" : "http://dbpedia.org/resource/Andrew_Sarris"
+      }, {
+        "label" : "Andrzej Wajda",
+        "uri" : "http://dbpedia.org/resource/Andrzej_Wajda"
+      }, {
+        "label" : "Andrzej Żuławski",
+        "uri" : "http://dbpedia.org/resource/Andrzej_Żuławski"
+      }, {
+        "label" : "André Breton",
+        "uri" : "http://dbpedia.org/resource/André_Breton"
+      }, {
+        "label" : "André Malraux",
+        "uri" : "http://dbpedia.org/resource/André_Malraux"
+      }, {
+        "label" : "Andy Razaf",
+        "uri" : "http://dbpedia.org/resource/Andy_Razaf"
+      }, {
+        "label" : "Angela Davis",
+        "uri" : "http://dbpedia.org/resource/Angela_Davis"
+      }, {
+        "label" : "Anita O'Day",
+        "uri" : "http://dbpedia.org/resource/Anita_O'Day"
+      }, {
+        "label" : "Anna of Russia",
+        "uri" : "http://dbpedia.org/resource/Anna_of_Russia"
+      }, {
+        "label" : "Anne, Queen of Great Britain",
+        "uri" : "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+      }, {
+        "label" : "Anne Boleyn",
+        "uri" : "http://dbpedia.org/resource/Anne_Boleyn"
+      }, {
+        "label" : "Anne Desclos",
+        "uri" : "http://dbpedia.org/resource/Anne_Desclos"
+      }, {
+        "label" : "Anne Neville",
+        "uri" : "http://dbpedia.org/resource/Anne_Neville"
+      }, {
+        "label" : "Anne of Cleves",
+        "uri" : "http://dbpedia.org/resource/Anne_of_Cleves"
+      }, {
+        "label" : "Anne of Denmark",
+        "uri" : "http://dbpedia.org/resource/Anne_of_Denmark"
+      }, {
+        "label" : "Anselme Payen",
+        "uri" : "http://dbpedia.org/resource/Anselme_Payen"
+      }, {
+        "label" : "Antanas Valionis",
+        "uri" : "http://dbpedia.org/resource/Antanas_Valionis"
+      }, {
+        "label" : "Anthony Burgess",
+        "uri" : "http://dbpedia.org/resource/Anthony_Burgess"
+      }, {
+        "label" : "Anthony Fokker",
+        "uri" : "http://dbpedia.org/resource/Anthony_Fokker"
+      }, {
+        "label" : "Anthony Quinn",
+        "uri" : "http://dbpedia.org/resource/Anthony_Quinn"
+      }, {
+        "label" : "Anthony Zinni",
+        "uri" : "http://dbpedia.org/resource/Anthony_Zinni"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "2",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "PERSON",
+    "returnType" : "LOCATION",
+    "frameType" : "NPP",
+    "sentences" : [ "the birth place of $x" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthPlace> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Andreas Ekberg",
+        "uri" : "http://dbpedia.org/resource/Andreas_Ekberg"
+      }, {
+        "label" : "Nikolaos Ventouras",
+        "uri" : "http://dbpedia.org/resource/Nikolaos_Ventouras"
+      }, {
+        "label" : "Sani ol molk",
+        "uri" : "http://dbpedia.org/resource/Sani_ol_molk"
+      }, {
+        "label" : "Witold Gerutto",
+        "uri" : "http://dbpedia.org/resource/Witold_Gerutto"
+      }, {
+        "label" : "Anatoliy Abdula",
+        "uri" : "http://dbpedia.org/resource/Anatoliy_Abdula"
+      }, {
+        "label" : "Bojan Pandžić",
+        "uri" : "http://dbpedia.org/resource/Bojan_Pandžić"
+      }, {
+        "label" : "Briana Provancha",
+        "uri" : "http://dbpedia.org/resource/Briana_Provancha"
+      }, {
+        "label" : "Daryl Homer",
+        "uri" : "http://dbpedia.org/resource/Daryl_Homer"
+      }, {
+        "label" : "Francesco Boffo",
+        "uri" : "http://dbpedia.org/resource/Francesco_Boffo"
+      }, {
+        "label" : "Frano Vićan",
+        "uri" : "http://dbpedia.org/resource/Frano_Vićan"
+      }, {
+        "label" : "Giles Scott",
+        "uri" : "http://dbpedia.org/resource/Giles_Scott"
+      }, {
+        "label" : "Giovan Francesco Buonamici",
+        "uri" : "http://dbpedia.org/resource/Giovan_Francesco_Buonamici"
+      }, {
+        "label" : "Grace McKenzie",
+        "uri" : "http://dbpedia.org/resource/Grace_McKenzie"
+      }, {
+        "label" : "Graham Dadds",
+        "uri" : "http://dbpedia.org/resource/Graham_Dadds"
+      }, {
+        "label" : "Ilya Mokretsov",
+        "uri" : "http://dbpedia.org/resource/Ilya_Mokretsov"
+      }, {
+        "label" : "Larry Hurtado",
+        "uri" : "http://dbpedia.org/resource/Larry_Hurtado"
+      }, {
+        "label" : "Maximilien van Haaster",
+        "uri" : "http://dbpedia.org/resource/Maximilien_van_Haaster"
+      }, {
+        "label" : "Mohammed Al-Hakim",
+        "uri" : "http://dbpedia.org/resource/Mohammed_Al-Hakim"
+      }, {
+        "label" : "Monica Aksamit",
+        "uri" : "http://dbpedia.org/resource/Monica_Aksamit"
+      }, {
+        "label" : "Olena Kravatska",
+        "uri" : "http://dbpedia.org/resource/Olena_Kravatska"
+      }, {
+        "label" : "A. C. Bhaktivedanta Swami Prabhupada",
+        "uri" : "http://dbpedia.org/resource/A._C._Bhaktivedanta_Swami_Prabhupada"
+      }, {
+        "label" : "Aaron Burr",
+        "uri" : "http://dbpedia.org/resource/Aaron_Burr"
+      }, {
+        "label" : "Aaron Copland",
+        "uri" : "http://dbpedia.org/resource/Aaron_Copland"
+      }, {
+        "label" : "Abbie Hoffman",
+        "uri" : "http://dbpedia.org/resource/Abbie_Hoffman"
+      }, {
+        "label" : "Abraham Robinson",
+        "uri" : "http://dbpedia.org/resource/Abraham_Robinson"
+      }, {
+        "label" : "Abraham de Moivre",
+        "uri" : "http://dbpedia.org/resource/Abraham_de_Moivre"
+      }, {
+        "label" : "Adalbert of Magdeburg",
+        "uri" : "http://dbpedia.org/resource/Adalbert_of_Magdeburg"
+      }, {
+        "label" : "Adam Oehlenschläger",
+        "uri" : "http://dbpedia.org/resource/Adam_Oehlenschläger"
+      }, {
+        "label" : "Adam Wiśniewski-Snerg",
+        "uri" : "http://dbpedia.org/resource/Adam_Wiśniewski-Snerg"
+      }, {
+        "label" : "Adi Shamir",
+        "uri" : "http://dbpedia.org/resource/Adi_Shamir"
+      }, {
+        "label" : "Adlai Stevenson II",
+        "uri" : "http://dbpedia.org/resource/Adlai_Stevenson_II"
+      }, {
+        "label" : "Adolf Loos",
+        "uri" : "http://dbpedia.org/resource/Adolf_Loos"
+      }, {
+        "label" : "Adrien-Marie Legendre",
+        "uri" : "http://dbpedia.org/resource/Adrien-Marie_Legendre"
+      }, {
+        "label" : "Adrienne Rich",
+        "uri" : "http://dbpedia.org/resource/Adrienne_Rich"
+      }, {
+        "label" : "Akiko Yano",
+        "uri" : "http://dbpedia.org/resource/Akiko_Yano"
+      }, {
+        "label" : "Al Pacino",
+        "uri" : "http://dbpedia.org/resource/Al_Pacino"
+      }, {
+        "label" : "Alain Prost",
+        "uri" : "http://dbpedia.org/resource/Alain_Prost"
+      }, {
+        "label" : "Alan Rickman",
+        "uri" : "http://dbpedia.org/resource/Alan_Rickman"
+      }, {
+        "label" : "Alan Shearer",
+        "uri" : "http://dbpedia.org/resource/Alan_Shearer"
+      }, {
+        "label" : "Albert Abrams",
+        "uri" : "http://dbpedia.org/resource/Albert_Abrams"
+      }, {
+        "label" : "Albert Brudzewski",
+        "uri" : "http://dbpedia.org/resource/Albert_Brudzewski"
+      }, {
+        "label" : "Albert Finney",
+        "uri" : "http://dbpedia.org/resource/Albert_Finney"
+      }, {
+        "label" : "Albrecht Giese",
+        "uri" : "http://dbpedia.org/resource/Albrecht_Giese"
+      }, {
+        "label" : "Albrecht III Achilles, Elector of Brandenburg",
+        "uri" : "http://dbpedia.org/resource/Albrecht_III_Achilles,_Elector_of_Brandenburg"
+      }, {
+        "label" : "Aldo Rossi",
+        "uri" : "http://dbpedia.org/resource/Aldo_Rossi"
+      }, {
+        "label" : "Alec Jeffreys",
+        "uri" : "http://dbpedia.org/resource/Alec_Jeffreys"
+      }, {
+        "label" : "Alessandro Manzoni",
+        "uri" : "http://dbpedia.org/resource/Alessandro_Manzoni"
+      }, {
+        "label" : "Alex Cox",
+        "uri" : "http://dbpedia.org/resource/Alex_Cox"
+      }, {
+        "label" : "Alex Ferguson",
+        "uri" : "http://dbpedia.org/resource/Alex_Ferguson"
+      }, {
+        "label" : "Alexander Dallas Bache",
+        "uri" : "http://dbpedia.org/resource/Alexander_Dallas_Bache"
+      }, {
+        "label" : "Alexander Shulgin",
+        "uri" : "http://dbpedia.org/resource/Alexander_Shulgin"
+      }, {
+        "label" : "Alexander Trocchi",
+        "uri" : "http://dbpedia.org/resource/Alexander_Trocchi"
+      }, {
+        "label" : "Alexandru Ioan Cuza",
+        "uri" : "http://dbpedia.org/resource/Alexandru_Ioan_Cuza"
+      }, {
+        "label" : "Alfred Bester",
+        "uri" : "http://dbpedia.org/resource/Alfred_Bester"
+      }, {
+        "label" : "Alfred Jodl",
+        "uri" : "http://dbpedia.org/resource/Alfred_Jodl"
+      }, {
+        "label" : "Alfred Kinsey",
+        "uri" : "http://dbpedia.org/resource/Alfred_Kinsey"
+      }, {
+        "label" : "Alfred Marshall",
+        "uri" : "http://dbpedia.org/resource/Alfred_Marshall"
+      }, {
+        "label" : "Alfred Meyer",
+        "uri" : "http://dbpedia.org/resource/Alfred_Meyer"
+      }, {
+        "label" : "Alfred North Whitehead",
+        "uri" : "http://dbpedia.org/resource/Alfred_North_Whitehead"
+      }, {
+        "label" : "Alfred Rosenberg",
+        "uri" : "http://dbpedia.org/resource/Alfred_Rosenberg"
+      }, {
+        "label" : "Alice Miller (psychologist)",
+        "uri" : "http://dbpedia.org/resource/Alice_Miller_(psychologist)"
+      }, {
+        "label" : "Alice Walker",
+        "uri" : "http://dbpedia.org/resource/Alice_Walker"
+      }, {
+        "label" : "Allan Pinkerton",
+        "uri" : "http://dbpedia.org/resource/Allan_Pinkerton"
+      }, {
+        "label" : "Allen G. Thurman",
+        "uri" : "http://dbpedia.org/resource/Allen_G._Thurman"
+      }, {
+        "label" : "Alonzo Church",
+        "uri" : "http://dbpedia.org/resource/Alonzo_Church"
+      }, {
+        "label" : "Aloysius Lilius",
+        "uri" : "http://dbpedia.org/resource/Aloysius_Lilius"
+      }, {
+        "label" : "Alyson Hannigan",
+        "uri" : "http://dbpedia.org/resource/Alyson_Hannigan"
+      }, {
+        "label" : "Amartya Sen",
+        "uri" : "http://dbpedia.org/resource/Amartya_Sen"
+      }, {
+        "label" : "Ambrosius Holbein",
+        "uri" : "http://dbpedia.org/resource/Ambrosius_Holbein"
+      }, {
+        "label" : "Amedeo Avogadro",
+        "uri" : "http://dbpedia.org/resource/Amedeo_Avogadro"
+      }, {
+        "label" : "Amy Tan",
+        "uri" : "http://dbpedia.org/resource/Amy_Tan"
+      }, {
+        "label" : "Anders Hejlsberg",
+        "uri" : "http://dbpedia.org/resource/Anders_Hejlsberg"
+      }, {
+        "label" : "Andie MacDowell",
+        "uri" : "http://dbpedia.org/resource/Andie_MacDowell"
+      }, {
+        "label" : "Andreas Vesalius",
+        "uri" : "http://dbpedia.org/resource/Andreas_Vesalius"
+      }, {
+        "label" : "Andrew Bobola",
+        "uri" : "http://dbpedia.org/resource/Andrew_Bobola"
+      }, {
+        "label" : "Andrew Fastow",
+        "uri" : "http://dbpedia.org/resource/Andrew_Fastow"
+      }, {
+        "label" : "Andrew Inglis Clark",
+        "uri" : "http://dbpedia.org/resource/Andrew_Inglis_Clark"
+      }, {
+        "label" : "Andrew Lloyd Webber",
+        "uri" : "http://dbpedia.org/resource/Andrew_Lloyd_Webber"
+      }, {
+        "label" : "Andrew Marvell",
+        "uri" : "http://dbpedia.org/resource/Andrew_Marvell"
+      }, {
+        "label" : "Andrew Sarris",
+        "uri" : "http://dbpedia.org/resource/Andrew_Sarris"
+      }, {
+        "label" : "Andrzej Wajda",
+        "uri" : "http://dbpedia.org/resource/Andrzej_Wajda"
+      }, {
+        "label" : "Andrzej Żuławski",
+        "uri" : "http://dbpedia.org/resource/Andrzej_Żuławski"
+      }, {
+        "label" : "André Breton",
+        "uri" : "http://dbpedia.org/resource/André_Breton"
+      }, {
+        "label" : "André Malraux",
+        "uri" : "http://dbpedia.org/resource/André_Malraux"
+      }, {
+        "label" : "Andy Razaf",
+        "uri" : "http://dbpedia.org/resource/Andy_Razaf"
+      }, {
+        "label" : "Angela Davis",
+        "uri" : "http://dbpedia.org/resource/Angela_Davis"
+      }, {
+        "label" : "Anita O'Day",
+        "uri" : "http://dbpedia.org/resource/Anita_O'Day"
+      }, {
+        "label" : "Anna of Russia",
+        "uri" : "http://dbpedia.org/resource/Anna_of_Russia"
+      }, {
+        "label" : "Anne, Queen of Great Britain",
+        "uri" : "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+      }, {
+        "label" : "Anne Boleyn",
+        "uri" : "http://dbpedia.org/resource/Anne_Boleyn"
+      }, {
+        "label" : "Anne Desclos",
+        "uri" : "http://dbpedia.org/resource/Anne_Desclos"
+      }, {
+        "label" : "Anne Neville",
+        "uri" : "http://dbpedia.org/resource/Anne_Neville"
+      }, {
+        "label" : "Anne of Cleves",
+        "uri" : "http://dbpedia.org/resource/Anne_of_Cleves"
+      }, {
+        "label" : "Anne of Denmark",
+        "uri" : "http://dbpedia.org/resource/Anne_of_Denmark"
+      }, {
+        "label" : "Anselme Payen",
+        "uri" : "http://dbpedia.org/resource/Anselme_Payen"
+      }, {
+        "label" : "Antanas Valionis",
+        "uri" : "http://dbpedia.org/resource/Antanas_Valionis"
+      }, {
+        "label" : "Anthony Burgess",
+        "uri" : "http://dbpedia.org/resource/Anthony_Burgess"
+      }, {
+        "label" : "Anthony Fokker",
+        "uri" : "http://dbpedia.org/resource/Anthony_Fokker"
+      }, {
+        "label" : "Anthony Quinn",
+        "uri" : "http://dbpedia.org/resource/Anthony_Quinn"
+      }, {
+        "label" : "Anthony Zinni",
+        "uri" : "http://dbpedia.org/resource/Anthony_Zinni"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "3",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "LOCATION",
+    "returnType" : "LOCATION",
+    "frameType" : "FULL_DATASET",
+    "sentences" : [ "Where is $x located?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Whitehaven, Memphis, Tennessee",
+        "uri" : "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+      }, {
+        "label" : "Lake Zabuye",
+        "uri" : "http://dbpedia.org/resource/Lake_Zabuye"
+      }, {
+        "label" : "Mid-Atlantic states",
+        "uri" : "http://dbpedia.org/resource/Mid-Atlantic_states"
+      }, {
+        "label" : "New England",
+        "uri" : "http://dbpedia.org/resource/New_England"
+      }, {
+        "label" : "Kuta Raja",
+        "uri" : "http://dbpedia.org/resource/Kuta_Raja"
+      }, {
+        "label" : "San Biagio Maggiore",
+        "uri" : "http://dbpedia.org/resource/San_Biagio_Maggiore"
+      }, {
+        "label" : "Namcha Barwa Himal",
+        "uri" : "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+      }, {
+        "label" : "San Nicola a Nilo",
+        "uri" : "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+      }, {
+        "label" : "Adra, Syria",
+        "uri" : "http://dbpedia.org/resource/Adra,_Syria"
+      }, {
+        "label" : "Al-Mazraa",
+        "uri" : "http://dbpedia.org/resource/Al-Mazraa"
+      }, {
+        "label" : "Al-Rastan",
+        "uri" : "http://dbpedia.org/resource/Al-Rastan"
+      }, {
+        "label" : "Al-Hawash, Homs Governorate",
+        "uri" : "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+      }, {
+        "label" : "Ayn al-Bardah",
+        "uri" : "http://dbpedia.org/resource/Ayn_al-Bardah"
+      }, {
+        "label" : "Khabab",
+        "uri" : "http://dbpedia.org/resource/Khabab"
+      }, {
+        "label" : "Al-Kafr",
+        "uri" : "http://dbpedia.org/resource/Al-Kafr"
+      }, {
+        "label" : "Deir Mama",
+        "uri" : "http://dbpedia.org/resource/Deir_Mama"
+      }, {
+        "label" : "Madaya, Syria",
+        "uri" : "http://dbpedia.org/resource/Madaya,_Syria"
+      }, {
+        "label" : "Tayru",
+        "uri" : "http://dbpedia.org/resource/Tayru"
+      }, {
+        "label" : "Al-Khalidiyah, Syria",
+        "uri" : "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+      }, {
+        "label" : "Al-Khalidiyah, al-Hasakah Governorate",
+        "uri" : "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+      }, {
+        "label" : "Basatin al-Assad",
+        "uri" : "http://dbpedia.org/resource/Basatin_al-Assad"
+      }, {
+        "label" : "Hala, Syria",
+        "uri" : "http://dbpedia.org/resource/Hala,_Syria"
+      }, {
+        "label" : "Harran, Idlib",
+        "uri" : "http://dbpedia.org/resource/Harran,_Idlib"
+      }, {
+        "label" : "Harran, as-Suwayda",
+        "uri" : "http://dbpedia.org/resource/Harran,_as-Suwayda"
+      }, {
+        "label" : "Harran al-Awamid",
+        "uri" : "http://dbpedia.org/resource/Harran_al-Awamid"
+      }, {
+        "label" : "Wadi al-Nasara",
+        "uri" : "http://dbpedia.org/resource/Wadi_al-Nasara"
+      }, {
+        "label" : "Abu Khanadiq",
+        "uri" : "http://dbpedia.org/resource/Abu_Khanadiq"
+      }, {
+        "label" : "Abu Kleefun",
+        "uri" : "http://dbpedia.org/resource/Abu_Kleefun"
+      }, {
+        "label" : "Abul Fashafish",
+        "uri" : "http://dbpedia.org/resource/Abul_Fashafish"
+      }, {
+        "label" : "Al-'Amrah",
+        "uri" : "http://dbpedia.org/resource/Al-'Amrah"
+      }, {
+        "label" : "Al-Atnah",
+        "uri" : "http://dbpedia.org/resource/Al-Atnah"
+      }, {
+        "label" : "Al-Fayadiyah",
+        "uri" : "http://dbpedia.org/resource/Al-Fayadiyah"
+      }, {
+        "label" : "Al-Humayra",
+        "uri" : "http://dbpedia.org/resource/Al-Humayra"
+      }, {
+        "label" : "Al-Jarajir",
+        "uri" : "http://dbpedia.org/resource/Al-Jarajir"
+      }, {
+        "label" : "Al-Khandaq al-Sharqiyah",
+        "uri" : "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+      }, {
+        "label" : "Al-Muhajirin, Hama Governorate",
+        "uri" : "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+      }, {
+        "label" : "Al-Narjis",
+        "uri" : "http://dbpedia.org/resource/Al-Narjis"
+      }, {
+        "label" : "Al-Nazaza",
+        "uri" : "http://dbpedia.org/resource/Al-Nazaza"
+      }, {
+        "label" : "Al-Nour, Syria",
+        "uri" : "http://dbpedia.org/resource/Al-Nour,_Syria"
+      }, {
+        "label" : "Al-Ramlah, Syria",
+        "uri" : "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+      }, {
+        "label" : "Al-Salihiyah, Hama",
+        "uri" : "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+      }, {
+        "label" : "Al-Sindiyana, Suqaylabiyah",
+        "uri" : "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+      }, {
+        "label" : "Al-Swaia",
+        "uri" : "http://dbpedia.org/resource/Al-Swaia"
+      }, {
+        "label" : "Al-Thawrah, Hama Governorate",
+        "uri" : "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+      }, {
+        "label" : "Al-Tulaysiyah al-Janubiyah",
+        "uri" : "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+      }, {
+        "label" : "Al-Zitiyah",
+        "uri" : "http://dbpedia.org/resource/Al-Zitiyah"
+      }, {
+        "label" : "Ammurin",
+        "uri" : "http://dbpedia.org/resource/Ammurin"
+      }, {
+        "label" : "Ayn Dara",
+        "uri" : "http://dbpedia.org/resource/Ayn_Dara"
+      }, {
+        "label" : "Balluneh",
+        "uri" : "http://dbpedia.org/resource/Balluneh"
+      }, {
+        "label" : "Beij",
+        "uri" : "http://dbpedia.org/resource/Beij"
+      }, {
+        "label" : "Bgheidid",
+        "uri" : "http://dbpedia.org/resource/Bgheidid"
+      }, {
+        "label" : "Bustan Sbeih",
+        "uri" : "http://dbpedia.org/resource/Bustan_Sbeih"
+      }, {
+        "label" : "Deir Sunbul",
+        "uri" : "http://dbpedia.org/resource/Deir_Sunbul"
+      }, {
+        "label" : "Ein Elhamam",
+        "uri" : "http://dbpedia.org/resource/Ein_Elhamam"
+      }, {
+        "label" : "Ein Warideh",
+        "uri" : "http://dbpedia.org/resource/Ein_Warideh"
+      }, {
+        "label" : "Elrihana",
+        "uri" : "http://dbpedia.org/resource/Elrihana"
+      }, {
+        "label" : "Fawrah",
+        "uri" : "http://dbpedia.org/resource/Fawrah"
+      }, {
+        "label" : "Hamrit",
+        "uri" : "http://dbpedia.org/resource/Hamrit"
+      }, {
+        "label" : "Hanuteh",
+        "uri" : "http://dbpedia.org/resource/Hanuteh"
+      }, {
+        "label" : "Hdaj",
+        "uri" : "http://dbpedia.org/resource/Hdaj"
+      }, {
+        "label" : "Jakuziyeh",
+        "uri" : "http://dbpedia.org/resource/Jakuziyeh"
+      }, {
+        "label" : "Jamala, Hama",
+        "uri" : "http://dbpedia.org/resource/Jamala,_Hama"
+      }, {
+        "label" : "Jeb Dkileh",
+        "uri" : "http://dbpedia.org/resource/Jeb_Dkileh"
+      }, {
+        "label" : "Jeb Zreiq",
+        "uri" : "http://dbpedia.org/resource/Jeb_Zreiq"
+      }, {
+        "label" : "Jessine",
+        "uri" : "http://dbpedia.org/resource/Jessine"
+      }, {
+        "label" : "Karama, Hama",
+        "uri" : "http://dbpedia.org/resource/Karama,_Hama"
+      }, {
+        "label" : "Kasun Eljabal",
+        "uri" : "http://dbpedia.org/resource/Kasun_Eljabal"
+      }, {
+        "label" : "Kawri",
+        "uri" : "http://dbpedia.org/resource/Kawri"
+      }, {
+        "label" : "Khala, Hama",
+        "uri" : "http://dbpedia.org/resource/Khala,_Hama"
+      }, {
+        "label" : "Khansaa - Shetheh",
+        "uri" : "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+      }, {
+        "label" : "Maar Shamali",
+        "uri" : "http://dbpedia.org/resource/Maar_Shamali"
+      }, {
+        "label" : "Makhbuta",
+        "uri" : "http://dbpedia.org/resource/Makhbuta"
+      }, {
+        "label" : "Maksar, Hama",
+        "uri" : "http://dbpedia.org/resource/Maksar,_Hama"
+      }, {
+        "label" : "Marana, Hama",
+        "uri" : "http://dbpedia.org/resource/Marana,_Hama"
+      }, {
+        "label" : "Mashta Elshalahmeh",
+        "uri" : "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+      }, {
+        "label" : "Mastarihat Afamiyah",
+        "uri" : "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+      }, {
+        "label" : "Mrikb",
+        "uri" : "http://dbpedia.org/resource/Mrikb"
+      }, {
+        "label" : "Mweileh",
+        "uri" : "http://dbpedia.org/resource/Mweileh"
+      }, {
+        "label" : "Nabe Eltib",
+        "uri" : "http://dbpedia.org/resource/Nabe_Eltib"
+      }, {
+        "label" : "Ojet - Kabasin Elarab",
+        "uri" : "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+      }, {
+        "label" : "Ojt Eltoba",
+        "uri" : "http://dbpedia.org/resource/Ojt_Eltoba"
+      }, {
+        "label" : "Qal'at al-Jaras",
+        "uri" : "http://dbpedia.org/resource/Qal'at_al-Jaras"
+      }, {
+        "label" : "Qanater, Hama Governorate",
+        "uri" : "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+      }, {
+        "label" : "Qastal al-Burj",
+        "uri" : "http://dbpedia.org/resource/Qastal_al-Burj"
+      }, {
+        "label" : "Ras al-Maara",
+        "uri" : "http://dbpedia.org/resource/Ras_al-Maara"
+      }, {
+        "label" : "Rasm Al-Brdkana",
+        "uri" : "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+      }, {
+        "label" : "Rasm Amun",
+        "uri" : "http://dbpedia.org/resource/Rasm_Amun"
+      }, {
+        "label" : "Rasm Anz",
+        "uri" : "http://dbpedia.org/resource/Rasm_Anz"
+      }, {
+        "label" : "Rasm Elahmar",
+        "uri" : "http://dbpedia.org/resource/Rasm_Elahmar"
+      }, {
+        "label" : "Rudat al-Tar",
+        "uri" : "http://dbpedia.org/resource/Rudat_al-Tar"
+      }, {
+        "label" : "Rweideh",
+        "uri" : "http://dbpedia.org/resource/Rweideh"
+      }, {
+        "label" : "Saidiyeh, Hama",
+        "uri" : "http://dbpedia.org/resource/Saidiyeh,_Hama"
+      }, {
+        "label" : "Saqiyet Nijm",
+        "uri" : "http://dbpedia.org/resource/Saqiyet_Nijm"
+      }, {
+        "label" : "Shahta",
+        "uri" : "http://dbpedia.org/resource/Shahta"
+      }, {
+        "label" : "Shatheh",
+        "uri" : "http://dbpedia.org/resource/Shatheh"
+      }, {
+        "label" : "Shaykh Ali",
+        "uri" : "http://dbpedia.org/resource/Shaykh_Ali"
+      }, {
+        "label" : "Suwak al-Shamali",
+        "uri" : "http://dbpedia.org/resource/Suwak_al-Shamali"
+      }, {
+        "label" : "Tabara Elhamra",
+        "uri" : "http://dbpedia.org/resource/Tabara_Elhamra"
+      }, {
+        "label" : "Tahunet Elhalawa",
+        "uri" : "http://dbpedia.org/resource/Tahunet_Elhalawa"
+      }, {
+        "label" : "Tell al-Shih",
+        "uri" : "http://dbpedia.org/resource/Tell_al-Shih"
+      } ]
+    },
+    "combination" : false
+  } ]
+}

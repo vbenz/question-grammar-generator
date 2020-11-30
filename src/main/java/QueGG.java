@@ -46,7 +46,7 @@ public class QueGG {
         }
     }
 
-    private void init(Language language, String inputDir, String outputDir) throws IOException {
+    public void init(Language language, String inputDir, String outputDir) throws IOException {
         try {
             loadInputAndGenerate(language, inputDir, outputDir);
         } catch (InvocationTargetException | NoSuchMethodException | InstantiationException | IllegalAccessException e) {
