@@ -28,7 +28,7 @@ import org.junit.jupiter.api.Test;
 public class QueGGTest {
 
     private static String inputDir = "src/test/resources/lexicon/input/";
-    private static String outputDir = "src/test/resources/lexicon/output/";
+    private static String outputDir = "src/test/resources/";
     private static Language language = Language.stringToLanguage("EN");
 
    
