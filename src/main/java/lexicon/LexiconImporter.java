@@ -58,6 +58,7 @@ public class LexiconImporter {
     LemonSerializer serializer
   ) {
     InputStream inputStream = ClassLoader.getSystemResourceAsStream(internalResourceDir + PATH_TO_BASE_FILE);
+    System.out.println(internalResourceDir + PATH_TO_BASE_FILE);
     assert inputStream != null;
     InputStreamReader inputStreamReader = new InputStreamReader(inputStream, StandardCharsets.UTF_8);
     return serializer.read(new BufferedReader(inputStreamReader));

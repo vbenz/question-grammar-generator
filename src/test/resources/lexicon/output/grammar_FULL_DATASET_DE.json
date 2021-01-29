@@ -1,0 +1,960 @@
+{
+  "grammarEntries" : [ {
+    "id" : "1",
+    "language" : "DE",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "NPP",
+    "sentences" : [ ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/capital> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Niederkanada",
+        "uri" : "http://dbpedia.org/resource/Lower_Canada"
+      }, {
+        "label" : "Unterdonaukreis",
+        "uri" : "http://dbpedia.org/resource/Lower_Danube_Circle"
+      }, {
+        "label" : "Unterägypten",
+        "uri" : "http://dbpedia.org/resource/Lower_Egypt"
+      }, {
+        "label" : "Unteres Yafi-Sultanat",
+        "uri" : "http://dbpedia.org/resource/Lower_Yafa"
+      }, {
+        "label" : "Lu (Staat)",
+        "uri" : "http://dbpedia.org/resource/Lu_(state)"
+      }, {
+        "label" : "Volksrepublik Lugansk",
+        "uri" : "http://dbpedia.org/resource/Luhansk_People's_Republic"
+      }, {
+        "label" : "Lusitania (Provinz)",
+        "uri" : "http://dbpedia.org/resource/Lusitania"
+      }, {
+        "label" : "Liutizen",
+        "uri" : "http://dbpedia.org/resource/Lutici"
+      }, {
+        "label" : "Luxemburg",
+        "uri" : "http://dbpedia.org/resource/Luxembourg"
+      }, {
+        "label" : "Luxemburg (Wisconsin)",
+        "uri" : "http://dbpedia.org/resource/Luxembourg"
+      }, {
+        "label" : "Lycia et Pamphylia",
+        "uri" : "http://dbpedia.org/resource/Lycia_et_Pamphylia"
+      }, {
+        "label" : "Macedonia (Provinz)",
+        "uri" : "http://dbpedia.org/resource/Macedonia_(Roman_province)"
+      }, {
+        "label" : "Makedonien (antikes Königreich)",
+        "uri" : "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
+      }, {
+        "label" : "Makedonien (byzantinisches Thema)",
+        "uri" : "http://dbpedia.org/resource/Macedonia_(theme)"
+      }, {
+        "label" : "Madagaskar",
+        "uri" : "http://dbpedia.org/resource/Madagascar"
+      }, {
+        "label" : "Magadha",
+        "uri" : "http://dbpedia.org/resource/Magadha"
+      }, {
+        "label" : "Mahra",
+        "uri" : "http://dbpedia.org/resource/Mahra_Sultanate"
+      }, {
+        "label" : "Maine (Loire)",
+        "uri" : "http://dbpedia.org/resource/Maine"
+      }, {
+        "label" : "Maine",
+        "uri" : "http://dbpedia.org/resource/Maine"
+      }, {
+        "label" : "Mainkreis (Bayern)",
+        "uri" : "http://dbpedia.org/resource/Mainkreis_(Bavaria)"
+      }, {
+        "label" : "Majapahit",
+        "uri" : "http://dbpedia.org/resource/Majapahit"
+      }, {
+        "label" : "Makuria",
+        "uri" : "http://dbpedia.org/resource/Makuria"
+      }, {
+        "label" : "Sultanat von Malakka",
+        "uri" : "http://dbpedia.org/resource/Malacca_Sultanate"
+      }, {
+        "label" : "Malawi",
+        "uri" : "http://dbpedia.org/resource/Malawi"
+      }, {
+        "label" : "Malaiische Union",
+        "uri" : "http://dbpedia.org/resource/Malayan_Union"
+      }, {
+        "label" : "Malaysia",
+        "uri" : "http://dbpedia.org/resource/Malaysia"
+      }, {
+        "label" : "Malediven",
+        "uri" : "http://dbpedia.org/resource/Maldives"
+      }, {
+        "label" : "Malerkotla (Staat)",
+        "uri" : "http://dbpedia.org/resource/Malerkotla_State"
+      }, {
+        "label" : "Malerkotla (Stadt)",
+        "uri" : "http://dbpedia.org/resource/Malerkotla_State"
+      }, {
+        "label" : "Mali",
+        "uri" : "http://dbpedia.org/resource/Mali"
+      }, {
+        "label" : "Mari-Nunatak",
+        "uri" : "http://dbpedia.org/resource/Mali"
+      }, {
+        "label" : "Malireich",
+        "uri" : "http://dbpedia.org/resource/Mali_Empire"
+      }, {
+        "label" : "Mali-Föderation",
+        "uri" : "http://dbpedia.org/resource/Mali_Federation"
+      }, {
+        "label" : "Uganda",
+        "uri" : "http://dbpedia.org/resource/Uganda"
+      }, {
+        "label" : "Komitat Ugocsa",
+        "uri" : "http://dbpedia.org/resource/Ugocsa_County"
+      }, {
+        "label" : "Ukrainische Sozialistische Sowjetrepublik",
+        "uri" : "http://dbpedia.org/resource/Ukraine"
+      }, {
+        "label" : "Ukraine",
+        "uri" : "http://dbpedia.org/resource/Ukraine"
+      }, {
+        "label" : "Ukrainische Volksrepublik",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_People's_Republic"
+      }, {
+        "label" : "Ukrainische Sowjetrepublik",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_Soviet_Republic"
+      }, {
+        "label" : "Ukrainische Sozialistische Sowjetrepublik",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Ukraine",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Ukrainischer Staat",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_State"
+      }, {
+        "label" : "Umayyaden",
+        "uri" : "http://dbpedia.org/resource/Umayyad_Caliphate"
+      }, {
+        "label" : "Südafrikanische Union",
+        "uri" : "http://dbpedia.org/resource/Union_of_South_Africa"
+      }, {
+        "label" : "Vereinigte Arabische Emirate",
+        "uri" : "http://dbpedia.org/resource/United_Arab_Emirates"
+      }, {
+        "label" : "Schardscha",
+        "uri" : "http://dbpedia.org/resource/United_Arab_Emirates"
+      }, {
+        "label" : "Vereinigte Arabische Republik",
+        "uri" : "http://dbpedia.org/resource/United_Arab_Republic"
+      }, {
+        "label" : "Vereinigte Arabische Staaten",
+        "uri" : "http://dbpedia.org/resource/United_Arab_States"
+      }, {
+        "label" : "Großbritannien (Insel)",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom"
+      }, {
+        "label" : "Vereinigtes Königreich",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom"
+      }, {
+        "label" : "Vereinigtes Königreich Großbritannien und Irland",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom"
+      }, {
+        "label" : "Großbritannien (Insel)",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland"
+      }, {
+        "label" : "Vereinigtes Königreich",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland"
+      }, {
+        "label" : "Vereinigtes Königreich Großbritannien und Irland",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland"
+      }, {
+        "label" : "Vereinigtes Königreich von Portugal, Brasilien und den Algarven",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves"
+      }, {
+        "label" : "Königreich der Vereinigten Niederlande",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands"
+      }, {
+        "label" : "United Nations Security Force in West New Guinea",
+        "uri" : "http://dbpedia.org/resource/United_Nations_Temporary_Executive_Authority"
+      }, {
+        "label" : "Übergangsverwaltung der Vereinten Nationen für Osttimor",
+        "uri" : "http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor"
+      }, {
+        "label" : "Vereinigte Provinzen von Mittelitalien",
+        "uri" : "http://dbpedia.org/resource/United_Provinces_of_Central_Italy"
+      }, {
+        "label" : "Vereinigte Provinzen des Río de la Plata",
+        "uri" : "http://dbpedia.org/resource/United_Provinces_of_the_Rio_de_la_Plata"
+      }, {
+        "label" : "Vereinigte Staaten",
+        "uri" : "http://dbpedia.org/resource/United_States"
+      }, {
+        "label" : "Vereinigte Staaten von Kolumbien",
+        "uri" : "http://dbpedia.org/resource/United_States_of_Colombia"
+      }, {
+        "label" : "Vereinigte Staaten der Ionischen Inseln",
+        "uri" : "http://dbpedia.org/resource/United_States_of_the_Ionian_Islands"
+      }, {
+        "label" : "Republik Suvadiva",
+        "uri" : "http://dbpedia.org/resource/United_Suvadive_Republic"
+      }, {
+        "label" : "United Tribes of New Zealand",
+        "uri" : "http://dbpedia.org/resource/United_Tribes_of_New_Zealand"
+      }, {
+        "label" : "Bezirk Unterelsaß",
+        "uri" : "http://dbpedia.org/resource/Unterelsaß"
+      }, {
+        "label" : "Untermainkreis",
+        "uri" : "http://dbpedia.org/resource/Untermainkreis"
+      }, {
+        "label" : "Oberkanada",
+        "uri" : "http://dbpedia.org/resource/Upper_Canada"
+      }, {
+        "label" : "Oberägypten",
+        "uri" : "http://dbpedia.org/resource/Upper_Egypt"
+      }, {
+        "label" : "Obersenegal und Niger",
+        "uri" : "http://dbpedia.org/resource/Upper_Senegal_and_Niger"
+      }, {
+        "label" : "Urartäisches Reich",
+        "uri" : "http://dbpedia.org/resource/Urartu"
+      }, {
+        "label" : "Uruguay",
+        "uri" : "http://dbpedia.org/resource/Uruguay"
+      }, {
+        "label" : "Uigurisches Kaganat",
+        "uri" : "http://dbpedia.org/resource/Uyghur_Khaganate"
+      }, {
+        "label" : "Usbekische Sozialistische Sowjetrepublik",
+        "uri" : "http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Usbekistan",
+        "uri" : "http://dbpedia.org/resource/Uzbekistan"
+      }, {
+        "label" : "Vaghela",
+        "uri" : "http://dbpedia.org/resource/Vaghela_dynasty"
+      }, {
+        "label" : "Vakataka",
+        "uri" : "http://dbpedia.org/resource/Vakataka_dynasty"
+      }, {
+        "label" : "Tasmanien",
+        "uri" : "http://dbpedia.org/resource/Van_Diemen's_Land"
+      }, {
+        "label" : "Vilâyet Van",
+        "uri" : "http://dbpedia.org/resource/Van_Vilayet"
+      }, {
+        "label" : "Vanuatu",
+        "uri" : "http://dbpedia.org/resource/Vanuatu"
+      }, {
+        "label" : "Komitat Warasdin",
+        "uri" : "http://dbpedia.org/resource/Varaždin_County_(former)"
+      }, {
+        "label" : "Banschaft Vardar",
+        "uri" : "http://dbpedia.org/resource/Vardar_Banovina"
+      }, {
+        "label" : "Komitat Eisenburg",
+        "uri" : "http://dbpedia.org/resource/Vas_County_(former)"
+      }, {
+        "label" : "Vaspurakan",
+        "uri" : "http://dbpedia.org/resource/Vaspurakan"
+      }, {
+        "label" : "Velay",
+        "uri" : "http://dbpedia.org/resource/Velay"
+      }, {
+        "label" : "Venda",
+        "uri" : "http://dbpedia.org/resource/Venda"
+      }, {
+        "label" : "Venezuela",
+        "uri" : "http://dbpedia.org/resource/Venezuela"
+      }, {
+        "label" : "Hochstift und Herzogtum Verden",
+        "uri" : "http://dbpedia.org/resource/Verden_(state)"
+      }, {
+        "label" : "Vermont Republic",
+        "uri" : "http://dbpedia.org/resource/Vermont_Republic"
+      }, {
+        "label" : "Komitat Wesprim",
+        "uri" : "http://dbpedia.org/resource/Veszprém_County_(former)"
+      }, {
+        "label" : "Komitat Veszprém",
+        "uri" : "http://dbpedia.org/resource/Veszprém_County_(former)"
+      }, {
+        "label" : "Cupul",
+        "uri" : "http://dbpedia.org/resource/Cupul"
+      }, {
+        "label" : "Kyme (Aiolis)",
+        "uri" : "http://dbpedia.org/resource/Cyme_(Aeolis)"
+      }, {
+        "label" : "Dakota-Territorium",
+        "uri" : "http://dbpedia.org/resource/Dakota_Territory"
+      }, {
+        "label" : "Dalmatien (byzantinisches Thema)",
+        "uri" : "http://dbpedia.org/resource/Dalmatia_(theme)"
+      }, {
+        "label" : "Damaraland",
+        "uri" : "http://dbpedia.org/resource/Damaraland"
+      }, {
+        "label" : "Reichsabtei Salem",
+        "uri" : "http://dbpedia.org/resource/Salem_Abbey"
+      }, {
+        "label" : "Fürstentum Bels",
+        "uri" : "http://dbpedia.org/resource/Duchy_of_Belz"
+      }, {
+        "label" : "Freistaat Flaschenhals",
+        "uri" : "http://dbpedia.org/resource/Free_State_Bottleneck"
+      }, {
+        "label" : "Königreich Bosnien",
+        "uri" : "http://dbpedia.org/resource/Kingdom_of_Bosnia"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "2",
+    "language" : "DE",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "NPP",
+    "sentences" : [ ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/capital> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Niederkanada",
+        "uri" : "http://dbpedia.org/resource/Lower_Canada"
+      }, {
+        "label" : "Unterdonaukreis",
+        "uri" : "http://dbpedia.org/resource/Lower_Danube_Circle"
+      }, {
+        "label" : "Unterägypten",
+        "uri" : "http://dbpedia.org/resource/Lower_Egypt"
+      }, {
+        "label" : "Unteres Yafi-Sultanat",
+        "uri" : "http://dbpedia.org/resource/Lower_Yafa"
+      }, {
+        "label" : "Lu (Staat)",
+        "uri" : "http://dbpedia.org/resource/Lu_(state)"
+      }, {
+        "label" : "Volksrepublik Lugansk",
+        "uri" : "http://dbpedia.org/resource/Luhansk_People's_Republic"
+      }, {
+        "label" : "Lusitania (Provinz)",
+        "uri" : "http://dbpedia.org/resource/Lusitania"
+      }, {
+        "label" : "Liutizen",
+        "uri" : "http://dbpedia.org/resource/Lutici"
+      }, {
+        "label" : "Luxemburg",
+        "uri" : "http://dbpedia.org/resource/Luxembourg"
+      }, {
+        "label" : "Luxemburg (Wisconsin)",
+        "uri" : "http://dbpedia.org/resource/Luxembourg"
+      }, {
+        "label" : "Lycia et Pamphylia",
+        "uri" : "http://dbpedia.org/resource/Lycia_et_Pamphylia"
+      }, {
+        "label" : "Macedonia (Provinz)",
+        "uri" : "http://dbpedia.org/resource/Macedonia_(Roman_province)"
+      }, {
+        "label" : "Makedonien (antikes Königreich)",
+        "uri" : "http://dbpedia.org/resource/Macedonia_(ancient_kingdom)"
+      }, {
+        "label" : "Makedonien (byzantinisches Thema)",
+        "uri" : "http://dbpedia.org/resource/Macedonia_(theme)"
+      }, {
+        "label" : "Madagaskar",
+        "uri" : "http://dbpedia.org/resource/Madagascar"
+      }, {
+        "label" : "Magadha",
+        "uri" : "http://dbpedia.org/resource/Magadha"
+      }, {
+        "label" : "Mahra",
+        "uri" : "http://dbpedia.org/resource/Mahra_Sultanate"
+      }, {
+        "label" : "Maine (Loire)",
+        "uri" : "http://dbpedia.org/resource/Maine"
+      }, {
+        "label" : "Maine",
+        "uri" : "http://dbpedia.org/resource/Maine"
+      }, {
+        "label" : "Mainkreis (Bayern)",
+        "uri" : "http://dbpedia.org/resource/Mainkreis_(Bavaria)"
+      }, {
+        "label" : "Majapahit",
+        "uri" : "http://dbpedia.org/resource/Majapahit"
+      }, {
+        "label" : "Makuria",
+        "uri" : "http://dbpedia.org/resource/Makuria"
+      }, {
+        "label" : "Sultanat von Malakka",
+        "uri" : "http://dbpedia.org/resource/Malacca_Sultanate"
+      }, {
+        "label" : "Malawi",
+        "uri" : "http://dbpedia.org/resource/Malawi"
+      }, {
+        "label" : "Malaiische Union",
+        "uri" : "http://dbpedia.org/resource/Malayan_Union"
+      }, {
+        "label" : "Malaysia",
+        "uri" : "http://dbpedia.org/resource/Malaysia"
+      }, {
+        "label" : "Malediven",
+        "uri" : "http://dbpedia.org/resource/Maldives"
+      }, {
+        "label" : "Malerkotla (Staat)",
+        "uri" : "http://dbpedia.org/resource/Malerkotla_State"
+      }, {
+        "label" : "Malerkotla (Stadt)",
+        "uri" : "http://dbpedia.org/resource/Malerkotla_State"
+      }, {
+        "label" : "Mali",
+        "uri" : "http://dbpedia.org/resource/Mali"
+      }, {
+        "label" : "Mari-Nunatak",
+        "uri" : "http://dbpedia.org/resource/Mali"
+      }, {
+        "label" : "Malireich",
+        "uri" : "http://dbpedia.org/resource/Mali_Empire"
+      }, {
+        "label" : "Mali-Föderation",
+        "uri" : "http://dbpedia.org/resource/Mali_Federation"
+      }, {
+        "label" : "Uganda",
+        "uri" : "http://dbpedia.org/resource/Uganda"
+      }, {
+        "label" : "Komitat Ugocsa",
+        "uri" : "http://dbpedia.org/resource/Ugocsa_County"
+      }, {
+        "label" : "Ukrainische Sozialistische Sowjetrepublik",
+        "uri" : "http://dbpedia.org/resource/Ukraine"
+      }, {
+        "label" : "Ukraine",
+        "uri" : "http://dbpedia.org/resource/Ukraine"
+      }, {
+        "label" : "Ukrainische Volksrepublik",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_People's_Republic"
+      }, {
+        "label" : "Ukrainische Sowjetrepublik",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_Soviet_Republic"
+      }, {
+        "label" : "Ukrainische Sozialistische Sowjetrepublik",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Ukraine",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Ukrainischer Staat",
+        "uri" : "http://dbpedia.org/resource/Ukrainian_State"
+      }, {
+        "label" : "Umayyaden",
+        "uri" : "http://dbpedia.org/resource/Umayyad_Caliphate"
+      }, {
+        "label" : "Südafrikanische Union",
+        "uri" : "http://dbpedia.org/resource/Union_of_South_Africa"
+      }, {
+        "label" : "Vereinigte Arabische Emirate",
+        "uri" : "http://dbpedia.org/resource/United_Arab_Emirates"
+      }, {
+        "label" : "Schardscha",
+        "uri" : "http://dbpedia.org/resource/United_Arab_Emirates"
+      }, {
+        "label" : "Vereinigte Arabische Republik",
+        "uri" : "http://dbpedia.org/resource/United_Arab_Republic"
+      }, {
+        "label" : "Vereinigte Arabische Staaten",
+        "uri" : "http://dbpedia.org/resource/United_Arab_States"
+      }, {
+        "label" : "Großbritannien (Insel)",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom"
+      }, {
+        "label" : "Vereinigtes Königreich",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom"
+      }, {
+        "label" : "Vereinigtes Königreich Großbritannien und Irland",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom"
+      }, {
+        "label" : "Großbritannien (Insel)",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland"
+      }, {
+        "label" : "Vereinigtes Königreich",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland"
+      }, {
+        "label" : "Vereinigtes Königreich Großbritannien und Irland",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland"
+      }, {
+        "label" : "Vereinigtes Königreich von Portugal, Brasilien und den Algarven",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves"
+      }, {
+        "label" : "Königreich der Vereinigten Niederlande",
+        "uri" : "http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands"
+      }, {
+        "label" : "United Nations Security Force in West New Guinea",
+        "uri" : "http://dbpedia.org/resource/United_Nations_Temporary_Executive_Authority"
+      }, {
+        "label" : "Übergangsverwaltung der Vereinten Nationen für Osttimor",
+        "uri" : "http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor"
+      }, {
+        "label" : "Vereinigte Provinzen von Mittelitalien",
+        "uri" : "http://dbpedia.org/resource/United_Provinces_of_Central_Italy"
+      }, {
+        "label" : "Vereinigte Provinzen des Río de la Plata",
+        "uri" : "http://dbpedia.org/resource/United_Provinces_of_the_Rio_de_la_Plata"
+      }, {
+        "label" : "Vereinigte Staaten",
+        "uri" : "http://dbpedia.org/resource/United_States"
+      }, {
+        "label" : "Vereinigte Staaten von Kolumbien",
+        "uri" : "http://dbpedia.org/resource/United_States_of_Colombia"
+      }, {
+        "label" : "Vereinigte Staaten der Ionischen Inseln",
+        "uri" : "http://dbpedia.org/resource/United_States_of_the_Ionian_Islands"
+      }, {
+        "label" : "Republik Suvadiva",
+        "uri" : "http://dbpedia.org/resource/United_Suvadive_Republic"
+      }, {
+        "label" : "United Tribes of New Zealand",
+        "uri" : "http://dbpedia.org/resource/United_Tribes_of_New_Zealand"
+      }, {
+        "label" : "Bezirk Unterelsaß",
+        "uri" : "http://dbpedia.org/resource/Unterelsaß"
+      }, {
+        "label" : "Untermainkreis",
+        "uri" : "http://dbpedia.org/resource/Untermainkreis"
+      }, {
+        "label" : "Oberkanada",
+        "uri" : "http://dbpedia.org/resource/Upper_Canada"
+      }, {
+        "label" : "Oberägypten",
+        "uri" : "http://dbpedia.org/resource/Upper_Egypt"
+      }, {
+        "label" : "Obersenegal und Niger",
+        "uri" : "http://dbpedia.org/resource/Upper_Senegal_and_Niger"
+      }, {
+        "label" : "Urartäisches Reich",
+        "uri" : "http://dbpedia.org/resource/Urartu"
+      }, {
+        "label" : "Uruguay",
+        "uri" : "http://dbpedia.org/resource/Uruguay"
+      }, {
+        "label" : "Uigurisches Kaganat",
+        "uri" : "http://dbpedia.org/resource/Uyghur_Khaganate"
+      }, {
+        "label" : "Usbekische Sozialistische Sowjetrepublik",
+        "uri" : "http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic"
+      }, {
+        "label" : "Usbekistan",
+        "uri" : "http://dbpedia.org/resource/Uzbekistan"
+      }, {
+        "label" : "Vaghela",
+        "uri" : "http://dbpedia.org/resource/Vaghela_dynasty"
+      }, {
+        "label" : "Vakataka",
+        "uri" : "http://dbpedia.org/resource/Vakataka_dynasty"
+      }, {
+        "label" : "Tasmanien",
+        "uri" : "http://dbpedia.org/resource/Van_Diemen's_Land"
+      }, {
+        "label" : "Vilâyet Van",
+        "uri" : "http://dbpedia.org/resource/Van_Vilayet"
+      }, {
+        "label" : "Vanuatu",
+        "uri" : "http://dbpedia.org/resource/Vanuatu"
+      }, {
+        "label" : "Komitat Warasdin",
+        "uri" : "http://dbpedia.org/resource/Varaždin_County_(former)"
+      }, {
+        "label" : "Banschaft Vardar",
+        "uri" : "http://dbpedia.org/resource/Vardar_Banovina"
+      }, {
+        "label" : "Komitat Eisenburg",
+        "uri" : "http://dbpedia.org/resource/Vas_County_(former)"
+      }, {
+        "label" : "Vaspurakan",
+        "uri" : "http://dbpedia.org/resource/Vaspurakan"
+      }, {
+        "label" : "Velay",
+        "uri" : "http://dbpedia.org/resource/Velay"
+      }, {
+        "label" : "Venda",
+        "uri" : "http://dbpedia.org/resource/Venda"
+      }, {
+        "label" : "Venezuela",
+        "uri" : "http://dbpedia.org/resource/Venezuela"
+      }, {
+        "label" : "Hochstift und Herzogtum Verden",
+        "uri" : "http://dbpedia.org/resource/Verden_(state)"
+      }, {
+        "label" : "Vermont Republic",
+        "uri" : "http://dbpedia.org/resource/Vermont_Republic"
+      }, {
+        "label" : "Komitat Wesprim",
+        "uri" : "http://dbpedia.org/resource/Veszprém_County_(former)"
+      }, {
+        "label" : "Komitat Veszprém",
+        "uri" : "http://dbpedia.org/resource/Veszprém_County_(former)"
+      }, {
+        "label" : "Cupul",
+        "uri" : "http://dbpedia.org/resource/Cupul"
+      }, {
+        "label" : "Kyme (Aiolis)",
+        "uri" : "http://dbpedia.org/resource/Cyme_(Aeolis)"
+      }, {
+        "label" : "Dakota-Territorium",
+        "uri" : "http://dbpedia.org/resource/Dakota_Territory"
+      }, {
+        "label" : "Dalmatien (byzantinisches Thema)",
+        "uri" : "http://dbpedia.org/resource/Dalmatia_(theme)"
+      }, {
+        "label" : "Damaraland",
+        "uri" : "http://dbpedia.org/resource/Damaraland"
+      }, {
+        "label" : "Reichsabtei Salem",
+        "uri" : "http://dbpedia.org/resource/Salem_Abbey"
+      }, {
+        "label" : "Fürstentum Bels",
+        "uri" : "http://dbpedia.org/resource/Duchy_of_Belz"
+      }, {
+        "label" : "Freistaat Flaschenhals",
+        "uri" : "http://dbpedia.org/resource/Free_State_Bottleneck"
+      }, {
+        "label" : "Königreich Bosnien",
+        "uri" : "http://dbpedia.org/resource/Kingdom_of_Bosnia"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "3",
+    "language" : "DE",
+    "type" : "SENTENCE",
+    "bindingType" : "LOCATION",
+    "returnType" : "LOCATION",
+    "frameType" : "FULL_DATASET",
+    "sentences" : [ "Where is $x located?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Kanton Luxemburg",
+        "uri" : "http://dbpedia.org/resource/Luxembourg_(canton)"
+      }, {
+        "label" : "Luxemburg (Stadt)",
+        "uri" : "http://dbpedia.org/resource/Luxembourg_City"
+      }, {
+        "label" : "Luzonstraße",
+        "uri" : "http://dbpedia.org/resource/Luzon_Strait"
+      }, {
+        "label" : "Maevatanana",
+        "uri" : "http://dbpedia.org/resource/Maevatanana"
+      }, {
+        "label" : "Mahabo",
+        "uri" : "http://dbpedia.org/resource/Mahabo,_Betroka"
+      }, {
+        "label" : "Mahaboboka",
+        "uri" : "http://dbpedia.org/resource/Mahaboboka"
+      }, {
+        "label" : "Mahajanga",
+        "uri" : "http://dbpedia.org/resource/Mahajanga"
+      }, {
+        "label" : "Mahajanga (Provinz)",
+        "uri" : "http://dbpedia.org/resource/Mahajanga_Province"
+      }, {
+        "label" : "Maintirano",
+        "uri" : "http://dbpedia.org/resource/Maintirano"
+      }, {
+        "label" : "Consthum",
+        "uri" : "http://dbpedia.org/resource/Consthum"
+      }, {
+        "label" : "Vakinankaratra",
+        "uri" : "http://dbpedia.org/resource/Vakinankaratra"
+      }, {
+        "label" : "Ernztalgemeinde",
+        "uri" : "http://dbpedia.org/resource/Vallée_de_l'Ernz"
+      }, {
+        "label" : "Vatovavy-Fitovinany",
+        "uri" : "http://dbpedia.org/resource/Vatovavy-Fitovinany"
+      }, {
+        "label" : "Vavatenina",
+        "uri" : "http://dbpedia.org/resource/Vavatenina"
+      }, {
+        "label" : "Folscheid",
+        "uri" : "http://dbpedia.org/resource/Folschette"
+      }, {
+        "label" : "Chodoriw",
+        "uri" : "http://dbpedia.org/resource/Khodoriv"
+      }, {
+        "label" : "Bissen",
+        "uri" : "http://dbpedia.org/resource/Bissen"
+      }, {
+        "label" : "Biwer",
+        "uri" : "http://dbpedia.org/resource/Biwer"
+      }, {
+        "label" : "Boeny",
+        "uri" : "http://dbpedia.org/resource/Boeny"
+      }, {
+        "label" : "Bongolava",
+        "uri" : "http://dbpedia.org/resource/Bongolava"
+      }, {
+        "label" : "Borynja",
+        "uri" : "http://dbpedia.org/resource/Borynia,_Turka_Raion"
+      }, {
+        "label" : "Bauschleiden",
+        "uri" : "http://dbpedia.org/resource/Boulaide"
+      }, {
+        "label" : "Burscheid (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Bourscheid,_Luxembourg"
+      }, {
+        "label" : "Bourscheid",
+        "uri" : "http://dbpedia.org/resource/Bourscheid,_Luxembourg"
+      }, {
+        "label" : "Bous (Saar)",
+        "uri" : "http://dbpedia.org/resource/Bous,_Luxembourg"
+      }, {
+        "label" : "Diana (Region)",
+        "uri" : "http://dbpedia.org/resource/Diana_Region"
+      }, {
+        "label" : "Diekirch",
+        "uri" : "http://dbpedia.org/resource/Diekirch"
+      }, {
+        "label" : "Kanton Diekirch",
+        "uri" : "http://dbpedia.org/resource/Diekirch_(canton)"
+      }, {
+        "label" : "Differdingen",
+        "uri" : "http://dbpedia.org/resource/Differdange"
+      }, {
+        "label" : "Dippach (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Dippach"
+      }, {
+        "label" : "Dippach am Main",
+        "uri" : "http://dbpedia.org/resource/Dippach"
+      }, {
+        "label" : "Dommeldingen",
+        "uri" : "http://dbpedia.org/resource/Dommeldange"
+      }, {
+        "label" : "Goesdorf",
+        "uri" : "http://dbpedia.org/resource/Goesdorf"
+      }, {
+        "label" : "Grevenmacher",
+        "uri" : "http://dbpedia.org/resource/Grevenmacher"
+      }, {
+        "label" : "Kanton Grevenmacher",
+        "uri" : "http://dbpedia.org/resource/Grevenmacher_(canton)"
+      }, {
+        "label" : "Grosbous",
+        "uri" : "http://dbpedia.org/resource/Grosbous"
+      }, {
+        "label" : "Grund (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Grund,_Luxembourg"
+      }, {
+        "label" : "Kiischpelt",
+        "uri" : "http://dbpedia.org/resource/Kiischpelt"
+      }, {
+        "label" : "Kirchberg-Plateau",
+        "uri" : "http://dbpedia.org/resource/Kirchberg,_Luxembourg"
+      }, {
+        "label" : "Koerich",
+        "uri" : "http://dbpedia.org/resource/Koerich"
+      }, {
+        "label" : "Kom el-Hisn",
+        "uri" : "http://dbpedia.org/resource/Kom_el-Hisn"
+      }, {
+        "label" : "Kopstal",
+        "uri" : "http://dbpedia.org/resource/Kopstal"
+      }, {
+        "label" : "Krasnodon",
+        "uri" : "http://dbpedia.org/resource/Krasnodon"
+      }, {
+        "label" : "Préizerdaul",
+        "uri" : "http://dbpedia.org/resource/Préizerdaul"
+      }, {
+        "label" : "Pulvermühle (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Pulvermuhl"
+      }, {
+        "label" : "Pütscheid",
+        "uri" : "http://dbpedia.org/resource/Putscheid"
+      }, {
+        "label" : "Petingen",
+        "uri" : "http://dbpedia.org/resource/Pétange"
+      }, {
+        "label" : "Alaotra-Mangoro",
+        "uri" : "http://dbpedia.org/resource/Alaotra-Mangoro"
+      }, {
+        "label" : "Zessingen",
+        "uri" : "http://dbpedia.org/resource/Cessange"
+      }, {
+        "label" : "Fischbach (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Fischbach,_Mersch"
+      }, {
+        "label" : "Flaxweiler",
+        "uri" : "http://dbpedia.org/resource/Flaxweiler"
+      }, {
+        "label" : "Ampanihy",
+        "uri" : "http://dbpedia.org/resource/Ampanihy"
+      }, {
+        "label" : "Nommern",
+        "uri" : "http://dbpedia.org/resource/Nommern"
+      }, {
+        "label" : "Bonneweg-Nord",
+        "uri" : "http://dbpedia.org/resource/North_Bonnevoie-Verlorenkost"
+      }, {
+        "label" : "Nosy Hara",
+        "uri" : "http://dbpedia.org/resource/Nosy_Hara"
+      }, {
+        "label" : "Nosy Varika",
+        "uri" : "http://dbpedia.org/resource/Nosy_Varika"
+      }, {
+        "label" : "Oberpallen",
+        "uri" : "http://dbpedia.org/resource/Oberpallen"
+      }, {
+        "label" : "Niederkerschen",
+        "uri" : "http://dbpedia.org/resource/Bascharage"
+      }, {
+        "label" : "Arsdorf",
+        "uri" : "http://dbpedia.org/resource/Arsdorf"
+      }, {
+        "label" : "Lorentzweiler",
+        "uri" : "http://dbpedia.org/resource/Lorentzweiler"
+      }, {
+        "label" : "Kanton Capellen",
+        "uri" : "http://dbpedia.org/resource/Capellen_(canton)"
+      }, {
+        "label" : "Clausen (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Clausen,_Luxembourg"
+      }, {
+        "label" : "Küntzig",
+        "uri" : "http://dbpedia.org/resource/Clemency,_Luxembourg"
+      }, {
+        "label" : "Clerf",
+        "uri" : "http://dbpedia.org/resource/Clervaux"
+      }, {
+        "label" : "Kanton Clerf",
+        "uri" : "http://dbpedia.org/resource/Clervaux_(canton)"
+      }, {
+        "label" : "Luxemburg-Bahnhofsviertel",
+        "uri" : "http://dbpedia.org/resource/Gare,_Luxembourg"
+      }, {
+        "label" : "Garnich",
+        "uri" : "http://dbpedia.org/resource/Garnich"
+      }, {
+        "label" : "Gasperich",
+        "uri" : "http://dbpedia.org/resource/Gasperich"
+      }, {
+        "label" : "Nosy Mitsio",
+        "uri" : "http://dbpedia.org/resource/Nosy_Mitsio"
+      }, {
+        "label" : "Manjakandriana (Analamanga)",
+        "uri" : "http://dbpedia.org/resource/Manjakandriana"
+      }, {
+        "label" : "Befort (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Beaufort,_Luxembourg"
+      }, {
+        "label" : "Bech (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Bech"
+      }, {
+        "label" : "Bech (Waldbröl)",
+        "uri" : "http://dbpedia.org/resource/Bech"
+      }, {
+        "label" : "Behenjy",
+        "uri" : "http://dbpedia.org/resource/Behenjy"
+      }, {
+        "label" : "Bekopaka",
+        "uri" : "http://dbpedia.org/resource/Bekopaka"
+      }, {
+        "label" : "Belair (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Belair,_Luxembourg"
+      }, {
+        "label" : "Belo sur Mer",
+        "uri" : "http://dbpedia.org/resource/Belo_sur_Mer"
+      }, {
+        "label" : "Belo sur Tsiribihina (Stadt)",
+        "uri" : "http://dbpedia.org/resource/Belon'i_Tsiribihina"
+      }, {
+        "label" : "Berdorf",
+        "uri" : "http://dbpedia.org/resource/Berdorf"
+      }, {
+        "label" : "Berevo",
+        "uri" : "http://dbpedia.org/resource/Berevo"
+      }, {
+        "label" : "Schloss Berg (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Berg_Castle"
+      }, {
+        "label" : "Bartringen",
+        "uri" : "http://dbpedia.org/resource/Bertrange"
+      }, {
+        "label" : "Betafo (Stadt)",
+        "uri" : "http://dbpedia.org/resource/Betafo"
+      }, {
+        "label" : "Betroka (Distrikt)",
+        "uri" : "http://dbpedia.org/resource/Betroka_(district)"
+      }, {
+        "label" : "Betsiboka (Region)",
+        "uri" : "http://dbpedia.org/resource/Betsiboka"
+      }, {
+        "label" : "Bettemburg",
+        "uri" : "http://dbpedia.org/resource/Bettembourg"
+      }, {
+        "label" : "Bettendorf (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Bettendorf,_Luxembourg"
+      }, {
+        "label" : "Kayl",
+        "uri" : "http://dbpedia.org/resource/Kayl"
+      }, {
+        "label" : "Kehlen (Meckenbeuren)",
+        "uri" : "http://dbpedia.org/resource/Kehlen"
+      }, {
+        "label" : "Kehlen (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Kehlen"
+      }, {
+        "label" : "Kehlen (Schwäbische Alb)",
+        "uri" : "http://dbpedia.org/resource/Kehlen"
+      }, {
+        "label" : "Bastendorf",
+        "uri" : "http://dbpedia.org/resource/Bastendorf"
+      }, {
+        "label" : "Lenningen (Luxemburg)",
+        "uri" : "http://dbpedia.org/resource/Lenningen,_Luxembourg"
+      }, {
+        "label" : "Lenningen",
+        "uri" : "http://dbpedia.org/resource/Lenningen,_Luxembourg"
+      }, {
+        "label" : "Leudelingen",
+        "uri" : "http://dbpedia.org/resource/Leudelange"
+      }, {
+        "label" : "Limpertsberg",
+        "uri" : "http://dbpedia.org/resource/Limpertsberg"
+      }, {
+        "label" : "Lintgen",
+        "uri" : "http://dbpedia.org/resource/Lintgen"
+      }, {
+        "label" : "Bondorf (Rambruch)",
+        "uri" : "http://dbpedia.org/resource/Bigonville"
+      }, {
+        "label" : "Monnerich",
+        "uri" : "http://dbpedia.org/resource/Mondercange"
+      }, {
+        "label" : "Bad Mondorf",
+        "uri" : "http://dbpedia.org/resource/Mondorf-les-Bains"
+      } ]
+    },
+    "combination" : false
+  } ]
+}

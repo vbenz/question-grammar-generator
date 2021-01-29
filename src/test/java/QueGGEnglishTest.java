@@ -25,11 +25,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 @NoArgsConstructor
-public class QueGGTest {
+public class QueGGEnglishTest {
 
     private static String inputDir = "src/test/resources/lexicon/input/";
-    private static String outputDir = "src/test/resources/";
-    private static Language language = Language.stringToLanguage("EN");
+    private static String outputDir = "src/test/resources/lexicon/output/";
+    private static Language language = Language.stringToLanguage("DE");
 
    
     public static void main(String []agrs) {
@@ -37,7 +37,7 @@ public class QueGGTest {
         try {
             queGG.init(language, inputDir, outputDir);
         } catch (IOException ex) {
-            java.util.logging.Logger.getLogger(QueGGTest.class.getName()).log(Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(QueGGEnglishTest.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }
