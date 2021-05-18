@@ -29,7 +29,7 @@ public class QueGGEnglishTest {
 
     private static String inputDir = "src/test/resources/lexicon/input/";
     private static String outputDir = "src/test/resources/lexicon/output/";
-    private static Language language = Language.stringToLanguage("DE");
+    private static Language language = Language.stringToLanguage("EN");
 
    
     public static void main(String []agrs) {
