@@ -1,0 +1,723 @@
+0,Give me the birth place of A.Chal?,select  ?o    {    <http://dbpedia.org/resource/A.Chal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Peru
+1,Tell me the birth place of A.Chal?,select  ?o    {    <http://dbpedia.org/resource/A.Chal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Peru
+2,What is the birth place of A.Chal?,select  ?o    {    <http://dbpedia.org/resource/A.Chal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Peru
+3,What was the birth place of A.Chal?,select  ?o    {    <http://dbpedia.org/resource/A.Chal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Peru
+4,Which place is the birth place of A.Chal?,select  ?o    {    <http://dbpedia.org/resource/A.Chal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Peru
+5,Which place was the birth place of A.Chal?,select  ?o    {    <http://dbpedia.org/resource/A.Chal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Peru
+6,Give me the birth place of A.D.O.R.?,select  ?o    {    <http://dbpedia.org/resource/A.D.O.R.> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+7,Tell me the birth place of A.D.O.R.?,select  ?o    {    <http://dbpedia.org/resource/A.D.O.R.> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+8,What is the birth place of A.D.O.R.?,select  ?o    {    <http://dbpedia.org/resource/A.D.O.R.> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+9,What was the birth place of A.D.O.R.?,select  ?o    {    <http://dbpedia.org/resource/A.D.O.R.> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+10,Which place is the birth place of A.D.O.R.?,select  ?o    {    <http://dbpedia.org/resource/A.D.O.R.> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+11,Which place was the birth place of A.D.O.R.?,select  ?o    {    <http://dbpedia.org/resource/A.D.O.R.> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+12,Give me the birth place of A.E. Dick Howard?,select  ?o    {    <http://dbpedia.org/resource/A.E._Dick_Howard> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Richmond, Virginia"
+13,Tell me the birth place of A.E. Dick Howard?,select  ?o    {    <http://dbpedia.org/resource/A.E._Dick_Howard> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Richmond, Virginia"
+14,What is the birth place of A.E. Dick Howard?,select  ?o    {    <http://dbpedia.org/resource/A.E._Dick_Howard> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Richmond, Virginia"
+15,What was the birth place of A.E. Dick Howard?,select  ?o    {    <http://dbpedia.org/resource/A.E._Dick_Howard> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Richmond, Virginia"
+16,Which place is the birth place of A.E. Dick Howard?,select  ?o    {    <http://dbpedia.org/resource/A.E._Dick_Howard> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Richmond, Virginia"
+17,Which place was the birth place of A.E. Dick Howard?,select  ?o    {    <http://dbpedia.org/resource/A.E._Dick_Howard> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Richmond, Virginia"
+18,Give me the birth place of A.E. Hanson?,select  ?o    {    <http://dbpedia.org/resource/A.E._Hanson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Chino, California"
+19,Tell me the birth place of A.E. Hanson?,select  ?o    {    <http://dbpedia.org/resource/A.E._Hanson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Chino, California"
+20,What is the birth place of A.E. Hanson?,select  ?o    {    <http://dbpedia.org/resource/A.E._Hanson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Chino, California"
+21,What was the birth place of A.E. Hanson?,select  ?o    {    <http://dbpedia.org/resource/A.E._Hanson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Chino, California"
+22,Which place is the birth place of A.E. Hanson?,select  ?o    {    <http://dbpedia.org/resource/A.E._Hanson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Chino, California"
+23,Which place was the birth place of A.E. Hanson?,select  ?o    {    <http://dbpedia.org/resource/A.E._Hanson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Chino, California"
+24,Give me the birth place of A.G. Syjuco?,select  ?o    {    <http://dbpedia.org/resource/A.G._Syjuco> <http://dbpedia.org/ontology/birthPlace>  ?o    },Manila
+25,Tell me the birth place of A.G. Syjuco?,select  ?o    {    <http://dbpedia.org/resource/A.G._Syjuco> <http://dbpedia.org/ontology/birthPlace>  ?o    },Manila
+26,What is the birth place of A.G. Syjuco?,select  ?o    {    <http://dbpedia.org/resource/A.G._Syjuco> <http://dbpedia.org/ontology/birthPlace>  ?o    },Manila
+27,What was the birth place of A.G. Syjuco?,select  ?o    {    <http://dbpedia.org/resource/A.G._Syjuco> <http://dbpedia.org/ontology/birthPlace>  ?o    },Manila
+28,Which place is the birth place of A.G. Syjuco?,select  ?o    {    <http://dbpedia.org/resource/A.G._Syjuco> <http://dbpedia.org/ontology/birthPlace>  ?o    },Manila
+29,Which place was the birth place of A.G. Syjuco?,select  ?o    {    <http://dbpedia.org/resource/A.G._Syjuco> <http://dbpedia.org/ontology/birthPlace>  ?o    },Manila
+30,Give me the birth place of A.J. Applegate?,select  ?o    {    <http://dbpedia.org/resource/A.J._Applegate> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York (state)
+31,Tell me the birth place of A.J. Applegate?,select  ?o    {    <http://dbpedia.org/resource/A.J._Applegate> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York (state)
+32,What is the birth place of A.J. Applegate?,select  ?o    {    <http://dbpedia.org/resource/A.J._Applegate> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York (state)
+33,What was the birth place of A.J. Applegate?,select  ?o    {    <http://dbpedia.org/resource/A.J._Applegate> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York (state)
+34,Which place is the birth place of A.J. Applegate?,select  ?o    {    <http://dbpedia.org/resource/A.J._Applegate> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York (state)
+35,Which place was the birth place of A.J. Applegate?,select  ?o    {    <http://dbpedia.org/resource/A.J._Applegate> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York (state)
+36,Give me the birth place of A.L. Monsohn Lithography?,select  ?o    {    <http://dbpedia.org/resource/A.L._Monsohn_Lithography> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eretz Israel
+37,Tell me the birth place of A.L. Monsohn Lithography?,select  ?o    {    <http://dbpedia.org/resource/A.L._Monsohn_Lithography> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eretz Israel
+38,What is the birth place of A.L. Monsohn Lithography?,select  ?o    {    <http://dbpedia.org/resource/A.L._Monsohn_Lithography> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eretz Israel
+39,What was the birth place of A.L. Monsohn Lithography?,select  ?o    {    <http://dbpedia.org/resource/A.L._Monsohn_Lithography> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eretz Israel
+40,Which place is the birth place of A.L. Monsohn Lithography?,select  ?o    {    <http://dbpedia.org/resource/A.L._Monsohn_Lithography> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eretz Israel
+41,Which place was the birth place of A.L. Monsohn Lithography?,select  ?o    {    <http://dbpedia.org/resource/A.L._Monsohn_Lithography> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eretz Israel
+42,Give me the birth place of A.M. Parkin?,select  ?o    {    <http://dbpedia.org/resource/A.M._Parkin> <http://dbpedia.org/ontology/birthPlace>  ?o    },Kent
+43,Tell me the birth place of A.M. Parkin?,select  ?o    {    <http://dbpedia.org/resource/A.M._Parkin> <http://dbpedia.org/ontology/birthPlace>  ?o    },Kent
+44,What is the birth place of A.M. Parkin?,select  ?o    {    <http://dbpedia.org/resource/A.M._Parkin> <http://dbpedia.org/ontology/birthPlace>  ?o    },Kent
+45,What was the birth place of A.M. Parkin?,select  ?o    {    <http://dbpedia.org/resource/A.M._Parkin> <http://dbpedia.org/ontology/birthPlace>  ?o    },Kent
+46,Which place is the birth place of A.M. Parkin?,select  ?o    {    <http://dbpedia.org/resource/A.M._Parkin> <http://dbpedia.org/ontology/birthPlace>  ?o    },Kent
+47,Which place was the birth place of A.M. Parkin?,select  ?o    {    <http://dbpedia.org/resource/A.M._Parkin> <http://dbpedia.org/ontology/birthPlace>  ?o    },Kent
+48,Give me the birth place of A.M. SNiPER?,select  ?o    {    <http://dbpedia.org/resource/A.M._SNiPER> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+49,Tell me the birth place of A.M. SNiPER?,select  ?o    {    <http://dbpedia.org/resource/A.M._SNiPER> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+50,What is the birth place of A.M. SNiPER?,select  ?o    {    <http://dbpedia.org/resource/A.M._SNiPER> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+51,What was the birth place of A.M. SNiPER?,select  ?o    {    <http://dbpedia.org/resource/A.M._SNiPER> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+52,Which place is the birth place of A.M. SNiPER?,select  ?o    {    <http://dbpedia.org/resource/A.M._SNiPER> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+53,Which place was the birth place of A.M. SNiPER?,select  ?o    {    <http://dbpedia.org/resource/A.M._SNiPER> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+54,Give me the birth place of A.N.M. Ehsanul Hoque Milan?,select  ?o    {    <http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Kachua Upazila, Chandpur"
+55,Tell me the birth place of A.N.M. Ehsanul Hoque Milan?,select  ?o    {    <http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Kachua Upazila, Chandpur"
+56,What is the birth place of A.N.M. Ehsanul Hoque Milan?,select  ?o    {    <http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Kachua Upazila, Chandpur"
+57,What was the birth place of A.N.M. Ehsanul Hoque Milan?,select  ?o    {    <http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Kachua Upazila, Chandpur"
+58,Which place is the birth place of A.N.M. Ehsanul Hoque Milan?,select  ?o    {    <http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Kachua Upazila, Chandpur"
+59,Which place was the birth place of A.N.M. Ehsanul Hoque Milan?,select  ?o    {    <http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Kachua Upazila, Chandpur"
+60,Give me the birth place of A. A. Bondy?,select  ?o    {    <http://dbpedia.org/resource/A._A._Bondy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Louisiana
+61,Tell me the birth place of A. A. Bondy?,select  ?o    {    <http://dbpedia.org/resource/A._A._Bondy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Louisiana
+62,What is the birth place of A. A. Bondy?,select  ?o    {    <http://dbpedia.org/resource/A._A._Bondy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Louisiana
+63,What was the birth place of A. A. Bondy?,select  ?o    {    <http://dbpedia.org/resource/A._A._Bondy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Louisiana
+64,Which place is the birth place of A. A. Bondy?,select  ?o    {    <http://dbpedia.org/resource/A._A._Bondy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Louisiana
+65,Which place was the birth place of A. A. Bondy?,select  ?o    {    <http://dbpedia.org/resource/A._A._Bondy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Louisiana
+66,Give me the birth place of A. A. H. Tuttle?,select  ?o    {    <http://dbpedia.org/resource/A._A._H._Tuttle> <http://dbpedia.org/ontology/birthPlace>  ?o    },Illinois
+67,Tell me the birth place of A. A. H. Tuttle?,select  ?o    {    <http://dbpedia.org/resource/A._A._H._Tuttle> <http://dbpedia.org/ontology/birthPlace>  ?o    },Illinois
+68,What is the birth place of A. A. H. Tuttle?,select  ?o    {    <http://dbpedia.org/resource/A._A._H._Tuttle> <http://dbpedia.org/ontology/birthPlace>  ?o    },Illinois
+69,What was the birth place of A. A. H. Tuttle?,select  ?o    {    <http://dbpedia.org/resource/A._A._H._Tuttle> <http://dbpedia.org/ontology/birthPlace>  ?o    },Illinois
+70,Which place is the birth place of A. A. H. Tuttle?,select  ?o    {    <http://dbpedia.org/resource/A._A._H._Tuttle> <http://dbpedia.org/ontology/birthPlace>  ?o    },Illinois
+71,Which place was the birth place of A. A. H. Tuttle?,select  ?o    {    <http://dbpedia.org/resource/A._A._H._Tuttle> <http://dbpedia.org/ontology/birthPlace>  ?o    },Illinois
+72,Give me the birth place of A. A. Khan academic?,select  ?o    {    <http://dbpedia.org/resource/A._A._Khan_(academic)> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+73,Tell me the birth place of A. A. Khan academic?,select  ?o    {    <http://dbpedia.org/resource/A._A._Khan_(academic)> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+74,What is the birth place of A. A. Khan academic?,select  ?o    {    <http://dbpedia.org/resource/A._A._Khan_(academic)> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+75,What was the birth place of A. A. Khan academic?,select  ?o    {    <http://dbpedia.org/resource/A._A._Khan_(academic)> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+76,Which place is the birth place of A. A. Khan academic?,select  ?o    {    <http://dbpedia.org/resource/A._A._Khan_(academic)> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+77,Which place was the birth place of A. A. Khan academic?,select  ?o    {    <http://dbpedia.org/resource/A._A._Khan_(academic)> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+78,Give me the birth place of A. Andrews?,select  ?o    {    <http://dbpedia.org/resource/A._Andrews> <http://dbpedia.org/ontology/birthPlace>  ?o    },Connecticut
+79,Tell me the birth place of A. Andrews?,select  ?o    {    <http://dbpedia.org/resource/A._Andrews> <http://dbpedia.org/ontology/birthPlace>  ?o    },Connecticut
+80,What is the birth place of A. Andrews?,select  ?o    {    <http://dbpedia.org/resource/A._Andrews> <http://dbpedia.org/ontology/birthPlace>  ?o    },Connecticut
+81,What was the birth place of A. Andrews?,select  ?o    {    <http://dbpedia.org/resource/A._Andrews> <http://dbpedia.org/ontology/birthPlace>  ?o    },Connecticut
+82,Which place is the birth place of A. Andrews?,select  ?o    {    <http://dbpedia.org/resource/A._Andrews> <http://dbpedia.org/ontology/birthPlace>  ?o    },Connecticut
+83,Which place was the birth place of A. Andrews?,select  ?o    {    <http://dbpedia.org/resource/A._Andrews> <http://dbpedia.org/ontology/birthPlace>  ?o    },Connecticut
+84,Give me the birth place of A. B. Colton?,select  ?o    {    <http://dbpedia.org/resource/A._B._Colton> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vermont
+85,Tell me the birth place of A. B. Colton?,select  ?o    {    <http://dbpedia.org/resource/A._B._Colton> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vermont
+86,What is the birth place of A. B. Colton?,select  ?o    {    <http://dbpedia.org/resource/A._B._Colton> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vermont
+87,What was the birth place of A. B. Colton?,select  ?o    {    <http://dbpedia.org/resource/A._B._Colton> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vermont
+88,Which place is the birth place of A. B. Colton?,select  ?o    {    <http://dbpedia.org/resource/A._B._Colton> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vermont
+89,Which place was the birth place of A. B. Colton?,select  ?o    {    <http://dbpedia.org/resource/A._B._Colton> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vermont
+90,Give me the birth place of A. B. Creeke?,select  ?o    {    <http://dbpedia.org/resource/A._B._Creeke> <http://dbpedia.org/ontology/birthPlace>  ?o    },Habergham Eaves
+91,Tell me the birth place of A. B. Creeke?,select  ?o    {    <http://dbpedia.org/resource/A._B._Creeke> <http://dbpedia.org/ontology/birthPlace>  ?o    },Habergham Eaves
+92,What is the birth place of A. B. Creeke?,select  ?o    {    <http://dbpedia.org/resource/A._B._Creeke> <http://dbpedia.org/ontology/birthPlace>  ?o    },Habergham Eaves
+93,What was the birth place of A. B. Creeke?,select  ?o    {    <http://dbpedia.org/resource/A._B._Creeke> <http://dbpedia.org/ontology/birthPlace>  ?o    },Habergham Eaves
+94,Which place is the birth place of A. B. Creeke?,select  ?o    {    <http://dbpedia.org/resource/A._B._Creeke> <http://dbpedia.org/ontology/birthPlace>  ?o    },Habergham Eaves
+95,Which place was the birth place of A. B. Creeke?,select  ?o    {    <http://dbpedia.org/resource/A._B._Creeke> <http://dbpedia.org/ontology/birthPlace>  ?o    },Habergham Eaves
+96,Give me the birth place of A. B. Guthrie Jr.?,select  ?o    {    <http://dbpedia.org/resource/A._B._Guthrie_Jr.> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Bedford, Indiana"
+97,Tell me the birth place of A. B. Guthrie Jr.?,select  ?o    {    <http://dbpedia.org/resource/A._B._Guthrie_Jr.> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Bedford, Indiana"
+98,What is the birth place of A. B. Guthrie Jr.?,select  ?o    {    <http://dbpedia.org/resource/A._B._Guthrie_Jr.> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Bedford, Indiana"
+99,What was the birth place of A. B. Guthrie Jr.?,select  ?o    {    <http://dbpedia.org/resource/A._B._Guthrie_Jr.> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Bedford, Indiana"
+100,Which place is the birth place of A. B. Guthrie Jr.?,select  ?o    {    <http://dbpedia.org/resource/A._B._Guthrie_Jr.> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Bedford, Indiana"
+101,Which place was the birth place of A. B. Guthrie Jr.?,select  ?o    {    <http://dbpedia.org/resource/A._B._Guthrie_Jr.> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Bedford, Indiana"
+102,Give me the birth place of A. B. Imeson?,select  ?o    {    <http://dbpedia.org/resource/A._B._Imeson> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+103,Tell me the birth place of A. B. Imeson?,select  ?o    {    <http://dbpedia.org/resource/A._B._Imeson> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+104,What is the birth place of A. B. Imeson?,select  ?o    {    <http://dbpedia.org/resource/A._B._Imeson> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+105,What was the birth place of A. B. Imeson?,select  ?o    {    <http://dbpedia.org/resource/A._B._Imeson> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+106,Which place is the birth place of A. B. Imeson?,select  ?o    {    <http://dbpedia.org/resource/A._B._Imeson> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+107,Which place was the birth place of A. B. Imeson?,select  ?o    {    <http://dbpedia.org/resource/A._B._Imeson> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+108,Give me the birth place of A. B. Lull?,select  ?o    {    <http://dbpedia.org/resource/A._B._Lull> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pennsylvania
+109,Tell me the birth place of A. B. Lull?,select  ?o    {    <http://dbpedia.org/resource/A._B._Lull> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pennsylvania
+110,What is the birth place of A. B. Lull?,select  ?o    {    <http://dbpedia.org/resource/A._B._Lull> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pennsylvania
+111,What was the birth place of A. B. Lull?,select  ?o    {    <http://dbpedia.org/resource/A._B._Lull> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pennsylvania
+112,Which place is the birth place of A. B. Lull?,select  ?o    {    <http://dbpedia.org/resource/A._B._Lull> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pennsylvania
+113,Which place was the birth place of A. B. Lull?,select  ?o    {    <http://dbpedia.org/resource/A._B._Lull> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pennsylvania
+114,Give me the birth place of A. Bernard Ackerman?,select  ?o    {    <http://dbpedia.org/resource/A._Bernard_Ackerman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Elizabeth, New Jersey"
+115,Tell me the birth place of A. Bernard Ackerman?,select  ?o    {    <http://dbpedia.org/resource/A._Bernard_Ackerman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Elizabeth, New Jersey"
+116,What is the birth place of A. Bernard Ackerman?,select  ?o    {    <http://dbpedia.org/resource/A._Bernard_Ackerman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Elizabeth, New Jersey"
+117,What was the birth place of A. Bernard Ackerman?,select  ?o    {    <http://dbpedia.org/resource/A._Bernard_Ackerman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Elizabeth, New Jersey"
+118,Which place is the birth place of A. Bernard Ackerman?,select  ?o    {    <http://dbpedia.org/resource/A._Bernard_Ackerman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Elizabeth, New Jersey"
+119,Which place was the birth place of A. Bernard Ackerman?,select  ?o    {    <http://dbpedia.org/resource/A._Bernard_Ackerman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Elizabeth, New Jersey"
+120,Give me the birth place of A. Blaine Bowman?,select  ?o    {    <http://dbpedia.org/resource/A._Blaine_Bowman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ogden, Utah"
+121,Tell me the birth place of A. Blaine Bowman?,select  ?o    {    <http://dbpedia.org/resource/A._Blaine_Bowman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ogden, Utah"
+122,What is the birth place of A. Blaine Bowman?,select  ?o    {    <http://dbpedia.org/resource/A._Blaine_Bowman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ogden, Utah"
+123,What was the birth place of A. Blaine Bowman?,select  ?o    {    <http://dbpedia.org/resource/A._Blaine_Bowman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ogden, Utah"
+124,Which place is the birth place of A. Blaine Bowman?,select  ?o    {    <http://dbpedia.org/resource/A._Blaine_Bowman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ogden, Utah"
+125,Which place was the birth place of A. Blaine Bowman?,select  ?o    {    <http://dbpedia.org/resource/A._Blaine_Bowman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ogden, Utah"
+126,Give me the birth place of A. Brown Moore?,select  ?o    {    <http://dbpedia.org/resource/A._Brown_Moore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Orleans, Louisiana"
+127,Tell me the birth place of A. Brown Moore?,select  ?o    {    <http://dbpedia.org/resource/A._Brown_Moore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Orleans, Louisiana"
+128,What is the birth place of A. Brown Moore?,select  ?o    {    <http://dbpedia.org/resource/A._Brown_Moore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Orleans, Louisiana"
+129,What was the birth place of A. Brown Moore?,select  ?o    {    <http://dbpedia.org/resource/A._Brown_Moore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Orleans, Louisiana"
+130,Which place is the birth place of A. Brown Moore?,select  ?o    {    <http://dbpedia.org/resource/A._Brown_Moore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Orleans, Louisiana"
+131,Which place was the birth place of A. Brown Moore?,select  ?o    {    <http://dbpedia.org/resource/A._Brown_Moore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Orleans, Louisiana"
+132,Give me the birth place of A. C. Lyons?,select  ?o    {    <http://dbpedia.org/resource/A._C._Lyons> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Somerset County, Pennsylvania"
+133,Tell me the birth place of A. C. Lyons?,select  ?o    {    <http://dbpedia.org/resource/A._C._Lyons> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Somerset County, Pennsylvania"
+134,What is the birth place of A. C. Lyons?,select  ?o    {    <http://dbpedia.org/resource/A._C._Lyons> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Somerset County, Pennsylvania"
+135,What was the birth place of A. C. Lyons?,select  ?o    {    <http://dbpedia.org/resource/A._C._Lyons> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Somerset County, Pennsylvania"
+136,Which place is the birth place of A. C. Lyons?,select  ?o    {    <http://dbpedia.org/resource/A._C._Lyons> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Somerset County, Pennsylvania"
+137,Which place was the birth place of A. C. Lyons?,select  ?o    {    <http://dbpedia.org/resource/A._C._Lyons> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Somerset County, Pennsylvania"
+138,Give me the birth place of A. C. Shanmugam?,select  ?o    {    <http://dbpedia.org/resource/A._C._Shanmugam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+139,Tell me the birth place of A. C. Shanmugam?,select  ?o    {    <http://dbpedia.org/resource/A._C._Shanmugam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+140,What is the birth place of A. C. Shanmugam?,select  ?o    {    <http://dbpedia.org/resource/A._C._Shanmugam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+141,What was the birth place of A. C. Shanmugam?,select  ?o    {    <http://dbpedia.org/resource/A._C._Shanmugam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+142,Which place is the birth place of A. C. Shanmugam?,select  ?o    {    <http://dbpedia.org/resource/A._C._Shanmugam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+143,Which place was the birth place of A. C. Shanmugam?,select  ?o    {    <http://dbpedia.org/resource/A._C._Shanmugam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+144,Give me the birth place of A. C. Wise?,select  ?o    {    <http://dbpedia.org/resource/A._C._Wise> <http://dbpedia.org/ontology/birthPlace>  ?o    },Montreal
+145,Tell me the birth place of A. C. Wise?,select  ?o    {    <http://dbpedia.org/resource/A._C._Wise> <http://dbpedia.org/ontology/birthPlace>  ?o    },Montreal
+146,What is the birth place of A. C. Wise?,select  ?o    {    <http://dbpedia.org/resource/A._C._Wise> <http://dbpedia.org/ontology/birthPlace>  ?o    },Montreal
+147,What was the birth place of A. C. Wise?,select  ?o    {    <http://dbpedia.org/resource/A._C._Wise> <http://dbpedia.org/ontology/birthPlace>  ?o    },Montreal
+148,Which place is the birth place of A. C. Wise?,select  ?o    {    <http://dbpedia.org/resource/A._C._Wise> <http://dbpedia.org/ontology/birthPlace>  ?o    },Montreal
+149,Which place was the birth place of A. C. Wise?,select  ?o    {    <http://dbpedia.org/resource/A._C._Wise> <http://dbpedia.org/ontology/birthPlace>  ?o    },Montreal
+150,Give me the birth place of A. Clarence Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clarence_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Columbus, Georgia"
+151,Tell me the birth place of A. Clarence Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clarence_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Columbus, Georgia"
+152,What is the birth place of A. Clarence Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clarence_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Columbus, Georgia"
+153,What was the birth place of A. Clarence Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clarence_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Columbus, Georgia"
+154,Which place is the birth place of A. Clarence Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clarence_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Columbus, Georgia"
+155,Which place was the birth place of A. Clarence Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clarence_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Columbus, Georgia"
+156,Give me the birth place of A. Clifford Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clifford_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"St. Louis, Missouri"
+157,Tell me the birth place of A. Clifford Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clifford_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"St. Louis, Missouri"
+158,What is the birth place of A. Clifford Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clifford_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"St. Louis, Missouri"
+159,What was the birth place of A. Clifford Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clifford_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"St. Louis, Missouri"
+160,Which place is the birth place of A. Clifford Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clifford_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"St. Louis, Missouri"
+161,Which place was the birth place of A. Clifford Jones?,select  ?o    {    <http://dbpedia.org/resource/A._Clifford_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"St. Louis, Missouri"
+162,Give me the birth place of A. D. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._D._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },British India
+163,Tell me the birth place of A. D. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._D._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },British India
+164,What is the birth place of A. D. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._D._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },British India
+165,What was the birth place of A. D. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._D._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },British India
+166,Which place is the birth place of A. D. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._D._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },British India
+167,Which place was the birth place of A. D. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._D._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },British India
+168,Give me the birth place of A. DeWade Langley?,select  ?o    {    <http://dbpedia.org/resource/A._DeWade_Langley> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Custer County, Oklahoma"
+169,Tell me the birth place of A. DeWade Langley?,select  ?o    {    <http://dbpedia.org/resource/A._DeWade_Langley> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Custer County, Oklahoma"
+170,What is the birth place of A. DeWade Langley?,select  ?o    {    <http://dbpedia.org/resource/A._DeWade_Langley> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Custer County, Oklahoma"
+171,What was the birth place of A. DeWade Langley?,select  ?o    {    <http://dbpedia.org/resource/A._DeWade_Langley> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Custer County, Oklahoma"
+172,Which place is the birth place of A. DeWade Langley?,select  ?o    {    <http://dbpedia.org/resource/A._DeWade_Langley> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Custer County, Oklahoma"
+173,Which place was the birth place of A. DeWade Langley?,select  ?o    {    <http://dbpedia.org/resource/A._DeWade_Langley> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Custer County, Oklahoma"
+174,Give me the birth place of A. Duncan Carse?,select  ?o    {    <http://dbpedia.org/resource/A._Duncan_Carse> <http://dbpedia.org/ontology/birthPlace>  ?o    },Newcastle upon Tyne
+175,Tell me the birth place of A. Duncan Carse?,select  ?o    {    <http://dbpedia.org/resource/A._Duncan_Carse> <http://dbpedia.org/ontology/birthPlace>  ?o    },Newcastle upon Tyne
+176,What is the birth place of A. Duncan Carse?,select  ?o    {    <http://dbpedia.org/resource/A._Duncan_Carse> <http://dbpedia.org/ontology/birthPlace>  ?o    },Newcastle upon Tyne
+177,What was the birth place of A. Duncan Carse?,select  ?o    {    <http://dbpedia.org/resource/A._Duncan_Carse> <http://dbpedia.org/ontology/birthPlace>  ?o    },Newcastle upon Tyne
+178,Which place is the birth place of A. Duncan Carse?,select  ?o    {    <http://dbpedia.org/resource/A._Duncan_Carse> <http://dbpedia.org/ontology/birthPlace>  ?o    },Newcastle upon Tyne
+179,Which place was the birth place of A. Duncan Carse?,select  ?o    {    <http://dbpedia.org/resource/A._Duncan_Carse> <http://dbpedia.org/ontology/birthPlace>  ?o    },Newcastle upon Tyne
+180,Give me the birth place of A. E. Coleby?,select  ?o    {    <http://dbpedia.org/resource/A._E._Coleby> <http://dbpedia.org/ontology/birthPlace>  ?o    },London
+181,Tell me the birth place of A. E. Coleby?,select  ?o    {    <http://dbpedia.org/resource/A._E._Coleby> <http://dbpedia.org/ontology/birthPlace>  ?o    },London
+182,What is the birth place of A. E. Coleby?,select  ?o    {    <http://dbpedia.org/resource/A._E._Coleby> <http://dbpedia.org/ontology/birthPlace>  ?o    },London
+183,What was the birth place of A. E. Coleby?,select  ?o    {    <http://dbpedia.org/resource/A._E._Coleby> <http://dbpedia.org/ontology/birthPlace>  ?o    },London
+184,Which place is the birth place of A. E. Coleby?,select  ?o    {    <http://dbpedia.org/resource/A._E._Coleby> <http://dbpedia.org/ontology/birthPlace>  ?o    },London
+185,Which place was the birth place of A. E. Coleby?,select  ?o    {    <http://dbpedia.org/resource/A._E._Coleby> <http://dbpedia.org/ontology/birthPlace>  ?o    },London
+186,Give me the birth place of A. F. K. Organski?,select  ?o    {    <http://dbpedia.org/resource/A._F._K._Organski> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Rome, Italy"
+187,Tell me the birth place of A. F. K. Organski?,select  ?o    {    <http://dbpedia.org/resource/A._F._K._Organski> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Rome, Italy"
+188,What is the birth place of A. F. K. Organski?,select  ?o    {    <http://dbpedia.org/resource/A._F._K._Organski> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Rome, Italy"
+189,What was the birth place of A. F. K. Organski?,select  ?o    {    <http://dbpedia.org/resource/A._F._K._Organski> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Rome, Italy"
+190,Which place is the birth place of A. F. K. Organski?,select  ?o    {    <http://dbpedia.org/resource/A._F._K._Organski> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Rome, Italy"
+191,Which place was the birth place of A. F. K. Organski?,select  ?o    {    <http://dbpedia.org/resource/A._F._K._Organski> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Rome, Italy"
+192,Give me the birth place of A. G. Harbaugh?,select  ?o    {    <http://dbpedia.org/resource/A._G._Harbaugh> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Roseville, Iowa"
+193,Tell me the birth place of A. G. Harbaugh?,select  ?o    {    <http://dbpedia.org/resource/A._G._Harbaugh> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Roseville, Iowa"
+194,What is the birth place of A. G. Harbaugh?,select  ?o    {    <http://dbpedia.org/resource/A._G._Harbaugh> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Roseville, Iowa"
+195,What was the birth place of A. G. Harbaugh?,select  ?o    {    <http://dbpedia.org/resource/A._G._Harbaugh> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Roseville, Iowa"
+196,Which place is the birth place of A. G. Harbaugh?,select  ?o    {    <http://dbpedia.org/resource/A._G._Harbaugh> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Roseville, Iowa"
+197,Which place was the birth place of A. G. Harbaugh?,select  ?o    {    <http://dbpedia.org/resource/A._G._Harbaugh> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Roseville, Iowa"
+198,Give me the birth place of A. G. K. Gokhale?,select  ?o    {    <http://dbpedia.org/resource/A._G._K._Gokhale> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vijayawada
+199,Tell me the birth place of A. G. K. Gokhale?,select  ?o    {    <http://dbpedia.org/resource/A._G._K._Gokhale> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vijayawada
+200,What is the birth place of A. G. K. Gokhale?,select  ?o    {    <http://dbpedia.org/resource/A._G._K._Gokhale> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vijayawada
+201,What was the birth place of A. G. K. Gokhale?,select  ?o    {    <http://dbpedia.org/resource/A._G._K._Gokhale> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vijayawada
+202,Which place is the birth place of A. G. K. Gokhale?,select  ?o    {    <http://dbpedia.org/resource/A._G._K._Gokhale> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vijayawada
+203,Which place was the birth place of A. G. K. Gokhale?,select  ?o    {    <http://dbpedia.org/resource/A._G._K._Gokhale> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vijayawada
+204,Give me the birth place of A. Ganeshkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Ganeshkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+205,Tell me the birth place of A. Ganeshkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Ganeshkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+206,What is the birth place of A. Ganeshkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Ganeshkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+207,What was the birth place of A. Ganeshkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Ganeshkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+208,Which place is the birth place of A. Ganeshkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Ganeshkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+209,Which place was the birth place of A. Ganeshkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Ganeshkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+210,Give me the birth place of A. Gilbert Wright?,select  ?o    {    <http://dbpedia.org/resource/A._Gilbert_Wright> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Carthage, Illinois"
+211,Tell me the birth place of A. Gilbert Wright?,select  ?o    {    <http://dbpedia.org/resource/A._Gilbert_Wright> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Carthage, Illinois"
+212,What is the birth place of A. Gilbert Wright?,select  ?o    {    <http://dbpedia.org/resource/A._Gilbert_Wright> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Carthage, Illinois"
+213,What was the birth place of A. Gilbert Wright?,select  ?o    {    <http://dbpedia.org/resource/A._Gilbert_Wright> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Carthage, Illinois"
+214,Which place is the birth place of A. Gilbert Wright?,select  ?o    {    <http://dbpedia.org/resource/A._Gilbert_Wright> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Carthage, Illinois"
+215,Which place was the birth place of A. Gilbert Wright?,select  ?o    {    <http://dbpedia.org/resource/A._Gilbert_Wright> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Carthage, Illinois"
+216,Give me the birth place of A. Gnanathasan?,select  ?o    {    <http://dbpedia.org/resource/A._Gnanathasan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Chavakachcheri
+217,Tell me the birth place of A. Gnanathasan?,select  ?o    {    <http://dbpedia.org/resource/A._Gnanathasan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Chavakachcheri
+218,What is the birth place of A. Gnanathasan?,select  ?o    {    <http://dbpedia.org/resource/A._Gnanathasan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Chavakachcheri
+219,What was the birth place of A. Gnanathasan?,select  ?o    {    <http://dbpedia.org/resource/A._Gnanathasan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Chavakachcheri
+220,Which place is the birth place of A. Gnanathasan?,select  ?o    {    <http://dbpedia.org/resource/A._Gnanathasan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Chavakachcheri
+221,Which place was the birth place of A. Gnanathasan?,select  ?o    {    <http://dbpedia.org/resource/A._Gnanathasan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Chavakachcheri
+222,Give me the birth place of A. Gordon Wetmore?,select  ?o    {    <http://dbpedia.org/resource/A._Gordon_Wetmore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Brunswick, Canada"
+223,Tell me the birth place of A. Gordon Wetmore?,select  ?o    {    <http://dbpedia.org/resource/A._Gordon_Wetmore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Brunswick, Canada"
+224,What is the birth place of A. Gordon Wetmore?,select  ?o    {    <http://dbpedia.org/resource/A._Gordon_Wetmore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Brunswick, Canada"
+225,What was the birth place of A. Gordon Wetmore?,select  ?o    {    <http://dbpedia.org/resource/A._Gordon_Wetmore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Brunswick, Canada"
+226,Which place is the birth place of A. Gordon Wetmore?,select  ?o    {    <http://dbpedia.org/resource/A._Gordon_Wetmore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Brunswick, Canada"
+227,Which place was the birth place of A. Gordon Wetmore?,select  ?o    {    <http://dbpedia.org/resource/A._Gordon_Wetmore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Brunswick, Canada"
+228,Give me the birth place of A. Grove Day?,select  ?o    {    <http://dbpedia.org/resource/A._Grove_Day> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+229,Tell me the birth place of A. Grove Day?,select  ?o    {    <http://dbpedia.org/resource/A._Grove_Day> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+230,What is the birth place of A. Grove Day?,select  ?o    {    <http://dbpedia.org/resource/A._Grove_Day> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+231,What was the birth place of A. Grove Day?,select  ?o    {    <http://dbpedia.org/resource/A._Grove_Day> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+232,Which place is the birth place of A. Grove Day?,select  ?o    {    <http://dbpedia.org/resource/A._Grove_Day> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+233,Which place was the birth place of A. Grove Day?,select  ?o    {    <http://dbpedia.org/resource/A._Grove_Day> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+234,Give me the birth place of A. H. Albut?,select  ?o    {    <http://dbpedia.org/resource/A._H._Albut> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+235,Tell me the birth place of A. H. Albut?,select  ?o    {    <http://dbpedia.org/resource/A._H._Albut> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+236,What is the birth place of A. H. Albut?,select  ?o    {    <http://dbpedia.org/resource/A._H._Albut> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+237,What was the birth place of A. H. Albut?,select  ?o    {    <http://dbpedia.org/resource/A._H._Albut> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+238,Which place is the birth place of A. H. Albut?,select  ?o    {    <http://dbpedia.org/resource/A._H._Albut> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+239,Which place was the birth place of A. H. Albut?,select  ?o    {    <http://dbpedia.org/resource/A._H._Albut> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+240,Give me the birth place of A. H. Hornby?,select  ?o    {    <http://dbpedia.org/resource/A._H._Hornby> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+241,Tell me the birth place of A. H. Hornby?,select  ?o    {    <http://dbpedia.org/resource/A._H._Hornby> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+242,What is the birth place of A. H. Hornby?,select  ?o    {    <http://dbpedia.org/resource/A._H._Hornby> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+243,What was the birth place of A. H. Hornby?,select  ?o    {    <http://dbpedia.org/resource/A._H._Hornby> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+244,Which place is the birth place of A. H. Hornby?,select  ?o    {    <http://dbpedia.org/resource/A._H._Hornby> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+245,Which place was the birth place of A. H. Hornby?,select  ?o    {    <http://dbpedia.org/resource/A._H._Hornby> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+246,Give me the birth place of A. J. B. Johnston?,select  ?o    {    <http://dbpedia.org/resource/A._J._B._Johnston> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Truro, Nova Scotia"
+247,Tell me the birth place of A. J. B. Johnston?,select  ?o    {    <http://dbpedia.org/resource/A._J._B._Johnston> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Truro, Nova Scotia"
+248,What is the birth place of A. J. B. Johnston?,select  ?o    {    <http://dbpedia.org/resource/A._J._B._Johnston> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Truro, Nova Scotia"
+249,What was the birth place of A. J. B. Johnston?,select  ?o    {    <http://dbpedia.org/resource/A._J._B._Johnston> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Truro, Nova Scotia"
+250,Which place is the birth place of A. J. B. Johnston?,select  ?o    {    <http://dbpedia.org/resource/A._J._B._Johnston> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Truro, Nova Scotia"
+251,Which place was the birth place of A. J. B. Johnston?,select  ?o    {    <http://dbpedia.org/resource/A._J._B._Johnston> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Truro, Nova Scotia"
+252,Give me the birth place of A. J. Benza?,select  ?o    {    <http://dbpedia.org/resource/A._J._Benza> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+253,Tell me the birth place of A. J. Benza?,select  ?o    {    <http://dbpedia.org/resource/A._J._Benza> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+254,What is the birth place of A. J. Benza?,select  ?o    {    <http://dbpedia.org/resource/A._J._Benza> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+255,What was the birth place of A. J. Benza?,select  ?o    {    <http://dbpedia.org/resource/A._J._Benza> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+256,Which place is the birth place of A. J. Benza?,select  ?o    {    <http://dbpedia.org/resource/A._J._Benza> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+257,Which place was the birth place of A. J. Benza?,select  ?o    {    <http://dbpedia.org/resource/A._J._Benza> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+258,Give me the birth place of A. J. Bernheim Brush?,select  ?o    {    <http://dbpedia.org/resource/A._J._Bernheim_Brush> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wilmington, Delaware"
+259,Tell me the birth place of A. J. Bernheim Brush?,select  ?o    {    <http://dbpedia.org/resource/A._J._Bernheim_Brush> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wilmington, Delaware"
+260,What is the birth place of A. J. Bernheim Brush?,select  ?o    {    <http://dbpedia.org/resource/A._J._Bernheim_Brush> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wilmington, Delaware"
+261,What was the birth place of A. J. Bernheim Brush?,select  ?o    {    <http://dbpedia.org/resource/A._J._Bernheim_Brush> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wilmington, Delaware"
+262,Which place is the birth place of A. J. Bernheim Brush?,select  ?o    {    <http://dbpedia.org/resource/A._J._Bernheim_Brush> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wilmington, Delaware"
+263,Which place was the birth place of A. J. Bernheim Brush?,select  ?o    {    <http://dbpedia.org/resource/A._J._Bernheim_Brush> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wilmington, Delaware"
+264,Give me the birth place of A. J. Healy?,select  ?o    {    <http://dbpedia.org/resource/A._J._Healy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Ireland
+265,Tell me the birth place of A. J. Healy?,select  ?o    {    <http://dbpedia.org/resource/A._J._Healy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Ireland
+266,What is the birth place of A. J. Healy?,select  ?o    {    <http://dbpedia.org/resource/A._J._Healy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Ireland
+267,What was the birth place of A. J. Healy?,select  ?o    {    <http://dbpedia.org/resource/A._J._Healy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Ireland
+268,Which place is the birth place of A. J. Healy?,select  ?o    {    <http://dbpedia.org/resource/A._J._Healy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Ireland
+269,Which place was the birth place of A. J. Healy?,select  ?o    {    <http://dbpedia.org/resource/A._J._Healy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Ireland
+270,Give me the birth place of A. J. Mogis?,select  ?o    {    <http://dbpedia.org/resource/A._J._Mogis> <http://dbpedia.org/ontology/birthPlace>  ?o    },"North Platte, Nebraska"
+271,Tell me the birth place of A. J. Mogis?,select  ?o    {    <http://dbpedia.org/resource/A._J._Mogis> <http://dbpedia.org/ontology/birthPlace>  ?o    },"North Platte, Nebraska"
+272,What is the birth place of A. J. Mogis?,select  ?o    {    <http://dbpedia.org/resource/A._J._Mogis> <http://dbpedia.org/ontology/birthPlace>  ?o    },"North Platte, Nebraska"
+273,What was the birth place of A. J. Mogis?,select  ?o    {    <http://dbpedia.org/resource/A._J._Mogis> <http://dbpedia.org/ontology/birthPlace>  ?o    },"North Platte, Nebraska"
+274,Which place is the birth place of A. J. Mogis?,select  ?o    {    <http://dbpedia.org/resource/A._J._Mogis> <http://dbpedia.org/ontology/birthPlace>  ?o    },"North Platte, Nebraska"
+275,Which place was the birth place of A. J. Mogis?,select  ?o    {    <http://dbpedia.org/resource/A._J._Mogis> <http://dbpedia.org/ontology/birthPlace>  ?o    },"North Platte, Nebraska"
+276,Give me the birth place of A. J. Preller?,select  ?o    {    <http://dbpedia.org/resource/A._J._Preller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New York, New York"
+277,Tell me the birth place of A. J. Preller?,select  ?o    {    <http://dbpedia.org/resource/A._J._Preller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New York, New York"
+278,What is the birth place of A. J. Preller?,select  ?o    {    <http://dbpedia.org/resource/A._J._Preller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New York, New York"
+279,What was the birth place of A. J. Preller?,select  ?o    {    <http://dbpedia.org/resource/A._J._Preller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New York, New York"
+280,Which place is the birth place of A. J. Preller?,select  ?o    {    <http://dbpedia.org/resource/A._J._Preller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New York, New York"
+281,Which place was the birth place of A. J. Preller?,select  ?o    {    <http://dbpedia.org/resource/A._J._Preller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New York, New York"
+282,Give me the birth place of A. J. Reynolds?,select  ?o    {    <http://dbpedia.org/resource/A._J._Reynolds> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Sydney, Nova Scotia"
+283,Tell me the birth place of A. J. Reynolds?,select  ?o    {    <http://dbpedia.org/resource/A._J._Reynolds> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Sydney, Nova Scotia"
+284,What is the birth place of A. J. Reynolds?,select  ?o    {    <http://dbpedia.org/resource/A._J._Reynolds> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Sydney, Nova Scotia"
+285,What was the birth place of A. J. Reynolds?,select  ?o    {    <http://dbpedia.org/resource/A._J._Reynolds> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Sydney, Nova Scotia"
+286,Which place is the birth place of A. J. Reynolds?,select  ?o    {    <http://dbpedia.org/resource/A._J._Reynolds> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Sydney, Nova Scotia"
+287,Which place was the birth place of A. J. Reynolds?,select  ?o    {    <http://dbpedia.org/resource/A._J._Reynolds> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Sydney, Nova Scotia"
+288,Give me the birth place of A. Johnkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Johnkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+289,Tell me the birth place of A. Johnkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Johnkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+290,What is the birth place of A. Johnkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Johnkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+291,What was the birth place of A. Johnkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Johnkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+292,Which place is the birth place of A. Johnkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Johnkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+293,Which place was the birth place of A. Johnkumar?,select  ?o    {    <http://dbpedia.org/resource/A._Johnkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+294,Give me the birth place of A. K. Brohi?,select  ?o    {    <http://dbpedia.org/resource/A._K._Brohi> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sindh
+295,Tell me the birth place of A. K. Brohi?,select  ?o    {    <http://dbpedia.org/resource/A._K._Brohi> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sindh
+296,What is the birth place of A. K. Brohi?,select  ?o    {    <http://dbpedia.org/resource/A._K._Brohi> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sindh
+297,What was the birth place of A. K. Brohi?,select  ?o    {    <http://dbpedia.org/resource/A._K._Brohi> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sindh
+298,Which place is the birth place of A. K. Brohi?,select  ?o    {    <http://dbpedia.org/resource/A._K._Brohi> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sindh
+299,Which place was the birth place of A. K. Brohi?,select  ?o    {    <http://dbpedia.org/resource/A._K._Brohi> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sindh
+300,Give me the birth place of A. K. M. Shahidul Haque?,select  ?o    {    <http://dbpedia.org/resource/A._K._M._Shahidul_Haque> <http://dbpedia.org/ontology/birthPlace>  ?o    },Shariatpur District
+301,Tell me the birth place of A. K. M. Shahidul Haque?,select  ?o    {    <http://dbpedia.org/resource/A._K._M._Shahidul_Haque> <http://dbpedia.org/ontology/birthPlace>  ?o    },Shariatpur District
+302,What is the birth place of A. K. M. Shahidul Haque?,select  ?o    {    <http://dbpedia.org/resource/A._K._M._Shahidul_Haque> <http://dbpedia.org/ontology/birthPlace>  ?o    },Shariatpur District
+303,What was the birth place of A. K. M. Shahidul Haque?,select  ?o    {    <http://dbpedia.org/resource/A._K._M._Shahidul_Haque> <http://dbpedia.org/ontology/birthPlace>  ?o    },Shariatpur District
+304,Which place is the birth place of A. K. M. Shahidul Haque?,select  ?o    {    <http://dbpedia.org/resource/A._K._M._Shahidul_Haque> <http://dbpedia.org/ontology/birthPlace>  ?o    },Shariatpur District
+305,Which place was the birth place of A. K. M. Shahidul Haque?,select  ?o    {    <http://dbpedia.org/resource/A._K._M._Shahidul_Haque> <http://dbpedia.org/ontology/birthPlace>  ?o    },Shariatpur District
+306,Give me the birth place of A. K. Narain?,select  ?o    {    <http://dbpedia.org/resource/A._K._Narain> <http://dbpedia.org/ontology/birthPlace>  ?o    },Bihar
+307,Tell me the birth place of A. K. Narain?,select  ?o    {    <http://dbpedia.org/resource/A._K._Narain> <http://dbpedia.org/ontology/birthPlace>  ?o    },Bihar
+308,What is the birth place of A. K. Narain?,select  ?o    {    <http://dbpedia.org/resource/A._K._Narain> <http://dbpedia.org/ontology/birthPlace>  ?o    },Bihar
+309,What was the birth place of A. K. Narain?,select  ?o    {    <http://dbpedia.org/resource/A._K._Narain> <http://dbpedia.org/ontology/birthPlace>  ?o    },Bihar
+310,Which place is the birth place of A. K. Narain?,select  ?o    {    <http://dbpedia.org/resource/A._K._Narain> <http://dbpedia.org/ontology/birthPlace>  ?o    },Bihar
+311,Which place was the birth place of A. K. Narain?,select  ?o    {    <http://dbpedia.org/resource/A._K._Narain> <http://dbpedia.org/ontology/birthPlace>  ?o    },Bihar
+312,Give me the birth place of A. K. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._K._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mehsana District
+313,Tell me the birth place of A. K. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._K._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mehsana District
+314,What is the birth place of A. K. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._K._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mehsana District
+315,What was the birth place of A. K. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._K._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mehsana District
+316,Which place is the birth place of A. K. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._K._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mehsana District
+317,Which place was the birth place of A. K. Patel?,select  ?o    {    <http://dbpedia.org/resource/A._K._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mehsana District
+318,Give me the birth place of A. K. Veerasami?,select  ?o    {    <http://dbpedia.org/resource/A._K._Veerasami> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur District
+319,Tell me the birth place of A. K. Veerasami?,select  ?o    {    <http://dbpedia.org/resource/A._K._Veerasami> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur District
+320,What is the birth place of A. K. Veerasami?,select  ?o    {    <http://dbpedia.org/resource/A._K._Veerasami> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur District
+321,What was the birth place of A. K. Veerasami?,select  ?o    {    <http://dbpedia.org/resource/A._K._Veerasami> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur District
+322,Which place is the birth place of A. K. Veerasami?,select  ?o    {    <http://dbpedia.org/resource/A._K._Veerasami> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur District
+323,Which place was the birth place of A. K. Veerasami?,select  ?o    {    <http://dbpedia.org/resource/A._K._Veerasami> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur District
+324,Give me the birth place of A. Karunakaran?,select  ?o    {    <http://dbpedia.org/resource/A._Karunakaran> <http://dbpedia.org/ontology/birthPlace>  ?o    },Devakottai
+325,Tell me the birth place of A. Karunakaran?,select  ?o    {    <http://dbpedia.org/resource/A._Karunakaran> <http://dbpedia.org/ontology/birthPlace>  ?o    },Devakottai
+326,What is the birth place of A. Karunakaran?,select  ?o    {    <http://dbpedia.org/resource/A._Karunakaran> <http://dbpedia.org/ontology/birthPlace>  ?o    },Devakottai
+327,What was the birth place of A. Karunakaran?,select  ?o    {    <http://dbpedia.org/resource/A._Karunakaran> <http://dbpedia.org/ontology/birthPlace>  ?o    },Devakottai
+328,Which place is the birth place of A. Karunakaran?,select  ?o    {    <http://dbpedia.org/resource/A._Karunakaran> <http://dbpedia.org/ontology/birthPlace>  ?o    },Devakottai
+329,Which place was the birth place of A. Karunakaran?,select  ?o    {    <http://dbpedia.org/resource/A._Karunakaran> <http://dbpedia.org/ontology/birthPlace>  ?o    },Devakottai
+330,Give me the birth place of A. L. Narayan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Narayan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mukkamala, East Godavari"
+331,Tell me the birth place of A. L. Narayan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Narayan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mukkamala, East Godavari"
+332,What is the birth place of A. L. Narayan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Narayan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mukkamala, East Godavari"
+333,What was the birth place of A. L. Narayan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Narayan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mukkamala, East Godavari"
+334,Which place is the birth place of A. L. Narayan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Narayan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mukkamala, East Godavari"
+335,Which place was the birth place of A. L. Narayan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Narayan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mukkamala, East Godavari"
+336,Give me the birth place of A. L. Raghavan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Raghavan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur
+337,Tell me the birth place of A. L. Raghavan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Raghavan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur
+338,What is the birth place of A. L. Raghavan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Raghavan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur
+339,What was the birth place of A. L. Raghavan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Raghavan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur
+340,Which place is the birth place of A. L. Raghavan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Raghavan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur
+341,Which place was the birth place of A. L. Raghavan?,select  ?o    {    <http://dbpedia.org/resource/A._L._Raghavan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur
+342,Give me the birth place of A. L. Ramesh?,select  ?o    {    <http://dbpedia.org/resource/A._L._Ramesh> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eraniel
+343,Tell me the birth place of A. L. Ramesh?,select  ?o    {    <http://dbpedia.org/resource/A._L._Ramesh> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eraniel
+344,What is the birth place of A. L. Ramesh?,select  ?o    {    <http://dbpedia.org/resource/A._L._Ramesh> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eraniel
+345,What was the birth place of A. L. Ramesh?,select  ?o    {    <http://dbpedia.org/resource/A._L._Ramesh> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eraniel
+346,Which place is the birth place of A. L. Ramesh?,select  ?o    {    <http://dbpedia.org/resource/A._L._Ramesh> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eraniel
+347,Which place was the birth place of A. L. Ramesh?,select  ?o    {    <http://dbpedia.org/resource/A._L._Ramesh> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eraniel
+348,Give me the birth place of A. L. Vijay?,select  ?o    {    <http://dbpedia.org/resource/A._L._Vijay> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+349,Tell me the birth place of A. L. Vijay?,select  ?o    {    <http://dbpedia.org/resource/A._L._Vijay> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+350,What is the birth place of A. L. Vijay?,select  ?o    {    <http://dbpedia.org/resource/A._L._Vijay> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+351,What was the birth place of A. L. Vijay?,select  ?o    {    <http://dbpedia.org/resource/A._L._Vijay> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+352,Which place is the birth place of A. L. Vijay?,select  ?o    {    <http://dbpedia.org/resource/A._L._Vijay> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+353,Which place was the birth place of A. L. Vijay?,select  ?o    {    <http://dbpedia.org/resource/A._L._Vijay> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+354,Give me the birth place of A. M. M. Naushad?,select  ?o    {    <http://dbpedia.org/resource/A._M._M._Naushad> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sammanthurai
+355,Tell me the birth place of A. M. M. Naushad?,select  ?o    {    <http://dbpedia.org/resource/A._M._M._Naushad> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sammanthurai
+356,What is the birth place of A. M. M. Naushad?,select  ?o    {    <http://dbpedia.org/resource/A._M._M._Naushad> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sammanthurai
+357,What was the birth place of A. M. M. Naushad?,select  ?o    {    <http://dbpedia.org/resource/A._M._M._Naushad> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sammanthurai
+358,Which place is the birth place of A. M. M. Naushad?,select  ?o    {    <http://dbpedia.org/resource/A._M._M._Naushad> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sammanthurai
+359,Which place was the birth place of A. M. M. Naushad?,select  ?o    {    <http://dbpedia.org/resource/A._M._M._Naushad> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sammanthurai
+360,Give me the birth place of A. M. Mathai?,select  ?o    {    <http://dbpedia.org/resource/A._M._Mathai> <http://dbpedia.org/ontology/birthPlace>  ?o    },Palai
+361,Tell me the birth place of A. M. Mathai?,select  ?o    {    <http://dbpedia.org/resource/A._M._Mathai> <http://dbpedia.org/ontology/birthPlace>  ?o    },Palai
+362,What is the birth place of A. M. Mathai?,select  ?o    {    <http://dbpedia.org/resource/A._M._Mathai> <http://dbpedia.org/ontology/birthPlace>  ?o    },Palai
+363,What was the birth place of A. M. Mathai?,select  ?o    {    <http://dbpedia.org/resource/A._M._Mathai> <http://dbpedia.org/ontology/birthPlace>  ?o    },Palai
+364,Which place is the birth place of A. M. Mathai?,select  ?o    {    <http://dbpedia.org/resource/A._M._Mathai> <http://dbpedia.org/ontology/birthPlace>  ?o    },Palai
+365,Which place was the birth place of A. M. Mathai?,select  ?o    {    <http://dbpedia.org/resource/A._M._Mathai> <http://dbpedia.org/ontology/birthPlace>  ?o    },Palai
+366,Give me the birth place of A. Mangalam?,select  ?o    {    <http://dbpedia.org/resource/A._Mangalam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Singapore
+367,Tell me the birth place of A. Mangalam?,select  ?o    {    <http://dbpedia.org/resource/A._Mangalam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Singapore
+368,What is the birth place of A. Mangalam?,select  ?o    {    <http://dbpedia.org/resource/A._Mangalam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Singapore
+369,What was the birth place of A. Mangalam?,select  ?o    {    <http://dbpedia.org/resource/A._Mangalam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Singapore
+370,Which place is the birth place of A. Mangalam?,select  ?o    {    <http://dbpedia.org/resource/A._Mangalam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Singapore
+371,Which place was the birth place of A. Mangalam?,select  ?o    {    <http://dbpedia.org/resource/A._Mangalam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Singapore
+372,Give me the birth place of A. N. Gopal?,select  ?o    {    <http://dbpedia.org/resource/A._N._Gopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Andhra Pradesh
+373,Tell me the birth place of A. N. Gopal?,select  ?o    {    <http://dbpedia.org/resource/A._N._Gopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Andhra Pradesh
+374,What is the birth place of A. N. Gopal?,select  ?o    {    <http://dbpedia.org/resource/A._N._Gopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Andhra Pradesh
+375,What was the birth place of A. N. Gopal?,select  ?o    {    <http://dbpedia.org/resource/A._N._Gopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Andhra Pradesh
+376,Which place is the birth place of A. N. Gopal?,select  ?o    {    <http://dbpedia.org/resource/A._N._Gopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Andhra Pradesh
+377,Which place was the birth place of A. N. Gopal?,select  ?o    {    <http://dbpedia.org/resource/A._N._Gopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Andhra Pradesh
+378,Give me the birth place of A. Oveta Fuller?,select  ?o    {    <http://dbpedia.org/resource/A._Oveta_Fuller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mebane, North Carolina"
+379,Tell me the birth place of A. Oveta Fuller?,select  ?o    {    <http://dbpedia.org/resource/A._Oveta_Fuller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mebane, North Carolina"
+380,What is the birth place of A. Oveta Fuller?,select  ?o    {    <http://dbpedia.org/resource/A._Oveta_Fuller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mebane, North Carolina"
+381,What was the birth place of A. Oveta Fuller?,select  ?o    {    <http://dbpedia.org/resource/A._Oveta_Fuller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mebane, North Carolina"
+382,Which place is the birth place of A. Oveta Fuller?,select  ?o    {    <http://dbpedia.org/resource/A._Oveta_Fuller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mebane, North Carolina"
+383,Which place was the birth place of A. Oveta Fuller?,select  ?o    {    <http://dbpedia.org/resource/A._Oveta_Fuller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mebane, North Carolina"
+384,Give me the birth place of A. P. Mda?,select  ?o    {    <http://dbpedia.org/resource/A._P._Mda> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eastern Cape
+385,Tell me the birth place of A. P. Mda?,select  ?o    {    <http://dbpedia.org/resource/A._P._Mda> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eastern Cape
+386,What is the birth place of A. P. Mda?,select  ?o    {    <http://dbpedia.org/resource/A._P._Mda> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eastern Cape
+387,What was the birth place of A. P. Mda?,select  ?o    {    <http://dbpedia.org/resource/A._P._Mda> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eastern Cape
+388,Which place is the birth place of A. P. Mda?,select  ?o    {    <http://dbpedia.org/resource/A._P._Mda> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eastern Cape
+389,Which place was the birth place of A. P. Mda?,select  ?o    {    <http://dbpedia.org/resource/A._P._Mda> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eastern Cape
+390,Give me the birth place of A. P. Patro?,select  ?o    {    <http://dbpedia.org/resource/A._P._Patro> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+391,Tell me the birth place of A. P. Patro?,select  ?o    {    <http://dbpedia.org/resource/A._P._Patro> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+392,What is the birth place of A. P. Patro?,select  ?o    {    <http://dbpedia.org/resource/A._P._Patro> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+393,What was the birth place of A. P. Patro?,select  ?o    {    <http://dbpedia.org/resource/A._P._Patro> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+394,Which place is the birth place of A. P. Patro?,select  ?o    {    <http://dbpedia.org/resource/A._P._Patro> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+395,Which place was the birth place of A. P. Patro?,select  ?o    {    <http://dbpedia.org/resource/A._P._Patro> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+396,Give me the birth place of A. R. Krishnashastry?,select  ?o    {    <http://dbpedia.org/resource/A._R._Krishnashastry> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ambale, Chamarajanagar"
+397,Tell me the birth place of A. R. Krishnashastry?,select  ?o    {    <http://dbpedia.org/resource/A._R._Krishnashastry> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ambale, Chamarajanagar"
+398,What is the birth place of A. R. Krishnashastry?,select  ?o    {    <http://dbpedia.org/resource/A._R._Krishnashastry> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ambale, Chamarajanagar"
+399,What was the birth place of A. R. Krishnashastry?,select  ?o    {    <http://dbpedia.org/resource/A._R._Krishnashastry> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ambale, Chamarajanagar"
+400,Which place is the birth place of A. R. Krishnashastry?,select  ?o    {    <http://dbpedia.org/resource/A._R._Krishnashastry> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ambale, Chamarajanagar"
+401,Which place was the birth place of A. R. Krishnashastry?,select  ?o    {    <http://dbpedia.org/resource/A._R._Krishnashastry> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ambale, Chamarajanagar"
+402,Give me the birth place of A. R. Mallu?,select  ?o    {    <http://dbpedia.org/resource/A._R._Mallu> <http://dbpedia.org/ontology/birthPlace>  ?o    },Laxmipuram
+403,Tell me the birth place of A. R. Mallu?,select  ?o    {    <http://dbpedia.org/resource/A._R._Mallu> <http://dbpedia.org/ontology/birthPlace>  ?o    },Laxmipuram
+404,What is the birth place of A. R. Mallu?,select  ?o    {    <http://dbpedia.org/resource/A._R._Mallu> <http://dbpedia.org/ontology/birthPlace>  ?o    },Laxmipuram
+405,What was the birth place of A. R. Mallu?,select  ?o    {    <http://dbpedia.org/resource/A._R._Mallu> <http://dbpedia.org/ontology/birthPlace>  ?o    },Laxmipuram
+406,Which place is the birth place of A. R. Mallu?,select  ?o    {    <http://dbpedia.org/resource/A._R._Mallu> <http://dbpedia.org/ontology/birthPlace>  ?o    },Laxmipuram
+407,Which place was the birth place of A. R. Mallu?,select  ?o    {    <http://dbpedia.org/resource/A._R._Mallu> <http://dbpedia.org/ontology/birthPlace>  ?o    },Laxmipuram
+408,Give me the birth place of A. Rajagopal?,select  ?o    {    <http://dbpedia.org/resource/A._Rajagopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+409,Tell me the birth place of A. Rajagopal?,select  ?o    {    <http://dbpedia.org/resource/A._Rajagopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+410,What is the birth place of A. Rajagopal?,select  ?o    {    <http://dbpedia.org/resource/A._Rajagopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+411,What was the birth place of A. Rajagopal?,select  ?o    {    <http://dbpedia.org/resource/A._Rajagopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+412,Which place is the birth place of A. Rajagopal?,select  ?o    {    <http://dbpedia.org/resource/A._Rajagopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+413,Which place was the birth place of A. Rajagopal?,select  ?o    {    <http://dbpedia.org/resource/A._Rajagopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+414,Give me the birth place of A. Ranganadha Rao?,select  ?o    {    <http://dbpedia.org/resource/A._Ranganadha_Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pithapuram
+415,Tell me the birth place of A. Ranganadha Rao?,select  ?o    {    <http://dbpedia.org/resource/A._Ranganadha_Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pithapuram
+416,What is the birth place of A. Ranganadha Rao?,select  ?o    {    <http://dbpedia.org/resource/A._Ranganadha_Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pithapuram
+417,What was the birth place of A. Ranganadha Rao?,select  ?o    {    <http://dbpedia.org/resource/A._Ranganadha_Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pithapuram
+418,Which place is the birth place of A. Ranganadha Rao?,select  ?o    {    <http://dbpedia.org/resource/A._Ranganadha_Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pithapuram
+419,Which place was the birth place of A. Ranganadha Rao?,select  ?o    {    <http://dbpedia.org/resource/A._Ranganadha_Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pithapuram
+420,Give me the birth place of A. Rangaswami Iyengar?,select  ?o    {    <http://dbpedia.org/resource/A._Rangaswami_Iyengar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+421,Tell me the birth place of A. Rangaswami Iyengar?,select  ?o    {    <http://dbpedia.org/resource/A._Rangaswami_Iyengar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+422,What is the birth place of A. Rangaswami Iyengar?,select  ?o    {    <http://dbpedia.org/resource/A._Rangaswami_Iyengar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+423,What was the birth place of A. Rangaswami Iyengar?,select  ?o    {    <http://dbpedia.org/resource/A._Rangaswami_Iyengar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+424,Which place is the birth place of A. Rangaswami Iyengar?,select  ?o    {    <http://dbpedia.org/resource/A._Rangaswami_Iyengar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+425,Which place was the birth place of A. Rangaswami Iyengar?,select  ?o    {    <http://dbpedia.org/resource/A._Rangaswami_Iyengar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+426,Give me the birth place of A. Roberto Frisancho?,select  ?o    {    <http://dbpedia.org/resource/A._Roberto_Frisancho> <http://dbpedia.org/ontology/birthPlace>  ?o    },Cusco
+427,Tell me the birth place of A. Roberto Frisancho?,select  ?o    {    <http://dbpedia.org/resource/A._Roberto_Frisancho> <http://dbpedia.org/ontology/birthPlace>  ?o    },Cusco
+428,What is the birth place of A. Roberto Frisancho?,select  ?o    {    <http://dbpedia.org/resource/A._Roberto_Frisancho> <http://dbpedia.org/ontology/birthPlace>  ?o    },Cusco
+429,What was the birth place of A. Roberto Frisancho?,select  ?o    {    <http://dbpedia.org/resource/A._Roberto_Frisancho> <http://dbpedia.org/ontology/birthPlace>  ?o    },Cusco
+430,Which place is the birth place of A. Roberto Frisancho?,select  ?o    {    <http://dbpedia.org/resource/A._Roberto_Frisancho> <http://dbpedia.org/ontology/birthPlace>  ?o    },Cusco
+431,Which place was the birth place of A. Roberto Frisancho?,select  ?o    {    <http://dbpedia.org/resource/A._Roberto_Frisancho> <http://dbpedia.org/ontology/birthPlace>  ?o    },Cusco
+432,Give me the birth place of A. S. Arya?,select  ?o    {    <http://dbpedia.org/resource/A._S._Arya> <http://dbpedia.org/ontology/birthPlace>  ?o    },Saharanpur District
+433,Tell me the birth place of A. S. Arya?,select  ?o    {    <http://dbpedia.org/resource/A._S._Arya> <http://dbpedia.org/ontology/birthPlace>  ?o    },Saharanpur District
+434,What is the birth place of A. S. Arya?,select  ?o    {    <http://dbpedia.org/resource/A._S._Arya> <http://dbpedia.org/ontology/birthPlace>  ?o    },Saharanpur District
+435,What was the birth place of A. S. Arya?,select  ?o    {    <http://dbpedia.org/resource/A._S._Arya> <http://dbpedia.org/ontology/birthPlace>  ?o    },Saharanpur District
+436,Which place is the birth place of A. S. Arya?,select  ?o    {    <http://dbpedia.org/resource/A._S._Arya> <http://dbpedia.org/ontology/birthPlace>  ?o    },Saharanpur District
+437,Which place was the birth place of A. S. Arya?,select  ?o    {    <http://dbpedia.org/resource/A._S._Arya> <http://dbpedia.org/ontology/birthPlace>  ?o    },Saharanpur District
+438,Give me the birth place of A. S. Baylinson?,select  ?o    {    <http://dbpedia.org/resource/A._S._Baylinson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Moscow, Russia"
+439,Tell me the birth place of A. S. Baylinson?,select  ?o    {    <http://dbpedia.org/resource/A._S._Baylinson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Moscow, Russia"
+440,What is the birth place of A. S. Baylinson?,select  ?o    {    <http://dbpedia.org/resource/A._S._Baylinson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Moscow, Russia"
+441,What was the birth place of A. S. Baylinson?,select  ?o    {    <http://dbpedia.org/resource/A._S._Baylinson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Moscow, Russia"
+442,Which place is the birth place of A. S. Baylinson?,select  ?o    {    <http://dbpedia.org/resource/A._S._Baylinson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Moscow, Russia"
+443,Which place was the birth place of A. S. Baylinson?,select  ?o    {    <http://dbpedia.org/resource/A._S._Baylinson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Moscow, Russia"
+444,Give me the birth place of A. S. Patri???,select  ?o    {    <http://dbpedia.org/resource/A._S._Patri??> <http://dbpedia.org/ontology/birthPlace>  ?o    },Serbia
+445,Tell me the birth place of A. S. Patri???,select  ?o    {    <http://dbpedia.org/resource/A._S._Patri??> <http://dbpedia.org/ontology/birthPlace>  ?o    },Serbia
+446,What is the birth place of A. S. Patri???,select  ?o    {    <http://dbpedia.org/resource/A._S._Patri??> <http://dbpedia.org/ontology/birthPlace>  ?o    },Serbia
+447,What was the birth place of A. S. Patri???,select  ?o    {    <http://dbpedia.org/resource/A._S._Patri??> <http://dbpedia.org/ontology/birthPlace>  ?o    },Serbia
+448,Which place is the birth place of A. S. Patri???,select  ?o    {    <http://dbpedia.org/resource/A._S._Patri??> <http://dbpedia.org/ontology/birthPlace>  ?o    },Serbia
+449,Which place was the birth place of A. S. Patri???,select  ?o    {    <http://dbpedia.org/resource/A._S._Patri??> <http://dbpedia.org/ontology/birthPlace>  ?o    },Serbia
+450,Give me the birth place of A. S. Rao?,select  ?o    {    <http://dbpedia.org/resource/A._S._Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },West Godavari district
+451,Tell me the birth place of A. S. Rao?,select  ?o    {    <http://dbpedia.org/resource/A._S._Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },West Godavari district
+452,What is the birth place of A. S. Rao?,select  ?o    {    <http://dbpedia.org/resource/A._S._Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },West Godavari district
+453,What was the birth place of A. S. Rao?,select  ?o    {    <http://dbpedia.org/resource/A._S._Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },West Godavari district
+454,Which place is the birth place of A. S. Rao?,select  ?o    {    <http://dbpedia.org/resource/A._S._Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },West Godavari district
+455,Which place was the birth place of A. S. Rao?,select  ?o    {    <http://dbpedia.org/resource/A._S._Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },West Godavari district
+456,Give me the birth place of A. S. W. Rosenbach?,select  ?o    {    <http://dbpedia.org/resource/A._S._W._Rosenbach> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+457,Tell me the birth place of A. S. W. Rosenbach?,select  ?o    {    <http://dbpedia.org/resource/A._S._W._Rosenbach> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+458,What is the birth place of A. S. W. Rosenbach?,select  ?o    {    <http://dbpedia.org/resource/A._S._W._Rosenbach> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+459,What was the birth place of A. S. W. Rosenbach?,select  ?o    {    <http://dbpedia.org/resource/A._S._W._Rosenbach> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+460,Which place is the birth place of A. S. W. Rosenbach?,select  ?o    {    <http://dbpedia.org/resource/A._S._W._Rosenbach> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+461,Which place was the birth place of A. S. W. Rosenbach?,select  ?o    {    <http://dbpedia.org/resource/A._S._W._Rosenbach> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+462,Give me the birth place of A. Sakunthala?,select  ?o    {    <http://dbpedia.org/resource/A._Sakunthala> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Salem, Tamil Nadu"
+463,Tell me the birth place of A. Sakunthala?,select  ?o    {    <http://dbpedia.org/resource/A._Sakunthala> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Salem, Tamil Nadu"
+464,What is the birth place of A. Sakunthala?,select  ?o    {    <http://dbpedia.org/resource/A._Sakunthala> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Salem, Tamil Nadu"
+465,What was the birth place of A. Sakunthala?,select  ?o    {    <http://dbpedia.org/resource/A._Sakunthala> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Salem, Tamil Nadu"
+466,Which place is the birth place of A. Sakunthala?,select  ?o    {    <http://dbpedia.org/resource/A._Sakunthala> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Salem, Tamil Nadu"
+467,Which place was the birth place of A. Sakunthala?,select  ?o    {    <http://dbpedia.org/resource/A._Sakunthala> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Salem, Tamil Nadu"
+468,Give me the birth place of Andrei Tarkovsky?,select  ?o    {    <http://dbpedia.org/resource/Andrei_Tarkovsky> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+469,Tell me the birth place of Andrei Tarkovsky?,select  ?o    {    <http://dbpedia.org/resource/Andrei_Tarkovsky> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+470,What is the birth place of Andrei Tarkovsky?,select  ?o    {    <http://dbpedia.org/resource/Andrei_Tarkovsky> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+471,What was the birth place of Andrei Tarkovsky?,select  ?o    {    <http://dbpedia.org/resource/Andrei_Tarkovsky> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+472,Which place is the birth place of Andrei Tarkovsky?,select  ?o    {    <http://dbpedia.org/resource/Andrei_Tarkovsky> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+473,Which place was the birth place of Andrei Tarkovsky?,select  ?o    {    <http://dbpedia.org/resource/Andrei_Tarkovsky> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+474,Give me the birth place of Alfred Korzybski?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Korzybski> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warsaw
+475,Tell me the birth place of Alfred Korzybski?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Korzybski> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warsaw
+476,What is the birth place of Alfred Korzybski?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Korzybski> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warsaw
+477,What was the birth place of Alfred Korzybski?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Korzybski> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warsaw
+478,Which place is the birth place of Alfred Korzybski?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Korzybski> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warsaw
+479,Which place was the birth place of Alfred Korzybski?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Korzybski> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warsaw
+480,Give me the birth place of Alfred Hitchcock?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Hitchcock> <http://dbpedia.org/ontology/birthPlace>  ?o    },Essex
+481,Tell me the birth place of Alfred Hitchcock?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Hitchcock> <http://dbpedia.org/ontology/birthPlace>  ?o    },Essex
+482,What is the birth place of Alfred Hitchcock?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Hitchcock> <http://dbpedia.org/ontology/birthPlace>  ?o    },Essex
+483,What was the birth place of Alfred Hitchcock?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Hitchcock> <http://dbpedia.org/ontology/birthPlace>  ?o    },Essex
+484,Which place is the birth place of Alfred Hitchcock?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Hitchcock> <http://dbpedia.org/ontology/birthPlace>  ?o    },Essex
+485,Which place was the birth place of Alfred Hitchcock?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Hitchcock> <http://dbpedia.org/ontology/birthPlace>  ?o    },Essex
+486,Give me the birth place of Alfred Nobel?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Nobel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Stockholm
+487,Tell me the birth place of Alfred Nobel?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Nobel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Stockholm
+488,What is the birth place of Alfred Nobel?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Nobel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Stockholm
+489,What was the birth place of Alfred Nobel?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Nobel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Stockholm
+490,Which place is the birth place of Alfred Nobel?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Nobel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Stockholm
+491,Which place was the birth place of Alfred Nobel?,select  ?o    {    <http://dbpedia.org/resource/Alfred_Nobel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Stockholm
+492,Give me the birth place of Alexander Graham Bell?,select  ?o    {    <http://dbpedia.org/resource/Alexander_Graham_Bell> <http://dbpedia.org/ontology/birthPlace>  ?o    },Edinburgh
+493,Tell me the birth place of Alexander Graham Bell?,select  ?o    {    <http://dbpedia.org/resource/Alexander_Graham_Bell> <http://dbpedia.org/ontology/birthPlace>  ?o    },Edinburgh
+494,What is the birth place of Alexander Graham Bell?,select  ?o    {    <http://dbpedia.org/resource/Alexander_Graham_Bell> <http://dbpedia.org/ontology/birthPlace>  ?o    },Edinburgh
+495,What was the birth place of Alexander Graham Bell?,select  ?o    {    <http://dbpedia.org/resource/Alexander_Graham_Bell> <http://dbpedia.org/ontology/birthPlace>  ?o    },Edinburgh
+496,Which place is the birth place of Alexander Graham Bell?,select  ?o    {    <http://dbpedia.org/resource/Alexander_Graham_Bell> <http://dbpedia.org/ontology/birthPlace>  ?o    },Edinburgh
+497,Which place was the birth place of Alexander Graham Bell?,select  ?o    {    <http://dbpedia.org/resource/Alexander_Graham_Bell> <http://dbpedia.org/ontology/birthPlace>  ?o    },Edinburgh
+498,Give me the birth place of Akira Kurosawa?,select  ?o    {    <http://dbpedia.org/resource/Akira_Kurosawa> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tokyo
+499,Tell me the birth place of Akira Kurosawa?,select  ?o    {    <http://dbpedia.org/resource/Akira_Kurosawa> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tokyo
+500,What is the birth place of Akira Kurosawa?,select  ?o    {    <http://dbpedia.org/resource/Akira_Kurosawa> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tokyo
+501,What was the birth place of Akira Kurosawa?,select  ?o    {    <http://dbpedia.org/resource/Akira_Kurosawa> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tokyo
+502,Which place is the birth place of Akira Kurosawa?,select  ?o    {    <http://dbpedia.org/resource/Akira_Kurosawa> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tokyo
+503,Which place was the birth place of Akira Kurosawa?,select  ?o    {    <http://dbpedia.org/resource/Akira_Kurosawa> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tokyo
+504,Give me the birth place of Alvin Toffler?,select  ?o    {    <http://dbpedia.org/resource/Alvin_Toffler> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+505,Tell me the birth place of Alvin Toffler?,select  ?o    {    <http://dbpedia.org/resource/Alvin_Toffler> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+506,What is the birth place of Alvin Toffler?,select  ?o    {    <http://dbpedia.org/resource/Alvin_Toffler> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+507,What was the birth place of Alvin Toffler?,select  ?o    {    <http://dbpedia.org/resource/Alvin_Toffler> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+508,Which place is the birth place of Alvin Toffler?,select  ?o    {    <http://dbpedia.org/resource/Alvin_Toffler> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+509,Which place was the birth place of Alvin Toffler?,select  ?o    {    <http://dbpedia.org/resource/Alvin_Toffler> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+510,Give me the birth place of Albert Speer?,select  ?o    {    <http://dbpedia.org/resource/Albert_Speer> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mannheim
+511,Tell me the birth place of Albert Speer?,select  ?o    {    <http://dbpedia.org/resource/Albert_Speer> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mannheim
+512,What is the birth place of Albert Speer?,select  ?o    {    <http://dbpedia.org/resource/Albert_Speer> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mannheim
+513,What was the birth place of Albert Speer?,select  ?o    {    <http://dbpedia.org/resource/Albert_Speer> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mannheim
+514,Which place is the birth place of Albert Speer?,select  ?o    {    <http://dbpedia.org/resource/Albert_Speer> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mannheim
+515,Which place was the birth place of Albert Speer?,select  ?o    {    <http://dbpedia.org/resource/Albert_Speer> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mannheim
+516,Give me the birth place of Anatoly Karpov?,select  ?o    {    <http://dbpedia.org/resource/Anatoly_Karpov> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+517,Tell me the birth place of Anatoly Karpov?,select  ?o    {    <http://dbpedia.org/resource/Anatoly_Karpov> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+518,What is the birth place of Anatoly Karpov?,select  ?o    {    <http://dbpedia.org/resource/Anatoly_Karpov> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+519,What was the birth place of Anatoly Karpov?,select  ?o    {    <http://dbpedia.org/resource/Anatoly_Karpov> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+520,Which place is the birth place of Anatoly Karpov?,select  ?o    {    <http://dbpedia.org/resource/Anatoly_Karpov> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+521,Which place was the birth place of Anatoly Karpov?,select  ?o    {    <http://dbpedia.org/resource/Anatoly_Karpov> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+522,Give me the birth place of Aristophanes?,select  ?o    {    <http://dbpedia.org/resource/Aristophanes> <http://dbpedia.org/ontology/birthPlace>  ?o    },Classical Athens
+523,Tell me the birth place of Aristophanes?,select  ?o    {    <http://dbpedia.org/resource/Aristophanes> <http://dbpedia.org/ontology/birthPlace>  ?o    },Classical Athens
+524,What is the birth place of Aristophanes?,select  ?o    {    <http://dbpedia.org/resource/Aristophanes> <http://dbpedia.org/ontology/birthPlace>  ?o    },Classical Athens
+525,What was the birth place of Aristophanes?,select  ?o    {    <http://dbpedia.org/resource/Aristophanes> <http://dbpedia.org/ontology/birthPlace>  ?o    },Classical Athens
+526,Which place is the birth place of Aristophanes?,select  ?o    {    <http://dbpedia.org/resource/Aristophanes> <http://dbpedia.org/ontology/birthPlace>  ?o    },Classical Athens
+527,Which place was the birth place of Aristophanes?,select  ?o    {    <http://dbpedia.org/resource/Aristophanes> <http://dbpedia.org/ontology/birthPlace>  ?o    },Classical Athens
+528,Give me the birth place of Aleister Crowley?,select  ?o    {    <http://dbpedia.org/resource/Aleister_Crowley> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warwickshire
+529,Tell me the birth place of Aleister Crowley?,select  ?o    {    <http://dbpedia.org/resource/Aleister_Crowley> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warwickshire
+530,What is the birth place of Aleister Crowley?,select  ?o    {    <http://dbpedia.org/resource/Aleister_Crowley> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warwickshire
+531,What was the birth place of Aleister Crowley?,select  ?o    {    <http://dbpedia.org/resource/Aleister_Crowley> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warwickshire
+532,Which place is the birth place of Aleister Crowley?,select  ?o    {    <http://dbpedia.org/resource/Aleister_Crowley> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warwickshire
+533,Which place was the birth place of Aleister Crowley?,select  ?o    {    <http://dbpedia.org/resource/Aleister_Crowley> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warwickshire
+534,Give me the birth place of Ambrose?,select  ?o    {    <http://dbpedia.org/resource/Ambrose> <http://dbpedia.org/ontology/birthPlace>  ?o    },Roman Empire
+535,Tell me the birth place of Ambrose?,select  ?o    {    <http://dbpedia.org/resource/Ambrose> <http://dbpedia.org/ontology/birthPlace>  ?o    },Roman Empire
+536,What is the birth place of Ambrose?,select  ?o    {    <http://dbpedia.org/resource/Ambrose> <http://dbpedia.org/ontology/birthPlace>  ?o    },Roman Empire
+537,What was the birth place of Ambrose?,select  ?o    {    <http://dbpedia.org/resource/Ambrose> <http://dbpedia.org/ontology/birthPlace>  ?o    },Roman Empire
+538,Which place is the birth place of Ambrose?,select  ?o    {    <http://dbpedia.org/resource/Ambrose> <http://dbpedia.org/ontology/birthPlace>  ?o    },Roman Empire
+539,Which place was the birth place of Ambrose?,select  ?o    {    <http://dbpedia.org/resource/Ambrose> <http://dbpedia.org/ontology/birthPlace>  ?o    },Roman Empire
+540,Give me the birth place of Amos Bronson Alcott?,select  ?o    {    <http://dbpedia.org/resource/Amos_Bronson_Alcott> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wolcott, Connecticut"
+541,Tell me the birth place of Amos Bronson Alcott?,select  ?o    {    <http://dbpedia.org/resource/Amos_Bronson_Alcott> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wolcott, Connecticut"
+542,What is the birth place of Amos Bronson Alcott?,select  ?o    {    <http://dbpedia.org/resource/Amos_Bronson_Alcott> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wolcott, Connecticut"
+543,What was the birth place of Amos Bronson Alcott?,select  ?o    {    <http://dbpedia.org/resource/Amos_Bronson_Alcott> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wolcott, Connecticut"
+544,Which place is the birth place of Amos Bronson Alcott?,select  ?o    {    <http://dbpedia.org/resource/Amos_Bronson_Alcott> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wolcott, Connecticut"
+545,Which place was the birth place of Amos Bronson Alcott?,select  ?o    {    <http://dbpedia.org/resource/Amos_Bronson_Alcott> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wolcott, Connecticut"
+547,the birth place of A.Chal,select  ?o    {    <http://dbpedia.org/resource/A.Chal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Peru
+548,the birth place of A.D.O.R.,select  ?o    {    <http://dbpedia.org/resource/A.D.O.R.> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+549,the birth place of A.E. Dick Howard,select  ?o    {    <http://dbpedia.org/resource/A.E._Dick_Howard> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Richmond, Virginia"
+550,the birth place of A.E. Hanson,select  ?o    {    <http://dbpedia.org/resource/A.E._Hanson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Chino, California"
+551,the birth place of A.G. Syjuco,select  ?o    {    <http://dbpedia.org/resource/A.G._Syjuco> <http://dbpedia.org/ontology/birthPlace>  ?o    },Manila
+552,the birth place of A.J. Applegate,select  ?o    {    <http://dbpedia.org/resource/A.J._Applegate> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York (state)
+553,the birth place of A.L. Monsohn Lithography,select  ?o    {    <http://dbpedia.org/resource/A.L._Monsohn_Lithography> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eretz Israel
+554,the birth place of A.M. Parkin,select  ?o    {    <http://dbpedia.org/resource/A.M._Parkin> <http://dbpedia.org/ontology/birthPlace>  ?o    },Kent
+555,the birth place of A.M. SNiPER,select  ?o    {    <http://dbpedia.org/resource/A.M._SNiPER> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+556,the birth place of A.N.M. Ehsanul Hoque Milan,select  ?o    {    <http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Kachua Upazila, Chandpur"
+557,the birth place of A. A. Bondy,select  ?o    {    <http://dbpedia.org/resource/A._A._Bondy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Louisiana
+558,the birth place of A. A. H. Tuttle,select  ?o    {    <http://dbpedia.org/resource/A._A._H._Tuttle> <http://dbpedia.org/ontology/birthPlace>  ?o    },Illinois
+559,the birth place of A. A. Khan (academic),select  ?o    {    <http://dbpedia.org/resource/A._A._Khan_(academic)> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+560,the birth place of A. Andrews,select  ?o    {    <http://dbpedia.org/resource/A._Andrews> <http://dbpedia.org/ontology/birthPlace>  ?o    },Connecticut
+561,the birth place of A. B. Colton,select  ?o    {    <http://dbpedia.org/resource/A._B._Colton> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vermont
+562,the birth place of A. B. Creeke,select  ?o    {    <http://dbpedia.org/resource/A._B._Creeke> <http://dbpedia.org/ontology/birthPlace>  ?o    },Habergham Eaves
+563,the birth place of A. B. Guthrie Jr.,select  ?o    {    <http://dbpedia.org/resource/A._B._Guthrie_Jr.> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Bedford, Indiana"
+564,the birth place of A. B. Imeson,select  ?o    {    <http://dbpedia.org/resource/A._B._Imeson> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+565,the birth place of A. B. Lull,select  ?o    {    <http://dbpedia.org/resource/A._B._Lull> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pennsylvania
+566,the birth place of A. Bernard Ackerman,select  ?o    {    <http://dbpedia.org/resource/A._Bernard_Ackerman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Elizabeth, New Jersey"
+567,the birth place of A. Blaine Bowman,select  ?o    {    <http://dbpedia.org/resource/A._Blaine_Bowman> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ogden, Utah"
+568,the birth place of A. Brown Moore,select  ?o    {    <http://dbpedia.org/resource/A._Brown_Moore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Orleans, Louisiana"
+569,the birth place of A. C. Lyons,select  ?o    {    <http://dbpedia.org/resource/A._C._Lyons> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Somerset County, Pennsylvania"
+570,the birth place of A. C. Shanmugam,select  ?o    {    <http://dbpedia.org/resource/A._C._Shanmugam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+571,the birth place of A. C. Wise,select  ?o    {    <http://dbpedia.org/resource/A._C._Wise> <http://dbpedia.org/ontology/birthPlace>  ?o    },Montreal
+572,the birth place of A. Clarence Jones,select  ?o    {    <http://dbpedia.org/resource/A._Clarence_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Columbus, Georgia"
+573,the birth place of A. Clifford Jones,select  ?o    {    <http://dbpedia.org/resource/A._Clifford_Jones> <http://dbpedia.org/ontology/birthPlace>  ?o    },"St. Louis, Missouri"
+574,the birth place of A. D. Patel,select  ?o    {    <http://dbpedia.org/resource/A._D._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },British India
+575,the birth place of A. DeWade Langley,select  ?o    {    <http://dbpedia.org/resource/A._DeWade_Langley> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Custer County, Oklahoma"
+576,the birth place of A. Duncan Carse,select  ?o    {    <http://dbpedia.org/resource/A._Duncan_Carse> <http://dbpedia.org/ontology/birthPlace>  ?o    },Newcastle upon Tyne
+577,the birth place of A. E. Coleby,select  ?o    {    <http://dbpedia.org/resource/A._E._Coleby> <http://dbpedia.org/ontology/birthPlace>  ?o    },London
+578,the birth place of A. F. K. Organski,select  ?o    {    <http://dbpedia.org/resource/A._F._K._Organski> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Rome, Italy"
+579,the birth place of A. G. Harbaugh,select  ?o    {    <http://dbpedia.org/resource/A._G._Harbaugh> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Roseville, Iowa"
+580,the birth place of A. G. K. Gokhale,select  ?o    {    <http://dbpedia.org/resource/A._G._K._Gokhale> <http://dbpedia.org/ontology/birthPlace>  ?o    },Vijayawada
+581,the birth place of A. Ganeshkumar,select  ?o    {    <http://dbpedia.org/resource/A._Ganeshkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+582,the birth place of A. Gilbert Wright,select  ?o    {    <http://dbpedia.org/resource/A._Gilbert_Wright> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Carthage, Illinois"
+583,the birth place of A. Gnanathasan,select  ?o    {    <http://dbpedia.org/resource/A._Gnanathasan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Chavakachcheri
+584,the birth place of A. Gordon Wetmore,select  ?o    {    <http://dbpedia.org/resource/A._Gordon_Wetmore> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New Brunswick, Canada"
+585,the birth place of A. Grove Day,select  ?o    {    <http://dbpedia.org/resource/A._Grove_Day> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+586,the birth place of A. H. Albut,select  ?o    {    <http://dbpedia.org/resource/A._H._Albut> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+587,the birth place of A. H. Hornby,select  ?o    {    <http://dbpedia.org/resource/A._H._Hornby> <http://dbpedia.org/ontology/birthPlace>  ?o    },England
+588,the birth place of A. J. B. Johnston,select  ?o    {    <http://dbpedia.org/resource/A._J._B._Johnston> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Truro, Nova Scotia"
+589,the birth place of A. J. Benza,select  ?o    {    <http://dbpedia.org/resource/A._J._Benza> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+590,the birth place of A. J. Bernheim Brush,select  ?o    {    <http://dbpedia.org/resource/A._J._Bernheim_Brush> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wilmington, Delaware"
+591,the birth place of A. J. Healy,select  ?o    {    <http://dbpedia.org/resource/A._J._Healy> <http://dbpedia.org/ontology/birthPlace>  ?o    },Ireland
+592,the birth place of A. J. Mogis,select  ?o    {    <http://dbpedia.org/resource/A._J._Mogis> <http://dbpedia.org/ontology/birthPlace>  ?o    },"North Platte, Nebraska"
+593,the birth place of A. J. Preller,select  ?o    {    <http://dbpedia.org/resource/A._J._Preller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"New York, New York"
+594,the birth place of A. J. Reynolds,select  ?o    {    <http://dbpedia.org/resource/A._J._Reynolds> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Sydney, Nova Scotia"
+595,the birth place of A. Johnkumar,select  ?o    {    <http://dbpedia.org/resource/A._Johnkumar> <http://dbpedia.org/ontology/birthPlace>  ?o    },India
+596,the birth place of A. K. Brohi,select  ?o    {    <http://dbpedia.org/resource/A._K._Brohi> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sindh
+597,the birth place of A. K. M. Shahidul Haque,select  ?o    {    <http://dbpedia.org/resource/A._K._M._Shahidul_Haque> <http://dbpedia.org/ontology/birthPlace>  ?o    },Shariatpur District
+598,the birth place of A. K. Narain,select  ?o    {    <http://dbpedia.org/resource/A._K._Narain> <http://dbpedia.org/ontology/birthPlace>  ?o    },Bihar
+599,the birth place of A. K. Patel,select  ?o    {    <http://dbpedia.org/resource/A._K._Patel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mehsana District
+600,the birth place of A. K. Veerasami,select  ?o    {    <http://dbpedia.org/resource/A._K._Veerasami> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur District
+601,the birth place of A. Karunakaran,select  ?o    {    <http://dbpedia.org/resource/A._Karunakaran> <http://dbpedia.org/ontology/birthPlace>  ?o    },Devakottai
+602,the birth place of A. L. Narayan,select  ?o    {    <http://dbpedia.org/resource/A._L._Narayan> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mukkamala, East Godavari"
+603,the birth place of A. L. Raghavan,select  ?o    {    <http://dbpedia.org/resource/A._L._Raghavan> <http://dbpedia.org/ontology/birthPlace>  ?o    },Thanjavur
+604,the birth place of A. L. Ramesh,select  ?o    {    <http://dbpedia.org/resource/A._L._Ramesh> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eraniel
+605,the birth place of A. L. Vijay,select  ?o    {    <http://dbpedia.org/resource/A._L._Vijay> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+606,the birth place of A. M. M. Naushad,select  ?o    {    <http://dbpedia.org/resource/A._M._M._Naushad> <http://dbpedia.org/ontology/birthPlace>  ?o    },Sammanthurai
+607,the birth place of A. M. Mathai,select  ?o    {    <http://dbpedia.org/resource/A._M._Mathai> <http://dbpedia.org/ontology/birthPlace>  ?o    },Palai
+608,the birth place of A. Mangalam,select  ?o    {    <http://dbpedia.org/resource/A._Mangalam> <http://dbpedia.org/ontology/birthPlace>  ?o    },Singapore
+609,the birth place of A. N. Gopal,select  ?o    {    <http://dbpedia.org/resource/A._N._Gopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Andhra Pradesh
+610,the birth place of A. Oveta Fuller,select  ?o    {    <http://dbpedia.org/resource/A._Oveta_Fuller> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Mebane, North Carolina"
+611,the birth place of A. P. Mda,select  ?o    {    <http://dbpedia.org/resource/A._P._Mda> <http://dbpedia.org/ontology/birthPlace>  ?o    },Eastern Cape
+612,the birth place of A. P. Patro,select  ?o    {    <http://dbpedia.org/resource/A._P._Patro> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+613,the birth place of A. R. Krishnashastry,select  ?o    {    <http://dbpedia.org/resource/A._R._Krishnashastry> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Ambale, Chamarajanagar"
+614,the birth place of A. R. Mallu,select  ?o    {    <http://dbpedia.org/resource/A._R._Mallu> <http://dbpedia.org/ontology/birthPlace>  ?o    },Laxmipuram
+615,the birth place of A. Rajagopal,select  ?o    {    <http://dbpedia.org/resource/A._Rajagopal> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tamil Nadu
+616,the birth place of A. Ranganadha Rao,select  ?o    {    <http://dbpedia.org/resource/A._Ranganadha_Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },Pithapuram
+617,the birth place of A. Rangaswami Iyengar,select  ?o    {    <http://dbpedia.org/resource/A._Rangaswami_Iyengar> <http://dbpedia.org/ontology/birthPlace>  ?o    },Madras Presidency
+618,the birth place of A. Roberto Frisancho,select  ?o    {    <http://dbpedia.org/resource/A._Roberto_Frisancho> <http://dbpedia.org/ontology/birthPlace>  ?o    },Cusco
+619,the birth place of A. S. Arya,select  ?o    {    <http://dbpedia.org/resource/A._S._Arya> <http://dbpedia.org/ontology/birthPlace>  ?o    },Saharanpur District
+620,the birth place of A. S. Baylinson,select  ?o    {    <http://dbpedia.org/resource/A._S._Baylinson> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Moscow, Russia"
+621,the birth place of A. S. Patri??,select  ?o    {    <http://dbpedia.org/resource/A._S._Patri??> <http://dbpedia.org/ontology/birthPlace>  ?o    },Serbia
+622,the birth place of A. S. Rao,select  ?o    {    <http://dbpedia.org/resource/A._S._Rao> <http://dbpedia.org/ontology/birthPlace>  ?o    },West Godavari district
+623,the birth place of A. S. W. Rosenbach,select  ?o    {    <http://dbpedia.org/resource/A._S._W._Rosenbach> <http://dbpedia.org/ontology/birthPlace>  ?o    },Philadelphia
+624,the birth place of A. Sakunthala,select  ?o    {    <http://dbpedia.org/resource/A._Sakunthala> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Salem, Tamil Nadu"
+625,the birth place of Andrei Tarkovsky,select  ?o    {    <http://dbpedia.org/resource/Andrei_Tarkovsky> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+626,the birth place of Alfred Korzybski,select  ?o    {    <http://dbpedia.org/resource/Alfred_Korzybski> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warsaw
+627,the birth place of Alfred Hitchcock,select  ?o    {    <http://dbpedia.org/resource/Alfred_Hitchcock> <http://dbpedia.org/ontology/birthPlace>  ?o    },Essex
+628,the birth place of Alfred Nobel,select  ?o    {    <http://dbpedia.org/resource/Alfred_Nobel> <http://dbpedia.org/ontology/birthPlace>  ?o    },Stockholm
+629,the birth place of Alexander Graham Bell,select  ?o    {    <http://dbpedia.org/resource/Alexander_Graham_Bell> <http://dbpedia.org/ontology/birthPlace>  ?o    },Edinburgh
+630,the birth place of Akira Kurosawa,select  ?o    {    <http://dbpedia.org/resource/Akira_Kurosawa> <http://dbpedia.org/ontology/birthPlace>  ?o    },Tokyo
+631,the birth place of Alvin Toffler,select  ?o    {    <http://dbpedia.org/resource/Alvin_Toffler> <http://dbpedia.org/ontology/birthPlace>  ?o    },New York City
+632,the birth place of Albert Speer,select  ?o    {    <http://dbpedia.org/resource/Albert_Speer> <http://dbpedia.org/ontology/birthPlace>  ?o    },Mannheim
+633,the birth place of Anatoly Karpov,select  ?o    {    <http://dbpedia.org/resource/Anatoly_Karpov> <http://dbpedia.org/ontology/birthPlace>  ?o    },Soviet Union
+634,the birth place of Aristophanes,select  ?o    {    <http://dbpedia.org/resource/Aristophanes> <http://dbpedia.org/ontology/birthPlace>  ?o    },Classical Athens
+635,the birth place of Aleister Crowley,select  ?o    {    <http://dbpedia.org/resource/Aleister_Crowley> <http://dbpedia.org/ontology/birthPlace>  ?o    },Warwickshire
+636,the birth place of Ambrose,select  ?o    {    <http://dbpedia.org/resource/Ambrose> <http://dbpedia.org/ontology/birthPlace>  ?o    },Roman Empire
+637,the birth place of Amos Bronson Alcott,select  ?o    {    <http://dbpedia.org/resource/Amos_Bronson_Alcott> <http://dbpedia.org/ontology/birthPlace>  ?o    },"Wolcott, Connecticut"
+639,Where is Luxembourg (canton) located?,select  ?o    {    <http://dbpedia.org/resource/Luxembourg_(canton)> <http://dbpedia.org/ontology/country>  ?o    },Luxembourg
+640,Where is Luxembourg City located?,select  ?o    {    <http://dbpedia.org/resource/Luxembourg_City> <http://dbpedia.org/ontology/country>  ?o    },Luxembourg
+641,Where is Luzon Strait located?,select  ?o    {    <http://dbpedia.org/resource/Luzon_Strait> <http://dbpedia.org/ontology/country>  ?o    },Taiwan
+642,Where is Madiromirafy located?,select  ?o    {    <http://dbpedia.org/resource/Madiromirafy> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+643,Where is Madirovalo located?,select  ?o    {    <http://dbpedia.org/resource/Madirovalo> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+644,Where is Maevaranohely located?,select  ?o    {    <http://dbpedia.org/resource/Maevaranohely> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+645,Where is Maevatanana located?,select  ?o    {    <http://dbpedia.org/resource/Maevatanana> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+646,Where is Maevatanana (district) located?,select  ?o    {    <http://dbpedia.org/resource/Maevatanana_(district)> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+647,Where is Maevatanana II located?,select  ?o    {    <http://dbpedia.org/resource/Maevatanana_II> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+648,Where is Mafaijijo located?,select  ?o    {    <http://dbpedia.org/resource/Mafaijijo> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+649,Where is Mahabako located?,select  ?o    {    <http://dbpedia.org/resource/Mahabako> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+650,Where is Mahabe located?,select  ?o    {    <http://dbpedia.org/resource/Mahabe> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+651,Where is Mahabo Betroka located?,"select  ?o    {    <http://dbpedia.org/resource/Mahabo,_Betroka> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+652,Where is Mahabo Vohipeno located?,"select  ?o    {    <http://dbpedia.org/resource/Mahabo,_Vohipeno> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+653,Where is Mahabo (district) located?,select  ?o    {    <http://dbpedia.org/resource/Mahabo_(district)> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+654,Where is Mahabo Mananivo located?,select  ?o    {    <http://dbpedia.org/resource/Mahabo_Mananivo> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+655,Where is Mahaboboka located?,select  ?o    {    <http://dbpedia.org/resource/Mahaboboka> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+656,Where is Mahaditra located?,select  ?o    {    <http://dbpedia.org/resource/Mahaditra> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+657,Where is Mahadrodroka located?,select  ?o    {    <http://dbpedia.org/resource/Mahadrodroka> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+658,Where is Mahaela located?,select  ?o    {    <http://dbpedia.org/resource/Mahaela> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+659,Where is Mahafasa Centre located?,select  ?o    {    <http://dbpedia.org/resource/Mahafasa_Centre> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+660,Where is Mahaiza located?,select  ?o    {    <http://dbpedia.org/resource/Mahaiza> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+661,Where is Mahajamba Usine located?,select  ?o    {    <http://dbpedia.org/resource/Mahajamba_Usine> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+662,Where is Mahajanga located?,select  ?o    {    <http://dbpedia.org/resource/Mahajanga> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+663,Where is Mahajanga II (district) located?,select  ?o    {    <http://dbpedia.org/resource/Mahajanga_II_(district)> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+664,Where is Mahajanga Province located?,select  ?o    {    <http://dbpedia.org/resource/Mahajanga_Province> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+665,Where is Mahalaza-Fanimana located?,select  ?o    {    <http://dbpedia.org/resource/Mahalaza-Fanimana> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+666,Where is Mahalina located?,select  ?o    {    <http://dbpedia.org/resource/Mahalina> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+667,Where is Mahaly located?,select  ?o    {    <http://dbpedia.org/resource/Mahaly> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+668,Where is Mahamaibe located?,select  ?o    {    <http://dbpedia.org/resource/Mahamaibe> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+669,Where is Mahambo located?,select  ?o    {    <http://dbpedia.org/resource/Mahambo> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+670,Where is Mahanoro located?,select  ?o    {    <http://dbpedia.org/resource/Mahanoro> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+671,Where is Mahanoro (district) located?,select  ?o    {    <http://dbpedia.org/resource/Mahanoro_(district)> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+672,Where is Mahasoa located?,select  ?o    {    <http://dbpedia.org/resource/Mahasoa> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+673,Where is Mahasoa Est located?,select  ?o    {    <http://dbpedia.org/resource/Mahasoa_Est> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+674,Where is Mahasoabe Fianarantsoa II located?,"select  ?o    {    <http://dbpedia.org/resource/Mahasoabe,_Fianarantsoa_II> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+675,Where is Mahasoabe Vohipeno located?,"select  ?o    {    <http://dbpedia.org/resource/Mahasoabe,_Vohipeno> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+676,Where is Mahasolo located?,select  ?o    {    <http://dbpedia.org/resource/Mahasolo> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+677,Where is Mahatalaky located?,select  ?o    {    <http://dbpedia.org/resource/Mahatalaky> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+678,Where is Mahatsara Iefaka located?,select  ?o    {    <http://dbpedia.org/resource/Mahatsara_Iefaka> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+679,Where is Mahatsara Sud located?,select  ?o    {    <http://dbpedia.org/resource/Mahatsara_Sud> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+680,Where is Mahatsinjo Maevatanana located?,"select  ?o    {    <http://dbpedia.org/resource/Mahatsinjo,_Maevatanana> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+681,Where is Mahatsinjo Vondrozo located?,"select  ?o    {    <http://dbpedia.org/resource/Mahatsinjo,_Vondrozo> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+682,Where is Mahatsinjo Est located?,select  ?o    {    <http://dbpedia.org/resource/Mahatsinjo_Est> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+683,Where is Mahatsinjony located?,select  ?o    {    <http://dbpedia.org/resource/Mahatsinjony> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+684,Where is Mahavanona located?,select  ?o    {    <http://dbpedia.org/resource/Mahavanona> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+685,Where is Mahavelo Farafangana located?,"select  ?o    {    <http://dbpedia.org/resource/Mahavelo,_Farafangana> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+686,Where is Mahavelo Vondrozo located?,"select  ?o    {    <http://dbpedia.org/resource/Mahavelo,_Vondrozo> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+687,Where is Mahavelona located?,select  ?o    {    <http://dbpedia.org/resource/Mahavelona> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+688,Where is Mahavelona Soavinandriana located?,"select  ?o    {    <http://dbpedia.org/resource/Mahavelona,_Soavinandriana> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+689,Where is Mahavoky Nord located?,select  ?o    {    <http://dbpedia.org/resource/Mahavoky_Nord> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+690,Where is Mahazina Ambohipierenana located?,select  ?o    {    <http://dbpedia.org/resource/Mahazina_Ambohipierenana> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+691,Where is Mahazoarivo Fandriana located?,"select  ?o    {    <http://dbpedia.org/resource/Mahazoarivo,_Fandriana> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+692,Where is Mahazoarivo Fianarantsoa II located?,"select  ?o    {    <http://dbpedia.org/resource/Mahazoarivo,_Fianarantsoa_II> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+693,Where is Mahazoarivo Vohipeno located?,"select  ?o    {    <http://dbpedia.org/resource/Mahazoarivo,_Vohipeno> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+694,Where is Mahazoarivo Vondrozo located?,"select  ?o    {    <http://dbpedia.org/resource/Mahazoarivo,_Vondrozo> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+695,Where is Mahazoma located?,select  ?o    {    <http://dbpedia.org/resource/Mahazoma> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+696,Where is Mahazony located?,select  ?o    {    <http://dbpedia.org/resource/Mahazony> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+697,Where is Maheriraty located?,select  ?o    {    <http://dbpedia.org/resource/Maheriraty> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+698,Where is Maherivaratra located?,select  ?o    {    <http://dbpedia.org/resource/Maherivaratra> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+699,Where is Maintinandry located?,select  ?o    {    <http://dbpedia.org/resource/Maintinandry> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+700,Where is Maintirano located?,select  ?o    {    <http://dbpedia.org/resource/Maintirano> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+701,Where is Maintirano District located?,select  ?o    {    <http://dbpedia.org/resource/Maintirano_District> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+702,Where is Maintsokely located?,select  ?o    {    <http://dbpedia.org/resource/Maintsokely> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+703,Where is Malaimbandy located?,select  ?o    {    <http://dbpedia.org/resource/Malaimbandy> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+704,Where is Consthum located?,select  ?o    {    <http://dbpedia.org/resource/Consthum> <http://dbpedia.org/ontology/country>  ?o    },Luxembourg
+705,Where is Useldange located?,select  ?o    {    <http://dbpedia.org/resource/Useldange> <http://dbpedia.org/ontology/country>  ?o    },Luxembourg
+706,Where is Vakinankaratra located?,select  ?o    {    <http://dbpedia.org/resource/Vakinankaratra> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+707,Where is Valabetokana located?,select  ?o    {    <http://dbpedia.org/resource/Valabetokana> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+708,Where is Vall??e de l'Ernz located?,select  ?o    {    <http://dbpedia.org/resource/Vall??e_de_l'Ernz> <http://dbpedia.org/ontology/country>  ?o    },Luxembourg
+709,Where is Vangaindrano (district) located?,select  ?o    {    <http://dbpedia.org/resource/Vangaindrano_(district)> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+710,Where is Vanono located?,select  ?o    {    <http://dbpedia.org/resource/Vanono> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+711,Where is Vasiana located?,select  ?o    {    <http://dbpedia.org/resource/Vasiana> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+712,Where is Vatana Madagascar located?,"select  ?o    {    <http://dbpedia.org/resource/Vatana,_Madagascar> <http://dbpedia.org/ontology/country>  ?o    }",Madagascar
+713,Where is Vatanato located?,select  ?o    {    <http://dbpedia.org/resource/Vatanato> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+714,Where is Vatohandrina located?,select  ?o    {    <http://dbpedia.org/resource/Vatohandrina> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+715,Where is Vatolatsaka located?,select  ?o    {    <http://dbpedia.org/resource/Vatolatsaka> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+716,Where is Vatomandry located?,select  ?o    {    <http://dbpedia.org/resource/Vatomandry> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+717,Where is Vatomandry (district) located?,select  ?o    {    <http://dbpedia.org/resource/Vatomandry_(district)> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+718,Where is Vatovavy-Fitovinany located?,select  ?o    {    <http://dbpedia.org/resource/Vatovavy-Fitovinany> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+719,Where is Vavatenina located?,select  ?o    {    <http://dbpedia.org/resource/Vavatenina> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+720,Where is Vavatenina District located?,select  ?o    {    <http://dbpedia.org/resource/Vavatenina_District> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+721,Where is Veromanga located?,select  ?o    {    <http://dbpedia.org/resource/Veromanga> <http://dbpedia.org/ontology/country>  ?o    },Madagascar
+722,Where is Folschette located?,select  ?o    {    <http://dbpedia.org/resource/Folschette> <http://dbpedia.org/ontology/country>  ?o    },Luxembourg
+723,Where is Khodoriv located?,"select  ?o    {    <http://dbpedia.org/resource/Khodoriv> <http://dbpedia.
+",

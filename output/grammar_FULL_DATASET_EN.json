@@ -16,305 +16,305 @@
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
-        "label" : "Andreas Ekberg",
-        "uri" : "http://dbpedia.org/resource/Andreas_Ekberg"
+        "label" : "2013 Hialeah shooting",
+        "uri" : "http://dbpedia.org/resource/2013_Hialeah_shooting"
       }, {
-        "label" : "Nikolaos Ventouras",
-        "uri" : "http://dbpedia.org/resource/Nikolaos_Ventouras"
+        "label" : "2013 Santa Monica shooting",
+        "uri" : "http://dbpedia.org/resource/2013_Santa_Monica_shooting"
       }, {
-        "label" : "Sani ol molk",
-        "uri" : "http://dbpedia.org/resource/Sani_ol_molk"
+        "label" : "2014 Fort Hood shooting",
+        "uri" : "http://dbpedia.org/resource/2014_Fort_Hood_shooting"
       }, {
-        "label" : "Witold Gerutto",
-        "uri" : "http://dbpedia.org/resource/Witold_Gerutto"
+        "label" : "2014 Isla Vista killings",
+        "uri" : "http://dbpedia.org/resource/2014_Isla_Vista_killings"
       }, {
-        "label" : "Anatoliy Abdula",
-        "uri" : "http://dbpedia.org/resource/Anatoliy_Abdula"
+        "label" : "2014 Las Vegas shootings",
+        "uri" : "http://dbpedia.org/resource/2014_Las_Vegas_shootings"
       }, {
-        "label" : "Bojan Pandžić",
-        "uri" : "http://dbpedia.org/resource/Bojan_Pandžić"
+        "label" : "2014 killings of NYPD officers",
+        "uri" : "http://dbpedia.org/resource/2014_killings_of_NYPD_officers"
       }, {
-        "label" : "Briana Provancha",
-        "uri" : "http://dbpedia.org/resource/Briana_Provancha"
+        "label" : "2014 shootings at Parliament Hill, Ottawa",
+        "uri" : "http://dbpedia.org/resource/2014_shootings_at_Parliament_Hill,_Ottawa"
       }, {
-        "label" : "Daryl Homer",
-        "uri" : "http://dbpedia.org/resource/Daryl_Homer"
+        "label" : "2015 Chattanooga shootings",
+        "uri" : "http://dbpedia.org/resource/2015_Chattanooga_shootings"
       }, {
-        "label" : "Francesco Boffo",
-        "uri" : "http://dbpedia.org/resource/Francesco_Boffo"
+        "label" : "2015 Lafayette shooting",
+        "uri" : "http://dbpedia.org/resource/2015_Lafayette_shooting"
       }, {
-        "label" : "Frano Vićan",
-        "uri" : "http://dbpedia.org/resource/Frano_Vićan"
+        "label" : "2015 Parramatta shooting",
+        "uri" : "http://dbpedia.org/resource/2015_Parramatta_shooting"
       }, {
-        "label" : "Giles Scott",
-        "uri" : "http://dbpedia.org/resource/Giles_Scott"
+        "label" : "2015 Sousse attacks",
+        "uri" : "http://dbpedia.org/resource/2015_Sousse_attacks"
       }, {
-        "label" : "Giovan Francesco Buonamici",
-        "uri" : "http://dbpedia.org/resource/Giovan_Francesco_Buonamici"
+        "label" : "2016 Berlin truck attack",
+        "uri" : "http://dbpedia.org/resource/2016_Berlin_truck_attack"
       }, {
-        "label" : "Grace McKenzie",
-        "uri" : "http://dbpedia.org/resource/Grace_McKenzie"
+        "label" : "2016 Munich shooting",
+        "uri" : "http://dbpedia.org/resource/2016_Munich_shooting"
       }, {
-        "label" : "Graham Dadds",
-        "uri" : "http://dbpedia.org/resource/Graham_Dadds"
+        "label" : "2016 New York and New Jersey bombings",
+        "uri" : "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
       }, {
-        "label" : "Ilya Mokretsov",
-        "uri" : "http://dbpedia.org/resource/Ilya_Mokretsov"
+        "label" : "2016 UCLA shooting",
+        "uri" : "http://dbpedia.org/resource/2016_UCLA_shooting"
       }, {
-        "label" : "Larry Hurtado",
-        "uri" : "http://dbpedia.org/resource/Larry_Hurtado"
+        "label" : "2016 shooting of Almaty police officers",
+        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Almaty_police_officers"
       }, {
-        "label" : "Maximilien van Haaster",
-        "uri" : "http://dbpedia.org/resource/Maximilien_van_Haaster"
+        "label" : "2016 shooting of Baton Rouge police officers",
+        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Baton_Rouge_police_officers"
       }, {
-        "label" : "Mohammed Al-Hakim",
-        "uri" : "http://dbpedia.org/resource/Mohammed_Al-Hakim"
+        "label" : "2016 shooting of Dallas police officers",
+        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Dallas_police_officers"
       }, {
-        "label" : "Monica Aksamit",
-        "uri" : "http://dbpedia.org/resource/Monica_Aksamit"
+        "label" : "2017 Fresno shooting spree",
+        "uri" : "http://dbpedia.org/resource/2017_Fresno_shooting_spree"
       }, {
-        "label" : "Olena Kravatska",
-        "uri" : "http://dbpedia.org/resource/Olena_Kravatska"
+        "label" : "2017 New York City truck attack",
+        "uri" : "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
       }, {
-        "label" : "A. C. Bhaktivedanta Swami Prabhupada",
-        "uri" : "http://dbpedia.org/resource/A._C._Bhaktivedanta_Swami_Prabhupada"
+        "label" : "7669 (group)",
+        "uri" : "http://dbpedia.org/resource/7669_(group)"
       }, {
-        "label" : "Aaron Burr",
-        "uri" : "http://dbpedia.org/resource/Aaron_Burr"
+        "label" : "A.Chal",
+        "uri" : "http://dbpedia.org/resource/A.Chal"
       }, {
-        "label" : "Aaron Copland",
-        "uri" : "http://dbpedia.org/resource/Aaron_Copland"
+        "label" : "A.D.O.R.",
+        "uri" : "http://dbpedia.org/resource/A.D.O.R."
       }, {
-        "label" : "Abbie Hoffman",
-        "uri" : "http://dbpedia.org/resource/Abbie_Hoffman"
+        "label" : "A.E. Dick Howard",
+        "uri" : "http://dbpedia.org/resource/A.E._Dick_Howard"
       }, {
-        "label" : "Abraham Robinson",
-        "uri" : "http://dbpedia.org/resource/Abraham_Robinson"
+        "label" : "A.E. Hanson",
+        "uri" : "http://dbpedia.org/resource/A.E._Hanson"
       }, {
-        "label" : "Abraham de Moivre",
-        "uri" : "http://dbpedia.org/resource/Abraham_de_Moivre"
+        "label" : "A.G. Syjuco",
+        "uri" : "http://dbpedia.org/resource/A.G._Syjuco"
       }, {
-        "label" : "Adalbert of Magdeburg",
-        "uri" : "http://dbpedia.org/resource/Adalbert_of_Magdeburg"
+        "label" : "A.J. Applegate",
+        "uri" : "http://dbpedia.org/resource/A.J._Applegate"
       }, {
-        "label" : "Adam Oehlenschläger",
-        "uri" : "http://dbpedia.org/resource/Adam_Oehlenschläger"
+        "label" : "A.L. Monsohn Lithography",
+        "uri" : "http://dbpedia.org/resource/A.L._Monsohn_Lithography"
       }, {
-        "label" : "Adam Wiśniewski-Snerg",
-        "uri" : "http://dbpedia.org/resource/Adam_Wiśniewski-Snerg"
+        "label" : "A.M. Parkin",
+        "uri" : "http://dbpedia.org/resource/A.M._Parkin"
       }, {
-        "label" : "Adi Shamir",
-        "uri" : "http://dbpedia.org/resource/Adi_Shamir"
+        "label" : "A.M. SNiPER",
+        "uri" : "http://dbpedia.org/resource/A.M._SNiPER"
       }, {
-        "label" : "Adlai Stevenson II",
-        "uri" : "http://dbpedia.org/resource/Adlai_Stevenson_II"
+        "label" : "A.N.M. Ehsanul Hoque Milan",
+        "uri" : "http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan"
       }, {
-        "label" : "Adolf Loos",
-        "uri" : "http://dbpedia.org/resource/Adolf_Loos"
+        "label" : "A. A. Bondy",
+        "uri" : "http://dbpedia.org/resource/A._A._Bondy"
       }, {
-        "label" : "Adrien-Marie Legendre",
-        "uri" : "http://dbpedia.org/resource/Adrien-Marie_Legendre"
+        "label" : "A. A. H. Tuttle",
+        "uri" : "http://dbpedia.org/resource/A._A._H._Tuttle"
       }, {
-        "label" : "Adrienne Rich",
-        "uri" : "http://dbpedia.org/resource/Adrienne_Rich"
+        "label" : "A. A. Khan (academic)",
+        "uri" : "http://dbpedia.org/resource/A._A._Khan_(academic)"
       }, {
-        "label" : "Akiko Yano",
-        "uri" : "http://dbpedia.org/resource/Akiko_Yano"
+        "label" : "A. Andrews",
+        "uri" : "http://dbpedia.org/resource/A._Andrews"
       }, {
-        "label" : "Al Pacino",
-        "uri" : "http://dbpedia.org/resource/Al_Pacino"
+        "label" : "A. B. Colton",
+        "uri" : "http://dbpedia.org/resource/A._B._Colton"
       }, {
-        "label" : "Alain Prost",
-        "uri" : "http://dbpedia.org/resource/Alain_Prost"
+        "label" : "A. B. Creeke",
+        "uri" : "http://dbpedia.org/resource/A._B._Creeke"
       }, {
-        "label" : "Alan Rickman",
-        "uri" : "http://dbpedia.org/resource/Alan_Rickman"
+        "label" : "A. B. Guthrie Jr.",
+        "uri" : "http://dbpedia.org/resource/A._B._Guthrie_Jr."
       }, {
-        "label" : "Alan Shearer",
-        "uri" : "http://dbpedia.org/resource/Alan_Shearer"
+        "label" : "A. B. Imeson",
+        "uri" : "http://dbpedia.org/resource/A._B._Imeson"
       }, {
-        "label" : "Albert Abrams",
-        "uri" : "http://dbpedia.org/resource/Albert_Abrams"
+        "label" : "A. B. Lull",
+        "uri" : "http://dbpedia.org/resource/A._B._Lull"
       }, {
-        "label" : "Albert Brudzewski",
-        "uri" : "http://dbpedia.org/resource/Albert_Brudzewski"
+        "label" : "A. Bernard Ackerman",
+        "uri" : "http://dbpedia.org/resource/A._Bernard_Ackerman"
       }, {
-        "label" : "Albert Finney",
-        "uri" : "http://dbpedia.org/resource/Albert_Finney"
+        "label" : "A. Blaine Bowman",
+        "uri" : "http://dbpedia.org/resource/A._Blaine_Bowman"
       }, {
-        "label" : "Albrecht Giese",
-        "uri" : "http://dbpedia.org/resource/Albrecht_Giese"
+        "label" : "A. Brown Moore",
+        "uri" : "http://dbpedia.org/resource/A._Brown_Moore"
       }, {
-        "label" : "Albrecht III Achilles, Elector of Brandenburg",
-        "uri" : "http://dbpedia.org/resource/Albrecht_III_Achilles,_Elector_of_Brandenburg"
+        "label" : "A. C. Lyons",
+        "uri" : "http://dbpedia.org/resource/A._C._Lyons"
       }, {
-        "label" : "Aldo Rossi",
-        "uri" : "http://dbpedia.org/resource/Aldo_Rossi"
+        "label" : "A. C. Shanmugam",
+        "uri" : "http://dbpedia.org/resource/A._C._Shanmugam"
       }, {
-        "label" : "Alec Jeffreys",
-        "uri" : "http://dbpedia.org/resource/Alec_Jeffreys"
+        "label" : "A. C. Wise",
+        "uri" : "http://dbpedia.org/resource/A._C._Wise"
       }, {
-        "label" : "Alessandro Manzoni",
-        "uri" : "http://dbpedia.org/resource/Alessandro_Manzoni"
+        "label" : "A. Clarence Jones",
+        "uri" : "http://dbpedia.org/resource/A._Clarence_Jones"
       }, {
-        "label" : "Alex Cox",
-        "uri" : "http://dbpedia.org/resource/Alex_Cox"
+        "label" : "A. Clifford Jones",
+        "uri" : "http://dbpedia.org/resource/A._Clifford_Jones"
       }, {
-        "label" : "Alex Ferguson",
-        "uri" : "http://dbpedia.org/resource/Alex_Ferguson"
+        "label" : "A. D. Patel",
+        "uri" : "http://dbpedia.org/resource/A._D._Patel"
       }, {
-        "label" : "Alexander Dallas Bache",
-        "uri" : "http://dbpedia.org/resource/Alexander_Dallas_Bache"
+        "label" : "A. DeWade Langley",
+        "uri" : "http://dbpedia.org/resource/A._DeWade_Langley"
       }, {
-        "label" : "Alexander Shulgin",
-        "uri" : "http://dbpedia.org/resource/Alexander_Shulgin"
+        "label" : "A. Duncan Carse",
+        "uri" : "http://dbpedia.org/resource/A._Duncan_Carse"
       }, {
-        "label" : "Alexander Trocchi",
-        "uri" : "http://dbpedia.org/resource/Alexander_Trocchi"
+        "label" : "A. E. Coleby",
+        "uri" : "http://dbpedia.org/resource/A._E._Coleby"
       }, {
-        "label" : "Alexandru Ioan Cuza",
-        "uri" : "http://dbpedia.org/resource/Alexandru_Ioan_Cuza"
+        "label" : "A. F. K. Organski",
+        "uri" : "http://dbpedia.org/resource/A._F._K._Organski"
       }, {
-        "label" : "Alfred Bester",
-        "uri" : "http://dbpedia.org/resource/Alfred_Bester"
+        "label" : "A. G. Harbaugh",
+        "uri" : "http://dbpedia.org/resource/A._G._Harbaugh"
       }, {
-        "label" : "Alfred Jodl",
-        "uri" : "http://dbpedia.org/resource/Alfred_Jodl"
+        "label" : "A. G. K. Gokhale",
+        "uri" : "http://dbpedia.org/resource/A._G._K._Gokhale"
       }, {
-        "label" : "Alfred Kinsey",
-        "uri" : "http://dbpedia.org/resource/Alfred_Kinsey"
+        "label" : "A. Ganeshkumar",
+        "uri" : "http://dbpedia.org/resource/A._Ganeshkumar"
       }, {
-        "label" : "Alfred Marshall",
-        "uri" : "http://dbpedia.org/resource/Alfred_Marshall"
+        "label" : "A. Gilbert Wright",
+        "uri" : "http://dbpedia.org/resource/A._Gilbert_Wright"
       }, {
-        "label" : "Alfred Meyer",
-        "uri" : "http://dbpedia.org/resource/Alfred_Meyer"
+        "label" : "A. Gnanathasan",
+        "uri" : "http://dbpedia.org/resource/A._Gnanathasan"
       }, {
-        "label" : "Alfred North Whitehead",
-        "uri" : "http://dbpedia.org/resource/Alfred_North_Whitehead"
+        "label" : "A. Gordon Wetmore",
+        "uri" : "http://dbpedia.org/resource/A._Gordon_Wetmore"
       }, {
-        "label" : "Alfred Rosenberg",
-        "uri" : "http://dbpedia.org/resource/Alfred_Rosenberg"
+        "label" : "A. Grove Day",
+        "uri" : "http://dbpedia.org/resource/A._Grove_Day"
       }, {
-        "label" : "Alice Miller (psychologist)",
-        "uri" : "http://dbpedia.org/resource/Alice_Miller_(psychologist)"
+        "label" : "A. H. Albut",
+        "uri" : "http://dbpedia.org/resource/A._H._Albut"
       }, {
-        "label" : "Alice Walker",
-        "uri" : "http://dbpedia.org/resource/Alice_Walker"
+        "label" : "A. H. Hornby",
+        "uri" : "http://dbpedia.org/resource/A._H._Hornby"
       }, {
-        "label" : "Allan Pinkerton",
-        "uri" : "http://dbpedia.org/resource/Allan_Pinkerton"
+        "label" : "A. J. B. Johnston",
+        "uri" : "http://dbpedia.org/resource/A._J._B._Johnston"
       }, {
-        "label" : "Allen G. Thurman",
-        "uri" : "http://dbpedia.org/resource/Allen_G._Thurman"
+        "label" : "A. J. Benza",
+        "uri" : "http://dbpedia.org/resource/A._J._Benza"
       }, {
-        "label" : "Alonzo Church",
-        "uri" : "http://dbpedia.org/resource/Alonzo_Church"
+        "label" : "A. J. Bernheim Brush",
+        "uri" : "http://dbpedia.org/resource/A._J._Bernheim_Brush"
       }, {
-        "label" : "Aloysius Lilius",
-        "uri" : "http://dbpedia.org/resource/Aloysius_Lilius"
+        "label" : "A. J. Healy",
+        "uri" : "http://dbpedia.org/resource/A._J._Healy"
       }, {
-        "label" : "Alyson Hannigan",
-        "uri" : "http://dbpedia.org/resource/Alyson_Hannigan"
+        "label" : "A. J. Mogis",
+        "uri" : "http://dbpedia.org/resource/A._J._Mogis"
       }, {
-        "label" : "Amartya Sen",
-        "uri" : "http://dbpedia.org/resource/Amartya_Sen"
+        "label" : "A. J. Preller",
+        "uri" : "http://dbpedia.org/resource/A._J._Preller"
       }, {
-        "label" : "Ambrosius Holbein",
-        "uri" : "http://dbpedia.org/resource/Ambrosius_Holbein"
+        "label" : "A. J. Reynolds",
+        "uri" : "http://dbpedia.org/resource/A._J._Reynolds"
       }, {
-        "label" : "Amedeo Avogadro",
-        "uri" : "http://dbpedia.org/resource/Amedeo_Avogadro"
+        "label" : "A. Johnkumar",
+        "uri" : "http://dbpedia.org/resource/A._Johnkumar"
       }, {
-        "label" : "Amy Tan",
-        "uri" : "http://dbpedia.org/resource/Amy_Tan"
+        "label" : "A. K. Brohi",
+        "uri" : "http://dbpedia.org/resource/A._K._Brohi"
       }, {
-        "label" : "Anders Hejlsberg",
-        "uri" : "http://dbpedia.org/resource/Anders_Hejlsberg"
+        "label" : "A. K. M. Shahidul Haque",
+        "uri" : "http://dbpedia.org/resource/A._K._M._Shahidul_Haque"
       }, {
-        "label" : "Andie MacDowell",
-        "uri" : "http://dbpedia.org/resource/Andie_MacDowell"
+        "label" : "A. K. Narain",
+        "uri" : "http://dbpedia.org/resource/A._K._Narain"
       }, {
-        "label" : "Andreas Vesalius",
-        "uri" : "http://dbpedia.org/resource/Andreas_Vesalius"
+        "label" : "A. K. Patel",
+        "uri" : "http://dbpedia.org/resource/A._K._Patel"
       }, {
-        "label" : "Andrew Bobola",
-        "uri" : "http://dbpedia.org/resource/Andrew_Bobola"
+        "label" : "A. K. Veerasami",
+        "uri" : "http://dbpedia.org/resource/A._K._Veerasami"
       }, {
-        "label" : "Andrew Fastow",
-        "uri" : "http://dbpedia.org/resource/Andrew_Fastow"
+        "label" : "A. Karunakaran",
+        "uri" : "http://dbpedia.org/resource/A._Karunakaran"
       }, {
-        "label" : "Andrew Inglis Clark",
-        "uri" : "http://dbpedia.org/resource/Andrew_Inglis_Clark"
+        "label" : "A. L. Narayan",
+        "uri" : "http://dbpedia.org/resource/A._L._Narayan"
       }, {
-        "label" : "Andrew Lloyd Webber",
-        "uri" : "http://dbpedia.org/resource/Andrew_Lloyd_Webber"
+        "label" : "A. L. Raghavan",
+        "uri" : "http://dbpedia.org/resource/A._L._Raghavan"
       }, {
-        "label" : "Andrew Marvell",
-        "uri" : "http://dbpedia.org/resource/Andrew_Marvell"
+        "label" : "A. L. Ramesh",
+        "uri" : "http://dbpedia.org/resource/A._L._Ramesh"
       }, {
-        "label" : "Andrew Sarris",
-        "uri" : "http://dbpedia.org/resource/Andrew_Sarris"
+        "label" : "A. L. Vijay",
+        "uri" : "http://dbpedia.org/resource/A._L._Vijay"
       }, {
-        "label" : "Andrzej Wajda",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Wajda"
+        "label" : "A. M. M. Naushad",
+        "uri" : "http://dbpedia.org/resource/A._M._M._Naushad"
       }, {
-        "label" : "Andrzej Żuławski",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Żuławski"
+        "label" : "A. M. Mathai",
+        "uri" : "http://dbpedia.org/resource/A._M._Mathai"
       }, {
-        "label" : "André Breton",
-        "uri" : "http://dbpedia.org/resource/André_Breton"
+        "label" : "A. Mangalam",
+        "uri" : "http://dbpedia.org/resource/A._Mangalam"
       }, {
-        "label" : "André Malraux",
-        "uri" : "http://dbpedia.org/resource/André_Malraux"
+        "label" : "A. N. Gopal",
+        "uri" : "http://dbpedia.org/resource/A._N._Gopal"
       }, {
-        "label" : "Andy Razaf",
-        "uri" : "http://dbpedia.org/resource/Andy_Razaf"
+        "label" : "A. Oveta Fuller",
+        "uri" : "http://dbpedia.org/resource/A._Oveta_Fuller"
       }, {
-        "label" : "Angela Davis",
-        "uri" : "http://dbpedia.org/resource/Angela_Davis"
+        "label" : "A. P. Mda",
+        "uri" : "http://dbpedia.org/resource/A._P._Mda"
       }, {
-        "label" : "Anita O'Day",
-        "uri" : "http://dbpedia.org/resource/Anita_O'Day"
+        "label" : "A. P. Patro",
+        "uri" : "http://dbpedia.org/resource/A._P._Patro"
       }, {
-        "label" : "Anna of Russia",
-        "uri" : "http://dbpedia.org/resource/Anna_of_Russia"
+        "label" : "A. R. Krishnashastry",
+        "uri" : "http://dbpedia.org/resource/A._R._Krishnashastry"
       }, {
-        "label" : "Anne, Queen of Great Britain",
-        "uri" : "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+        "label" : "A. R. Mallu",
+        "uri" : "http://dbpedia.org/resource/A._R._Mallu"
       }, {
-        "label" : "Anne Boleyn",
-        "uri" : "http://dbpedia.org/resource/Anne_Boleyn"
+        "label" : "A. R. Taylor",
+        "uri" : "http://dbpedia.org/resource/A._R._Taylor"
       }, {
-        "label" : "Anne Desclos",
-        "uri" : "http://dbpedia.org/resource/Anne_Desclos"
+        "label" : "A. Rajagopal",
+        "uri" : "http://dbpedia.org/resource/A._Rajagopal"
       }, {
-        "label" : "Anne Neville",
-        "uri" : "http://dbpedia.org/resource/Anne_Neville"
+        "label" : "A. Ranganadha Rao",
+        "uri" : "http://dbpedia.org/resource/A._Ranganadha_Rao"
       }, {
-        "label" : "Anne of Cleves",
-        "uri" : "http://dbpedia.org/resource/Anne_of_Cleves"
+        "label" : "A. Rangaswami Iyengar",
+        "uri" : "http://dbpedia.org/resource/A._Rangaswami_Iyengar"
       }, {
-        "label" : "Anne of Denmark",
-        "uri" : "http://dbpedia.org/resource/Anne_of_Denmark"
+        "label" : "A. Roberto Frisancho",
+        "uri" : "http://dbpedia.org/resource/A._Roberto_Frisancho"
       }, {
-        "label" : "Anselme Payen",
-        "uri" : "http://dbpedia.org/resource/Anselme_Payen"
+        "label" : "A. S. Arya",
+        "uri" : "http://dbpedia.org/resource/A._S._Arya"
       }, {
-        "label" : "Antanas Valionis",
-        "uri" : "http://dbpedia.org/resource/Antanas_Valionis"
+        "label" : "A. S. Baylinson",
+        "uri" : "http://dbpedia.org/resource/A._S._Baylinson"
       }, {
-        "label" : "Anthony Burgess",
-        "uri" : "http://dbpedia.org/resource/Anthony_Burgess"
+        "label" : "A. S. Patrić",
+        "uri" : "http://dbpedia.org/resource/A._S._Patrić"
       }, {
-        "label" : "Anthony Fokker",
-        "uri" : "http://dbpedia.org/resource/Anthony_Fokker"
+        "label" : "A. S. Rao",
+        "uri" : "http://dbpedia.org/resource/A._S._Rao"
       }, {
-        "label" : "Anthony Quinn",
-        "uri" : "http://dbpedia.org/resource/Anthony_Quinn"
+        "label" : "A. S. W. Rosenbach",
+        "uri" : "http://dbpedia.org/resource/A._S._W._Rosenbach"
       }, {
-        "label" : "Anthony Zinni",
-        "uri" : "http://dbpedia.org/resource/Anthony_Zinni"
+        "label" : "A. Sakunthala",
+        "uri" : "http://dbpedia.org/resource/A._Sakunthala"
       } ]
     },
     "combination" : false
@@ -335,2015 +335,310 @@
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
-        "label" : "Andreas Ekberg",
-        "uri" : "http://dbpedia.org/resource/Andreas_Ekberg"
+        "label" : "2013 Hialeah shooting",
+        "uri" : "http://dbpedia.org/resource/2013_Hialeah_shooting"
       }, {
-        "label" : "Nikolaos Ventouras",
-        "uri" : "http://dbpedia.org/resource/Nikolaos_Ventouras"
+        "label" : "2013 Santa Monica shooting",
+        "uri" : "http://dbpedia.org/resource/2013_Santa_Monica_shooting"
       }, {
-        "label" : "Sani ol molk",
-        "uri" : "http://dbpedia.org/resource/Sani_ol_molk"
+        "label" : "2014 Fort Hood shooting",
+        "uri" : "http://dbpedia.org/resource/2014_Fort_Hood_shooting"
       }, {
-        "label" : "Witold Gerutto",
-        "uri" : "http://dbpedia.org/resource/Witold_Gerutto"
+        "label" : "2014 Isla Vista killings",
+        "uri" : "http://dbpedia.org/resource/2014_Isla_Vista_killings"
       }, {
-        "label" : "Anatoliy Abdula",
-        "uri" : "http://dbpedia.org/resource/Anatoliy_Abdula"
+        "label" : "2014 Las Vegas shootings",
+        "uri" : "http://dbpedia.org/resource/2014_Las_Vegas_shootings"
       }, {
-        "label" : "Bojan Pandžić",
-        "uri" : "http://dbpedia.org/resource/Bojan_Pandžić"
+        "label" : "2014 killings of NYPD officers",
+        "uri" : "http://dbpedia.org/resource/2014_killings_of_NYPD_officers"
       }, {
-        "label" : "Briana Provancha",
-        "uri" : "http://dbpedia.org/resource/Briana_Provancha"
+        "label" : "2014 shootings at Parliament Hill, Ottawa",
+        "uri" : "http://dbpedia.org/resource/2014_shootings_at_Parliament_Hill,_Ottawa"
       }, {
-        "label" : "Daryl Homer",
-        "uri" : "http://dbpedia.org/resource/Daryl_Homer"
+        "label" : "2015 Chattanooga shootings",
+        "uri" : "http://dbpedia.org/resource/2015_Chattanooga_shootings"
       }, {
-        "label" : "Francesco Boffo",
-        "uri" : "http://dbpedia.org/resource/Francesco_Boffo"
+        "label" : "2015 Lafayette shooting",
+        "uri" : "http://dbpedia.org/resource/2015_Lafayette_shooting"
       }, {
-        "label" : "Frano Vićan",
-        "uri" : "http://dbpedia.org/resource/Frano_Vićan"
+        "label" : "2015 Parramatta shooting",
+        "uri" : "http://dbpedia.org/resource/2015_Parramatta_shooting"
       }, {
-        "label" : "Giles Scott",
-        "uri" : "http://dbpedia.org/resource/Giles_Scott"
+        "label" : "2015 Sousse attacks",
+        "uri" : "http://dbpedia.org/resource/2015_Sousse_attacks"
       }, {
-        "label" : "Giovan Francesco Buonamici",
-        "uri" : "http://dbpedia.org/resource/Giovan_Francesco_Buonamici"
+        "label" : "2016 Berlin truck attack",
+        "uri" : "http://dbpedia.org/resource/2016_Berlin_truck_attack"
       }, {
-        "label" : "Grace McKenzie",
-        "uri" : "http://dbpedia.org/resource/Grace_McKenzie"
+        "label" : "2016 Munich shooting",
+        "uri" : "http://dbpedia.org/resource/2016_Munich_shooting"
       }, {
-        "label" : "Graham Dadds",
-        "uri" : "http://dbpedia.org/resource/Graham_Dadds"
+        "label" : "2016 New York and New Jersey bombings",
+        "uri" : "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
       }, {
-        "label" : "Ilya Mokretsov",
-        "uri" : "http://dbpedia.org/resource/Ilya_Mokretsov"
+        "label" : "2016 UCLA shooting",
+        "uri" : "http://dbpedia.org/resource/2016_UCLA_shooting"
       }, {
-        "label" : "Larry Hurtado",
-        "uri" : "http://dbpedia.org/resource/Larry_Hurtado"
+        "label" : "2016 shooting of Almaty police officers",
+        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Almaty_police_officers"
       }, {
-        "label" : "Maximilien van Haaster",
-        "uri" : "http://dbpedia.org/resource/Maximilien_van_Haaster"
+        "label" : "2016 shooting of Baton Rouge police officers",
+        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Baton_Rouge_police_officers"
       }, {
-        "label" : "Mohammed Al-Hakim",
-        "uri" : "http://dbpedia.org/resource/Mohammed_Al-Hakim"
+        "label" : "2016 shooting of Dallas police officers",
+        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Dallas_police_officers"
       }, {
-        "label" : "Monica Aksamit",
-        "uri" : "http://dbpedia.org/resource/Monica_Aksamit"
+        "label" : "2017 Fresno shooting spree",
+        "uri" : "http://dbpedia.org/resource/2017_Fresno_shooting_spree"
       }, {
-        "label" : "Olena Kravatska",
-        "uri" : "http://dbpedia.org/resource/Olena_Kravatska"
+        "label" : "2017 New York City truck attack",
+        "uri" : "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
       }, {
-        "label" : "A. C. Bhaktivedanta Swami Prabhupada",
-        "uri" : "http://dbpedia.org/resource/A._C._Bhaktivedanta_Swami_Prabhupada"
+        "label" : "7669 (group)",
+        "uri" : "http://dbpedia.org/resource/7669_(group)"
       }, {
-        "label" : "Aaron Burr",
-        "uri" : "http://dbpedia.org/resource/Aaron_Burr"
+        "label" : "A.Chal",
+        "uri" : "http://dbpedia.org/resource/A.Chal"
       }, {
-        "label" : "Aaron Copland",
-        "uri" : "http://dbpedia.org/resource/Aaron_Copland"
+        "label" : "A.D.O.R.",
+        "uri" : "http://dbpedia.org/resource/A.D.O.R."
       }, {
-        "label" : "Abbie Hoffman",
-        "uri" : "http://dbpedia.org/resource/Abbie_Hoffman"
+        "label" : "A.E. Dick Howard",
+        "uri" : "http://dbpedia.org/resource/A.E._Dick_Howard"
       }, {
-        "label" : "Abraham Robinson",
-        "uri" : "http://dbpedia.org/resource/Abraham_Robinson"
+        "label" : "A.E. Hanson",
+        "uri" : "http://dbpedia.org/resource/A.E._Hanson"
       }, {
-        "label" : "Abraham de Moivre",
-        "uri" : "http://dbpedia.org/resource/Abraham_de_Moivre"
+        "label" : "A.G. Syjuco",
+        "uri" : "http://dbpedia.org/resource/A.G._Syjuco"
       }, {
-        "label" : "Adalbert of Magdeburg",
-        "uri" : "http://dbpedia.org/resource/Adalbert_of_Magdeburg"
+        "label" : "A.J. Applegate",
+        "uri" : "http://dbpedia.org/resource/A.J._Applegate"
       }, {
-        "label" : "Adam Oehlenschläger",
-        "uri" : "http://dbpedia.org/resource/Adam_Oehlenschläger"
+        "label" : "A.L. Monsohn Lithography",
+        "uri" : "http://dbpedia.org/resource/A.L._Monsohn_Lithography"
       }, {
-        "label" : "Adam Wiśniewski-Snerg",
-        "uri" : "http://dbpedia.org/resource/Adam_Wiśniewski-Snerg"
+        "label" : "A.M. Parkin",
+        "uri" : "http://dbpedia.org/resource/A.M._Parkin"
       }, {
-        "label" : "Adi Shamir",
-        "uri" : "http://dbpedia.org/resource/Adi_Shamir"
+        "label" : "A.M. SNiPER",
+        "uri" : "http://dbpedia.org/resource/A.M._SNiPER"
       }, {
-        "label" : "Adlai Stevenson II",
-        "uri" : "http://dbpedia.org/resource/Adlai_Stevenson_II"
+        "label" : "A.N.M. Ehsanul Hoque Milan",
+        "uri" : "http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan"
       }, {
-        "label" : "Adolf Loos",
-        "uri" : "http://dbpedia.org/resource/Adolf_Loos"
+        "label" : "A. A. Bondy",
+        "uri" : "http://dbpedia.org/resource/A._A._Bondy"
       }, {
-        "label" : "Adrien-Marie Legendre",
-        "uri" : "http://dbpedia.org/resource/Adrien-Marie_Legendre"
+        "label" : "A. A. H. Tuttle",
+        "uri" : "http://dbpedia.org/resource/A._A._H._Tuttle"
       }, {
-        "label" : "Adrienne Rich",
-        "uri" : "http://dbpedia.org/resource/Adrienne_Rich"
+        "label" : "A. A. Khan (academic)",
+        "uri" : "http://dbpedia.org/resource/A._A._Khan_(academic)"
       }, {
-        "label" : "Akiko Yano",
-        "uri" : "http://dbpedia.org/resource/Akiko_Yano"
+        "label" : "A. Andrews",
+        "uri" : "http://dbpedia.org/resource/A._Andrews"
       }, {
-        "label" : "Al Pacino",
-        "uri" : "http://dbpedia.org/resource/Al_Pacino"
+        "label" : "A. B. Colton",
+        "uri" : "http://dbpedia.org/resource/A._B._Colton"
       }, {
-        "label" : "Alain Prost",
-        "uri" : "http://dbpedia.org/resource/Alain_Prost"
+        "label" : "A. B. Creeke",
+        "uri" : "http://dbpedia.org/resource/A._B._Creeke"
       }, {
-        "label" : "Alan Rickman",
-        "uri" : "http://dbpedia.org/resource/Alan_Rickman"
+        "label" : "A. B. Guthrie Jr.",
+        "uri" : "http://dbpedia.org/resource/A._B._Guthrie_Jr."
       }, {
-        "label" : "Alan Shearer",
-        "uri" : "http://dbpedia.org/resource/Alan_Shearer"
+        "label" : "A. B. Imeson",
+        "uri" : "http://dbpedia.org/resource/A._B._Imeson"
       }, {
-        "label" : "Albert Abrams",
-        "uri" : "http://dbpedia.org/resource/Albert_Abrams"
+        "label" : "A. B. Lull",
+        "uri" : "http://dbpedia.org/resource/A._B._Lull"
       }, {
-        "label" : "Albert Brudzewski",
-        "uri" : "http://dbpedia.org/resource/Albert_Brudzewski"
+        "label" : "A. Bernard Ackerman",
+        "uri" : "http://dbpedia.org/resource/A._Bernard_Ackerman"
       }, {
-        "label" : "Albert Finney",
-        "uri" : "http://dbpedia.org/resource/Albert_Finney"
+        "label" : "A. Blaine Bowman",
+        "uri" : "http://dbpedia.org/resource/A._Blaine_Bowman"
       }, {
-        "label" : "Albrecht Giese",
-        "uri" : "http://dbpedia.org/resource/Albrecht_Giese"
+        "label" : "A. Brown Moore",
+        "uri" : "http://dbpedia.org/resource/A._Brown_Moore"
       }, {
-        "label" : "Albrecht III Achilles, Elector of Brandenburg",
-        "uri" : "http://dbpedia.org/resource/Albrecht_III_Achilles,_Elector_of_Brandenburg"
+        "label" : "A. C. Lyons",
+        "uri" : "http://dbpedia.org/resource/A._C._Lyons"
       }, {
-        "label" : "Aldo Rossi",
-        "uri" : "http://dbpedia.org/resource/Aldo_Rossi"
+        "label" : "A. C. Shanmugam",
+        "uri" : "http://dbpedia.org/resource/A._C._Shanmugam"
       }, {
-        "label" : "Alec Jeffreys",
-        "uri" : "http://dbpedia.org/resource/Alec_Jeffreys"
+        "label" : "A. C. Wise",
+        "uri" : "http://dbpedia.org/resource/A._C._Wise"
       }, {
-        "label" : "Alessandro Manzoni",
-        "uri" : "http://dbpedia.org/resource/Alessandro_Manzoni"
+        "label" : "A. Clarence Jones",
+        "uri" : "http://dbpedia.org/resource/A._Clarence_Jones"
       }, {
-        "label" : "Alex Cox",
-        "uri" : "http://dbpedia.org/resource/Alex_Cox"
+        "label" : "A. Clifford Jones",
+        "uri" : "http://dbpedia.org/resource/A._Clifford_Jones"
       }, {
-        "label" : "Alex Ferguson",
-        "uri" : "http://dbpedia.org/resource/Alex_Ferguson"
+        "label" : "A. D. Patel",
+        "uri" : "http://dbpedia.org/resource/A._D._Patel"
       }, {
-        "label" : "Alexander Dallas Bache",
-        "uri" : "http://dbpedia.org/resource/Alexander_Dallas_Bache"
+        "label" : "A. DeWade Langley",
+        "uri" : "http://dbpedia.org/resource/A._DeWade_Langley"
       }, {
-        "label" : "Alexander Shulgin",
-        "uri" : "http://dbpedia.org/resource/Alexander_Shulgin"
+        "label" : "A. Duncan Carse",
+        "uri" : "http://dbpedia.org/resource/A._Duncan_Carse"
       }, {
-        "label" : "Alexander Trocchi",
-        "uri" : "http://dbpedia.org/resource/Alexander_Trocchi"
+        "label" : "A. E. Coleby",
+        "uri" : "http://dbpedia.org/resource/A._E._Coleby"
       }, {
-        "label" : "Alexandru Ioan Cuza",
-        "uri" : "http://dbpedia.org/resource/Alexandru_Ioan_Cuza"
+        "label" : "A. F. K. Organski",
+        "uri" : "http://dbpedia.org/resource/A._F._K._Organski"
       }, {
-        "label" : "Alfred Bester",
-        "uri" : "http://dbpedia.org/resource/Alfred_Bester"
+        "label" : "A. G. Harbaugh",
+        "uri" : "http://dbpedia.org/resource/A._G._Harbaugh"
       }, {
-        "label" : "Alfred Jodl",
-        "uri" : "http://dbpedia.org/resource/Alfred_Jodl"
+        "label" : "A. G. K. Gokhale",
+        "uri" : "http://dbpedia.org/resource/A._G._K._Gokhale"
       }, {
-        "label" : "Alfred Kinsey",
-        "uri" : "http://dbpedia.org/resource/Alfred_Kinsey"
+        "label" : "A. Ganeshkumar",
+        "uri" : "http://dbpedia.org/resource/A._Ganeshkumar"
       }, {
-        "label" : "Alfred Marshall",
-        "uri" : "http://dbpedia.org/resource/Alfred_Marshall"
+        "label" : "A. Gilbert Wright",
+        "uri" : "http://dbpedia.org/resource/A._Gilbert_Wright"
       }, {
-        "label" : "Alfred Meyer",
-        "uri" : "http://dbpedia.org/resource/Alfred_Meyer"
+        "label" : "A. Gnanathasan",
+        "uri" : "http://dbpedia.org/resource/A._Gnanathasan"
       }, {
-        "label" : "Alfred North Whitehead",
-        "uri" : "http://dbpedia.org/resource/Alfred_North_Whitehead"
+        "label" : "A. Gordon Wetmore",
+        "uri" : "http://dbpedia.org/resource/A._Gordon_Wetmore"
       }, {
-        "label" : "Alfred Rosenberg",
-        "uri" : "http://dbpedia.org/resource/Alfred_Rosenberg"
+        "label" : "A. Grove Day",
+        "uri" : "http://dbpedia.org/resource/A._Grove_Day"
       }, {
-        "label" : "Alice Miller (psychologist)",
-        "uri" : "http://dbpedia.org/resource/Alice_Miller_(psychologist)"
+        "label" : "A. H. Albut",
+        "uri" : "http://dbpedia.org/resource/A._H._Albut"
       }, {
-        "label" : "Alice Walker",
-        "uri" : "http://dbpedia.org/resource/Alice_Walker"
+        "label" : "A. H. Hornby",
+        "uri" : "http://dbpedia.org/resource/A._H._Hornby"
       }, {
-        "label" : "Allan Pinkerton",
-        "uri" : "http://dbpedia.org/resource/Allan_Pinkerton"
+        "label" : "A. J. B. Johnston",
+        "uri" : "http://dbpedia.org/resource/A._J._B._Johnston"
       }, {
-        "label" : "Allen G. Thurman",
-        "uri" : "http://dbpedia.org/resource/Allen_G._Thurman"
+        "label" : "A. J. Benza",
+        "uri" : "http://dbpedia.org/resource/A._J._Benza"
       }, {
-        "label" : "Alonzo Church",
-        "uri" : "http://dbpedia.org/resource/Alonzo_Church"
+        "label" : "A. J. Bernheim Brush",
+        "uri" : "http://dbpedia.org/resource/A._J._Bernheim_Brush"
       }, {
-        "label" : "Aloysius Lilius",
-        "uri" : "http://dbpedia.org/resource/Aloysius_Lilius"
+        "label" : "A. J. Healy",
+        "uri" : "http://dbpedia.org/resource/A._J._Healy"
       }, {
-        "label" : "Alyson Hannigan",
-        "uri" : "http://dbpedia.org/resource/Alyson_Hannigan"
+        "label" : "A. J. Mogis",
+        "uri" : "http://dbpedia.org/resource/A._J._Mogis"
       }, {
-        "label" : "Amartya Sen",
-        "uri" : "http://dbpedia.org/resource/Amartya_Sen"
+        "label" : "A. J. Preller",
+        "uri" : "http://dbpedia.org/resource/A._J._Preller"
       }, {
-        "label" : "Ambrosius Holbein",
-        "uri" : "http://dbpedia.org/resource/Ambrosius_Holbein"
+        "label" : "A. J. Reynolds",
+        "uri" : "http://dbpedia.org/resource/A._J._Reynolds"
       }, {
-        "label" : "Amedeo Avogadro",
-        "uri" : "http://dbpedia.org/resource/Amedeo_Avogadro"
+        "label" : "A. Johnkumar",
+        "uri" : "http://dbpedia.org/resource/A._Johnkumar"
       }, {
-        "label" : "Amy Tan",
-        "uri" : "http://dbpedia.org/resource/Amy_Tan"
+        "label" : "A. K. Brohi",
+        "uri" : "http://dbpedia.org/resource/A._K._Brohi"
       }, {
-        "label" : "Anders Hejlsberg",
-        "uri" : "http://dbpedia.org/resource/Anders_Hejlsberg"
+        "label" : "A. K. M. Shahidul Haque",
+        "uri" : "http://dbpedia.org/resource/A._K._M._Shahidul_Haque"
       }, {
-        "label" : "Andie MacDowell",
-        "uri" : "http://dbpedia.org/resource/Andie_MacDowell"
+        "label" : "A. K. Narain",
+        "uri" : "http://dbpedia.org/resource/A._K._Narain"
       }, {
-        "label" : "Andreas Vesalius",
-        "uri" : "http://dbpedia.org/resource/Andreas_Vesalius"
+        "label" : "A. K. Patel",
+        "uri" : "http://dbpedia.org/resource/A._K._Patel"
       }, {
-        "label" : "Andrew Bobola",
-        "uri" : "http://dbpedia.org/resource/Andrew_Bobola"
+        "label" : "A. K. Veerasami",
+        "uri" : "http://dbpedia.org/resource/A._K._Veerasami"
       }, {
-        "label" : "Andrew Fastow",
-        "uri" : "http://dbpedia.org/resource/Andrew_Fastow"
+        "label" : "A. Karunakaran",
+        "uri" : "http://dbpedia.org/resource/A._Karunakaran"
       }, {
-        "label" : "Andrew Inglis Clark",
-        "uri" : "http://dbpedia.org/resource/Andrew_Inglis_Clark"
+        "label" : "A. L. Narayan",
+        "uri" : "http://dbpedia.org/resource/A._L._Narayan"
       }, {
-        "label" : "Andrew Lloyd Webber",
-        "uri" : "http://dbpedia.org/resource/Andrew_Lloyd_Webber"
+        "label" : "A. L. Raghavan",
+        "uri" : "http://dbpedia.org/resource/A._L._Raghavan"
       }, {
-        "label" : "Andrew Marvell",
-        "uri" : "http://dbpedia.org/resource/Andrew_Marvell"
+        "label" : "A. L. Ramesh",
+        "uri" : "http://dbpedia.org/resource/A._L._Ramesh"
       }, {
-        "label" : "Andrew Sarris",
-        "uri" : "http://dbpedia.org/resource/Andrew_Sarris"
+        "label" : "A. L. Vijay",
+        "uri" : "http://dbpedia.org/resource/A._L._Vijay"
       }, {
-        "label" : "Andrzej Wajda",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Wajda"
+        "label" : "A. M. M. Naushad",
+        "uri" : "http://dbpedia.org/resource/A._M._M._Naushad"
       }, {
-        "label" : "Andrzej Żuławski",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Żuławski"
+        "label" : "A. M. Mathai",
+        "uri" : "http://dbpedia.org/resource/A._M._Mathai"
       }, {
-        "label" : "André Breton",
-        "uri" : "http://dbpedia.org/resource/André_Breton"
+        "label" : "A. Mangalam",
+        "uri" : "http://dbpedia.org/resource/A._Mangalam"
       }, {
-        "label" : "André Malraux",
-        "uri" : "http://dbpedia.org/resource/André_Malraux"
+        "label" : "A. N. Gopal",
+        "uri" : "http://dbpedia.org/resource/A._N._Gopal"
       }, {
-        "label" : "Andy Razaf",
-        "uri" : "http://dbpedia.org/resource/Andy_Razaf"
+        "label" : "A. Oveta Fuller",
+        "uri" : "http://dbpedia.org/resource/A._Oveta_Fuller"
       }, {
-        "label" : "Angela Davis",
-        "uri" : "http://dbpedia.org/resource/Angela_Davis"
+        "label" : "A. P. Mda",
+        "uri" : "http://dbpedia.org/resource/A._P._Mda"
       }, {
-        "label" : "Anita O'Day",
-        "uri" : "http://dbpedia.org/resource/Anita_O'Day"
+        "label" : "A. P. Patro",
+        "uri" : "http://dbpedia.org/resource/A._P._Patro"
       }, {
-        "label" : "Anna of Russia",
-        "uri" : "http://dbpedia.org/resource/Anna_of_Russia"
+        "label" : "A. R. Krishnashastry",
+        "uri" : "http://dbpedia.org/resource/A._R._Krishnashastry"
       }, {
-        "label" : "Anne, Queen of Great Britain",
-        "uri" : "http://dbpedia.org/resource/Anne,_Queen_of_Great_Britain"
+        "label" : "A. R. Mallu",
+        "uri" : "http://dbpedia.org/resource/A._R._Mallu"
       }, {
-        "label" : "Anne Boleyn",
-        "uri" : "http://dbpedia.org/resource/Anne_Boleyn"
+        "label" : "A. R. Taylor",
+        "uri" : "http://dbpedia.org/resource/A._R._Taylor"
       }, {
-        "label" : "Anne Desclos",
-        "uri" : "http://dbpedia.org/resource/Anne_Desclos"
+        "label" : "A. Rajagopal",
+        "uri" : "http://dbpedia.org/resource/A._Rajagopal"
       }, {
-        "label" : "Anne Neville",
-        "uri" : "http://dbpedia.org/resource/Anne_Neville"
+        "label" : "A. Ranganadha Rao",
+        "uri" : "http://dbpedia.org/resource/A._Ranganadha_Rao"
       }, {
-        "label" : "Anne of Cleves",
-        "uri" : "http://dbpedia.org/resource/Anne_of_Cleves"
+        "label" : "A. Rangaswami Iyengar",
+        "uri" : "http://dbpedia.org/resource/A._Rangaswami_Iyengar"
       }, {
-        "label" : "Anne of Denmark",
-        "uri" : "http://dbpedia.org/resource/Anne_of_Denmark"
+        "label" : "A. Roberto Frisancho",
+        "uri" : "http://dbpedia.org/resource/A._Roberto_Frisancho"
       }, {
-        "label" : "Anselme Payen",
-        "uri" : "http://dbpedia.org/resource/Anselme_Payen"
+        "label" : "A. S. Arya",
+        "uri" : "http://dbpedia.org/resource/A._S._Arya"
       }, {
-        "label" : "Antanas Valionis",
-        "uri" : "http://dbpedia.org/resource/Antanas_Valionis"
+        "label" : "A. S. Baylinson",
+        "uri" : "http://dbpedia.org/resource/A._S._Baylinson"
       }, {
-        "label" : "Anthony Burgess",
-        "uri" : "http://dbpedia.org/resource/Anthony_Burgess"
+        "label" : "A. S. Patrić",
+        "uri" : "http://dbpedia.org/resource/A._S._Patrić"
       }, {
-        "label" : "Anthony Fokker",
-        "uri" : "http://dbpedia.org/resource/Anthony_Fokker"
+        "label" : "A. S. Rao",
+        "uri" : "http://dbpedia.org/resource/A._S._Rao"
       }, {
-        "label" : "Anthony Quinn",
-        "uri" : "http://dbpedia.org/resource/Anthony_Quinn"
+        "label" : "A. S. W. Rosenbach",
+        "uri" : "http://dbpedia.org/resource/A._S._W._Rosenbach"
       }, {
-        "label" : "Anthony Zinni",
-        "uri" : "http://dbpedia.org/resource/Anthony_Zinni"
+        "label" : "A. Sakunthala",
+        "uri" : "http://dbpedia.org/resource/A._Sakunthala"
       } ]
     },
     "combination" : false
   }, {
     "id" : "3",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "FILM",
-    "returnType" : "PERSON",
-    "frameType" : "VP",
-    "sentences" : [ "What directed ($x | FILM_NP)?", "What directs ($x | FILM_NP)?", "Which person directed ($x | FILM_NP)?", "Which person directs ($x | FILM_NP)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/director> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "12 Monkeys",
-        "uri" : "http://dbpedia.org/resource/12_Monkeys"
-      }, {
-        "label" : "American Beauty (1999 film)",
-        "uri" : "http://dbpedia.org/resource/American_Beauty_(1999_film)"
-      }, {
-        "label" : "Amélie",
-        "uri" : "http://dbpedia.org/resource/Amélie"
-      }, {
-        "label" : "Animal Crackers (1930 film)",
-        "uri" : "http://dbpedia.org/resource/Animal_Crackers_(1930_film)"
-      }, {
-        "label" : "Anne of the Thousand Days",
-        "uri" : "http://dbpedia.org/resource/Anne_of_the_Thousand_Days"
-      }, {
-        "label" : "Anywhere but Here (film)",
-        "uri" : "http://dbpedia.org/resource/Anywhere_but_Here_(film)"
-      }, {
-        "label" : "Armageddon (1998 film)",
-        "uri" : "http://dbpedia.org/resource/Armageddon_(1998_film)"
-      }, {
-        "label" : "Beautiful Girls (film)",
-        "uri" : "http://dbpedia.org/resource/Beautiful_Girls_(film)"
-      }, {
-        "label" : "Black Narcissus",
-        "uri" : "http://dbpedia.org/resource/Black_Narcissus"
-      }, {
-        "label" : "Breakfast at Tiffany's (film)",
-        "uri" : "http://dbpedia.org/resource/Breakfast_at_Tiffany's_(film)"
-      }, {
-        "label" : "Carry On (franchise)",
-        "uri" : "http://dbpedia.org/resource/Carry_On_(franchise)"
-      }, {
-        "label" : "Casablanca (film)",
-        "uri" : "http://dbpedia.org/resource/Casablanca_(film)"
-      }, {
-        "label" : "Cast Away",
-        "uri" : "http://dbpedia.org/resource/Cast_Away"
-      }, {
-        "label" : "Chang: A Drama of the Wilderness",
-        "uri" : "http://dbpedia.org/resource/Chang:_A_Drama_of_the_Wilderness"
-      }, {
-        "label" : "Coming to America",
-        "uri" : "http://dbpedia.org/resource/Coming_to_America"
-      }, {
-        "label" : "Crossfire (film)",
-        "uri" : "http://dbpedia.org/resource/Crossfire_(film)"
-      }, {
-        "label" : "Dinnerladies",
-        "uri" : "http://dbpedia.org/resource/Dinnerladies"
-      }, {
-        "label" : "Donnie Darko",
-        "uri" : "http://dbpedia.org/resource/Donnie_Darko"
-      }, {
-        "label" : "Dreams (TV series)",
-        "uri" : "http://dbpedia.org/resource/Dreams_(TV_series)"
-      }, {
-        "label" : "Earth: Final Conflict",
-        "uri" : "http://dbpedia.org/resource/Earth:_Final_Conflict"
-      }, {
-        "label" : "Everyone Says I Love You",
-        "uri" : "http://dbpedia.org/resource/Everyone_Says_I_Love_You"
-      }, {
-        "label" : "Eyeball (film)",
-        "uri" : "http://dbpedia.org/resource/Eyeball_(film)"
-      }, {
-        "label" : "Final Fantasy Adventure",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_Adventure"
-      }, {
-        "label" : "Final Fantasy II",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_II"
-      }, {
-        "label" : "Final Fantasy IV",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_IV"
-      }, {
-        "label" : "Final Fantasy IX",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_IX"
-      }, {
-        "label" : "Final Fantasy Tactics",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_Tactics"
-      }, {
-        "label" : "Final Fantasy V",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_V"
-      }, {
-        "label" : "Final Fantasy VI",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_VI"
-      }, {
-        "label" : "Final Fantasy VII",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_VII"
-      }, {
-        "label" : "Final Fantasy VIII",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_VIII"
-      }, {
-        "label" : "Final Fantasy X",
-        "uri" : "http://dbpedia.org/resource/Final_Fantasy_X"
-      }, {
-        "label" : "Forbidden Planet",
-        "uri" : "http://dbpedia.org/resource/Forbidden_Planet"
-      }, {
-        "label" : "Forrest Gump",
-        "uri" : "http://dbpedia.org/resource/Forrest_Gump"
-      }, {
-        "label" : "French Kiss (1995 film)",
-        "uri" : "http://dbpedia.org/resource/French_Kiss_(1995_film)"
-      }, {
-        "label" : "From Here to Eternity",
-        "uri" : "http://dbpedia.org/resource/From_Here_to_Eternity"
-      }, {
-        "label" : "Gattaca",
-        "uri" : "http://dbpedia.org/resource/Gattaca"
-      }, {
-        "label" : "Gentleman's Agreement",
-        "uri" : "http://dbpedia.org/resource/Gentleman's_Agreement"
-      }, {
-        "label" : "Going My Way",
-        "uri" : "http://dbpedia.org/resource/Going_My_Way"
-      }, {
-        "label" : "Grand Hotel (1932 film)",
-        "uri" : "http://dbpedia.org/resource/Grand_Hotel_(1932_film)"
-      }, {
-        "label" : "Green Card (film)",
-        "uri" : "http://dbpedia.org/resource/Green_Card_(film)"
-      }, {
-        "label" : "Heat (1995 film)",
-        "uri" : "http://dbpedia.org/resource/Heat_(1995_film)"
-      }, {
-        "label" : "In Old Arizona",
-        "uri" : "http://dbpedia.org/resource/In_Old_Arizona"
-      }, {
-        "label" : "In the Bedroom",
-        "uri" : "http://dbpedia.org/resource/In_the_Bedroom"
-      }, {
-        "label" : "Independence Day (1996 film)",
-        "uri" : "http://dbpedia.org/resource/Independence_Day_(1996_film)"
-      }, {
-        "label" : "Indiana Jones and the Last Crusade",
-        "uri" : "http://dbpedia.org/resource/Indiana_Jones_and_the_Last_Crusade"
-      }, {
-        "label" : "It Happened One Night",
-        "uri" : "http://dbpedia.org/resource/It_Happened_One_Night"
-      }, {
-        "label" : "K-19: The Widowmaker",
-        "uri" : "http://dbpedia.org/resource/K-19:_The_Widowmaker"
-      }, {
-        "label" : "Lara Croft: Tomb Raider",
-        "uri" : "http://dbpedia.org/resource/Lara_Croft:_Tomb_Raider"
-      }, {
-        "label" : "Leaving Las Vegas",
-        "uri" : "http://dbpedia.org/resource/Leaving_Las_Vegas"
-      }, {
-        "label" : "Looney Tunes",
-        "uri" : "http://dbpedia.org/resource/Looney_Tunes"
-      }, {
-        "label" : "Léon: The Professional",
-        "uri" : "http://dbpedia.org/resource/Léon:_The_Professional"
-      }, {
-        "label" : "Mars Needs Women",
-        "uri" : "http://dbpedia.org/resource/Mars_Needs_Women"
-      }, {
-        "label" : "Marty (teleplay)",
-        "uri" : "http://dbpedia.org/resource/Marty_(teleplay)"
-      }, {
-        "label" : "Metropolis (1927 film)",
-        "uri" : "http://dbpedia.org/resource/Metropolis_(1927_film)"
-      }, {
-        "label" : "Midnight Cowboy",
-        "uri" : "http://dbpedia.org/resource/Midnight_Cowboy"
-      }, {
-        "label" : "Miller's Crossing",
-        "uri" : "http://dbpedia.org/resource/Miller's_Crossing"
-      }, {
-        "label" : "Mulan (1998 film)",
-        "uri" : "http://dbpedia.org/resource/Mulan_(1998_film)"
-      }, {
-        "label" : "Night of the Living Dead",
-        "uri" : "http://dbpedia.org/resource/Night_of_the_Living_Dead"
-      }, {
-        "label" : "Noir (anime)",
-        "uri" : "http://dbpedia.org/resource/Noir_(anime)"
-      }, {
-        "label" : "On the Waterfront",
-        "uri" : "http://dbpedia.org/resource/On_the_Waterfront"
-      }, {
-        "label" : "Powaqqatsi",
-        "uri" : "http://dbpedia.org/resource/Powaqqatsi"
-      }, {
-        "label" : "Pulp Fiction",
-        "uri" : "http://dbpedia.org/resource/Pulp_Fiction"
-      }, {
-        "label" : "Radiant Silvergun",
-        "uri" : "http://dbpedia.org/resource/Radiant_Silvergun"
-      }, {
-        "label" : "Raiders of the Lost Ark",
-        "uri" : "http://dbpedia.org/resource/Raiders_of_the_Lost_Ark"
-      }, {
-        "label" : "Reds (film)",
-        "uri" : "http://dbpedia.org/resource/Reds_(film)"
-      }, {
-        "label" : "Return of the Jedi",
-        "uri" : "http://dbpedia.org/resource/Return_of_the_Jedi"
-      }, {
-        "label" : "Rocky",
-        "uri" : "http://dbpedia.org/resource/Rocky"
-      }, {
-        "label" : "Salò, or the 120 Days of Sodom",
-        "uri" : "http://dbpedia.org/resource/Salò,_or_the_120_Days_of_Sodom"
-      }, {
-        "label" : "San Francisco (1936 film)",
-        "uri" : "http://dbpedia.org/resource/San_Francisco_(1936_film)"
-      }, {
-        "label" : "Saturday Night Fever",
-        "uri" : "http://dbpedia.org/resource/Saturday_Night_Fever"
-      }, {
-        "label" : "Scared to Death",
-        "uri" : "http://dbpedia.org/resource/Scared_to_Death"
-      }, {
-        "label" : "Seven Samurai",
-        "uri" : "http://dbpedia.org/resource/Seven_Samurai"
-      }, {
-        "label" : "Soylent Green",
-        "uri" : "http://dbpedia.org/resource/Soylent_Green"
-      }, {
-        "label" : "Space Battleship Yamato",
-        "uri" : "http://dbpedia.org/resource/Space_Battleship_Yamato"
-      }, {
-        "label" : "Star Wars: Episode II – Attack of the Clones",
-        "uri" : "http://dbpedia.org/resource/Star_Wars:_Episode_II_–_Attack_of_the_Clones"
-      }, {
-        "label" : "Star Wars: Episode I – The Phantom Menace",
-        "uri" : "http://dbpedia.org/resource/Star_Wars:_Episode_I_–_The_Phantom_Menace"
-      }, {
-        "label" : "Star Wars (film)",
-        "uri" : "http://dbpedia.org/resource/Star_Wars_(film)"
-      }, {
-        "label" : "System Shock",
-        "uri" : "http://dbpedia.org/resource/System_Shock"
-      }, {
-        "label" : "THX 1138",
-        "uri" : "http://dbpedia.org/resource/THX_1138"
-      }, {
-        "label" : "Taxi Driver",
-        "uri" : "http://dbpedia.org/resource/Taxi_Driver"
-      }, {
-        "label" : "The Apartment",
-        "uri" : "http://dbpedia.org/resource/The_Apartment"
-      }, {
-        "label" : "The Best Years of Our Lives",
-        "uri" : "http://dbpedia.org/resource/The_Best_Years_of_Our_Lives"
-      }, {
-        "label" : "The Big Country",
-        "uri" : "http://dbpedia.org/resource/The_Big_Country"
-      }, {
-        "label" : "The Big Fisherman",
-        "uri" : "http://dbpedia.org/resource/The_Big_Fisherman"
-      }, {
-        "label" : "The Big Lebowski",
-        "uri" : "http://dbpedia.org/resource/The_Big_Lebowski"
-      }, {
-        "label" : "The Brady Bunch",
-        "uri" : "http://dbpedia.org/resource/The_Brady_Bunch"
-      }, {
-        "label" : "The Breakfast Club",
-        "uri" : "http://dbpedia.org/resource/The_Breakfast_Club"
-      }, {
-        "label" : "The Crying Game",
-        "uri" : "http://dbpedia.org/resource/The_Crying_Game"
-      }, {
-        "label" : "The Day After",
-        "uri" : "http://dbpedia.org/resource/The_Day_After"
-      }, {
-        "label" : "The Empire Strikes Back",
-        "uri" : "http://dbpedia.org/resource/The_Empire_Strikes_Back"
-      }, {
-        "label" : "The Graduate",
-        "uri" : "http://dbpedia.org/resource/The_Graduate"
-      }, {
-        "label" : "The Great Ziegfeld",
-        "uri" : "http://dbpedia.org/resource/The_Great_Ziegfeld"
-      }, {
-        "label" : "The Greatest Show on Earth (film)",
-        "uri" : "http://dbpedia.org/resource/The_Greatest_Show_on_Earth_(film)"
-      }, {
-        "label" : "The Hollywood Revue of 1929",
-        "uri" : "http://dbpedia.org/resource/The_Hollywood_Revue_of_1929"
-      }, {
-        "label" : "The Incredible Shrinking Man",
-        "uri" : "http://dbpedia.org/resource/The_Incredible_Shrinking_Man"
-      }, {
-        "label" : "The Last Laugh",
-        "uri" : "http://dbpedia.org/resource/The_Last_Laugh"
-      }, {
-        "label" : "The Life of Emile Zola",
-        "uri" : "http://dbpedia.org/resource/The_Life_of_Emile_Zola"
-      }, {
-        "label" : "The Little Girl Who Lives Down the Lane",
-        "uri" : "http://dbpedia.org/resource/The_Little_Girl_Who_Lives_Down_the_Lane"
-      }, {
-        "label" : "The Lost Weekend (film)",
-        "uri" : "http://dbpedia.org/resource/The_Lost_Weekend_(film)"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "4",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian clerics?", "Which is a Belgian cleric?", "Which was a Belgian cleric?", "Which were Belgian clerics?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "5",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian cleric", "Belgian clerics" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "6",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian office holders?", "Which is a Belgian office holder?", "Which was a Belgian office holder?", "Which were Belgian office holders?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "7",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian office holder", "Belgian office holders" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "8",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian agents?", "Which is a Belgian agent?", "Which was a Belgian agent?", "Which were Belgian agents?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "9",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian agent", "Belgian agents" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "10",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian economists?", "Which is a Belgian economist?", "Which was a Belgian economist?", "Which were Belgian economists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "11",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian economist", "Belgian economists" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "12",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian motorcycle riders?", "Which is a Belgian motorcycle rider?", "Which was a Belgian motorcycle rider?", "Which were Belgian motorcycle riders?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "13",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian motorcycle rider", "Belgian motorcycle riders" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "14",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian artists?", "Which is a Belgian artist?", "Which was a Belgian artist?", "Which were Belgian artists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "15",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian artist", "Belgian artists" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "16",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian athletes?", "Which is a Belgian athlete?", "Which was a Belgian athlete?", "Which were Belgian athletes?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "17",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian athlete", "Belgian athletes" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "18",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian scientists?", "Which is a Belgian scientist?", "Which was a Belgian scientist?", "Which were Belgian scientists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "19",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian scientist", "Belgian scientists" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "20",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian architects?", "Which is a Belgian architect?", "Which was a Belgian architect?", "Which were Belgian architects?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "21",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian architect", "Belgian architects" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "22",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian golf players?", "Which is a Belgian golf player?", "Which was a Belgian golf player?", "Which were Belgian golf players?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "23",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian golf player", "Belgian golf players" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "24",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian racing drivers?", "Which is a Belgian racing driver?", "Which was a Belgian racing driver?", "Which were Belgian racing drivers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "25",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian racing driver", "Belgian racing drivers" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "26",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian politicians?", "Which is a Belgian politician?", "Which was a Belgian politician?", "Which were Belgian politicians?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "27",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian politician", "Belgian politicians" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "28",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian swimmers?", "Which is a Belgian swimmer?", "Which was a Belgian swimmer?", "Which were Belgian swimmers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "29",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian swimmer", "Belgian swimmers" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "30",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian volleyball players?", "Which is a Belgian volleyball player?", "Which was a Belgian volleyball player?", "Which were Belgian volleyball players?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "31",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian volleyball player", "Belgian volleyball players" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "32",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian persons?", "Which is a Belgian person?", "Which was a Belgian person?", "Which were Belgian persons?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "33",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian person", "Belgian persons" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "34",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian Christian Bishops?", "Which is a Belgian Christian Bishop?", "Which was a Belgian Christian Bishop?", "Which were Belgian Christian Bishops?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChristianBishop>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "35",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian Christian Bishop", "Belgian Christian Bishops" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChristianBishop>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "36",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian comics creators?", "Which is a Belgian comics creator?", "Which was a Belgian comics creator?", "Which were Belgian comics creators?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "37",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian comics creator", "Belgian comics creators" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "38",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian writers?", "Which is a Belgian writer?", "Which was a Belgian writer?", "Which were Belgian writers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "39",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian writer", "Belgian writers" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "40",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian motorsport racers?", "Which is a Belgian motorsport racer?", "Which was a Belgian motorsport racer?", "Which were Belgian motorsport racers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "41",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian motorsport racer", "Belgian motorsport racers" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "42",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian humans?", "Which is a Belgian human?", "Which was a Belgian human?", "Which were Belgian humans?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "43",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian human", "Belgian humans" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "44",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian golfers?", "Which is a Belgian golfer?", "Which was a Belgian golfer?", "Which were Belgian golfers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "45",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian golfer", "Belgian golfers" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "46",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "Which are Belgian musical artists?", "Which is a Belgian musical artist?", "Which was a Belgian musical artist?", "Which were Belgian musical artists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MusicalArtist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "47",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "AA",
-    "sentences" : [ "a Belgian musical artist", "Belgian musical artists" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MusicalArtist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "isA",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "48",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "FILM",
-    "frameType" : "APP",
-    "sentences" : [ "What is directed by ($x | PERSON_NP)?", "What was directed by ($x | PERSON_NP)?", "Which movie is directed by ($x | PERSON_NP)?", "Which movie was directed by ($x | PERSON_NP)?", "Which movies are directed by ($x | PERSON_NP)?", "Which movies were directed by ($x | PERSON_NP)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/director> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "objOfProp"
-    },
-    "returnVariable" : "subjOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "Andrzej Wajda",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Wajda"
-      }, {
-        "label" : "Billy Wilder",
-        "uri" : "http://dbpedia.org/resource/Billy_Wilder"
-      }, {
-        "label" : "Blake Edwards",
-        "uri" : "http://dbpedia.org/resource/Blake_Edwards"
-      }, {
-        "label" : "Elia Kazan",
-        "uri" : "http://dbpedia.org/resource/Elia_Kazan"
-      }, {
-        "label" : "Godfrey Reggio",
-        "uri" : "http://dbpedia.org/resource/Godfrey_Reggio"
-      }, {
-        "label" : "John Carpenter",
-        "uri" : "http://dbpedia.org/resource/John_Carpenter"
-      }, {
-        "label" : "Luc Besson",
-        "uri" : "http://dbpedia.org/resource/Luc_Besson"
-      }, {
-        "label" : "Luchino Visconti",
-        "uri" : "http://dbpedia.org/resource/Luchino_Visconti"
-      }, {
-        "label" : "Peter Weir",
-        "uri" : "http://dbpedia.org/resource/Peter_Weir"
-      }, {
-        "label" : "Robert Altman",
-        "uri" : "http://dbpedia.org/resource/Robert_Altman"
-      }, {
-        "label" : "Ted Demme",
-        "uri" : "http://dbpedia.org/resource/Ted_Demme"
-      }, {
-        "label" : "Terry Gilliam",
-        "uri" : "http://dbpedia.org/resource/Terry_Gilliam"
-      }, {
-        "label" : "Tod Browning",
-        "uri" : "http://dbpedia.org/resource/Tod_Browning"
-      }, {
-        "label" : "Tony Richardson",
-        "uri" : "http://dbpedia.org/resource/Tony_Richardson"
-      }, {
-        "label" : "Vittorio De Sica",
-        "uri" : "http://dbpedia.org/resource/Vittorio_De_Sica"
-      }, {
-        "label" : "Wim Wenders",
-        "uri" : "http://dbpedia.org/resource/Wim_Wenders"
-      }, {
-        "label" : "Woody Allen",
-        "uri" : "http://dbpedia.org/resource/Woody_Allen"
-      }, {
-        "label" : "Marcello Albani",
-        "uri" : "http://dbpedia.org/resource/Marcello_Albani"
-      }, {
-        "label" : "Bimal Roy",
-        "uri" : "http://dbpedia.org/resource/Bimal_Roy"
-      }, {
-        "label" : "Charles McDougall",
-        "uri" : "http://dbpedia.org/resource/Charles_McDougall"
-      }, {
-        "label" : "Griffin Dunne",
-        "uri" : "http://dbpedia.org/resource/Griffin_Dunne"
-      }, {
-        "label" : "Henry Edwards (actor)",
-        "uri" : "http://dbpedia.org/resource/Henry_Edwards_(actor)"
-      }, {
-        "label" : "Hideo Nakata",
-        "uri" : "http://dbpedia.org/resource/Hideo_Nakata"
-      }, {
-        "label" : "James Kirkwood, Sr.",
-        "uri" : "http://dbpedia.org/resource/James_Kirkwood,_Sr."
-      }, {
-        "label" : "John Landis",
-        "uri" : "http://dbpedia.org/resource/John_Landis"
-      }, {
-        "label" : "Jun Fukuda",
-        "uri" : "http://dbpedia.org/resource/Jun_Fukuda"
-      }, {
-        "label" : "Kimio Yabuki",
-        "uri" : "http://dbpedia.org/resource/Kimio_Yabuki"
-      }, {
-        "label" : "Koichi Ishii",
-        "uri" : "http://dbpedia.org/resource/Koichi_Ishii"
-      }, {
-        "label" : "Krzysztof Zanussi",
-        "uri" : "http://dbpedia.org/resource/Krzysztof_Zanussi"
-      }, {
-        "label" : "Maher Sabry",
-        "uri" : "http://dbpedia.org/resource/Maher_Sabry"
-      }, {
-        "label" : "Nanni Moretti",
-        "uri" : "http://dbpedia.org/resource/Nanni_Moretti"
-      }, {
-        "label" : "Paul Lynch (director)",
-        "uri" : "http://dbpedia.org/resource/Paul_Lynch_(director)"
-      }, {
-        "label" : "Tony Giglio",
-        "uri" : "http://dbpedia.org/resource/Tony_Giglio"
-      }, {
-        "label" : "Walt Becker",
-        "uri" : "http://dbpedia.org/resource/Walt_Becker"
-      }, {
-        "label" : "Walter Grauman",
-        "uri" : "http://dbpedia.org/resource/Walter_Grauman"
-      }, {
-        "label" : "Oliver Stone",
-        "uri" : "http://dbpedia.org/resource/Oliver_Stone"
-      }, {
-        "label" : "Peter J McCarthy",
-        "uri" : "http://dbpedia.org/resource/Peter_J_McCarthy"
-      }, {
-        "label" : "John Behring",
-        "uri" : "http://dbpedia.org/resource/John_Behring"
-      }, {
-        "label" : "Bruno Corbucci",
-        "uri" : "http://dbpedia.org/resource/Bruno_Corbucci"
-      }, {
-        "label" : "Dan Riba",
-        "uri" : "http://dbpedia.org/resource/Dan_Riba"
-      }, {
-        "label" : "David Zucker (filmmaker)",
-        "uri" : "http://dbpedia.org/resource/David_Zucker_(filmmaker)"
-      }, {
-        "label" : "George Sherman",
-        "uri" : "http://dbpedia.org/resource/George_Sherman"
-      }, {
-        "label" : "James Hayman",
-        "uri" : "http://dbpedia.org/resource/James_Hayman"
-      }, {
-        "label" : "Jan Hřebejk",
-        "uri" : "http://dbpedia.org/resource/Jan_Hřebejk"
-      }, {
-        "label" : "Karl Brown (cinematographer)",
-        "uri" : "http://dbpedia.org/resource/Karl_Brown_(cinematographer)"
-      }, {
-        "label" : "Mike Figgis",
-        "uri" : "http://dbpedia.org/resource/Mike_Figgis"
-      }, {
-        "label" : "Zhao Liang (director)",
-        "uri" : "http://dbpedia.org/resource/Zhao_Liang_(director)"
-      }, {
-        "label" : "Stanley Donen",
-        "uri" : "http://dbpedia.org/resource/Stanley_Donen"
-      }, {
-        "label" : "George Archainbaud",
-        "uri" : "http://dbpedia.org/resource/George_Archainbaud"
-      }, {
-        "label" : "J. Searle Dawley",
-        "uri" : "http://dbpedia.org/resource/J._Searle_Dawley"
-      }, {
-        "label" : "Michael Grossman",
-        "uri" : "http://dbpedia.org/resource/Michael_Grossman"
-      }, {
-        "label" : "Peter Graham Scott",
-        "uri" : "http://dbpedia.org/resource/Peter_Graham_Scott"
-      }, {
-        "label" : "Richard Pearce (film director)",
-        "uri" : "http://dbpedia.org/resource/Richard_Pearce_(film_director)"
-      }, {
-        "label" : "Andy Cadiff",
-        "uri" : "http://dbpedia.org/resource/Andy_Cadiff"
-      }, {
-        "label" : "Brenton Spencer",
-        "uri" : "http://dbpedia.org/resource/Brenton_Spencer"
-      }, {
-        "label" : "Paul Alter",
-        "uri" : "http://dbpedia.org/resource/Paul_Alter"
-      }, {
-        "label" : "Jason Winer",
-        "uri" : "http://dbpedia.org/resource/Jason_Winer"
-      }, {
-        "label" : "Kamalakara Kameswara Rao",
-        "uri" : "http://dbpedia.org/resource/Kamalakara_Kameswara_Rao"
-      }, {
-        "label" : "Betty Kaplan",
-        "uri" : "http://dbpedia.org/resource/Betty_Kaplan"
-      }, {
-        "label" : "Lewis Teague",
-        "uri" : "http://dbpedia.org/resource/Lewis_Teague"
-      }, {
-        "label" : "Donna Deitch",
-        "uri" : "http://dbpedia.org/resource/Donna_Deitch"
-      }, {
-        "label" : "Edwin Carewe",
-        "uri" : "http://dbpedia.org/resource/Edwin_Carewe"
-      }, {
-        "label" : "Leslie H. Martinson",
-        "uri" : "http://dbpedia.org/resource/Leslie_H._Martinson"
-      }, {
-        "label" : "Carol Reed",
-        "uri" : "http://dbpedia.org/resource/Carol_Reed"
-      }, {
-        "label" : "Sidney Olcott",
-        "uri" : "http://dbpedia.org/resource/Sidney_Olcott"
-      }, {
-        "label" : "Dan Curtis",
-        "uri" : "http://dbpedia.org/resource/Dan_Curtis"
-      }, {
-        "label" : "Wayne Wang",
-        "uri" : "http://dbpedia.org/resource/Wayne_Wang"
-      }, {
-        "label" : "Gustaf Gründgens",
-        "uri" : "http://dbpedia.org/resource/Gustaf_Gründgens"
-      }, {
-        "label" : "Paul McCrane",
-        "uri" : "http://dbpedia.org/resource/Paul_McCrane"
-      }, {
-        "label" : "Mehboob Khan",
-        "uri" : "http://dbpedia.org/resource/Mehboob_Khan"
-      }, {
-        "label" : "Muriel Box",
-        "uri" : "http://dbpedia.org/resource/Muriel_Box"
-      }, {
-        "label" : "Lloyd Bacon",
-        "uri" : "http://dbpedia.org/resource/Lloyd_Bacon"
-      }, {
-        "label" : "John Francis Dillon (director)",
-        "uri" : "http://dbpedia.org/resource/John_Francis_Dillon_(director)"
-      }, {
-        "label" : "Rupert Sanders",
-        "uri" : "http://dbpedia.org/resource/Rupert_Sanders"
-      }, {
-        "label" : "Mac Alejandre",
-        "uri" : "http://dbpedia.org/resource/Mac_Alejandre"
-      }, {
-        "label" : "Steve Carr",
-        "uri" : "http://dbpedia.org/resource/Steve_Carr"
-      }, {
-        "label" : "Alexander Gruszynski",
-        "uri" : "http://dbpedia.org/resource/Alexander_Gruszynski"
-      }, {
-        "label" : "Georgi Djulgerov",
-        "uri" : "http://dbpedia.org/resource/Georgi_Djulgerov"
-      }, {
-        "label" : "Francesco Laudadio",
-        "uri" : "http://dbpedia.org/resource/Francesco_Laudadio"
-      }, {
-        "label" : "Jeff Nichols",
-        "uri" : "http://dbpedia.org/resource/Jeff_Nichols"
-      }, {
-        "label" : "Antonio Nuić",
-        "uri" : "http://dbpedia.org/resource/Antonio_Nuić"
-      }, {
-        "label" : "Lev Atamanov",
-        "uri" : "http://dbpedia.org/resource/Lev_Atamanov"
-      }, {
-        "label" : "Reginald Fogwell",
-        "uri" : "http://dbpedia.org/resource/Reginald_Fogwell"
-      }, {
-        "label" : "Robert Allan Ackerman",
-        "uri" : "http://dbpedia.org/resource/Robert_Allan_Ackerman"
-      }, {
-        "label" : "Terry Bishop",
-        "uri" : "http://dbpedia.org/resource/Terry_Bishop"
-      }, {
-        "label" : "Jeffrey Reiner",
-        "uri" : "http://dbpedia.org/resource/Jeffrey_Reiner"
-      }, {
-        "label" : "Jing Wang",
-        "uri" : "http://dbpedia.org/resource/Jing_Wang"
-      }, {
-        "label" : "Alastair Reid (director)",
-        "uri" : "http://dbpedia.org/resource/Alastair_Reid_(director)"
-      }, {
-        "label" : "Tom Terriss",
-        "uri" : "http://dbpedia.org/resource/Tom_Terriss"
-      }, {
-        "label" : "Ralph Murphy",
-        "uri" : "http://dbpedia.org/resource/Ralph_Murphy"
-      }, {
-        "label" : "Anthony Michael Hall",
-        "uri" : "http://dbpedia.org/resource/Anthony_Michael_Hall"
-      }, {
-        "label" : "Barbet Schroeder",
-        "uri" : "http://dbpedia.org/resource/Barbet_Schroeder"
-      }, {
-        "label" : "Frank Thomas (animator)",
-        "uri" : "http://dbpedia.org/resource/Frank_Thomas_(animator)"
-      }, {
-        "label" : "Henry King (director)",
-        "uri" : "http://dbpedia.org/resource/Henry_King_(director)"
-      }, {
-        "label" : "Matt Piedmont",
-        "uri" : "http://dbpedia.org/resource/Matt_Piedmont"
-      }, {
-        "label" : "Merian C. Cooper",
-        "uri" : "http://dbpedia.org/resource/Merian_C._Cooper"
-      }, {
-        "label" : "Michael Moore",
-        "uri" : "http://dbpedia.org/resource/Michael_Moore"
-      }, {
-        "label" : "Michael Powell",
-        "uri" : "http://dbpedia.org/resource/Michael_Powell"
-      }, {
-        "label" : "Richard Kelly (director)",
-        "uri" : "http://dbpedia.org/resource/Richard_Kelly_(director)"
-      }, {
-        "label" : "Richard Lester",
-        "uri" : "http://dbpedia.org/resource/Richard_Lester"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "49",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "PERSON",
-    "returnType" : "FILM",
-    "frameType" : "APP",
-    "sentences" : [ "movies directed by $x" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/director> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "objOfProp"
-    },
-    "returnVariable" : "subjOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "Andrzej Wajda",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Wajda"
-      }, {
-        "label" : "Billy Wilder",
-        "uri" : "http://dbpedia.org/resource/Billy_Wilder"
-      }, {
-        "label" : "Blake Edwards",
-        "uri" : "http://dbpedia.org/resource/Blake_Edwards"
-      }, {
-        "label" : "Elia Kazan",
-        "uri" : "http://dbpedia.org/resource/Elia_Kazan"
-      }, {
-        "label" : "Godfrey Reggio",
-        "uri" : "http://dbpedia.org/resource/Godfrey_Reggio"
-      }, {
-        "label" : "John Carpenter",
-        "uri" : "http://dbpedia.org/resource/John_Carpenter"
-      }, {
-        "label" : "Luc Besson",
-        "uri" : "http://dbpedia.org/resource/Luc_Besson"
-      }, {
-        "label" : "Luchino Visconti",
-        "uri" : "http://dbpedia.org/resource/Luchino_Visconti"
-      }, {
-        "label" : "Peter Weir",
-        "uri" : "http://dbpedia.org/resource/Peter_Weir"
-      }, {
-        "label" : "Robert Altman",
-        "uri" : "http://dbpedia.org/resource/Robert_Altman"
-      }, {
-        "label" : "Ted Demme",
-        "uri" : "http://dbpedia.org/resource/Ted_Demme"
-      }, {
-        "label" : "Terry Gilliam",
-        "uri" : "http://dbpedia.org/resource/Terry_Gilliam"
-      }, {
-        "label" : "Tod Browning",
-        "uri" : "http://dbpedia.org/resource/Tod_Browning"
-      }, {
-        "label" : "Tony Richardson",
-        "uri" : "http://dbpedia.org/resource/Tony_Richardson"
-      }, {
-        "label" : "Vittorio De Sica",
-        "uri" : "http://dbpedia.org/resource/Vittorio_De_Sica"
-      }, {
-        "label" : "Wim Wenders",
-        "uri" : "http://dbpedia.org/resource/Wim_Wenders"
-      }, {
-        "label" : "Woody Allen",
-        "uri" : "http://dbpedia.org/resource/Woody_Allen"
-      }, {
-        "label" : "Marcello Albani",
-        "uri" : "http://dbpedia.org/resource/Marcello_Albani"
-      }, {
-        "label" : "Bimal Roy",
-        "uri" : "http://dbpedia.org/resource/Bimal_Roy"
-      }, {
-        "label" : "Charles McDougall",
-        "uri" : "http://dbpedia.org/resource/Charles_McDougall"
-      }, {
-        "label" : "Griffin Dunne",
-        "uri" : "http://dbpedia.org/resource/Griffin_Dunne"
-      }, {
-        "label" : "Henry Edwards (actor)",
-        "uri" : "http://dbpedia.org/resource/Henry_Edwards_(actor)"
-      }, {
-        "label" : "Hideo Nakata",
-        "uri" : "http://dbpedia.org/resource/Hideo_Nakata"
-      }, {
-        "label" : "James Kirkwood, Sr.",
-        "uri" : "http://dbpedia.org/resource/James_Kirkwood,_Sr."
-      }, {
-        "label" : "John Landis",
-        "uri" : "http://dbpedia.org/resource/John_Landis"
-      }, {
-        "label" : "Jun Fukuda",
-        "uri" : "http://dbpedia.org/resource/Jun_Fukuda"
-      }, {
-        "label" : "Kimio Yabuki",
-        "uri" : "http://dbpedia.org/resource/Kimio_Yabuki"
-      }, {
-        "label" : "Koichi Ishii",
-        "uri" : "http://dbpedia.org/resource/Koichi_Ishii"
-      }, {
-        "label" : "Krzysztof Zanussi",
-        "uri" : "http://dbpedia.org/resource/Krzysztof_Zanussi"
-      }, {
-        "label" : "Maher Sabry",
-        "uri" : "http://dbpedia.org/resource/Maher_Sabry"
-      }, {
-        "label" : "Nanni Moretti",
-        "uri" : "http://dbpedia.org/resource/Nanni_Moretti"
-      }, {
-        "label" : "Paul Lynch (director)",
-        "uri" : "http://dbpedia.org/resource/Paul_Lynch_(director)"
-      }, {
-        "label" : "Tony Giglio",
-        "uri" : "http://dbpedia.org/resource/Tony_Giglio"
-      }, {
-        "label" : "Walt Becker",
-        "uri" : "http://dbpedia.org/resource/Walt_Becker"
-      }, {
-        "label" : "Walter Grauman",
-        "uri" : "http://dbpedia.org/resource/Walter_Grauman"
-      }, {
-        "label" : "Oliver Stone",
-        "uri" : "http://dbpedia.org/resource/Oliver_Stone"
-      }, {
-        "label" : "Peter J McCarthy",
-        "uri" : "http://dbpedia.org/resource/Peter_J_McCarthy"
-      }, {
-        "label" : "John Behring",
-        "uri" : "http://dbpedia.org/resource/John_Behring"
-      }, {
-        "label" : "Bruno Corbucci",
-        "uri" : "http://dbpedia.org/resource/Bruno_Corbucci"
-      }, {
-        "label" : "Dan Riba",
-        "uri" : "http://dbpedia.org/resource/Dan_Riba"
-      }, {
-        "label" : "David Zucker (filmmaker)",
-        "uri" : "http://dbpedia.org/resource/David_Zucker_(filmmaker)"
-      }, {
-        "label" : "George Sherman",
-        "uri" : "http://dbpedia.org/resource/George_Sherman"
-      }, {
-        "label" : "James Hayman",
-        "uri" : "http://dbpedia.org/resource/James_Hayman"
-      }, {
-        "label" : "Jan Hřebejk",
-        "uri" : "http://dbpedia.org/resource/Jan_Hřebejk"
-      }, {
-        "label" : "Karl Brown (cinematographer)",
-        "uri" : "http://dbpedia.org/resource/Karl_Brown_(cinematographer)"
-      }, {
-        "label" : "Mike Figgis",
-        "uri" : "http://dbpedia.org/resource/Mike_Figgis"
-      }, {
-        "label" : "Zhao Liang (director)",
-        "uri" : "http://dbpedia.org/resource/Zhao_Liang_(director)"
-      }, {
-        "label" : "Stanley Donen",
-        "uri" : "http://dbpedia.org/resource/Stanley_Donen"
-      }, {
-        "label" : "George Archainbaud",
-        "uri" : "http://dbpedia.org/resource/George_Archainbaud"
-      }, {
-        "label" : "J. Searle Dawley",
-        "uri" : "http://dbpedia.org/resource/J._Searle_Dawley"
-      }, {
-        "label" : "Michael Grossman",
-        "uri" : "http://dbpedia.org/resource/Michael_Grossman"
-      }, {
-        "label" : "Peter Graham Scott",
-        "uri" : "http://dbpedia.org/resource/Peter_Graham_Scott"
-      }, {
-        "label" : "Richard Pearce (film director)",
-        "uri" : "http://dbpedia.org/resource/Richard_Pearce_(film_director)"
-      }, {
-        "label" : "Andy Cadiff",
-        "uri" : "http://dbpedia.org/resource/Andy_Cadiff"
-      }, {
-        "label" : "Brenton Spencer",
-        "uri" : "http://dbpedia.org/resource/Brenton_Spencer"
-      }, {
-        "label" : "Paul Alter",
-        "uri" : "http://dbpedia.org/resource/Paul_Alter"
-      }, {
-        "label" : "Jason Winer",
-        "uri" : "http://dbpedia.org/resource/Jason_Winer"
-      }, {
-        "label" : "Kamalakara Kameswara Rao",
-        "uri" : "http://dbpedia.org/resource/Kamalakara_Kameswara_Rao"
-      }, {
-        "label" : "Betty Kaplan",
-        "uri" : "http://dbpedia.org/resource/Betty_Kaplan"
-      }, {
-        "label" : "Lewis Teague",
-        "uri" : "http://dbpedia.org/resource/Lewis_Teague"
-      }, {
-        "label" : "Donna Deitch",
-        "uri" : "http://dbpedia.org/resource/Donna_Deitch"
-      }, {
-        "label" : "Edwin Carewe",
-        "uri" : "http://dbpedia.org/resource/Edwin_Carewe"
-      }, {
-        "label" : "Leslie H. Martinson",
-        "uri" : "http://dbpedia.org/resource/Leslie_H._Martinson"
-      }, {
-        "label" : "Carol Reed",
-        "uri" : "http://dbpedia.org/resource/Carol_Reed"
-      }, {
-        "label" : "Sidney Olcott",
-        "uri" : "http://dbpedia.org/resource/Sidney_Olcott"
-      }, {
-        "label" : "Dan Curtis",
-        "uri" : "http://dbpedia.org/resource/Dan_Curtis"
-      }, {
-        "label" : "Wayne Wang",
-        "uri" : "http://dbpedia.org/resource/Wayne_Wang"
-      }, {
-        "label" : "Gustaf Gründgens",
-        "uri" : "http://dbpedia.org/resource/Gustaf_Gründgens"
-      }, {
-        "label" : "Paul McCrane",
-        "uri" : "http://dbpedia.org/resource/Paul_McCrane"
-      }, {
-        "label" : "Mehboob Khan",
-        "uri" : "http://dbpedia.org/resource/Mehboob_Khan"
-      }, {
-        "label" : "Muriel Box",
-        "uri" : "http://dbpedia.org/resource/Muriel_Box"
-      }, {
-        "label" : "Lloyd Bacon",
-        "uri" : "http://dbpedia.org/resource/Lloyd_Bacon"
-      }, {
-        "label" : "John Francis Dillon (director)",
-        "uri" : "http://dbpedia.org/resource/John_Francis_Dillon_(director)"
-      }, {
-        "label" : "Rupert Sanders",
-        "uri" : "http://dbpedia.org/resource/Rupert_Sanders"
-      }, {
-        "label" : "Mac Alejandre",
-        "uri" : "http://dbpedia.org/resource/Mac_Alejandre"
-      }, {
-        "label" : "Steve Carr",
-        "uri" : "http://dbpedia.org/resource/Steve_Carr"
-      }, {
-        "label" : "Alexander Gruszynski",
-        "uri" : "http://dbpedia.org/resource/Alexander_Gruszynski"
-      }, {
-        "label" : "Georgi Djulgerov",
-        "uri" : "http://dbpedia.org/resource/Georgi_Djulgerov"
-      }, {
-        "label" : "Francesco Laudadio",
-        "uri" : "http://dbpedia.org/resource/Francesco_Laudadio"
-      }, {
-        "label" : "Jeff Nichols",
-        "uri" : "http://dbpedia.org/resource/Jeff_Nichols"
-      }, {
-        "label" : "Antonio Nuić",
-        "uri" : "http://dbpedia.org/resource/Antonio_Nuić"
-      }, {
-        "label" : "Lev Atamanov",
-        "uri" : "http://dbpedia.org/resource/Lev_Atamanov"
-      }, {
-        "label" : "Reginald Fogwell",
-        "uri" : "http://dbpedia.org/resource/Reginald_Fogwell"
-      }, {
-        "label" : "Robert Allan Ackerman",
-        "uri" : "http://dbpedia.org/resource/Robert_Allan_Ackerman"
-      }, {
-        "label" : "Terry Bishop",
-        "uri" : "http://dbpedia.org/resource/Terry_Bishop"
-      }, {
-        "label" : "Jeffrey Reiner",
-        "uri" : "http://dbpedia.org/resource/Jeffrey_Reiner"
-      }, {
-        "label" : "Jing Wang",
-        "uri" : "http://dbpedia.org/resource/Jing_Wang"
-      }, {
-        "label" : "Alastair Reid (director)",
-        "uri" : "http://dbpedia.org/resource/Alastair_Reid_(director)"
-      }, {
-        "label" : "Tom Terriss",
-        "uri" : "http://dbpedia.org/resource/Tom_Terriss"
-      }, {
-        "label" : "Ralph Murphy",
-        "uri" : "http://dbpedia.org/resource/Ralph_Murphy"
-      }, {
-        "label" : "Anthony Michael Hall",
-        "uri" : "http://dbpedia.org/resource/Anthony_Michael_Hall"
-      }, {
-        "label" : "Barbet Schroeder",
-        "uri" : "http://dbpedia.org/resource/Barbet_Schroeder"
-      }, {
-        "label" : "Frank Thomas (animator)",
-        "uri" : "http://dbpedia.org/resource/Frank_Thomas_(animator)"
-      }, {
-        "label" : "Henry King (director)",
-        "uri" : "http://dbpedia.org/resource/Henry_King_(director)"
-      }, {
-        "label" : "Matt Piedmont",
-        "uri" : "http://dbpedia.org/resource/Matt_Piedmont"
-      }, {
-        "label" : "Merian C. Cooper",
-        "uri" : "http://dbpedia.org/resource/Merian_C._Cooper"
-      }, {
-        "label" : "Michael Moore",
-        "uri" : "http://dbpedia.org/resource/Michael_Moore"
-      }, {
-        "label" : "Michael Powell",
-        "uri" : "http://dbpedia.org/resource/Michael_Powell"
-      }, {
-        "label" : "Richard Kelly (director)",
-        "uri" : "http://dbpedia.org/resource/Richard_Kelly_(director)"
-      }, {
-        "label" : "Richard Lester",
-        "uri" : "http://dbpedia.org/resource/Richard_Lester"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "50",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2359,305 +654,305 @@
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
-        "label" : "Whitehaven, Memphis, Tennessee",
-        "uri" : "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+        "label" : "Luxembourg (canton)",
+        "uri" : "http://dbpedia.org/resource/Luxembourg_(canton)"
       }, {
-        "label" : "Lake Zabuye",
-        "uri" : "http://dbpedia.org/resource/Lake_Zabuye"
+        "label" : "Luxembourg City",
+        "uri" : "http://dbpedia.org/resource/Luxembourg_City"
       }, {
-        "label" : "Mid-Atlantic states",
-        "uri" : "http://dbpedia.org/resource/Mid-Atlantic_states"
+        "label" : "Luzon Strait",
+        "uri" : "http://dbpedia.org/resource/Luzon_Strait"
       }, {
-        "label" : "New England",
-        "uri" : "http://dbpedia.org/resource/New_England"
+        "label" : "Madiromirafy",
+        "uri" : "http://dbpedia.org/resource/Madiromirafy"
       }, {
-        "label" : "Kuta Raja",
-        "uri" : "http://dbpedia.org/resource/Kuta_Raja"
+        "label" : "Madirovalo",
+        "uri" : "http://dbpedia.org/resource/Madirovalo"
       }, {
-        "label" : "San Biagio Maggiore",
-        "uri" : "http://dbpedia.org/resource/San_Biagio_Maggiore"
+        "label" : "Maevaranohely",
+        "uri" : "http://dbpedia.org/resource/Maevaranohely"
       }, {
-        "label" : "Namcha Barwa Himal",
-        "uri" : "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+        "label" : "Maevatanana",
+        "uri" : "http://dbpedia.org/resource/Maevatanana"
       }, {
-        "label" : "San Nicola a Nilo",
-        "uri" : "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+        "label" : "Maevatanana (district)",
+        "uri" : "http://dbpedia.org/resource/Maevatanana_(district)"
       }, {
-        "label" : "Adra, Syria",
-        "uri" : "http://dbpedia.org/resource/Adra,_Syria"
+        "label" : "Maevatanana II",
+        "uri" : "http://dbpedia.org/resource/Maevatanana_II"
       }, {
-        "label" : "Al-Mazraa",
-        "uri" : "http://dbpedia.org/resource/Al-Mazraa"
+        "label" : "Mafaijijo",
+        "uri" : "http://dbpedia.org/resource/Mafaijijo"
       }, {
-        "label" : "Al-Rastan",
-        "uri" : "http://dbpedia.org/resource/Al-Rastan"
+        "label" : "Mahabako",
+        "uri" : "http://dbpedia.org/resource/Mahabako"
       }, {
-        "label" : "Al-Hawash, Homs Governorate",
-        "uri" : "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+        "label" : "Mahabe",
+        "uri" : "http://dbpedia.org/resource/Mahabe"
       }, {
-        "label" : "Ayn al-Bardah",
-        "uri" : "http://dbpedia.org/resource/Ayn_al-Bardah"
+        "label" : "Mahabo, Betroka",
+        "uri" : "http://dbpedia.org/resource/Mahabo,_Betroka"
       }, {
-        "label" : "Khabab",
-        "uri" : "http://dbpedia.org/resource/Khabab"
+        "label" : "Mahabo, Vohipeno",
+        "uri" : "http://dbpedia.org/resource/Mahabo,_Vohipeno"
       }, {
-        "label" : "Al-Kafr",
-        "uri" : "http://dbpedia.org/resource/Al-Kafr"
+        "label" : "Mahabo (district)",
+        "uri" : "http://dbpedia.org/resource/Mahabo_(district)"
       }, {
-        "label" : "Deir Mama",
-        "uri" : "http://dbpedia.org/resource/Deir_Mama"
+        "label" : "Mahabo Mananivo",
+        "uri" : "http://dbpedia.org/resource/Mahabo_Mananivo"
       }, {
-        "label" : "Madaya, Syria",
-        "uri" : "http://dbpedia.org/resource/Madaya,_Syria"
+        "label" : "Mahaboboka",
+        "uri" : "http://dbpedia.org/resource/Mahaboboka"
       }, {
-        "label" : "Tayru",
-        "uri" : "http://dbpedia.org/resource/Tayru"
+        "label" : "Mahaditra",
+        "uri" : "http://dbpedia.org/resource/Mahaditra"
       }, {
-        "label" : "Al-Khalidiyah, Syria",
-        "uri" : "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+        "label" : "Mahadrodroka",
+        "uri" : "http://dbpedia.org/resource/Mahadrodroka"
       }, {
-        "label" : "Al-Khalidiyah, al-Hasakah Governorate",
-        "uri" : "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+        "label" : "Mahaela",
+        "uri" : "http://dbpedia.org/resource/Mahaela"
       }, {
-        "label" : "Basatin al-Assad",
-        "uri" : "http://dbpedia.org/resource/Basatin_al-Assad"
+        "label" : "Mahafasa Centre",
+        "uri" : "http://dbpedia.org/resource/Mahafasa_Centre"
       }, {
-        "label" : "Hala, Syria",
-        "uri" : "http://dbpedia.org/resource/Hala,_Syria"
+        "label" : "Mahaiza",
+        "uri" : "http://dbpedia.org/resource/Mahaiza"
       }, {
-        "label" : "Harran, Idlib",
-        "uri" : "http://dbpedia.org/resource/Harran,_Idlib"
+        "label" : "Mahajamba Usine",
+        "uri" : "http://dbpedia.org/resource/Mahajamba_Usine"
       }, {
-        "label" : "Harran, as-Suwayda",
-        "uri" : "http://dbpedia.org/resource/Harran,_as-Suwayda"
+        "label" : "Mahajanga",
+        "uri" : "http://dbpedia.org/resource/Mahajanga"
       }, {
-        "label" : "Harran al-Awamid",
-        "uri" : "http://dbpedia.org/resource/Harran_al-Awamid"
+        "label" : "Mahajanga II (district)",
+        "uri" : "http://dbpedia.org/resource/Mahajanga_II_(district)"
       }, {
-        "label" : "Wadi al-Nasara",
-        "uri" : "http://dbpedia.org/resource/Wadi_al-Nasara"
+        "label" : "Mahajanga Province",
+        "uri" : "http://dbpedia.org/resource/Mahajanga_Province"
       }, {
-        "label" : "Abu Khanadiq",
-        "uri" : "http://dbpedia.org/resource/Abu_Khanadiq"
+        "label" : "Mahalaza-Fanimana",
+        "uri" : "http://dbpedia.org/resource/Mahalaza-Fanimana"
       }, {
-        "label" : "Abu Kleefun",
-        "uri" : "http://dbpedia.org/resource/Abu_Kleefun"
+        "label" : "Mahalina",
+        "uri" : "http://dbpedia.org/resource/Mahalina"
       }, {
-        "label" : "Abul Fashafish",
-        "uri" : "http://dbpedia.org/resource/Abul_Fashafish"
+        "label" : "Mahaly",
+        "uri" : "http://dbpedia.org/resource/Mahaly"
       }, {
-        "label" : "Al-'Amrah",
-        "uri" : "http://dbpedia.org/resource/Al-'Amrah"
+        "label" : "Mahamaibe",
+        "uri" : "http://dbpedia.org/resource/Mahamaibe"
       }, {
-        "label" : "Al-Atnah",
-        "uri" : "http://dbpedia.org/resource/Al-Atnah"
+        "label" : "Mahambo",
+        "uri" : "http://dbpedia.org/resource/Mahambo"
       }, {
-        "label" : "Al-Fayadiyah",
-        "uri" : "http://dbpedia.org/resource/Al-Fayadiyah"
+        "label" : "Mahanoro",
+        "uri" : "http://dbpedia.org/resource/Mahanoro"
       }, {
-        "label" : "Al-Humayra",
-        "uri" : "http://dbpedia.org/resource/Al-Humayra"
+        "label" : "Mahanoro (district)",
+        "uri" : "http://dbpedia.org/resource/Mahanoro_(district)"
       }, {
-        "label" : "Al-Jarajir",
-        "uri" : "http://dbpedia.org/resource/Al-Jarajir"
+        "label" : "Mahasoa",
+        "uri" : "http://dbpedia.org/resource/Mahasoa"
       }, {
-        "label" : "Al-Khandaq al-Sharqiyah",
-        "uri" : "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+        "label" : "Mahasoa Est",
+        "uri" : "http://dbpedia.org/resource/Mahasoa_Est"
       }, {
-        "label" : "Al-Muhajirin, Hama Governorate",
-        "uri" : "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+        "label" : "Mahasoabe, Fianarantsoa II",
+        "uri" : "http://dbpedia.org/resource/Mahasoabe,_Fianarantsoa_II"
       }, {
-        "label" : "Al-Narjis",
-        "uri" : "http://dbpedia.org/resource/Al-Narjis"
+        "label" : "Mahasoabe, Vohipeno",
+        "uri" : "http://dbpedia.org/resource/Mahasoabe,_Vohipeno"
       }, {
-        "label" : "Al-Nazaza",
-        "uri" : "http://dbpedia.org/resource/Al-Nazaza"
+        "label" : "Mahasolo",
+        "uri" : "http://dbpedia.org/resource/Mahasolo"
       }, {
-        "label" : "Al-Nour, Syria",
-        "uri" : "http://dbpedia.org/resource/Al-Nour,_Syria"
+        "label" : "Mahatalaky",
+        "uri" : "http://dbpedia.org/resource/Mahatalaky"
       }, {
-        "label" : "Al-Ramlah, Syria",
-        "uri" : "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+        "label" : "Mahatsara Iefaka",
+        "uri" : "http://dbpedia.org/resource/Mahatsara_Iefaka"
       }, {
-        "label" : "Al-Salihiyah, Hama",
-        "uri" : "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+        "label" : "Mahatsara Sud",
+        "uri" : "http://dbpedia.org/resource/Mahatsara_Sud"
       }, {
-        "label" : "Al-Sindiyana, Suqaylabiyah",
-        "uri" : "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+        "label" : "Mahatsinjo, Maevatanana",
+        "uri" : "http://dbpedia.org/resource/Mahatsinjo,_Maevatanana"
       }, {
-        "label" : "Al-Swaia",
-        "uri" : "http://dbpedia.org/resource/Al-Swaia"
+        "label" : "Mahatsinjo, Vondrozo",
+        "uri" : "http://dbpedia.org/resource/Mahatsinjo,_Vondrozo"
       }, {
-        "label" : "Al-Thawrah, Hama Governorate",
-        "uri" : "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+        "label" : "Mahatsinjo Est",
+        "uri" : "http://dbpedia.org/resource/Mahatsinjo_Est"
       }, {
-        "label" : "Al-Tulaysiyah al-Janubiyah",
-        "uri" : "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+        "label" : "Mahatsinjony",
+        "uri" : "http://dbpedia.org/resource/Mahatsinjony"
       }, {
-        "label" : "Al-Zitiyah",
-        "uri" : "http://dbpedia.org/resource/Al-Zitiyah"
+        "label" : "Mahavanona",
+        "uri" : "http://dbpedia.org/resource/Mahavanona"
       }, {
-        "label" : "Ammurin",
-        "uri" : "http://dbpedia.org/resource/Ammurin"
+        "label" : "Mahavelo, Farafangana",
+        "uri" : "http://dbpedia.org/resource/Mahavelo,_Farafangana"
       }, {
-        "label" : "Ayn Dara",
-        "uri" : "http://dbpedia.org/resource/Ayn_Dara"
+        "label" : "Mahavelo, Vondrozo",
+        "uri" : "http://dbpedia.org/resource/Mahavelo,_Vondrozo"
       }, {
-        "label" : "Balluneh",
-        "uri" : "http://dbpedia.org/resource/Balluneh"
+        "label" : "Mahavelona",
+        "uri" : "http://dbpedia.org/resource/Mahavelona"
       }, {
-        "label" : "Beij",
-        "uri" : "http://dbpedia.org/resource/Beij"
+        "label" : "Mahavelona, Soavinandriana",
+        "uri" : "http://dbpedia.org/resource/Mahavelona,_Soavinandriana"
       }, {
-        "label" : "Bgheidid",
-        "uri" : "http://dbpedia.org/resource/Bgheidid"
+        "label" : "Mahavoky Nord",
+        "uri" : "http://dbpedia.org/resource/Mahavoky_Nord"
       }, {
-        "label" : "Bustan Sbeih",
-        "uri" : "http://dbpedia.org/resource/Bustan_Sbeih"
+        "label" : "Mahazina Ambohipierenana",
+        "uri" : "http://dbpedia.org/resource/Mahazina_Ambohipierenana"
       }, {
-        "label" : "Deir Sunbul",
-        "uri" : "http://dbpedia.org/resource/Deir_Sunbul"
+        "label" : "Mahazoarivo, Fandriana",
+        "uri" : "http://dbpedia.org/resource/Mahazoarivo,_Fandriana"
       }, {
-        "label" : "Ein Elhamam",
-        "uri" : "http://dbpedia.org/resource/Ein_Elhamam"
+        "label" : "Mahazoarivo, Fianarantsoa II",
+        "uri" : "http://dbpedia.org/resource/Mahazoarivo,_Fianarantsoa_II"
       }, {
-        "label" : "Ein Warideh",
-        "uri" : "http://dbpedia.org/resource/Ein_Warideh"
+        "label" : "Mahazoarivo, Vohipeno",
+        "uri" : "http://dbpedia.org/resource/Mahazoarivo,_Vohipeno"
       }, {
-        "label" : "Elrihana",
-        "uri" : "http://dbpedia.org/resource/Elrihana"
+        "label" : "Mahazoarivo, Vondrozo",
+        "uri" : "http://dbpedia.org/resource/Mahazoarivo,_Vondrozo"
       }, {
-        "label" : "Fawrah",
-        "uri" : "http://dbpedia.org/resource/Fawrah"
+        "label" : "Mahazoma",
+        "uri" : "http://dbpedia.org/resource/Mahazoma"
       }, {
-        "label" : "Hamrit",
-        "uri" : "http://dbpedia.org/resource/Hamrit"
+        "label" : "Mahazony",
+        "uri" : "http://dbpedia.org/resource/Mahazony"
       }, {
-        "label" : "Hanuteh",
-        "uri" : "http://dbpedia.org/resource/Hanuteh"
+        "label" : "Maheriraty",
+        "uri" : "http://dbpedia.org/resource/Maheriraty"
       }, {
-        "label" : "Hdaj",
-        "uri" : "http://dbpedia.org/resource/Hdaj"
+        "label" : "Maherivaratra",
+        "uri" : "http://dbpedia.org/resource/Maherivaratra"
       }, {
-        "label" : "Jakuziyeh",
-        "uri" : "http://dbpedia.org/resource/Jakuziyeh"
+        "label" : "Maintinandry",
+        "uri" : "http://dbpedia.org/resource/Maintinandry"
       }, {
-        "label" : "Jamala, Hama",
-        "uri" : "http://dbpedia.org/resource/Jamala,_Hama"
+        "label" : "Maintirano",
+        "uri" : "http://dbpedia.org/resource/Maintirano"
       }, {
-        "label" : "Jeb Dkileh",
-        "uri" : "http://dbpedia.org/resource/Jeb_Dkileh"
+        "label" : "Maintirano District",
+        "uri" : "http://dbpedia.org/resource/Maintirano_District"
       }, {
-        "label" : "Jeb Zreiq",
-        "uri" : "http://dbpedia.org/resource/Jeb_Zreiq"
+        "label" : "Maintsokely",
+        "uri" : "http://dbpedia.org/resource/Maintsokely"
       }, {
-        "label" : "Jessine",
-        "uri" : "http://dbpedia.org/resource/Jessine"
+        "label" : "Malaimbandy",
+        "uri" : "http://dbpedia.org/resource/Malaimbandy"
       }, {
-        "label" : "Karama, Hama",
-        "uri" : "http://dbpedia.org/resource/Karama,_Hama"
+        "label" : "Consthum",
+        "uri" : "http://dbpedia.org/resource/Consthum"
       }, {
-        "label" : "Kasun Eljabal",
-        "uri" : "http://dbpedia.org/resource/Kasun_Eljabal"
+        "label" : "Useldange",
+        "uri" : "http://dbpedia.org/resource/Useldange"
       }, {
-        "label" : "Kawri",
-        "uri" : "http://dbpedia.org/resource/Kawri"
+        "label" : "Vakinankaratra",
+        "uri" : "http://dbpedia.org/resource/Vakinankaratra"
       }, {
-        "label" : "Khala, Hama",
-        "uri" : "http://dbpedia.org/resource/Khala,_Hama"
+        "label" : "Valabetokana",
+        "uri" : "http://dbpedia.org/resource/Valabetokana"
       }, {
-        "label" : "Khansaa - Shetheh",
-        "uri" : "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+        "label" : "Vallée de l'Ernz",
+        "uri" : "http://dbpedia.org/resource/Vallée_de_l'Ernz"
       }, {
-        "label" : "Maar Shamali",
-        "uri" : "http://dbpedia.org/resource/Maar_Shamali"
+        "label" : "Vangaindrano (district)",
+        "uri" : "http://dbpedia.org/resource/Vangaindrano_(district)"
       }, {
-        "label" : "Makhbuta",
-        "uri" : "http://dbpedia.org/resource/Makhbuta"
+        "label" : "Vanono",
+        "uri" : "http://dbpedia.org/resource/Vanono"
       }, {
-        "label" : "Maksar, Hama",
-        "uri" : "http://dbpedia.org/resource/Maksar,_Hama"
+        "label" : "Vasiana",
+        "uri" : "http://dbpedia.org/resource/Vasiana"
       }, {
-        "label" : "Marana, Hama",
-        "uri" : "http://dbpedia.org/resource/Marana,_Hama"
+        "label" : "Vatana, Madagascar",
+        "uri" : "http://dbpedia.org/resource/Vatana,_Madagascar"
       }, {
-        "label" : "Mashta Elshalahmeh",
-        "uri" : "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+        "label" : "Vatanato",
+        "uri" : "http://dbpedia.org/resource/Vatanato"
       }, {
-        "label" : "Mastarihat Afamiyah",
-        "uri" : "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+        "label" : "Vatohandrina",
+        "uri" : "http://dbpedia.org/resource/Vatohandrina"
       }, {
-        "label" : "Mrikb",
-        "uri" : "http://dbpedia.org/resource/Mrikb"
+        "label" : "Vatolatsaka",
+        "uri" : "http://dbpedia.org/resource/Vatolatsaka"
       }, {
-        "label" : "Mweileh",
-        "uri" : "http://dbpedia.org/resource/Mweileh"
+        "label" : "Vatomandry",
+        "uri" : "http://dbpedia.org/resource/Vatomandry"
       }, {
-        "label" : "Nabe Eltib",
-        "uri" : "http://dbpedia.org/resource/Nabe_Eltib"
+        "label" : "Vatomandry (district)",
+        "uri" : "http://dbpedia.org/resource/Vatomandry_(district)"
       }, {
-        "label" : "Ojet - Kabasin Elarab",
-        "uri" : "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+        "label" : "Vatovavy-Fitovinany",
+        "uri" : "http://dbpedia.org/resource/Vatovavy-Fitovinany"
       }, {
-        "label" : "Ojt Eltoba",
-        "uri" : "http://dbpedia.org/resource/Ojt_Eltoba"
+        "label" : "Vavatenina",
+        "uri" : "http://dbpedia.org/resource/Vavatenina"
       }, {
-        "label" : "Qal'at al-Jaras",
-        "uri" : "http://dbpedia.org/resource/Qal'at_al-Jaras"
+        "label" : "Vavatenina District",
+        "uri" : "http://dbpedia.org/resource/Vavatenina_District"
       }, {
-        "label" : "Qanater, Hama Governorate",
-        "uri" : "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+        "label" : "Veromanga",
+        "uri" : "http://dbpedia.org/resource/Veromanga"
       }, {
-        "label" : "Qastal al-Burj",
-        "uri" : "http://dbpedia.org/resource/Qastal_al-Burj"
+        "label" : "Folschette",
+        "uri" : "http://dbpedia.org/resource/Folschette"
       }, {
-        "label" : "Ras al-Maara",
-        "uri" : "http://dbpedia.org/resource/Ras_al-Maara"
+        "label" : "Khodoriv",
+        "uri" : "http://dbpedia.org/resource/Khodoriv"
       }, {
-        "label" : "Rasm Al-Brdkana",
-        "uri" : "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+        "label" : "Bissen",
+        "uri" : "http://dbpedia.org/resource/Bissen"
       }, {
-        "label" : "Rasm Amun",
-        "uri" : "http://dbpedia.org/resource/Rasm_Amun"
+        "label" : "Biwer",
+        "uri" : "http://dbpedia.org/resource/Biwer"
       }, {
-        "label" : "Rasm Anz",
-        "uri" : "http://dbpedia.org/resource/Rasm_Anz"
+        "label" : "Boanamary",
+        "uri" : "http://dbpedia.org/resource/Boanamary"
       }, {
-        "label" : "Rasm Elahmar",
-        "uri" : "http://dbpedia.org/resource/Rasm_Elahmar"
+        "label" : "Bobakindro",
+        "uri" : "http://dbpedia.org/resource/Bobakindro"
       }, {
-        "label" : "Rudat al-Tar",
-        "uri" : "http://dbpedia.org/resource/Rudat_al-Tar"
+        "label" : "Bobasakoa",
+        "uri" : "http://dbpedia.org/resource/Bobasakoa"
       }, {
-        "label" : "Rweideh",
-        "uri" : "http://dbpedia.org/resource/Rweideh"
+        "label" : "Boeny",
+        "uri" : "http://dbpedia.org/resource/Boeny"
       }, {
-        "label" : "Saidiyeh, Hama",
-        "uri" : "http://dbpedia.org/resource/Saidiyeh,_Hama"
+        "label" : "Bongolava",
+        "uri" : "http://dbpedia.org/resource/Bongolava"
       }, {
-        "label" : "Saqiyet Nijm",
-        "uri" : "http://dbpedia.org/resource/Saqiyet_Nijm"
+        "label" : "Boriziny-Vaovao (district)",
+        "uri" : "http://dbpedia.org/resource/Boriziny-Vaovao_(district)"
       }, {
-        "label" : "Shahta",
-        "uri" : "http://dbpedia.org/resource/Shahta"
+        "label" : "Borynia, Turka Raion",
+        "uri" : "http://dbpedia.org/resource/Borynia,_Turka_Raion"
       }, {
-        "label" : "Shatheh",
-        "uri" : "http://dbpedia.org/resource/Shatheh"
+        "label" : "Boulaide",
+        "uri" : "http://dbpedia.org/resource/Boulaide"
       }, {
-        "label" : "Shaykh Ali",
-        "uri" : "http://dbpedia.org/resource/Shaykh_Ali"
+        "label" : "Bourscheid, Luxembourg",
+        "uri" : "http://dbpedia.org/resource/Bourscheid,_Luxembourg"
       }, {
-        "label" : "Suwak al-Shamali",
-        "uri" : "http://dbpedia.org/resource/Suwak_al-Shamali"
+        "label" : "Bous, Luxembourg",
+        "uri" : "http://dbpedia.org/resource/Bous,_Luxembourg"
       }, {
-        "label" : "Tabara Elhamra",
-        "uri" : "http://dbpedia.org/resource/Tabara_Elhamra"
+        "label" : "Diana Region",
+        "uri" : "http://dbpedia.org/resource/Diana_Region"
       }, {
-        "label" : "Tahunet Elhalawa",
-        "uri" : "http://dbpedia.org/resource/Tahunet_Elhalawa"
+        "label" : "Didy",
+        "uri" : "http://dbpedia.org/resource/Didy"
       }, {
-        "label" : "Tell al-Shih",
-        "uri" : "http://dbpedia.org/resource/Tell_al-Shih"
+        "label" : "Diekirch",
+        "uri" : "http://dbpedia.org/resource/Diekirch"
       } ]
     },
     "combination" : false

@@ -3,11 +3,13 @@ import eu.monnetproject.lemon.LemonModel;
 import grammar.generator.BindingResolver;
 import grammar.generator.GrammarRuleGeneratorRoot;
 import grammar.generator.GrammarRuleGeneratorRootImpl;
+import grammar.read.questions.ReadAndWriteQuestions;
 import grammar.structure.component.DomainOrRangeType;
 import grammar.structure.component.FrameType;
 import grammar.structure.component.GrammarEntry;
 import grammar.structure.component.GrammarWrapper;
 import grammar.structure.component.Language;
+import java.io.File;
 import lexicon.LexiconImporter;
 import lombok.NoArgsConstructor;
 import org.apache.logging.log4j.LogManager;
@@ -17,18 +19,32 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.nio.file.Path;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.util.Objects.isNull;
+import java.util.logging.Level;
+import util.io.FileUtils;
 
 @NoArgsConstructor
 public class QueGG {
 
     private static final Logger LOG = LogManager.getLogger(QueGG.class);
+    private static String GenerateJson = "generate";
+    private static String CreateCsv = "create";
+    private static String SEARCH = "search";
+    private static String BaseDir = "";
+    private static String QUESTION_ANSWER_LOCATION = BaseDir + "questions/";
+    private static String QUESTION_ANSWER_FILE = "questions.txt";
+    private static String QUESTION_ANSWER_CSV_FILE = "questions.csv";
+    private static String entityLabelDir = "src/main/resources/entityLabels/";
+   
+    public static void main(String[] args) throws Exception {
+        String search=GenerateJson+CreateCsv;
+        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
 
-    public static void main(String[] args) {
         try {
-            if (args.length < 3) {
+            if (args.length < 4) {
                 throw new IllegalArgumentException(String.format("Too few parameters (%s/%s)", args.length, 3));
             }
             QueGG queGG = new QueGG();
@@ -36,7 +52,19 @@ public class QueGG {
             LOG.info("Starting {} with language parameter '{}'", QueGG.class.getName(), language);
             LOG.info("Input directory: {}", Path.of(args[1]).toString());
             LOG.info("Output directory: {}", Path.of(args[2]).toString());
-            queGG.init(Language.stringToLanguage(args[0]), Path.of(args[1]).toString(), Path.of(args[2]).toString());
+            language = Language.stringToLanguage(args[0]);
+            String inputDir = Path.of(args[1]).toString();
+            String outputDir = Path.of(args[2]).toString();
+            String numberOfEntitiesString=Path.of(args[3]).toString();
+            Integer maxNumberOfEntities=Integer.parseInt(numberOfEntitiesString);
+              queGG.init(language, inputDir, outputDir);
+                List<File> fileList = FileUtils.getFiles(outputDir+"/", "grammar_FULL_DATASET_EN", ".json");
+                if (fileList.isEmpty()) {
+                    throw new Exception("No files to process for question answering system!!");
+                }
+                ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile,maxNumberOfEntities);
+                readAndWriteQuestions.readQuestionAnswers(fileList, entityLabelDir);
+
             LOG.warn("To get optimal combinations of sentences please add the following types to {}\n{}",
                     DomainOrRangeType.class.getName(), DomainOrRangeType.MISSING_TYPES.toString()
             );
@@ -45,6 +73,8 @@ public class QueGG {
             System.err.printf("Usage: <%s> <input directory> <output directory>%n", Arrays.toString(Language.values()));
         }
     }
+
+   
 
     public void init(Language language, String inputDir, String outputDir) throws IOException {
         try {

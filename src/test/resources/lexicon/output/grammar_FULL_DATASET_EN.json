@@ -3,12 +3,12 @@
     "id" : "1",
     "language" : "EN",
     "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "LOCATION",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the birth place of ($x | PERSON_NP)?", "Tell me the birth place of ($x | PERSON_NP)?", "What is the birth place of ($x | PERSON_NP)?", "What was the birth place of ($x | PERSON_NP)?", "Which place is the birth place of ($x | PERSON_NP)?", "Which place was the birth place of ($x | PERSON_NP)?" ],
+    "sentences" : [ "Give me the artist of ($x | THING_NP)?", "Tell me the artist of ($x | THING_NP)?", "What is the artist of ($x | THING_NP)?", "What was the artist of ($x | THING_NP)?", "Which agent is the artist of ($x | THING_NP)?", "Which agent was the artist of ($x | THING_NP)?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthPlace> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -16,305 +16,305 @@
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
-        "label" : "2013 Hialeah shooting",
-        "uri" : "http://dbpedia.org/resource/2013_Hialeah_shooting"
+        "label" : "1959 (John Anderson song)",
+        "uri" : "http://dbpedia.org/resource/1959_(John_Anderson_song)"
       }, {
-        "label" : "2013 Santa Monica shooting",
-        "uri" : "http://dbpedia.org/resource/2013_Santa_Monica_shooting"
+        "label" : "5 O'Clock (Nonchalant song)",
+        "uri" : "http://dbpedia.org/resource/5_O'Clock_(Nonchalant_song)"
       }, {
-        "label" : "2014 Fort Hood shooting",
-        "uri" : "http://dbpedia.org/resource/2014_Fort_Hood_shooting"
+        "label" : "5 Rebbecca's",
+        "uri" : "http://dbpedia.org/resource/5_Rebbecca's"
       }, {
-        "label" : "2014 Isla Vista killings",
-        "uri" : "http://dbpedia.org/resource/2014_Isla_Vista_killings"
+        "label" : "5 Seconds of Summer discography",
+        "uri" : "http://dbpedia.org/resource/5_Seconds_of_Summer_discography"
       }, {
-        "label" : "2014 Las Vegas shootings",
-        "uri" : "http://dbpedia.org/resource/2014_Las_Vegas_shootings"
+        "label" : "5 Star (Yo Gotti song)",
+        "uri" : "http://dbpedia.org/resource/5_Star_(Yo_Gotti_song)"
       }, {
-        "label" : "2014 killings of NYPD officers",
-        "uri" : "http://dbpedia.org/resource/2014_killings_of_NYPD_officers"
+        "label" : "5 minutes avec toi",
+        "uri" : "http://dbpedia.org/resource/5_minutes_avec_toi"
       }, {
-        "label" : "2014 shootings at Parliament Hill, Ottawa",
-        "uri" : "http://dbpedia.org/resource/2014_shootings_at_Parliament_Hill,_Ottawa"
+        "label" : "65 Roses (song)",
+        "uri" : "http://dbpedia.org/resource/65_Roses_(song)"
       }, {
-        "label" : "2015 Chattanooga shootings",
-        "uri" : "http://dbpedia.org/resource/2015_Chattanooga_shootings"
+        "label" : "66 (Lil Yachty song)",
+        "uri" : "http://dbpedia.org/resource/66_(Lil_Yachty_song)"
       }, {
-        "label" : "2015 Lafayette shooting",
-        "uri" : "http://dbpedia.org/resource/2015_Lafayette_shooting"
+        "label" : "6969",
+        "uri" : "http://dbpedia.org/resource/6969"
       }, {
-        "label" : "2015 Parramatta shooting",
-        "uri" : "http://dbpedia.org/resource/2015_Parramatta_shooting"
+        "label" : "6 Feet Underground",
+        "uri" : "http://dbpedia.org/resource/6_Feet_Underground"
       }, {
-        "label" : "2015 Sousse attacks",
-        "uri" : "http://dbpedia.org/resource/2015_Sousse_attacks"
+        "label" : "6 Minutes of Pleasure",
+        "uri" : "http://dbpedia.org/resource/6_Minutes_of_Pleasure"
       }, {
-        "label" : "2016 Berlin truck attack",
-        "uri" : "http://dbpedia.org/resource/2016_Berlin_truck_attack"
+        "label" : "6 Words",
+        "uri" : "http://dbpedia.org/resource/6_Words"
       }, {
-        "label" : "2016 Munich shooting",
-        "uri" : "http://dbpedia.org/resource/2016_Munich_shooting"
+        "label" : "6 in the Mornin'",
+        "uri" : "http://dbpedia.org/resource/6_in_the_Mornin'"
       }, {
-        "label" : "2016 New York and New Jersey bombings",
-        "uri" : "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
+        "label" : "6ix9ine discography",
+        "uri" : "http://dbpedia.org/resource/6ix9ine_discography"
       }, {
-        "label" : "2016 UCLA shooting",
-        "uri" : "http://dbpedia.org/resource/2016_UCLA_shooting"
+        "label" : "6lack discography",
+        "uri" : "http://dbpedia.org/resource/6lack_discography"
       }, {
-        "label" : "2016 shooting of Almaty police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Almaty_police_officers"
+        "label" : "700 Ft. Ceiling",
+        "uri" : "http://dbpedia.org/resource/700_Ft._Ceiling"
       }, {
-        "label" : "2016 shooting of Baton Rouge police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Baton_Rouge_police_officers"
+        "label" : "747 (Strangers in the Night)",
+        "uri" : "http://dbpedia.org/resource/747_(Strangers_in_the_Night)"
       }, {
-        "label" : "2016 shooting of Dallas police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Dallas_police_officers"
+        "label" : "787 (song)",
+        "uri" : "http://dbpedia.org/resource/787_(song)"
       }, {
-        "label" : "2017 Fresno shooting spree",
-        "uri" : "http://dbpedia.org/resource/2017_Fresno_shooting_spree"
+        "label" : "7 Day Weekend (song)",
+        "uri" : "http://dbpedia.org/resource/7_Day_Weekend_(song)"
       }, {
-        "label" : "2017 New York City truck attack",
-        "uri" : "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
+        "label" : "7 Days and 7 Nights",
+        "uri" : "http://dbpedia.org/resource/7_Days_and_7_Nights"
       }, {
-        "label" : "7669 (group)",
-        "uri" : "http://dbpedia.org/resource/7669_(group)"
+        "label" : "7 Minutes (song)",
+        "uri" : "http://dbpedia.org/resource/7_Minutes_(song)"
       }, {
-        "label" : "A.Chal",
-        "uri" : "http://dbpedia.org/resource/A.Chal"
+        "label" : "7 Rooms of Gloom",
+        "uri" : "http://dbpedia.org/resource/7_Rooms_of_Gloom"
       }, {
-        "label" : "A.D.O.R.",
-        "uri" : "http://dbpedia.org/resource/A.D.O.R."
+        "label" : "7 Weeks",
+        "uri" : "http://dbpedia.org/resource/7_Weeks"
       }, {
-        "label" : "A.E. Dick Howard",
-        "uri" : "http://dbpedia.org/resource/A.E._Dick_Howard"
+        "label" : "7 Years and 50 Days (song)",
+        "uri" : "http://dbpedia.org/resource/7_Years_and_50_Days_(song)"
       }, {
-        "label" : "A.E. Hanson",
-        "uri" : "http://dbpedia.org/resource/A.E._Hanson"
+        "label" : "7th Heaven (Vanity song)",
+        "uri" : "http://dbpedia.org/resource/7th_Heaven_(Vanity_song)"
       }, {
-        "label" : "A.G. Syjuco",
-        "uri" : "http://dbpedia.org/resource/A.G._Syjuco"
+        "label" : "80's Ladies (song)",
+        "uri" : "http://dbpedia.org/resource/80's_Ladies_(song)"
       }, {
-        "label" : "A.J. Applegate",
-        "uri" : "http://dbpedia.org/resource/A.J._Applegate"
+        "label" : "80's Romance",
+        "uri" : "http://dbpedia.org/resource/80's_Romance"
       }, {
-        "label" : "A.L. Monsohn Lithography",
-        "uri" : "http://dbpedia.org/resource/A.L._Monsohn_Lithography"
+        "label" : "808 (Blaque song)",
+        "uri" : "http://dbpedia.org/resource/808_(Blaque_song)"
       }, {
-        "label" : "A.M. Parkin",
-        "uri" : "http://dbpedia.org/resource/A.M._Parkin"
+        "label" : "808 State discography",
+        "uri" : "http://dbpedia.org/resource/808_State_discography"
       }, {
-        "label" : "A.M. SNiPER",
-        "uri" : "http://dbpedia.org/resource/A.M._SNiPER"
+        "label" : "853-5937",
+        "uri" : "http://dbpedia.org/resource/853-5937"
       }, {
-        "label" : "A.N.M. Ehsanul Hoque Milan",
-        "uri" : "http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan"
+        "label" : "8Ball & MJG discography",
+        "uri" : "http://dbpedia.org/resource/8Ball_&_MJG_discography"
       }, {
-        "label" : "A. A. Bondy",
-        "uri" : "http://dbpedia.org/resource/A._A._Bondy"
+        "label" : "8th Wonder (song)",
+        "uri" : "http://dbpedia.org/resource/8th_Wonder_(song)"
       }, {
-        "label" : "A. A. H. Tuttle",
-        "uri" : "http://dbpedia.org/resource/A._A._H._Tuttle"
+        "label" : "8th of November (song)",
+        "uri" : "http://dbpedia.org/resource/8th_of_November_(song)"
       }, {
-        "label" : "A. A. Khan (academic)",
-        "uri" : "http://dbpedia.org/resource/A._A._Khan_(academic)"
+        "label" : "9,999,999 Tears",
+        "uri" : "http://dbpedia.org/resource/9,999,999_Tears"
       }, {
-        "label" : "A. Andrews",
-        "uri" : "http://dbpedia.org/resource/A._Andrews"
+        "label" : "911 Is a Joke",
+        "uri" : "http://dbpedia.org/resource/911_Is_a_Joke"
       }, {
-        "label" : "A. B. Colton",
-        "uri" : "http://dbpedia.org/resource/A._B._Colton"
+        "label" : "911 discography",
+        "uri" : "http://dbpedia.org/resource/911_discography"
       }, {
-        "label" : "A. B. Creeke",
-        "uri" : "http://dbpedia.org/resource/A._B._Creeke"
+        "label" : "93 Million Miles",
+        "uri" : "http://dbpedia.org/resource/93_Million_Miles"
       }, {
-        "label" : "A. B. Guthrie Jr.",
-        "uri" : "http://dbpedia.org/resource/A._B._Guthrie_Jr."
+        "label" : "98 Degrees discography",
+        "uri" : "http://dbpedia.org/resource/98_Degrees_discography"
       }, {
-        "label" : "A. B. Imeson",
-        "uri" : "http://dbpedia.org/resource/A._B._Imeson"
+        "label" : "99.9% Sure (I've Never Been Here Before)",
+        "uri" : "http://dbpedia.org/resource/99.9%25_Sure_(I've_Never_Been_Here_Before)"
       }, {
-        "label" : "A. B. Lull",
-        "uri" : "http://dbpedia.org/resource/A._B._Lull"
+        "label" : "99 (song)",
+        "uri" : "http://dbpedia.org/resource/99_(song)"
       }, {
-        "label" : "A. Bernard Ackerman",
-        "uri" : "http://dbpedia.org/resource/A._Bernard_Ackerman"
+        "label" : "99 Percenters",
+        "uri" : "http://dbpedia.org/resource/99_Percenters"
       }, {
-        "label" : "A. Blaine Bowman",
-        "uri" : "http://dbpedia.org/resource/A._Blaine_Bowman"
+        "label" : "9:20 Special",
+        "uri" : "http://dbpedia.org/resource/9:20_Special"
       }, {
-        "label" : "A. Brown Moore",
-        "uri" : "http://dbpedia.org/resource/A._Brown_Moore"
+        "label" : "9 Crimes",
+        "uri" : "http://dbpedia.org/resource/9_Crimes"
       }, {
-        "label" : "A. C. Lyons",
-        "uri" : "http://dbpedia.org/resource/A._C._Lyons"
+        "label" : "9 Shots",
+        "uri" : "http://dbpedia.org/resource/9_Shots"
       }, {
-        "label" : "A. C. Shanmugam",
-        "uri" : "http://dbpedia.org/resource/A._C._Shanmugam"
+        "label" : "9th Inning",
+        "uri" : "http://dbpedia.org/resource/9th_Inning"
       }, {
-        "label" : "A. C. Wise",
-        "uri" : "http://dbpedia.org/resource/A._C._Wise"
+        "label" : "A+E (song)",
+        "uri" : "http://dbpedia.org/resource/A+E_(song)"
       }, {
-        "label" : "A. Clarence Jones",
-        "uri" : "http://dbpedia.org/resource/A._Clarence_Jones"
+        "label" : "A-Teens discography",
+        "uri" : "http://dbpedia.org/resource/A-Teens_discography"
       }, {
-        "label" : "A. Clifford Jones",
-        "uri" : "http://dbpedia.org/resource/A._Clifford_Jones"
+        "label" : "A-Trak discography",
+        "uri" : "http://dbpedia.org/resource/A-Trak_discography"
       }, {
-        "label" : "A. D. Patel",
-        "uri" : "http://dbpedia.org/resource/A._D._Patel"
+        "label" : "A-Yo (Method Man & Redman song)",
+        "uri" : "http://dbpedia.org/resource/A-Yo_(Method_Man_&_Redman_song)"
       }, {
-        "label" : "A. DeWade Langley",
-        "uri" : "http://dbpedia.org/resource/A._DeWade_Langley"
+        "label" : "A-ha discography",
+        "uri" : "http://dbpedia.org/resource/A-ha_discography"
       }, {
-        "label" : "A. Duncan Carse",
-        "uri" : "http://dbpedia.org/resource/A._Duncan_Carse"
+        "label" : "A.B. Quintanilla discography",
+        "uri" : "http://dbpedia.org/resource/A.B._Quintanilla_discography"
       }, {
-        "label" : "A. E. Coleby",
-        "uri" : "http://dbpedia.org/resource/A._E._Coleby"
+        "label" : "A.D.I.D.A.S. (Korn song)",
+        "uri" : "http://dbpedia.org/resource/A.D.I.D.A.S._(Korn_song)"
       }, {
-        "label" : "A. F. K. Organski",
-        "uri" : "http://dbpedia.org/resource/A._F._K._Organski"
+        "label" : "A.M. 180",
+        "uri" : "http://dbpedia.org/resource/A.M._180"
       }, {
-        "label" : "A. G. Harbaugh",
-        "uri" : "http://dbpedia.org/resource/A._G._Harbaugh"
+        "label" : "A. G. Cook discography",
+        "uri" : "http://dbpedia.org/resource/A._G._Cook_discography"
       }, {
-        "label" : "A. G. K. Gokhale",
-        "uri" : "http://dbpedia.org/resource/A._G._K._Gokhale"
+        "label" : "A1 discography",
+        "uri" : "http://dbpedia.org/resource/A1_discography"
       }, {
-        "label" : "A. Ganeshkumar",
-        "uri" : "http://dbpedia.org/resource/A._Ganeshkumar"
+        "label" : "AAA discography",
+        "uri" : "http://dbpedia.org/resource/AAA_discography"
       }, {
-        "label" : "A. Gilbert Wright",
-        "uri" : "http://dbpedia.org/resource/A._Gilbert_Wright"
+        "label" : "AAA videography",
+        "uri" : "http://dbpedia.org/resource/AAA_videography"
       }, {
-        "label" : "A. Gnanathasan",
-        "uri" : "http://dbpedia.org/resource/A._Gnanathasan"
+        "label" : "AA UU",
+        "uri" : "http://dbpedia.org/resource/AA_UU"
       }, {
-        "label" : "A. Gordon Wetmore",
-        "uri" : "http://dbpedia.org/resource/A._Gordon_Wetmore"
+        "label" : "ABBA discography",
+        "uri" : "http://dbpedia.org/resource/ABBA_discography"
       }, {
-        "label" : "A. Grove Day",
-        "uri" : "http://dbpedia.org/resource/A._Grove_Day"
+        "label" : "ABC (Anna Book song)",
+        "uri" : "http://dbpedia.org/resource/ABC_(Anna_Book_song)"
       }, {
-        "label" : "A. H. Albut",
-        "uri" : "http://dbpedia.org/resource/A._H._Albut"
+        "label" : "ABC (The Jackson 5 song)",
+        "uri" : "http://dbpedia.org/resource/ABC_(The_Jackson_5_song)"
       }, {
-        "label" : "A. H. Hornby",
-        "uri" : "http://dbpedia.org/resource/A._H._Hornby"
+        "label" : "ABC discography",
+        "uri" : "http://dbpedia.org/resource/ABC_discography"
       }, {
-        "label" : "A. J. B. Johnston",
-        "uri" : "http://dbpedia.org/resource/A._J._B._Johnston"
+        "label" : "ADHD (Blood Red Shoes song)",
+        "uri" : "http://dbpedia.org/resource/ADHD_(Blood_Red_Shoes_song)"
       }, {
-        "label" : "A. J. Benza",
-        "uri" : "http://dbpedia.org/resource/A._J._Benza"
+        "label" : "AFI discography",
+        "uri" : "http://dbpedia.org/resource/AFI_discography"
       }, {
-        "label" : "A. J. Bernheim Brush",
-        "uri" : "http://dbpedia.org/resource/A._J._Bernheim_Brush"
+        "label" : "AI Freaks Me Out",
+        "uri" : "http://dbpedia.org/resource/AI_Freaks_Me_Out"
       }, {
-        "label" : "A. J. Healy",
-        "uri" : "http://dbpedia.org/resource/A._J._Healy"
+        "label" : "AJ Tracey discography",
+        "uri" : "http://dbpedia.org/resource/AJ_Tracey_discography"
       }, {
-        "label" : "A. J. Mogis",
-        "uri" : "http://dbpedia.org/resource/A._J._Mogis"
+        "label" : "AKA discography",
+        "uri" : "http://dbpedia.org/resource/AKA_discography"
       }, {
-        "label" : "A. J. Preller",
-        "uri" : "http://dbpedia.org/resource/A._J._Preller"
+        "label" : "AKMU discography",
+        "uri" : "http://dbpedia.org/resource/AKMU_discography"
       }, {
-        "label" : "A. J. Reynolds",
-        "uri" : "http://dbpedia.org/resource/A._J._Reynolds"
+        "label" : "AOV (song)",
+        "uri" : "http://dbpedia.org/resource/AOV_(song)"
       }, {
-        "label" : "A. Johnkumar",
-        "uri" : "http://dbpedia.org/resource/A._Johnkumar"
+        "label" : "Love, Peace And Happiness",
+        "uri" : "http://dbpedia.org/resource/Love,_Peace_And_Happiness"
       }, {
-        "label" : "A. K. Brohi",
-        "uri" : "http://dbpedia.org/resource/A._K._Brohi"
+        "label" : "Love, Truth and Honesty",
+        "uri" : "http://dbpedia.org/resource/Love,_Truth_and_Honesty"
       }, {
-        "label" : "A. K. M. Shahidul Haque",
-        "uri" : "http://dbpedia.org/resource/A._K._M._Shahidul_Haque"
+        "label" : "Love-Hate-Sex-Pain",
+        "uri" : "http://dbpedia.org/resource/Love-Hate-Sex-Pain"
       }, {
-        "label" : "A. K. Narain",
-        "uri" : "http://dbpedia.org/resource/A._K._Narain"
+        "label" : "Love2Clutch",
+        "uri" : "http://dbpedia.org/resource/Love2Clutch"
       }, {
-        "label" : "A. K. Patel",
-        "uri" : "http://dbpedia.org/resource/A._K._Patel"
+        "label" : "LoveGame",
+        "uri" : "http://dbpedia.org/resource/LoveGame"
       }, {
-        "label" : "A. K. Veerasami",
-        "uri" : "http://dbpedia.org/resource/A._K._Veerasami"
+        "label" : "LoveHate Thing",
+        "uri" : "http://dbpedia.org/resource/LoveHate_Thing"
       }, {
-        "label" : "A. Karunakaran",
-        "uri" : "http://dbpedia.org/resource/A._Karunakaran"
+        "label" : "LoveStoned",
+        "uri" : "http://dbpedia.org/resource/LoveStoned"
       }, {
-        "label" : "A. L. Narayan",
-        "uri" : "http://dbpedia.org/resource/A._L._Narayan"
+        "label" : "LoveWave",
+        "uri" : "http://dbpedia.org/resource/LoveWave"
       }, {
-        "label" : "A. L. Raghavan",
-        "uri" : "http://dbpedia.org/resource/A._L._Raghavan"
+        "label" : "Love & Devotion",
+        "uri" : "http://dbpedia.org/resource/Love_&_Devotion"
       }, {
-        "label" : "A. L. Ramesh",
-        "uri" : "http://dbpedia.org/resource/A._L._Ramesh"
+        "label" : "Love & Girls",
+        "uri" : "http://dbpedia.org/resource/Love_&_Girls"
       }, {
-        "label" : "A. L. Vijay",
-        "uri" : "http://dbpedia.org/resource/A._L._Vijay"
+        "label" : "Love & History",
+        "uri" : "http://dbpedia.org/resource/Love_&_History"
       }, {
-        "label" : "A. M. M. Naushad",
-        "uri" : "http://dbpedia.org/resource/A._M._M._Naushad"
+        "label" : "Love & Sex, Pt. 2",
+        "uri" : "http://dbpedia.org/resource/Love_&_Sex,_Pt._2"
       }, {
-        "label" : "A. M. Mathai",
-        "uri" : "http://dbpedia.org/resource/A._M._Mathai"
+        "label" : "Love 'Em All",
+        "uri" : "http://dbpedia.org/resource/Love_'Em_All"
       }, {
-        "label" : "A. Mangalam",
-        "uri" : "http://dbpedia.org/resource/A._Mangalam"
+        "label" : "Love (Can Make You Happy)",
+        "uri" : "http://dbpedia.org/resource/Love_(Can_Make_You_Happy)"
       }, {
-        "label" : "A. N. Gopal",
-        "uri" : "http://dbpedia.org/resource/A._N._Gopal"
+        "label" : "Love (DJ Trevi song)",
+        "uri" : "http://dbpedia.org/resource/Love_(DJ_Trevi_song)"
       }, {
-        "label" : "A. Oveta Fuller",
-        "uri" : "http://dbpedia.org/resource/A._Oveta_Fuller"
+        "label" : "Love (Destiny)",
+        "uri" : "http://dbpedia.org/resource/Love_(Destiny)"
       }, {
-        "label" : "A. P. Mda",
-        "uri" : "http://dbpedia.org/resource/A._P._Mda"
+        "label" : "Love (Inna song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Inna_song)"
       }, {
-        "label" : "A. P. Patro",
-        "uri" : "http://dbpedia.org/resource/A._P._Patro"
+        "label" : "Love (Is All We Need)",
+        "uri" : "http://dbpedia.org/resource/Love_(Is_All_We_Need)"
       }, {
-        "label" : "A. R. Krishnashastry",
-        "uri" : "http://dbpedia.org/resource/A._R._Krishnashastry"
+        "label" : "Love (Jana Kramer song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Jana_Kramer_song)"
       }, {
-        "label" : "A. R. Mallu",
-        "uri" : "http://dbpedia.org/resource/A._R._Mallu"
+        "label" : "Love (John Lennon song)",
+        "uri" : "http://dbpedia.org/resource/Love_(John_Lennon_song)"
       }, {
-        "label" : "A. R. Taylor",
-        "uri" : "http://dbpedia.org/resource/A._R._Taylor"
+        "label" : "Love (Kendrick Lamar song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Kendrick_Lamar_song)"
       }, {
-        "label" : "A. Rajagopal",
-        "uri" : "http://dbpedia.org/resource/A._Rajagopal"
+        "label" : "Love (Keyshia Cole song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Keyshia_Cole_song)"
       }, {
-        "label" : "A. Ranganadha Rao",
-        "uri" : "http://dbpedia.org/resource/A._Ranganadha_Rao"
+        "label" : "Love (Lana Del Rey song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Lana_Del_Rey_song)"
       }, {
-        "label" : "A. Rangaswami Iyengar",
-        "uri" : "http://dbpedia.org/resource/A._Rangaswami_Iyengar"
+        "label" : "Love (Lennon & Maisy song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Lennon_&_Maisy_song)"
       }, {
-        "label" : "A. Roberto Frisancho",
-        "uri" : "http://dbpedia.org/resource/A._Roberto_Frisancho"
+        "label" : "Love @ 1st Sight",
+        "uri" : "http://dbpedia.org/resource/Love_@_1st_Sight"
       }, {
-        "label" : "A. S. Arya",
-        "uri" : "http://dbpedia.org/resource/A._S._Arya"
+        "label" : "Love Addiction (song)",
+        "uri" : "http://dbpedia.org/resource/Love_Addiction_(song)"
       }, {
-        "label" : "A. S. Baylinson",
-        "uri" : "http://dbpedia.org/resource/A._S._Baylinson"
+        "label" : "Love After War (song)",
+        "uri" : "http://dbpedia.org/resource/Love_After_War_(song)"
       }, {
-        "label" : "A. S. Patrić",
-        "uri" : "http://dbpedia.org/resource/A._S._Patrić"
+        "label" : "Love Again (Brandy and Daniel Caesar song)",
+        "uri" : "http://dbpedia.org/resource/Love_Again_(Brandy_and_Daniel_Caesar_song)"
       }, {
-        "label" : "A. S. Rao",
-        "uri" : "http://dbpedia.org/resource/A._S._Rao"
+        "label" : "Love Again (Cedric Gervais song)",
+        "uri" : "http://dbpedia.org/resource/Love_Again_(Cedric_Gervais_song)"
       }, {
-        "label" : "A. S. W. Rosenbach",
-        "uri" : "http://dbpedia.org/resource/A._S._W._Rosenbach"
+        "label" : "Love Again (Hedley song)",
+        "uri" : "http://dbpedia.org/resource/Love_Again_(Hedley_song)"
       }, {
-        "label" : "A. Sakunthala",
-        "uri" : "http://dbpedia.org/resource/A._Sakunthala"
+        "label" : "Love Ain't",
+        "uri" : "http://dbpedia.org/resource/Love_Ain't"
       } ]
     },
     "combination" : false
@@ -322,12 +322,12 @@
     "id" : "2",
     "language" : "EN",
     "type" : "NP",
-    "bindingType" : "PERSON",
-    "returnType" : "LOCATION",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
     "frameType" : "NPP",
-    "sentences" : [ "the birth place of $x" ],
+    "sentences" : [ "the artist of $x" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthPlace> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -335,305 +335,305 @@
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
-        "label" : "2013 Hialeah shooting",
-        "uri" : "http://dbpedia.org/resource/2013_Hialeah_shooting"
+        "label" : "1959 (John Anderson song)",
+        "uri" : "http://dbpedia.org/resource/1959_(John_Anderson_song)"
       }, {
-        "label" : "2013 Santa Monica shooting",
-        "uri" : "http://dbpedia.org/resource/2013_Santa_Monica_shooting"
+        "label" : "5 O'Clock (Nonchalant song)",
+        "uri" : "http://dbpedia.org/resource/5_O'Clock_(Nonchalant_song)"
       }, {
-        "label" : "2014 Fort Hood shooting",
-        "uri" : "http://dbpedia.org/resource/2014_Fort_Hood_shooting"
+        "label" : "5 Rebbecca's",
+        "uri" : "http://dbpedia.org/resource/5_Rebbecca's"
       }, {
-        "label" : "2014 Isla Vista killings",
-        "uri" : "http://dbpedia.org/resource/2014_Isla_Vista_killings"
+        "label" : "5 Seconds of Summer discography",
+        "uri" : "http://dbpedia.org/resource/5_Seconds_of_Summer_discography"
       }, {
-        "label" : "2014 Las Vegas shootings",
-        "uri" : "http://dbpedia.org/resource/2014_Las_Vegas_shootings"
+        "label" : "5 Star (Yo Gotti song)",
+        "uri" : "http://dbpedia.org/resource/5_Star_(Yo_Gotti_song)"
       }, {
-        "label" : "2014 killings of NYPD officers",
-        "uri" : "http://dbpedia.org/resource/2014_killings_of_NYPD_officers"
+        "label" : "5 minutes avec toi",
+        "uri" : "http://dbpedia.org/resource/5_minutes_avec_toi"
       }, {
-        "label" : "2014 shootings at Parliament Hill, Ottawa",
-        "uri" : "http://dbpedia.org/resource/2014_shootings_at_Parliament_Hill,_Ottawa"
+        "label" : "65 Roses (song)",
+        "uri" : "http://dbpedia.org/resource/65_Roses_(song)"
       }, {
-        "label" : "2015 Chattanooga shootings",
-        "uri" : "http://dbpedia.org/resource/2015_Chattanooga_shootings"
+        "label" : "66 (Lil Yachty song)",
+        "uri" : "http://dbpedia.org/resource/66_(Lil_Yachty_song)"
       }, {
-        "label" : "2015 Lafayette shooting",
-        "uri" : "http://dbpedia.org/resource/2015_Lafayette_shooting"
+        "label" : "6969",
+        "uri" : "http://dbpedia.org/resource/6969"
       }, {
-        "label" : "2015 Parramatta shooting",
-        "uri" : "http://dbpedia.org/resource/2015_Parramatta_shooting"
+        "label" : "6 Feet Underground",
+        "uri" : "http://dbpedia.org/resource/6_Feet_Underground"
       }, {
-        "label" : "2015 Sousse attacks",
-        "uri" : "http://dbpedia.org/resource/2015_Sousse_attacks"
+        "label" : "6 Minutes of Pleasure",
+        "uri" : "http://dbpedia.org/resource/6_Minutes_of_Pleasure"
       }, {
-        "label" : "2016 Berlin truck attack",
-        "uri" : "http://dbpedia.org/resource/2016_Berlin_truck_attack"
+        "label" : "6 Words",
+        "uri" : "http://dbpedia.org/resource/6_Words"
       }, {
-        "label" : "2016 Munich shooting",
-        "uri" : "http://dbpedia.org/resource/2016_Munich_shooting"
+        "label" : "6 in the Mornin'",
+        "uri" : "http://dbpedia.org/resource/6_in_the_Mornin'"
       }, {
-        "label" : "2016 New York and New Jersey bombings",
-        "uri" : "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
+        "label" : "6ix9ine discography",
+        "uri" : "http://dbpedia.org/resource/6ix9ine_discography"
       }, {
-        "label" : "2016 UCLA shooting",
-        "uri" : "http://dbpedia.org/resource/2016_UCLA_shooting"
+        "label" : "6lack discography",
+        "uri" : "http://dbpedia.org/resource/6lack_discography"
       }, {
-        "label" : "2016 shooting of Almaty police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Almaty_police_officers"
+        "label" : "700 Ft. Ceiling",
+        "uri" : "http://dbpedia.org/resource/700_Ft._Ceiling"
       }, {
-        "label" : "2016 shooting of Baton Rouge police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Baton_Rouge_police_officers"
+        "label" : "747 (Strangers in the Night)",
+        "uri" : "http://dbpedia.org/resource/747_(Strangers_in_the_Night)"
       }, {
-        "label" : "2016 shooting of Dallas police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Dallas_police_officers"
+        "label" : "787 (song)",
+        "uri" : "http://dbpedia.org/resource/787_(song)"
       }, {
-        "label" : "2017 Fresno shooting spree",
-        "uri" : "http://dbpedia.org/resource/2017_Fresno_shooting_spree"
+        "label" : "7 Day Weekend (song)",
+        "uri" : "http://dbpedia.org/resource/7_Day_Weekend_(song)"
       }, {
-        "label" : "2017 New York City truck attack",
-        "uri" : "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
+        "label" : "7 Days and 7 Nights",
+        "uri" : "http://dbpedia.org/resource/7_Days_and_7_Nights"
       }, {
-        "label" : "7669 (group)",
-        "uri" : "http://dbpedia.org/resource/7669_(group)"
+        "label" : "7 Minutes (song)",
+        "uri" : "http://dbpedia.org/resource/7_Minutes_(song)"
       }, {
-        "label" : "A.Chal",
-        "uri" : "http://dbpedia.org/resource/A.Chal"
+        "label" : "7 Rooms of Gloom",
+        "uri" : "http://dbpedia.org/resource/7_Rooms_of_Gloom"
       }, {
-        "label" : "A.D.O.R.",
-        "uri" : "http://dbpedia.org/resource/A.D.O.R."
+        "label" : "7 Weeks",
+        "uri" : "http://dbpedia.org/resource/7_Weeks"
       }, {
-        "label" : "A.E. Dick Howard",
-        "uri" : "http://dbpedia.org/resource/A.E._Dick_Howard"
+        "label" : "7 Years and 50 Days (song)",
+        "uri" : "http://dbpedia.org/resource/7_Years_and_50_Days_(song)"
       }, {
-        "label" : "A.E. Hanson",
-        "uri" : "http://dbpedia.org/resource/A.E._Hanson"
+        "label" : "7th Heaven (Vanity song)",
+        "uri" : "http://dbpedia.org/resource/7th_Heaven_(Vanity_song)"
       }, {
-        "label" : "A.G. Syjuco",
-        "uri" : "http://dbpedia.org/resource/A.G._Syjuco"
+        "label" : "80's Ladies (song)",
+        "uri" : "http://dbpedia.org/resource/80's_Ladies_(song)"
       }, {
-        "label" : "A.J. Applegate",
-        "uri" : "http://dbpedia.org/resource/A.J._Applegate"
+        "label" : "80's Romance",
+        "uri" : "http://dbpedia.org/resource/80's_Romance"
       }, {
-        "label" : "A.L. Monsohn Lithography",
-        "uri" : "http://dbpedia.org/resource/A.L._Monsohn_Lithography"
+        "label" : "808 (Blaque song)",
+        "uri" : "http://dbpedia.org/resource/808_(Blaque_song)"
       }, {
-        "label" : "A.M. Parkin",
-        "uri" : "http://dbpedia.org/resource/A.M._Parkin"
+        "label" : "808 State discography",
+        "uri" : "http://dbpedia.org/resource/808_State_discography"
       }, {
-        "label" : "A.M. SNiPER",
-        "uri" : "http://dbpedia.org/resource/A.M._SNiPER"
+        "label" : "853-5937",
+        "uri" : "http://dbpedia.org/resource/853-5937"
       }, {
-        "label" : "A.N.M. Ehsanul Hoque Milan",
-        "uri" : "http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan"
+        "label" : "8Ball & MJG discography",
+        "uri" : "http://dbpedia.org/resource/8Ball_&_MJG_discography"
       }, {
-        "label" : "A. A. Bondy",
-        "uri" : "http://dbpedia.org/resource/A._A._Bondy"
+        "label" : "8th Wonder (song)",
+        "uri" : "http://dbpedia.org/resource/8th_Wonder_(song)"
       }, {
-        "label" : "A. A. H. Tuttle",
-        "uri" : "http://dbpedia.org/resource/A._A._H._Tuttle"
+        "label" : "8th of November (song)",
+        "uri" : "http://dbpedia.org/resource/8th_of_November_(song)"
       }, {
-        "label" : "A. A. Khan (academic)",
-        "uri" : "http://dbpedia.org/resource/A._A._Khan_(academic)"
+        "label" : "9,999,999 Tears",
+        "uri" : "http://dbpedia.org/resource/9,999,999_Tears"
       }, {
-        "label" : "A. Andrews",
-        "uri" : "http://dbpedia.org/resource/A._Andrews"
+        "label" : "911 Is a Joke",
+        "uri" : "http://dbpedia.org/resource/911_Is_a_Joke"
       }, {
-        "label" : "A. B. Colton",
-        "uri" : "http://dbpedia.org/resource/A._B._Colton"
+        "label" : "911 discography",
+        "uri" : "http://dbpedia.org/resource/911_discography"
       }, {
-        "label" : "A. B. Creeke",
-        "uri" : "http://dbpedia.org/resource/A._B._Creeke"
+        "label" : "93 Million Miles",
+        "uri" : "http://dbpedia.org/resource/93_Million_Miles"
       }, {
-        "label" : "A. B. Guthrie Jr.",
-        "uri" : "http://dbpedia.org/resource/A._B._Guthrie_Jr."
+        "label" : "98 Degrees discography",
+        "uri" : "http://dbpedia.org/resource/98_Degrees_discography"
       }, {
-        "label" : "A. B. Imeson",
-        "uri" : "http://dbpedia.org/resource/A._B._Imeson"
+        "label" : "99.9% Sure (I've Never Been Here Before)",
+        "uri" : "http://dbpedia.org/resource/99.9%25_Sure_(I've_Never_Been_Here_Before)"
       }, {
-        "label" : "A. B. Lull",
-        "uri" : "http://dbpedia.org/resource/A._B._Lull"
+        "label" : "99 (song)",
+        "uri" : "http://dbpedia.org/resource/99_(song)"
       }, {
-        "label" : "A. Bernard Ackerman",
-        "uri" : "http://dbpedia.org/resource/A._Bernard_Ackerman"
+        "label" : "99 Percenters",
+        "uri" : "http://dbpedia.org/resource/99_Percenters"
       }, {
-        "label" : "A. Blaine Bowman",
-        "uri" : "http://dbpedia.org/resource/A._Blaine_Bowman"
+        "label" : "9:20 Special",
+        "uri" : "http://dbpedia.org/resource/9:20_Special"
       }, {
-        "label" : "A. Brown Moore",
-        "uri" : "http://dbpedia.org/resource/A._Brown_Moore"
+        "label" : "9 Crimes",
+        "uri" : "http://dbpedia.org/resource/9_Crimes"
       }, {
-        "label" : "A. C. Lyons",
-        "uri" : "http://dbpedia.org/resource/A._C._Lyons"
+        "label" : "9 Shots",
+        "uri" : "http://dbpedia.org/resource/9_Shots"
       }, {
-        "label" : "A. C. Shanmugam",
-        "uri" : "http://dbpedia.org/resource/A._C._Shanmugam"
+        "label" : "9th Inning",
+        "uri" : "http://dbpedia.org/resource/9th_Inning"
       }, {
-        "label" : "A. C. Wise",
-        "uri" : "http://dbpedia.org/resource/A._C._Wise"
+        "label" : "A+E (song)",
+        "uri" : "http://dbpedia.org/resource/A+E_(song)"
       }, {
-        "label" : "A. Clarence Jones",
-        "uri" : "http://dbpedia.org/resource/A._Clarence_Jones"
+        "label" : "A-Teens discography",
+        "uri" : "http://dbpedia.org/resource/A-Teens_discography"
       }, {
-        "label" : "A. Clifford Jones",
-        "uri" : "http://dbpedia.org/resource/A._Clifford_Jones"
+        "label" : "A-Trak discography",
+        "uri" : "http://dbpedia.org/resource/A-Trak_discography"
       }, {
-        "label" : "A. D. Patel",
-        "uri" : "http://dbpedia.org/resource/A._D._Patel"
+        "label" : "A-Yo (Method Man & Redman song)",
+        "uri" : "http://dbpedia.org/resource/A-Yo_(Method_Man_&_Redman_song)"
       }, {
-        "label" : "A. DeWade Langley",
-        "uri" : "http://dbpedia.org/resource/A._DeWade_Langley"
+        "label" : "A-ha discography",
+        "uri" : "http://dbpedia.org/resource/A-ha_discography"
       }, {
-        "label" : "A. Duncan Carse",
-        "uri" : "http://dbpedia.org/resource/A._Duncan_Carse"
+        "label" : "A.B. Quintanilla discography",
+        "uri" : "http://dbpedia.org/resource/A.B._Quintanilla_discography"
       }, {
-        "label" : "A. E. Coleby",
-        "uri" : "http://dbpedia.org/resource/A._E._Coleby"
+        "label" : "A.D.I.D.A.S. (Korn song)",
+        "uri" : "http://dbpedia.org/resource/A.D.I.D.A.S._(Korn_song)"
       }, {
-        "label" : "A. F. K. Organski",
-        "uri" : "http://dbpedia.org/resource/A._F._K._Organski"
+        "label" : "A.M. 180",
+        "uri" : "http://dbpedia.org/resource/A.M._180"
       }, {
-        "label" : "A. G. Harbaugh",
-        "uri" : "http://dbpedia.org/resource/A._G._Harbaugh"
+        "label" : "A. G. Cook discography",
+        "uri" : "http://dbpedia.org/resource/A._G._Cook_discography"
       }, {
-        "label" : "A. G. K. Gokhale",
-        "uri" : "http://dbpedia.org/resource/A._G._K._Gokhale"
+        "label" : "A1 discography",
+        "uri" : "http://dbpedia.org/resource/A1_discography"
       }, {
-        "label" : "A. Ganeshkumar",
-        "uri" : "http://dbpedia.org/resource/A._Ganeshkumar"
+        "label" : "AAA discography",
+        "uri" : "http://dbpedia.org/resource/AAA_discography"
       }, {
-        "label" : "A. Gilbert Wright",
-        "uri" : "http://dbpedia.org/resource/A._Gilbert_Wright"
+        "label" : "AAA videography",
+        "uri" : "http://dbpedia.org/resource/AAA_videography"
       }, {
-        "label" : "A. Gnanathasan",
-        "uri" : "http://dbpedia.org/resource/A._Gnanathasan"
+        "label" : "AA UU",
+        "uri" : "http://dbpedia.org/resource/AA_UU"
       }, {
-        "label" : "A. Gordon Wetmore",
-        "uri" : "http://dbpedia.org/resource/A._Gordon_Wetmore"
+        "label" : "ABBA discography",
+        "uri" : "http://dbpedia.org/resource/ABBA_discography"
       }, {
-        "label" : "A. Grove Day",
-        "uri" : "http://dbpedia.org/resource/A._Grove_Day"
+        "label" : "ABC (Anna Book song)",
+        "uri" : "http://dbpedia.org/resource/ABC_(Anna_Book_song)"
       }, {
-        "label" : "A. H. Albut",
-        "uri" : "http://dbpedia.org/resource/A._H._Albut"
+        "label" : "ABC (The Jackson 5 song)",
+        "uri" : "http://dbpedia.org/resource/ABC_(The_Jackson_5_song)"
       }, {
-        "label" : "A. H. Hornby",
-        "uri" : "http://dbpedia.org/resource/A._H._Hornby"
+        "label" : "ABC discography",
+        "uri" : "http://dbpedia.org/resource/ABC_discography"
       }, {
-        "label" : "A. J. B. Johnston",
-        "uri" : "http://dbpedia.org/resource/A._J._B._Johnston"
+        "label" : "ADHD (Blood Red Shoes song)",
+        "uri" : "http://dbpedia.org/resource/ADHD_(Blood_Red_Shoes_song)"
       }, {
-        "label" : "A. J. Benza",
-        "uri" : "http://dbpedia.org/resource/A._J._Benza"
+        "label" : "AFI discography",
+        "uri" : "http://dbpedia.org/resource/AFI_discography"
       }, {
-        "label" : "A. J. Bernheim Brush",
-        "uri" : "http://dbpedia.org/resource/A._J._Bernheim_Brush"
+        "label" : "AI Freaks Me Out",
+        "uri" : "http://dbpedia.org/resource/AI_Freaks_Me_Out"
       }, {
-        "label" : "A. J. Healy",
-        "uri" : "http://dbpedia.org/resource/A._J._Healy"
+        "label" : "AJ Tracey discography",
+        "uri" : "http://dbpedia.org/resource/AJ_Tracey_discography"
       }, {
-        "label" : "A. J. Mogis",
-        "uri" : "http://dbpedia.org/resource/A._J._Mogis"
+        "label" : "AKA discography",
+        "uri" : "http://dbpedia.org/resource/AKA_discography"
       }, {
-        "label" : "A. J. Preller",
-        "uri" : "http://dbpedia.org/resource/A._J._Preller"
+        "label" : "AKMU discography",
+        "uri" : "http://dbpedia.org/resource/AKMU_discography"
       }, {
-        "label" : "A. J. Reynolds",
-        "uri" : "http://dbpedia.org/resource/A._J._Reynolds"
+        "label" : "AOV (song)",
+        "uri" : "http://dbpedia.org/resource/AOV_(song)"
       }, {
-        "label" : "A. Johnkumar",
-        "uri" : "http://dbpedia.org/resource/A._Johnkumar"
+        "label" : "Love, Peace And Happiness",
+        "uri" : "http://dbpedia.org/resource/Love,_Peace_And_Happiness"
       }, {
-        "label" : "A. K. Brohi",
-        "uri" : "http://dbpedia.org/resource/A._K._Brohi"
+        "label" : "Love, Truth and Honesty",
+        "uri" : "http://dbpedia.org/resource/Love,_Truth_and_Honesty"
       }, {
-        "label" : "A. K. M. Shahidul Haque",
-        "uri" : "http://dbpedia.org/resource/A._K._M._Shahidul_Haque"
+        "label" : "Love-Hate-Sex-Pain",
+        "uri" : "http://dbpedia.org/resource/Love-Hate-Sex-Pain"
       }, {
-        "label" : "A. K. Narain",
-        "uri" : "http://dbpedia.org/resource/A._K._Narain"
+        "label" : "Love2Clutch",
+        "uri" : "http://dbpedia.org/resource/Love2Clutch"
       }, {
-        "label" : "A. K. Patel",
-        "uri" : "http://dbpedia.org/resource/A._K._Patel"
+        "label" : "LoveGame",
+        "uri" : "http://dbpedia.org/resource/LoveGame"
       }, {
-        "label" : "A. K. Veerasami",
-        "uri" : "http://dbpedia.org/resource/A._K._Veerasami"
+        "label" : "LoveHate Thing",
+        "uri" : "http://dbpedia.org/resource/LoveHate_Thing"
       }, {
-        "label" : "A. Karunakaran",
-        "uri" : "http://dbpedia.org/resource/A._Karunakaran"
+        "label" : "LoveStoned",
+        "uri" : "http://dbpedia.org/resource/LoveStoned"
       }, {
-        "label" : "A. L. Narayan",
-        "uri" : "http://dbpedia.org/resource/A._L._Narayan"
+        "label" : "LoveWave",
+        "uri" : "http://dbpedia.org/resource/LoveWave"
       }, {
-        "label" : "A. L. Raghavan",
-        "uri" : "http://dbpedia.org/resource/A._L._Raghavan"
+        "label" : "Love & Devotion",
+        "uri" : "http://dbpedia.org/resource/Love_&_Devotion"
       }, {
-        "label" : "A. L. Ramesh",
-        "uri" : "http://dbpedia.org/resource/A._L._Ramesh"
+        "label" : "Love & Girls",
+        "uri" : "http://dbpedia.org/resource/Love_&_Girls"
       }, {
-        "label" : "A. L. Vijay",
-        "uri" : "http://dbpedia.org/resource/A._L._Vijay"
+        "label" : "Love & History",
+        "uri" : "http://dbpedia.org/resource/Love_&_History"
       }, {
-        "label" : "A. M. M. Naushad",
-        "uri" : "http://dbpedia.org/resource/A._M._M._Naushad"
+        "label" : "Love & Sex, Pt. 2",
+        "uri" : "http://dbpedia.org/resource/Love_&_Sex,_Pt._2"
       }, {
-        "label" : "A. M. Mathai",
-        "uri" : "http://dbpedia.org/resource/A._M._Mathai"
+        "label" : "Love 'Em All",
+        "uri" : "http://dbpedia.org/resource/Love_'Em_All"
       }, {
-        "label" : "A. Mangalam",
-        "uri" : "http://dbpedia.org/resource/A._Mangalam"
+        "label" : "Love (Can Make You Happy)",
+        "uri" : "http://dbpedia.org/resource/Love_(Can_Make_You_Happy)"
       }, {
-        "label" : "A. N. Gopal",
-        "uri" : "http://dbpedia.org/resource/A._N._Gopal"
+        "label" : "Love (DJ Trevi song)",
+        "uri" : "http://dbpedia.org/resource/Love_(DJ_Trevi_song)"
       }, {
-        "label" : "A. Oveta Fuller",
-        "uri" : "http://dbpedia.org/resource/A._Oveta_Fuller"
+        "label" : "Love (Destiny)",
+        "uri" : "http://dbpedia.org/resource/Love_(Destiny)"
       }, {
-        "label" : "A. P. Mda",
-        "uri" : "http://dbpedia.org/resource/A._P._Mda"
+        "label" : "Love (Inna song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Inna_song)"
       }, {
-        "label" : "A. P. Patro",
-        "uri" : "http://dbpedia.org/resource/A._P._Patro"
+        "label" : "Love (Is All We Need)",
+        "uri" : "http://dbpedia.org/resource/Love_(Is_All_We_Need)"
       }, {
-        "label" : "A. R. Krishnashastry",
-        "uri" : "http://dbpedia.org/resource/A._R._Krishnashastry"
+        "label" : "Love (Jana Kramer song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Jana_Kramer_song)"
       }, {
-        "label" : "A. R. Mallu",
-        "uri" : "http://dbpedia.org/resource/A._R._Mallu"
+        "label" : "Love (John Lennon song)",
+        "uri" : "http://dbpedia.org/resource/Love_(John_Lennon_song)"
       }, {
-        "label" : "A. R. Taylor",
-        "uri" : "http://dbpedia.org/resource/A._R._Taylor"
+        "label" : "Love (Kendrick Lamar song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Kendrick_Lamar_song)"
       }, {
-        "label" : "A. Rajagopal",
-        "uri" : "http://dbpedia.org/resource/A._Rajagopal"
+        "label" : "Love (Keyshia Cole song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Keyshia_Cole_song)"
       }, {
-        "label" : "A. Ranganadha Rao",
-        "uri" : "http://dbpedia.org/resource/A._Ranganadha_Rao"
+        "label" : "Love (Lana Del Rey song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Lana_Del_Rey_song)"
       }, {
-        "label" : "A. Rangaswami Iyengar",
-        "uri" : "http://dbpedia.org/resource/A._Rangaswami_Iyengar"
+        "label" : "Love (Lennon & Maisy song)",
+        "uri" : "http://dbpedia.org/resource/Love_(Lennon_&_Maisy_song)"
       }, {
-        "label" : "A. Roberto Frisancho",
-        "uri" : "http://dbpedia.org/resource/A._Roberto_Frisancho"
+        "label" : "Love @ 1st Sight",
+        "uri" : "http://dbpedia.org/resource/Love_@_1st_Sight"
       }, {
-        "label" : "A. S. Arya",
-        "uri" : "http://dbpedia.org/resource/A._S._Arya"
+        "label" : "Love Addiction (song)",
+        "uri" : "http://dbpedia.org/resource/Love_Addiction_(song)"
       }, {
-        "label" : "A. S. Baylinson",
-        "uri" : "http://dbpedia.org/resource/A._S._Baylinson"
+        "label" : "Love After War (song)",
+        "uri" : "http://dbpedia.org/resource/Love_After_War_(song)"
       }, {
-        "label" : "A. S. Patrić",
-        "uri" : "http://dbpedia.org/resource/A._S._Patrić"
+        "label" : "Love Again (Brandy and Daniel Caesar song)",
+        "uri" : "http://dbpedia.org/resource/Love_Again_(Brandy_and_Daniel_Caesar_song)"
       }, {
-        "label" : "A. S. Rao",
-        "uri" : "http://dbpedia.org/resource/A._S._Rao"
+        "label" : "Love Again (Cedric Gervais song)",
+        "uri" : "http://dbpedia.org/resource/Love_Again_(Cedric_Gervais_song)"
       }, {
-        "label" : "A. S. W. Rosenbach",
-        "uri" : "http://dbpedia.org/resource/A._S._W._Rosenbach"
+        "label" : "Love Again (Hedley song)",
+        "uri" : "http://dbpedia.org/resource/Love_Again_(Hedley_song)"
       }, {
-        "label" : "A. Sakunthala",
-        "uri" : "http://dbpedia.org/resource/A._Sakunthala"
+        "label" : "Love Ain't",
+        "uri" : "http://dbpedia.org/resource/Love_Ain't"
       } ]
     },
     "combination" : false

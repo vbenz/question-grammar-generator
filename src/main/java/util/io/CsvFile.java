@@ -66,6 +66,9 @@ public class CsvFile implements CsvConstants {
 
     }
 
+    public CsvFile() {
+    }
+
     public void writeToCSV(List<String[]> csvData) {
         if (csvData.isEmpty()) {
             System.out.println("writing csv file failed!!!");

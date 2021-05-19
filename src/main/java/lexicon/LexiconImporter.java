@@ -34,6 +34,7 @@ public class LexiconImporter {
     try (Stream<Path> paths = Files.walk(Paths.get(dir))) {
       List<Path> list = filterFiles(paths);
       for (Path file: list) {
+          System.out.println("file not working:"+file.getFileName());
         try {
           if (model == null) {
             model = serializer.read(new FileReader(file.toString()));
