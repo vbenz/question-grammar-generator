@@ -5,317 +5,15 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of ($x | THING_NP)?", "Tell me the artist of ($x | THING_NP)?", "What is the artist of ($x | THING_NP)?", "What was the artist of ($x | THING_NP)?", "Which agent is the artist of ($x | THING_NP)?", "Which agent was the artist of ($x | THING_NP)?" ],
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian clerics?", "Which is a Belgian cleric?", "Which was a Belgian cleric?", "Which were Belgian clerics?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
     "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "1959 (John Anderson song)",
-        "uri" : "http://dbpedia.org/resource/1959_(John_Anderson_song)"
-      }, {
-        "label" : "5 O'Clock (Nonchalant song)",
-        "uri" : "http://dbpedia.org/resource/5_O'Clock_(Nonchalant_song)"
-      }, {
-        "label" : "5 Rebbecca's",
-        "uri" : "http://dbpedia.org/resource/5_Rebbecca's"
-      }, {
-        "label" : "5 Seconds of Summer discography",
-        "uri" : "http://dbpedia.org/resource/5_Seconds_of_Summer_discography"
-      }, {
-        "label" : "5 Star (Yo Gotti song)",
-        "uri" : "http://dbpedia.org/resource/5_Star_(Yo_Gotti_song)"
-      }, {
-        "label" : "5 minutes avec toi",
-        "uri" : "http://dbpedia.org/resource/5_minutes_avec_toi"
-      }, {
-        "label" : "65 Roses (song)",
-        "uri" : "http://dbpedia.org/resource/65_Roses_(song)"
-      }, {
-        "label" : "66 (Lil Yachty song)",
-        "uri" : "http://dbpedia.org/resource/66_(Lil_Yachty_song)"
-      }, {
-        "label" : "6969",
-        "uri" : "http://dbpedia.org/resource/6969"
-      }, {
-        "label" : "6 Feet Underground",
-        "uri" : "http://dbpedia.org/resource/6_Feet_Underground"
-      }, {
-        "label" : "6 Minutes of Pleasure",
-        "uri" : "http://dbpedia.org/resource/6_Minutes_of_Pleasure"
-      }, {
-        "label" : "6 Words",
-        "uri" : "http://dbpedia.org/resource/6_Words"
-      }, {
-        "label" : "6 in the Mornin'",
-        "uri" : "http://dbpedia.org/resource/6_in_the_Mornin'"
-      }, {
-        "label" : "6ix9ine discography",
-        "uri" : "http://dbpedia.org/resource/6ix9ine_discography"
-      }, {
-        "label" : "6lack discography",
-        "uri" : "http://dbpedia.org/resource/6lack_discography"
-      }, {
-        "label" : "700 Ft. Ceiling",
-        "uri" : "http://dbpedia.org/resource/700_Ft._Ceiling"
-      }, {
-        "label" : "747 (Strangers in the Night)",
-        "uri" : "http://dbpedia.org/resource/747_(Strangers_in_the_Night)"
-      }, {
-        "label" : "787 (song)",
-        "uri" : "http://dbpedia.org/resource/787_(song)"
-      }, {
-        "label" : "7 Day Weekend (song)",
-        "uri" : "http://dbpedia.org/resource/7_Day_Weekend_(song)"
-      }, {
-        "label" : "7 Days and 7 Nights",
-        "uri" : "http://dbpedia.org/resource/7_Days_and_7_Nights"
-      }, {
-        "label" : "7 Minutes (song)",
-        "uri" : "http://dbpedia.org/resource/7_Minutes_(song)"
-      }, {
-        "label" : "7 Rooms of Gloom",
-        "uri" : "http://dbpedia.org/resource/7_Rooms_of_Gloom"
-      }, {
-        "label" : "7 Weeks",
-        "uri" : "http://dbpedia.org/resource/7_Weeks"
-      }, {
-        "label" : "7 Years and 50 Days (song)",
-        "uri" : "http://dbpedia.org/resource/7_Years_and_50_Days_(song)"
-      }, {
-        "label" : "7th Heaven (Vanity song)",
-        "uri" : "http://dbpedia.org/resource/7th_Heaven_(Vanity_song)"
-      }, {
-        "label" : "80's Ladies (song)",
-        "uri" : "http://dbpedia.org/resource/80's_Ladies_(song)"
-      }, {
-        "label" : "80's Romance",
-        "uri" : "http://dbpedia.org/resource/80's_Romance"
-      }, {
-        "label" : "808 (Blaque song)",
-        "uri" : "http://dbpedia.org/resource/808_(Blaque_song)"
-      }, {
-        "label" : "808 State discography",
-        "uri" : "http://dbpedia.org/resource/808_State_discography"
-      }, {
-        "label" : "853-5937",
-        "uri" : "http://dbpedia.org/resource/853-5937"
-      }, {
-        "label" : "8Ball & MJG discography",
-        "uri" : "http://dbpedia.org/resource/8Ball_&_MJG_discography"
-      }, {
-        "label" : "8th Wonder (song)",
-        "uri" : "http://dbpedia.org/resource/8th_Wonder_(song)"
-      }, {
-        "label" : "8th of November (song)",
-        "uri" : "http://dbpedia.org/resource/8th_of_November_(song)"
-      }, {
-        "label" : "9,999,999 Tears",
-        "uri" : "http://dbpedia.org/resource/9,999,999_Tears"
-      }, {
-        "label" : "911 Is a Joke",
-        "uri" : "http://dbpedia.org/resource/911_Is_a_Joke"
-      }, {
-        "label" : "911 discography",
-        "uri" : "http://dbpedia.org/resource/911_discography"
-      }, {
-        "label" : "93 Million Miles",
-        "uri" : "http://dbpedia.org/resource/93_Million_Miles"
-      }, {
-        "label" : "98 Degrees discography",
-        "uri" : "http://dbpedia.org/resource/98_Degrees_discography"
-      }, {
-        "label" : "99.9% Sure (I've Never Been Here Before)",
-        "uri" : "http://dbpedia.org/resource/99.9%25_Sure_(I've_Never_Been_Here_Before)"
-      }, {
-        "label" : "99 (song)",
-        "uri" : "http://dbpedia.org/resource/99_(song)"
-      }, {
-        "label" : "99 Percenters",
-        "uri" : "http://dbpedia.org/resource/99_Percenters"
-      }, {
-        "label" : "9:20 Special",
-        "uri" : "http://dbpedia.org/resource/9:20_Special"
-      }, {
-        "label" : "9 Crimes",
-        "uri" : "http://dbpedia.org/resource/9_Crimes"
-      }, {
-        "label" : "9 Shots",
-        "uri" : "http://dbpedia.org/resource/9_Shots"
-      }, {
-        "label" : "9th Inning",
-        "uri" : "http://dbpedia.org/resource/9th_Inning"
-      }, {
-        "label" : "A+E (song)",
-        "uri" : "http://dbpedia.org/resource/A+E_(song)"
-      }, {
-        "label" : "A-Teens discography",
-        "uri" : "http://dbpedia.org/resource/A-Teens_discography"
-      }, {
-        "label" : "A-Trak discography",
-        "uri" : "http://dbpedia.org/resource/A-Trak_discography"
-      }, {
-        "label" : "A-Yo (Method Man & Redman song)",
-        "uri" : "http://dbpedia.org/resource/A-Yo_(Method_Man_&_Redman_song)"
-      }, {
-        "label" : "A-ha discography",
-        "uri" : "http://dbpedia.org/resource/A-ha_discography"
-      }, {
-        "label" : "A.B. Quintanilla discography",
-        "uri" : "http://dbpedia.org/resource/A.B._Quintanilla_discography"
-      }, {
-        "label" : "A.D.I.D.A.S. (Korn song)",
-        "uri" : "http://dbpedia.org/resource/A.D.I.D.A.S._(Korn_song)"
-      }, {
-        "label" : "A.M. 180",
-        "uri" : "http://dbpedia.org/resource/A.M._180"
-      }, {
-        "label" : "A. G. Cook discography",
-        "uri" : "http://dbpedia.org/resource/A._G._Cook_discography"
-      }, {
-        "label" : "A1 discography",
-        "uri" : "http://dbpedia.org/resource/A1_discography"
-      }, {
-        "label" : "AAA discography",
-        "uri" : "http://dbpedia.org/resource/AAA_discography"
-      }, {
-        "label" : "AAA videography",
-        "uri" : "http://dbpedia.org/resource/AAA_videography"
-      }, {
-        "label" : "AA UU",
-        "uri" : "http://dbpedia.org/resource/AA_UU"
-      }, {
-        "label" : "ABBA discography",
-        "uri" : "http://dbpedia.org/resource/ABBA_discography"
-      }, {
-        "label" : "ABC (Anna Book song)",
-        "uri" : "http://dbpedia.org/resource/ABC_(Anna_Book_song)"
-      }, {
-        "label" : "ABC (The Jackson 5 song)",
-        "uri" : "http://dbpedia.org/resource/ABC_(The_Jackson_5_song)"
-      }, {
-        "label" : "ABC discography",
-        "uri" : "http://dbpedia.org/resource/ABC_discography"
-      }, {
-        "label" : "ADHD (Blood Red Shoes song)",
-        "uri" : "http://dbpedia.org/resource/ADHD_(Blood_Red_Shoes_song)"
-      }, {
-        "label" : "AFI discography",
-        "uri" : "http://dbpedia.org/resource/AFI_discography"
-      }, {
-        "label" : "AI Freaks Me Out",
-        "uri" : "http://dbpedia.org/resource/AI_Freaks_Me_Out"
-      }, {
-        "label" : "AJ Tracey discography",
-        "uri" : "http://dbpedia.org/resource/AJ_Tracey_discography"
-      }, {
-        "label" : "AKA discography",
-        "uri" : "http://dbpedia.org/resource/AKA_discography"
-      }, {
-        "label" : "AKMU discography",
-        "uri" : "http://dbpedia.org/resource/AKMU_discography"
-      }, {
-        "label" : "AOV (song)",
-        "uri" : "http://dbpedia.org/resource/AOV_(song)"
-      }, {
-        "label" : "Love, Peace And Happiness",
-        "uri" : "http://dbpedia.org/resource/Love,_Peace_And_Happiness"
-      }, {
-        "label" : "Love, Truth and Honesty",
-        "uri" : "http://dbpedia.org/resource/Love,_Truth_and_Honesty"
-      }, {
-        "label" : "Love-Hate-Sex-Pain",
-        "uri" : "http://dbpedia.org/resource/Love-Hate-Sex-Pain"
-      }, {
-        "label" : "Love2Clutch",
-        "uri" : "http://dbpedia.org/resource/Love2Clutch"
-      }, {
-        "label" : "LoveGame",
-        "uri" : "http://dbpedia.org/resource/LoveGame"
-      }, {
-        "label" : "LoveHate Thing",
-        "uri" : "http://dbpedia.org/resource/LoveHate_Thing"
-      }, {
-        "label" : "LoveStoned",
-        "uri" : "http://dbpedia.org/resource/LoveStoned"
-      }, {
-        "label" : "LoveWave",
-        "uri" : "http://dbpedia.org/resource/LoveWave"
-      }, {
-        "label" : "Love & Devotion",
-        "uri" : "http://dbpedia.org/resource/Love_&_Devotion"
-      }, {
-        "label" : "Love & Girls",
-        "uri" : "http://dbpedia.org/resource/Love_&_Girls"
-      }, {
-        "label" : "Love & History",
-        "uri" : "http://dbpedia.org/resource/Love_&_History"
-      }, {
-        "label" : "Love & Sex, Pt. 2",
-        "uri" : "http://dbpedia.org/resource/Love_&_Sex,_Pt._2"
-      }, {
-        "label" : "Love 'Em All",
-        "uri" : "http://dbpedia.org/resource/Love_'Em_All"
-      }, {
-        "label" : "Love (Can Make You Happy)",
-        "uri" : "http://dbpedia.org/resource/Love_(Can_Make_You_Happy)"
-      }, {
-        "label" : "Love (DJ Trevi song)",
-        "uri" : "http://dbpedia.org/resource/Love_(DJ_Trevi_song)"
-      }, {
-        "label" : "Love (Destiny)",
-        "uri" : "http://dbpedia.org/resource/Love_(Destiny)"
-      }, {
-        "label" : "Love (Inna song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Inna_song)"
-      }, {
-        "label" : "Love (Is All We Need)",
-        "uri" : "http://dbpedia.org/resource/Love_(Is_All_We_Need)"
-      }, {
-        "label" : "Love (Jana Kramer song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Jana_Kramer_song)"
-      }, {
-        "label" : "Love (John Lennon song)",
-        "uri" : "http://dbpedia.org/resource/Love_(John_Lennon_song)"
-      }, {
-        "label" : "Love (Kendrick Lamar song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Kendrick_Lamar_song)"
-      }, {
-        "label" : "Love (Keyshia Cole song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Keyshia_Cole_song)"
-      }, {
-        "label" : "Love (Lana Del Rey song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Lana_Del_Rey_song)"
-      }, {
-        "label" : "Love (Lennon & Maisy song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Lennon_&_Maisy_song)"
-      }, {
-        "label" : "Love @ 1st Sight",
-        "uri" : "http://dbpedia.org/resource/Love_@_1st_Sight"
-      }, {
-        "label" : "Love Addiction (song)",
-        "uri" : "http://dbpedia.org/resource/Love_Addiction_(song)"
-      }, {
-        "label" : "Love After War (song)",
-        "uri" : "http://dbpedia.org/resource/Love_After_War_(song)"
-      }, {
-        "label" : "Love Again (Brandy and Daniel Caesar song)",
-        "uri" : "http://dbpedia.org/resource/Love_Again_(Brandy_and_Daniel_Caesar_song)"
-      }, {
-        "label" : "Love Again (Cedric Gervais song)",
-        "uri" : "http://dbpedia.org/resource/Love_Again_(Cedric_Gervais_song)"
-      }, {
-        "label" : "Love Again (Hedley song)",
-        "uri" : "http://dbpedia.org/resource/Love_Again_(Hedley_song)"
-      }, {
-        "label" : "Love Ain't",
-        "uri" : "http://dbpedia.org/resource/Love_Ain't"
-      } ]
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
     },
     "combination" : false
   }, {
@@ -324,321 +22,631 @@
     "type" : "NP",
     "bindingType" : "THING",
     "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "the artist of $x" ],
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian cleric", "Belgian clerics" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
     "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "1959 (John Anderson song)",
-        "uri" : "http://dbpedia.org/resource/1959_(John_Anderson_song)"
-      }, {
-        "label" : "5 O'Clock (Nonchalant song)",
-        "uri" : "http://dbpedia.org/resource/5_O'Clock_(Nonchalant_song)"
-      }, {
-        "label" : "5 Rebbecca's",
-        "uri" : "http://dbpedia.org/resource/5_Rebbecca's"
-      }, {
-        "label" : "5 Seconds of Summer discography",
-        "uri" : "http://dbpedia.org/resource/5_Seconds_of_Summer_discography"
-      }, {
-        "label" : "5 Star (Yo Gotti song)",
-        "uri" : "http://dbpedia.org/resource/5_Star_(Yo_Gotti_song)"
-      }, {
-        "label" : "5 minutes avec toi",
-        "uri" : "http://dbpedia.org/resource/5_minutes_avec_toi"
-      }, {
-        "label" : "65 Roses (song)",
-        "uri" : "http://dbpedia.org/resource/65_Roses_(song)"
-      }, {
-        "label" : "66 (Lil Yachty song)",
-        "uri" : "http://dbpedia.org/resource/66_(Lil_Yachty_song)"
-      }, {
-        "label" : "6969",
-        "uri" : "http://dbpedia.org/resource/6969"
-      }, {
-        "label" : "6 Feet Underground",
-        "uri" : "http://dbpedia.org/resource/6_Feet_Underground"
-      }, {
-        "label" : "6 Minutes of Pleasure",
-        "uri" : "http://dbpedia.org/resource/6_Minutes_of_Pleasure"
-      }, {
-        "label" : "6 Words",
-        "uri" : "http://dbpedia.org/resource/6_Words"
-      }, {
-        "label" : "6 in the Mornin'",
-        "uri" : "http://dbpedia.org/resource/6_in_the_Mornin'"
-      }, {
-        "label" : "6ix9ine discography",
-        "uri" : "http://dbpedia.org/resource/6ix9ine_discography"
-      }, {
-        "label" : "6lack discography",
-        "uri" : "http://dbpedia.org/resource/6lack_discography"
-      }, {
-        "label" : "700 Ft. Ceiling",
-        "uri" : "http://dbpedia.org/resource/700_Ft._Ceiling"
-      }, {
-        "label" : "747 (Strangers in the Night)",
-        "uri" : "http://dbpedia.org/resource/747_(Strangers_in_the_Night)"
-      }, {
-        "label" : "787 (song)",
-        "uri" : "http://dbpedia.org/resource/787_(song)"
-      }, {
-        "label" : "7 Day Weekend (song)",
-        "uri" : "http://dbpedia.org/resource/7_Day_Weekend_(song)"
-      }, {
-        "label" : "7 Days and 7 Nights",
-        "uri" : "http://dbpedia.org/resource/7_Days_and_7_Nights"
-      }, {
-        "label" : "7 Minutes (song)",
-        "uri" : "http://dbpedia.org/resource/7_Minutes_(song)"
-      }, {
-        "label" : "7 Rooms of Gloom",
-        "uri" : "http://dbpedia.org/resource/7_Rooms_of_Gloom"
-      }, {
-        "label" : "7 Weeks",
-        "uri" : "http://dbpedia.org/resource/7_Weeks"
-      }, {
-        "label" : "7 Years and 50 Days (song)",
-        "uri" : "http://dbpedia.org/resource/7_Years_and_50_Days_(song)"
-      }, {
-        "label" : "7th Heaven (Vanity song)",
-        "uri" : "http://dbpedia.org/resource/7th_Heaven_(Vanity_song)"
-      }, {
-        "label" : "80's Ladies (song)",
-        "uri" : "http://dbpedia.org/resource/80's_Ladies_(song)"
-      }, {
-        "label" : "80's Romance",
-        "uri" : "http://dbpedia.org/resource/80's_Romance"
-      }, {
-        "label" : "808 (Blaque song)",
-        "uri" : "http://dbpedia.org/resource/808_(Blaque_song)"
-      }, {
-        "label" : "808 State discography",
-        "uri" : "http://dbpedia.org/resource/808_State_discography"
-      }, {
-        "label" : "853-5937",
-        "uri" : "http://dbpedia.org/resource/853-5937"
-      }, {
-        "label" : "8Ball & MJG discography",
-        "uri" : "http://dbpedia.org/resource/8Ball_&_MJG_discography"
-      }, {
-        "label" : "8th Wonder (song)",
-        "uri" : "http://dbpedia.org/resource/8th_Wonder_(song)"
-      }, {
-        "label" : "8th of November (song)",
-        "uri" : "http://dbpedia.org/resource/8th_of_November_(song)"
-      }, {
-        "label" : "9,999,999 Tears",
-        "uri" : "http://dbpedia.org/resource/9,999,999_Tears"
-      }, {
-        "label" : "911 Is a Joke",
-        "uri" : "http://dbpedia.org/resource/911_Is_a_Joke"
-      }, {
-        "label" : "911 discography",
-        "uri" : "http://dbpedia.org/resource/911_discography"
-      }, {
-        "label" : "93 Million Miles",
-        "uri" : "http://dbpedia.org/resource/93_Million_Miles"
-      }, {
-        "label" : "98 Degrees discography",
-        "uri" : "http://dbpedia.org/resource/98_Degrees_discography"
-      }, {
-        "label" : "99.9% Sure (I've Never Been Here Before)",
-        "uri" : "http://dbpedia.org/resource/99.9%25_Sure_(I've_Never_Been_Here_Before)"
-      }, {
-        "label" : "99 (song)",
-        "uri" : "http://dbpedia.org/resource/99_(song)"
-      }, {
-        "label" : "99 Percenters",
-        "uri" : "http://dbpedia.org/resource/99_Percenters"
-      }, {
-        "label" : "9:20 Special",
-        "uri" : "http://dbpedia.org/resource/9:20_Special"
-      }, {
-        "label" : "9 Crimes",
-        "uri" : "http://dbpedia.org/resource/9_Crimes"
-      }, {
-        "label" : "9 Shots",
-        "uri" : "http://dbpedia.org/resource/9_Shots"
-      }, {
-        "label" : "9th Inning",
-        "uri" : "http://dbpedia.org/resource/9th_Inning"
-      }, {
-        "label" : "A+E (song)",
-        "uri" : "http://dbpedia.org/resource/A+E_(song)"
-      }, {
-        "label" : "A-Teens discography",
-        "uri" : "http://dbpedia.org/resource/A-Teens_discography"
-      }, {
-        "label" : "A-Trak discography",
-        "uri" : "http://dbpedia.org/resource/A-Trak_discography"
-      }, {
-        "label" : "A-Yo (Method Man & Redman song)",
-        "uri" : "http://dbpedia.org/resource/A-Yo_(Method_Man_&_Redman_song)"
-      }, {
-        "label" : "A-ha discography",
-        "uri" : "http://dbpedia.org/resource/A-ha_discography"
-      }, {
-        "label" : "A.B. Quintanilla discography",
-        "uri" : "http://dbpedia.org/resource/A.B._Quintanilla_discography"
-      }, {
-        "label" : "A.D.I.D.A.S. (Korn song)",
-        "uri" : "http://dbpedia.org/resource/A.D.I.D.A.S._(Korn_song)"
-      }, {
-        "label" : "A.M. 180",
-        "uri" : "http://dbpedia.org/resource/A.M._180"
-      }, {
-        "label" : "A. G. Cook discography",
-        "uri" : "http://dbpedia.org/resource/A._G._Cook_discography"
-      }, {
-        "label" : "A1 discography",
-        "uri" : "http://dbpedia.org/resource/A1_discography"
-      }, {
-        "label" : "AAA discography",
-        "uri" : "http://dbpedia.org/resource/AAA_discography"
-      }, {
-        "label" : "AAA videography",
-        "uri" : "http://dbpedia.org/resource/AAA_videography"
-      }, {
-        "label" : "AA UU",
-        "uri" : "http://dbpedia.org/resource/AA_UU"
-      }, {
-        "label" : "ABBA discography",
-        "uri" : "http://dbpedia.org/resource/ABBA_discography"
-      }, {
-        "label" : "ABC (Anna Book song)",
-        "uri" : "http://dbpedia.org/resource/ABC_(Anna_Book_song)"
-      }, {
-        "label" : "ABC (The Jackson 5 song)",
-        "uri" : "http://dbpedia.org/resource/ABC_(The_Jackson_5_song)"
-      }, {
-        "label" : "ABC discography",
-        "uri" : "http://dbpedia.org/resource/ABC_discography"
-      }, {
-        "label" : "ADHD (Blood Red Shoes song)",
-        "uri" : "http://dbpedia.org/resource/ADHD_(Blood_Red_Shoes_song)"
-      }, {
-        "label" : "AFI discography",
-        "uri" : "http://dbpedia.org/resource/AFI_discography"
-      }, {
-        "label" : "AI Freaks Me Out",
-        "uri" : "http://dbpedia.org/resource/AI_Freaks_Me_Out"
-      }, {
-        "label" : "AJ Tracey discography",
-        "uri" : "http://dbpedia.org/resource/AJ_Tracey_discography"
-      }, {
-        "label" : "AKA discography",
-        "uri" : "http://dbpedia.org/resource/AKA_discography"
-      }, {
-        "label" : "AKMU discography",
-        "uri" : "http://dbpedia.org/resource/AKMU_discography"
-      }, {
-        "label" : "AOV (song)",
-        "uri" : "http://dbpedia.org/resource/AOV_(song)"
-      }, {
-        "label" : "Love, Peace And Happiness",
-        "uri" : "http://dbpedia.org/resource/Love,_Peace_And_Happiness"
-      }, {
-        "label" : "Love, Truth and Honesty",
-        "uri" : "http://dbpedia.org/resource/Love,_Truth_and_Honesty"
-      }, {
-        "label" : "Love-Hate-Sex-Pain",
-        "uri" : "http://dbpedia.org/resource/Love-Hate-Sex-Pain"
-      }, {
-        "label" : "Love2Clutch",
-        "uri" : "http://dbpedia.org/resource/Love2Clutch"
-      }, {
-        "label" : "LoveGame",
-        "uri" : "http://dbpedia.org/resource/LoveGame"
-      }, {
-        "label" : "LoveHate Thing",
-        "uri" : "http://dbpedia.org/resource/LoveHate_Thing"
-      }, {
-        "label" : "LoveStoned",
-        "uri" : "http://dbpedia.org/resource/LoveStoned"
-      }, {
-        "label" : "LoveWave",
-        "uri" : "http://dbpedia.org/resource/LoveWave"
-      }, {
-        "label" : "Love & Devotion",
-        "uri" : "http://dbpedia.org/resource/Love_&_Devotion"
-      }, {
-        "label" : "Love & Girls",
-        "uri" : "http://dbpedia.org/resource/Love_&_Girls"
-      }, {
-        "label" : "Love & History",
-        "uri" : "http://dbpedia.org/resource/Love_&_History"
-      }, {
-        "label" : "Love & Sex, Pt. 2",
-        "uri" : "http://dbpedia.org/resource/Love_&_Sex,_Pt._2"
-      }, {
-        "label" : "Love 'Em All",
-        "uri" : "http://dbpedia.org/resource/Love_'Em_All"
-      }, {
-        "label" : "Love (Can Make You Happy)",
-        "uri" : "http://dbpedia.org/resource/Love_(Can_Make_You_Happy)"
-      }, {
-        "label" : "Love (DJ Trevi song)",
-        "uri" : "http://dbpedia.org/resource/Love_(DJ_Trevi_song)"
-      }, {
-        "label" : "Love (Destiny)",
-        "uri" : "http://dbpedia.org/resource/Love_(Destiny)"
-      }, {
-        "label" : "Love (Inna song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Inna_song)"
-      }, {
-        "label" : "Love (Is All We Need)",
-        "uri" : "http://dbpedia.org/resource/Love_(Is_All_We_Need)"
-      }, {
-        "label" : "Love (Jana Kramer song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Jana_Kramer_song)"
-      }, {
-        "label" : "Love (John Lennon song)",
-        "uri" : "http://dbpedia.org/resource/Love_(John_Lennon_song)"
-      }, {
-        "label" : "Love (Kendrick Lamar song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Kendrick_Lamar_song)"
-      }, {
-        "label" : "Love (Keyshia Cole song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Keyshia_Cole_song)"
-      }, {
-        "label" : "Love (Lana Del Rey song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Lana_Del_Rey_song)"
-      }, {
-        "label" : "Love (Lennon & Maisy song)",
-        "uri" : "http://dbpedia.org/resource/Love_(Lennon_&_Maisy_song)"
-      }, {
-        "label" : "Love @ 1st Sight",
-        "uri" : "http://dbpedia.org/resource/Love_@_1st_Sight"
-      }, {
-        "label" : "Love Addiction (song)",
-        "uri" : "http://dbpedia.org/resource/Love_Addiction_(song)"
-      }, {
-        "label" : "Love After War (song)",
-        "uri" : "http://dbpedia.org/resource/Love_After_War_(song)"
-      }, {
-        "label" : "Love Again (Brandy and Daniel Caesar song)",
-        "uri" : "http://dbpedia.org/resource/Love_Again_(Brandy_and_Daniel_Caesar_song)"
-      }, {
-        "label" : "Love Again (Cedric Gervais song)",
-        "uri" : "http://dbpedia.org/resource/Love_Again_(Cedric_Gervais_song)"
-      }, {
-        "label" : "Love Again (Hedley song)",
-        "uri" : "http://dbpedia.org/resource/Love_Again_(Hedley_song)"
-      }, {
-        "label" : "Love Ain't",
-        "uri" : "http://dbpedia.org/resource/Love_Ain't"
-      } ]
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
     },
     "combination" : false
   }, {
     "id" : "3",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian office holders?", "Which is a Belgian office holder?", "Which was a Belgian office holder?", "Which were Belgian office holders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "4",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian office holder", "Belgian office holders" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "5",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian agents?", "Which is a Belgian agent?", "Which was a Belgian agent?", "Which were Belgian agents?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "6",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian agent", "Belgian agents" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "7",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian economists?", "Which is a Belgian economist?", "Which was a Belgian economist?", "Which were Belgian economists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "8",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian economist", "Belgian economists" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "9",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian motorcycle riders?", "Which is a Belgian motorcycle rider?", "Which was a Belgian motorcycle rider?", "Which were Belgian motorcycle riders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "10",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian motorcycle rider", "Belgian motorcycle riders" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "11",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian artists?", "Which is a Belgian artist?", "Which was a Belgian artist?", "Which were Belgian artists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "12",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian artist", "Belgian artists" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "13",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian athletes?", "Which is a Belgian athlete?", "Which was a Belgian athlete?", "Which were Belgian athletes?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "14",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian athlete", "Belgian athletes" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "15",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian scientists?", "Which is a Belgian scientist?", "Which was a Belgian scientist?", "Which were Belgian scientists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "16",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian scientist", "Belgian scientists" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "17",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian architects?", "Which is a Belgian architect?", "Which was a Belgian architect?", "Which were Belgian architects?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "18",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian architect", "Belgian architects" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "19",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian golf players?", "Which is a Belgian golf player?", "Which was a Belgian golf player?", "Which were Belgian golf players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "20",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian golf player", "Belgian golf players" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "21",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian racing drivers?", "Which is a Belgian racing driver?", "Which was a Belgian racing driver?", "Which were Belgian racing drivers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "22",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian racing driver", "Belgian racing drivers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "23",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian politicians?", "Which is a Belgian politician?", "Which was a Belgian politician?", "Which were Belgian politicians?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "24",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian politician", "Belgian politicians" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "25",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian swimmers?", "Which is a Belgian swimmer?", "Which was a Belgian swimmer?", "Which were Belgian swimmers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "26",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian swimmer", "Belgian swimmers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "27",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian volleyball players?", "Which is a Belgian volleyball player?", "Which was a Belgian volleyball player?", "Which were Belgian volleyball players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "28",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian volleyball player", "Belgian volleyball players" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "29",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian fashion designers?", "Which is a Belgian fashion designer?", "Which was a Belgian fashion designer?", "Which were Belgian fashion designers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FashionDesigner>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "30",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian fashion designer", "Belgian fashion designers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FashionDesigner>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "31",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian persons?", "Which is a Belgian person?", "Which was a Belgian person?", "Which were Belgian persons?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "32",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian person", "Belgian persons" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "33",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian comics creators?", "Which is a Belgian comics creator?", "Which was a Belgian comics creator?", "Which were Belgian comics creators?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "34",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian comics creator", "Belgian comics creators" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "35",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian writers?", "Which is a Belgian writer?", "Which was a Belgian writer?", "Which were Belgian writers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "36",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian writer", "Belgian writers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "37",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian motorsport racers?", "Which is a Belgian motorsport racer?", "Which was a Belgian motorsport racer?", "Which were Belgian motorsport racers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "38",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Belgian motorsport racer", "Belgian motorsport racers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",

@@ -17,6 +17,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
+import java.net.URISyntaxException;
 import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.List;
@@ -30,17 +31,16 @@ import util.io.FileUtils;
 public class QueGG {
 
     private static final Logger LOG = LogManager.getLogger(QueGG.class);
-    private static String GenerateJson = "generate";
-    private static String CreateCsv = "create";
-    private static String SEARCH = "search";
+    private static String GENERATE_JSON = "generate";
+    private static String CREATE_CSV = "CREATE_CSV";
     private static String BaseDir = "";
     private static String QUESTION_ANSWER_LOCATION = BaseDir + "questions/";
-    private static String QUESTION_ANSWER_FILE = "questions.txt";
+    //private static String QUESTION_ANSWER_LOCATION =  "/tmp/";
     private static String QUESTION_ANSWER_CSV_FILE = "questions.csv";
     private static String entityLabelDir = "src/main/resources/entityLabels/";
    
     public static void main(String[] args) throws Exception {
-        String search=GenerateJson+CreateCsv;
+        String search=GENERATE_JSON+CREATE_CSV;
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
 
         try {
@@ -57,6 +57,7 @@ public class QueGG {
             String outputDir = Path.of(args[2]).toString();
             String numberOfEntitiesString=Path.of(args[3]).toString();
             Integer maxNumberOfEntities=Integer.parseInt(numberOfEntitiesString);
+            String syntacticFrame="NounPPFrame";
               queGG.init(language, inputDir, outputDir);
                 List<File> fileList = FileUtils.getFiles(outputDir+"/", "grammar_FULL_DATASET_EN", ".json");
                 if (fileList.isEmpty()) {
@@ -83,6 +84,7 @@ public class QueGG {
             LOG.error("Could not create grammar: {}", e.getMessage());
         }
     }
+
 
     private void loadInputAndGenerate(Language lang, String inputDir, String outputDir) throws
             IOException,

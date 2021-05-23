@@ -31,22 +31,18 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class ReadAndWriteQuestions {
 
-    public String[] header = new String[]{id, question, sparql, answer};
+    public String[] header = new String[]{id, question, sparql, answer, frame};
     public static String FRAMETYPE_NPP = "NPP";
     public static final String id = "id";
     public static final String question = "question";
     public static final String sparql = "sparql";
     public static final String answer = "answer";
+    public static final String frame = "frame";
     public CSVWriter csvWriter;
     public String questionAnswerFile=null;
     private Set<String> excludes=new HashSet<String>();
     private Integer maxNumberOfEntities=100;
    
-    public ReadAndWriteQuestions(String questionAnswerFile) throws Exception {
-        this.initialExcluded();
-       this.questionAnswerFile=questionAnswerFile;
-    }
-
     public ReadAndWriteQuestions(String questionAnswerFile, Integer maxNumberOfEntities) {
        this.initialExcluded();
        this.questionAnswerFile=questionAnswerFile;
@@ -57,13 +53,12 @@ public class ReadAndWriteQuestions {
         String sparql = null;
         Integer index = 0;
 
-            //this.csvWriter = new CSVWriter(new FileWriter(questionAnswerFile));
-            this.csvWriter = new CSVWriter(new FileWriter(questionAnswerFile, true));
-            //this.csvWriter.writeNext(header);
+            this.csvWriter = new CSVWriter(new FileWriter(questionAnswerFile));
+            //this.csvWriter = new CSVWriter(new FileWriter(questionAnswerFile, true));
+            this.csvWriter.writeNext(header);
         
 
         for (File file : fileList) {
-            System.out.println("file::"+file.getName());
             index = index + 1;
             ObjectMapper mapper = new ObjectMapper();
             GrammarEntries grammarEntries = mapper.readValue(file, GrammarEntries.class);
@@ -80,18 +75,20 @@ public class ReadAndWriteQuestions {
                 String returnVairable = grammarEntryUnit.getReturnVariable();
                 String retunrStr=grammarEntryUnit.getBindingType();
                 String entityFileName=entityDir+"ENTITY_LABEL_LIST"+"_"+retunrStr.toLowerCase()+".txt";
+                String syntacticFrame=grammarEntryUnit.getFrameType();
                 File entityFile=new File(entityFileName);
                 List<UriLabel> bindingList=this.getExtendedBindingList(grammarEntryUnit.getBindingList(),entityFile);
-                noIndex =this.replaceVariables(bindingList, sparql, returnVairable,grammarEntryUnit.getSentences(),noIndex);
+                noIndex =this.replaceVariables(bindingList, sparql, returnVairable,grammarEntryUnit.getSentences(),syntacticFrame,noIndex);
                 noIndex = noIndex + 1;
                 System.out.println("index:" + index + " Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
                 idIndex = idIndex + 1;
             }
         }
+        this.csvWriter.close();
 
     }
     
-    private Integer replaceVariables(List<UriLabel> uriLabels, String sparqlOrg, String frameType, List<String> questions, Integer rowIndex) {
+    private Integer replaceVariables(List<UriLabel> uriLabels, String sparqlOrg, String frameType, List<String> questions, String syntacticFrame,Integer rowIndex) {
         Integer index = 0;
         List< String[]> rows = new ArrayList<String[]>();
         for (UriLabel uriLabel : uriLabels) {
@@ -109,7 +106,7 @@ public class ReadAndWriteQuestions {
             index = index + 1;
             sparql=this.modifySparql(sparql);
             
-            System.out.println("index::" + index + " uriLabel::" + uriLabel.getLabel() + " questionForShow::" + questionForShow + " sparql::" + sparql + " answer::" + answer);
+            System.out.println("index::" + index + " uriLabel::" + uriLabel.getLabel() + " questionForShow::" + questionForShow + " sparql::" + sparql + " answer::" + answer+ " syntacticFrame:"+syntacticFrame);
             
          
             
@@ -136,7 +133,7 @@ public class ReadAndWriteQuestions {
                         questionT = questionT.replace("$x", uriLabel.getLabel());
                         questionT = questionT.replace(",", "");
                         questionT = questionT.stripLeading().trim();
-                        String[] record = {id, questionT, sparql, answer,};
+                        String[] record = {id, questionT, sparql, answer,syntacticFrame};
                         this.csvWriter.writeNext(record);
                         rowIndex = rowIndex + 1;
                     }
@@ -150,32 +147,6 @@ public class ReadAndWriteQuestions {
         return rowIndex;
     }
     
-    public void createTrieCsv() {
-        List<String[]> rows = new ArrayList<String[]>();
-        CSVReader reader;
-        Integer index = 0;
-        try {
-            reader = new CSVReader(new FileReader(this.questionAnswerFile));
-            rows = reader.readAll();
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(ReadAndWriteQuestions.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
-            Logger.getLogger(ReadAndWriteQuestions.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (CsvException ex) {
-            Logger.getLogger(ReadAndWriteQuestions.class.getName()).log(Level.SEVERE, null, ex);
-        }
-
-        for (String[] row : rows) {
-            String question = null;
-            if (index == 0) {
-                index = index + 1;
-                continue;
-            }
-            question = row[1].trim().strip();
-            index = index + 1;
-        }
-    }
-
     
     public Pair<String, String> getAnswerFromWikipedia(String subjProp, String sparql, String returnType) {
         String property = null;

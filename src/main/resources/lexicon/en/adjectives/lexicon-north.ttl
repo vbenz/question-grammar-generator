@@ -20,8 +20,8 @@
 :female_canonical_form lemon:writtenRep "female"@en .
 
 :female_res a    owl:Restriction ;
-  owl:onProperty <http://dbpedia.org/ontology/gender> ;
-  owl:hasValue   <http://dbpedia.org/resource/Female> .
+  owl:onProperty <http://dbpedia.org/ontology/location> ;
+  owl:hasValue   <http://dbpedia.org/resource/North> .
 
 :female_sense a   lemon:LexicalSense ;
   lemon:reference :female_res ;

@@ -5,1902 +5,325 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 1959 (John Anderson song)?", "Tell me the artist of 1959 (John Anderson song)?", "What is the artist of 1959 (John Anderson song)?", "What was the artist of 1959 (John Anderson song)?", "Which agent is the artist of 1959 (John Anderson song)?", "Which agent was the artist of 1959 (John Anderson song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/1959_(John_Anderson_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 5 O'Clock (Nonchalant song)?", "Tell me the artist of 5 O'Clock (Nonchalant song)?", "What is the artist of 5 O'Clock (Nonchalant song)?", "What was the artist of 5 O'Clock (Nonchalant song)?", "Which agent is the artist of 5 O'Clock (Nonchalant song)?", "Which agent was the artist of 5 O'Clock (Nonchalant song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/5_O'Clock_(Nonchalant_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 5 Rebbecca's?", "Tell me the artist of 5 Rebbecca's?", "What is the artist of 5 Rebbecca's?", "What was the artist of 5 Rebbecca's?", "Which agent is the artist of 5 Rebbecca's?", "Which agent was the artist of 5 Rebbecca's?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/5_Rebbecca's> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 5 Seconds of Summer discography?", "Tell me the artist of 5 Seconds of Summer discography?", "What is the artist of 5 Seconds of Summer discography?", "What was the artist of 5 Seconds of Summer discography?", "Which agent is the artist of 5 Seconds of Summer discography?", "Which agent was the artist of 5 Seconds of Summer discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/5_Seconds_of_Summer_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 5 Star (Yo Gotti song)?", "Tell me the artist of 5 Star (Yo Gotti song)?", "What is the artist of 5 Star (Yo Gotti song)?", "What was the artist of 5 Star (Yo Gotti song)?", "Which agent is the artist of 5 Star (Yo Gotti song)?", "Which agent was the artist of 5 Star (Yo Gotti song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/5_Star_(Yo_Gotti_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 5 minutes avec toi?", "Tell me the artist of 5 minutes avec toi?", "What is the artist of 5 minutes avec toi?", "What was the artist of 5 minutes avec toi?", "Which agent is the artist of 5 minutes avec toi?", "Which agent was the artist of 5 minutes avec toi?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/5_minutes_avec_toi> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 65 Roses (song)?", "Tell me the artist of 65 Roses (song)?", "What is the artist of 65 Roses (song)?", "What was the artist of 65 Roses (song)?", "Which agent is the artist of 65 Roses (song)?", "Which agent was the artist of 65 Roses (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/65_Roses_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 66 (Lil Yachty song)?", "Tell me the artist of 66 (Lil Yachty song)?", "What is the artist of 66 (Lil Yachty song)?", "What was the artist of 66 (Lil Yachty song)?", "Which agent is the artist of 66 (Lil Yachty song)?", "Which agent was the artist of 66 (Lil Yachty song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/66_(Lil_Yachty_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 6969?", "Tell me the artist of 6969?", "What is the artist of 6969?", "What was the artist of 6969?", "Which agent is the artist of 6969?", "Which agent was the artist of 6969?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/6969> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 6 Feet Underground?", "Tell me the artist of 6 Feet Underground?", "What is the artist of 6 Feet Underground?", "What was the artist of 6 Feet Underground?", "Which agent is the artist of 6 Feet Underground?", "Which agent was the artist of 6 Feet Underground?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/6_Feet_Underground> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 6 Minutes of Pleasure?", "Tell me the artist of 6 Minutes of Pleasure?", "What is the artist of 6 Minutes of Pleasure?", "What was the artist of 6 Minutes of Pleasure?", "Which agent is the artist of 6 Minutes of Pleasure?", "Which agent was the artist of 6 Minutes of Pleasure?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/6_Minutes_of_Pleasure> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 6 Words?", "Tell me the artist of 6 Words?", "What is the artist of 6 Words?", "What was the artist of 6 Words?", "Which agent is the artist of 6 Words?", "Which agent was the artist of 6 Words?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/6_Words> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 6 in the Mornin'?", "Tell me the artist of 6 in the Mornin'?", "What is the artist of 6 in the Mornin'?", "What was the artist of 6 in the Mornin'?", "Which agent is the artist of 6 in the Mornin'?", "Which agent was the artist of 6 in the Mornin'?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/6_in_the_Mornin'> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 6ix9ine discography?", "Tell me the artist of 6ix9ine discography?", "What is the artist of 6ix9ine discography?", "What was the artist of 6ix9ine discography?", "Which agent is the artist of 6ix9ine discography?", "Which agent was the artist of 6ix9ine discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/6ix9ine_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 6lack discography?", "Tell me the artist of 6lack discography?", "What is the artist of 6lack discography?", "What was the artist of 6lack discography?", "Which agent is the artist of 6lack discography?", "Which agent was the artist of 6lack discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/6lack_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 700 Ft. Ceiling?", "Tell me the artist of 700 Ft. Ceiling?", "What is the artist of 700 Ft. Ceiling?", "What was the artist of 700 Ft. Ceiling?", "Which agent is the artist of 700 Ft. Ceiling?", "Which agent was the artist of 700 Ft. Ceiling?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/700_Ft._Ceiling> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 747 (Strangers in the Night)?", "Tell me the artist of 747 (Strangers in the Night)?", "What is the artist of 747 (Strangers in the Night)?", "What was the artist of 747 (Strangers in the Night)?", "Which agent is the artist of 747 (Strangers in the Night)?", "Which agent was the artist of 747 (Strangers in the Night)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/747_(Strangers_in_the_Night)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 787 (song)?", "Tell me the artist of 787 (song)?", "What is the artist of 787 (song)?", "What was the artist of 787 (song)?", "Which agent is the artist of 787 (song)?", "Which agent was the artist of 787 (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/787_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 7 Day Weekend (song)?", "Tell me the artist of 7 Day Weekend (song)?", "What is the artist of 7 Day Weekend (song)?", "What was the artist of 7 Day Weekend (song)?", "Which agent is the artist of 7 Day Weekend (song)?", "Which agent was the artist of 7 Day Weekend (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/7_Day_Weekend_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 7 Days and 7 Nights?", "Tell me the artist of 7 Days and 7 Nights?", "What is the artist of 7 Days and 7 Nights?", "What was the artist of 7 Days and 7 Nights?", "Which agent is the artist of 7 Days and 7 Nights?", "Which agent was the artist of 7 Days and 7 Nights?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/7_Days_and_7_Nights> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 7 Minutes (song)?", "Tell me the artist of 7 Minutes (song)?", "What is the artist of 7 Minutes (song)?", "What was the artist of 7 Minutes (song)?", "Which agent is the artist of 7 Minutes (song)?", "Which agent was the artist of 7 Minutes (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/7_Minutes_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 7 Rooms of Gloom?", "Tell me the artist of 7 Rooms of Gloom?", "What is the artist of 7 Rooms of Gloom?", "What was the artist of 7 Rooms of Gloom?", "Which agent is the artist of 7 Rooms of Gloom?", "Which agent was the artist of 7 Rooms of Gloom?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/7_Rooms_of_Gloom> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 7 Weeks?", "Tell me the artist of 7 Weeks?", "What is the artist of 7 Weeks?", "What was the artist of 7 Weeks?", "Which agent is the artist of 7 Weeks?", "Which agent was the artist of 7 Weeks?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/7_Weeks> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 7 Years and 50 Days (song)?", "Tell me the artist of 7 Years and 50 Days (song)?", "What is the artist of 7 Years and 50 Days (song)?", "What was the artist of 7 Years and 50 Days (song)?", "Which agent is the artist of 7 Years and 50 Days (song)?", "Which agent was the artist of 7 Years and 50 Days (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/7_Years_and_50_Days_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 7th Heaven (Vanity song)?", "Tell me the artist of 7th Heaven (Vanity song)?", "What is the artist of 7th Heaven (Vanity song)?", "What was the artist of 7th Heaven (Vanity song)?", "Which agent is the artist of 7th Heaven (Vanity song)?", "Which agent was the artist of 7th Heaven (Vanity song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/7th_Heaven_(Vanity_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 80's Ladies (song)?", "Tell me the artist of 80's Ladies (song)?", "What is the artist of 80's Ladies (song)?", "What was the artist of 80's Ladies (song)?", "Which agent is the artist of 80's Ladies (song)?", "Which agent was the artist of 80's Ladies (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/80's_Ladies_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 80's Romance?", "Tell me the artist of 80's Romance?", "What is the artist of 80's Romance?", "What was the artist of 80's Romance?", "Which agent is the artist of 80's Romance?", "Which agent was the artist of 80's Romance?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/80's_Romance> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 808 (Blaque song)?", "Tell me the artist of 808 (Blaque song)?", "What is the artist of 808 (Blaque song)?", "What was the artist of 808 (Blaque song)?", "Which agent is the artist of 808 (Blaque song)?", "Which agent was the artist of 808 (Blaque song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/808_(Blaque_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 808 State discography?", "Tell me the artist of 808 State discography?", "What is the artist of 808 State discography?", "What was the artist of 808 State discography?", "Which agent is the artist of 808 State discography?", "Which agent was the artist of 808 State discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/808_State_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 853-5937?", "Tell me the artist of 853-5937?", "What is the artist of 853-5937?", "What was the artist of 853-5937?", "Which agent is the artist of 853-5937?", "Which agent was the artist of 853-5937?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/853-5937> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 8Ball & MJG discography?", "Tell me the artist of 8Ball & MJG discography?", "What is the artist of 8Ball & MJG discography?", "What was the artist of 8Ball & MJG discography?", "Which agent is the artist of 8Ball & MJG discography?", "Which agent was the artist of 8Ball & MJG discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/8Ball_&_MJG_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 8th Wonder (song)?", "Tell me the artist of 8th Wonder (song)?", "What is the artist of 8th Wonder (song)?", "What was the artist of 8th Wonder (song)?", "Which agent is the artist of 8th Wonder (song)?", "Which agent was the artist of 8th Wonder (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/8th_Wonder_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 8th of November (song)?", "Tell me the artist of 8th of November (song)?", "What is the artist of 8th of November (song)?", "What was the artist of 8th of November (song)?", "Which agent is the artist of 8th of November (song)?", "Which agent was the artist of 8th of November (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/8th_of_November_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 9,999,999 Tears?", "Tell me the artist of 9,999,999 Tears?", "What is the artist of 9,999,999 Tears?", "What was the artist of 9,999,999 Tears?", "Which agent is the artist of 9,999,999 Tears?", "Which agent was the artist of 9,999,999 Tears?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/9,999,999_Tears> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 911 Is a Joke?", "Tell me the artist of 911 Is a Joke?", "What is the artist of 911 Is a Joke?", "What was the artist of 911 Is a Joke?", "Which agent is the artist of 911 Is a Joke?", "Which agent was the artist of 911 Is a Joke?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/911_Is_a_Joke> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 911 discography?", "Tell me the artist of 911 discography?", "What is the artist of 911 discography?", "What was the artist of 911 discography?", "Which agent is the artist of 911 discography?", "Which agent was the artist of 911 discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/911_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 93 Million Miles?", "Tell me the artist of 93 Million Miles?", "What is the artist of 93 Million Miles?", "What was the artist of 93 Million Miles?", "Which agent is the artist of 93 Million Miles?", "Which agent was the artist of 93 Million Miles?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/93_Million_Miles> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 98 Degrees discography?", "Tell me the artist of 98 Degrees discography?", "What is the artist of 98 Degrees discography?", "What was the artist of 98 Degrees discography?", "Which agent is the artist of 98 Degrees discography?", "Which agent was the artist of 98 Degrees discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/98_Degrees_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 99.9% Sure (I've Never Been Here Before)?", "Tell me the artist of 99.9% Sure (I've Never Been Here Before)?", "What is the artist of 99.9% Sure (I've Never Been Here Before)?", "What was the artist of 99.9% Sure (I've Never Been Here Before)?", "Which agent is the artist of 99.9% Sure (I've Never Been Here Before)?", "Which agent was the artist of 99.9% Sure (I've Never Been Here Before)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/99.9%25_Sure_(I've_Never_Been_Here_Before)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 99 (song)?", "Tell me the artist of 99 (song)?", "What is the artist of 99 (song)?", "What was the artist of 99 (song)?", "Which agent is the artist of 99 (song)?", "Which agent was the artist of 99 (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/99_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 99 Percenters?", "Tell me the artist of 99 Percenters?", "What is the artist of 99 Percenters?", "What was the artist of 99 Percenters?", "Which agent is the artist of 99 Percenters?", "Which agent was the artist of 99 Percenters?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/99_Percenters> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 9:20 Special?", "Tell me the artist of 9:20 Special?", "What is the artist of 9:20 Special?", "What was the artist of 9:20 Special?", "Which agent is the artist of 9:20 Special?", "Which agent was the artist of 9:20 Special?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/9:20_Special> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 9 Crimes?", "Tell me the artist of 9 Crimes?", "What is the artist of 9 Crimes?", "What was the artist of 9 Crimes?", "Which agent is the artist of 9 Crimes?", "Which agent was the artist of 9 Crimes?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/9_Crimes> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 9 Shots?", "Tell me the artist of 9 Shots?", "What is the artist of 9 Shots?", "What was the artist of 9 Shots?", "Which agent is the artist of 9 Shots?", "Which agent was the artist of 9 Shots?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/9_Shots> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of 9th Inning?", "Tell me the artist of 9th Inning?", "What is the artist of 9th Inning?", "What was the artist of 9th Inning?", "Which agent is the artist of 9th Inning?", "Which agent was the artist of 9th Inning?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/9th_Inning> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A+E (song)?", "Tell me the artist of A+E (song)?", "What is the artist of A+E (song)?", "What was the artist of A+E (song)?", "Which agent is the artist of A+E (song)?", "Which agent was the artist of A+E (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A+E_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A-Teens discography?", "Tell me the artist of A-Teens discography?", "What is the artist of A-Teens discography?", "What was the artist of A-Teens discography?", "Which agent is the artist of A-Teens discography?", "Which agent was the artist of A-Teens discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A-Teens_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A-Trak discography?", "Tell me the artist of A-Trak discography?", "What is the artist of A-Trak discography?", "What was the artist of A-Trak discography?", "Which agent is the artist of A-Trak discography?", "Which agent was the artist of A-Trak discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A-Trak_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A-Yo (Method Man & Redman song)?", "Tell me the artist of A-Yo (Method Man & Redman song)?", "What is the artist of A-Yo (Method Man & Redman song)?", "What was the artist of A-Yo (Method Man & Redman song)?", "Which agent is the artist of A-Yo (Method Man & Redman song)?", "Which agent was the artist of A-Yo (Method Man & Redman song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A-Yo_(Method_Man_&_Redman_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A-ha discography?", "Tell me the artist of A-ha discography?", "What is the artist of A-ha discography?", "What was the artist of A-ha discography?", "Which agent is the artist of A-ha discography?", "Which agent was the artist of A-ha discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A-ha_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A.B. Quintanilla discography?", "Tell me the artist of A.B. Quintanilla discography?", "What is the artist of A.B. Quintanilla discography?", "What was the artist of A.B. Quintanilla discography?", "Which agent is the artist of A.B. Quintanilla discography?", "Which agent was the artist of A.B. Quintanilla discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A.B._Quintanilla_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A.D.I.D.A.S. (Korn song)?", "Tell me the artist of A.D.I.D.A.S. (Korn song)?", "What is the artist of A.D.I.D.A.S. (Korn song)?", "What was the artist of A.D.I.D.A.S. (Korn song)?", "Which agent is the artist of A.D.I.D.A.S. (Korn song)?", "Which agent was the artist of A.D.I.D.A.S. (Korn song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A.D.I.D.A.S._(Korn_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A.M. 180?", "Tell me the artist of A.M. 180?", "What is the artist of A.M. 180?", "What was the artist of A.M. 180?", "Which agent is the artist of A.M. 180?", "Which agent was the artist of A.M. 180?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A.M._180> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A. G. Cook discography?", "Tell me the artist of A. G. Cook discography?", "What is the artist of A. G. Cook discography?", "What was the artist of A. G. Cook discography?", "Which agent is the artist of A. G. Cook discography?", "Which agent was the artist of A. G. Cook discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A._G._Cook_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of A1 discography?", "Tell me the artist of A1 discography?", "What is the artist of A1 discography?", "What was the artist of A1 discography?", "Which agent is the artist of A1 discography?", "Which agent was the artist of A1 discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/A1_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AAA discography?", "Tell me the artist of AAA discography?", "What is the artist of AAA discography?", "What was the artist of AAA discography?", "Which agent is the artist of AAA discography?", "Which agent was the artist of AAA discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AAA_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AAA videography?", "Tell me the artist of AAA videography?", "What is the artist of AAA videography?", "What was the artist of AAA videography?", "Which agent is the artist of AAA videography?", "Which agent was the artist of AAA videography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AAA_videography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AA UU?", "Tell me the artist of AA UU?", "What is the artist of AA UU?", "What was the artist of AA UU?", "Which agent is the artist of AA UU?", "Which agent was the artist of AA UU?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AA_UU> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of ABBA discography?", "Tell me the artist of ABBA discography?", "What is the artist of ABBA discography?", "What was the artist of ABBA discography?", "Which agent is the artist of ABBA discography?", "Which agent was the artist of ABBA discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/ABBA_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of ABC (Anna Book song)?", "Tell me the artist of ABC (Anna Book song)?", "What is the artist of ABC (Anna Book song)?", "What was the artist of ABC (Anna Book song)?", "Which agent is the artist of ABC (Anna Book song)?", "Which agent was the artist of ABC (Anna Book song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/ABC_(Anna_Book_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of ABC (The Jackson 5 song)?", "Tell me the artist of ABC (The Jackson 5 song)?", "What is the artist of ABC (The Jackson 5 song)?", "What was the artist of ABC (The Jackson 5 song)?", "Which agent is the artist of ABC (The Jackson 5 song)?", "Which agent was the artist of ABC (The Jackson 5 song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/ABC_(The_Jackson_5_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of ABC discography?", "Tell me the artist of ABC discography?", "What is the artist of ABC discography?", "What was the artist of ABC discography?", "Which agent is the artist of ABC discography?", "Which agent was the artist of ABC discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/ABC_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of ADHD (Blood Red Shoes song)?", "Tell me the artist of ADHD (Blood Red Shoes song)?", "What is the artist of ADHD (Blood Red Shoes song)?", "What was the artist of ADHD (Blood Red Shoes song)?", "Which agent is the artist of ADHD (Blood Red Shoes song)?", "Which agent was the artist of ADHD (Blood Red Shoes song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/ADHD_(Blood_Red_Shoes_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AFI discography?", "Tell me the artist of AFI discography?", "What is the artist of AFI discography?", "What was the artist of AFI discography?", "Which agent is the artist of AFI discography?", "Which agent was the artist of AFI discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AFI_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AI Freaks Me Out?", "Tell me the artist of AI Freaks Me Out?", "What is the artist of AI Freaks Me Out?", "What was the artist of AI Freaks Me Out?", "Which agent is the artist of AI Freaks Me Out?", "Which agent was the artist of AI Freaks Me Out?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AI_Freaks_Me_Out> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AJ Tracey discography?", "Tell me the artist of AJ Tracey discography?", "What is the artist of AJ Tracey discography?", "What was the artist of AJ Tracey discography?", "Which agent is the artist of AJ Tracey discography?", "Which agent was the artist of AJ Tracey discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AJ_Tracey_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AKA discography?", "Tell me the artist of AKA discography?", "What is the artist of AKA discography?", "What was the artist of AKA discography?", "Which agent is the artist of AKA discography?", "Which agent was the artist of AKA discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AKA_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AKMU discography?", "Tell me the artist of AKMU discography?", "What is the artist of AKMU discography?", "What was the artist of AKMU discography?", "Which agent is the artist of AKMU discography?", "Which agent was the artist of AKMU discography?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AKMU_discography> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of AOV (song)?", "Tell me the artist of AOV (song)?", "What is the artist of AOV (song)?", "What was the artist of AOV (song)?", "Which agent is the artist of AOV (song)?", "Which agent was the artist of AOV (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/AOV_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love, Peace And Happiness?", "Tell me the artist of Love, Peace And Happiness?", "What is the artist of Love, Peace And Happiness?", "What was the artist of Love, Peace And Happiness?", "Which agent is the artist of Love, Peace And Happiness?", "Which agent was the artist of Love, Peace And Happiness?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love,_Peace_And_Happiness> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love, Truth and Honesty?", "Tell me the artist of Love, Truth and Honesty?", "What is the artist of Love, Truth and Honesty?", "What was the artist of Love, Truth and Honesty?", "Which agent is the artist of Love, Truth and Honesty?", "Which agent was the artist of Love, Truth and Honesty?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love,_Truth_and_Honesty> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love-Hate-Sex-Pain?", "Tell me the artist of Love-Hate-Sex-Pain?", "What is the artist of Love-Hate-Sex-Pain?", "What was the artist of Love-Hate-Sex-Pain?", "Which agent is the artist of Love-Hate-Sex-Pain?", "Which agent was the artist of Love-Hate-Sex-Pain?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love-Hate-Sex-Pain> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love2Clutch?", "Tell me the artist of Love2Clutch?", "What is the artist of Love2Clutch?", "What was the artist of Love2Clutch?", "Which agent is the artist of Love2Clutch?", "Which agent was the artist of Love2Clutch?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love2Clutch> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of LoveGame?", "Tell me the artist of LoveGame?", "What is the artist of LoveGame?", "What was the artist of LoveGame?", "Which agent is the artist of LoveGame?", "Which agent was the artist of LoveGame?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/LoveGame> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of LoveHate Thing?", "Tell me the artist of LoveHate Thing?", "What is the artist of LoveHate Thing?", "What was the artist of LoveHate Thing?", "Which agent is the artist of LoveHate Thing?", "Which agent was the artist of LoveHate Thing?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/LoveHate_Thing> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of LoveStoned?", "Tell me the artist of LoveStoned?", "What is the artist of LoveStoned?", "What was the artist of LoveStoned?", "Which agent is the artist of LoveStoned?", "Which agent was the artist of LoveStoned?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/LoveStoned> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of LoveWave?", "Tell me the artist of LoveWave?", "What is the artist of LoveWave?", "What was the artist of LoveWave?", "Which agent is the artist of LoveWave?", "Which agent was the artist of LoveWave?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/LoveWave> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love & Devotion?", "Tell me the artist of Love & Devotion?", "What is the artist of Love & Devotion?", "What was the artist of Love & Devotion?", "Which agent is the artist of Love & Devotion?", "Which agent was the artist of Love & Devotion?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_&_Devotion> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love & Girls?", "Tell me the artist of Love & Girls?", "What is the artist of Love & Girls?", "What was the artist of Love & Girls?", "Which agent is the artist of Love & Girls?", "Which agent was the artist of Love & Girls?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_&_Girls> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love & History?", "Tell me the artist of Love & History?", "What is the artist of Love & History?", "What was the artist of Love & History?", "Which agent is the artist of Love & History?", "Which agent was the artist of Love & History?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_&_History> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love & Sex, Pt. 2?", "Tell me the artist of Love & Sex, Pt. 2?", "What is the artist of Love & Sex, Pt. 2?", "What was the artist of Love & Sex, Pt. 2?", "Which agent is the artist of Love & Sex, Pt. 2?", "Which agent was the artist of Love & Sex, Pt. 2?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_&_Sex,_Pt._2> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love 'Em All?", "Tell me the artist of Love 'Em All?", "What is the artist of Love 'Em All?", "What was the artist of Love 'Em All?", "Which agent is the artist of Love 'Em All?", "Which agent was the artist of Love 'Em All?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_'Em_All> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Can Make You Happy)?", "Tell me the artist of Love (Can Make You Happy)?", "What is the artist of Love (Can Make You Happy)?", "What was the artist of Love (Can Make You Happy)?", "Which agent is the artist of Love (Can Make You Happy)?", "Which agent was the artist of Love (Can Make You Happy)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Can_Make_You_Happy)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (DJ Trevi song)?", "Tell me the artist of Love (DJ Trevi song)?", "What is the artist of Love (DJ Trevi song)?", "What was the artist of Love (DJ Trevi song)?", "Which agent is the artist of Love (DJ Trevi song)?", "Which agent was the artist of Love (DJ Trevi song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(DJ_Trevi_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Destiny)?", "Tell me the artist of Love (Destiny)?", "What is the artist of Love (Destiny)?", "What was the artist of Love (Destiny)?", "Which agent is the artist of Love (Destiny)?", "Which agent was the artist of Love (Destiny)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Destiny)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Inna song)?", "Tell me the artist of Love (Inna song)?", "What is the artist of Love (Inna song)?", "What was the artist of Love (Inna song)?", "Which agent is the artist of Love (Inna song)?", "Which agent was the artist of Love (Inna song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Inna_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Is All We Need)?", "Tell me the artist of Love (Is All We Need)?", "What is the artist of Love (Is All We Need)?", "What was the artist of Love (Is All We Need)?", "Which agent is the artist of Love (Is All We Need)?", "Which agent was the artist of Love (Is All We Need)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Is_All_We_Need)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Jana Kramer song)?", "Tell me the artist of Love (Jana Kramer song)?", "What is the artist of Love (Jana Kramer song)?", "What was the artist of Love (Jana Kramer song)?", "Which agent is the artist of Love (Jana Kramer song)?", "Which agent was the artist of Love (Jana Kramer song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Jana_Kramer_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (John Lennon song)?", "Tell me the artist of Love (John Lennon song)?", "What is the artist of Love (John Lennon song)?", "What was the artist of Love (John Lennon song)?", "Which agent is the artist of Love (John Lennon song)?", "Which agent was the artist of Love (John Lennon song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(John_Lennon_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Kendrick Lamar song)?", "Tell me the artist of Love (Kendrick Lamar song)?", "What is the artist of Love (Kendrick Lamar song)?", "What was the artist of Love (Kendrick Lamar song)?", "Which agent is the artist of Love (Kendrick Lamar song)?", "Which agent was the artist of Love (Kendrick Lamar song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Kendrick_Lamar_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Keyshia Cole song)?", "Tell me the artist of Love (Keyshia Cole song)?", "What is the artist of Love (Keyshia Cole song)?", "What was the artist of Love (Keyshia Cole song)?", "Which agent is the artist of Love (Keyshia Cole song)?", "Which agent was the artist of Love (Keyshia Cole song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Keyshia_Cole_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Lana Del Rey song)?", "Tell me the artist of Love (Lana Del Rey song)?", "What is the artist of Love (Lana Del Rey song)?", "What was the artist of Love (Lana Del Rey song)?", "Which agent is the artist of Love (Lana Del Rey song)?", "Which agent was the artist of Love (Lana Del Rey song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Lana_Del_Rey_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love (Lennon & Maisy song)?", "Tell me the artist of Love (Lennon & Maisy song)?", "What is the artist of Love (Lennon & Maisy song)?", "What was the artist of Love (Lennon & Maisy song)?", "Which agent is the artist of Love (Lennon & Maisy song)?", "Which agent was the artist of Love (Lennon & Maisy song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_(Lennon_&_Maisy_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love @ 1st Sight?", "Tell me the artist of Love @ 1st Sight?", "What is the artist of Love @ 1st Sight?", "What was the artist of Love @ 1st Sight?", "Which agent is the artist of Love @ 1st Sight?", "Which agent was the artist of Love @ 1st Sight?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_@_1st_Sight> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love Addiction (song)?", "Tell me the artist of Love Addiction (song)?", "What is the artist of Love Addiction (song)?", "What was the artist of Love Addiction (song)?", "Which agent is the artist of Love Addiction (song)?", "Which agent was the artist of Love Addiction (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_Addiction_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love After War (song)?", "Tell me the artist of Love After War (song)?", "What is the artist of Love After War (song)?", "What was the artist of Love After War (song)?", "Which agent is the artist of Love After War (song)?", "Which agent was the artist of Love After War (song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_After_War_(song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love Again (Brandy and Daniel Caesar song)?", "Tell me the artist of Love Again (Brandy and Daniel Caesar song)?", "What is the artist of Love Again (Brandy and Daniel Caesar song)?", "What was the artist of Love Again (Brandy and Daniel Caesar song)?", "Which agent is the artist of Love Again (Brandy and Daniel Caesar song)?", "Which agent was the artist of Love Again (Brandy and Daniel Caesar song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_Again_(Brandy_and_Daniel_Caesar_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love Again (Cedric Gervais song)?", "Tell me the artist of Love Again (Cedric Gervais song)?", "What is the artist of Love Again (Cedric Gervais song)?", "What was the artist of Love Again (Cedric Gervais song)?", "Which agent is the artist of Love Again (Cedric Gervais song)?", "Which agent was the artist of Love Again (Cedric Gervais song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_Again_(Cedric_Gervais_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love Again (Hedley song)?", "Tell me the artist of Love Again (Hedley song)?", "What is the artist of Love Again (Hedley song)?", "What was the artist of Love Again (Hedley song)?", "Which agent is the artist of Love Again (Hedley song)?", "Which agent was the artist of Love Again (Hedley song)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_Again_(Hedley_song)> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
-    },
-    "combination" : false
-  }, {
-    "id" : "1",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "NPP",
-    "sentences" : [ "Give me the artist of Love Ain't?", "Tell me the artist of Love Ain't?", "What is the artist of Love Ain't?", "What was the artist of Love Ain't?", "Which agent is the artist of Love Ain't?", "Which agent was the artist of Love Ain't?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple <http://dbpedia.org/resource/Love_Ain't> <http://dbpedia.org/ontology/artist> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : null
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian clerics?", "Which is a Belgian cleric?", "Which was a Belgian cleric?", "Which were Belgian clerics?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
     },
     "combination" : false
   }, {
     "id" : "3",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian office holders?", "Which is a Belgian office holder?", "Which was a Belgian office holder?", "Which were Belgian office holders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "5",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian agents?", "Which is a Belgian agent?", "Which was a Belgian agent?", "Which were Belgian agents?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "7",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian economists?", "Which is a Belgian economist?", "Which was a Belgian economist?", "Which were Belgian economists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "9",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian motorcycle riders?", "Which is a Belgian motorcycle rider?", "Which was a Belgian motorcycle rider?", "Which were Belgian motorcycle riders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "11",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian artists?", "Which is a Belgian artist?", "Which was a Belgian artist?", "Which were Belgian artists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "13",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian athletes?", "Which is a Belgian athlete?", "Which was a Belgian athlete?", "Which were Belgian athletes?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "15",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian scientists?", "Which is a Belgian scientist?", "Which was a Belgian scientist?", "Which were Belgian scientists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "17",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian architects?", "Which is a Belgian architect?", "Which was a Belgian architect?", "Which were Belgian architects?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "19",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian golf players?", "Which is a Belgian golf player?", "Which was a Belgian golf player?", "Which were Belgian golf players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "21",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian racing drivers?", "Which is a Belgian racing driver?", "Which was a Belgian racing driver?", "Which were Belgian racing drivers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "23",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian politicians?", "Which is a Belgian politician?", "Which was a Belgian politician?", "Which were Belgian politicians?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "25",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian swimmers?", "Which is a Belgian swimmer?", "Which was a Belgian swimmer?", "Which were Belgian swimmers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "27",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian volleyball players?", "Which is a Belgian volleyball player?", "Which was a Belgian volleyball player?", "Which were Belgian volleyball players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "29",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian fashion designers?", "Which is a Belgian fashion designer?", "Which was a Belgian fashion designer?", "Which were Belgian fashion designers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FashionDesigner>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "31",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian persons?", "Which is a Belgian person?", "Which was a Belgian person?", "Which were Belgian persons?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "33",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian comics creators?", "Which is a Belgian comics creator?", "Which was a Belgian comics creator?", "Which were Belgian comics creators?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "35",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian writers?", "Which is a Belgian writer?", "Which was a Belgian writer?", "Which were Belgian writers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "37",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Belgian motorsport racers?", "Which is a Belgian motorsport racer?", "Which was a Belgian motorsport racer?", "Which were Belgian motorsport racers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -1919,7 +342,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -1938,7 +361,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -1957,7 +380,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -1976,7 +399,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -1995,7 +418,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2014,7 +437,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2033,7 +456,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2052,7 +475,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2071,7 +494,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2090,7 +513,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2109,7 +532,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2128,7 +551,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2147,7 +570,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2166,7 +589,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2185,7 +608,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2204,7 +627,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2223,7 +646,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2242,7 +665,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2261,7 +684,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2280,7 +703,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2299,7 +722,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2318,7 +741,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2337,7 +760,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2356,7 +779,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2375,7 +798,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2394,7 +817,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2413,7 +836,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2432,7 +855,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2451,7 +874,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2470,7 +893,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2489,7 +912,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2508,7 +931,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2527,7 +950,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2546,7 +969,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2565,7 +988,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2584,7 +1007,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2603,7 +1026,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2622,7 +1045,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2641,7 +1064,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2660,7 +1083,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2679,7 +1102,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2698,7 +1121,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2717,7 +1140,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2736,7 +1159,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2755,7 +1178,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2774,7 +1197,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2793,7 +1216,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2812,7 +1235,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2831,7 +1254,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2850,7 +1273,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2869,7 +1292,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2888,7 +1311,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2907,7 +1330,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2926,7 +1349,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2945,7 +1368,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2964,7 +1387,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -2983,7 +1406,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3002,7 +1425,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3021,7 +1444,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3040,7 +1463,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3059,7 +1482,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3078,7 +1501,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3097,7 +1520,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3116,7 +1539,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3135,7 +1558,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3154,7 +1577,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3173,7 +1596,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3192,7 +1615,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3211,7 +1634,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3230,7 +1653,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3249,7 +1672,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3268,7 +1691,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3287,7 +1710,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3306,7 +1729,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3325,7 +1748,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3344,7 +1767,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3363,7 +1786,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3382,7 +1805,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3401,7 +1824,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3420,7 +1843,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3439,7 +1862,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3458,7 +1881,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3477,7 +1900,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3496,7 +1919,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3515,7 +1938,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3534,7 +1957,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3553,7 +1976,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3572,7 +1995,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3591,7 +2014,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3610,7 +2033,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3629,7 +2052,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3648,7 +2071,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3667,7 +2090,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3686,7 +2109,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3705,7 +2128,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3724,7 +2147,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3743,7 +2166,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3762,7 +2185,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -3781,7 +2204,7 @@
     },
     "combination" : false
   }, {
-    "id" : "3",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
