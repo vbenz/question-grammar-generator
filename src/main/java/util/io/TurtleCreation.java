@@ -147,7 +147,7 @@ public class TurtleCreation {
         //System.out.println(tutleString);
     }
 
-    private String nounPPFrameTurtle() {
+    public String nounPPFrameTurtle() {
         this.reference=this.setReference(reference);
         this.domain=this.setReference(domain);
         this.range=this.setReference(range);
