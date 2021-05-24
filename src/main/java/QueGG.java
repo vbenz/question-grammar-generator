@@ -3,13 +3,11 @@ import eu.monnetproject.lemon.LemonModel;
 import grammar.generator.BindingResolver;
 import grammar.generator.GrammarRuleGeneratorRoot;
 import grammar.generator.GrammarRuleGeneratorRootImpl;
-import grammar.read.questions.ReadAndWriteQuestions;
 import grammar.structure.component.DomainOrRangeType;
 import grammar.structure.component.FrameType;
 import grammar.structure.component.GrammarEntry;
 import grammar.structure.component.GrammarWrapper;
 import grammar.structure.component.Language;
-import java.io.File;
 import lexicon.LexiconImporter;
 import lombok.NoArgsConstructor;
 import org.apache.logging.log4j.LogManager;
@@ -17,38 +15,20 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
-import java.net.URISyntaxException;
 import java.nio.file.Path;
-import java.util.*;
-import java.util.List;
+import java.util.Arrays;
 import java.util.stream.Collectors;
+
 import static java.util.Objects.isNull;
-import java.util.logging.Level;
-import util.io.CsvFile;
-import util.io.FileUtils;
-import util.io.TurtleCreation;
-
-
-
 
 @NoArgsConstructor
 public class QueGG {
 
     private static final Logger LOG = LogManager.getLogger(QueGG.class);
-    private static String GENERATE_JSON = "generate";
-    private static String CREATE_CSV = "CREATE_CSV";
-    private static String BaseDir = "";
-    private static String QUESTION_ANSWER_LOCATION = BaseDir + "questions/";
-    //private static String QUESTION_ANSWER_LOCATION =  "/tmp/";
-    private static String QUESTION_ANSWER_CSV_FILE = "questions.csv";
-    private static String entityLabelDir = "src/main/resources/entityLabels/";
-   
-    public static void main(String[] args) throws Exception {
-        String search=GENERATE_JSON+CREATE_CSV;
-        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
 
+    public static void main(String[] args) {
         try {
-            if (args.length < 5) {
+            if (args.length < 3) {
                 throw new IllegalArgumentException(String.format("Too few parameters (%s/%s)", args.length, 3));
             }
             QueGG queGG = new QueGG();
@@ -56,28 +36,7 @@ public class QueGG {
             LOG.info("Starting {} with language parameter '{}'", QueGG.class.getName(), language);
             LOG.info("Input directory: {}", Path.of(args[1]).toString());
             LOG.info("Output directory: {}", Path.of(args[2]).toString());
-            language = Language.stringToLanguage(args[0]);
-            String inputDir = Path.of(args[1]).toString();
-            String outputDir = Path.of(args[2]).toString();
-            String numberOfEntitiesString=Path.of(args[3]).toString();
-            Integer maxNumberOfEntities=Integer.parseInt(numberOfEntitiesString);
-            String fileType=args[4];
-            if(fileType.contains("ttl")){
-               queGG.init(language, inputDir, outputDir);
-                }
-            else if(fileType.contains("csv")){
-              queGG.generateTurtle(inputDir);
-            }
-            else
-              throw new Exception("No file type is mentioned!!");
-
-               /* List<File> fileList = FileUtils.getFiles(outputDir+"/", "grammar_FULL_DATASET_EN", ".json");
-                if (fileList.isEmpty()) {
-                    throw new Exception("No files to process for question answering system!!");
-                }
-                ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile,maxNumberOfEntities);
-                readAndWriteQuestions.readQuestionAnswers(fileList, entityLabelDir);*/
-
+            queGG.init(Language.stringToLanguage(args[0]), Path.of(args[1]).toString(), Path.of(args[2]).toString());
             LOG.warn("To get optimal combinations of sentences please add the following types to {}\n{}",
                     DomainOrRangeType.class.getName(), DomainOrRangeType.MISSING_TYPES.toString()
             );
@@ -87,8 +46,6 @@ public class QueGG {
         }
     }
 
-   
-
     public void init(Language language, String inputDir, String outputDir) throws IOException {
         try {
             loadInputAndGenerate(language, inputDir, outputDir);
@@ -96,48 +53,6 @@ public class QueGG {
             LOG.error("Could not create grammar: {}", e.getMessage());
         }
     }
-
-    public void generateTurtle(String inputDir) throws IOException {
-               File f = new File(inputDir);
-               String[]pathnames = f.list();
-               for (String pathname : pathnames) {
-                    String[]files = new File(inputDir+File.separatorChar+pathname).list(); 
-
-                    for (String file : files) {
-                          System.out.println("file:"+file);
-                          if(!file.contains(".csv"))
-                             continue;
-                          CsvFile csvFile = new CsvFile();
-                           System.out.println(inputDir+"/"+pathname+"/"+file);
-                           String directory=inputDir+"/"+pathname+"/";
-                          List<String[]> rows = csvFile.getRows(new File(directory+file));
-                          Integer index = 0;
-                        for (String[] row : rows) {
-                            if (index == 0) {
-                                ;
-                            } 
-                            else {
-                               TurtleCreation nounPPFrameXsl = new TurtleCreation(row);
-                               String lemonEntry=nounPPFrameXsl.getLemonEntry();
-                               lemonEntry=lemonEntry.replace("/", "");
-                               String fileName = "lexicon" + "-" + lemonEntry + ".ttl";
-                               String tutleString = nounPPFrameXsl.nounPPFrameTurtle();
-                               System.out.println("directory::"+directory);
-                               FileUtils.stringToFile(tutleString, directory + fileName);
-                            }
-                            index=index+1;
-                    
-                        }
-
-                    }
-                    
-                }
-            
-    
-    }
-
-
-
 
     private void loadInputAndGenerate(Language lang, String inputDir, String outputDir) throws
             IOException,
@@ -260,7 +175,5 @@ public class QueGG {
         });
         return grammarWrapper;
     }
-
- 
 
 }
