@@ -1,0 +1,960 @@
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "BUILDING",
+            "returnType": "THING",
+            "frameType": "IPP",
+            "sentences": ["When was the ($x | BUILDING_NP) built?", "When were the ($x | BUILDING_NP) built?", "Which year was the ($x | BUILDING_NP) built?", "Which year were the ($x | BUILDING_NP) built?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingStartDate> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "List of tenants in One World Trade Center",
+                        "uri": "http://dbpedia.org/resource/List_of_tenants_in_One_World_Trade_Center"
+                    }, {
+                        "label": "Lullingstone Roman Villa",
+                        "uri": "http://dbpedia.org/resource/Lullingstone_Roman_Villa"
+                    }, {
+                        "label": "Church of the Nativity (Manhattan)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Nativity_(Manhattan)"
+                    }, {
+                        "label": "Emirates Crown",
+                        "uri": "http://dbpedia.org/resource/Emirates_Crown"
+                    }, {
+                        "label": "Kahl Nuclear Power Plant",
+                        "uri": "http://dbpedia.org/resource/Kahl_Nuclear_Power_Plant"
+                    }, {
+                        "label": "Melody (building)",
+                        "uri": "http://dbpedia.org/resource/Melody_(building)"
+                    }, {
+                        "label": "Red Bull Arena (Salzburg)",
+                        "uri": "http://dbpedia.org/resource/Red_Bull_Arena_(Salzburg)"
+                    }, {
+                        "label": "Stadio Comunale Bellinzona",
+                        "uri": "http://dbpedia.org/resource/Stadio_Comunale_Bellinzona"
+                    }, {
+                        "label": "Stadio Comunale di Monigo",
+                        "uri": "http://dbpedia.org/resource/Stadio_Comunale_di_Monigo"
+                    }, {
+                        "label": "The Knightsbridge Residences",
+                        "uri": "http://dbpedia.org/resource/The_Knightsbridge_Residences"
+                    }, {
+                        "label": "The Tower, Meridian Quay",
+                        "uri": "http://dbpedia.org/resource/The_Tower,_Meridian_Quay"
+                    }, {
+                        "label": "The Tower at Dubai Creek Harbour",
+                        "uri": "http://dbpedia.org/resource/The_Tower_at_Dubai_Creek_Harbour"
+                    }, {
+                        "label": "Theodor Heuss Bridge (Düsseldorf)",
+                        "uri": "http://dbpedia.org/resource/Theodor_Heuss_Bridge_(Düsseldorf)"
+                    }, {
+                        "label": "Town Toyota Center",
+                        "uri": "http://dbpedia.org/resource/Town_Toyota_Center"
+                    }, {
+                        "label": "1 Thibault Square",
+                        "uri": "http://dbpedia.org/resource/1_Thibault_Square"
+                    }, {
+                        "label": "Athletic Park (Duluth)",
+                        "uri": "http://dbpedia.org/resource/Athletic_Park_(Duluth)"
+                    }, {
+                        "label": "Athletic Park (Vancouver)",
+                        "uri": "http://dbpedia.org/resource/Athletic_Park_(Vancouver)"
+                    }, {
+                        "label": "Bahrain Financial Harbour",
+                        "uri": "http://dbpedia.org/resource/Bahrain_Financial_Harbour"
+                    }, {
+                        "label": "Baldwin Bridge, Koblenz",
+                        "uri": "http://dbpedia.org/resource/Baldwin_Bridge,_Koblenz"
+                    }, {
+                        "label": "Berri Street",
+                        "uri": "http://dbpedia.org/resource/Berri_Street"
+                    }, {
+                        "label": "Bishop's Palace, Wells",
+                        "uri": "http://dbpedia.org/resource/Bishop's_Palace,_Wells"
+                    }, {
+                        "label": "Brisbane Powerhouse",
+                        "uri": "http://dbpedia.org/resource/Brisbane_Powerhouse"
+                    }, {
+                        "label": "Büro Center Nibelungenplatz",
+                        "uri": "http://dbpedia.org/resource/Büro_Center_Nibelungenplatz"
+                    }, {
+                        "label": "Central Stadium (Yekaterinburg)",
+                        "uri": "http://dbpedia.org/resource/Central_Stadium_(Yekaterinburg)"
+                    }, {
+                        "label": "Church of the Ascension, Roman Catholic (Manhattan)",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Ascension,_Roman_Catholic_(Manhattan)"
+                    }, {
+                        "label": "Church of the Intercession at Fili",
+                        "uri": "http://dbpedia.org/resource/Church_of_the_Intercession_at_Fili"
+                    }, {
+                        "label": "Delhi Dam",
+                        "uri": "http://dbpedia.org/resource/Delhi_Dam"
+                    }, {
+                        "label": "El Badi Palace",
+                        "uri": "http://dbpedia.org/resource/El_Badi_Palace"
+                    }, {
+                        "label": "Enloe Dam and Powerplant",
+                        "uri": "http://dbpedia.org/resource/Enloe_Dam_and_Powerplant"
+                    }, {
+                        "label": "Enoggera Dam",
+                        "uri": "http://dbpedia.org/resource/Enoggera_Dam"
+                    }, {
+                        "label": "First Presbyterian Church (Lynn Haven, Florida)",
+                        "uri": "http://dbpedia.org/resource/First_Presbyterian_Church_(Lynn_Haven,_Florida)"
+                    }, {
+                        "label": "Fort Beauregard",
+                        "uri": "http://dbpedia.org/resource/Fort_Beauregard"
+                    }, {
+                        "label": "Fort DeRussy (Louisiana)",
+                        "uri": "http://dbpedia.org/resource/Fort_DeRussy_(Louisiana)"
+                    }, {
+                        "label": "Franciscan Church, Zamość",
+                        "uri": "http://dbpedia.org/resource/Franciscan_Church,_Zamość"
+                    }, {
+                        "label": "Gemini Residence",
+                        "uri": "http://dbpedia.org/resource/Gemini_Residence"
+                    }, {
+                        "label": "Glaspalast Sindelfingen",
+                        "uri": "http://dbpedia.org/resource/Glaspalast_Sindelfingen"
+                    }, {
+                        "label": "Golden Eagle Regional Park",
+                        "uri": "http://dbpedia.org/resource/Golden_Eagle_Regional_Park"
+                    }, {
+                        "label": "Green Bridge (New Orleans)",
+                        "uri": "http://dbpedia.org/resource/Green_Bridge_(New_Orleans)"
+                    }, {
+                        "label": "Holy Trinity Church, Warsaw",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church,_Warsaw"
+                    }, {
+                        "label": "Holy Trinity Church (Manhattan)",
+                        "uri": "http://dbpedia.org/resource/Holy_Trinity_Church_(Manhattan)"
+                    }, {
+                        "label": "Jawaharlal Nehru Stadium, Ghaziabad",
+                        "uri": "http://dbpedia.org/resource/Jawaharlal_Nehru_Stadium,_Ghaziabad"
+                    }, {
+                        "label": "Kerala Government Secretariat",
+                        "uri": "http://dbpedia.org/resource/Kerala_Government_Secretariat"
+                    }, {
+                        "label": "Khan Sulayman Pasha",
+                        "uri": "http://dbpedia.org/resource/Khan_Sulayman_Pasha"
+                    }, {
+                        "label": "Köprübaşı Dam",
+                        "uri": "http://dbpedia.org/resource/Köprübaşı_Dam"
+                    }, {
+                        "label": "Lake Atalanta",
+                        "uri": "http://dbpedia.org/resource/Lake_Atalanta"
+                    }, {
+                        "label": "Lausanne Hall",
+                        "uri": "http://dbpedia.org/resource/Lausanne_Hall"
+                    }, {
+                        "label": "Lianhua Dam",
+                        "uri": "http://dbpedia.org/resource/Lianhua_Dam"
+                    }, {
+                        "label": "Liberty Towers (Jersey City)",
+                        "uri": "http://dbpedia.org/resource/Liberty_Towers_(Jersey_City)"
+                    }, {
+                        "label": "Lokomotiv Stadium (Gorna Oryahovitsa)",
+                        "uri": "http://dbpedia.org/resource/Lokomotiv_Stadium_(Gorna_Oryahovitsa)"
+                    }, {
+                        "label": "Lotte Center Hanoi",
+                        "uri": "http://dbpedia.org/resource/Lotte_Center_Hanoi"
+                    }, {
+                        "label": "Manchester Central Library",
+                        "uri": "http://dbpedia.org/resource/Manchester_Central_Library"
+                    }, {
+                        "label": "Marr Residence",
+                        "uri": "http://dbpedia.org/resource/Marr_Residence"
+                    }, {
+                        "label": "Melbourne Rectangular Stadium",
+                        "uri": "http://dbpedia.org/resource/Melbourne_Rectangular_Stadium"
+                    }, {
+                        "label": "Millennium Tower (Abuja)",
+                        "uri": "http://dbpedia.org/resource/Millennium_Tower_(Abuja)"
+                    }, {
+                        "label": "Millennium Tower (Boston)",
+                        "uri": "http://dbpedia.org/resource/Millennium_Tower_(Boston)"
+                    }, {
+                        "label": "Millennium Tower (Dubai)",
+                        "uri": "http://dbpedia.org/resource/Millennium_Tower_(Dubai)"
+                    }, {
+                        "label": "Millennium Tower (Frankfurt)",
+                        "uri": "http://dbpedia.org/resource/Millennium_Tower_(Frankfurt)"
+                    }, {
+                        "label": "Millennium Tower (New York City)",
+                        "uri": "http://dbpedia.org/resource/Millennium_Tower_(New_York_City)"
+                    }, {
+                        "label": "NEMA (San Francisco)",
+                        "uri": "http://dbpedia.org/resource/NEMA_(San_Francisco)"
+                    }, {
+                        "label": "National Centre for the Performing Arts (India)",
+                        "uri": "http://dbpedia.org/resource/National_Centre_for_the_Performing_Arts_(India)"
+                    }, {
+                        "label": "Paço de São Cristóvão",
+                        "uri": "http://dbpedia.org/resource/Paço_de_São_Cristóvão"
+                    }, {
+                        "label": "Peace Bridge (Calgary)",
+                        "uri": "http://dbpedia.org/resource/Peace_Bridge_(Calgary)"
+                    }, {
+                        "label": "Red Hall (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/Red_Hall_(Slovenia)"
+                    }, {
+                        "label": "Richmond Oval (South Australia)",
+                        "uri": "http://dbpedia.org/resource/Richmond_Oval_(South_Australia)"
+                    }, {
+                        "label": "Saigon Times Square",
+                        "uri": "http://dbpedia.org/resource/Saigon_Times_Square"
+                    }, {
+                        "label": "Shams Solar Power Station",
+                        "uri": "http://dbpedia.org/resource/Shams_Solar_Power_Station"
+                    }, {
+                        "label": "Sochi Central Stadium",
+                        "uri": "http://dbpedia.org/resource/Sochi_Central_Stadium"
+                    }, {
+                        "label": "Sodium Reactor Experiment",
+                        "uri": "http://dbpedia.org/resource/Sodium_Reactor_Experiment"
+                    }, {
+                        "label": "Sorgenfri Palace",
+                        "uri": "http://dbpedia.org/resource/Sorgenfri_Palace"
+                    }, {
+                        "label": "Stronghold Center",
+                        "uri": "http://dbpedia.org/resource/Stronghold_Center"
+                    }, {
+                        "label": "Suntop Homes",
+                        "uri": "http://dbpedia.org/resource/Suntop_Homes"
+                    }, {
+                        "label": "Svoboda Factory Club",
+                        "uri": "http://dbpedia.org/resource/Svoboda_Factory_Club"
+                    }, {
+                        "label": "The Loft 2",
+                        "uri": "http://dbpedia.org/resource/The_Loft_2"
+                    }, {
+                        "label": "The Modern (building)",
+                        "uri": "http://dbpedia.org/resource/The_Modern_(building)"
+                    }, {
+                        "label": "The Perch (Binsey)",
+                        "uri": "http://dbpedia.org/resource/The_Perch_(Binsey)"
+                    }, {
+                        "label": "Tulip Viaduct",
+                        "uri": "http://dbpedia.org/resource/Tulip_Viaduct"
+                    }, {
+                        "label": "Veterans Bridge (Chesapeake, Virginia)",
+                        "uri": "http://dbpedia.org/resource/Veterans_Bridge_(Chesapeake,_Virginia)"
+                    }, {
+                        "label": "Victoria Point (building)",
+                        "uri": "http://dbpedia.org/resource/Victoria_Point_(building)"
+                    }, {
+                        "label": "Villa Farnesina",
+                        "uri": "http://dbpedia.org/resource/Villa_Farnesina"
+                    }, {
+                        "label": "White Stag sign",
+                        "uri": "http://dbpedia.org/resource/White_Stag_sign"
+                    }, {
+                        "label": "Whitefriars, Bristol",
+                        "uri": "http://dbpedia.org/resource/Whitefriars,_Bristol"
+                    }, {
+                        "label": "Wörth Castle",
+                        "uri": "http://dbpedia.org/resource/Wörth_Castle"
+                    }, {
+                        "label": "Yenice Dam",
+                        "uri": "http://dbpedia.org/resource/Yenice_Dam"
+                    }, {
+                        "label": "Young Men's Christian Association Central Building (Buffalo, New York)",
+                        "uri": "http://dbpedia.org/resource/Young_Men's_Christian_Association_Central_Building_(Buffalo,_New_York)"
+                    }, {
+                        "label": "Crown Convention Center",
+                        "uri": "http://dbpedia.org/resource/Crown_Convention_Center"
+                    }, {
+                        "label": "Gasometer Oberhausen",
+                        "uri": "http://dbpedia.org/resource/Gasometer_Oberhausen"
+                    }, {
+                        "label": "Las Vacas Dam",
+                        "uri": "http://dbpedia.org/resource/Las_Vacas_Dam"
+                    }, {
+                        "label": "Petronas Tower 3",
+                        "uri": "http://dbpedia.org/resource/Petronas_Tower_3"
+                    }, {
+                        "label": "Randall Fawcett House",
+                        "uri": "http://dbpedia.org/resource/Randall_Fawcett_House"
+                    }, {
+                        "label": "100 St Georges Terrace",
+                        "uri": "http://dbpedia.org/resource/100_St_Georges_Terrace"
+                    }, {
+                        "label": "1010 Midtown",
+                        "uri": "http://dbpedia.org/resource/1010_Midtown"
+                    }, {
+                        "label": "140 St Georges Terrace",
+                        "uri": "http://dbpedia.org/resource/140_St_Georges_Terrace"
+                    }, {
+                        "label": "15 Central Park West",
+                        "uri": "http://dbpedia.org/resource/15_Central_Park_West"
+                    }, {
+                        "label": "ABA Business Center",
+                        "uri": "http://dbpedia.org/resource/ABA_Business_Center"
+                    }, {
+                        "label": "Adelaide Super-Drome",
+                        "uri": "http://dbpedia.org/resource/Adelaide_Super-Drome"
+                    }, {
+                        "label": "Akhori Dam",
+                        "uri": "http://dbpedia.org/resource/Akhori_Dam"
+                    }, {
+                        "label": "Allendale Square",
+                        "uri": "http://dbpedia.org/resource/Allendale_Square"
+                    }, {
+                        "label": "Alvear Tower",
+                        "uri": "http://dbpedia.org/resource/Alvear_Tower"
+                    }, {
+                        "label": "Arena Khimki",
+                        "uri": "http://dbpedia.org/resource/Arena_Khimki"
+                    }, {
+                        "label": "Arena Zenica",
+                        "uri": "http://dbpedia.org/resource/Arena_Zenica"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "BUILDING",
+            "frameType": "IPP",
+            "sentences": ["What was built in $x?", "What were built in $x?", "Which architectural structure was built in $x?", "Which architectural structures were built in $x?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingStartDate> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "objOfProp"
+            },
+            "returnVariable": "subjOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "August 6, 1968",
+                        "uri": "August 6, 1968"
+                    }, {
+                        "label": "1st century",
+                        "uri": "1st century"
+                    }, {
+                        "label": "1968 (for church)",
+                        "uri": "1968 (for church)"
+                    }, {
+                        "label": "2005",
+                        "uri": "2005"
+                    }, {
+                        "label": "1958",
+                        "uri": "1958"
+                    }, {
+                        "label": "June 2014",
+                        "uri": "June 2014"
+                    }, {
+                        "label": "2003",
+                        "uri": "2003"
+                    }, {
+                        "label": "1946–1947",
+                        "uri": "1946–1947"
+                    }, {
+                        "label": "1970",
+                        "uri": "1970"
+                    }, {
+                        "label": "16 January 2009",
+                        "uri": "16 January 2009"
+                    }, {
+                        "label": "2006",
+                        "uri": "2006"
+                    }, {
+                        "label": "2016",
+                        "uri": "2016"
+                    }, {
+                        "label": "1953",
+                        "uri": "1953"
+                    }, {
+                        "label": "September 12, 2006",
+                        "uri": "September 12, 2006"
+                    }, {
+                        "label": "1969",
+                        "uri": "1969"
+                    }, {
+                        "label": "1903",
+                        "uri": "1903"
+                    }, {
+                        "label": "1910",
+                        "uri": "1910"
+                    }, {
+                        "label": "2004",
+                        "uri": "2004"
+                    }, {
+                        "label": "c. 1344",
+                        "uri": "c. 1344"
+                    }, {
+                        "label": "1895",
+                        "uri": "1895"
+                    }, {
+                        "label": "c. 1210",
+                        "uri": "c. 1210"
+                    }, {
+                        "label": "1926",
+                        "uri": "1926"
+                    }, {
+                        "label": "1964",
+                        "uri": "1964"
+                    }, {
+                        "label": "1957",
+                        "uri": "1957"
+                    }, {
+                        "label": "dwelling house: 1927",
+                        "uri": "dwelling house: 1927"
+                    }, {
+                        "label": "school: 1911",
+                        "uri": "school: 1911"
+                    }, {
+                        "label": "1689 or later",
+                        "uri": "1689 or later"
+                    }, {
+                        "label": "1922",
+                        "uri": "1922"
+                    }, {
+                        "label": "1578",
+                        "uri": "1578"
+                    }, {
+                        "label": "1919",
+                        "uri": "1919"
+                    }, {
+                        "label": "1864",
+                        "uri": "1864"
+                    }, {
+                        "label": "1911",
+                        "uri": "1911"
+                    }, {
+                        "label": "1862",
+                        "uri": "1862"
+                    }, {
+                        "label": "1637",
+                        "uri": "1637"
+                    }, {
+                        "label": "2002",
+                        "uri": "2002"
+                    }, {
+                        "label": "1976",
+                        "uri": "1976"
+                    }, {
+                        "label": "2008",
+                        "uri": "2008"
+                    }, {
+                        "label": "June 1964",
+                        "uri": "June 1964"
+                    }, {
+                        "label": "1777",
+                        "uri": "1777"
+                    }, {
+                        "label": "1910 (for church)",
+                        "uri": "1910 (for church)"
+                    }, {
+                        "label": "1927 (for rectory)",
+                        "uri": "1927 (for rectory)"
+                    }, {
+                        "label": "1990",
+                        "uri": "1990"
+                    }, {
+                        "label": "1865",
+                        "uri": "1865"
+                    }, {
+                        "label": "1732",
+                        "uri": "1732"
+                    }, {
+                        "label": "1936",
+                        "uri": "1936"
+                    }, {
+                        "label": "1992",
+                        "uri": "1992"
+                    }, {
+                        "label": "2001",
+                        "uri": "2001"
+                    }, {
+                        "label": "2010",
+                        "uri": "2010"
+                    }, {
+                        "label": "1930",
+                        "uri": "1930"
+                    }, {
+                        "label": "1884",
+                        "uri": "1884"
+                    }, {
+                        "label": "2007",
+                        "uri": "2007"
+                    }, {
+                        "label": "2013",
+                        "uri": "2013"
+                    }, {
+                        "label": "Build of 2001 sure determined",
+                        "uri": "Build of 2001 sure determined"
+                    }, {
+                        "label": "November 1, 2011",
+                        "uri": "November 1, 2011"
+                    }, {
+                        "label": "1981",
+                        "uri": "1981"
+                    }, {
+                        "label": "1803",
+                        "uri": "1803"
+                    }, {
+                        "label": "March 2010",
+                        "uri": "March 2010"
+                    }, {
+                        "label": "1975",
+                        "uri": "1975"
+                    }, {
+                        "label": "1954",
+                        "uri": "1954"
+                    }, {
+                        "label": "July 2010",
+                        "uri": "July 2010"
+                    }, {
+                        "label": "1961",
+                        "uri": "1961"
+                    }, {
+                        "label": "1954–1957",
+                        "uri": "1954–1957"
+                    }, {
+                        "label": "1756",
+                        "uri": "1756"
+                    }, {
+                        "label": "1928",
+                        "uri": "1928"
+                    }, {
+                        "label": "1939",
+                        "uri": "1939"
+                    }, {
+                        "label": "1927",
+                        "uri": "1927"
+                    }, {
+                        "label": "2012",
+                        "uri": "2012"
+                    }, {
+                        "label": "17th Century",
+                        "uri": "17th Century"
+                    }, {
+                        "label": "May 22, 1905",
+                        "uri": "May 22, 1905"
+                    }, {
+                        "label": "January 2013",
+                        "uri": "January 2013"
+                    }, {
+                        "label": "1506",
+                        "uri": "1506"
+                    }, {
+                        "label": "1940",
+                        "uri": "1940"
+                    }, {
+                        "label": "13th century",
+                        "uri": "13th century"
+                    }, {
+                        "label": "11th century",
+                        "uri": "11th century"
+                    }, {
+                        "label": "1985",
+                        "uri": "1985"
+                    }, {
+                        "label": "1901",
+                        "uri": "1901"
+                    }, {
+                        "label": "27 February 1927",
+                        "uri": "27 February 1927"
+                    }, {
+                        "label": "1998",
+                        "uri": "1998"
+                    }, {
+                        "label": "late 2006",
+                        "uri": "late 2006"
+                    }, {
+                        "label": "1959",
+                        "uri": "1959"
+                    }, {
+                        "label": "1972",
+                        "uri": "1972"
+                    }, {
+                        "label": "2009",
+                        "uri": "2009"
+                    }, {
+                        "label": "1993",
+                        "uri": "1993"
+                    }, {
+                        "label": "Study Complete",
+                        "uri": "Study Complete"
+                    }, {
+                        "label": "1974",
+                        "uri": "1974"
+                    }, {
+                        "label": "March 2012",
+                        "uri": "March 2012"
+                    }, {
+                        "label": "2005-2008",
+                        "uri": "2005-2008"
+                    }, {
+                        "label": "February 2007",
+                        "uri": "February 2007"
+                    }, {
+                        "label": "September 20, 2010",
+                        "uri": "September 20, 2010"
+                    }, {
+                        "label": "1898",
+                        "uri": "1898"
+                    }, {
+                        "label": "2011",
+                        "uri": "2011"
+                    }, {
+                        "label": "August 29, 1950",
+                        "uri": "August 29, 1950"
+                    }, {
+                        "label": "1836",
+                        "uri": "1836"
+                    }, {
+                        "label": "May, 2000",
+                        "uri": "May, 2000"
+                    }, {
+                        "label": "1857",
+                        "uri": "1857"
+                    }, {
+                        "label": "1815",
+                        "uri": "1815"
+                    }, {
+                        "label": "October 7, 1959",
+                        "uri": "October 7, 1959"
+                    }, {
+                        "label": "1994 (halted in 1996, restarted in 2005)",
+                        "uri": "1994 (halted in 1996, restarted in 2005)"
+                    }, {
+                        "label": "July 17, 1941",
+                        "uri": "July 17, 1941"
+                    }, {
+                        "label": "August 1, 1940",
+                        "uri": "August 1, 1940"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Whitehaven, Memphis, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+                    }, {
+                        "label": "Lake Zabuye",
+                        "uri": "http://dbpedia.org/resource/Lake_Zabuye"
+                    }, {
+                        "label": "Mid-Atlantic states",
+                        "uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+                    }, {
+                        "label": "New England",
+                        "uri": "http://dbpedia.org/resource/New_England"
+                    }, {
+                        "label": "Kuta Raja",
+                        "uri": "http://dbpedia.org/resource/Kuta_Raja"
+                    }, {
+                        "label": "San Biagio Maggiore",
+                        "uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+                    }, {
+                        "label": "Namcha Barwa Himal",
+                        "uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+                    }, {
+                        "label": "San Nicola a Nilo",
+                        "uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+                    }, {
+                        "label": "Adra, Syria",
+                        "uri": "http://dbpedia.org/resource/Adra,_Syria"
+                    }, {
+                        "label": "Al-Mazraa",
+                        "uri": "http://dbpedia.org/resource/Al-Mazraa"
+                    }, {
+                        "label": "Al-Rastan",
+                        "uri": "http://dbpedia.org/resource/Al-Rastan"
+                    }, {
+                        "label": "Al-Hawash, Homs Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+                    }, {
+                        "label": "Ayn al-Bardah",
+                        "uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+                    }, {
+                        "label": "Khabab",
+                        "uri": "http://dbpedia.org/resource/Khabab"
+                    }, {
+                        "label": "Al-Kafr",
+                        "uri": "http://dbpedia.org/resource/Al-Kafr"
+                    }, {
+                        "label": "Deir Mama",
+                        "uri": "http://dbpedia.org/resource/Deir_Mama"
+                    }, {
+                        "label": "Madaya, Syria",
+                        "uri": "http://dbpedia.org/resource/Madaya,_Syria"
+                    }, {
+                        "label": "Tayru",
+                        "uri": "http://dbpedia.org/resource/Tayru"
+                    }, {
+                        "label": "Al-Khalidiyah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+                    }, {
+                        "label": "Al-Khalidiyah, al-Hasakah Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+                    }, {
+                        "label": "Basatin al-Assad",
+                        "uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+                    }, {
+                        "label": "Hala, Syria",
+                        "uri": "http://dbpedia.org/resource/Hala,_Syria"
+                    }, {
+                        "label": "Harran, Idlib",
+                        "uri": "http://dbpedia.org/resource/Harran,_Idlib"
+                    }, {
+                        "label": "Harran, as-Suwayda",
+                        "uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+                    }, {
+                        "label": "Harran al-Awamid",
+                        "uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+                    }, {
+                        "label": "Wadi al-Nasara",
+                        "uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+                    }, {
+                        "label": "Abu Khanadiq",
+                        "uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+                    }, {
+                        "label": "Abu Kleefun",
+                        "uri": "http://dbpedia.org/resource/Abu_Kleefun"
+                    }, {
+                        "label": "Abul Fashafish",
+                        "uri": "http://dbpedia.org/resource/Abul_Fashafish"
+                    }, {
+                        "label": "Al-'Amrah",
+                        "uri": "http://dbpedia.org/resource/Al-'Amrah"
+                    }, {
+                        "label": "Al-Atnah",
+                        "uri": "http://dbpedia.org/resource/Al-Atnah"
+                    }, {
+                        "label": "Al-Fayadiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+                    }, {
+                        "label": "Al-Humayra",
+                        "uri": "http://dbpedia.org/resource/Al-Humayra"
+                    }, {
+                        "label": "Al-Jarajir",
+                        "uri": "http://dbpedia.org/resource/Al-Jarajir"
+                    }, {
+                        "label": "Al-Khandaq al-Sharqiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+                    }, {
+                        "label": "Al-Muhajirin, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Narjis",
+                        "uri": "http://dbpedia.org/resource/Al-Narjis"
+                    }, {
+                        "label": "Al-Nazaza",
+                        "uri": "http://dbpedia.org/resource/Al-Nazaza"
+                    }, {
+                        "label": "Al-Nour, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+                    }, {
+                        "label": "Al-Ramlah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+                    }, {
+                        "label": "Al-Salihiyah, Hama",
+                        "uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+                    }, {
+                        "label": "Al-Sindiyana, Suqaylabiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+                    }, {
+                        "label": "Al-Swaia",
+                        "uri": "http://dbpedia.org/resource/Al-Swaia"
+                    }, {
+                        "label": "Al-Thawrah, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Tulaysiyah al-Janubiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+                    }, {
+                        "label": "Al-Zitiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Zitiyah"
+                    }, {
+                        "label": "Ammurin",
+                        "uri": "http://dbpedia.org/resource/Ammurin"
+                    }, {
+                        "label": "Ayn Dara",
+                        "uri": "http://dbpedia.org/resource/Ayn_Dara"
+                    }, {
+                        "label": "Balluneh",
+                        "uri": "http://dbpedia.org/resource/Balluneh"
+                    }, {
+                        "label": "Beij",
+                        "uri": "http://dbpedia.org/resource/Beij"
+                    }, {
+                        "label": "Bgheidid",
+                        "uri": "http://dbpedia.org/resource/Bgheidid"
+                    }, {
+                        "label": "Bustan Sbeih",
+                        "uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+                    }, {
+                        "label": "Deir Sunbul",
+                        "uri": "http://dbpedia.org/resource/Deir_Sunbul"
+                    }, {
+                        "label": "Ein Elhamam",
+                        "uri": "http://dbpedia.org/resource/Ein_Elhamam"
+                    }, {
+                        "label": "Ein Warideh",
+                        "uri": "http://dbpedia.org/resource/Ein_Warideh"
+                    }, {
+                        "label": "Elrihana",
+                        "uri": "http://dbpedia.org/resource/Elrihana"
+                    }, {
+                        "label": "Fawrah",
+                        "uri": "http://dbpedia.org/resource/Fawrah"
+                    }, {
+                        "label": "Hamrit",
+                        "uri": "http://dbpedia.org/resource/Hamrit"
+                    }, {
+                        "label": "Hanuteh",
+                        "uri": "http://dbpedia.org/resource/Hanuteh"
+                    }, {
+                        "label": "Hdaj",
+                        "uri": "http://dbpedia.org/resource/Hdaj"
+                    }, {
+                        "label": "Jakuziyeh",
+                        "uri": "http://dbpedia.org/resource/Jakuziyeh"
+                    }, {
+                        "label": "Jamala, Hama",
+                        "uri": "http://dbpedia.org/resource/Jamala,_Hama"
+                    }, {
+                        "label": "Jeb Dkileh",
+                        "uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+                    }, {
+                        "label": "Jeb Zreiq",
+                        "uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+                    }, {
+                        "label": "Jessine",
+                        "uri": "http://dbpedia.org/resource/Jessine"
+                    }, {
+                        "label": "Karama, Hama",
+                        "uri": "http://dbpedia.org/resource/Karama,_Hama"
+                    }, {
+                        "label": "Kasun Eljabal",
+                        "uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+                    }, {
+                        "label": "Kawri",
+                        "uri": "http://dbpedia.org/resource/Kawri"
+                    }, {
+                        "label": "Khala, Hama",
+                        "uri": "http://dbpedia.org/resource/Khala,_Hama"
+                    }, {
+                        "label": "Khansaa - Shetheh",
+                        "uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+                    }, {
+                        "label": "Maar Shamali",
+                        "uri": "http://dbpedia.org/resource/Maar_Shamali"
+                    }, {
+                        "label": "Makhbuta",
+                        "uri": "http://dbpedia.org/resource/Makhbuta"
+                    }, {
+                        "label": "Maksar, Hama",
+                        "uri": "http://dbpedia.org/resource/Maksar,_Hama"
+                    }, {
+                        "label": "Marana, Hama",
+                        "uri": "http://dbpedia.org/resource/Marana,_Hama"
+                    }, {
+                        "label": "Mashta Elshalahmeh",
+                        "uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+                    }, {
+                        "label": "Mastarihat Afamiyah",
+                        "uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+                    }, {
+                        "label": "Mrikb",
+                        "uri": "http://dbpedia.org/resource/Mrikb"
+                    }, {
+                        "label": "Mweileh",
+                        "uri": "http://dbpedia.org/resource/Mweileh"
+                    }, {
+                        "label": "Nabe Eltib",
+                        "uri": "http://dbpedia.org/resource/Nabe_Eltib"
+                    }, {
+                        "label": "Ojet - Kabasin Elarab",
+                        "uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+                    }, {
+                        "label": "Ojt Eltoba",
+                        "uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+                    }, {
+                        "label": "Qal'at al-Jaras",
+                        "uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+                    }, {
+                        "label": "Qanater, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+                    }, {
+                        "label": "Qastal al-Burj",
+                        "uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+                    }, {
+                        "label": "Ras al-Maara",
+                        "uri": "http://dbpedia.org/resource/Ras_al-Maara"
+                    }, {
+                        "label": "Rasm Al-Brdkana",
+                        "uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+                    }, {
+                        "label": "Rasm Amun",
+                        "uri": "http://dbpedia.org/resource/Rasm_Amun"
+                    }, {
+                        "label": "Rasm Anz",
+                        "uri": "http://dbpedia.org/resource/Rasm_Anz"
+                    }, {
+                        "label": "Rasm Elahmar",
+                        "uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+                    }, {
+                        "label": "Rudat al-Tar",
+                        "uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+                    }, {
+                        "label": "Rweideh",
+                        "uri": "http://dbpedia.org/resource/Rweideh"
+                    }, {
+                        "label": "Saidiyeh, Hama",
+                        "uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+                    }, {
+                        "label": "Saqiyet Nijm",
+                        "uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+                    }, {
+                        "label": "Shahta",
+                        "uri": "http://dbpedia.org/resource/Shahta"
+                    }, {
+                        "label": "Shatheh",
+                        "uri": "http://dbpedia.org/resource/Shatheh"
+                    }, {
+                        "label": "Shaykh Ali",
+                        "uri": "http://dbpedia.org/resource/Shaykh_Ali"
+                    }, {
+                        "label": "Suwak al-Shamali",
+                        "uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+                    }, {
+                        "label": "Tabara Elhamra",
+                        "uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+                    }, {
+                        "label": "Tahunet Elhalawa",
+                        "uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+                    }, {
+                        "label": "Tell al-Shih",
+                        "uri": "http://dbpedia.org/resource/Tell_al-Shih"
+                    }]
+            },
+            "combination": false
+        }]
+}

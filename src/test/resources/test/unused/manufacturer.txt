@@ -1,0 +1,1013 @@
+@prefix :        <http://localmanufacturer:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base            <http://localmanufacturer:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :manufacturer_of ;
+  lemon:entry    :of .
+
+:manufacturer_of a     lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:noun ;
+  lemon:canonicalForm  :manufacturer_form ;
+  lemon:otherForm      :manufacturers_form ;
+  lemon:synBehavior    :manufacturer_of_nounpp ;
+  lemon:sense          :manufacturer_sense_ontomap .
+
+:manufacturer_form a lemon:Form ;
+  lemon:writtenRep   "manufacturer"@en .
+
+:manufacturers_form a lemon:Form ;
+  lemon:writtenRep    "manufacturers"@en ;
+  lexinfo:number      lexinfo:plural .
+
+:manufacturer_of_nounpp a      lexinfo:NounPPFrame ;
+  lexinfo:copulativeArg        :arg1 ;
+  lexinfo:prepositionalAdjunct :arg2 .
+
+:manufacturer_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping           :manufacturer_sense_ontomap ;
+  lemon:reference             <http://dbpedia.org/ontology/manufacturer> ;
+  lemon:subjOfProp            :arg2 ;
+  lemon:objOfProp             :arg1 ;
+  lemon:condition             :manufacturer_condition .
+
+:manufacturer_condition a lemon:condition ;
+  lemon:propertyDomain    <http://www.w3.org/2002/07/owl#Thing> ;
+  lemon:propertyRange     <http://dbpedia.org/ontology/Organisation> .
+
+:arg2 lemon:marker :of .
+
+## Prepositions ##
+
+:of a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "of"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
+
+
+
+
+
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "ORGANISATION",
+            "frameType": "NPP",
+            "sentences": ["What are the manufacturers of ($x | THING_NP)?", "What is the manufacturer of ($x | THING_NP)?", "What was the manufacturer of ($x | THING_NP)?", "What were the manufacturers of ($x | THING_NP)?", "Which organisation is the manufacturer of ($x | THING_NP)?", "Which organisation was the manufacturer of ($x | THING_NP)?", "Which organisations are the manufacturers of ($x | THING_NP)?", "Which organisations were the manufacturers of ($x | THING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/manufacturer> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "32X",
+                        "uri": "http://dbpedia.org/resource/32X"
+                    }, {
+                        "label": "3DO Interactive Multiplayer",
+                        "uri": "http://dbpedia.org/resource/3DO_Interactive_Multiplayer"
+                    }, {
+                        "label": "7 Up",
+                        "uri": "http://dbpedia.org/resource/7_Up"
+                    }, {
+                        "label": "AAI RQ-2 Pioneer",
+                        "uri": "http://dbpedia.org/resource/AAI_RQ-2_Pioneer"
+                    }, {
+                        "label": "AAI RQ-7 Shadow",
+                        "uri": "http://dbpedia.org/resource/AAI_RQ-7_Shadow"
+                    }, {
+                        "label": "AMC Gremlin",
+                        "uri": "http://dbpedia.org/resource/AMC_Gremlin"
+                    }, {
+                        "label": "Alliant RQ-6 Outrider",
+                        "uri": "http://dbpedia.org/resource/Alliant_RQ-6_Outrider"
+                    }, {
+                        "label": "Avro Vulcan",
+                        "uri": "http://dbpedia.org/resource/Avro_Vulcan"
+                    }, {
+                        "label": "Bell Boeing V-22 Osprey",
+                        "uri": "http://dbpedia.org/resource/Bell_Boeing_V-22_Osprey"
+                    }, {
+                        "label": "Bell OH-58 Kiowa",
+                        "uri": "http://dbpedia.org/resource/Bell_OH-58_Kiowa"
+                    }, {
+                        "label": "Bell UH-1 Iroquois",
+                        "uri": "http://dbpedia.org/resource/Bell_UH-1_Iroquois"
+                    }, {
+                        "label": "Boeing B-29 Superfortress",
+                        "uri": "http://dbpedia.org/resource/Boeing_B-29_Superfortress"
+                    }, {
+                        "label": "Buran programme",
+                        "uri": "http://dbpedia.org/resource/Buran_programme"
+                    }, {
+                        "label": "Cray-1",
+                        "uri": "http://dbpedia.org/resource/Cray-1"
+                    }, {
+                        "label": "Energia",
+                        "uri": "http://dbpedia.org/resource/Energia"
+                    }, {
+                        "label": "Fire balloon",
+                        "uri": "http://dbpedia.org/resource/Fire_balloon"
+                    }, {
+                        "label": "Fokker Dr.I",
+                        "uri": "http://dbpedia.org/resource/Fokker_Dr.I"
+                    }, {
+                        "label": "GameCube",
+                        "uri": "http://dbpedia.org/resource/GameCube"
+                    }, {
+                        "label": "Game Gear",
+                        "uri": "http://dbpedia.org/resource/Game_Gear"
+                    }, {
+                        "label": "General Atomics MQ-1 Predator",
+                        "uri": "http://dbpedia.org/resource/General_Atomics_MQ-1_Predator"
+                    }, {
+                        "label": "Gloster Meteor",
+                        "uri": "http://dbpedia.org/resource/Gloster_Meteor"
+                    }, {
+                        "label": "Hawker Hurricane",
+                        "uri": "http://dbpedia.org/resource/Hawker_Hurricane"
+                    }, {
+                        "label": "Hawker Siddeley Nimrod",
+                        "uri": "http://dbpedia.org/resource/Hawker_Siddeley_Nimrod"
+                    }, {
+                        "label": "IAI RQ-5 Hunter",
+                        "uri": "http://dbpedia.org/resource/IAI_RQ-5_Hunter"
+                    }, {
+                        "label": "Kaman SH-2 Seasprite",
+                        "uri": "http://dbpedia.org/resource/Kaman_SH-2_Seasprite"
+                    }, {
+                        "label": "Lockheed Martin RQ-3 DarkStar",
+                        "uri": "http://dbpedia.org/resource/Lockheed_Martin_RQ-3_DarkStar"
+                    }, {
+                        "label": "Lockheed S-3 Viking",
+                        "uri": "http://dbpedia.org/resource/Lockheed_S-3_Viking"
+                    }, {
+                        "label": "Lockheed SR-71 Blackbird",
+                        "uri": "http://dbpedia.org/resource/Lockheed_SR-71_Blackbird"
+                    }, {
+                        "label": "Lockheed U-2",
+                        "uri": "http://dbpedia.org/resource/Lockheed_U-2"
+                    }, {
+                        "label": "McDonnell Douglas F/A-18 Hornet",
+                        "uri": "http://dbpedia.org/resource/McDonnell_Douglas_F/A-18_Hornet"
+                    }, {
+                        "label": "Mountain Dew",
+                        "uri": "http://dbpedia.org/resource/Mountain_Dew"
+                    }, {
+                        "label": "Nissan Z-car",
+                        "uri": "http://dbpedia.org/resource/Nissan_Z-car"
+                    }, {
+                        "label": "Northrop Grumman E-2 Hawkeye",
+                        "uri": "http://dbpedia.org/resource/Northrop_Grumman_E-2_Hawkeye"
+                    }, {
+                        "label": "Northrop Grumman RQ-4 Global Hawk",
+                        "uri": "http://dbpedia.org/resource/Northrop_Grumman_RQ-4_Global_Hawk"
+                    }, {
+                        "label": "PDP-7",
+                        "uri": "http://dbpedia.org/resource/PDP-7"
+                    }, {
+                        "label": "PalmPilot",
+                        "uri": "http://dbpedia.org/resource/PalmPilot"
+                    }, {
+                        "label": "Sega CD",
+                        "uri": "http://dbpedia.org/resource/Sega_CD"
+                    }, {
+                        "label": "Sega Saturn",
+                        "uri": "http://dbpedia.org/resource/Sega_Saturn"
+                    }, {
+                        "label": "Sikorsky HH-60 Pave Hawk",
+                        "uri": "http://dbpedia.org/resource/Sikorsky_HH-60_Pave_Hawk"
+                    }, {
+                        "label": "Sikorsky UH-60 Black Hawk",
+                        "uri": "http://dbpedia.org/resource/Sikorsky_UH-60_Black_Hawk"
+                    }, {
+                        "label": "Subaru Forester",
+                        "uri": "http://dbpedia.org/resource/Subaru_Forester"
+                    }, {
+                        "label": "TRS-80",
+                        "uri": "http://dbpedia.org/resource/TRS-80"
+                    }, {
+                        "label": "TRS-80 Color Computer",
+                        "uri": "http://dbpedia.org/resource/TRS-80_Color_Computer"
+                    }, {
+                        "label": "Tatra 600",
+                        "uri": "http://dbpedia.org/resource/Tatra_600"
+                    }, {
+                        "label": "Trabant",
+                        "uri": "http://dbpedia.org/resource/Trabant"
+                    }, {
+                        "label": "Tucker 48",
+                        "uri": "http://dbpedia.org/resource/Tucker_48"
+                    }, {
+                        "label": "TurboGrafx-16",
+                        "uri": "http://dbpedia.org/resource/TurboGrafx-16"
+                    }, {
+                        "label": "Vectrex",
+                        "uri": "http://dbpedia.org/resource/Vectrex"
+                    }, {
+                        "label": "Walkman",
+                        "uri": "http://dbpedia.org/resource/Walkman"
+                    }, {
+                        "label": "ZX81",
+                        "uri": "http://dbpedia.org/resource/ZX81"
+                    }, {
+                        "label": "Aeronautics Defense Dominator",
+                        "uri": "http://dbpedia.org/resource/Aeronautics_Defense_Dominator"
+                    }, {
+                        "label": "Apco Simba",
+                        "uri": "http://dbpedia.org/resource/Apco_Simba"
+                    }, {
+                        "label": "Aspen Soda",
+                        "uri": "http://dbpedia.org/resource/Aspen_Soda"
+                    }, {
+                        "label": "Aérospatiale Gazelle",
+                        "uri": "http://dbpedia.org/resource/Aérospatiale_Gazelle"
+                    }, {
+                        "label": "CZAW Mermaid",
+                        "uri": "http://dbpedia.org/resource/CZAW_Mermaid"
+                    }, {
+                        "label": "Chevrolet Sequel",
+                        "uri": "http://dbpedia.org/resource/Chevrolet_Sequel"
+                    }, {
+                        "label": "Dennis Dominator",
+                        "uri": "http://dbpedia.org/resource/Dennis_Dominator"
+                    }, {
+                        "label": "Direct Fly Alto",
+                        "uri": "http://dbpedia.org/resource/Direct_Fly_Alto"
+                    }, {
+                        "label": "Dodge Aspen",
+                        "uri": "http://dbpedia.org/resource/Dodge_Aspen"
+                    }, {
+                        "label": "Fairchild C-119 Flying Boxcar",
+                        "uri": "http://dbpedia.org/resource/Fairchild_C-119_Flying_Boxcar"
+                    }, {
+                        "label": "Fiat Fiorino",
+                        "uri": "http://dbpedia.org/resource/Fiat_Fiorino"
+                    }, {
+                        "label": "Ford Model N",
+                        "uri": "http://dbpedia.org/resource/Ford_Model_N"
+                    }, {
+                        "label": "Gradient Aspen",
+                        "uri": "http://dbpedia.org/resource/Gradient_Aspen"
+                    }, {
+                        "label": "Hillman Gazelle",
+                        "uri": "http://dbpedia.org/resource/Hillman_Gazelle"
+                    }, {
+                        "label": "Honda Quint",
+                        "uri": "http://dbpedia.org/resource/Honda_Quint"
+                    }, {
+                        "label": "Ikarus Grasshopper",
+                        "uri": "http://dbpedia.org/resource/Ikarus_Grasshopper"
+                    }, {
+                        "label": "Lexus LFA",
+                        "uri": "http://dbpedia.org/resource/Lexus_LFA"
+                    }, {
+                        "label": "Maserati Bora",
+                        "uri": "http://dbpedia.org/resource/Maserati_Bora"
+                    }, {
+                        "label": "Molniya-M",
+                        "uri": "http://dbpedia.org/resource/Molniya-M"
+                    }, {
+                        "label": "Paradelta Bora",
+                        "uri": "http://dbpedia.org/resource/Paradelta_Bora"
+                    }, {
+                        "label": "Plaxton Supreme",
+                        "uri": "http://dbpedia.org/resource/Plaxton_Supreme"
+                    }, {
+                        "label": "RTV-G-4 Bumper",
+                        "uri": "http://dbpedia.org/resource/RTV-G-4_Bumper"
+                    }, {
+                        "label": "Rolls-Royce Phantom Coupé",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_Coupé"
+                    }, {
+                        "label": "Rolls-Royce Phantom Drophead Coupé",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_Drophead_Coupé"
+                    }, {
+                        "label": "Rolls-Royce Phantom I",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_I"
+                    }, {
+                        "label": "Rolls-Royce Phantom II",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_II"
+                    }, {
+                        "label": "Rolls-Royce Phantom III",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_III"
+                    }, {
+                        "label": "Rolls-Royce Phantom V",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_V"
+                    }, {
+                        "label": "Rolls-Royce Phantom VI",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_VI"
+                    }, {
+                        "label": "Sega TeraDrive",
+                        "uri": "http://dbpedia.org/resource/Sega_TeraDrive"
+                    }, {
+                        "label": "Singer Gazelle",
+                        "uri": "http://dbpedia.org/resource/Singer_Gazelle"
+                    }, {
+                        "label": "Slingsby Grasshopper",
+                        "uri": "http://dbpedia.org/resource/Slingsby_Grasshopper"
+                    }, {
+                        "label": "Snow Queen Vodka",
+                        "uri": "http://dbpedia.org/resource/Snow_Queen_Vodka"
+                    }, {
+                        "label": "Sopwith Grasshopper",
+                        "uri": "http://dbpedia.org/resource/Sopwith_Grasshopper"
+                    }, {
+                        "label": "Transperth B-series train",
+                        "uri": "http://dbpedia.org/resource/Transperth_B-series_train"
+                    }, {
+                        "label": "300 Series Shinkansen",
+                        "uri": "http://dbpedia.org/resource/300_Series_Shinkansen"
+                    }, {
+                        "label": "701 series",
+                        "uri": "http://dbpedia.org/resource/701_series"
+                    }, {
+                        "label": "AVIC Golden Eagle",
+                        "uri": "http://dbpedia.org/resource/AVIC_Golden_Eagle"
+                    }, {
+                        "label": "Abaris Golden Arrow",
+                        "uri": "http://dbpedia.org/resource/Abaris_Golden_Arrow"
+                    }, {
+                        "label": "Abbott-Baynes Scud 1",
+                        "uri": "http://dbpedia.org/resource/Abbott-Baynes_Scud_1"
+                    }, {
+                        "label": "Abbott-Baynes Scud 2",
+                        "uri": "http://dbpedia.org/resource/Abbott-Baynes_Scud_2"
+                    }, {
+                        "label": "Acura CSX",
+                        "uri": "http://dbpedia.org/resource/Acura_CSX"
+                    }, {
+                        "label": "Angara (rocket family)",
+                        "uri": "http://dbpedia.org/resource/Angara_(rocket_family)"
+                    }, {
+                        "label": "Antares (rocket)",
+                        "uri": "http://dbpedia.org/resource/Antares_(rocket)"
+                    }, {
+                        "label": "Antares MA-32",
+                        "uri": "http://dbpedia.org/resource/Antares_MA-32"
+                    }, {
+                        "label": "Applebay Zuni",
+                        "uri": "http://dbpedia.org/resource/Applebay_Zuni"
+                    }, {
+                        "label": "Arirang (smartphone)",
+                        "uri": "http://dbpedia.org/resource/Arirang_(smartphone)"
+                    }, {
+                        "label": "Armstrong Whitworth Atalanta",
+                        "uri": "http://dbpedia.org/resource/Armstrong_Whitworth_Atalanta"
+                    }, {
+                        "label": "Ascari Ecosse",
+                        "uri": "http://dbpedia.org/resource/Ascari_Ecosse"
+                    }, {
+                        "label": "Austin Princess",
+                        "uri": "http://dbpedia.org/resource/Austin_Princess"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "ORGANISATION",
+            "frameType": "NPP",
+            "sentences": ["the manufacturer of $x", "the manufacturers of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/manufacturer> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "32X",
+                        "uri": "http://dbpedia.org/resource/32X"
+                    }, {
+                        "label": "3DO Interactive Multiplayer",
+                        "uri": "http://dbpedia.org/resource/3DO_Interactive_Multiplayer"
+                    }, {
+                        "label": "7 Up",
+                        "uri": "http://dbpedia.org/resource/7_Up"
+                    }, {
+                        "label": "AAI RQ-2 Pioneer",
+                        "uri": "http://dbpedia.org/resource/AAI_RQ-2_Pioneer"
+                    }, {
+                        "label": "AAI RQ-7 Shadow",
+                        "uri": "http://dbpedia.org/resource/AAI_RQ-7_Shadow"
+                    }, {
+                        "label": "AMC Gremlin",
+                        "uri": "http://dbpedia.org/resource/AMC_Gremlin"
+                    }, {
+                        "label": "Alliant RQ-6 Outrider",
+                        "uri": "http://dbpedia.org/resource/Alliant_RQ-6_Outrider"
+                    }, {
+                        "label": "Avro Vulcan",
+                        "uri": "http://dbpedia.org/resource/Avro_Vulcan"
+                    }, {
+                        "label": "Bell Boeing V-22 Osprey",
+                        "uri": "http://dbpedia.org/resource/Bell_Boeing_V-22_Osprey"
+                    }, {
+                        "label": "Bell OH-58 Kiowa",
+                        "uri": "http://dbpedia.org/resource/Bell_OH-58_Kiowa"
+                    }, {
+                        "label": "Bell UH-1 Iroquois",
+                        "uri": "http://dbpedia.org/resource/Bell_UH-1_Iroquois"
+                    }, {
+                        "label": "Boeing B-29 Superfortress",
+                        "uri": "http://dbpedia.org/resource/Boeing_B-29_Superfortress"
+                    }, {
+                        "label": "Buran programme",
+                        "uri": "http://dbpedia.org/resource/Buran_programme"
+                    }, {
+                        "label": "Cray-1",
+                        "uri": "http://dbpedia.org/resource/Cray-1"
+                    }, {
+                        "label": "Energia",
+                        "uri": "http://dbpedia.org/resource/Energia"
+                    }, {
+                        "label": "Fire balloon",
+                        "uri": "http://dbpedia.org/resource/Fire_balloon"
+                    }, {
+                        "label": "Fokker Dr.I",
+                        "uri": "http://dbpedia.org/resource/Fokker_Dr.I"
+                    }, {
+                        "label": "GameCube",
+                        "uri": "http://dbpedia.org/resource/GameCube"
+                    }, {
+                        "label": "Game Gear",
+                        "uri": "http://dbpedia.org/resource/Game_Gear"
+                    }, {
+                        "label": "General Atomics MQ-1 Predator",
+                        "uri": "http://dbpedia.org/resource/General_Atomics_MQ-1_Predator"
+                    }, {
+                        "label": "Gloster Meteor",
+                        "uri": "http://dbpedia.org/resource/Gloster_Meteor"
+                    }, {
+                        "label": "Hawker Hurricane",
+                        "uri": "http://dbpedia.org/resource/Hawker_Hurricane"
+                    }, {
+                        "label": "Hawker Siddeley Nimrod",
+                        "uri": "http://dbpedia.org/resource/Hawker_Siddeley_Nimrod"
+                    }, {
+                        "label": "IAI RQ-5 Hunter",
+                        "uri": "http://dbpedia.org/resource/IAI_RQ-5_Hunter"
+                    }, {
+                        "label": "Kaman SH-2 Seasprite",
+                        "uri": "http://dbpedia.org/resource/Kaman_SH-2_Seasprite"
+                    }, {
+                        "label": "Lockheed Martin RQ-3 DarkStar",
+                        "uri": "http://dbpedia.org/resource/Lockheed_Martin_RQ-3_DarkStar"
+                    }, {
+                        "label": "Lockheed S-3 Viking",
+                        "uri": "http://dbpedia.org/resource/Lockheed_S-3_Viking"
+                    }, {
+                        "label": "Lockheed SR-71 Blackbird",
+                        "uri": "http://dbpedia.org/resource/Lockheed_SR-71_Blackbird"
+                    }, {
+                        "label": "Lockheed U-2",
+                        "uri": "http://dbpedia.org/resource/Lockheed_U-2"
+                    }, {
+                        "label": "McDonnell Douglas F/A-18 Hornet",
+                        "uri": "http://dbpedia.org/resource/McDonnell_Douglas_F/A-18_Hornet"
+                    }, {
+                        "label": "Mountain Dew",
+                        "uri": "http://dbpedia.org/resource/Mountain_Dew"
+                    }, {
+                        "label": "Nissan Z-car",
+                        "uri": "http://dbpedia.org/resource/Nissan_Z-car"
+                    }, {
+                        "label": "Northrop Grumman E-2 Hawkeye",
+                        "uri": "http://dbpedia.org/resource/Northrop_Grumman_E-2_Hawkeye"
+                    }, {
+                        "label": "Northrop Grumman RQ-4 Global Hawk",
+                        "uri": "http://dbpedia.org/resource/Northrop_Grumman_RQ-4_Global_Hawk"
+                    }, {
+                        "label": "PDP-7",
+                        "uri": "http://dbpedia.org/resource/PDP-7"
+                    }, {
+                        "label": "PalmPilot",
+                        "uri": "http://dbpedia.org/resource/PalmPilot"
+                    }, {
+                        "label": "Sega CD",
+                        "uri": "http://dbpedia.org/resource/Sega_CD"
+                    }, {
+                        "label": "Sega Saturn",
+                        "uri": "http://dbpedia.org/resource/Sega_Saturn"
+                    }, {
+                        "label": "Sikorsky HH-60 Pave Hawk",
+                        "uri": "http://dbpedia.org/resource/Sikorsky_HH-60_Pave_Hawk"
+                    }, {
+                        "label": "Sikorsky UH-60 Black Hawk",
+                        "uri": "http://dbpedia.org/resource/Sikorsky_UH-60_Black_Hawk"
+                    }, {
+                        "label": "Subaru Forester",
+                        "uri": "http://dbpedia.org/resource/Subaru_Forester"
+                    }, {
+                        "label": "TRS-80",
+                        "uri": "http://dbpedia.org/resource/TRS-80"
+                    }, {
+                        "label": "TRS-80 Color Computer",
+                        "uri": "http://dbpedia.org/resource/TRS-80_Color_Computer"
+                    }, {
+                        "label": "Tatra 600",
+                        "uri": "http://dbpedia.org/resource/Tatra_600"
+                    }, {
+                        "label": "Trabant",
+                        "uri": "http://dbpedia.org/resource/Trabant"
+                    }, {
+                        "label": "Tucker 48",
+                        "uri": "http://dbpedia.org/resource/Tucker_48"
+                    }, {
+                        "label": "TurboGrafx-16",
+                        "uri": "http://dbpedia.org/resource/TurboGrafx-16"
+                    }, {
+                        "label": "Vectrex",
+                        "uri": "http://dbpedia.org/resource/Vectrex"
+                    }, {
+                        "label": "Walkman",
+                        "uri": "http://dbpedia.org/resource/Walkman"
+                    }, {
+                        "label": "ZX81",
+                        "uri": "http://dbpedia.org/resource/ZX81"
+                    }, {
+                        "label": "Aeronautics Defense Dominator",
+                        "uri": "http://dbpedia.org/resource/Aeronautics_Defense_Dominator"
+                    }, {
+                        "label": "Apco Simba",
+                        "uri": "http://dbpedia.org/resource/Apco_Simba"
+                    }, {
+                        "label": "Aspen Soda",
+                        "uri": "http://dbpedia.org/resource/Aspen_Soda"
+                    }, {
+                        "label": "Aérospatiale Gazelle",
+                        "uri": "http://dbpedia.org/resource/Aérospatiale_Gazelle"
+                    }, {
+                        "label": "CZAW Mermaid",
+                        "uri": "http://dbpedia.org/resource/CZAW_Mermaid"
+                    }, {
+                        "label": "Chevrolet Sequel",
+                        "uri": "http://dbpedia.org/resource/Chevrolet_Sequel"
+                    }, {
+                        "label": "Dennis Dominator",
+                        "uri": "http://dbpedia.org/resource/Dennis_Dominator"
+                    }, {
+                        "label": "Direct Fly Alto",
+                        "uri": "http://dbpedia.org/resource/Direct_Fly_Alto"
+                    }, {
+                        "label": "Dodge Aspen",
+                        "uri": "http://dbpedia.org/resource/Dodge_Aspen"
+                    }, {
+                        "label": "Fairchild C-119 Flying Boxcar",
+                        "uri": "http://dbpedia.org/resource/Fairchild_C-119_Flying_Boxcar"
+                    }, {
+                        "label": "Fiat Fiorino",
+                        "uri": "http://dbpedia.org/resource/Fiat_Fiorino"
+                    }, {
+                        "label": "Ford Model N",
+                        "uri": "http://dbpedia.org/resource/Ford_Model_N"
+                    }, {
+                        "label": "Gradient Aspen",
+                        "uri": "http://dbpedia.org/resource/Gradient_Aspen"
+                    }, {
+                        "label": "Hillman Gazelle",
+                        "uri": "http://dbpedia.org/resource/Hillman_Gazelle"
+                    }, {
+                        "label": "Honda Quint",
+                        "uri": "http://dbpedia.org/resource/Honda_Quint"
+                    }, {
+                        "label": "Ikarus Grasshopper",
+                        "uri": "http://dbpedia.org/resource/Ikarus_Grasshopper"
+                    }, {
+                        "label": "Lexus LFA",
+                        "uri": "http://dbpedia.org/resource/Lexus_LFA"
+                    }, {
+                        "label": "Maserati Bora",
+                        "uri": "http://dbpedia.org/resource/Maserati_Bora"
+                    }, {
+                        "label": "Molniya-M",
+                        "uri": "http://dbpedia.org/resource/Molniya-M"
+                    }, {
+                        "label": "Paradelta Bora",
+                        "uri": "http://dbpedia.org/resource/Paradelta_Bora"
+                    }, {
+                        "label": "Plaxton Supreme",
+                        "uri": "http://dbpedia.org/resource/Plaxton_Supreme"
+                    }, {
+                        "label": "RTV-G-4 Bumper",
+                        "uri": "http://dbpedia.org/resource/RTV-G-4_Bumper"
+                    }, {
+                        "label": "Rolls-Royce Phantom Coupé",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_Coupé"
+                    }, {
+                        "label": "Rolls-Royce Phantom Drophead Coupé",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_Drophead_Coupé"
+                    }, {
+                        "label": "Rolls-Royce Phantom I",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_I"
+                    }, {
+                        "label": "Rolls-Royce Phantom II",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_II"
+                    }, {
+                        "label": "Rolls-Royce Phantom III",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_III"
+                    }, {
+                        "label": "Rolls-Royce Phantom V",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_V"
+                    }, {
+                        "label": "Rolls-Royce Phantom VI",
+                        "uri": "http://dbpedia.org/resource/Rolls-Royce_Phantom_VI"
+                    }, {
+                        "label": "Sega TeraDrive",
+                        "uri": "http://dbpedia.org/resource/Sega_TeraDrive"
+                    }, {
+                        "label": "Singer Gazelle",
+                        "uri": "http://dbpedia.org/resource/Singer_Gazelle"
+                    }, {
+                        "label": "Slingsby Grasshopper",
+                        "uri": "http://dbpedia.org/resource/Slingsby_Grasshopper"
+                    }, {
+                        "label": "Snow Queen Vodka",
+                        "uri": "http://dbpedia.org/resource/Snow_Queen_Vodka"
+                    }, {
+                        "label": "Sopwith Grasshopper",
+                        "uri": "http://dbpedia.org/resource/Sopwith_Grasshopper"
+                    }, {
+                        "label": "Transperth B-series train",
+                        "uri": "http://dbpedia.org/resource/Transperth_B-series_train"
+                    }, {
+                        "label": "300 Series Shinkansen",
+                        "uri": "http://dbpedia.org/resource/300_Series_Shinkansen"
+                    }, {
+                        "label": "701 series",
+                        "uri": "http://dbpedia.org/resource/701_series"
+                    }, {
+                        "label": "AVIC Golden Eagle",
+                        "uri": "http://dbpedia.org/resource/AVIC_Golden_Eagle"
+                    }, {
+                        "label": "Abaris Golden Arrow",
+                        "uri": "http://dbpedia.org/resource/Abaris_Golden_Arrow"
+                    }, {
+                        "label": "Abbott-Baynes Scud 1",
+                        "uri": "http://dbpedia.org/resource/Abbott-Baynes_Scud_1"
+                    }, {
+                        "label": "Abbott-Baynes Scud 2",
+                        "uri": "http://dbpedia.org/resource/Abbott-Baynes_Scud_2"
+                    }, {
+                        "label": "Acura CSX",
+                        "uri": "http://dbpedia.org/resource/Acura_CSX"
+                    }, {
+                        "label": "Angara (rocket family)",
+                        "uri": "http://dbpedia.org/resource/Angara_(rocket_family)"
+                    }, {
+                        "label": "Antares (rocket)",
+                        "uri": "http://dbpedia.org/resource/Antares_(rocket)"
+                    }, {
+                        "label": "Antares MA-32",
+                        "uri": "http://dbpedia.org/resource/Antares_MA-32"
+                    }, {
+                        "label": "Applebay Zuni",
+                        "uri": "http://dbpedia.org/resource/Applebay_Zuni"
+                    }, {
+                        "label": "Arirang (smartphone)",
+                        "uri": "http://dbpedia.org/resource/Arirang_(smartphone)"
+                    }, {
+                        "label": "Armstrong Whitworth Atalanta",
+                        "uri": "http://dbpedia.org/resource/Armstrong_Whitworth_Atalanta"
+                    }, {
+                        "label": "Ascari Ecosse",
+                        "uri": "http://dbpedia.org/resource/Ascari_Ecosse"
+                    }, {
+                        "label": "Austin Princess",
+                        "uri": "http://dbpedia.org/resource/Austin_Princess"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Whitehaven, Memphis, Tennessee",
+                        "uri": "http://dbpedia.org/resource/Whitehaven,_Memphis,_Tennessee"
+                    }, {
+                        "label": "Lake Zabuye",
+                        "uri": "http://dbpedia.org/resource/Lake_Zabuye"
+                    }, {
+                        "label": "Mid-Atlantic states",
+                        "uri": "http://dbpedia.org/resource/Mid-Atlantic_states"
+                    }, {
+                        "label": "New England",
+                        "uri": "http://dbpedia.org/resource/New_England"
+                    }, {
+                        "label": "Kuta Raja",
+                        "uri": "http://dbpedia.org/resource/Kuta_Raja"
+                    }, {
+                        "label": "San Biagio Maggiore",
+                        "uri": "http://dbpedia.org/resource/San_Biagio_Maggiore"
+                    }, {
+                        "label": "Namcha Barwa Himal",
+                        "uri": "http://dbpedia.org/resource/Namcha_Barwa_Himal"
+                    }, {
+                        "label": "San Nicola a Nilo",
+                        "uri": "http://dbpedia.org/resource/San_Nicola_a_Nilo"
+                    }, {
+                        "label": "Adra, Syria",
+                        "uri": "http://dbpedia.org/resource/Adra,_Syria"
+                    }, {
+                        "label": "Al-Mazraa",
+                        "uri": "http://dbpedia.org/resource/Al-Mazraa"
+                    }, {
+                        "label": "Al-Rastan",
+                        "uri": "http://dbpedia.org/resource/Al-Rastan"
+                    }, {
+                        "label": "Al-Hawash, Homs Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Hawash,_Homs_Governorate"
+                    }, {
+                        "label": "Ayn al-Bardah",
+                        "uri": "http://dbpedia.org/resource/Ayn_al-Bardah"
+                    }, {
+                        "label": "Khabab",
+                        "uri": "http://dbpedia.org/resource/Khabab"
+                    }, {
+                        "label": "Al-Kafr",
+                        "uri": "http://dbpedia.org/resource/Al-Kafr"
+                    }, {
+                        "label": "Deir Mama",
+                        "uri": "http://dbpedia.org/resource/Deir_Mama"
+                    }, {
+                        "label": "Madaya, Syria",
+                        "uri": "http://dbpedia.org/resource/Madaya,_Syria"
+                    }, {
+                        "label": "Tayru",
+                        "uri": "http://dbpedia.org/resource/Tayru"
+                    }, {
+                        "label": "Al-Khalidiyah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_Syria"
+                    }, {
+                        "label": "Al-Khalidiyah, al-Hasakah Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Khalidiyah,_al-Hasakah_Governorate"
+                    }, {
+                        "label": "Basatin al-Assad",
+                        "uri": "http://dbpedia.org/resource/Basatin_al-Assad"
+                    }, {
+                        "label": "Hala, Syria",
+                        "uri": "http://dbpedia.org/resource/Hala,_Syria"
+                    }, {
+                        "label": "Harran, Idlib",
+                        "uri": "http://dbpedia.org/resource/Harran,_Idlib"
+                    }, {
+                        "label": "Harran, as-Suwayda",
+                        "uri": "http://dbpedia.org/resource/Harran,_as-Suwayda"
+                    }, {
+                        "label": "Harran al-Awamid",
+                        "uri": "http://dbpedia.org/resource/Harran_al-Awamid"
+                    }, {
+                        "label": "Wadi al-Nasara",
+                        "uri": "http://dbpedia.org/resource/Wadi_al-Nasara"
+                    }, {
+                        "label": "Abu Khanadiq",
+                        "uri": "http://dbpedia.org/resource/Abu_Khanadiq"
+                    }, {
+                        "label": "Abu Kleefun",
+                        "uri": "http://dbpedia.org/resource/Abu_Kleefun"
+                    }, {
+                        "label": "Abul Fashafish",
+                        "uri": "http://dbpedia.org/resource/Abul_Fashafish"
+                    }, {
+                        "label": "Al-'Amrah",
+                        "uri": "http://dbpedia.org/resource/Al-'Amrah"
+                    }, {
+                        "label": "Al-Atnah",
+                        "uri": "http://dbpedia.org/resource/Al-Atnah"
+                    }, {
+                        "label": "Al-Fayadiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Fayadiyah"
+                    }, {
+                        "label": "Al-Humayra",
+                        "uri": "http://dbpedia.org/resource/Al-Humayra"
+                    }, {
+                        "label": "Al-Jarajir",
+                        "uri": "http://dbpedia.org/resource/Al-Jarajir"
+                    }, {
+                        "label": "Al-Khandaq al-Sharqiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Khandaq_al-Sharqiyah"
+                    }, {
+                        "label": "Al-Muhajirin, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Muhajirin,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Narjis",
+                        "uri": "http://dbpedia.org/resource/Al-Narjis"
+                    }, {
+                        "label": "Al-Nazaza",
+                        "uri": "http://dbpedia.org/resource/Al-Nazaza"
+                    }, {
+                        "label": "Al-Nour, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Nour,_Syria"
+                    }, {
+                        "label": "Al-Ramlah, Syria",
+                        "uri": "http://dbpedia.org/resource/Al-Ramlah,_Syria"
+                    }, {
+                        "label": "Al-Salihiyah, Hama",
+                        "uri": "http://dbpedia.org/resource/Al-Salihiyah,_Hama"
+                    }, {
+                        "label": "Al-Sindiyana, Suqaylabiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Sindiyana,_Suqaylabiyah"
+                    }, {
+                        "label": "Al-Swaia",
+                        "uri": "http://dbpedia.org/resource/Al-Swaia"
+                    }, {
+                        "label": "Al-Thawrah, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Al-Thawrah,_Hama_Governorate"
+                    }, {
+                        "label": "Al-Tulaysiyah al-Janubiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Tulaysiyah_al-Janubiyah"
+                    }, {
+                        "label": "Al-Zitiyah",
+                        "uri": "http://dbpedia.org/resource/Al-Zitiyah"
+                    }, {
+                        "label": "Ammurin",
+                        "uri": "http://dbpedia.org/resource/Ammurin"
+                    }, {
+                        "label": "Ayn Dara",
+                        "uri": "http://dbpedia.org/resource/Ayn_Dara"
+                    }, {
+                        "label": "Balluneh",
+                        "uri": "http://dbpedia.org/resource/Balluneh"
+                    }, {
+                        "label": "Beij",
+                        "uri": "http://dbpedia.org/resource/Beij"
+                    }, {
+                        "label": "Bgheidid",
+                        "uri": "http://dbpedia.org/resource/Bgheidid"
+                    }, {
+                        "label": "Bustan Sbeih",
+                        "uri": "http://dbpedia.org/resource/Bustan_Sbeih"
+                    }, {
+                        "label": "Deir Sunbul",
+                        "uri": "http://dbpedia.org/resource/Deir_Sunbul"
+                    }, {
+                        "label": "Ein Elhamam",
+                        "uri": "http://dbpedia.org/resource/Ein_Elhamam"
+                    }, {
+                        "label": "Ein Warideh",
+                        "uri": "http://dbpedia.org/resource/Ein_Warideh"
+                    }, {
+                        "label": "Elrihana",
+                        "uri": "http://dbpedia.org/resource/Elrihana"
+                    }, {
+                        "label": "Fawrah",
+                        "uri": "http://dbpedia.org/resource/Fawrah"
+                    }, {
+                        "label": "Hamrit",
+                        "uri": "http://dbpedia.org/resource/Hamrit"
+                    }, {
+                        "label": "Hanuteh",
+                        "uri": "http://dbpedia.org/resource/Hanuteh"
+                    }, {
+                        "label": "Hdaj",
+                        "uri": "http://dbpedia.org/resource/Hdaj"
+                    }, {
+                        "label": "Jakuziyeh",
+                        "uri": "http://dbpedia.org/resource/Jakuziyeh"
+                    }, {
+                        "label": "Jamala, Hama",
+                        "uri": "http://dbpedia.org/resource/Jamala,_Hama"
+                    }, {
+                        "label": "Jeb Dkileh",
+                        "uri": "http://dbpedia.org/resource/Jeb_Dkileh"
+                    }, {
+                        "label": "Jeb Zreiq",
+                        "uri": "http://dbpedia.org/resource/Jeb_Zreiq"
+                    }, {
+                        "label": "Jessine",
+                        "uri": "http://dbpedia.org/resource/Jessine"
+                    }, {
+                        "label": "Karama, Hama",
+                        "uri": "http://dbpedia.org/resource/Karama,_Hama"
+                    }, {
+                        "label": "Kasun Eljabal",
+                        "uri": "http://dbpedia.org/resource/Kasun_Eljabal"
+                    }, {
+                        "label": "Kawri",
+                        "uri": "http://dbpedia.org/resource/Kawri"
+                    }, {
+                        "label": "Khala, Hama",
+                        "uri": "http://dbpedia.org/resource/Khala,_Hama"
+                    }, {
+                        "label": "Khansaa - Shetheh",
+                        "uri": "http://dbpedia.org/resource/Khansaa_-_Shetheh"
+                    }, {
+                        "label": "Maar Shamali",
+                        "uri": "http://dbpedia.org/resource/Maar_Shamali"
+                    }, {
+                        "label": "Makhbuta",
+                        "uri": "http://dbpedia.org/resource/Makhbuta"
+                    }, {
+                        "label": "Maksar, Hama",
+                        "uri": "http://dbpedia.org/resource/Maksar,_Hama"
+                    }, {
+                        "label": "Marana, Hama",
+                        "uri": "http://dbpedia.org/resource/Marana,_Hama"
+                    }, {
+                        "label": "Mashta Elshalahmeh",
+                        "uri": "http://dbpedia.org/resource/Mashta_Elshalahmeh"
+                    }, {
+                        "label": "Mastarihat Afamiyah",
+                        "uri": "http://dbpedia.org/resource/Mastarihat_Afamiyah"
+                    }, {
+                        "label": "Mrikb",
+                        "uri": "http://dbpedia.org/resource/Mrikb"
+                    }, {
+                        "label": "Mweileh",
+                        "uri": "http://dbpedia.org/resource/Mweileh"
+                    }, {
+                        "label": "Nabe Eltib",
+                        "uri": "http://dbpedia.org/resource/Nabe_Eltib"
+                    }, {
+                        "label": "Ojet - Kabasin Elarab",
+                        "uri": "http://dbpedia.org/resource/Ojet_-_Kabasin_Elarab"
+                    }, {
+                        "label": "Ojt Eltoba",
+                        "uri": "http://dbpedia.org/resource/Ojt_Eltoba"
+                    }, {
+                        "label": "Qal'at al-Jaras",
+                        "uri": "http://dbpedia.org/resource/Qal'at_al-Jaras"
+                    }, {
+                        "label": "Qanater, Hama Governorate",
+                        "uri": "http://dbpedia.org/resource/Qanater,_Hama_Governorate"
+                    }, {
+                        "label": "Qastal al-Burj",
+                        "uri": "http://dbpedia.org/resource/Qastal_al-Burj"
+                    }, {
+                        "label": "Ras al-Maara",
+                        "uri": "http://dbpedia.org/resource/Ras_al-Maara"
+                    }, {
+                        "label": "Rasm Al-Brdkana",
+                        "uri": "http://dbpedia.org/resource/Rasm_Al-Brdkana"
+                    }, {
+                        "label": "Rasm Amun",
+                        "uri": "http://dbpedia.org/resource/Rasm_Amun"
+                    }, {
+                        "label": "Rasm Anz",
+                        "uri": "http://dbpedia.org/resource/Rasm_Anz"
+                    }, {
+                        "label": "Rasm Elahmar",
+                        "uri": "http://dbpedia.org/resource/Rasm_Elahmar"
+                    }, {
+                        "label": "Rudat al-Tar",
+                        "uri": "http://dbpedia.org/resource/Rudat_al-Tar"
+                    }, {
+                        "label": "Rweideh",
+                        "uri": "http://dbpedia.org/resource/Rweideh"
+                    }, {
+                        "label": "Saidiyeh, Hama",
+                        "uri": "http://dbpedia.org/resource/Saidiyeh,_Hama"
+                    }, {
+                        "label": "Saqiyet Nijm",
+                        "uri": "http://dbpedia.org/resource/Saqiyet_Nijm"
+                    }, {
+                        "label": "Shahta",
+                        "uri": "http://dbpedia.org/resource/Shahta"
+                    }, {
+                        "label": "Shatheh",
+                        "uri": "http://dbpedia.org/resource/Shatheh"
+                    }, {
+                        "label": "Shaykh Ali",
+                        "uri": "http://dbpedia.org/resource/Shaykh_Ali"
+                    }, {
+                        "label": "Suwak al-Shamali",
+                        "uri": "http://dbpedia.org/resource/Suwak_al-Shamali"
+                    }, {
+                        "label": "Tabara Elhamra",
+                        "uri": "http://dbpedia.org/resource/Tabara_Elhamra"
+                    }, {
+                        "label": "Tahunet Elhalawa",
+                        "uri": "http://dbpedia.org/resource/Tahunet_Elhalawa"
+                    }, {
+                        "label": "Tell al-Shih",
+                        "uri": "http://dbpedia.org/resource/Tell_al-Shih"
+                    }]
+            },
+            "combination": false
+        }]
+}
