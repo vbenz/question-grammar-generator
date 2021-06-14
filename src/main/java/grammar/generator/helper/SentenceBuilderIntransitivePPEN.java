@@ -2,6 +2,7 @@ package grammar.generator.helper;
 
 import com.github.andrewoma.dexx.collection.Pair;
 import eu.monnetproject.lemon.model.LexicalEntry;
+import eu.monnetproject.lemon.model.LexicalForm;
 import eu.monnetproject.lemon.model.PropertyValue;
 import grammar.generator.helper.sentencetemplates.AnnotatedVerb;
 import grammar.sparql.SelectVariable;
@@ -17,10 +18,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static grammar.generator.helper.BindingConstants.BINDING_TOKEN_TEMPLATE;
-
+import grammar.generator.helper.parser.SentenceToken;
+import java.net.URI;
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
-
+import static java.util.Objects.isNull;
+import java.util.Optional;
+import java.util.Set;
 import static lexicon.LexicalEntryUtil.getDeterminerTokenByNumber;
 import static lexicon.LexicalEntryUtil.getDeterminerTokenByNumberNew;
 
@@ -85,7 +91,7 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             // Make simple sentence (Which river flows through $x?)
             if (lexInfo.getPropertyValue("singular").equals(annotatedVerb.getNumber())) {
                 SubjectType subjectType = this.lexicalEntryUtil.getSubjectType(this.lexicalEntryUtil.getSelectVariable(), domainOrRangeType);
-                String qWord = this.lexicalEntryUtil.getSubjectBySubjectTypeAndNumber(subjectType, language, lexInfo.getPropertyValue("singular"), null);
+                String qWord = this.lexicalEntryUtil.getSubjectBySubjectType(subjectType, language, null);
 
                 String bindingString = DomainOrRangeType.getMatchingType(this.lexicalEntryUtil.getConditionUriBySelectVariable(
                         LexicalEntryUtil.getOppositeSelectVariable(this.lexicalEntryUtil.getSelectVariable())
@@ -128,13 +134,12 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             // Only generate "Which <condition-label>" if condition label is a DBPedia entity
             if (!this.lexicalEntryUtil.hasInvalidDeterminerToken(this.lexicalEntryUtil.getSelectVariable())) {
                 String conditionLabel = this.lexicalEntryUtil.getReturnVariableConditionLabel(this.lexicalEntryUtil.getSelectVariable());
-                String determiner = this.lexicalEntryUtil.getSubjectBySubjectTypeAndNumber(
+                String determiner = this.lexicalEntryUtil.getSubjectBySubjectType(
                         SubjectType.INTERROGATIVE_DETERMINER,
                         language,
-                        annotatedVerb.getNumber(),
                         null
                 );
-                String determinerToken = getDeterminerTokenByNumber(annotatedVerb.getNumber(), conditionLabel, determiner, language);
+                String determinerToken = getDeterminerTokenByNumber(annotatedVerb.getNumber(), conditionLabel, determiner);
                 String bindingString = DomainOrRangeType.getMatchingType(this.lexicalEntryUtil.getConditionUriBySelectVariable(
                         LexicalEntryUtil.getOppositeSelectVariable(this.lexicalEntryUtil.getSelectVariable())
                 )).name();
@@ -262,7 +267,7 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             SelectVariable oppositeSelectVariable = LexicalEntryUtil.getOppositeSelectVariable(this.lexicalEntryUtil.getSelectVariable());
             // get subjectType of this sentence's object
             SubjectType subjectType = this.lexicalEntryUtil.getSubjectType(oppositeSelectVariable, domainOrRangeType);
-            String qWord = this.lexicalEntryUtil.getSubjectBySubjectTypeAndNumber(subjectType, language, this.lexicalEntryUtil.getLexInfo().getPropertyValue("singular"), null); // Who / What
+            String qWord = this.lexicalEntryUtil.getSubjectBySubjectType(subjectType, language, null); // Who / What
             
 
             for (String key : auxilaries.keySet()) {
@@ -281,13 +286,12 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
             if (!this.lexicalEntryUtil.hasInvalidDeterminerToken(this.lexicalEntryUtil.getSelectVariable())) {
                 for (PropertyValue number : numberList) {
                     String conditionLabel = this.lexicalEntryUtil.getReturnVariableConditionLabel(oppositeSelectVariable);
-                    String determiner = this.lexicalEntryUtil.getSubjectBySubjectTypeAndNumber(
+                    String determiner = this.lexicalEntryUtil.getSubjectBySubjectType(
                             SubjectType.INTERROGATIVE_DETERMINER,
                             language,
-                            number,
                             null
                     );
-                    Pair<String, String> determinerTokenPair = getDeterminerTokenByNumberNew(number, conditionLabel, determiner, language);
+                    Pair<String, String> determinerTokenPair = getDeterminerTokenByNumberNew(number, conditionLabel, determiner);
                     String determinerToken = determinerTokenPair.component1();
                     String determinerTokenNumber = determinerTokenPair.component2();
                     for (String  key : auxilaries.keySet()) {

@@ -22,7 +22,6 @@ import grammar.generator.helper.sentencetemplates.AnnotatedVerb;
 import grammar.sparql.Prefix;
 import grammar.sparql.SPARQLRequest;
 import grammar.sparql.SelectVariable;
-import grammar.structure.component.DomainOrRangeMorphologicalProperties;
 import grammar.structure.component.DomainOrRangeType;
 import grammar.structure.component.FrameType;
 import grammar.structure.component.Language;
@@ -41,11 +40,15 @@ import org.apache.logging.log4j.Logger;
 import util.exceptions.QueGGMissingFactoryClassException;
 
 import java.net.URI;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 import static grammar.sparql.Prefix.DBPEDIA;
 import static grammar.sparql.SPARQLRequest.SPARQL_ENDPOINT_URL;
+import java.util.NoSuchElementException;
 import static java.util.Objects.isNull;
 
 @Getter
@@ -95,7 +98,6 @@ public class LexicalEntryUtil {
      * @param subjectType the {@link SubjectType} of the current lexical entry
      * and sense.
      * @param language the current language
-     * @param number the current number (singular or plural)
      * @param annotatedNounOrQuestionWord
      * <p>
      * a noun or descendent class word that the output word should match to (by
@@ -105,10 +107,9 @@ public class LexicalEntryUtil {
      * @return the string representation of a {@link SubjectType} matching by
      * language and (if provided) by a noun's gender and number.
      */
-    public String getSubjectBySubjectTypeAndNumber(
+    public String getSubjectBySubjectType(
             SubjectType subjectType,
             Language language,
-            PropertyValue number,
             AnnotatedNounOrQuestionWord annotatedNounOrQuestionWord
     ) throws QueGGMissingFactoryClassException {
         String sbjType = "";
@@ -116,21 +117,12 @@ public class LexicalEntryUtil {
         List<AnnotatedNounOrQuestionWord> questionWords;
         questionWords = questionWordRepository
                 .findByLanguageAndSubjectType(language, subjectType);
-        if (questionWords.size() != 1 && language.equals(Language.DE)) {
-            questionWords = questionWordRepository
-                    .findByLanguageAndSubjectTypeAndNumberAndGender(
-                            language,
-                            subjectType,
-                            number,
-                            lexInfo.getPropertyValue(DomainOrRangeMorphologicalProperties.getMatchingGender(getConditionUriBySelectVariable(getSelectVariable())).toString().toLowerCase())
-                    );
-        }
         if (questionWords.size() != 1) {
             questionWords = questionWordRepository
                     .findByLanguageAndSubjectTypeAndNumberAndGender(
                             language,
                             subjectType,
-                            number,
+                            lexInfo.getPropertyValue("singular"),
                             lexInfo.getPropertyValue("commonGender")
                     );
         }
@@ -173,13 +165,11 @@ public class LexicalEntryUtil {
      * based on the number of a verb. E.g. "Which cities"
      */
     public static String getDeterminerTokenByNumber(
-            PropertyValue number,
-            String conditionLabel,
-            String determiner,
-            Language language
+            PropertyValue number, String conditionLabel,
+            String determiner
     ) {
         String determinerToken;
-        if (language.equals(Language.EN) && number.equals(new LexInfo().getPropertyValue("plural"))) {
+        if (number.equals(new LexInfo().getPropertyValue("plural"))) {
             conditionLabel = getPluralFormEn(conditionLabel);
         }
         determinerToken = compileDeterminerToken(conditionLabel, determiner);
@@ -187,25 +177,21 @@ public class LexicalEntryUtil {
     }
     
     public static Pair<String, String> getDeterminerTokenByNumberNew(
-            PropertyValue number,
-            String conditionLabel,
-            String determiner,
-            Language language
+            PropertyValue number, String conditionLabel,
+            String determiner
     ) {
         String determinerToken;
 
         if (number.equals(new LexInfo().getPropertyValue("plural"))) {
-            if (language.equals(Language.EN)) {
-                conditionLabel = getPluralFormEn(conditionLabel);
-            } else if (language.equals(Language.DE)) {
-                conditionLabel = getPluralFormDe(conditionLabel);
-            }
-            determinerToken = compileDeterminerToken(conditionLabel, determiner);
-            return new Pair<String, String>(determinerToken.trim(),"plural");
+            conditionLabel = getPluralFormEn(conditionLabel);
+              determinerToken = compileDeterminerToken(conditionLabel, determiner);
+              return new Pair<String, String>(determinerToken.trim(),"plural");
         } else {
             determinerToken = compileDeterminerToken(conditionLabel, determiner);
             return new Pair<String, String>(determinerToken.trim(), "singular");
         }
+            
+      
     }
 
     private static String getPluralFormEn(String noun) {
@@ -214,12 +200,6 @@ public class LexicalEntryUtil {
                 : noun.endsWith("s")
                 ? noun.concat("es")
                 : noun.concat("s");
-    }
-
-    private static String getPluralFormDe(String noun) {
-
-
-        return noun;
     }
 
     private static String compileDeterminerToken(String returnVariableConditionLabel, String determiner) {
@@ -241,7 +221,7 @@ public class LexicalEntryUtil {
         return parseLexicalEntryToAnnotatedAnnotatedNounOrQuestionWords(this.lexicalEntry.getForms());
     }
 
-    public List<AnnotatedNounOrQuestionWord> parseLexicalEntryToAnnotatedAnnotatedNounOrQuestionWords(Collection<LexicalForm> lexicalForms) {
+    private List<AnnotatedNounOrQuestionWord> parseLexicalEntryToAnnotatedAnnotatedNounOrQuestionWords(Collection<LexicalForm> lexicalForms) {
         List<AnnotatedNounOrQuestionWord> annotatedNouns = new ArrayList<>();
         for (LexicalForm lexicalForm : lexicalForms) {
             AnnotatedNoun annotatedNoun
@@ -380,7 +360,7 @@ public class LexicalEntryUtil {
         // check for label instead of uri.... Q215627 is person as well...
         
         //many things are hard coded currently, this is temporary code to solve the problem, it will be refactored later on.
-        //domainOrRangeResponse = "https://www.w3.org/2001/XMLSchema#gYear";
+        domainOrRangeResponse = "https://www.w3.org/2001/XMLSchema#gYear";
         //System.out.println(mapsToWho.toString());
         for (String key : mapsToWho) {
             if (key.contains("Year")) {
@@ -579,31 +559,4 @@ public class LexicalEntryUtil {
 
         return preposition;
     }
-
-    public String getVerbParticle() {
-        String particle = null;
-        SynArg directObject = lexInfo.getSynArg("directObject");
-        Property POS = lexInfo.getProperty("partOfSpeech");
-        PropertyValue POSParticle = lexInfo.getPropertyValue("particle");
-        Frame frame = getFrameByGrammarType();
-
-        //this is a temporary code for solving the problem. this code will be refactored in some point.
-        try {
-            if (!isNull(frame)) {
-                SyntacticRoleMarker synRoleMarker = frame.getSynArg(directObject).iterator().next().getMarker();
-                if (synRoleMarker == null) return "";
-                PropertyValue POSValue = synRoleMarker.getProperty(POS).iterator().next();
-                if (POSValue.equals(POSParticle)) {
-                    particle = ((LexicalEntryImpl) synRoleMarker).getCanonicalForm().getWrittenRep().value;
-                    return particle;
-                }
-            }
-
-        } catch (NoSuchElementException noSuchExp) {
-            System.err.println("Particle is not found!!"+noSuchExp.getMessage());
-
-        }
-        return particle;
-    }
-
 }

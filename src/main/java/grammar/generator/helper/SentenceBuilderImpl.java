@@ -9,7 +9,6 @@ import grammar.generator.helper.parser.SentenceTemplateParser;
 import grammar.generator.helper.parser.SentenceToken;
 import grammar.generator.helper.sentencetemplates.AnnotatedNoun;
 import grammar.generator.helper.sentencetemplates.AnnotatedNounOrQuestionWord;
-import grammar.structure.component.DomainOrRangeMorphologicalProperties;
 import grammar.structure.component.FrameType;
 import grammar.structure.component.Language;
 import grammar.structure.component.SentenceType;
@@ -128,11 +127,9 @@ public abstract class SentenceBuilderImpl implements SentenceBuilder {
   }
 
 
-  protected AnnotatedNounOrQuestionWord getAnnotatedQuestionWordBySubjectTypeAndNumber(
+  protected AnnotatedNounOrQuestionWord getAnnotatedQuestionWordBySubjectType(
     SubjectType subjectType,
     Language language,
-    LexicalEntryUtil lexicalEntryUtil,
-    PropertyValue number,
     AnnotatedNounOrQuestionWord annotatedNounOrQuestionWord
   ) throws QueGGMissingFactoryClassException {
     AnnotatedNounOrQuestionWord sbjType = new AnnotatedNoun("", "singular", language);
@@ -140,21 +137,12 @@ public abstract class SentenceBuilderImpl implements SentenceBuilder {
     List<AnnotatedNounOrQuestionWord> questionWords;
     questionWords = questionWordRepository
       .findByLanguageAndSubjectType(language, subjectType);
-    if (questionWords.size() != 1 && language.equals(Language.DE)) {
-      questionWords = questionWordRepository
-        .findByLanguageAndSubjectTypeAndNumberAndGender(
-          language,
-          subjectType,
-          number,
-          lexInfo.getPropertyValue(DomainOrRangeMorphologicalProperties.getMatchingGender(lexicalEntryUtil.getConditionUriBySelectVariable(lexicalEntryUtil.getSelectVariable())).toString().toLowerCase())
-        );
-    }
     if (questionWords.size() != 1) {
       questionWords = questionWordRepository
         .findByLanguageAndSubjectTypeAndNumberAndGender(
           language,
           subjectType,
-          number,
+          lexInfo.getPropertyValue("singular"),
           lexInfo.getPropertyValue("commonGender")
         );
     }

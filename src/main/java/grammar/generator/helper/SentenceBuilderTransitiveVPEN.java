@@ -4,13 +4,11 @@ public class SentenceBuilderTransitiveVPEN {
   private final String subject;
   private final String verb;
   private final String object;
-  private final String particle;
 
-  public SentenceBuilderTransitiveVPEN(String subject, String verb, String object, String particle) {
+  public SentenceBuilderTransitiveVPEN(String subject, String verb, String object) {
     this.subject = subject;
     this.verb = verb;
     this.object = object;
-    this.particle = particle;
   }
 
   public String getSentence() {
@@ -21,10 +19,6 @@ public class SentenceBuilderTransitiveVPEN {
 
   // Who writes $x?
   private String sentenceSubjOfPropActive() {
-    if (particle.equals("")) {
-      return String.format("%s %s %s?", subject, verb, object);
-    } else {
-      return String.format("%s %s %s %s?", subject, verb, object, particle);
-    }
+    return String.format("%s %s %s?", subject, verb, object);
   }
 }

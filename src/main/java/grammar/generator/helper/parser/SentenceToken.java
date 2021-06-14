@@ -31,8 +31,6 @@ public interface SentenceToken {
 
   SynArg getSynArgValue();
 
-  String getGrammaticalCase();
-
   interface NestedSentenceTemplateData {
     SentenceType getType();
 

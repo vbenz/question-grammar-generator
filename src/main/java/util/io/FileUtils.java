@@ -5,6 +5,7 @@
  */
 package util.io;
 
+import grammar.read.questions.UriLabel;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -16,7 +17,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -55,6 +59,7 @@ public class FileUtils {
     }
 
     public static List<File> getFiles(String fileDir, String category, String extension) {
+        System.out.println("fileDir:"+fileDir);
         String[] files = new File(fileDir).list();
         List<File> selectedFiles = new ArrayList<File>();
         for (String fileName : files) {
@@ -65,6 +70,33 @@ public class FileUtils {
 
         return selectedFiles;
 
+    }
+
+   public static List<UriLabel> getUriLabels(File classFile) {
+        List<UriLabel> uriLabels = new ArrayList<UriLabel>();
+        Set<String> set = new TreeSet<String>();
+        BufferedReader reader;
+        String line = "";
+        try {
+            reader = new BufferedReader(new FileReader(classFile));
+            //line = reader.readLine();
+            while (line != null) {
+                line = reader.readLine();
+                if (line != null) {
+                    line = line.strip().trim();
+                    if (line.contains("=")) {
+                        String uri = line.split("=")[0];
+                        String label = line.split("=")[1];
+                        UriLabel uriLabel = new UriLabel(uri, label);
+                        uriLabels.add(uriLabel);
+                    }
+                }
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return uriLabels;
     }
 
 }
