@@ -123,6 +123,7 @@ public class QueGG {
         grammarWrapper.getGrammarEntries().addAll(generatorRoot.generateCombinations(grammarWrapper.getGrammarEntries()));
 
         for (GrammarEntry grammarEntry : grammarWrapper.getGrammarEntries()) {
+            System.out.println("grammarEntry:::"+grammarEntry.getId());
             grammarEntry.setId(String.valueOf(grammarWrapper.getGrammarEntries().indexOf(grammarEntry) + 1));
         }
 
