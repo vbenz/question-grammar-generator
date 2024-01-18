@@ -13,9 +13,9 @@ This page contains links to the resources and software:
 
 ### System: codes
 
-| System      | code link       | 
+| System      | Code l      | 
 | :------------ |:---------------| 
-| English       |[en_LexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/lexicalEntries)| [en_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/sentenceTemplates)|
+| grammar generator       |[en_LexicalEntries]([https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/lexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator))| [en_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/sentenceTemplates)|
 | German        |[de_LexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/lexicalEntries)| [de_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/sentenceTemplates) |
 | Italian       |[it_LexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/lexicalEntries)| [it_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/sentenceTemplates) |
 | Spanish       |[es_LexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/lexicalEntries)| [es_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/sentenceTemplates)|
