@@ -19,7 +19,8 @@ This page contains links to the resources and software:
 | parser       | natural language question| one or more SPARQL query|[link](https://github.com/ag-sc/grammar-rules.git)| 
 | web interface | natural language question| answer from RDF Data |[link](https://github.com/ag-sc/QueGG-web/tree/extension)|
 
-### Hachaton: results
+### Hackathon on question answering over RDF data
+schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQKJX1KTubmxvLdfLli1UQ7L8wGYo/edit?usp=sharing) 
 
 | Participant      | Institution       |  Task      | Result       | 
 | :------------ |:--------------- |:---------------|:---------------| 
