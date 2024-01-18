@@ -15,9 +15,9 @@ This page contains links to the resources and software:
 
 | System      | Code       | 
 | :------------ |:---------------| 
-| grammar generator        |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/lexicalEntries)| 
-| Italian       |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/lexicalEntries)| 
-| Spanish       |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/lexicalEntries)| 
+| grammar generator |[link](https://github.com/fazleh2010/multilingual-grammar-generator)| 
+| parser       |[link](https://github.com/ag-sc/grammar-rules.git)| 
+| web interface |[link](https://github.com/ag-sc/QueGG-web/tree/extension)| 
 
 ```shell script
 mvn clean install
