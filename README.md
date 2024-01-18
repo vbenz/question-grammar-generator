@@ -1,8 +1,8 @@
-# Resource description
-This page contains links of the resources and software:
+# Resource and software description
+This page contains links to the resources and software:
 
 
-## grammar generation tool
+## Resources
 [grammar generation tool](https://www.example.com)
 
 ```shell script
