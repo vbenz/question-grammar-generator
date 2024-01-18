@@ -24,6 +24,6 @@ This page contains links to the resources and software:
 | Participant      | Institution       |  Task      | Result       | 
 | :------------ |:--------------- |:---------------|:---------------| 
 | X | | | | 
-| Y |  | one or more SPARQL query|[link](https://github.com/ag-sc/grammar-rules.git)| 
-| web interface | natural language question| answer from RDF Data |[link](https://github.com/ag-sc/QueGG-web/tree/extension)| 
+| Y |  | | | 
+| Z | |  | | 
 
