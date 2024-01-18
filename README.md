@@ -15,9 +15,9 @@ This page contains links to the resources and software:
 
 | System      | Code       | 
 | :------------ |:---------------| 
-| grammar generator        |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/lexicalEntries)| [de_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/sentenceTemplates) |
-| Italian       |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/lexicalEntries)| [it_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/sentenceTemplates) |
-| Spanish       |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/lexicalEntries)| [es_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/sentenceTemplates)|
+| grammar generator        |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/lexicalEntries)| 
+| Italian       |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/lexicalEntries)| 
+| Spanish       |[link](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/lexicalEntries)| 
 
 ```shell script
 mvn clean install
