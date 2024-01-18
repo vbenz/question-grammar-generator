@@ -13,9 +13,9 @@ This page contains links to the resources and software:
 
 ### System: codes
 
-| System      | Code       |  System      | Code       | 
+| System      | Input       |  Output      | Code       | 
 | :------------ |:--------------- |:---------------|:---------------| 
-| grammar generator | | |[link](https://github.com/fazleh2010/multilingual-grammar-generator)| 
-| parser       | | |[link](https://github.com/ag-sc/grammar-rules.git)| 
-| web interface | | |[link](https://github.com/ag-sc/QueGG-web/tree/extension)| 
+| grammar generator | lexical entries and sentence templates| grammar rules |[link](https://github.com/fazleh2010/multilingual-grammar-generator)| 
+| parser       | natural language question| SPARQL query|[link](https://github.com/ag-sc/grammar-rules.git)| 
+| web interface | natural language question| answer from RDF Data |[link](https://github.com/ag-sc/QueGG-web/tree/extension)| 
 
