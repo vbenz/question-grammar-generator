@@ -2,7 +2,7 @@
 This page contains links to the resources and software:
 
 
-### Resource: Lexicon and Grammar
+### Resource: lexicon and grammar
 
 | Language      | Lexical Entries (LE)       | Sentene Templates (ST) | Grammar Rule Templates (GRT)| Grammar Rules (GR) | Example Questions |
 | :------------ |:---------------| :-----|:-----|:-----|:-----|
