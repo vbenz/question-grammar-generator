@@ -28,5 +28,5 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  ArCo| | 
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo | | 
 | Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData| | 
-| E | University of Naples 'L'Orientale,' Italy | create lexical entries | Bangla | WikiData| | 
-
+| Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| | 
+| Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData| |
