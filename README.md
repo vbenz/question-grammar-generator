@@ -26,6 +26,6 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | :------------ |:--------------- |:---------------|:---------------| :---------------| 
 | X | ADAPT, the world-leading SFI Research Centre, Ireland| | | | 
 | Y | University of Naples 'L'Orientale,' Italy | Italian| ArCo | |
-|   |   | | WikiData | | 
-| Z | |  | | | 
+| Z | University of Naples 'L'Orientale,' Italy | Italian| WikiData | |
+| K | |  | | | 
 
