@@ -22,11 +22,11 @@ This page contains links to the resources and software:
 ### Hackathon on Question Answering based on automatically generated grammars (5-9 July 2021)
 schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQKJX1KTubmxvLdfLli1UQ7L8wGYo/edit?usp=sharing) 
 
-| Participant      | Institution       |  Language      |  RDF Data       |  Result       |  
-| :------------ |:--------------- |:---------------|:---------------| :---------------| 
-| A | ADAPT, the world-leading SFI Research Centre, Ireland| | | | 
-| B | University of Naples 'L'Orientale,' Italy | Italian| ArCo | |
-| C | University of Naples 'L'Orientale,' Italy | English| ArCo | |
-| D | University of Naples 'L'Orientale,' Italy | Italian| WikiData | |
+| Participant      | Institution      |  Task  |  Language      |  RDF Data       |  Result       |  
+| :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
+| A | ADAPT, the world-leading SFI Research Centre, Ireland| | | | | 
+| B | University of Naples 'L'Orientale,' Italy | Italian| ArCo | | | 
+| C | University of Naples 'L'Orientale,' Italy | English| ArCo | | | 
+| D | University of Naples 'L'Orientale,' Italy | Italian| WikiData | | | 
 | E | |  | | | 
 
