@@ -4,7 +4,7 @@ This page contains links to the resources and software:
 
 ### Resource: lexicon and grammar
 
-| Language      | Lexical Entries (LE)       | Sentene Templates (ST) | Grammar Rule Templates (GRT)| Grammar Rules (GR) | Example Questions |
+| Language      | Lexical Entries (LE)       | Grammar Rule Templates (GRT) |  Grammar Rules (GR) | Evaluation | Example Questions |
 | :------------ |:---------------| :-----|:-----|:-----|:-----|
 | English       |[Lexical Entries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/lexicalEntries)| [Grammar Rule Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/sentenceTemplates)|[Grammar Rules](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/grammar)|[en_Questions]()|[en_QASystem](https://github.com/fazleh2010/QueGG-web-en.git)|
 | German        |[Lexical Entries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/lexicalEntries)| [Grammar Rule Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/sentenceTemplates) |[Grammar Rules](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/grammar)|[de_Questions]()|[de_QASystem](https://github.com/fazleh2010/QueGG-web-en/tree/german)|
