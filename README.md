@@ -31,8 +31,8 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| | 
 | Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData| |
 | Röhler | Freelance | improve question | German | WikiData| |
-| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | WikiData| |
-| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | WikiData| |
+| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| |
+| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB| |
 
 - ArCo: https://dati.beniculturali.it/arco-rete-ontologie
 - AIFB: https://raw.githubusercontent.com/fazleh2010/question-grammar-generator/general2/dataset/aifbfixed_complete.ttl
