@@ -34,8 +34,8 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | WikiData| |
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | WikiData| |
 
-ArCo: https://dati.beniculturali.it/arco-rete-ontologie
-AIFB: https://raw.githubusercontent.com/fazleh2010/question-grammar-generator/general2/dataset/aifbfixed_complete.ttl
-WikiData: https://www.wikidata.org/wiki/Wikidata:Main_Page
+- ArCo: https://dati.beniculturali.it/arco-rete-ontologie
+- AIFB: https://raw.githubusercontent.com/fazleh2010/question-grammar-generator/general2/dataset/aifbfixed_complete.ttl
+- WikiData: https://www.wikidata.org/wiki/Wikidata:Main_Page
 
 	
