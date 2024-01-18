@@ -24,7 +24,7 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 
 | Participant      | Institution      |  Task  |  Language      |  RDF Data       |  Result       |  
 | :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
-| A | ADAPT, SFI Research Centre, Ireland| improve Web Interface| -| - | | 
+| Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| -| - | | 
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  ArCo| | 
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo | | 
 | Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData| | 
