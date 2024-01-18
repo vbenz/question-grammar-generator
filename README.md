@@ -2,7 +2,7 @@
 This page contains links to the resources and software:
 
 
-### Multilingual QA system
+### Resource: Lexicon and Grammar
 
 | Language      | Lexical Entries (LE)       | Sentene Templates (ST) | Grammar Rule Templates (GRT)| Grammar Rules (GR) | Example Questions |
 | :------------ |:---------------| :-----|:-----|:-----|:-----|
