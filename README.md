@@ -24,7 +24,7 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 
 | Participant      | Institution       |  Task      | Language       |  RDF Data       |   Result       | 
 | :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
-| X | | | | | |
+| X | ADAPT, the world-leading SFI Research Centre, Ireland| | | | |
 | Y |  | | | | |
 | Z | |  | | | |
 
