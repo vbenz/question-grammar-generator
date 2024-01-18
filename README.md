@@ -22,9 +22,9 @@ This page contains links to the resources and software:
 ### Hackathon on Question Answering based on automatically generated grammars (5-9 July 2021)
 schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQKJX1KTubmxvLdfLli1UQ7L8wGYo/edit?usp=sharing) 
 
-| Participant      | Institution       |  Task      | Language       |  RDF Data       |   Result       | 
-| :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
-| X | ADAPT, the world-leading SFI Research Centre, Ireland| | | | |
-| Y |  | | | | |
-| Z | |  | | | |
+| Participant      | Institution       |  Language      |  RDF Data       |  RDF Data       |  
+| :------------ |:--------------- |:---------------|:---------------| :---------------| 
+| X | ADAPT, the world-leading SFI Research Centre, Ireland| | | | 
+| Y |  | | | | 
+| Z | |  | | | 
 
