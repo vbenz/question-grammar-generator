@@ -1,8 +1,9 @@
-# QueGG
-A question grammar generator based on Lemon turtle lexica and DBPedia ontology.
+# Resource description
+This page contains links of the resources and software:
 
-## Compile And Run
-<p>The source code can be compiled and run using <em>Java 11</em> and <em>Maven</em>.</p>
+
+## grammar generation tool
+[grammar generation tool](https://www.example.com)
 
 ```shell script
 mvn clean install
