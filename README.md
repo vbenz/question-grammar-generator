@@ -24,9 +24,9 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 
 | Participant      | Institution      |  Task  |  Language      |  RDF Data       |  Result       |  
 | :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
-| A | ADAPT, the world-leading SFI Research Centre, Ireland| | | | | 
-| B | University of Naples 'L'Orientale,' Italy | Italian| ArCo | | | 
-| C | University of Naples 'L'Orientale,' Italy | English| ArCo | | | 
-| D | University of Naples 'L'Orientale,' Italy | Italian| WikiData | | | 
+| A | ADAPT, the world-leading SFI Research Centre, Ireland| Web Interface| | | | 
+| B | University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  ArCo| | 
+| C | University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo | | 
+| D | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData| | 
 | E | |  | | | 
 
