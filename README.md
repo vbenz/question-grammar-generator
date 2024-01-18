@@ -11,7 +11,7 @@ This page contains links to the resources and software:
 | Italian       |[it_LexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/lexicalEntries)| [it_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/sentenceTemplates) |[it_Grammar](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/it/grammar)|[it_Questions]()|[it_QASystem](https://github.com/fazleh2010/QueGG-web-en/tree/italian)|
 | Spanish       |[es_LexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/lexicalEntries)| [es_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/sentenceTemplates)|[es_Grammar](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/es/grammar)|[es_Questions]()|[es_QSystem](https://github.com/fazleh2010/QueGG-web-en/tree/spanish)|
 
-### System and codes
+### System: codes
 
 | Language      | Lexical Entries (LE)       | Sentene Templates (ST) | Grammar Rule Templates (GRT)| Grammar Rules (GR) | Example Questions |
 | :------------ |:---------------| :-----|:-----|:-----|:-----|
