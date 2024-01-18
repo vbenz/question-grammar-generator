@@ -4,7 +4,7 @@ This page contains links to the resources and software:
 
 ### Multilingual QA system
 
-| Language      | Lexical Entries        | Sentene Templates | Grammar | Questions | Browser |
+| Language      | Lexical Entries        | Sentene Templates | Grammar Rule Templates| Grammar Rules | Questions |
 | :------------ |:---------------| :-----|:-----|:-----|:-----|
 | English       |[en_LexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/lexicalEntries)| [en_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/sentenceTemplates)|[en_Grammar](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/en/grammar)|[en_Questions]()|[en_QASystem](https://github.com/fazleh2010/QueGG-web-en.git)|
 | German        |[de_LexicalEntries](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/lexicalEntries)| [de_Templates](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/sentenceTemplates) |[de_Grammar](https://github.com/fazleh2010/multilingual-grammar-generator/tree/main/result/de/grammar)|[de_Questions]()|[de_QASystem](https://github.com/fazleh2010/QueGG-web-en/tree/german)|
