@@ -33,6 +33,9 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| English | DBpedia| [result](https://github.com/fazleh2010/Journal-Paper/tree/derilink)
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entries | English | [AIFB](https://raw.githubusercontent.com/fazleh2010/question-grammar-generator/general2/dataset/aifbfixed_complete.ttl)| [result](https://github.com/fazleh2010/Journal-Paper/tree/general2)|
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entries | German | [AIFB](https://raw.githubusercontent.com/fazleh2010/question-grammar-generator/general2/dataset/aifbfixed_complete.ttl)|[result](https://github.com/fazleh2010/Journal-Paper/tree/general2) |
+| Frank | University of Bielefeld | multilingual web interface | italian | any dataset|[result](https://github.com/ag-sc/QueGG-web/tree/main) |
+
+
 
 
 	
