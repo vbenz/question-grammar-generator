@@ -29,7 +29,7 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo |[github](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
 | Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData|[github](https://github.com/fazleh2010/Journal-Paper/tree/italian)  | 
 | Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| [github](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
-| Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|github](https://github.com/fazleh2010/Journal-Paper/tree/bangla)  |
+| Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|[github](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
 | Röhler | Freelance | improve question | German | WikiData| |
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| |
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB| |
