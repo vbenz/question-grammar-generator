@@ -25,10 +25,10 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Participant      | Institution      |  Task  |  Language      |  RDF Data       |  Output       |  
 | :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  [ArCo](https://dati.beniculturali.it/arco-rete-ontologie)|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
-| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo |[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
-| Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian)  | 
-| Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| [result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
-| Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
+| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | [ArCo](https://dati.beniculturali.it/arco-rete-ontologie) |[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
+| Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English |[WikiData](https://www.wikidata.org/wiki/Wikidata:Main_Page)|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian)  | 
+| Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | [WikiData](https://www.wikidata.org/wiki/Wikidata:Main_Page)| [result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
+| Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | [WikiData](https://www.wikidata.org/wiki/Wikidata:Main_Page)|[result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
 | Röhler | Freelance | extended NLP tools | German | DBpedia|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
 | Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| English | DBpedia| [result](https://github.com/fazleh2010/Journal-Paper/tree/derilink)
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entries | English | AIFB| [result](https://github.com/fazleh2010/Journal-Paper/tree/general2)|
@@ -36,6 +36,6 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 
 - ArCo: https://dati.beniculturali.it/arco-rete-ontologie
 - AIFB: https://raw.githubusercontent.com/fazleh2010/question-grammar-generator/general2/dataset/aifbfixed_complete.ttl
-- WikiData: https://www.wikidata.org/wiki/Wikidata:Main_Page
+- WikiData: 
 
 	
