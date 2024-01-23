@@ -31,8 +31,8 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
 | Röhler | Freelance | extended NLP tools | German | DBpedia|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
 | Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| English | DBpedia| [result](https://github.com/fazleh2010/Journal-Paper/tree/derilink)
-| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| [result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
-| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension) |
+| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| [result](https://github.com/fazleh2010/Journal-Paper/tree/general2)|
+| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB|[result](https://github.com/fazleh2010/Journal-Paper/tree/general2) |
 
 - ArCo: https://dati.beniculturali.it/arco-rete-ontologie
 - AIFB: https://raw.githubusercontent.com/fazleh2010/question-grammar-generator/general2/dataset/aifbfixed_complete.ttl
