@@ -26,7 +26,7 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
 | Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| -| - | | 
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  ArCo|[github](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
-| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo | | 
+| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo |[github](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
 | Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData| | 
 | Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| | 
 | Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData| |
