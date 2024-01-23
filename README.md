@@ -17,7 +17,7 @@ This page contains links to the resources and software:
 | :------------ |:--------------- |:---------------|:---------------| 
 | grammar generator | lexical entries and sentence templates| grammar rules |[link](https://github.com/fazleh2010/multilingual-grammar-generator)| 
 | parser       | natural language question| one or more SPARQL query|[link](https://github.com/ag-sc/grammar-rules.git)| 
-| web interface | natural language question| answer from RDF Data |[link](https://github.com/ag-sc/QueGG-web/tree/extension)|
+| web interface | natural language question (auto-completion)| answer from RDF Data |[link](https://github.com/ag-sc/QueGG-web/tree/extension)|
 
 ### Hackathon on Question Answering based on automatically generated grammars (5-9 July 2021)
 schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQKJX1KTubmxvLdfLli1UQ7L8wGYo/edit?usp=sharing) 
