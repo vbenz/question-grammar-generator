@@ -24,7 +24,7 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 
 | Participant      | Institution      |  Task  |  Language      |  RDF Data       |  Output       |  
 | :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
-| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  ArCo|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
+| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  [ArCo](https://dati.beniculturali.it/arco-rete-ontologie)|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo |[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
 | Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian)  | 
 | Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| [result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
