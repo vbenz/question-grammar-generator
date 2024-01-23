@@ -22,17 +22,17 @@ This page contains links to the resources and software:
 ### Hackathon on Question Answering based on automatically generated grammars (5-9 July 2021)
 schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQKJX1KTubmxvLdfLli1UQ7L8wGYo/edit?usp=sharing) 
 
-| Participant      | Institution      |  Task  |  Language      |  RDF Data       |  Result       |  
+| Participant      | Institution      |  Task  |  Language      |  RDF Data       |  Output       |  
 | :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
 | Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| -| - | | 
-| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  ArCo|[github](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
-| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo |[github](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
-| Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData|[github](https://github.com/fazleh2010/Journal-Paper/tree/italian)  | 
-| Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| [github](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
-| Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|[github](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
-| Röhler | Freelance | extended NLP tools | German | DBpedia|[github](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
-| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| |
-| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB| |
+| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  ArCo|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
+| Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo |[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
+| Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian)  | 
+| Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| [result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
+| Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
+| Röhler | Freelance | extended NLP tools | German | DBpedia|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
+| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| [result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
+| Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension) |
 
 - ArCo: https://dati.beniculturali.it/arco-rete-ontologie
 - AIFB: https://raw.githubusercontent.com/fazleh2010/question-grammar-generator/general2/dataset/aifbfixed_complete.ttl
