@@ -30,7 +30,7 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData|[github](https://github.com/fazleh2010/Journal-Paper/tree/italian)  | 
 | Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| [github](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
 | Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|[github](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
-| Röhler | Freelance | extended NLP tools | German | DBpedia|[github]([https://github.com/fazleh2010/Journal-Paper/tree/bangla](https://github.com/fazleh2010/Journal-Paper/tree/extension))|
+| Röhler | Freelance | extended NLP tools | German | DBpedia|[github](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| |
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB| |
 
