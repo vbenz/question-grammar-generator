@@ -30,7 +30,7 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 | Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| [result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
 | Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
 | Röhler | Freelance | extended NLP tools | German | DBpedia|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
-| Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| -| - | | 
+| Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| -| [result]([https://github.com/fazleh2010/Journal-Paper/tree/extension](https://github.com/fazleh2010/Journal-Paper/tree/derilink))
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| [result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension) |
 
