@@ -24,13 +24,13 @@ schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQK
 
 | Participant      | Institution      |  Task  |  Language      |  RDF Data       |  Output       |  
 | :------------ |:--------------- |:---------------|:---------------| :---------------| :---------------|
-| Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| -| - | | 
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | Italian |  ArCo|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
 | Gennaro Nolano & Maria Pia di Buono| University of Naples 'L'Orientale,' Italy | create lexical entrries | English | ArCo |[result](https://github.com/fazleh2010/Journal-Paper/tree/italian) | 
 | Gennaro Nolano | University of Naples 'L'Orientale,' Italy | create lexical entries | English | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/italian)  | 
 | Wasim Mahmud Surjo | BRAC University, Bangladesh | create lexical entries | Bangla | WikiData| [result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) | 
 | Subhana Mahmud Toshi | Arab Open University, Bahrain | create sentence templates | Bangla | WikiData|[result](https://github.com/fazleh2010/Journal-Paper/tree/bangla) |
 | Röhler | Freelance | extended NLP tools | German | DBpedia|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
+| Japesh Methuku | ADAPT, SFI Research Centre, Ireland| improve Web Interface| -| - | | 
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | English | AIFB| [result](https://github.com/fazleh2010/Journal-Paper/tree/extension)|
 | Mohammad Fazleh Elahi | University of Bielefeld | create lexical entry and sentence templates | German | AIFB|[result](https://github.com/fazleh2010/Journal-Paper/tree/extension) |
 
