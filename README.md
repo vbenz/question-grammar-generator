@@ -13,11 +13,11 @@ This page contains links to the resources and software:
 
 ### System: source code
 
-| System         | Type           | Input          |  Output        | Source code     | Code           | 
+| System         | Type           | Input          |  Output        | Code     | Docker           | 
 | :------------ |:--------------- |:---------------|:---------------| :---------------|:---------------|
-| grammar generator |command line| lexical entries and sentence templates| grammar rules |[github](https://github.com/fazleh2010/multilingual-grammar-generator)| 
-| parser      |command line| natural language question| one or more SPARQL query|[github](https://github.com/ag-sc/grammar-rules.git)| 
-| question-answering system |user interface| natural language question (auto-completion)| answer from RDF Data |[github](https://github.com/ag-sc/QueGG-web/tree/extension)|
+| grammar generator |command line| lexical entries and sentence templates| grammar rules |[github](https://github.com/fazleh2010/multilingual-grammar-generator)| - |
+| parser      |command line| natural language question| one or more SPARQL query|[github](https://github.com/ag-sc/grammar-rules.git)|- | 
+| question-answering system |user interface| natural language question (auto-completion)| answer from RDF Data |[github](https://github.com/ag-sc/QueGG-web/tree/extension)| [dockerhub](https://github.com/ag-sc/QueGG-web/tree/extension)|
 
 ### Hackathon on Question Answering based on automatically generated grammars (5-9 July 2021)
 schedule: [Hackathon Plan](https://docs.google.com/document/d/14FRDHF-9kxpyOvBQKJX1KTubmxvLdfLli1UQ7L8wGYo/edit?usp=sharing) 
